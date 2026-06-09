@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-BnV Tracker v4.6 — ScraperAPI, prodaja + izdavanje
+BnV Tracker v4.8 — ScraperAPI, prodaja + izdavanje
 """
 
 import json, re, time, hashlib, sys
@@ -41,12 +41,16 @@ def scraper_get(url, render_js=True):
         print(f"  ⚠ ScraperAPI greška za {url}: {e}", file=sys.stderr)
         return None
 
-def parse_price(text):
+def parse_price(text, mode="prodaja"):
     if not text: return None
     clean = re.sub(r"[^\d]", "", str(text))
-    if clean and 5 <= len(clean) <= 10:
-        val = int(clean)
-        if 10_000 < val < 30_000_000:
+    if not clean: return None
+    val = int(clean)
+    if mode == "renta":
+        if 200 < val < 50_000:   # EUR/mesec: 200-50.000
+            return val
+    else:
+        if 10_000 < val < 30_000_000:  # Prodaja EUR
             return val
     return None
 
@@ -100,10 +104,10 @@ def parse_page(html, page_num, mode="prodaja"):
                 title = h.get_text(strip=True) if h else ""
 
             price_el = card.find("span", {"data-value": True})
-            cena     = parse_price(price_el["data-value"]) if price_el else None
+            cena     = parse_price(price_el["data-value"], mode) if price_el else None
             if not cena:
                 cf = card.find(class_=re.compile("central-feature"))
-                cena = parse_price(cf.get_text()) if cf else None
+                cena = parse_price(cf.get_text(), mode) if cf else None
 
             # Za rentu, cena_m2 nema smisla
             cena_m2 = None
@@ -136,6 +140,17 @@ def parse_page(html, page_num, mode="prodaja"):
                     try: m2_val = float(mm.group(1).replace(",","."))
                     except: pass
 
+            # Izvuci ulicu iz subtitle-places za adresni lookup
+            street_text = ""
+            subtitle = card.find(class_=re.compile("subtitle-places"))
+            if subtitle:
+                street_text = " ".join(li.get_text(strip=True) for li in subtitle.find_all("li"))
+            
+            # Kratki opis iz kartice ako postoji
+            desc_el = card.find(class_=re.compile("product-description|desc|opis"))
+            desc_text = desc_el.get_text(strip=True)[:300] if desc_el else ""
+            full_context = f"{title} {street_text} {desc_text}" 
+
             if not sobe_val:
                 slug_map = {"garsonjera":0.5,"jednosoban":1.0,"jednoiposoban":1.5,
                            "dvosoban":2.0,"dvoiposoban":2.5,"trosoban":3.0,
@@ -143,7 +158,7 @@ def parse_page(html, page_num, mode="prodaja"):
                 for slug, val in slug_map.items():
                     if slug in href.lower(): sobe_val = val; break
 
-            zgrada = canonical_building(title,"",url_full,sprat_val) if has_bld else "BW (neidentifikovano)"
+            zgrada = canonical_building(title, full_context if "full_context" in dir() else "", street_text if "street_text" in dir() else "", sprat_val) if has_bld else "BW (neidentifikovano)"
             if mode == "prodaja" and cena and m2_val and not cena_m2:
                 cena_m2 = round(cena / m2_val)
 
@@ -276,7 +291,7 @@ def save_snapshot(mode, all_listings, total_raw):
     snapshot = {
         "mode":         mode,
         "scraped_at":   datetime.now(timezone.utc).isoformat(),
-        "total_raw":    total_raw or len(all_listings),
+        "total_raw":    len(all_listings),  # Pravi broj scraped oglasa
         "total_unique": len(unique),
         "total_dups":   len(dups),
         "avg_m2":       avg_m2,
@@ -332,7 +347,7 @@ def save_snapshot(mode, all_listings, total_raw):
 
 def main():
     print("="*55)
-    print(f"BnV Scraper v4.6 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"BnV Scraper v4.8 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
     print(f"Prodaja + Izdavanje")
     print("="*55)
 
