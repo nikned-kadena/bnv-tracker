@@ -47,10 +47,10 @@ def parse_price(text, mode="prodaja"):
     if not clean: return None
     val = int(clean)
     if mode == "renta":
-        if 200 < val < 50_000:   # EUR/mesec: 200-50.000
+        if 300 < val < 50_000:   # EUR/mesec: 300-50.000
             return val
     else:
-        if 10_000 < val < 30_000_000:  # Prodaja EUR
+        if 150_000 < val < 5_000_000:  # Prodaja EUR
             return val
     return None
 
