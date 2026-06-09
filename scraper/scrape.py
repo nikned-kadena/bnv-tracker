@@ -1,25 +1,25 @@
 #!/usr/bin/env python3
 """
-BnV Tracker v3 — Selenium + Chrome scraper
-Pokrece se lokalno sa pravim Chrome browserom.
+BnV Tracker v4.6 — ScraperAPI, prodaja + izdavanje
 """
 
 import json, re, time, hashlib, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
+import requests
 from bs4 import BeautifulSoup
 
-BASE_URL  = "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-savski-venac-beograd-na-vodi"
+SCRAPER_API_KEY = "4dba199ae91807746affc7e94e446ce0"
+
+URLS = {
+    "prodaja": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-savski-venac-beograd-na-vodi",
+    "renta":   "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-savski-venac-beograd-na-vodi",
+}
+
 DATA_DIR  = Path(__file__).parent.parent / "data"
-MAX_PAGES = 40
+MAX_PAGES = 50
+PAGE_DELAY = 3
 
 STRUCTURE_MAP = {
     "0.5":"Garsonjera/Studio","1.0":"Jednosoban","1.5":"Jednoiposoban",
@@ -27,27 +27,26 @@ STRUCTURE_MAP = {
     "4.0":"Četvorosoban","4.5":"Četvoriposoban","5.0":"Petosoban+",
 }
 
-def make_driver():
-    opts = Options()
-    opts.add_argument("--headless=new")
-    opts.add_argument("--no-sandbox")
-    opts.add_argument("--disable-dev-shm-usage")
-    opts.add_argument("--disable-blink-features=AutomationControlled")
-    opts.add_experimental_option("excludeSwitches", ["enable-automation"])
-    opts.add_experimental_option("useAutomationExtension", False)
-    opts.add_argument("--window-size=1366,768")
-    opts.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
-    service = Service(ChromeDriverManager().install())
-    driver  = webdriver.Chrome(service=service, options=opts)
-    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-    return driver
+def scraper_get(url, render_js=True):
+    params = {
+        "api_key": SCRAPER_API_KEY,
+        "url":     url,
+        "render":  "true" if render_js else "false",
+    }
+    try:
+        r = requests.get("https://api.scraperapi.com", params=params, timeout=60)
+        r.raise_for_status()
+        return r.text
+    except Exception as e:
+        print(f"  ⚠ ScraperAPI greška za {url}: {e}", file=sys.stderr)
+        return None
 
 def parse_price(text):
     if not text: return None
     clean = re.sub(r"[^\d]", "", str(text))
     if clean and 5 <= len(clean) <= 10:
         val = int(clean)
-        if 30_000 < val < 30_000_000:
+        if 10_000 < val < 30_000_000:
             return val
     return None
 
@@ -55,41 +54,50 @@ def listing_hash(zgrada, struktura, m2):
     key = f"{zgrada}|{struktura}|{round((m2 or 0)/3)}"
     return hashlib.md5(key.encode()).hexdigest()[:10]
 
-def scrape_page(driver, page_num):
-    url = BASE_URL if page_num == 1 else f"{BASE_URL}?page={page_num}"
-    driver.get(url)
-
-    try:
-        WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, ".product-item, [class*='product-item']"))
-        )
-    except:
-        print(f"  ⚠ Timeout na stranici {page_num}", file=sys.stderr)
+def parse_page(html, page_num, mode="prodaja"):
+    if not html:
         return [], 0
 
-    time.sleep(1.5)
-    soup = BeautifulSoup(driver.page_source, "lxml")
-
-    # Ukupan broj
-    total = 0
-    m = re.search(r"(\d[\d\.]*)\s+rezultat", soup.get_text())
-    if m:
-        total = int(m.group(1).replace(".", ""))
-
+    soup  = BeautifulSoup(html, "lxml")
     cards = soup.find_all("div", class_=re.compile(r"\bproduct-item\b"))
-    print(f"  Stranica {page_num}: {len(cards)} oglasa (ukupno: {total})")
+
+    total = 0
+    for pattern in [r"(\d[\d\.]*)\s+rezultat", r"(\d+)\s+stan"]:
+        m = re.search(pattern, soup.get_text())
+        if m:
+            total = int(m.group(1).replace(".", ""))
+            break
+
+    print(f"  Stranica {page_num}: {len(cards)} oglasa" + (f" (ukupno: {total})" if total else ""))
+
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from buildings import canonical_building
+        has_bld = True
+    except:
+        has_bld = False
 
     listings = []
     for card in cards:
         try:
             data_id = card.get("data-id") or ""
-            link    = card.find("a", href=re.compile("/nekretnine/prodaja-stanova/"))
+            
+            # Prodaja vs renta — različiti URL paterni
+            if mode == "prodaja":
+                link = card.find("a", href=re.compile("/nekretnine/prodaja-stanova/"))
+            else:
+                link = card.find("a", href=re.compile("/nekretnine/izdavanje-stanova/"))
+            
+            if not link:
+                link = card.find("a", href=re.compile("/nekretnine/"))
             if not link: continue
-            href     = link.get("href","")
+            
+            href     = link.get("href", "")
             url_full = f"https://www.halooglasi.com{href}" if href.startswith("/") else href
-            title    = link.get_text(strip=True) or card.find(["h3","h2"], text=True) or ""
-            if hasattr(title, "get_text"):
-                title = title.get_text(strip=True)
+            title    = link.get_text(strip=True)
+            if not title:
+                h = card.find(["h3","h2"])
+                title = h.get_text(strip=True) if h else ""
 
             price_el = card.find("span", {"data-value": True})
             cena     = parse_price(price_el["data-value"]) if price_el else None
@@ -97,11 +105,13 @@ def scrape_page(driver, page_num):
                 cf = card.find(class_=re.compile("central-feature"))
                 cena = parse_price(cf.get_text()) if cf else None
 
-            m2price_el = card.find(class_=re.compile("price-by-surface"))
-            cena_m2_raw = m2price_el.get_text(strip=True) if m2price_el else ""
+            # Za rentu, cena_m2 nema smisla
             cena_m2 = None
-            if "€" in cena_m2_raw:
-                cena_m2 = parse_price(re.sub(r"[^\d]","",cena_m2_raw.split("€")[0]))
+            if mode == "prodaja":
+                m2price_el  = card.find(class_=re.compile("price-by-surface"))
+                cena_m2_raw = m2price_el.get_text(strip=True) if m2price_el else ""
+                if "€" in cena_m2_raw:
+                    cena_m2 = parse_price(re.sub(r"[^\d]","",cena_m2_raw.split("€")[0]))
 
             m2_val = sobe_val = sprat_val = None
             for attr in card.find_all(class_=re.compile("feature-value|oglasene-osobine|product-feature")):
@@ -117,10 +127,11 @@ def scrape_page(driver, page_num):
                         try: sobe_val = float(mm.group(1).replace(",","."))
                         except: pass
                 elif "sprat" in txt.lower():
-                    sprat_val = re.sub(r"[^\d/IVXLCM]","",txt)[:8] or None
+                    sp = re.sub(r"[^\d/IVXLCM]","",txt)
+                    if sp: sprat_val = sp[:8]
 
             if not m2_val:
-                mm = re.search(r"([\d,\.]+)\s*m[²2]", str(title), re.I)
+                mm = re.search(r"([\d,\.]+)\s*m[²2]", title, re.I)
                 if mm:
                     try: m2_val = float(mm.group(1).replace(",","."))
                     except: pass
@@ -130,37 +141,65 @@ def scrape_page(driver, page_num):
                            "dvosoban":2.0,"dvoiposoban":2.5,"trosoban":3.0,
                            "troiposoban":3.5,"cetvorosoban":4.0,"petosoban":5.0}
                 for slug, val in slug_map.items():
-                    if slug in href.lower():
-                        sobe_val = val; break
+                    if slug in href.lower(): sobe_val = val; break
 
-            sys.path.insert(0, str(Path(__file__).parent))
-            try:
-                from buildings import canonical_building
-                zgrada = canonical_building(str(title), "", url_full, sprat_val)
-            except:
-                zgrada = "BW (neidentifikovano)"
-
-            if cena and m2_val and not cena_m2:
+            zgrada = canonical_building(title,"",url_full,sprat_val) if has_bld else "BW (neidentifikovano)"
+            if mode == "prodaja" and cena and m2_val and not cena_m2:
                 cena_m2 = round(cena / m2_val)
 
             str_key = str(sobe_val) if sobe_val is not None else None
             listings.append({
                 "id":        data_id or href.split("/")[-1].split("?")[0],
                 "url":       url_full,
-                "naslov":    str(title)[:120],
+                "naslov":    title[:120],
                 "zgrada":    zgrada,
                 "struktura": str_key,
                 "str_label": STRUCTURE_MAP.get(str_key,"nepoznato") if str_key else "nepoznato",
                 "m2":        m2_val,
                 "cena":      cena,
-                "cena_m2":   cena_m2,
+                "cena_m2":   cena_m2 if mode == "prodaja" else None,
                 "sprat":     sprat_val,
+                "mode":      mode,
                 "scraped_at":datetime.now(timezone.utc).isoformat(),
             })
         except Exception as e:
             print(f"  ⚠ Greška kartice: {e}", file=sys.stderr)
 
     return listings, total
+
+def scrape_mode(mode):
+    """Scrape-uj sve stranice za jedan mode (prodaja ili renta)."""
+    base_url = URLS[mode]
+    print(f"\n{'='*55}")
+    print(f"Scrapujem: {mode.upper()} — {base_url}")
+    print(f"{'='*55}")
+
+    all_listings, total_raw = [], 0
+
+    # Stranica 1 — sa JS renderingom
+    print("Učitavam stranicu 1...")
+    html1 = scraper_get(base_url, render_js=False)
+    lp, total_raw = parse_page(html1, 1, mode)
+    all_listings.extend(lp)
+
+    if not lp:
+        print(f"⚠ Stranica 1 nema oglasa!", file=sys.stderr)
+        return [], 0
+
+    n_pages = MAX_PAGES  # Uvek idi do MAX_PAGES, stani kad nema kartica
+    print(f"Planiranih stranica: {n_pages}")
+
+    for p in range(2, n_pages + 1):
+        time.sleep(PAGE_DELAY)
+        print(f"Učitavam stranicu {p}...")
+        html = scraper_get(f"{base_url}?page={p}", render_js=False)
+        lp, _ = parse_page(html, p, mode)
+        if not lp:
+            print(f"  → Prazna stranica {p}, zaustavljam.")
+            break
+        all_listings.extend(lp)
+
+    return all_listings, total_raw
 
 def dedup(listings):
     seen, unique, dups = {}, [], []
@@ -177,7 +216,8 @@ def build_stats(listings):
     for l in listings:
         s = l.get("struktura") or "nepoznato"
         if s not in by_str:
-            by_str[s] = {"label":STRUCTURE_MAP.get(s,s),"count":0,"cene":[],"cene_m2":[],"m2":[],"zgrade":set()}
+            by_str[s] = {"label":STRUCTURE_MAP.get(s,s),"count":0,
+                         "cene":[],"cene_m2":[],"m2":[],"zgrade":set()}
         by_str[s]["count"] += 1
         if l.get("cena"):    by_str[s]["cene"].append(l["cena"])
         if l.get("cena_m2"): by_str[s]["cene_m2"].append(l["cena_m2"])
@@ -191,8 +231,8 @@ def build_stats(listings):
         if l.get("cena"):      by_zgrada[z]["cene"].append(l["cena"])
         if l.get("cena_m2"):   by_zgrada[z]["cena_m2"].append(l["cena_m2"])
 
-    def agg(vals):
-        return {"min":min(vals),"max":max(vals),"avg":round(sum(vals)/len(vals))} if vals else None
+    def agg(v):
+        return {"min":min(v),"max":max(v),"avg":round(sum(v)/len(v))} if v else None
 
     return {
         "po_strukturi":{s:{"label":v["label"],"count":v["count"],
@@ -207,50 +247,34 @@ def diff_listings(prev, curr):
     curr_ids  = {l["id"] for l in curr}
     curr_map  = {l["id"]:l for l in curr}
     return {
-        "new":     [curr_map[i] for i in curr_ids-prev_ids],
-        "removed": [l for l in prev if l["id"] in prev_ids-curr_ids],
+        "new":          [curr_map[i] for i in curr_ids-prev_ids],
+        "removed":      [l for l in prev if l["id"] in prev_ids-curr_ids],
         "count_change": len(curr)-len(prev),
     }
 
-def load_latest():
-    snaps = sorted(DATA_DIR.glob("snapshot_*.json"))
-    if not snaps: return None
-    with open(snaps[-1], encoding="utf-8") as f: return json.load(f)
+def load_latest(mode):
+    path = DATA_DIR / f"latest_{mode}.json"
+    if path.exists():
+        with open(path, encoding="utf-8") as f: return json.load(f)
+    # Fallback na stari latest.json za prodaju
+    if mode == "prodaja":
+        snaps = sorted(DATA_DIR.glob("snapshot_*.json"))
+        if snaps:
+            with open(snaps[-1], encoding="utf-8") as f: return json.load(f)
+    return None
 
-def main():
-    print("="*55)
-    print(f"BnV Scraper v3 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
-    print("="*55)
-
-    driver = make_driver()
-    all_listings, total_raw = [], 0
-
-    try:
-        listings1, total_raw = scrape_page(driver, 1)
-        all_listings.extend(listings1)
-
-        n_pages = min((total_raw // 20) + 2, MAX_PAGES) if total_raw > 0 else MAX_PAGES
-        print(f"Ukupno oglasa: {total_raw}, stranica: {n_pages}")
-
-        for p in range(2, n_pages + 1):
-            time.sleep(2)
-            lp, _ = scrape_page(driver, p)
-            if not lp: break
-            all_listings.extend(lp)
-    finally:
-        driver.quit()
-
-    print(f"\nSirovi listinzi: {len(all_listings)}")
+def save_snapshot(mode, all_listings, total_raw):
     unique, dups = dedup(all_listings)
-    print(f"Unique: {len(unique)}, Duplikati: {len(dups)}")
+    print(f"\n{mode.upper()} — Unique: {len(unique)}, Duplikati: {len(dups)}")
 
     stats   = build_stats(unique)
-    prev    = load_latest()
+    prev    = load_latest(mode)
     diff    = diff_listings(prev.get("listings",[]) if prev else [], unique)
-    m2_vals = [l["cena_m2"] for l in unique if l.get("cena_m2")]
-    avg_m2  = round(sum(m2_vals)/len(m2_vals)) if m2_vals else None
+    m2v     = [l["cena_m2"] for l in unique if l.get("cena_m2")]
+    avg_m2  = round(sum(m2v)/len(m2v)) if m2v else None
 
     snapshot = {
+        "mode":         mode,
         "scraped_at":   datetime.now(timezone.utc).isoformat(),
         "total_raw":    total_raw or len(all_listings),
         "total_unique": len(unique),
@@ -264,15 +288,29 @@ def main():
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    with open(DATA_DIR/f"snapshot_{date_str}.json","w",encoding="utf-8") as f:
-        json.dump(snapshot,f,ensure_ascii=False,indent=2)
-    with open(DATA_DIR/"latest.json","w",encoding="utf-8") as f:
+
+    # Mode-specific latest
+    with open(DATA_DIR / f"latest_{mode}.json","w",encoding="utf-8") as f:
         json.dump(snapshot,f,ensure_ascii=False,indent=2)
 
-    hist_path = DATA_DIR/"history.json"
-    history   = json.load(open(hist_path,encoding="utf-8")) if hist_path.exists() else []
+    # Snapshot arhiv
+    with open(DATA_DIR / f"snapshot_{mode}_{date_str}.json","w",encoding="utf-8") as f:
+        json.dump(snapshot,f,ensure_ascii=False,indent=2)
+
+    # Backwards compat za prodaju
+    if mode == "prodaja":
+        with open(DATA_DIR / "latest.json","w",encoding="utf-8") as f:
+            json.dump(snapshot,f,ensure_ascii=False,indent=2)
+
+    # History
+    hist_path = DATA_DIR / f"history_{mode}.json"
+    # Merge u zajednički history.json za trend grafikon
+    shared_hist_path = DATA_DIR / "history.json"
+
+    history = json.load(open(hist_path,encoding="utf-8")) if hist_path.exists() else []
     history.append({
         "date":         date_str,
+        "mode":         mode,
         "total_raw":    snapshot["total_raw"],
         "total_unique": len(unique),
         "total_dups":   len(dups),
@@ -284,7 +322,35 @@ def main():
     with open(hist_path,"w",encoding="utf-8") as f:
         json.dump(history,f,ensure_ascii=False,indent=2)
 
-    print(f"\n✓ Sačuvano. Novi: {len(diff['new'])}, Skinuti: {len(diff['removed'])}")
+    # Shared history (prodaja only za glavni trend)
+    if mode == "prodaja":
+        with open(shared_hist_path,"w",encoding="utf-8") as f:
+            json.dump(history,f,ensure_ascii=False,indent=2)
+
+    print(f"✓ Sačuvano latest_{mode}.json. Novi: {len(diff['new'])}, Skinuti: {len(diff['removed'])}")
+    return snapshot
+
+def main():
+    print("="*55)
+    print(f"BnV Scraper v4.6 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"Prodaja + Izdavanje")
+    print("="*55)
+
+    # Scrape prodaja
+    listings_p, total_p = scrape_mode("prodaja")
+    if listings_p:
+        save_snapshot("prodaja", listings_p, total_p)
+
+    # Pauza između dva moda
+    print("\nPauza 10s pre izdavanja...")
+    time.sleep(10)
+
+    # Scrape renta/izdavanje
+    listings_r, total_r = scrape_mode("renta")
+    if listings_r:
+        save_snapshot("renta", listings_r, total_r)
+
+    print("\n✓ Sve završeno.")
 
 if __name__ == "__main__":
     main()
