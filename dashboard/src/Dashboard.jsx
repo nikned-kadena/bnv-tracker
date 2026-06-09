@@ -126,7 +126,7 @@ export default function Dashboard() {
   const [tab,     setTab]     = useState("pregled");
 
   useEffect(() => {
-    const base = mode === "prodaja" ? `${REPO}/latest.json` : `${REPO}/latest_renta.json`;
+    const base = mode === "prodaja" ? `${REPO}/latest_prodaja.json` : `${REPO}/latest_renta.json`;
     setLoading(true);
     Promise.all([
       fetch(base).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
@@ -253,8 +253,8 @@ export default function Dashboard() {
 
         {/* ── KPI row ── */}
         <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit,minmax(160px,1fr))", gap:16, marginBottom:24 }}>
-          <KPI label="Oglasa na tržištu"  value={fmt(latest?.total_raw)}   sub={`${latest?.total_unique ?? 0} unique nekretnina`} />
-          <KPI label="Duplikati uklonjeni" value={fmt(latest?.total_dups)}  sub="ista nekretnina, više agencija" />
+          <KPI label="Unique nekretnine"  value={fmt(latest?.total_unique)}   sub={`${latest?.total_raw ?? 0} oglasa na sajtu, ${latest?.total_dups ?? 0} duplikata`} />
+          <KPI label="Duplikati uklonjeni" value={fmt(latest?.total_dups)}  sub="ista nkrt, više agencija" />
           <KPI label="Novi danas"          value={`+${diff.new?.length ?? 0}`} sub={`−${diff.removed?.length ?? 0} skinuto`} valueColor={C.green} />
           <KPI label="Cena raspon"         value={summary.minC ? `${fmtK(summary.minC)}–${fmtK(summary.maxC)} €` : "–"} />
           <KPI label="Prosek €/m²"         value={summary.avgM2 ? `${fmt(summary.avgM2)} €` : "–"} sub="sve strukture" />
