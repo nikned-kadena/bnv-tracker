@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-BnV Tracker v4.9 — ScraperAPI, prodaja + izdavanje
+BnV Tracker v4.11 — ScraperAPI, prodaja + izdavanje
 """
 
 import json, re, time, hashlib, sys
@@ -84,6 +84,11 @@ def parse_page(html, page_num, mode="prodaja"):
     listings = []
     for card in cards:
         try:
+            # Preskoči banner/reklamne kartice
+            card_classes = card.get("class", [])
+            if "banner-list" in card_classes or "banner" in " ".join(card_classes):
+                continue
+
             data_id = card.get("data-id") or ""
             
             # Prodaja vs renta — različiti URL paterni
@@ -120,7 +125,8 @@ def parse_page(html, page_num, mode="prodaja"):
             m2_val = sobe_val = sprat_val = None
 
             # Halo Oglasi struktura: ul.product-features > li.col-p-1-3
-            # div.value-wrapper = vrednost, span.legend = naziv polja
+            # div.value-wrapper sadrzi vrednost + span.legend (naziv)
+            # Primer: div.value-wrapper = "3.0Broj soba", span.legend = "Broj soba"
             features = card.find("ul", class_=re.compile("product-features"))
             if features:
                 for li in features.find_all("li"):
@@ -128,33 +134,25 @@ def parse_page(html, page_num, mode="prodaja"):
                     value_div = li.find(class_="value-wrapper")
                     if not legend or not value_div: continue
                     field = legend.get_text(strip=True).lower()
-                    val_txt = value_div.get_text(strip=True)
+                    # Vrednost = tekst value-wrapper MINUS tekst legende
+                    full_txt  = value_div.get_text(strip=True)
+                    leg_txt   = legend.get_text(strip=True)
+                    val_txt   = full_txt.replace(leg_txt, "").strip()
+                    if not val_txt:
+                        val_txt = full_txt  # fallback
                     if "broj soba" in field or "sobe" in field:
-                        try: sobe_val = float(val_txt.replace(",","."))
-                        except: pass
-                    elif "kvadratura" in field or "m2" in field or "površina" in field:
-                        mm = re.search(r"([\d,\.]+)", val_txt)
+                        mm = re.search(r"([\d]+[,\.]?[\d]*)", val_txt)
+                        if mm:
+                            try: sobe_val = float(mm.group(1).replace(",","."))
+                            except: pass
+                    elif "kvadratura" in field or "površina" in field:
+                        mm = re.search(r"([\d]+[,\.]?[\d]*)", val_txt)
                         if mm:
                             try: m2_val = float(mm.group(1).replace(",","."))
                             except: pass
                     elif "spratnost" in field or "sprat" in field:
                         sp = re.sub(r"[^\d/IVXLCM]","",val_txt)
                         if sp: sprat_val = sp[:8]
-
-            # Fallback na stare selektore ako product-features nije pronađen
-            if sobe_val is None and m2_val is None:
-                for attr in card.find_all(class_=re.compile("feature-value|oglasene-osobine")):
-                    txt = attr.get_text(strip=True)
-                    if "m2" in txt.lower() or "m²" in txt:
-                        mm = re.search(r"([\d,\.]+)\s*m", txt, re.I)
-                        if mm:
-                            try: m2_val = float(mm.group(1).replace(",","."))
-                            except: pass
-                    elif re.search(r"\b(soba|soban)\b", txt, re.I):
-                        mm = re.search(r"([\d,\.]+)", txt)
-                        if mm:
-                            try: sobe_val = float(mm.group(1).replace(",","."))
-                            except: pass
 
             if not m2_val:
                 mm = re.search(r"([\d,\.]+)\s*m[²2]", title, re.I)
@@ -369,7 +367,7 @@ def save_snapshot(mode, all_listings, total_raw):
 
 def main():
     print("="*55)
-    print(f"BnV Scraper v4.9 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"BnV Scraper v4.11 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
     print(f"Prodaja + Izdavanje")
     print("="*55)
 
