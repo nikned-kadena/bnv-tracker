@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-BnV Tracker v4.8 — ScraperAPI, prodaja + izdavanje
+BnV Tracker v4.9 — ScraperAPI, prodaja + izdavanje
 """
 
 import json, re, time, hashlib, sys
@@ -118,21 +118,43 @@ def parse_page(html, page_num, mode="prodaja"):
                     cena_m2 = parse_price(re.sub(r"[^\d]","",cena_m2_raw.split("€")[0]))
 
             m2_val = sobe_val = sprat_val = None
-            for attr in card.find_all(class_=re.compile("feature-value|oglasene-osobine|product-feature")):
-                txt = attr.get_text(strip=True)
-                if "m2" in txt.lower() or "m²" in txt:
-                    mm = re.search(r"([\d,\.]+)\s*m", txt, re.I)
-                    if mm:
-                        try: m2_val = float(mm.group(1).replace(",","."))
+
+            # Halo Oglasi struktura: ul.product-features > li.col-p-1-3
+            # div.value-wrapper = vrednost, span.legend = naziv polja
+            features = card.find("ul", class_=re.compile("product-features"))
+            if features:
+                for li in features.find_all("li"):
+                    legend = li.find("span", class_="legend")
+                    value_div = li.find(class_="value-wrapper")
+                    if not legend or not value_div: continue
+                    field = legend.get_text(strip=True).lower()
+                    val_txt = value_div.get_text(strip=True)
+                    if "broj soba" in field or "sobe" in field:
+                        try: sobe_val = float(val_txt.replace(",","."))
                         except: pass
-                elif re.search(r"\b(soba|soban|studio|garsonjera)\b", txt, re.I):
-                    mm = re.search(r"([\d,\.]+)", txt)
-                    if mm:
-                        try: sobe_val = float(mm.group(1).replace(",","."))
-                        except: pass
-                elif "sprat" in txt.lower():
-                    sp = re.sub(r"[^\d/IVXLCM]","",txt)
-                    if sp: sprat_val = sp[:8]
+                    elif "kvadratura" in field or "m2" in field or "površina" in field:
+                        mm = re.search(r"([\d,\.]+)", val_txt)
+                        if mm:
+                            try: m2_val = float(mm.group(1).replace(",","."))
+                            except: pass
+                    elif "spratnost" in field or "sprat" in field:
+                        sp = re.sub(r"[^\d/IVXLCM]","",val_txt)
+                        if sp: sprat_val = sp[:8]
+
+            # Fallback na stare selektore ako product-features nije pronađen
+            if sobe_val is None and m2_val is None:
+                for attr in card.find_all(class_=re.compile("feature-value|oglasene-osobine")):
+                    txt = attr.get_text(strip=True)
+                    if "m2" in txt.lower() or "m²" in txt:
+                        mm = re.search(r"([\d,\.]+)\s*m", txt, re.I)
+                        if mm:
+                            try: m2_val = float(mm.group(1).replace(",","."))
+                            except: pass
+                    elif re.search(r"\b(soba|soban)\b", txt, re.I):
+                        mm = re.search(r"([\d,\.]+)", txt)
+                        if mm:
+                            try: sobe_val = float(mm.group(1).replace(",","."))
+                            except: pass
 
             if not m2_val:
                 mm = re.search(r"([\d,\.]+)\s*m[²2]", title, re.I)
@@ -347,7 +369,7 @@ def save_snapshot(mode, all_listings, total_raw):
 
 def main():
     print("="*55)
-    print(f"BnV Scraper v4.8 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"BnV Scraper v4.9 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
     print(f"Prodaja + Izdavanje")
     print("="*55)
 
