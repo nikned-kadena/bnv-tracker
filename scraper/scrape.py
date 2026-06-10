@@ -22,7 +22,7 @@ MAX_PAGES = 50
 PAGE_DELAY = 3
 
 STRUCTURE_MAP = {
-    "0.5":"Garsonjera/Studio","1.0":"Jednosoban","1.5":"Jednoiposoban",
+    "0.5":"Garsonjera/Studio","1.0":"Garsonjera/Studio","1.5":"Jednoiposoban",
     "2.0":"Dvosoban","2.5":"Dvoiposoban","3.0":"Trosoban","3.5":"Troiposoban",
     "4.0":"Četvorosoban","4.5":"Četvoriposoban","5.0":"Petosoban+",
 }
