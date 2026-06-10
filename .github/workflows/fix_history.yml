@@ -1,0 +1,32 @@
+name: Fix History (jednokratno)
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run fix_history
+        run: python scraper/fix_history.py
+
+      - name: Commit & push
+        run: |
+          git config user.name  "bnv-bot"
+          git config user.email "bnv-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || \
+            git commit -m "data: fix history duplicates $(date -u +%Y-%m-%d)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
