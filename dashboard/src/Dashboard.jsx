@@ -262,7 +262,7 @@ export default function Dashboard() {
       <div style={{background:C.navy,padding:"0 16px",display:"flex",alignItems:"center",height:52}}>
         <div style={{display:"flex",alignItems:"center",gap:10,marginRight:"auto"}}>
           <div style={{width:28,height:28,borderRadius:6,background:"rgba(255,255,255,.15)",display:"flex",alignItems:"center",justifyContent:"center"}}>
-            <span style={{color:"#fff",fontSize:11,fontWeight:700}}>BnV</span>
+            <span style={{color:"#fff",fontSize:11,fontWeight:700}}>BW</span>
           </div>
           <span style={{color:"#fff",fontSize:14,fontWeight:600}}>Market Intelligence</span>
         </div>
