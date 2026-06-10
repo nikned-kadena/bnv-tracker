@@ -3,7 +3,7 @@ import { useState, useEffect, useMemo, useRef } from "react";
 const REPO = "https://raw.githubusercontent.com/niknedeljko/bnv-tracker/main/data";
 
 const STR_ORDER  = ["0.5","1.0","1.5","2.0","2.5","3.0","3.5","4.0","5.0"];
-const STR_LABEL  = {"0.5":"Garsonjera","1.0":"Jednosoban","1.5":"Jednoiposoban","2.0":"Dvosoban","2.5":"Dvoiposoban","3.0":"Trosoban","3.5":"Troiposoban","4.0":"Četvorosoban","5.0":"Petosoban+"};
+const STR_LABEL  = {"0.5":"Garsonjera/Studio","1.0":"Garsonjera/Studio","1.5":"Jednoiposoban","2.0":"Dvosoban","2.5":"Dvoiposoban","3.0":"Trosoban","3.5":"Troiposoban","4.0":"Četvorosoban","5.0":"Petosoban+"};
 const STR_COLOR  = {"0.5":"#10B981","1.0":"#3B82F6","1.5":"#EC4899","2.0":"#F59E0B","2.5":"#8B5CF6","3.0":"#22C55E","3.5":"#06B6D4","4.0":"#F97316","5.0":"#EF4444"};
 const PERIODS    = [{k:7,l:"7d"},{k:30,l:"30d"},{k:90,l:"90d"},{k:365,l:"1g"}];
 
