@@ -41,6 +41,9 @@ EXCLUSION_KEYWORDS = [
     "miloša poćerca",
     "milosa pocerca",
     "vojvode milanka",
+    "bulevar kralja aleksandra",
+    "hajduk-veljkov venac",
+    "hajduk veljkov venac",
 ]
 
 MAX_PAGES   = 20
@@ -75,20 +78,40 @@ async def fetch_detail(page, url: str) -> dict:
         await page.goto(url, wait_until="domcontentloaded", timeout=30000)
         await page.wait_for_timeout(DETAIL_WAIT)
 
-        # Agencija
-        for sel in [
-            ".agency-name",
-            ".advertiser__name",
-            "[class*='agency'] [class*='name']",
-            "[class*='Agency'] [class*='name']",
-            ".broker-name",
-        ]:
-            el = page.locator(sel).first
-            if await el.count() > 0:
-                txt = (await el.inner_text()).strip()
-                if txt:
-                    data["agencija"] = txt
-                    break
+        # Agencija URL — /agencije-za-nekretnine/ID/
+        ag_link = page.locator("a[href*='/agencije-za-nekretnine/']").first
+        if await ag_link.count() > 0:
+            href = await ag_link.get_attribute("href") or ""
+            if href:
+                data["agencija_url"] = href if href.startswith("http") else BASE_URL + href
+                # Izvuci naziv iz teksta linka ili img alt
+                ag_img = ag_link.locator("img").first
+                if await ag_img.count() > 0:
+                    alt = (await ag_img.get_attribute("alt") or "").strip()
+                    # Filtriraj "Foto N", "mapa" i slicne ne-agencijske alt tagove
+                    import re as _re
+                    if alt and not _re.match(r"^(Foto\s+\d+|Foto\d+|mapa|logo)$", alt, _re.IGNORECASE) and len(alt) > 4:
+                        data["agencija"] = alt
+                if not data.get("agencija"):
+                    txt = (await ag_link.inner_text()).strip()
+                    if txt and len(txt) > 4:
+                        data["agencija"] = txt
+
+        # Fallback selektori za agenciju
+        if not data.get("agencija"):
+            for sel in [
+                ".agency-name",
+                ".advertiser__name",
+                "[class*='agency'] [class*='name']",
+                "[class*='Agency'] [class*='name']",
+                ".broker-name",
+            ]:
+                el = page.locator(sel).first
+                if await el.count() > 0:
+                    txt = (await el.inner_text()).strip()
+                    if txt and len(txt) > 4:
+                        data["agencija"] = txt
+                        break
 
         # Kvadratura iz naslova H1
         title_el = page.locator("h1").first
@@ -202,14 +225,15 @@ async def scrape_listing_page(page, url: str, tip: str) -> list[dict]:
             if item.get("cena") and item.get("kvadratura") and item["kvadratura"] > 0:
                 item["cena_m2"] = round(item["cena"] / item["kvadratura"])
 
-            # Agencija iz img alt
+            # Agencija iz img alt — filtriraj "Foto N", "mapa" itd.
+            import re as _re
             agency_img = page.locator(
-                f"xpath=//a[@href='{href}']/ancestor::li//img[@alt and string-length(@alt) > 3]"
+                f"xpath=//a[@href='{href}']/ancestor::li//img[@alt and string-length(@alt) > 4]"
             ).first
             if await agency_img.count() > 0:
-                alt = await agency_img.get_attribute("alt") or ""
-                if alt and alt.strip():
-                    item["agencija"] = alt.strip()
+                alt = (await agency_img.get_attribute("alt") or "").strip()
+                if alt and not _re.match(r"^(Foto\s+\d+|Foto\d+|mapa|logo|\d+)$", alt, _re.IGNORECASE):
+                    item["agencija"] = alt
 
         except Exception:
             pass
@@ -362,6 +386,8 @@ def git_push(changed_files: list[Path]) -> None:
         msg = f"NRS scrape {ts}: {', '.join(p.name for p in changed_files)}"
         subprocess.run(["git", "add"] + [str(p) for p in changed_files], check=True)
         subprocess.run(["git", "commit", "-m", msg], check=True)
+        # Pull --rebase pre pusha da bi se izbegli konflikti sa GitHub Actions
+        subprocess.run(["git", "pull", "--rebase", "-X", "ours", "origin", "main"], check=True)
         subprocess.run(["git", "push"], check=True)
         print(f"\n✅ Git push uspešan: {msg}")
     except subprocess.CalledProcessError as e:

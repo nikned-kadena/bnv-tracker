@@ -159,8 +159,12 @@ function AgencijeTab({ mode, listings, agMapping, agMode }) {
       if (!raw) continue;
       const naziv = agMode === "slug" ? (agMapping[raw] || raw) : raw;
       const slug  = agMode === "slug" ? raw : null;
-      if (!map[naziv]) map[naziv] = { naziv, slug, count: 0 };
+      if (!map[naziv]) map[naziv] = { naziv, slug, count: 0, agencija_url: null };
       map[naziv].count++;
+      // Sačuvaj agencija_url od prvog listinga koji ga ima
+      if (!map[naziv].agencija_url && l.agencija_url) {
+        map[naziv].agencija_url = l.agencija_url;
+      }
     }
     return Object.values(map).sort((a,b)=>b.count-a.count || a.naziv.localeCompare(b.naziv));
   },[listings, agMapping, agMode]);
@@ -178,13 +182,17 @@ function AgencijeTab({ mode, listings, agMapping, agMode }) {
       // Halo Oglasi: direktan link na stranicu agencije
       return `https://www.halooglasi.com/oglasi/${a.slug}`;
     }
-    if (agMode === "name" && a.naziv) {
-      // Nekretnine.rs: filter lokacije BnV + ime agencije u query
-      const q = encodeURIComponent(a.naziv);
-      const base = isProdaja
-        ? "https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/"
-        : "https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/";
-      return `${base}?agencija=${q}`;
+    if (agMode === "name") {
+      // NRS: koristi agencija_url ako postoji (fetchovan sa detail stranice)
+      if (a.agencija_url) return a.agencija_url;
+      // Fallback: pretraga po imenu
+      if (a.naziv) {
+        const q = encodeURIComponent(a.naziv);
+        const base = isProdaja
+          ? "https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/"
+          : "https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/";
+        return `${base}?agencija=${q}`;
+      }
     }
     return null;
   };
