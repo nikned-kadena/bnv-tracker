@@ -8,6 +8,22 @@
   "avg_m2": null,
   "listings": [
     {
+      "id": "5425644581698",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/best-selection-of-exclusive-homes-properties/5425644581698?kid=4",
+      "naslov": "Best selection of exclusive homes & properties",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "BebaRealEstate",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 72.0,
+      "cena": 1800,
+      "cena_m2": null,
+      "sprat": "VIII",
+      "mode": "renta",
+      "scraped_at": "2026-06-24T07:53:49.800608+00:00",
+      "dedup_key": "b80ab36fc8"
+    },
+    {
       "id": "5425646665821",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-dvosoban-stan-u-srcu-beograda-na-vod/5425646665821?kid=4",
       "naslov": "Luksuzan dvosoban stan u srcu Beograda na vodi",
@@ -3206,6 +3222,10 @@
       "original_id": "5425647287087"
     },
     {
+      "id": "5425646932963",
+      "original_id": "5425644581698"
+    },
+    {
       "id": "5425647310112",
       "original_id": "5425647310112"
     },
@@ -3487,7 +3507,7 @@
     },
     {
       "id": "5425644581698",
-      "original_id": "5425646932963"
+      "original_id": "5425644581698"
     },
     {
       "id": "5425646498161",
@@ -3615,7 +3635,7 @@
     },
     {
       "id": "5425645086339",
-      "original_id": "5425646932963"
+      "original_id": "5425644581698"
     },
     {
       "id": "5425647225953",
@@ -3819,6 +3839,53 @@
   },
   "stats": {
     "po_strukturi": {
+      "3.0": {
+        "label": "Trosoban",
+        "count": 85,
+        "cena": {
+          "min": 1300,
+          "max": 7000,
+          "avg": 2158
+        },
+        "cena_m2": null,
+        "m2": {
+          "min": 66.53,
+          "max": 175.0,
+          "avg": 89
+        },
+        "zgrade": [
+          "BW (Hercegovačka)",
+          "BW (neidentifikovano)",
+          "BW Arcadia",
+          "BW Aria",
+          "BW Aurora",
+          "BW Eden",
+          "BW Eterna",
+          "BW Iris",
+          "BW King's Park",
+          "BW Libera",
+          "BW Lumia",
+          "BW Magnolia",
+          "BW Metropolitan",
+          "BW Nova",
+          "BW Parkview",
+          "BW Perla",
+          "BW Quartet 1",
+          "BW Quartet 3",
+          "BW Residences",
+          "BW Riviera",
+          "BW Scala",
+          "BW Sensa",
+          "BW Simfonija 1",
+          "BW Simfonija 2",
+          "BW Sole",
+          "BW St. Regis",
+          "BW Terra",
+          "BW Terraces",
+          "BW Thalia",
+          "BW Vista"
+        ]
+      },
       "2.0": {
         "label": "Dvosoban",
         "count": 49,
@@ -3855,53 +3922,6 @@
           "BW Simfonija 1",
           "BW Sole",
           "BW St. Regis",
-          "BW Terraces",
-          "BW Thalia",
-          "BW Vista"
-        ]
-      },
-      "3.0": {
-        "label": "Trosoban",
-        "count": 85,
-        "cena": {
-          "min": 1300,
-          "max": 7000,
-          "avg": 2166
-        },
-        "cena_m2": null,
-        "m2": {
-          "min": 66.53,
-          "max": 175.0,
-          "avg": 89
-        },
-        "zgrade": [
-          "BW (Hercegovačka)",
-          "BW (neidentifikovano)",
-          "BW Arcadia",
-          "BW Aria",
-          "BW Aurora",
-          "BW Eden",
-          "BW Eterna",
-          "BW Iris",
-          "BW King's Park",
-          "BW Libera",
-          "BW Lumia",
-          "BW Magnolia",
-          "BW Metropolitan",
-          "BW Nova",
-          "BW Parkview",
-          "BW Perla",
-          "BW Quartet 1",
-          "BW Quartet 3",
-          "BW Residences",
-          "BW Riviera",
-          "BW Scala",
-          "BW Sensa",
-          "BW Simfonija 1",
-          "BW Simfonija 2",
-          "BW Sole",
-          "BW St. Regis",
-          "BW Terra",
           "BW Terraces",
           "BW Thalia",
           "BW Vista"
@@ -4031,6 +4051,24 @@
       }
     },
     "po_zgradi": {
+      "BW (neidentifikovano)": {
+        "count": 33,
+        "strukture": [
+          "1.0",
+          "1.5",
+          "2.0",
+          "2.5",
+          "3.0",
+          "4.0",
+          "5.0"
+        ],
+        "cena": {
+          "min": 550,
+          "max": 3000,
+          "avg": 1541
+        },
+        "cena_m2": null
+      },
       "BW King's Park": {
         "count": 6,
         "strukture": [
@@ -4139,24 +4177,6 @@
           "min": 1370,
           "max": 3500,
           "avg": 2467
-        },
-        "cena_m2": null
-      },
-      "BW (neidentifikovano)": {
-        "count": 33,
-        "strukture": [
-          "1.0",
-          "1.5",
-          "2.0",
-          "2.5",
-          "3.0",
-          "4.0",
-          "5.0"
-        ],
-        "cena": {
-          "min": 550,
-          "max": 3000,
-          "avg": 1562
         },
         "cena_m2": null
       },
