@@ -1,0 +1,32 @@
+Browser pokrenut (headless=True)
+
+nekretnine.rs — PRODAJA
+============================================================
+
+  Stranica 1: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/
+Traceback (most recent call last):
+  File "C:\bnv-tracker\bnv-tracker\scraper\scrape_nrs_playwright.py", line 420, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\NikolaNedeljkovic\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\NikolaNedeljkovic\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\NikolaNedeljkovic\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\bnv-tracker\bnv-tracker\scraper\scrape_nrs_playwright.py", line 406, in main
+    listings = await scrape_mode(browser, tip, cfg)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\bnv-tracker\bnv-tracker\scraper\scrape_nrs_playwright.py", line 295, in scrape_mode
+    batch = await scrape_listing_page(page, url, tip)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\bnv-tracker\bnv-tracker\scraper\scrape_nrs_playwright.py", line 161, in scrape_listing_page
+    print(f"    \u2192 Prona\u0111eno {count} oglasnih linkova")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NikolaNedeljkovic\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 4: character maps to <undefined>
