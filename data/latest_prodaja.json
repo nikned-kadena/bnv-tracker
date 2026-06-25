@@ -5026,6 +5026,10 @@
       "original_id": "5425646532426"
     },
     {
+      "id": "5425646978446",
+      "original_id": "5425646866592"
+    },
+    {
       "id": "5425646449478",
       "original_id": "5425647320920"
     },
@@ -5582,70 +5586,6 @@
       "original_id": "5425647258583"
     },
     {
-      "id": "5425646162220",
-      "original_id": "5425647258583"
-    },
-    {
-      "id": "5425646868783",
-      "original_id": "5425647144180"
-    },
-    {
-      "id": "5425647004726",
-      "original_id": "5425646184757"
-    },
-    {
-      "id": "5425647122186",
-      "original_id": "5425647122186"
-    },
-    {
-      "id": "5425646867192",
-      "original_id": "5425647118704"
-    },
-    {
-      "id": "5425645989663",
-      "original_id": "5425647257578"
-    },
-    {
-      "id": "5425645156174",
-      "original_id": "5425647077108"
-    },
-    {
-      "id": "5425646839141",
-      "original_id": "5425647051237"
-    },
-    {
-      "id": "5425646856466",
-      "original_id": "5425647118704"
-    },
-    {
-      "id": "5425647118443",
-      "original_id": "5425647122186"
-    },
-    {
-      "id": "5425645331743",
-      "original_id": "5425645591054"
-    },
-    {
-      "id": "5425646730017",
-      "original_id": "5425647320920"
-    },
-    {
-      "id": "5425646997447",
-      "original_id": "5425647320908"
-    },
-    {
-      "id": "5425644554011",
-      "original_id": "5425647286575"
-    },
-    {
-      "id": "5425646728417",
-      "original_id": "5425647167789"
-    },
-    {
-      "id": "5425647243504",
-      "original_id": "5425647230320"
-    },
-    {
       "id": "5425647243499",
       "original_id": "5425647103978"
     },
@@ -5767,7 +5707,7 @@
     },
     {
       "id": "5425646981912",
-      "original_id": "5425646978446"
+      "original_id": "5425646866592"
     },
     {
       "id": "5425647227787",
@@ -5898,10 +5838,6 @@
       "original_id": "5425646212633"
     },
     {
-      "id": "5425645544752",
-      "original_id": "5425646228616"
-    },
-    {
       "id": "5425645449861",
       "original_id": "5425647056838"
     },
@@ -5935,7 +5871,7 @@
     },
     {
       "id": "5425645201034",
-      "original_id": "5425646228616"
+      "original_id": "5425645544752"
     },
     {
       "id": "5425645200409",
@@ -6317,13 +6253,29 @@
         "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-bw-bonaca-108m2/5425647324751?kid=1",
         "naslov": "Prodaja, Bw Bonaca, 108m2",
         "zgrada": "BW (neidentifikovano)",
-        "agencija": "PremiumRealEstate",
+        "agencija": "AtriumPropertyServices",
+        "struktura": "2.5",
+        "str_label": "Dvoiposoban",
+        "m2": 93.0,
+        "cena": 472888,
+        "cena_m2": 5085,
+        "sprat": "VII/20",
+        "mode": "prodaja",
+        "scraped_at": "2026-06-25T16:23:19.319948+00:00",
+        "dedup_key": "88a0c87a5f"
+      },
+      {
+        "id": "5425647322767",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-alegra-centar-grada-sa-izlazom-u-bastu-id4/5425647322767?kid=1",
+        "naslov": "BW Alegra, centar grada, sa izlazom u baštu ID#469",
+        "zgrada": "BW Alegra",
+        "agencija": "PropertyBroker",
         "struktura": "3.0",
         "str_label": "Trosoban",
-        "m2": 107.97,
-        "cena": 578000,
-        "cena_m2": 5353,
-        "sprat": "X/20",
+        "m2": 81.0,
+        "cena": 337888,
+        "cena_m2": 4171,
+        "sprat": "/8",
         "mode": "prodaja",
         "scraped_at": "2026-06-25T16:03:15.112895+00:00",
         "dedup_key": "b9bf8a9763"
@@ -6368,6 +6320,54 @@
         "naslov": "Belgrade Waterfront Nota",
         "zgrada": "BW Nota",
         "agencija": null,
+        "struktura": "3.0",
+        "str_label": "Trosoban",
+        "m2": 96.0,
+        "cena": 665000,
+        "cena_m2": 6927,
+        "sprat": "VI/15",
+        "mode": "prodaja",
+        "scraped_at": "2026-06-24T08:08:31.488824+00:00",
+        "dedup_key": "a59a393784"
+      },
+      {
+        "id": "5425644882234",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/fenomenalan-dupleks-u-bw-diva/5425644882234?kid=1",
+        "naslov": "Fenomenalan dupleks u BW Diva",
+        "zgrada": "BW Diva",
+        "agencija": "AtriumPropertyServices",
+        "struktura": "5.0",
+        "str_label": "Petosoban+",
+        "m2": 314.42,
+        "cena": 1237888,
+        "cena_m2": 3937,
+        "sprat": "VII/8",
+        "mode": "prodaja",
+        "scraped_at": "2026-06-24T08:11:03.405976+00:00",
+        "dedup_key": "eb1fbe13df"
+      },
+      {
+        "id": "5425647263144",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-bw-quartet-3-odmah-useljiv/5425647263144?kid=3",
+        "naslov": "Beograd na vodi – BW Quartet 3 – Odmah useljiv",
+        "zgrada": "BW Quartet 3",
+        "agencija": null,
+        "struktura": "3.5",
+        "str_label": "Troiposoban",
+        "m2": 85.0,
+        "cena": 430000,
+        "cena_m2": 5059,
+        "sprat": "III/8",
+        "mode": "prodaja",
+        "scraped_at": "2026-06-24T08:13:57.213294+00:00",
+        "dedup_key": "39c5d4853b"
+      },
+      {
+        "id": "5425645705069",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belgrade-waterfront-nota/5425645705069?kid=1",
+        "naslov": "Belgrade Waterfront Nota",
+        "zgrada": "BW Nota",
+        "agencija": null,
         "struktura": "2.5",
         "str_label": "Dvoiposoban",
         "m2": 56.0,
@@ -6377,6 +6377,22 @@
         "mode": "prodaja",
         "scraped_at": "2026-06-24T08:13:57.213294+00:00",
         "dedup_key": "39c5d4853b"
+      },
+      {
+        "id": "5425644993071",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/savski-venac-beograd-na-vodi---hercegovacka/5425644993071?kid=1",
+        "naslov": "Savski venac, Beograd na vodi - Hercegovačka",
+        "zgrada": "BW (Hercegovačka)",
+        "agencija": null,
+        "struktura": "4.0",
+        "str_label": "Četvorosoban",
+        "m2": 218.0,
+        "cena": 1600000,
+        "cena_m2": 7339,
+        "sprat": "XV/25",
+        "mode": "prodaja",
+        "scraped_at": "2026-06-24T08:11:03.419990+00:00",
+        "dedup_key": "bfe5b06d04"
       },
       {
         "id": "5425647282797",
@@ -6701,28 +6717,26 @@
       },
       "5.0": {
         "label": "Petosoban+",
-        "count": 12,
+        "count": 10,
         "cena": {
           "min": 897888,
           "max": 2152000,
-          "avg": 1361368
+          "avg": 1420796
         },
         "cena_m2": {
           "min": 3924,
           "max": 12857,
-          "avg": 5504
+          "avg": 5746
         },
         "m2": {
           "min": 147.0,
           "max": 413.85,
-          "avg": 268
+          "avg": 271
         },
         "zgrade": [
           "BW (neidentifikovano)",
           "BW Bella",
-          "BW Diva",
           "BW Maestra",
-          "BW Magnolia",
           "BW Oda",
           "BW Quartet 3",
           "BW Residences",
@@ -6898,7 +6912,7 @@
         }
       },
       "BW (Hercegovačka)": {
-        "count": 12,
+        "count": 11,
         "strukture": [
           "1.0",
           "3.0",
@@ -6907,8 +6921,8 @@
         ],
         "cena": {
           "min": 195000,
-          "max": 1600000,
-          "avg": 639157
+          "max": 1250000,
+          "avg": 551808
         },
         "cena_m2": {
           "min": 4463,
@@ -7016,7 +7030,7 @@
         "cena": {
           "min": 261888,
           "max": 335000,
-          "avg": 299296
+          "avg": 296629
         },
         "cena_m2": {
           "min": 4553,
@@ -7284,21 +7298,20 @@
         }
       },
       "BW Magnolia": {
-        "count": 5,
+        "count": 4,
         "strukture": [
           "3.0",
-          "4.0",
-          "5.0"
+          "4.0"
         ],
         "cena": {
           "min": 449000,
-          "max": 950000,
-          "avg": 637600
+          "max": 699000,
+          "avg": 559500
         },
         "cena_m2": {
-          "min": 4897,
+          "min": 5000,
           "max": 6044,
-          "avg": 5417
+          "avg": 5547
         }
       },
       "BW Lumia": {
