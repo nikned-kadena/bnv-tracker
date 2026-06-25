@@ -367,9 +367,21 @@ export default function Dashboard() {
     selBlds.length>0 ? listings.filter(l=>selBlds.includes(l.zgrada)) : listings
   ,[listings,selBlds]);
 
+  // Jedinstvene nekretnine (dedup po dedup_key) — za KPI i Segmentaciju.
+  // Listinzi i dalje koriste pun niz (prikazuju i duplikate).
+  const uniqFiltered = useMemo(()=>{
+    const seen=new Set(); const out=[];
+    for(const l of bldFiltered){
+      const k=l.dedup_key||l.id;
+      if(seen.has(k)) continue;
+      seen.add(k); out.push(l);
+    }
+    return out;
+  },[bldFiltered]);
+
   const segByStr = useMemo(()=>{
     const result={};
-    for(const l of bldFiltered){
+    for(const l of uniqFiltered){
       const s=l.struktura||"nepoznato";
       if(!result[s]) result[s]={label:STR_LABEL[s]||s,count:0,cene:[],cene_m2:[],m2s:[]};
       result[s].count++;
@@ -379,21 +391,21 @@ export default function Dashboard() {
     }
     const agg=v=>v.length?{min:Math.min(...v),max:Math.max(...v),avg:Math.round(v.reduce((a,b)=>a+b)/v.length)}:null;
     return Object.fromEntries(Object.entries(result).map(([s,v])=>[s,{...v,cena:agg(v.cene),cena_m2:agg(v.cene_m2),m2:agg(v.m2s)}]));
-  },[bldFiltered]);
+  },[uniqFiltered]);
 
   const summary = useMemo(()=>{
-    const prices=bldFiltered.filter(l=>l.cena).map(l=>l.cena);
-    const m2s=bldFiltered.filter(l=>l.cena_m2).map(l=>l.cena_m2);
+    const prices=uniqFiltered.filter(l=>l.cena).map(l=>l.cena);
+    const m2s=uniqFiltered.filter(l=>l.cena_m2).map(l=>l.cena_m2);
     const dups=selBlds.length>0
       ? (latest?.duplicates??[]).filter(d=>bldFiltered.some(l=>l.id===d.original_id)).length
       : latest?.total_dups??0;
     return {
-      cnt:bldFiltered.length, dups,
+      cnt:uniqFiltered.length, dups,
       minC:prices.length?Math.min(...prices):null,
       maxC:prices.length?Math.max(...prices):null,
       avgM2:m2s.length?Math.round(m2s.reduce((a,b)=>a+b)/m2s.length):null,
     };
-  },[bldFiltered,selBlds,latest]);
+  },[uniqFiltered,bldFiltered,selBlds,latest]);
 
   const diffSummary = useMemo(()=>({
     newCount:     selBlds.length>0?(diff.new??[]).filter(l=>selBlds.includes(l.zgrada)).length:(diff.new?.length??0),
