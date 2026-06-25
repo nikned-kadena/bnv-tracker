@@ -389,11 +389,11 @@ async def scrape_mode(browser, tip: str, config: dict) -> list[dict]:
 
 # Mapiranje ključnih reči (iz naslova ILI opisa) na naziv zgrade
 ZGRADA_KEYWORDS = {
+    "St. Regis":        ["st. regis", "st regis", "st.regis", "bw kula", "bw kuli", "bw kule"],
     "BW Residences":    ["bw residences", "bw residence"],
     "BW Quartet":       ["bw quartet", "quartet"],
     "BW Aria":          ["bw aria", "aria"],
     "BW Perla":         ["bw perla", "perla"],
-    "BW Kula":          ["bw kula", "kula"],
     "BW Victoria":      ["bw victoria", "victoria"],
     "BW Simfonija":     ["bw simfonija", "simfonija"],
     "BW Iris":          ["bw iris", "iris"],
