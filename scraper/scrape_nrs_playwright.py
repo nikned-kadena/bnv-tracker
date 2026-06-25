@@ -133,6 +133,38 @@ async def fetch_detail(page, url: str) -> dict:
             if m:
                 data["kvadratura"] = float(m.group(1).replace(",", "."))
 
+        # Cena sa detaljne stranice (mnogi oglasi nemaju cenu na listing pregledu)
+        if not data.get("cena"):
+            cena_found = None
+            # Probaj ciljani element sa cenom
+            for sel in ["[class*='price']", "[class*='Price']", "[class*='cena']", "[class*='Cena']"]:
+                el = page.locator(sel).first
+                if await el.count() > 0:
+                    try:
+                        txt = (await el.inner_text()).strip()
+                        m = re.search(r"€\s*([\d\.\s]+)", txt)
+                        if m and not re.search(r"€\s*[\d\.\s]+\s*/?\s*m", txt):
+                            cena_found = m.group(1).strip()
+                            break
+                    except Exception:
+                        pass
+            # Fallback: ceo body, prvi € iznos koji NIJE €/m²
+            if not cena_found:
+                try:
+                    body = await page.locator("body").inner_text()
+                    # Ukloni "€ X/m²" obrasce da ne uhvatimo cenu po kvadratu
+                    body_clean = re.sub(r"€\s*[\d\.\s]+\s*/?\s*m²", " ", body)
+                    m = re.search(r"€\s*([\d]{1,3}(?:[\.\s]\d{3})*)", body_clean)
+                    if m:
+                        cena_found = m.group(1).strip()
+                except Exception:
+                    pass
+            if cena_found:
+                c = clean_price(cena_found)
+                if c and c >= 100:  # ignoriši sitne brojeve
+                    data["cena_raw"] = "€ " + cena_found
+                    data["cena"] = c
+
         # Opis oglasa — naziv zgrade je često ovde, ne u naslovu
         opis_parts = []
         meta = page.locator("meta[name='description']").first
