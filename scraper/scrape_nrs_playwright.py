@@ -133,6 +133,27 @@ async def fetch_detail(page, url: str) -> dict:
             if m:
                 data["kvadratura"] = float(m.group(1).replace(",", "."))
 
+        # Opis oglasa — naziv zgrade je često ovde, ne u naslovu
+        opis_parts = []
+        meta = page.locator("meta[name='description']").first
+        if await meta.count() > 0:
+            md = await meta.get_attribute("content")
+            if md:
+                opis_parts.append(md)
+        for sel in ["[class*='description']", "[class*='Description']",
+                    "[class*='opis']", ".listing-detail__description", "article"]:
+            el = page.locator(sel).first
+            if await el.count() > 0:
+                try:
+                    txt = (await el.inner_text()).strip()
+                    if txt and len(txt) > 30:
+                        opis_parts.append(txt)
+                        break
+                except Exception:
+                    pass
+        if opis_parts:
+            data["opis"] = " ".join(opis_parts)[:2000]
+
         # Karakteristike
         rows = page.locator("table tr, .listing-features li, [class*='feature'] [class*='item']")
         count = await rows.count()
@@ -334,7 +355,7 @@ async def scrape_mode(browser, tip: str, config: dict) -> list[dict]:
 
 # ── Zapis + Git push ───────────────────────────────────────────────────────────
 
-# Mapiranje ključnih reči iz naslova na naziv zgrade
+# Mapiranje ključnih reči (iz naslova ILI opisa) na naziv zgrade
 ZGRADA_KEYWORDS = {
     "BW Residences":    ["bw residences", "bw residence"],
     "BW Quartet":       ["bw quartet", "quartet"],
@@ -353,8 +374,16 @@ ZGRADA_KEYWORDS = {
     "BW Riviera":       ["bw riviera", "riviera"],
     "BW Metropolitan":  ["bw metropolitan", "metropolitan"],
     "BW King's Park":   ["king's park", "kings park", "king`s park"],
+    "BW Queens":        ["bw queens"],
+    "BW Eterna":        ["bw eterna", "eterna"],
+    "BW Sole":          ["bw sole"],
+    "BW Libera":        ["bw libera", "libera"],
+    "BW Sensa":         ["bw sensa", "sensa"],
+    "BW Parkview":      ["bw parkview", "parkview"],
+    "BW Apollo":        ["bw apollo"],
+    "BW Terraces":      ["bw terraces", "terraces"],
+    "Bristol Residences":["bristol residences", "bristol"],
     "AFI Skyline":      ["afi skyline", "skyline residence"],
-    "Palata pravde":    ["palata pravde"],
 }
 
 # Mapiranje naslova na strukturu (Halo format: "1.0", "2.0", ...)
@@ -398,13 +427,13 @@ def detect_struktura(naslov: str, sobe: str = None) -> str:
 
     return "nepoznato"
 
-def detect_zgrada(naslov: str) -> str:
-    """Detektuje naziv zgrade iz naslova oglasa."""
-    if not naslov:
+def detect_zgrada(naslov: str, opis: str = "") -> str:
+    """Detektuje naziv zgrade iz naslova ILI opisa oglasa."""
+    tekst = ((naslov or "") + " " + (opis or "")).lower()
+    if not tekst.strip():
         return "Neidentifikovano"
-    n = naslov.lower()
     for zgrada, keywords in ZGRADA_KEYWORDS.items():
-        if any(kw in n for kw in keywords):
+        if any(kw in tekst for kw in keywords):
             return zgrada
     return "Neidentifikovano"
 
@@ -415,8 +444,8 @@ def build_output(listings: list[dict], path: Path) -> dict:
 
     # Detektuj zgrade i strukturu pre svega ostalog
     for l in listings:
-        if not l.get("zgrada"):
-            l["zgrada"] = detect_zgrada(l.get("naslov", ""))
+        if not l.get("zgrada") or l.get("zgrada") == "Neidentifikovano":
+            l["zgrada"] = detect_zgrada(l.get("naslov", ""), l.get("opis", ""))
         if not l.get("struktura"):
             l["struktura"] = detect_struktura(l.get("naslov", ""), l.get("sobe"))
         # Dashboard koristi 'm2' polje — mapiraj iz 'kvadratura'
