@@ -134,13 +134,29 @@ async def fetch_detail(page, url: str) -> dict:
                         data["agencija"] = txt
                         break
 
-        # Kvadratura iz naslova H1
+        # Kvadratura — iz H1, naslova stranice, ili tela.
+        # NRS naslov se pouzdano završava sa "...| N sobe | XXX m²".
         title_el = page.locator("h1").first
+        kv = None
+        kv_sources = []
         if await title_el.count() > 0:
-            title_txt = await title_el.inner_text()
-            m = re.search(r"([\d,\.]+)\s*m²", title_txt)
+            try: kv_sources.append(await title_el.inner_text())
+            except Exception: pass
+        try: kv_sources.append(await page.title())
+        except Exception: pass
+        for src_txt in kv_sources:
+            if not src_txt:
+                continue
+            m = re.search(r"([\d]+(?:[,\.]\d+)?)\s*m²", src_txt)
             if m:
-                data["kvadratura"] = float(m.group(1).replace(",", "."))
+                try:
+                    v = float(m.group(1).replace(",", "."))
+                    if v > 0:
+                        kv = v; break
+                except ValueError:
+                    pass
+        if kv:
+            data["kvadratura"] = kv
 
         # Cena sa detaljne stranice (mnogi oglasi nemaju cenu na listing pregledu)
         if not data.get("cena"):
@@ -194,6 +210,16 @@ async def fetch_detail(page, url: str) -> dict:
                     pass
         if opis_parts:
             data["opis"] = " ".join(opis_parts)[:2000]
+            # Rezerva za kvadraturu iz opisa ("površine 91 m²", "od 115 m²", "115m2")
+            if not data.get("kvadratura"):
+                mo = re.search(r"(?:površine\s+|od\s+)?([\d]+(?:[,\.]\d+)?)\s*m(?:²|2)\b", data["opis"])
+                if mo:
+                    try:
+                        v = float(mo.group(1).replace(",", "."))
+                        if 10 < v < 1000:  # razuman opseg za stan
+                            data["kvadratura"] = v
+                    except ValueError:
+                        pass
 
         # Karakteristike
         rows = page.locator("table tr, .listing-features li, [class*='feature'] [class*='item']")
@@ -424,7 +450,6 @@ ZGRADA_KEYWORDS = {
     "BW Apollo":        ["bw apollo"],
     "BW Terraces":      ["bw terraces", "terraces"],
     "Bristol Residences":["bristol residences", "bristol"],
-    "AFI Skyline":      ["afi skyline", "skyline residence"],
 }
 
 # Mapiranje naslova na strukturu (Halo format: "1.0", "2.0", ...)
