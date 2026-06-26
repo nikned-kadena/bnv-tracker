@@ -31,8 +31,19 @@ TARGETS = {
 # Oglasi koji sadrže ove ključne reči u naslovu se isključuju
 EXCLUSION_KEYWORDS = [
     "kneza milosa",
+    "kneza miloša",
     "ulica kneza",
     "sarajevska",
+    "durmitorska",
+    "risanska",
+    "višegradska",
+    "visegradska",
+    "miloša poćerca",
+    "milosa pocerca",
+    "vojvode milanka",
+    "bulevar kralja aleksandra",
+    "hajduk-veljkov venac",
+    "hajduk veljkov venac",
 ]
 
 MAX_PAGES   = 20
@@ -67,20 +78,40 @@ async def fetch_detail(page, url: str) -> dict:
         await page.goto(url, wait_until="domcontentloaded", timeout=30000)
         await page.wait_for_timeout(DETAIL_WAIT)
 
-        # Agencija
-        for sel in [
-            ".agency-name",
-            ".advertiser__name",
-            "[class*='agency'] [class*='name']",
-            "[class*='Agency'] [class*='name']",
-            ".broker-name",
-        ]:
-            el = page.locator(sel).first
-            if await el.count() > 0:
-                txt = (await el.inner_text()).strip()
-                if txt:
-                    data["agencija"] = txt
-                    break
+        # Agencija URL — /agencije-za-nekretnine/ID/
+        ag_link = page.locator("a[href*='/agencije-za-nekretnine/']").first
+        if await ag_link.count() > 0:
+            href = await ag_link.get_attribute("href") or ""
+            if href:
+                data["agencija_url"] = href if href.startswith("http") else BASE_URL + href
+                # Izvuci naziv iz teksta linka ili img alt
+                ag_img = ag_link.locator("img").first
+                if await ag_img.count() > 0:
+                    alt = (await ag_img.get_attribute("alt") or "").strip()
+                    # Filtriraj "Foto N", "mapa" i slicne ne-agencijske alt tagove
+                    import re as _re
+                    if alt and not _re.match(r"^(Foto\s+\d+|Foto\d+|mapa|logo)$", alt, _re.IGNORECASE) and len(alt) > 4:
+                        data["agencija"] = alt
+                if not data.get("agencija"):
+                    txt = (await ag_link.inner_text()).strip()
+                    if txt and len(txt) > 4:
+                        data["agencija"] = txt
+
+        # Fallback selektori za agenciju
+        if not data.get("agencija"):
+            for sel in [
+                ".agency-name",
+                ".advertiser__name",
+                "[class*='agency'] [class*='name']",
+                "[class*='Agency'] [class*='name']",
+                ".broker-name",
+            ]:
+                el = page.locator(sel).first
+                if await el.count() > 0:
+                    txt = (await el.inner_text()).strip()
+                    if txt and len(txt) > 4:
+                        data["agencija"] = txt
+                        break
 
         # Kvadratura iz naslova H1
         title_el = page.locator("h1").first
@@ -194,14 +225,15 @@ async def scrape_listing_page(page, url: str, tip: str) -> list[dict]:
             if item.get("cena") and item.get("kvadratura") and item["kvadratura"] > 0:
                 item["cena_m2"] = round(item["cena"] / item["kvadratura"])
 
-            # Agencija iz img alt
+            # Agencija iz img alt — filtriraj "Foto N", "mapa" itd.
+            import re as _re
             agency_img = page.locator(
-                f"xpath=//a[@href='{href}']/ancestor::li//img[@alt and string-length(@alt) > 3]"
+                f"xpath=//a[@href='{href}']/ancestor::li//img[@alt and string-length(@alt) > 4]"
             ).first
             if await agency_img.count() > 0:
-                alt = await agency_img.get_attribute("alt") or ""
-                if alt and alt.strip():
-                    item["agencija"] = alt.strip()
+                alt = (await agency_img.get_attribute("alt") or "").strip()
+                if alt and not _re.match(r"^(Foto\s+\d+|Foto\d+|mapa|logo|\d+)$", alt, _re.IGNORECASE):
+                    item["agencija"] = alt
 
         except Exception:
             pass
@@ -289,11 +321,62 @@ async def scrape_mode(browser, tip: str, config: dict) -> list[dict]:
 
 # ── Zapis + Git push ───────────────────────────────────────────────────────────
 
+def build_output(listings: list[dict], path: Path) -> dict:
+    """Wrappe listu listinga u format koji Dashboard ocekuje."""
+    prev_listings = []
+    if path.exists():
+        try:
+            prev_raw = json.loads(path.read_text(encoding="utf-8"))
+            prev_listings = prev_raw.get("listings", []) if isinstance(prev_raw, dict) else prev_raw
+        except Exception:
+            pass
+
+    prev_ids = {l["id"] for l in prev_listings if l.get("id")}
+    curr_ids = {l["id"] for l in listings if l.get("id")}
+    new_ids     = curr_ids - prev_ids
+    removed_ids = prev_ids - curr_ids
+
+    diff = {
+        "new":     [l for l in listings      if l.get("id") in new_ids],
+        "removed": [l for l in prev_listings if l.get("id") in removed_ids],
+    }
+
+    po_zgradi = {}
+    for l in listings:
+        zgrada = l.get("zgrada") or "Neidentifikovano"
+        if zgrada not in po_zgradi:
+            po_zgradi[zgrada] = {"count": 0, "cene": [], "cene_m2": []}
+        po_zgradi[zgrada]["count"] += 1
+        if l.get("cena"):    po_zgradi[zgrada]["cene"].append(l["cena"])
+        if l.get("cena_m2"): po_zgradi[zgrada]["cene_m2"].append(l["cena_m2"])
+
+    return {
+        "scraped_at":   datetime.now().isoformat(timespec="seconds"),
+        "total_raw":    len(listings),
+        "total_unique": len(listings),
+        "total_dups":   0,
+        "listings":     listings,
+        "diff":         diff,
+        "duplicates":   [],
+        "stats": {
+            "po_zgradi": {
+                k: {
+                    "count":    v["count"],
+                    "avg_cena": round(sum(v["cene"]) / len(v["cene"])) if v["cene"] else None,
+                    "avg_m2":   round(sum(v["cene_m2"]) / len(v["cene_m2"])) if v["cene_m2"] else None,
+                }
+                for k, v in po_zgradi.items()
+            }
+        },
+    }
+
 def save_json(data: list[dict], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    output = build_output(data, path)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"  💾 Snimljeno: {path} ({len(data)} stavki)")
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    n, r = len(output["diff"]["new"]), len(output["diff"]["removed"])
+    print(f"  💾 Snimljeno: {path} ({len(data)} stavki, +{n} novih, -{r} skinutih)")
 
 def git_push(changed_files: list[Path]) -> None:
     if not changed_files:
@@ -303,6 +386,8 @@ def git_push(changed_files: list[Path]) -> None:
         msg = f"NRS scrape {ts}: {', '.join(p.name for p in changed_files)}"
         subprocess.run(["git", "add"] + [str(p) for p in changed_files], check=True)
         subprocess.run(["git", "commit", "-m", msg], check=True)
+        # Pull --rebase pre pusha da bi se izbegli konflikti sa GitHub Actions
+        subprocess.run(["git", "pull", "--rebase", "-X", "ours", "origin", "main"], check=True)
         subprocess.run(["git", "push"], check=True)
         print(f"\n✅ Git push uspešan: {msg}")
     except subprocess.CalledProcessError as e:
