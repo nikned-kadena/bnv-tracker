@@ -307,6 +307,7 @@ export default function Dashboard() {
   const [sortDir, setSortDir] = useState(1);
   const [tab,     setTab]     = useState("pregled");
   const [showNew, setShowNew] = useState(false);
+  const [saleType, setSaleType] = useState("sve");   // sve | direktna | resale (samo prodaja)
   const [nrsAgMapping, setNrsAgMapping] = useState({});
 
   // Učitaj sve podatke jednom
@@ -331,7 +332,7 @@ export default function Dashboard() {
   },[]);
 
   // Reset filtera kad se promijeni source/mode
-  useEffect(()=>{ setSelBlds([]); setShowNew(false); setSelStr(null); setSearch(""); },[source,mode]);
+  useEffect(()=>{ setSelBlds([]); setShowNew(false); setSelStr(null); setSearch(""); setSaleType("sve"); },[source,mode]);
 
   const srcCfg  = SOURCES[source];
   const dataKey = `${source}_${mode}`;
@@ -363,9 +364,18 @@ export default function Dashboard() {
 
   const newKeys = useMemo(()=>new Set((diff.new??[]).map(l=>l.dedup_key||l.id).filter(Boolean)),[diff]);
 
+  // Filter tipa prodaje: direktna (cena se završava na 888) vs resale (ostalo).
+  // Primenjuje se na osnovni niz pa važi za KPI, segmentaciju i listinge.
+  const isDirektna = (l)=> l.cena!=null && l.cena%1000===888;
+  const saleFiltered = useMemo(()=>{
+    if(mode!=="prodaja" || saleType==="sve") return listings;
+    if(saleType==="direktna") return listings.filter(isDirektna);
+    return listings.filter(l=>!isDirektna(l));   // resale
+  },[listings,mode,saleType]);
+
   const bldFiltered = useMemo(()=>
-    selBlds.length>0 ? listings.filter(l=>selBlds.includes(l.zgrada)) : listings
-  ,[listings,selBlds]);
+    selBlds.length>0 ? saleFiltered.filter(l=>selBlds.includes(l.zgrada)) : saleFiltered
+  ,[saleFiltered,selBlds]);
 
   // Jedinstvene nekretnine (dedup po dedup_key) — za KPI i Segmentaciju.
   // Listinzi i dalje koriste pun niz (prikazuju i duplikate).
@@ -415,7 +425,7 @@ export default function Dashboard() {
   const agListings = useMemo(()=>latest?.listings??[],[latest]);
 
   const filtered = useMemo(()=>{
-    let d=listings;
+    let d=saleFiltered;
     if(showNew)           d=d.filter(l=>newKeys.has(l.dedup_key));
     if(selStr)            d=d.filter(l=>l.struktura===selStr);
     if(selBlds.length>0)  d=d.filter(l=>selBlds.includes(l.zgrada));
@@ -427,7 +437,7 @@ export default function Dashboard() {
       if(typeof va==="string") return va.localeCompare(vb)*sortDir;
       return (va-vb)*sortDir;
     });
-  },[listings,showNew,newKeys,selStr,selBlds,search,sortKey,sortDir,agMapping,srcCfg]);
+  },[saleFiltered,showNew,newKeys,selStr,selBlds,search,sortKey,sortDir,agMapping,srcCfg]);
 
   const toggleSort=k=>{if(sortKey===k)setSortDir(d=>-d);else{setSortKey(k);setSortDir(1);}};
   const toggleBld=z=>setSelBlds(prev=>prev.includes(z)?prev.filter(x=>x!==z):[...prev,z]);
@@ -439,7 +449,7 @@ export default function Dashboard() {
   const cntDelta=trendLast&&trendPrev?trendLast.count-trendPrev.count:null;
   const scraped=latest?.scraped_at?.slice(0,10)+" "+latest?.scraped_at?.slice(11,16)+" UTC";
   const now=new Date().toLocaleDateString("sr-RS",{day:"2-digit",month:"2-digit",year:"numeric"})+" "+new Date().toLocaleTimeString("sr-RS",{hour:"2-digit",minute:"2-digit"});
-  const isFiltered=selBlds.length>0;
+  const isFiltered=selBlds.length>0 || (mode==="prodaja" && saleType!=="sve");
 
   if(loading) return <div style={{display:"flex",alignItems:"center",justifyContent:"center",height:"100vh",background:C.bg,fontSize:14,color:C.textS}}>Učitavanje podataka...</div>;
   if(err)     return <div style={{padding:32,background:C.bg,minHeight:"100vh",fontSize:13,color:C.red}}><strong>Greška:</strong> {err}</div>;
@@ -521,6 +531,21 @@ export default function Dashboard() {
         {/* OSTALI TABOVI */}
         {tab!=="agencije" && latest && (<>
           <BuildingFilter buildings={allBuildings} selected={selBlds} onToggle={toggleBld} onClear={()=>setSelBlds([])}/>
+
+          {mode==="prodaja" && (
+            <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14,alignItems:"center"}}>
+              <span style={{fontSize:11,fontWeight:600,color:C.textS,marginRight:4}}>TIP PRODAJE</span>
+              {[["sve","Sve"],["direktna","Direktna prodaja"],["resale","Resale"]].map(([k,l])=>(
+                <button key={k} onClick={()=>setSaleType(k)}
+                  style={{fontSize:12,fontWeight:600,padding:"6px 14px",borderRadius:20,cursor:"pointer",
+                    border:`1px solid ${saleType===k?C.navy:C.border}`,
+                    background:saleType===k?C.navy:C.white,
+                    color:saleType===k?"#fff":C.textS}}>
+                  {l}
+                </button>
+              ))}
+            </div>
+          )}
 
           <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:20}}>
             <Pill label="Sve" active={!selStr} onClick={()=>setSelStr(null)}/>
