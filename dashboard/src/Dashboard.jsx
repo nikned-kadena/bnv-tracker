@@ -190,7 +190,8 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
       return `https://www.halooglasi.com/oglasi/${a.slug}`;
     }
     if (agMode === "name" && a.naziv) {
-      // NRS: koristi ID iz mappinga ako postoji
+      // NRS: prvo URL direktno iz oglasa (najpouzdanije), pa mapping kao rezerva
+      if (a.agencija_url) return a.agencija_url;
       const agId = nrsAgMapping[a.naziv];
       if (agId) return `https://www.nekretnine.rs/agencije-za-nekretnine/${agId}/`;
     }
