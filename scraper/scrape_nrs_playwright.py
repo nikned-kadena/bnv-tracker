@@ -208,8 +208,23 @@ async def fetch_detail(page, url: str) -> dict:
                         break
                 except Exception:
                     pass
+        # Naslovi opisa (h1/h2/h3) — agencije tu često stave naziv zgrade,
+        # npr. "MODERAN STUDIO 28 M2| BW METROPOLITAN | PREMIUM LOKACIJA"
+        for hsel in ["h1", "h2", "h3"]:
+            hloc = page.locator(hsel)
+            try:
+                hcount = await hloc.count()
+            except Exception:
+                hcount = 0
+            for i in range(min(hcount, 6)):
+                try:
+                    ht = (await hloc.nth(i).inner_text()).strip()
+                    if ht and len(ht) < 160 and ht not in opis_parts:
+                        opis_parts.append(ht)
+                except Exception:
+                    pass
         if opis_parts:
-            data["opis"] = " ".join(opis_parts)[:2000]
+            data["opis"] = " ".join(opis_parts)[:2500]
             # Rezerva za kvadraturu iz opisa ("površine 91 m²", "od 115 m²", "115m2")
             if not data.get("kvadratura"):
                 mo = re.search(r"(?:površine\s+|od\s+)?([\d]+(?:[,\.]\d+)?)\s*m(?:²|2)\b", data["opis"])
@@ -234,6 +249,31 @@ async def fetch_detail(page, url: str) -> dict:
                 if "sprat" in txt and not data.get("sprat"):
                     val = txt.split(":")[-1].strip()
                     data["sprat"] = val[:20]
+                # Površina/kvadratura — najpouzdaniji izvor m²
+                if not data.get("kvadratura") and ("površin" in txt or "kvadratur" in txt or "povrsin" in txt):
+                    mk = re.search(r"([\d]+(?:[,\.]\d+)?)\s*m", txt)
+                    if mk:
+                        try:
+                            v = float(mk.group(1).replace(",", "."))
+                            if 5 < v < 2000:
+                                data["kvadratura"] = v
+                        except ValueError:
+                            pass
+            except Exception:
+                pass
+
+        # Poslednja rezerva: cela stranica, traži "Površina ... XX m²"
+        if not data.get("kvadratura"):
+            try:
+                body_txt = await page.locator("body").inner_text()
+                mb = re.search(r"povr[šs]in\w*[^\d]{0,20}([\d]+(?:[,\.]\d+)?)\s*m", body_txt, re.IGNORECASE)
+                if not mb:
+                    # bilo koji "XX m²" u telu kao krajnja rezerva
+                    mb = re.search(r"([\d]{2,4}(?:[,\.]\d+)?)\s*m²", body_txt)
+                if mb:
+                    v = float(mb.group(1).replace(",", "."))
+                    if 5 < v < 2000:
+                        data["kvadratura"] = v
             except Exception:
                 pass
 

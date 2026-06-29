@@ -323,21 +323,61 @@
   {
     "date": "2026-06-26",
     "mode": "prodaja",
-    "total_raw": 600,
-    "total_unique": 305,
-    "total_dups": 295,
-    "avg_m2": 5920,
+    "total_raw": 597,
+    "total_unique": 301,
+    "total_dups": 296,
+    "avg_m2": 5929,
     "diff_new": 1,
-    "diff_removed": 2,
+    "diff_removed": 6,
     "by_struktura": {
-      "3.0": 119,
-      "2.0": 63,
-      "4.0": 75,
+      "4.0": 74,
       "1.0": 22,
+      "3.0": 116,
+      "2.0": 63,
       "1.5": 4,
       "5.0": 12,
       "2.5": 7,
       "3.5": 3
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "mode": "prodaja",
+    "total_raw": 589,
+    "total_unique": 302,
+    "total_dups": 287,
+    "avg_m2": 5915,
+    "diff_new": 3,
+    "diff_removed": 2,
+    "by_struktura": {
+      "1.0": 23,
+      "3.0": 117,
+      "4.0": 73,
+      "2.0": 63,
+      "1.5": 4,
+      "5.0": 12,
+      "2.5": 7,
+      "3.5": 3
+    }
+  },
+  {
+    "date": "2026-06-28",
+    "mode": "prodaja",
+    "total_raw": 568,
+    "total_unique": 292,
+    "total_dups": 276,
+    "avg_m2": 5967,
+    "diff_new": 0,
+    "diff_removed": 10,
+    "by_struktura": {
+      "3.0": 113,
+      "4.0": 72,
+      "1.0": 23,
+      "2.0": 62,
+      "1.5": 4,
+      "5.0": 10,
+      "2.5": 7,
+      "3.5": 1
     }
   }
 ]
