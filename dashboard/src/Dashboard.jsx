@@ -422,7 +422,7 @@ export default function Dashboard() {
     removedCount: selBlds.length>0?(diff.removed??[]).filter(l=>selBlds.includes(l.zgrada)).length:(diff.removed?.length??0),
   }),[diff,selBlds]);
 
-  const agListings = useMemo(()=>latest?.listings??[],[latest]);
+  const agListings = useMemo(()=>saleFiltered,[saleFiltered]);
 
   const filtered = useMemo(()=>{
     let d=saleFiltered;
@@ -522,6 +522,22 @@ export default function Dashboard() {
             </button>
           ))}
         </div>
+
+        {/* SWITCH TIP PRODAJE na Agencije tabu (samo prodaja) */}
+        {tab==="agencije" && mode==="prodaja" && latest && (
+          <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14,alignItems:"center"}}>
+            <span style={{fontSize:11,fontWeight:600,color:C.textS,marginRight:4}}>TIP PRODAJE</span>
+            {[["sve","Sve"],["direktna","Direktna prodaja"],["resale","Resale"]].map(([k,l])=>(
+              <button key={k} onClick={()=>setSaleType(k)}
+                style={{fontSize:12,fontWeight:600,padding:"6px 14px",borderRadius:20,cursor:"pointer",
+                  border:`1px solid ${saleType===k?C.navy:C.border}`,
+                  background:saleType===k?C.navy:C.white,
+                  color:saleType===k?"#fff":C.textS}}>
+                {l}
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* AGENCIJE TAB */}
         {tab==="agencije" && latest && (
