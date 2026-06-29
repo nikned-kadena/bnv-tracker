@@ -678,29 +678,36 @@ def git_push(changed_files: list[Path]) -> None:
         return
     ts  = datetime.now().strftime("%Y-%m-%d %H:%M")
     msg = f"NRS scrape {ts}: {', '.join(p.name for p in changed_files)}"
+
+    # 1) Commit lokalnih izmena PRE pull-a — sprečava stash/rebase konflikte
+    #    koji su ranije zaglavljivali repo u 'unmerged' stanju.
+    try:
+        subprocess.run(["git", "add"] + [str(p) for p in changed_files], check=True)
+        staged = subprocess.run(["git", "diff", "--cached", "--quiet"], capture_output=True)
+        if staged.returncode == 0:
+            print("\nNema promena za commit (vec pushano)")
+            return
+        subprocess.run(["git", "commit", "-m", msg], check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"\nGit commit neuspesan: {e}")
+        return
+
+    # 2) Pull (merge, bez rebase, neinteraktivno, konflikti u korist naših
+    #    data fajlova) pa push — sa retry ako remote u međuvremenu odmakne.
     for attempt in range(1, 4):
         try:
-            # Stash bilo kakvih uncommitted promena
-            subprocess.run(["git", "stash", "-u"], capture_output=True)
-            # Povuci remote promene
-            subprocess.run(["git", "pull", "--rebase", "-X", "ours", "origin", "main"], check=True)
-            # Vrati stash
-            subprocess.run(["git", "stash", "pop"], capture_output=True)
-            # Dodaj i commituj
-            subprocess.run(["git", "add"] + [str(p) for p in changed_files], check=True)
-            result = subprocess.run(["git", "diff", "--cached", "--quiet"], capture_output=True)
-            if result.returncode == 0:
-                print(f"\n✅ Nema promena za commit (vec pushano)")
-                return
-            subprocess.run(["git", "commit", "-m", msg], check=True)
-            subprocess.run(["git", "push"], check=True)
-            print(f"\n✅ Git push uspešan (pokušaj {attempt}): {msg}")
+            subprocess.run(
+                ["git", "pull", "--no-rebase", "--no-edit", "-X", "ours", "origin", "main"],
+                check=True,
+            )
+            subprocess.run(["git", "push", "origin", "main"], check=True)
+            print(f"\nGit push uspesan (pokusaj {attempt}): {msg}")
             return
         except subprocess.CalledProcessError as e:
-            print(f"\n⚠ Git push pokušaj {attempt}/3 neuspešan: {e}")
+            print(f"\nGit push pokusaj {attempt}/3 neuspesan: {e}")
             if attempt < 3:
                 import time; time.sleep(5)
-    print("\n❌ Git push neuspešan posle 3 pokušaja — pushajte ručno.")
+    print("\nGit push neuspesan posle 3 pokusaja - pushajte rucno.")
 
 # ── Entry point ────────────────────────────────────────────────────────────────
 
