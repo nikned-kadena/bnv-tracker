@@ -62,3 +62,2868 @@ Traceback (most recent call last):
     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 4: character maps to <undefined>
+No local changes to save
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+Auto-merging data/latest_nrs_prodaja.json
+CONFLICT (content): Merge conflict in data/latest_nrs_prodaja.json
+Auto-merging data/latest_nrs_renta.json
+CONFLICT (content): Merge conflict in data/latest_nrs_renta.json
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+	both modified:   data/latest_nrs_prodaja.json
+	both modified:   data/latest_nrs_renta.json
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/nrs_scraper.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+The stash entry is kept in case you need it again.
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+Browser pokrenut (headless=True)
+
+nekretnine.rs — PRODAJA
+============================================================
+
+  Stranica 1: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Ulica Kneza Milosa 90A, Beograd na vodi - Pa
+    [1/24] Četvorosobni stan 25, Beograd na vodi - Palata pravde, Beogr
+    [2/24] Dvosobni stan 24, Beograd na vodi - Palata pravde, Beograd
+    [3/24] Trosobni stan 22, Beograd na vodi - Palata pravde, Beograd
+    [4/24] Četvorosobni stan Ulica Hercegovacka 16, Beograd na vodi - P
+    [5/24] Trosobni stan Luke Ćelebića Trebinjca, Beograd na vodi - Pal
+    [6/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [7/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [8/24] Četvorosobni stan Ulica Nikolaja Kravcova, Beograd na vodi -
+    [9/24] Četvorosobni stan 113 m², Beograd na vodi - Palata pravde, B
+    [10/24] Trosobni stan 91 m², Beograd na vodi - Palata pravde, Beogra
+    [11/24] Četvorosobni stan 139 m², Beograd na vodi - Palata pravde, B
+    [12/24] Četvorosobni stan 152 m², Beograd na vodi - Palata pravde, B
+    [13/24] Dvosobni stan 62 m², Beograd na vodi - Palata pravde, Beogra
+    [14/24] Četvorosobni stan 164 m², Beograd na vodi - Palata pravde, B
+    [15/24] Četvorosobni stan 124 m², Beograd na vodi - Palata pravde, B
+    [16/24] Dvosobni stan 60 m², Beograd na vodi - Palata pravde, Beogra
+    [17/24] Trosobni stan Hercegovačka-savski Venac, Beograd na vodi - P
+    [18/24] Dvosobni stan 82 m², Beograd na vodi - Palata pravde, Beogra
+    [19/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [20/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [21/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [22/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [23/24] Dvosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [24/24] Trosobni stan Karađorđeva, Beograd na vodi - Palata pravde, 
+  ✓ Ukupno do sada: 24
+
+  Stranica 2: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=2
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Bulevar kralja Aleksandra I Karađorđevića,
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Beograd na vodi - Palata pra
+      ✗ Isključen: Trosobni stan Višegradska, Beograd na vodi - Palata pravde, 
+    [1/22] Trosobni stan Beograd na vodi, Beograd na vodi - Palata prav
+    [2/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [3/22] Dvosobni stan 61 m², Beograd na vodi - Palata pravde, Beogra
+    [4/22] Trosobni stan 99 m², Beograd na vodi - Palata pravde, Beogra
+    [5/22] Trosobni stan 74 m², Beograd na vodi - Palata pravde, Beogra
+    [6/22] Jednosoban stan 28 m², Beograd na vodi - Palata pravde, Beog
+    [7/22] Trosobni stan 83 m², Beograd na vodi - Palata pravde, Beogra
+    [8/22] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [9/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [10/22] Četvorosobni stan Ulica Hercegovacka 21, Beograd na vodi - P
+    [11/22] Dvosobni stan Luka Čelović Trebinjac, Beograd na vodi - Pala
+    [12/22] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [13/22] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [14/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [16/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [17/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [18/22] Četvorosobni stan Ulica Hercegovacka 21, Beograd na vodi - P
+    [19/22] Dvosobni stan BW Kula, Beograd na vodi - Palata pravde, Beog
+    [20/22] Dvosobni stan Bw King's Park, Beograd na vodi - Palata pravd
+    [21/22] Dvosobni stan Bw Victoria, Beograd na vodi - Palata pravde, 
+    [22/22] Trosobni stan Bulevar Vudroa Vilsona (BW Aria), Beograd na v
+  ✓ Ukupno do sada: 46
+
+  Stranica 3: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=3
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Risanska, Beograd na vodi - Palata pravde, Beograd
+    [1/24] Trosobni stan Bulevar Vudroa Vilsona (BW Aria), Beograd na v
+    [2/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [3/24] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [4/24] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [5/24] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [6/24] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [7/24] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [8/24] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [9/24] Dvosobni stan odlično stanje, 14, Beograd na vodi - Palata p
+    [10/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/24] Trosobni stan Ulica Hercegovacka 14A, Beograd na vodi - Pala
+    [13/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/24] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/24] Četvorosobni stan u dobrom stanju, deseti sprat, Beograd na 
+    [17/24] Dvosobni stan u dobrom stanju, 22, Beograd na vodi - Palata 
+    [18/24] Četvorosobni stan Hercegovačka (BW Residences), Beograd na v
+    [19/24] Četvorosobni stan Hercegovačka (BW Residences), Beograd na v
+    [20/24] Jednosoban stan Hercegovačka, Beograd na vodi - Palata pravd
+    [21/24] Četvorosobni stan u dobrom stanju, osmi sprat, Beograd na vo
+    [22/24] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [23/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [24/24] Dvosobni stan Luke Cerovica Trebinjca, Beograd na vodi - Pal
+  ✓ Ukupno do sada: 70
+
+  Stranica 4: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=4
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Durmitorska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Stan Kneza Milosa, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+    [1/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [2/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [3/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [4/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [5/22] Četvorosobni stan novo, 21, Beograd na vodi - Palata pravde,
+    [6/22] Jednosoban stan Ulica Hercegovacka 14B, Beograd na vodi - Pa
+    [7/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [10/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [11/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [13/22] Četvorosobni stan Bw Lumia, Beograd na vodi - Palata pravde,
+    [14/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [16/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [17/22] Četvorosobni stan u dobrom stanju, 19, Beograd na vodi - Pal
+    [18/22] Stan novo, 14, Beograd na vodi - Palata pravde, Beograd
+    [19/22] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [20/22] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [21/22] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [22/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 92
+
+  Stranica 5: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=5
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Risanska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Trosobni stan Ulica Sarajevska, Beograd na vodi - Palata pra
+    [1/23] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [2/23] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [3/23] Dvosobni stan u dobrom stanju, deseti sprat, Beograd na vodi
+    [4/23] Trosobni stan BW Iris, Beograd na vodi - Palata pravde, Beog
+    [5/23] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [6/23] Trosobni stan BW Simfonija 2, Beograd na vodi - Palata pravd
+    [7/23] Stan u dobrom stanju, 20, Beograd na vodi - Palata pravde, B
+    [8/23] Dvosobni stan BW King's Park Residences, Beograd na vodi - P
+    [9/23] Četvorosobni stan BW Kula, Beograd na vodi - Palata pravde, 
+    [10/23] Trosobni stan u dobrom stanju, 11, Beograd na vodi - Palata 
+    [11/23] Jednosoban stan u dobrom stanju, 14, Beograd na vodi - Palat
+    [12/23] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [13/23] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [14/23] Dvosobni stan u dobrom stanju, deveti sprat, Beograd na vodi
+    [15/23] Četvorosobni stan Bulevar Vudroa Vilsona (BW Metropolitan), 
+    [16/23] Četvorosobni stan u dobrom stanju, 23, Beograd na vodi - Pal
+    [17/23] Četvorosobni stan novo, 14, Beograd na vodi - Palata pravde,
+    [18/23] Četvorosobni stan Bulevar Vudroa Vilsona (BW Metropolitan), 
+    [19/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [20/23] Dvosobni stan BW Aqua, Beograd na vodi - Palata pravde, Beog
+    [21/23] Četvorosobni stan u dobrom stanju, 11, Beograd na vodi - Pal
+    [22/23] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [23/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 115
+
+  Stranica 6: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=6
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Nemanjina, Klinički centar - Kneza Milosa, Beograd
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+    [1/21] Dvosobni stan u dobrom stanju, sedmi sprat, Beograd na vodi 
+    [2/21] Jednosoban stan novo, peti sprat, Beograd na vodi - Palata p
+    [3/21] Trosobni stan u dobrom stanju, 14, Beograd na vodi - Palata 
+    [4/21] Trosobni stan u dobrom stanju, 23, Beograd na vodi - Palata 
+    [5/21] Četvorosobni stan novo, 18, Beograd na vodi - Palata pravde,
+    [6/21] Dvosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [7/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/21] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/21] Trosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [10/21] Dvosobni stan u dobrom stanju, 17, Beograd na vodi - Palata 
+    [11/21] Trosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [12/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/21] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [15/21] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [16/21] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [17/21] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [18/21] Jednosoban stan Luke Ćelovića Trebinjca, Beograd na vodi - P
+    [19/21] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [20/21] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [21/21] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+  ✓ Ukupno do sada: 136
+
+  Stranica 7: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=7
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Višegradska, Beograd na vodi - Palata pravde, 
+      ✗ Isključen: Trosobni stan Kneza Miloša, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Hajduk-Veljkov venac, Beograd na vodi - Palata
+    [1/21] Jednosoban stan u dobrom stanju, deveti sprat, Beograd na vo
+    [2/21] Jednosoban stan novo, sedmi sprat, Beograd na vodi - Palata 
+    [3/21] Četvorosobni stan novo, 16, Beograd na vodi - Palata pravde,
+    [4/21] Dvosobni stan odlično stanje, 13, Beograd na vodi - Palata p
+    [5/21] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [6/21] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [7/21] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/21] Trosobni stan Vožda Đorđa Stratimirovića, Beograd na vodi - 
+    [9/21] Dvosobni stan u dobrom stanju, 22, Beograd na vodi - Palata 
+    [10/21] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [11/21] Dvosobni stan BW Perla, Beograd na vodi - Palata pravde, Beo
+    [12/21] Garsonjera Hercegovačka, Beograd na vodi - Palata pravde, Be
+    [13/21] Četvorosobni stan u dobrom stanju, osmi sprat, Beograd na vo
+    [14/21] Dvosobni stan u dobrom stanju, 25, Beograd na vodi - Palata 
+    [15/21] Stan novo, peti sprat, Beograd na vodi - Palata pravde, Beog
+    [16/21] Dvosobni stan BW King`s Park, Beograd na vodi - Palata pravd
+    [17/21] Dvosobni stan BW Diva, Beograd na vodi - Palata pravde, Beog
+    [18/21] Četvorosobni stan novo, šesti sprat, Beograd na vodi - Palat
+    [19/21] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [20/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [21/21] Trosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+  ✓ Ukupno do sada: 157
+
+  Stranica 8: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=8
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan treći sprat, Klinički centar - Kneza Milos
+    [1/24] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [2/24] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [3/24] Dvosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [4/24] Dvosobni stan BW Iskra, Beograd na vodi - Palata pravde, Beo
+    [5/24] Četvorosobni stan u dobrom stanju, 16, Beograd na vodi - Pal
+    [6/24] Dvosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [7/24] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [8/24] Dvosobni stan Luke ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [10/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/24] Trosobni stan BW Vista, Beograd na vodi - Palata pravde, Beo
+    [12/24] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [13/24] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [14/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/24] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [16/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [17/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [18/24] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [19/24] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [20/24] Duplex Luke Ćelovića Trebinjca, Beograd na vodi - Palata pra
+    [21/24] Trosobni stan novo, 11, Beograd na vodi - Palata pravde, Beo
+    [22/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [23/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [24/24] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+  ✓ Ukupno do sada: 181
+
+  Stranica 9: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=9
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Višegradska, Beograd na vodi - Palata pravde, 
+    [1/24] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [2/24] Dvosobni stan u dobrom stanju, 15, Beograd na vodi - Palata 
+    [3/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [4/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [5/24] Trosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [6/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [7/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [9/24] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [10/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [12/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/24] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [16/24] Stan novo, osmi sprat, Beograd na vodi - Palata pravde, Beog
+    [17/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [19/24] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [20/24] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [21/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [22/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [23/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [24/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 205
+
+  Stranica 10: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=10
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Vojvode Milenka, Beograd na vodi - Palata 
+      ✗ Isključen: Dvosobni stan Bulevar kralja Aleksandra I Karađorđevića, Beo
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+    [1/19] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [2/19] Jednosoban stan novo, 14, Beograd na vodi - Palata pravde, B
+    [3/19] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [4/19] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [5/19] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/19] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [7/19] Četvorosobni stan Savska, Beograd na vodi - Palata pravde, B
+    [8/19] Četvorosobni stan osmi sprat, Beograd na vodi - Palata pravd
+    [9/19] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [10/19] Stan osmi sprat, Savamala, Beograd
+    [11/19] Trosobni stan Vudroa Vilsona, Beograd na vodi - Palata pravd
+    [12/19] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [13/19] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/19] Trosobni stan deveti sprat, Beograd na vodi - Palata pravde,
+    [15/19] Stan osmi sprat, Beograd na vodi - Palata pravde, Beograd
+    [16/19] Trosobni stan BW Riviera, Beograd na vodi - Palata pravde, B
+    [17/19] Trosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [18/19] Trosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [19/19] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+  ✓ Ukupno do sada: 224
+
+  Stranica 11: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=11
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+      ✗ Isključen: Stan Visegradska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Duplex Sarajevska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+    [1/20] Četvorosobni stan 17, Beograd na vodi - Palata pravde, Beogr
+    [2/20] Jednosoban stan u dobrom stanju, šesti sprat, Beograd na vod
+    [3/20] Trosobni stan u dobrom stanju, 12, Beograd na vodi - Palata 
+    [4/20] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [5/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [6/20] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [7/20] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/20] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/20] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [10/20] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [11/20] Jednosoban stan Hercegovačka-savski Venac, Beograd na vodi -
+    [12/20] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [13/20] Dvosobni stan u dobrom stanju, 11, Beograd na vodi - Palata 
+    [14/20] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [15/20] Trosobni stan sedmi sprat, Savamala, Beograd
+    [16/20] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [17/20] Jednosoban stan novo, sedmi sprat, Beograd na vodi - Palata 
+    [18/20] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [19/20] Četvorosobni stan odlično stanje, četvrti sprat, Beograd na 
+    [20/20] Trosobni stan u dobrom stanju, četvrti sprat, Beograd na vod
+  ✓ Ukupno do sada: 244
+
+  Stranica 12: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=12
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Stan Kneza Miloša, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Trosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+    [1/20] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [2/20] Jednosoban stan Hercegovačka-savski Venac, Beograd na vodi -
+    [3/20] Dvosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [4/20] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [5/20] Stan novo, 22, Beograd na vodi - Palata pravde, Beograd
+    [6/20] Jednosoban stan Hercegovačka, Beograd na vodi - Palata pravd
+    [7/20] Dvosobni stan novo, 33, Beograd na vodi - Palata pravde, Beo
+    [8/20] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/20] Trosobni stan Savski trg, Savamala, Beograd
+    [10/20] Stan u dobrom stanju, peti sprat, Beograd na vodi - Palata p
+    [11/20] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [12/20] Trosobni stan Hercegovačka-savski Venac, Beograd na vodi - P
+    [13/20] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [14/20] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [15/20] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [16/20] Četvorosobni stan Savska, Beograd na vodi - Palata pravde, B
+    [17/20] Četvorosobni stan novo, Beograd na vodi - Palata pravde, Beo
+    [18/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [19/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [20/20] Trosobni stan u dobrom stanju, deveti sprat, Beograd na vodi
+  ✓ Ukupno do sada: 264
+
+  Stranica 13: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=13
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Sarajevska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Durmitorska, Beograd na vodi - Palata pravde, 
+      ✗ Isključen: Četvorosobni stan Risanska, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+    [1/20] Stan u dobrom stanju, osmi sprat, Beograd na vodi - Palata p
+    [2/20] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [3/20] Dvosobni stan Vudroa Vilsona, Beograd na vodi - Palata pravd
+    [4/20] Trosobni stan Hercegovačka, Savamala, Beograd
+    [5/20] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [6/20] Trosobni stan Simfonija I, Beograd na vodi - Palata pravde, 
+    [7/20] Dvosobni stan 67 m², Beograd na vodi - Palata pravde, Beogra
+    [8/20] Dvosobni stan novo, 16, Beograd na vodi - Palata pravde, Beo
+    [9/20] Trosobni stan Riviera, Beograd na vodi - Palata pravde, Beog
+    [10/20] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/20] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [12/20] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [13/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [14/20] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/20] Dvosobni stan 65 m², Beograd na vodi - Palata pravde, Beogra
+    [16/20] Trosobni stan u dobrom stanju, četvrti sprat, Beograd na vod
+    [17/20] Jednosoban stan novo, prizemlje, Beograd na vodi - Palata pr
+    [18/20] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [19/20] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [20/20] Jednosoban stan prvi sprat, Savamala, Beograd
+  ✓ Ukupno do sada: 284
+
+  Stranica 14: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=14
+    → Pronađeno 19 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan u dobrom stanju, šesti sprat, Klinički cen
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+    [1/17] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [2/17] Četvorosobni stan u dobrom stanju, sedmi sprat, Beograd na v
+    [3/17] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [4/17] Trosobni stan Bul. Vudroa Vilsona, Beograd na vodi - Palata 
+    [5/17] Garsonjera na prodaju, Beograd na vodi - Palata pravde, Beog
+    [6/17] Jednosoban stan novo, drugi sprat, Beograd na vodi - Palata 
+    [7/17] Četvorosobni stan novo, 15, Beograd na vodi - Palata pravde,
+    [8/17] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/17] Dvosobni stan novo, 31, Beograd na vodi - Palata pravde, Beo
+    [10/17] Četvorosobni stan novo, deveti sprat, Beograd na vodi - Pala
+    [11/17] Stan Luke Ćelovića Trebinjca, Beograd na vodi - Palata pravd
+    [12/17] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/17] Stan 156 m², Beograd na vodi - Palata pravde, Beograd
+    [14/17] Garsonjera Dr Aleksandra Kostica 19., Beograd na vodi - Pala
+    [15/17] Četvorosobni stan peti sprat, Beograd na vodi - Palata pravd
+    [16/17] Stan novo, Beograd na vodi - Palata pravde, Beograd
+    [17/17] Jednosoban stan odlično stanje, treći sprat, Beograd na vodi
+  ✓ Ukupno do sada: 301
+
+  Stranica 15: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?strana=15
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Ulica Kneza Milosa 90A, Beograd na vodi - Pa
+  → Nema novih oglasa, zaustavljam.
+
+  Ukupno prodaja: 301 oglasa
+  💾 Snimljeno: data\latest_nrs_prodaja.json (301 stavki, +301 novih, -0 skinutih)
+
+nekretnine.rs — RENTA
+============================================================
+
+  Stranica 1: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska, Beograd na vodi - Palata pra
+    [1/24] Četvorosobni stan 308 m², Beograd na vodi - Palata pravde, B
+    [2/24] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [3/24] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [4/24] Trosobni stan novo, 27, Beograd na vodi - Palata pravde, Beo
+    [5/24] Četvorosobni stan novo, 13, Beograd na vodi - Palata pravde,
+    [6/24] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [7/24] Trosobni stan Nikolaj Kravcova 1, Beograd na vodi - Palata p
+    [8/24] Trosobni stan Nikolaj Kravcova 1, Beograd na vodi - Palata p
+    [9/24] Četvorosobni stan 112 m², Beograd na vodi - Palata pravde, B
+    [10/24] Dvosobni stan 52 m², Beograd na vodi - Palata pravde, Beogra
+    [11/24] Trosobni stan 76 m², Beograd na vodi - Palata pravde, Beogra
+    [12/24] Trosobni stan 75 m², Beograd na vodi - Palata pravde, Beogra
+    [13/24] Dvosobni stan 61 m², Beograd na vodi - Palata pravde, Beogra
+    [14/24] Trosobni stan u dobrom stanju, osmi sprat, Beograd na vodi -
+    [15/24] Dvosobni stan 92 m², Beograd na vodi - Palata pravde, Beogra
+    [16/24] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [17/24] Četvorosobni stan 79 m², Beograd na vodi - Palata pravde, Be
+    [18/24] Dvosobni stan novo, 30, Beograd na vodi - Palata pravde, Beo
+    [19/24] Dvosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [20/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [21/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [22/24] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [23/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [24/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 24
+
+  Stranica 2: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=2
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Ulica Kneza Milosa 88B, Beograd na vodi - Pala
+      ✗ Isključen: Dvosobni stan Bulevar kralja Aleksandra I Karađorđevića (Sav
+      ✗ Isključen: Dvosobni stan Kneza Miloša 45, Klinički centar - Kneza Milos
+    [1/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [2/22] Četvorosobni stan Luke Celovica Trebinjca, Beograd na vodi -
+    [3/22] Četvorosobni stan Vudroa Vilsona, Beograd na vodi - Palata p
+    [4/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [5/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [7/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [8/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [10/22] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [11/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [12/22] Dvosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [13/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [14/22] Četvorosobni stan Ulica Hercegovacka 13A, Savamala, Beograd
+    [15/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/22] Dvosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [17/22] Dvosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [18/22] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [19/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [20/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [21/22] Četvorosobni stan BW Queens, Beograd na vodi - Palata pravde
+    [22/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+  ✓ Ukupno do sada: 46
+
+  Stranica 3: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=3
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan kneza milosa, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Risanska, Beograd na vodi - Palata pravde, Beo
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+    [1/21] Trosobni stan Nikolaja Kvarcova, Beograd na vodi - Palata pr
+    [2/21] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [3/21] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [4/21] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [5/21] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/21] Trosobni stan bulevar vudroa vilsona, Beograd na vodi - Pala
+    [7/21] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [8/21] Trosobni stan Ulica Hercegovacka 14B, Beograd na vodi - Pala
+    [9/21] Trosobni stan Ulica Hercegovacka 14, Beograd na vodi - Palat
+    [10/21] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [11/21] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/21] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [13/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/21] Dvosobni stan BW Perla, Beograd na vodi - Palata pravde, Beo
+    [15/21] Četvorosobni stan Savska, Beograd na vodi - Palata pravde, B
+    [16/21] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [17/21] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [18/21] Dvosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [19/21] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [20/21] Četvorosobni stan novo, 23, Beograd na vodi - Palata pravde,
+    [21/21] Dvosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+  ✓ Ukupno do sada: 67
+
+  Stranica 4: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=4
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Durmitorska, Beograd na vodi - Palata pravde, 
+      ✗ Isključen: Jednosoban stan Vojvode Milenka, Beograd na vodi - Palata pr
+      ✗ Isključen: Dvosobni stan Risanska, Beograd na vodi - Palata pravde, Beo
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Četvorosobni stan Višegradska, Beograd na vodi - Palata prav
+    [1/19] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/19] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [3/19] Dvosobni stan Savska, Savamala, Beograd
+    [4/19] Četvorosobni stan Bw King's Park, Beograd na vodi - Palata p
+    [5/19] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [6/19] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [7/19] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [8/19] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/19] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [10/19] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [11/19] Trosobni stan u dobrom stanju, 23, Beograd na vodi - Palata 
+    [12/19] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/19] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [14/19] Jednosoban stan Luke Ćelovića Trebinjca, Beograd na vodi - P
+    [15/19] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [16/19] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [17/19] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [18/19] Trosobni stan novo, 20, Beograd na vodi - Palata pravde, Beo
+    [19/19] Trosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+  ✓ Ukupno do sada: 86
+
+  Stranica 5: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=5
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Risanska, Beograd na vodi - Palata pravde, B
+    [1/24] Stan odlično stanje, prvi sprat, Savamala, Beograd
+    [2/24] Dvosobni stan Hercegovačka 19, Beograd na vodi - Palata prav
+    [3/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [4/24] Dvosobni stan Savska, Savamala, Beograd
+    [5/24] Trosobni stan Belgrade Waterfront-ARIA, Beograd na vodi - Pa
+    [6/24] Dvosobni stan Savska, Savamala, Beograd
+    [7/24] Dvosobni stan Savska, Savamala, Beograd
+    [8/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [10/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/24] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [12/24] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [13/24] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [14/24] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [15/24] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [16/24] Jednosoban stan Ulica Hercegovacka, Beograd na vodi - Palata
+    [17/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [19/24] Četvorosobni stan novo, 15, Beograd na vodi - Palata pravde,
+    [20/24] Četvorosobni stan novo, šesti sprat, Beograd na vodi - Palat
+    [21/24] Dvosobni stan novo, 32, Beograd na vodi - Palata pravde, Beo
+    [22/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [23/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [24/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+  ✓ Ukupno do sada: 110
+
+  Stranica 6: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=6
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Duplex Durmitorska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+    [1/22] Četvorosobni stan u dobrom stanju, šesti sprat, Beograd na v
+    [2/22] Dvosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [3/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [4/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [5/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [6/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [7/22] Četvorosobni stan u dobrom stanju, prvi sprat, Beograd na vo
+    [8/22] Dvosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [9/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [10/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [11/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [13/22] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [14/22] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [15/22] Dvosobni stan drugi sprat, Beograd na vodi - Palata pravde, 
+    [16/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [17/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [18/22] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [19/22] Stan Bulevar Vudroa Vilsona 8V, Beograd na vodi - Palata pra
+    [20/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [21/22] Stan Hercegovačka-savski Venac, Beograd na vodi - Palata pra
+    [22/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+  ✓ Ukupno do sada: 132
+
+  Stranica 7: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=7
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+    [1/22] Dvosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [2/22] Dvosobni stan Luke ćelovića Trebinjca, Beograd na vodi - Pal
+    [3/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [4/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [5/22] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [6/22] Trosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [7/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/22] Dvosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [9/22] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [10/22] Trosobni stan drugi sprat, Savamala, Beograd
+    [11/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [12/22] Trosobni stan Bulevar Vuka Karadžića, Beograd na vodi - Pala
+    [13/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [14/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [16/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [17/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [18/22] Trosobni stan Bulevar Vudroa Vilsona 50, Beograd na vodi - P
+    [19/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [20/22] Dvosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [21/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [22/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 154
+
+  Stranica 8: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=8
+    → Pronađeno 18 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Risanska, Beograd na vodi - Palata pravde, Beo
+    [1/17] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [2/17] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [3/17] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [4/17] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [5/17] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [6/17] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [7/17] Stan Bulevar Vudroa Vilsona, Beograd na vodi - Palata pravde
+    [8/17] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [9/17] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [10/17] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/17] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/17] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [13/17] Jednosoban stan dr Aleksandra Kostica, Beograd na vodi - Pal
+    [14/17] Dvosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+    [15/17] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [16/17] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [17/17] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+  ✓ Ukupno do sada: 171
+
+  Stranica 9: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=9
+    → Pronađeno 23 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Jednosoban stan Ulica Sarajevska, Beograd na vodi - Palata p
+    [1/15] Dvosobni stan Belgrade Waterfront, Beograd na vodi - Palata 
+    [2/15] Četvorosobni stan novo, 13, Beograd na vodi - Palata pravde,
+    [3/15] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [4/15] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [5/15] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [6/15] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [7/15] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/15] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [9/15] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [10/15] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [11/15] Dvosobni stan četvrti sprat, Savamala, Beograd
+    [12/15] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [13/15] Trosobni stan prvi sprat, Beograd na vodi - Palata pravde, B
+    [14/15] Trosobni stan četvrti sprat, Beograd na vodi - Palata pravde
+    [15/15] Trosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+  ✓ Ukupno do sada: 186
+
+  Stranica 10: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=10
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan četvrti sprat, Klinički centar - Kneza Milosa,
+      ✗ Isključen: Trosobni stan 11, Klinički centar - Kneza Milosa, Beograd
+    [1/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/23] Trosobni stan četvrti sprat, Beograd na vodi - Palata pravde
+    [3/23] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [4/23] Četvorosobni stan peti sprat, Beograd na vodi - Palata pravd
+    [5/23] Četvorosobni stan 13, Beograd na vodi - Palata pravde, Beogr
+    [6/23] Trosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [7/23] Dvosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [8/23] Četvorosobni stan sedmi sprat, Beograd na vodi - Palata prav
+    [9/23] Trosobni stan drugi sprat, Savamala, Beograd
+    [10/23] Trosobni stan 15, Beograd na vodi - Palata pravde, Beograd
+    [11/23] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [12/23] Trosobni stan 16, Beograd na vodi - Palata pravde, Beograd
+    [13/23] Trosobni stan osmi sprat, Beograd na vodi - Palata pravde, B
+    [14/23] Dvosobni stan 16, Beograd na vodi - Palata pravde, Beograd
+    [15/23] Trosobni stan četvrti sprat, Beograd na vodi - Palata pravde
+    [16/23] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [17/23] Četvorosobni stan peti sprat, Beograd na vodi - Palata pravd
+    [18/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [19/23] Dvosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [20/23] Dvosobni stan 12, Beograd na vodi - Palata pravde, Beograd
+    [21/23] Dvosobni stan šesti sprat, Beograd na vodi - Palata pravde, 
+    [22/23] Četvorosobni stan deveti sprat, Beograd na vodi - Palata pra
+    [23/23] Četvorosobni stan deseti sprat, Beograd na vodi - Palata pra
+  ✓ Ukupno do sada: 209
+
+  Stranica 11: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=11
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan u dobrom stanju, prvi sprat, Klinički cent
+      ✗ Isključen: Jednosoban stan Višegradska, Beograd na vodi - Palata pravde
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+    [1/22] Četvorosobni stan Luke Cerovica Trebinjca, Beograd na vodi -
+    [2/22] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [3/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [4/22] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [5/22] Trosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+    [6/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [7/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/22] Trosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [9/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [10/22] Četvorosobni stan novo, 16, Beograd na vodi - Palata pravde,
+    [11/22] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [12/22] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [13/22] Trosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [14/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/22] Dvosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [16/22] Dvosobni stan drugi sprat, Beograd na vodi - Palata pravde, 
+    [17/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [18/22] Trosobni stan sedmi sprat, Savamala, Beograd
+    [19/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [20/22] Trosobni stan 12, Beograd na vodi - Palata pravde, Beograd
+    [21/22] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [22/22] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+  ✓ Ukupno do sada: 231
+
+  Stranica 12: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=12
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan prvi sprat, Klinički centar - Kneza Milosa, Be
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Jednosoban stan Višegradska, Beograd na vodi - Palata pravde
+    [1/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [2/21] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [3/21] Dvosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [4/21] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [5/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [6/21] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [7/21] Dvosobni stan prvi sprat, Beograd na vodi - Palata pravde, B
+    [8/21] Trosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [9/21] Trosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [10/21] Trosobni stan Luke Celovca Trebinjca, Beograd na vodi - Pala
+    [11/21] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [12/21] Dvosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [13/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [14/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [15/21] Trosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+    [16/21] Dvosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [17/21] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [18/21] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [19/21] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [20/21] Dvosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [21/21] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+  ✓ Ukupno do sada: 252
+
+  Stranica 13: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=13
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Sarajevska, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Trosobni stan u dobrom stanju, prvi sprat, Klinički centar -
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Trosobni stan Bulevar kralja Aleksandra I Karađorđevića, Beo
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Jednosoban stan Durmitorska, Beograd na vodi - Palata pravde
+    [1/18] Jednosoban stan novo, četvrti sprat, Beograd na vodi - Palat
+    [2/18] Jednosoban stan Aleksandra Glišića, Beograd na vodi - Palata
+    [3/18] Trosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [4/18] Četvorosobni stan BW Eterna, Beograd na vodi - Palata pravde
+    [5/18] Trosobni stan BW Sole, Beograd na vodi - Palata pravde, Beog
+    [6/18] Trosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+    [7/18] Stan Savska, Beograd na vodi - Palata pravde, Beograd
+    [8/18] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [9/18] Jednosoban stan u dobrom stanju, četvrti sprat, Beograd na v
+    [10/18] Trosobni stan odlično stanje, Beograd na vodi - Palata pravd
+    [11/18] Dvosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [12/18] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [13/18] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [14/18] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [15/18] Dvosobni stan prizemlje, Savamala, Beograd
+    [16/18] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [17/18] Dvosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [18/18] Trosobni stan BW Libera, Beograd na vodi - Palata pravde, Be
+  ✓ Ukupno do sada: 270
+
+  Stranica 14: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=14
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Beograd na vodi - Palata pra
+      ✗ Isključen: Trosobni stan Kneza Miloša, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Stan za renoviranje, prvi sprat, Klinički centar - Kneza Mil
+      ✗ Isključen: Jednosoban stan Durmitorska, Beograd na vodi - Palata pravde
+    [1/19] Dvosobni stan Aria, Beograd na vodi - Palata pravde, Beograd
+    [2/19] Jednosoban stan novo, peti sprat, Beograd na vodi - Palata p
+    [3/19] Dvosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [4/19] Trosobni stan u dobrom stanju, 17, Beograd na vodi - Palata 
+    [5/19] Četvorosobni stan 13, Beograd na vodi - Palata pravde, Beogr
+    [6/19] Trosobni stan u dobrom stanju, 17, Beograd na vodi - Palata 
+    [7/19] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [8/19] Dvosobni stan 70 m², Beograd na vodi - Palata pravde, Beogra
+    [9/19] Dvosobni stan u dobrom stanju, četvrti sprat, Beograd na vod
+    [10/19] Trosobni stan 23, Beograd na vodi - Palata pravde, Beograd
+    [11/19] Trosobni stan BW Quartet 1, Beograd na vodi - Palata pravde,
+    [12/19] Dvosobni stan BW King's Park Residences, Beograd na vodi - P
+    [13/19] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [14/19] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [15/19] Dvosobni stan drugi sprat, Beograd na vodi - Palata pravde, 
+    [16/19] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [17/19] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [18/19] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [19/19] Jednosoban stan Nemanjina, Beograd na vodi - Palata pravde, 
+  ✓ Ukupno do sada: 289
+
+  Stranica 15: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=15
+    → Pronađeno 25 oglasnih linkova
+    [1/25] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [2/25] Četvorosobni stan u dobrom stanju, peti sprat, Beograd na vo
+    [3/25] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [4/25] Dvosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [5/25] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [6/25] Stan novo, četvrti sprat, Beograd na vodi - Palata pravde, B
+    [7/25] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [8/25] Četvorosobni stan novo, 30, Beograd na vodi - Palata pravde,
+    [9/25] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [10/25] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [11/25] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [12/25] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [13/25] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [14/25] Trosobni stan novo, 11, Beograd na vodi - Palata pravde, Beo
+    [15/25] Trosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [16/25] Dvosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [17/25] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [18/25] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [19/25] Četvorosobni stan novo, četvrti sprat, Beograd na vodi - Pal
+    [20/25] Četvorosobni stan novo, šesti sprat, Beograd na vodi - Palat
+    [21/25] Četvorosobni stan novo, 14, Beograd na vodi - Palata pravde,
+    [22/25] Četvorosobni stan novo, 12, Beograd na vodi - Palata pravde,
+    [23/25] Dvosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [24/25] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [25/25] Dvosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+  ✓ Ukupno do sada: 314
+
+  Stranica 16: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=16
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+    [1/24] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [2/24] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [3/24] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [4/24] Četvorosobni stan u dobrom stanju, treći sprat, Beograd na v
+    [5/24] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [6/24] Četvorosobni stan novo, sedmi sprat, Beograd na vodi - Palat
+    [7/24] Dvosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [8/24] Četvorosobni stan novo, 14, Beograd na vodi - Palata pravde,
+    [9/24] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [10/24] Četvorosobni stan novo, treći sprat, Beograd na vodi - Palat
+    [11/24] Trosobni stan sedmi sprat, Beograd na vodi - Palata pravde, 
+    [12/24] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [13/24] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [14/24] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [15/24] Dvosobni stan BW Sensa, Beograd na vodi - Palata pravde, Beo
+    [16/24] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [17/24] Jednosoban stan novo, šesti sprat, Beograd na vodi - Palata 
+    [18/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [19/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [20/24] Dvosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [21/24] Stan peti sprat, Savamala, Beograd
+    [22/24] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [23/24] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [24/24] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+  ✓ Ukupno do sada: 338
+
+  Stranica 17: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=17
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska 80, Beograd na vodi - Palata 
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska 19, Beograd na vodi - Palata 
+    [1/22] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [2/22] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [3/22] Trosobni stan novo, 21, Beograd na vodi - Palata pravde, Beo
+    [4/22] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [5/22] Dvosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [6/22] Dvosobni stan u dobrom stanju, sedmi sprat, Beograd na vodi 
+    [7/22] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [8/22] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [9/22] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [10/22] Trosobni stan novo, 25, Beograd na vodi - Palata pravde, Beo
+    [11/22] Dvosobni stan novo, 20, Beograd na vodi - Palata pravde, Beo
+    [12/22] Četvorosobni stan 12, Beograd na vodi - Palata pravde, Beogr
+    [13/22] Trosobni stan BW Residences, Beograd na vodi - Palata pravde
+    [14/22] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [15/22] Trosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [16/22] Četvorosobni stan četvrti sprat, Beograd na vodi - Palata pr
+    [17/22] Jednosoban stan novo, drugi sprat, Beograd na vodi - Palata 
+    [18/22] Jednosoban stan peti sprat, Beograd na vodi - Palata pravde,
+    [19/22] Stan drugi sprat, Beograd na vodi - Palata pravde, Beograd
+    [20/22] Dvosobni stan Savska 15, Savamala, Beograd
+    [21/22] Stan Ulica Savska 17, Beograd na vodi - Palata pravde, Beogr
+    [22/22] Trosobni stan Bulevar Vudroa Vilsona 14, Beograd na vodi - P
+  ✓ Ukupno do sada: 360
+
+  Stranica 18: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=18
+    → Pronađeno 1 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Ulica Bircaninova, Klinički centar - Kneza Mil
+  → Nema novih oglasa, zaustavljam.
+
+  Ukupno renta: 360 oglasa
+  💾 Snimljeno: data\latest_nrs_renta.json (360 stavki, +360 novih, -0 skinutih)
+
+Pokretam git push...
+
+⚠ Git push pokušaj 1/3 neuspešan: Command '['git', 'pull', '--rebase', '-X', 'ours', 'origin', 'main']' returned non-zero exit status 128.
+
+⚠ Git push pokušaj 2/3 neuspešan: Command '['git', 'pull', '--rebase', '-X', 'ours', 'origin', 'main']' returned non-zero exit status 128.
+
+⚠ Git push pokušaj 3/3 neuspešan: Command '['git', 'pull', '--rebase', '-X', 'ours', 'origin', 'main']' returned non-zero exit status 128.
+
+❌ Git push neuspešan posle 3 pokušaja — pushajte ručno.
+
+Gotovo.
+error: could not write index
+data/latest_nrs_prodaja.json: needs merge
+data/latest_nrs_renta.json: needs merge
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+error: could not write index
+data/latest_nrs_prodaja.json: needs merge
+data/latest_nrs_renta.json: needs merge
+The stash entry is kept in case you need it again.
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+Browser pokrenut (headless=True)
+
+nekretnine.rs — PRODAJA
+============================================================
+
+  Stranica 1: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Ulica Kneza Milosa 90A, Beograd na vodi - Pa
+    [1/24] Četvorosobni stan 25, Beograd na vodi - Palata pravde, Beogr
+    [2/24] Dvosobni stan 24, Beograd na vodi - Palata pravde, Beograd
+    [3/24] Trosobni stan 22, Beograd na vodi - Palata pravde, Beograd
+    [4/24] Četvorosobni stan Ulica Hercegovacka 16, Beograd na vodi - P
+    [5/24] Trosobni stan Luke Ćelebića Trebinjca, Beograd na vodi - Pal
+    [6/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [7/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [8/24] Četvorosobni stan Ulica Nikolaja Kravcova, Beograd na vodi -
+    [9/24] Četvorosobni stan 113 m², Beograd na vodi - Palata pravde, B
+    [10/24] Trosobni stan 91 m², Beograd na vodi - Palata pravde, Beogra
+    [11/24] Četvorosobni stan 139 m², Beograd na vodi - Palata pravde, B
+    [12/24] Četvorosobni stan 152 m², Beograd na vodi - Palata pravde, B
+    [13/24] Dvosobni stan 62 m², Beograd na vodi - Palata pravde, Beogra
+    [14/24] Četvorosobni stan 164 m², Beograd na vodi - Palata pravde, B
+    [15/24] Četvorosobni stan 124 m², Beograd na vodi - Palata pravde, B
+    [16/24] Dvosobni stan 60 m², Beograd na vodi - Palata pravde, Beogra
+    [17/24] Trosobni stan Hercegovačka-savski Venac, Beograd na vodi - P
+    [18/24] Dvosobni stan 82 m², Beograd na vodi - Palata pravde, Beogra
+    [19/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [20/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [21/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [22/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [23/24] Dvosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [24/24] Trosobni stan Karađorđeva, Beograd na vodi - Palata pravde, 
+  ✓ Ukupno do sada: 24
+
+  Stranica 2: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=2
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Bulevar kralja Aleksandra I Karađorđevića,
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Beograd na vodi - Palata pra
+      ✗ Isključen: Trosobni stan Višegradska, Beograd na vodi - Palata pravde, 
+    [1/22] Trosobni stan Beograd na vodi, Beograd na vodi - Palata prav
+    [2/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [3/22] Dvosobni stan 61 m², Beograd na vodi - Palata pravde, Beogra
+    [4/22] Trosobni stan 99 m², Beograd na vodi - Palata pravde, Beogra
+    [5/22] Trosobni stan 74 m², Beograd na vodi - Palata pravde, Beogra
+    [6/22] Jednosoban stan 28 m², Beograd na vodi - Palata pravde, Beog
+    [7/22] Trosobni stan 83 m², Beograd na vodi - Palata pravde, Beogra
+    [8/22] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [9/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [10/22] Četvorosobni stan Ulica Hercegovacka 21, Beograd na vodi - P
+    [11/22] Dvosobni stan Luka Čelović Trebinjac, Beograd na vodi - Pala
+    [12/22] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [13/22] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [14/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [16/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [17/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [18/22] Četvorosobni stan Ulica Hercegovacka 21, Beograd na vodi - P
+    [19/22] Dvosobni stan BW Kula, Beograd na vodi - Palata pravde, Beog
+    [20/22] Dvosobni stan Bw King's Park, Beograd na vodi - Palata pravd
+    [21/22] Dvosobni stan Bw Victoria, Beograd na vodi - Palata pravde, 
+    [22/22] Trosobni stan Bulevar Vudroa Vilsona (BW Aria), Beograd na v
+  ✓ Ukupno do sada: 46
+
+  Stranica 3: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=3
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Risanska, Beograd na vodi - Palata pravde, Beograd
+    [1/24] Trosobni stan Bulevar Vudroa Vilsona (BW Aria), Beograd na v
+    [2/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [3/24] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [4/24] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [5/24] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [6/24] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [7/24] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [8/24] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [9/24] Dvosobni stan odlično stanje, 14, Beograd na vodi - Palata p
+    [10/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/24] Četvorosobni stan u dobrom stanju, deseti sprat, Beograd na 
+    [15/24] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/24] Dvosobni stan u dobrom stanju, 22, Beograd na vodi - Palata 
+    [17/24] Četvorosobni stan Hercegovačka (BW Residences), Beograd na v
+    [18/24] Četvorosobni stan Hercegovačka (BW Residences), Beograd na v
+    [19/24] Jednosoban stan Hercegovačka, Beograd na vodi - Palata pravd
+    [20/24] Četvorosobni stan u dobrom stanju, osmi sprat, Beograd na vo
+    [21/24] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [22/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [23/24] Dvosobni stan Luke Cerovica Trebinjca, Beograd na vodi - Pal
+    [24/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+  ✓ Ukupno do sada: 70
+
+  Stranica 4: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=4
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Durmitorska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Stan Kneza Milosa, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+    [1/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [3/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [4/22] Četvorosobni stan novo, 21, Beograd na vodi - Palata pravde,
+    [5/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [6/22] Jednosoban stan Ulica Hercegovacka 14B, Beograd na vodi - Pa
+    [7/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [10/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [11/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/22] Četvorosobni stan Bw Lumia, Beograd na vodi - Palata pravde,
+    [13/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [14/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [16/22] Četvorosobni stan u dobrom stanju, 19, Beograd na vodi - Pal
+    [17/22] Stan novo, 14, Beograd na vodi - Palata pravde, Beograd
+    [18/22] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [19/22] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [20/22] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [21/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [22/22] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+  ✓ Ukupno do sada: 92
+
+  Stranica 5: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=5
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Risanska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Trosobni stan Ulica Sarajevska, Beograd na vodi - Palata pra
+      ✗ Isključen: Stan Nemanjina, Klinički centar - Kneza Milosa, Beograd
+    [1/22] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [2/22] Dvosobni stan u dobrom stanju, deseti sprat, Beograd na vodi
+    [3/22] Trosobni stan BW Iris, Beograd na vodi - Palata pravde, Beog
+    [4/22] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [5/22] Trosobni stan BW Simfonija 2, Beograd na vodi - Palata pravd
+    [6/22] Stan u dobrom stanju, 20, Beograd na vodi - Palata pravde, B
+    [7/22] Dvosobni stan BW King's Park Residences, Beograd na vodi - P
+    [8/22] Četvorosobni stan BW Kula, Beograd na vodi - Palata pravde, 
+    [9/22] Trosobni stan u dobrom stanju, 11, Beograd na vodi - Palata 
+    [10/22] Jednosoban stan u dobrom stanju, 14, Beograd na vodi - Palat
+    [11/22] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [12/22] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [13/22] Dvosobni stan u dobrom stanju, deveti sprat, Beograd na vodi
+    [14/22] Četvorosobni stan Bulevar Vudroa Vilsona (BW Metropolitan), 
+    [15/22] Četvorosobni stan u dobrom stanju, 23, Beograd na vodi - Pal
+    [16/22] Četvorosobni stan novo, 14, Beograd na vodi - Palata pravde,
+    [17/22] Četvorosobni stan Bulevar Vudroa Vilsona (BW Metropolitan), 
+    [18/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [19/22] Dvosobni stan BW Aqua, Beograd na vodi - Palata pravde, Beog
+    [20/22] Četvorosobni stan u dobrom stanju, 11, Beograd na vodi - Pal
+    [21/22] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [22/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 114
+
+  Stranica 6: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=6
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+    [1/22] Dvosobni stan u dobrom stanju, sedmi sprat, Beograd na vodi 
+    [2/22] Jednosoban stan novo, peti sprat, Beograd na vodi - Palata p
+    [3/22] Trosobni stan u dobrom stanju, 14, Beograd na vodi - Palata 
+    [4/22] Trosobni stan u dobrom stanju, 23, Beograd na vodi - Palata 
+    [5/22] Četvorosobni stan novo, 18, Beograd na vodi - Palata pravde,
+    [6/22] Dvosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [7/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/22] Trosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [10/22] Dvosobni stan u dobrom stanju, 17, Beograd na vodi - Palata 
+    [11/22] Trosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [12/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/22] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [15/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [16/22] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [17/22] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [18/22] Jednosoban stan Luke Ćelovića Trebinjca, Beograd na vodi - P
+    [19/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [20/22] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [21/22] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [22/22] Jednosoban stan u dobrom stanju, deveti sprat, Beograd na vo
+  ✓ Ukupno do sada: 136
+
+  Stranica 7: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=7
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Višegradska, Beograd na vodi - Palata pravde, 
+      ✗ Isključen: Trosobni stan Kneza Miloša, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Hajduk-Veljkov venac, Beograd na vodi - Palata
+    [1/21] Jednosoban stan novo, sedmi sprat, Beograd na vodi - Palata 
+    [2/21] Četvorosobni stan novo, 16, Beograd na vodi - Palata pravde,
+    [3/21] Dvosobni stan odlično stanje, 13, Beograd na vodi - Palata p
+    [4/21] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [5/21] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [6/21] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [7/21] Trosobni stan Vožda Đorđa Stratimirovića, Beograd na vodi - 
+    [8/21] Dvosobni stan u dobrom stanju, 22, Beograd na vodi - Palata 
+    [9/21] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [10/21] Dvosobni stan BW Perla, Beograd na vodi - Palata pravde, Beo
+    [11/21] Garsonjera Hercegovačka, Beograd na vodi - Palata pravde, Be
+    [12/21] Četvorosobni stan u dobrom stanju, osmi sprat, Beograd na vo
+    [13/21] Dvosobni stan u dobrom stanju, 25, Beograd na vodi - Palata 
+    [14/21] Stan novo, peti sprat, Beograd na vodi - Palata pravde, Beog
+    [15/21] Dvosobni stan BW King`s Park, Beograd na vodi - Palata pravd
+    [16/21] Dvosobni stan BW Diva, Beograd na vodi - Palata pravde, Beog
+    [17/21] Četvorosobni stan novo, šesti sprat, Beograd na vodi - Palat
+    [18/21] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [19/21] Trosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [20/21] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [21/21] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+  ✓ Ukupno do sada: 157
+
+  Stranica 8: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=8
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan treći sprat, Klinički centar - Kneza Milos
+      ✗ Isključen: Trosobni stan u dobrom stanju, treći sprat, Klinički centar 
+    [1/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/23] Dvosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [3/23] Dvosobni stan BW Iskra, Beograd na vodi - Palata pravde, Beo
+    [4/23] Četvorosobni stan u dobrom stanju, 16, Beograd na vodi - Pal
+    [5/23] Dvosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [6/23] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [7/23] Dvosobni stan Luke ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [10/23] Trosobni stan BW Vista, Beograd na vodi - Palata pravde, Beo
+    [11/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [12/23] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [13/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/23] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [15/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [16/23] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [17/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/23] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [19/23] Duplex Luke Ćelovića Trebinjca, Beograd na vodi - Palata pra
+    [20/23] Trosobni stan novo, 11, Beograd na vodi - Palata pravde, Beo
+    [21/23] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [22/23] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [23/23] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+  ✓ Ukupno do sada: 180
+
+  Stranica 9: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=9
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Višegradska, Beograd na vodi - Palata pravde, 
+    [1/24] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [2/24] Dvosobni stan u dobrom stanju, 15, Beograd na vodi - Palata 
+    [3/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [4/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [5/24] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [6/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [7/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/24] Trosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [10/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [12/24] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [13/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [16/24] Stan novo, osmi sprat, Beograd na vodi - Palata pravde, Beog
+    [17/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [19/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [20/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [21/24] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [22/24] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [23/24] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [24/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 204
+
+  Stranica 10: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=10
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Vojvode Milenka, Beograd na vodi - Palata 
+      ✗ Isključen: Dvosobni stan Bulevar kralja Aleksandra I Karađorđevića, Beo
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+    [1/19] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/19] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [3/19] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [4/19] Jednosoban stan novo, 14, Beograd na vodi - Palata pravde, B
+    [5/19] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [6/19] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [7/19] Četvorosobni stan Savska, Beograd na vodi - Palata pravde, B
+    [8/19] Četvorosobni stan osmi sprat, Beograd na vodi - Palata pravd
+    [9/19] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [10/19] Stan osmi sprat, Savamala, Beograd
+    [11/19] Trosobni stan Vudroa Vilsona, Beograd na vodi - Palata pravd
+    [12/19] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [13/19] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/19] Trosobni stan deveti sprat, Beograd na vodi - Palata pravde,
+    [15/19] Stan osmi sprat, Beograd na vodi - Palata pravde, Beograd
+    [16/19] Trosobni stan BW Riviera, Beograd na vodi - Palata pravde, B
+    [17/19] Trosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [18/19] Trosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [19/19] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+  ✓ Ukupno do sada: 223
+
+  Stranica 11: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=11
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+      ✗ Isključen: Stan Visegradska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Duplex Sarajevska, Beograd na vodi - Palata pravde, Beograd
+    [1/21] Četvorosobni stan 17, Beograd na vodi - Palata pravde, Beogr
+    [2/21] Jednosoban stan u dobrom stanju, šesti sprat, Beograd na vod
+    [3/21] Trosobni stan u dobrom stanju, 12, Beograd na vodi - Palata 
+    [4/21] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [5/21] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [6/21] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [7/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/21] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/21] Dvosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [10/21] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [11/21] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [12/21] Jednosoban stan Hercegovačka-savski Venac, Beograd na vodi -
+    [13/21] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [14/21] Dvosobni stan u dobrom stanju, 11, Beograd na vodi - Palata 
+    [15/21] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/21] Trosobni stan sedmi sprat, Savamala, Beograd
+    [17/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/21] Jednosoban stan novo, sedmi sprat, Beograd na vodi - Palata 
+    [19/21] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [20/21] Četvorosobni stan odlično stanje, četvrti sprat, Beograd na 
+    [21/21] Trosobni stan u dobrom stanju, četvrti sprat, Beograd na vod
+  ✓ Ukupno do sada: 244
+
+  Stranica 12: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=12
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Stan Kneza Miloša, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Trosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+    [1/19] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [2/19] Jednosoban stan Hercegovačka-savski Venac, Beograd na vodi -
+    [3/19] Dvosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [4/19] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [5/19] Stan novo, 22, Beograd na vodi - Palata pravde, Beograd
+    [6/19] Jednosoban stan Hercegovačka, Beograd na vodi - Palata pravd
+    [7/19] Dvosobni stan novo, 33, Beograd na vodi - Palata pravde, Beo
+    [8/19] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/19] Trosobni stan Savski trg, Savamala, Beograd
+    [10/19] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [11/19] Stan u dobrom stanju, peti sprat, Beograd na vodi - Palata p
+    [12/19] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [13/19] Trosobni stan Hercegovačka-savski Venac, Beograd na vodi - P
+    [14/19] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [15/19] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [16/19] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [17/19] Četvorosobni stan Savska, Beograd na vodi - Palata pravde, B
+    [18/19] Četvorosobni stan novo, Beograd na vodi - Palata pravde, Beo
+    [19/19] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+  ✓ Ukupno do sada: 263
+
+  Stranica 13: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=13
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Sarajevska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Durmitorska, Beograd na vodi - Palata pravde, 
+      ✗ Isključen: Četvorosobni stan Risanska, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+    [1/20] Trosobni stan u dobrom stanju, deveti sprat, Beograd na vodi
+    [2/20] Stan u dobrom stanju, osmi sprat, Beograd na vodi - Palata p
+    [3/20] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [4/20] Dvosobni stan Vudroa Vilsona, Beograd na vodi - Palata pravd
+    [5/20] Trosobni stan Hercegovačka, Savamala, Beograd
+    [6/20] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [7/20] Trosobni stan Simfonija I, Beograd na vodi - Palata pravde, 
+    [8/20] Dvosobni stan 67 m², Beograd na vodi - Palata pravde, Beogra
+    [9/20] Dvosobni stan novo, 16, Beograd na vodi - Palata pravde, Beo
+    [10/20] Trosobni stan Riviera, Beograd na vodi - Palata pravde, Beog
+    [11/20] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [12/20] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [13/20] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [14/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [15/20] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [16/20] Dvosobni stan 65 m², Beograd na vodi - Palata pravde, Beogra
+    [17/20] Trosobni stan u dobrom stanju, četvrti sprat, Beograd na vod
+    [18/20] Jednosoban stan novo, prizemlje, Beograd na vodi - Palata pr
+    [19/20] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [20/20] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+  ✓ Ukupno do sada: 283
+
+  Stranica 14: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=14
+    → Pronađeno 20 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan u dobrom stanju, šesti sprat, Klinički cen
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+    [1/18] Jednosoban stan prvi sprat, Savamala, Beograd
+    [2/18] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [3/18] Četvorosobni stan u dobrom stanju, sedmi sprat, Beograd na v
+    [4/18] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [5/18] Trosobni stan Bul. Vudroa Vilsona, Beograd na vodi - Palata 
+    [6/18] Garsonjera na prodaju, Beograd na vodi - Palata pravde, Beog
+    [7/18] Jednosoban stan novo, drugi sprat, Beograd na vodi - Palata 
+    [8/18] Četvorosobni stan novo, 15, Beograd na vodi - Palata pravde,
+    [9/18] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [10/18] Dvosobni stan novo, 31, Beograd na vodi - Palata pravde, Beo
+    [11/18] Četvorosobni stan novo, deveti sprat, Beograd na vodi - Pala
+    [12/18] Stan Luke Ćelovića Trebinjca, Beograd na vodi - Palata pravd
+    [13/18] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/18] Stan 156 m², Beograd na vodi - Palata pravde, Beograd
+    [15/18] Garsonjera Dr Aleksandra Kostica 19., Beograd na vodi - Pala
+    [16/18] Četvorosobni stan peti sprat, Beograd na vodi - Palata pravd
+    [17/18] Stan novo, Beograd na vodi - Palata pravde, Beograd
+    [18/18] Jednosoban stan odlično stanje, treći sprat, Beograd na vodi
+  ✓ Ukupno do sada: 301
+
+  Stranica 15: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?strana=15
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Ulica Kneza Milosa 90A, Beograd na vodi - Pa
+  → Nema novih oglasa, zaustavljam.
+
+  Ukupno prodaja: 301 oglasa
+  💾 Snimljeno: data\latest_nrs_prodaja.json (301 stavki, +23 novih, -23 skinutih)
+
+nekretnine.rs — RENTA
+============================================================
+
+  Stranica 1: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska, Beograd na vodi - Palata pra
+    [1/24] Četvorosobni stan 308 m², Beograd na vodi - Palata pravde, B
+    [2/24] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [3/24] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [4/24] Trosobni stan novo, 27, Beograd na vodi - Palata pravde, Beo
+    [5/24] Četvorosobni stan novo, 13, Beograd na vodi - Palata pravde,
+    [6/24] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [7/24] Trosobni stan Nikolaj Kravcova 1, Beograd na vodi - Palata p
+    [8/24] Trosobni stan Nikolaj Kravcova 1, Beograd na vodi - Palata p
+    [9/24] Četvorosobni stan 112 m², Beograd na vodi - Palata pravde, B
+    [10/24] Dvosobni stan 52 m², Beograd na vodi - Palata pravde, Beogra
+    [11/24] Trosobni stan 76 m², Beograd na vodi - Palata pravde, Beogra
+    [12/24] Trosobni stan 75 m², Beograd na vodi - Palata pravde, Beogra
+    [13/24] Dvosobni stan 61 m², Beograd na vodi - Palata pravde, Beogra
+    [14/24] Trosobni stan u dobrom stanju, osmi sprat, Beograd na vodi -
+    [15/24] Dvosobni stan 92 m², Beograd na vodi - Palata pravde, Beogra
+    [16/24] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [17/24] Četvorosobni stan 79 m², Beograd na vodi - Palata pravde, Be
+    [18/24] Dvosobni stan novo, 30, Beograd na vodi - Palata pravde, Beo
+    [19/24] Dvosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [20/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [21/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [22/24] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [23/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [24/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 24
+
+  Stranica 2: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=2
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Ulica Kneza Milosa 88B, Beograd na vodi - Pala
+      ✗ Isključen: Dvosobni stan Bulevar kralja Aleksandra I Karađorđevića (Sav
+      ✗ Isključen: Dvosobni stan Kneza Miloša 45, Klinički centar - Kneza Milos
+    [1/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [2/22] Četvorosobni stan Luke Celovica Trebinjca, Beograd na vodi -
+    [3/22] Četvorosobni stan Vudroa Vilsona, Beograd na vodi - Palata p
+    [4/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [5/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [7/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [8/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [10/22] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [11/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [12/22] Dvosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [13/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [14/22] Četvorosobni stan Ulica Hercegovacka 13A, Savamala, Beograd
+    [15/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/22] Dvosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [17/22] Dvosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [18/22] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [19/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [20/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [21/22] Četvorosobni stan BW Queens, Beograd na vodi - Palata pravde
+    [22/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+  ✓ Ukupno do sada: 46
+
+  Stranica 3: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=3
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan kneza milosa, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Risanska, Beograd na vodi - Palata pravde, Beo
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+    [1/21] Trosobni stan Nikolaja Kvarcova, Beograd na vodi - Palata pr
+    [2/21] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [3/21] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [4/21] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [5/21] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/21] Trosobni stan bulevar vudroa vilsona, Beograd na vodi - Pala
+    [7/21] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [8/21] Trosobni stan Ulica Hercegovacka 14B, Beograd na vodi - Pala
+    [9/21] Trosobni stan Ulica Hercegovacka 14, Beograd na vodi - Palat
+    [10/21] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [11/21] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/21] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [13/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/21] Dvosobni stan BW Perla, Beograd na vodi - Palata pravde, Beo
+    [15/21] Četvorosobni stan Savska, Beograd na vodi - Palata pravde, B
+    [16/21] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [17/21] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [18/21] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [19/21] Dvosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [20/21] Četvorosobni stan 164 m², Beograd na vodi - Palata pravde, B
+    [21/21] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+  ✓ Ukupno do sada: 67
+
+  Stranica 4: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=4
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Durmitorska, Beograd na vodi - Palata pravde, 
+      ✗ Isključen: Jednosoban stan Vojvode Milenka, Beograd na vodi - Palata pr
+      ✗ Isključen: Dvosobni stan Risanska, Beograd na vodi - Palata pravde, Beo
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+    [1/20] Četvorosobni stan novo, 23, Beograd na vodi - Palata pravde,
+    [2/20] Dvosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [3/20] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [4/20] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [5/20] Dvosobni stan Savska, Savamala, Beograd
+    [6/20] Četvorosobni stan Bw King's Park, Beograd na vodi - Palata p
+    [7/20] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [8/20] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [9/20] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [10/20] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/20] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [12/20] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [13/20] Trosobni stan u dobrom stanju, 23, Beograd na vodi - Palata 
+    [14/20] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [16/20] Jednosoban stan Luke Ćelovića Trebinjca, Beograd na vodi - P
+    [17/20] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [18/20] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [19/20] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [20/20] Četvorosobni stan 115 m², Beograd na vodi - Palata pravde, B
+  ✓ Ukupno do sada: 87
+
+  Stranica 5: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=5
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Višegradska, Beograd na vodi - Palata prav
+      ✗ Isključen: Jednosoban stan Risanska, Beograd na vodi - Palata pravde, B
+    [1/23] Trosobni stan novo, 20, Beograd na vodi - Palata pravde, Beo
+    [2/23] Trosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [3/23] Stan odlično stanje, prvi sprat, Savamala, Beograd
+    [4/23] Dvosobni stan Hercegovačka 19, Beograd na vodi - Palata prav
+    [5/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/23] Dvosobni stan Savska, Savamala, Beograd
+    [7/23] Trosobni stan Belgrade Waterfront-ARIA, Beograd na vodi - Pa
+    [8/23] Dvosobni stan Savska, Savamala, Beograd
+    [9/23] Dvosobni stan Savska, Savamala, Beograd
+    [10/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [12/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/23] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [14/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/23] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/23] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [17/23] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [18/23] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [19/23] Jednosoban stan Ulica Hercegovacka, Beograd na vodi - Palata
+    [20/23] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [21/23] Četvorosobni stan novo, 15, Beograd na vodi - Palata pravde,
+    [22/23] Četvorosobni stan novo, šesti sprat, Beograd na vodi - Palat
+    [23/23] Dvosobni stan novo, 32, Beograd na vodi - Palata pravde, Beo
+  ✓ Ukupno do sada: 110
+
+  Stranica 6: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=6
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Duplex Durmitorska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+    [1/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [3/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [4/22] Četvorosobni stan u dobrom stanju, šesti sprat, Beograd na v
+    [5/22] Dvosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [6/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [7/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [9/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [10/22] Četvorosobni stan u dobrom stanju, prvi sprat, Beograd na vo
+    [11/22] Dvosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [12/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [13/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [14/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/22] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [17/22] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [18/22] Dvosobni stan drugi sprat, Beograd na vodi - Palata pravde, 
+    [19/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [20/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [21/22] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [22/22] Stan Bulevar Vudroa Vilsona 8V, Beograd na vodi - Palata pra
+  ✓ Ukupno do sada: 132
+
+  Stranica 7: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=7
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Beograd na vodi - Palata pravde,
+    [1/24] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [2/24] Stan Hercegovačka-savski Venac, Beograd na vodi - Palata pra
+    [3/24] Dvosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [4/24] Dvosobni stan Luke ćelovića Trebinjca, Beograd na vodi - Pal
+    [5/24] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [6/24] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [7/24] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [8/24] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [9/24] Trosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [10/24] Trosobni stan drugi sprat, Savamala, Beograd
+    [11/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [12/24] Dvosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [13/24] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [14/24] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [15/24] Trosobni stan Bulevar Vuka Karadžića, Beograd na vodi - Pala
+    [16/24] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [17/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/24] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [19/24] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [20/24] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [21/24] Trosobni stan Bulevar Vudroa Vilsona 50, Beograd na vodi - P
+    [22/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [23/24] Dvosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [24/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 156
+
+  Stranica 8: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=8
+    → Pronađeno 24 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Dvosobni stan Risanska, Beograd na vodi - Palata pravde, Beo
+    [1/21] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/21] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [3/21] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [4/21] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [5/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/21] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [7/21] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [8/21] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [9/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [10/21] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [11/21] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [12/21] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [13/21] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [14/21] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/21] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [16/21] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [17/21] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/21] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [19/21] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [20/21] Jednosoban stan dr Aleksandra Kostica, Beograd na vodi - Pal
+    [21/21] Dvosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+  ✓ Ukupno do sada: 177
+
+  Stranica 9: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=9
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Jednosoban stan Ulica Sarajevska, Beograd na vodi - Palata p
+    [1/17] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [2/17] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [3/17] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [4/17] Dvosobni stan Belgrade Waterfront, Beograd na vodi - Palata 
+    [5/17] Četvorosobni stan novo, 13, Beograd na vodi - Palata pravde,
+    [6/17] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [7/17] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/17] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [9/17] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [10/17] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [11/17] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [12/17] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [13/17] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [14/17] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/17] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [16/17] Dvosobni stan četvrti sprat, Savamala, Beograd
+    [17/17] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+  ✓ Ukupno do sada: 194
+
+  Stranica 10: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=10
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan četvrti sprat, Klinički centar - Kneza Milosa,
+      ✗ Isključen: Trosobni stan 11, Klinički centar - Kneza Milosa, Beograd
+    [1/23] Trosobni stan prvi sprat, Beograd na vodi - Palata pravde, B
+    [2/23] Trosobni stan četvrti sprat, Beograd na vodi - Palata pravde
+    [3/23] Trosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [4/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [5/23] Trosobni stan četvrti sprat, Beograd na vodi - Palata pravde
+    [6/23] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [7/23] Četvorosobni stan peti sprat, Beograd na vodi - Palata pravd
+    [8/23] Četvorosobni stan 13, Beograd na vodi - Palata pravde, Beogr
+    [9/23] Trosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [10/23] Dvosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [11/23] Četvorosobni stan sedmi sprat, Beograd na vodi - Palata prav
+    [12/23] Trosobni stan drugi sprat, Savamala, Beograd
+    [13/23] Trosobni stan 15, Beograd na vodi - Palata pravde, Beograd
+    [14/23] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [15/23] Trosobni stan 16, Beograd na vodi - Palata pravde, Beograd
+    [16/23] Trosobni stan osmi sprat, Beograd na vodi - Palata pravde, B
+    [17/23] Dvosobni stan 16, Beograd na vodi - Palata pravde, Beograd
+    [18/23] Trosobni stan četvrti sprat, Beograd na vodi - Palata pravde
+    [19/23] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [20/23] Četvorosobni stan peti sprat, Beograd na vodi - Palata pravd
+    [21/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [22/23] Dvosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [23/23] Dvosobni stan 12, Beograd na vodi - Palata pravde, Beograd
+  ✓ Ukupno do sada: 217
+
+  Stranica 11: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=11
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan u dobrom stanju, prvi sprat, Klinički cent
+      ✗ Isključen: Jednosoban stan Višegradska, Beograd na vodi - Palata pravde
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+    [1/22] Dvosobni stan šesti sprat, Beograd na vodi - Palata pravde, 
+    [2/22] Četvorosobni stan deveti sprat, Beograd na vodi - Palata pra
+    [3/22] Četvorosobni stan deseti sprat, Beograd na vodi - Palata pra
+    [4/22] Četvorosobni stan Luke Cerovica Trebinjca, Beograd na vodi -
+    [5/22] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [6/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [7/22] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [8/22] Trosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+    [9/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [10/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [11/22] Trosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [12/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/22] Četvorosobni stan novo, 16, Beograd na vodi - Palata pravde,
+    [14/22] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [15/22] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [16/22] Trosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [17/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/22] Dvosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [19/22] Dvosobni stan drugi sprat, Beograd na vodi - Palata pravde, 
+    [20/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [21/22] Trosobni stan sedmi sprat, Savamala, Beograd
+    [22/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 239
+
+  Stranica 12: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=12
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan prvi sprat, Klinički centar - Kneza Milosa, Be
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Jednosoban stan Višegradska, Beograd na vodi - Palata pravde
+    [1/21] Trosobni stan 12, Beograd na vodi - Palata pravde, Beograd
+    [2/21] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [3/21] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [4/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [5/21] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [6/21] Dvosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [7/21] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [8/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [9/21] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [10/21] Dvosobni stan prvi sprat, Beograd na vodi - Palata pravde, B
+    [11/21] Trosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [12/21] Trosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [13/21] Trosobni stan Luke Celovca Trebinjca, Beograd na vodi - Pala
+    [14/21] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [15/21] Dvosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [16/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [17/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [18/21] Dvosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [19/21] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [20/21] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [21/21] Trosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+  ✓ Ukupno do sada: 260
+
+  Stranica 13: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=13
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Sarajevska, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Trosobni stan u dobrom stanju, prvi sprat, Klinički centar -
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Trosobni stan Bulevar kralja Aleksandra I Karađorđevića, Beo
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Jednosoban stan Durmitorska, Beograd na vodi - Palata pravde
+    [1/18] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [2/18] Dvosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [3/18] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [4/18] Jednosoban stan novo, četvrti sprat, Beograd na vodi - Palat
+    [5/18] Jednosoban stan Aleksandra Glišića, Beograd na vodi - Palata
+    [6/18] Trosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [7/18] Stan Savska, Beograd na vodi - Palata pravde, Beograd
+    [8/18] Četvorosobni stan BW Eterna, Beograd na vodi - Palata pravde
+    [9/18] Trosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+    [10/18] Trosobni stan BW Sole, Beograd na vodi - Palata pravde, Beog
+    [11/18] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [12/18] Jednosoban stan u dobrom stanju, četvrti sprat, Beograd na v
+    [13/18] Trosobni stan odlično stanje, Beograd na vodi - Palata pravd
+    [14/18] Dvosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [15/18] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [16/18] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [17/18] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [18/18] Dvosobni stan prizemlje, Savamala, Beograd
+  ✓ Ukupno do sada: 278
+
+  Stranica 14: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=14
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Beograd na vodi - Palata pra
+      ✗ Isključen: Trosobni stan Kneza Miloša, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Stan za renoviranje, prvi sprat, Klinički centar - Kneza Mil
+    [1/20] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [2/20] Dvosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [3/20] Trosobni stan BW Libera, Beograd na vodi - Palata pravde, Be
+    [4/20] Dvosobni stan Aria, Beograd na vodi - Palata pravde, Beograd
+    [5/20] Jednosoban stan novo, peti sprat, Beograd na vodi - Palata p
+    [6/20] Dvosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [7/20] Četvorosobni stan 13, Beograd na vodi - Palata pravde, Beogr
+    [8/20] Trosobni stan u dobrom stanju, 17, Beograd na vodi - Palata 
+    [9/20] Trosobni stan u dobrom stanju, 17, Beograd na vodi - Palata 
+    [10/20] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [11/20] Dvosobni stan 70 m², Beograd na vodi - Palata pravde, Beogra
+    [12/20] Dvosobni stan u dobrom stanju, četvrti sprat, Beograd na vod
+    [13/20] Trosobni stan 23, Beograd na vodi - Palata pravde, Beograd
+    [14/20] Trosobni stan BW Quartet 1, Beograd na vodi - Palata pravde,
+    [15/20] Dvosobni stan BW King's Park Residences, Beograd na vodi - P
+    [16/20] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [17/20] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [18/20] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [19/20] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [20/20] Dvosobni stan drugi sprat, Beograd na vodi - Palata pravde, 
+  ✓ Ukupno do sada: 298
+
+  Stranica 15: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=15
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Durmitorska, Beograd na vodi - Palata pravde
+    [1/24] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [2/24] Jednosoban stan Nemanjina, Beograd na vodi - Palata pravde, 
+    [3/24] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [4/24] Četvorosobni stan u dobrom stanju, peti sprat, Beograd na vo
+    [5/24] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [6/24] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [7/24] Dvosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [8/24] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [9/24] Četvorosobni stan novo, šesti sprat, Beograd na vodi - Palat
+    [10/24] Dvosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [11/24] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [12/24] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [13/24] Četvorosobni stan novo, 30, Beograd na vodi - Palata pravde,
+    [14/24] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [15/24] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [16/24] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [17/24] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [18/24] Trosobni stan novo, 11, Beograd na vodi - Palata pravde, Beo
+    [19/24] Trosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [20/24] Dvosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [21/24] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [22/24] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [23/24] Četvorosobni stan novo, 14, Beograd na vodi - Palata pravde,
+    [24/24] Četvorosobni stan novo, treći sprat, Beograd na vodi - Palat
+  ✓ Ukupno do sada: 322
+
+  Stranica 16: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=16
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+    [1/24] Četvorosobni stan novo, 14, Beograd na vodi - Palata pravde,
+    [2/24] Četvorosobni stan novo, 12, Beograd na vodi - Palata pravde,
+    [3/24] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [4/24] Stan novo, četvrti sprat, Beograd na vodi - Palata pravde, B
+    [5/24] Dvosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [6/24] Četvorosobni stan novo, četvrti sprat, Beograd na vodi - Pal
+    [7/24] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [8/24] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [9/24] Četvorosobni stan u dobrom stanju, treći sprat, Beograd na v
+    [10/24] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [11/24] Četvorosobni stan novo, sedmi sprat, Beograd na vodi - Palat
+    [12/24] Dvosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [13/24] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [14/24] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [15/24] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [16/24] Trosobni stan sedmi sprat, Beograd na vodi - Palata pravde, 
+    [17/24] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [18/24] Dvosobni stan BW Sensa, Beograd na vodi - Palata pravde, Beo
+    [19/24] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [20/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [21/24] Dvosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [22/24] Stan peti sprat, Savamala, Beograd
+    [23/24] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [24/24] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+  ✓ Ukupno do sada: 346
+
+  Stranica 17: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=17
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska 80, Beograd na vodi - Palata 
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska 19, Beograd na vodi - Palata 
+    [1/23] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [2/23] Jednosoban stan novo, šesti sprat, Beograd na vodi - Palata 
+    [3/23] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [4/23] Trosobni stan novo, 21, Beograd na vodi - Palata pravde, Beo
+    [5/23] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [6/23] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [7/23] Dvosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [8/23] Dvosobni stan u dobrom stanju, sedmi sprat, Beograd na vodi 
+    [9/23] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [10/23] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [11/23] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [12/23] Trosobni stan novo, 25, Beograd na vodi - Palata pravde, Beo
+    [13/23] Dvosobni stan novo, 20, Beograd na vodi - Palata pravde, Beo
+    [14/23] Četvorosobni stan 12, Beograd na vodi - Palata pravde, Beogr
+    [15/23] Trosobni stan BW Residences, Beograd na vodi - Palata pravde
+    [16/23] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [17/23] Trosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [18/23] Četvorosobni stan četvrti sprat, Beograd na vodi - Palata pr
+    [19/23] Jednosoban stan novo, drugi sprat, Beograd na vodi - Palata 
+    [20/23] Jednosoban stan peti sprat, Beograd na vodi - Palata pravde,
+    [21/23] Stan drugi sprat, Beograd na vodi - Palata pravde, Beograd
+    [22/23] Dvosobni stan Savska 15, Savamala, Beograd
+    [23/23] Stan Ulica Savska 17, Beograd na vodi - Palata pravde, Beogr
+  ✓ Ukupno do sada: 369
+
+  Stranica 18: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=18
+    → Pronađeno 2 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Ulica Bircaninova, Klinički centar - Kneza Mil
+    [1/1] Trosobni stan Bulevar Vudroa Vilsona 14, Beograd na vodi - P
+  ✓ Ukupno do sada: 370
+
+  Stranica 19: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?strana=19
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska, Beograd na vodi - Palata pra
+  → Nema novih oglasa, zaustavljam.
+
+  Ukupno renta: 370 oglasa
+  💾 Snimljeno: data\latest_nrs_renta.json (370 stavki, +14 novih, -4 skinutih)
+
+Pokretam git push...
+
+⚠ Git push pokušaj 1/3 neuspešan: Command '['git', 'pull', '--rebase', '-X', 'ours', 'origin', 'main']' returned non-zero exit status 128.
+
+⚠ Git push pokušaj 2/3 neuspešan: Command '['git', 'pull', '--rebase', '-X', 'ours', 'origin', 'main']' returned non-zero exit status 128.
+
+⚠ Git push pokušaj 3/3 neuspešan: Command '['git', 'pull', '--rebase', '-X', 'ours', 'origin', 'main']' returned non-zero exit status 128.
+
+❌ Git push neuspešan posle 3 pokušaja — pushajte ručno.
+
+Gotovo.
+error: could not write index
+data/latest_nrs_prodaja.json: needs merge
+data/latest_nrs_renta.json: needs merge
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+error: could not write index
+data/latest_nrs_prodaja.json: needs merge
+data/latest_nrs_renta.json: needs merge
+The stash entry is kept in case you need it again.
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+Browser pokrenut (headless=True)
+
+nekretnine.rs — PRODAJA
+============================================================
+
+  Stranica 1: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Ulica Kneza Milosa 90A, Beograd na vodi - Pa
+    [1/24] Četvorosobni stan 25, Beograd na vodi - Palata pravde, Beogr
+    [2/24] Dvosobni stan 24, Beograd na vodi - Palata pravde, Beograd
+    [3/24] Trosobni stan 22, Beograd na vodi - Palata pravde, Beograd
+    [4/24] Četvorosobni stan Ulica Hercegovacka 16, Beograd na vodi - P
+    [5/24] Trosobni stan Luke Ćelebića Trebinjca, Beograd na vodi - Pal
+    [6/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [7/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [8/24] Četvorosobni stan Ulica Nikolaja Kravcova, Beograd na vodi -
+    [9/24] Četvorosobni stan 113 m², Beograd na vodi - Palata pravde, B
+    [10/24] Trosobni stan 91 m², Beograd na vodi - Palata pravde, Beogra
+    [11/24] Četvorosobni stan 139 m², Beograd na vodi - Palata pravde, B
+    [12/24] Četvorosobni stan 152 m², Beograd na vodi - Palata pravde, B
+    [13/24] Dvosobni stan 62 m², Beograd na vodi - Palata pravde, Beogra
+    [14/24] Četvorosobni stan 164 m², Beograd na vodi - Palata pravde, B
+    [15/24] Četvorosobni stan 124 m², Beograd na vodi - Palata pravde, B
+    [16/24] Dvosobni stan 60 m², Beograd na vodi - Palata pravde, Beogra
+    [17/24] Trosobni stan Hercegovačka-savski Venac, Beograd na vodi - P
+    [18/24] Dvosobni stan 82 m², Beograd na vodi - Palata pravde, Beogra
+    [19/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [20/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [21/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [22/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [23/24] Dvosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [24/24] Trosobni stan Karađorđeva, Beograd na vodi - Palata pravde, 
+  ✓ Ukupno do sada: 24
+
+  Stranica 2: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=2
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Bulevar kralja Aleksandra I Karađorđevića,
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Beograd na vodi - Palata pra
+      ✗ Isključen: Trosobni stan Višegradska, Beograd na vodi - Palata pravde, 
+    [1/22] Trosobni stan Beograd na vodi, Beograd na vodi - Palata prav
+    [2/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [3/22] Dvosobni stan 61 m², Beograd na vodi - Palata pravde, Beogra
+    [4/22] Trosobni stan 99 m², Beograd na vodi - Palata pravde, Beogra
+    [5/22] Trosobni stan 74 m², Beograd na vodi - Palata pravde, Beogra
+    [6/22] Jednosoban stan 28 m², Beograd na vodi - Palata pravde, Beog
+    [7/22] Trosobni stan 83 m², Beograd na vodi - Palata pravde, Beogra
+    [8/22] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [9/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [10/22] Četvorosobni stan Ulica Hercegovacka 21, Beograd na vodi - P
+    [11/22] Dvosobni stan Luka Čelović Trebinjac, Beograd na vodi - Pala
+    [12/22] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [13/22] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [14/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [16/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [17/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [18/22] Četvorosobni stan Ulica Hercegovacka 21, Beograd na vodi - P
+    [19/22] Dvosobni stan BW Kula, Beograd na vodi - Palata pravde, Beog
+    [20/22] Dvosobni stan Bw King's Park, Beograd na vodi - Palata pravd
+    [21/22] Dvosobni stan Bw Victoria, Beograd na vodi - Palata pravde, 
+    [22/22] Trosobni stan Bulevar Vudroa Vilsona (BW Aria), Beograd na v
+  ✓ Ukupno do sada: 46
+
+  Stranica 3: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=3
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Risanska, Beograd na vodi - Palata pravde, Beograd
+    [1/24] Trosobni stan Bulevar Vudroa Vilsona (BW Aria), Beograd na v
+    [2/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [3/24] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [4/24] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [5/24] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [6/24] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [7/24] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [8/24] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [9/24] Dvosobni stan odlično stanje, 14, Beograd na vodi - Palata p
+    [10/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/24] Četvorosobni stan u dobrom stanju, deseti sprat, Beograd na 
+    [15/24] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/24] Dvosobni stan u dobrom stanju, 22, Beograd na vodi - Palata 
+    [17/24] Četvorosobni stan Hercegovačka (BW Residences), Beograd na v
+    [18/24] Četvorosobni stan Hercegovačka (BW Residences), Beograd na v
+    [19/24] Jednosoban stan Hercegovačka, Beograd na vodi - Palata pravd
+    [20/24] Četvorosobni stan u dobrom stanju, osmi sprat, Beograd na vo
+    [21/24] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [22/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [23/24] Dvosobni stan Luke Cerovica Trebinjca, Beograd na vodi - Pal
+    [24/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+  ✓ Ukupno do sada: 70
+
+  Stranica 4: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=4
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Durmitorska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Stan Kneza Milosa, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+    [1/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [3/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [4/22] Četvorosobni stan novo, 21, Beograd na vodi - Palata pravde,
+    [5/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [6/22] Jednosoban stan Ulica Hercegovacka 14B, Beograd na vodi - Pa
+    [7/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [10/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [11/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/22] Četvorosobni stan Bw Lumia, Beograd na vodi - Palata pravde,
+    [13/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [14/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [16/22] Četvorosobni stan u dobrom stanju, 19, Beograd na vodi - Pal
+    [17/22] Stan novo, 14, Beograd na vodi - Palata pravde, Beograd
+    [18/22] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [19/22] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [20/22] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [21/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [22/22] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+  ✓ Ukupno do sada: 92
+
+  Stranica 5: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=5
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Risanska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Trosobni stan Ulica Sarajevska, Beograd na vodi - Palata pra
+      ✗ Isključen: Stan Nemanjina, Klinički centar - Kneza Milosa, Beograd
+    [1/22] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [2/22] Dvosobni stan u dobrom stanju, deseti sprat, Beograd na vodi
+    [3/22] Trosobni stan BW Iris, Beograd na vodi - Palata pravde, Beog
+    [4/22] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [5/22] Trosobni stan BW Simfonija 2, Beograd na vodi - Palata pravd
+    [6/22] Stan u dobrom stanju, 20, Beograd na vodi - Palata pravde, B
+    [7/22] Dvosobni stan BW King's Park Residences, Beograd na vodi - P
+    [8/22] Četvorosobni stan BW Kula, Beograd na vodi - Palata pravde, 
+    [9/22] Trosobni stan u dobrom stanju, 11, Beograd na vodi - Palata 
+    [10/22] Jednosoban stan u dobrom stanju, 14, Beograd na vodi - Palat
+    [11/22] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [12/22] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [13/22] Dvosobni stan u dobrom stanju, deveti sprat, Beograd na vodi
+    [14/22] Četvorosobni stan Bulevar Vudroa Vilsona (BW Metropolitan), 
+    [15/22] Četvorosobni stan u dobrom stanju, 23, Beograd na vodi - Pal
+    [16/22] Četvorosobni stan novo, 14, Beograd na vodi - Palata pravde,
+    [17/22] Četvorosobni stan Bulevar Vudroa Vilsona (BW Metropolitan), 
+    [18/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [19/22] Dvosobni stan BW Aqua, Beograd na vodi - Palata pravde, Beog
+    [20/22] Četvorosobni stan u dobrom stanju, 11, Beograd na vodi - Pal
+    [21/22] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [22/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 114
+
+  Stranica 6: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=6
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+    [1/22] Dvosobni stan u dobrom stanju, sedmi sprat, Beograd na vodi 
+    [2/22] Jednosoban stan novo, peti sprat, Beograd na vodi - Palata p
+    [3/22] Trosobni stan u dobrom stanju, 14, Beograd na vodi - Palata 
+    [4/22] Trosobni stan u dobrom stanju, 23, Beograd na vodi - Palata 
+    [5/22] Četvorosobni stan novo, 18, Beograd na vodi - Palata pravde,
+    [6/22] Dvosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [7/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/22] Trosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [10/22] Dvosobni stan u dobrom stanju, 17, Beograd na vodi - Palata 
+    [11/22] Trosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [12/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/22] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [14/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [15/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [16/22] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [17/22] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [18/22] Jednosoban stan Luke Ćelovića Trebinjca, Beograd na vodi - P
+    [19/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [20/22] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [21/22] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [22/22] Jednosoban stan u dobrom stanju, deveti sprat, Beograd na vo
+  ✓ Ukupno do sada: 136
+
+  Stranica 7: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=7
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Višegradska, Beograd na vodi - Palata pravde, 
+      ✗ Isključen: Trosobni stan Kneza Miloša, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Hajduk-Veljkov venac, Beograd na vodi - Palata
+    [1/21] Jednosoban stan novo, sedmi sprat, Beograd na vodi - Palata 
+    [2/21] Četvorosobni stan novo, 16, Beograd na vodi - Palata pravde,
+    [3/21] Dvosobni stan odlično stanje, 13, Beograd na vodi - Palata p
+    [4/21] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [5/21] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [6/21] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [7/21] Trosobni stan Vožda Đorđa Stratimirovića, Beograd na vodi - 
+    [8/21] Dvosobni stan u dobrom stanju, 22, Beograd na vodi - Palata 
+    [9/21] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+    [10/21] Dvosobni stan BW Perla, Beograd na vodi - Palata pravde, Beo
+    [11/21] Garsonjera Hercegovačka, Beograd na vodi - Palata pravde, Be
+    [12/21] Četvorosobni stan u dobrom stanju, osmi sprat, Beograd na vo
+    [13/21] Dvosobni stan u dobrom stanju, 25, Beograd na vodi - Palata 
+    [14/21] Stan novo, peti sprat, Beograd na vodi - Palata pravde, Beog
+    [15/21] Dvosobni stan BW King`s Park, Beograd na vodi - Palata pravd
+    [16/21] Dvosobni stan BW Diva, Beograd na vodi - Palata pravde, Beog
+    [17/21] Četvorosobni stan novo, šesti sprat, Beograd na vodi - Palat
+    [18/21] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [19/21] Trosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [20/21] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+    [21/21] Četvorosobni stan Hercegovačka, Beograd na vodi - Palata pra
+  ✓ Ukupno do sada: 157
+
+  Stranica 8: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=8
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan treći sprat, Klinički centar - Kneza Milos
+    [1/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/24] Dvosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [3/24] Dvosobni stan BW Iskra, Beograd na vodi - Palata pravde, Beo
+    [4/24] Četvorosobni stan u dobrom stanju, 16, Beograd na vodi - Pal
+    [5/24] Dvosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [6/24] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [7/24] Dvosobni stan Luke ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [10/24] Trosobni stan BW Vista, Beograd na vodi - Palata pravde, Beo
+    [11/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [12/24] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [13/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/24] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [15/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [16/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [17/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/24] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [19/24] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [20/24] Duplex Luke Ćelovića Trebinjca, Beograd na vodi - Palata pra
+    [21/24] Trosobni stan novo, 11, Beograd na vodi - Palata pravde, Beo
+    [22/24] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [23/24] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [24/24] Četvorosobni stan BW Perla, Beograd na vodi - Palata pravde,
+  ✓ Ukupno do sada: 181
+
+  Stranica 9: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=9
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Višegradska, Beograd na vodi - Palata pravde, 
+    [1/24] Dvosobni stan u dobrom stanju, 15, Beograd na vodi - Palata 
+    [2/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [3/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [4/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [5/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [7/24] Trosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [8/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [10/24] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [11/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [12/24] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [13/24] Stan novo, osmi sprat, Beograd na vodi - Palata pravde, Beog
+    [14/24] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [15/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [16/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [17/24] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [18/24] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [19/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [20/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [21/24] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [22/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [23/24] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [24/24] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 205
+
+  Stranica 10: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=10
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Vojvode Milenka, Beograd na vodi - Palata 
+      ✗ Isključen: Dvosobni stan Bulevar kralja Aleksandra I Karađorđevića, Beo
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+    [1/19] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [2/19] Jednosoban stan novo, 14, Beograd na vodi - Palata pravde, B
+    [3/19] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [4/19] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [5/19] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [6/19] Četvorosobni stan Savska, Beograd na vodi - Palata pravde, B
+    [7/19] Četvorosobni stan osmi sprat, Beograd na vodi - Palata pravd
+    [8/19] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [9/19] Stan osmi sprat, Savamala, Beograd
+    [10/19] Trosobni stan Vudroa Vilsona, Beograd na vodi - Palata pravd
+    [11/19] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [12/19] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/19] Trosobni stan deveti sprat, Beograd na vodi - Palata pravde,
+    [14/19] Stan osmi sprat, Beograd na vodi - Palata pravde, Beograd
+    [15/19] Trosobni stan BW Riviera, Beograd na vodi - Palata pravde, B
+    [16/19] Trosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [17/19] Trosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [18/19] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [19/19] Četvorosobni stan 17, Beograd na vodi - Palata pravde, Beogr
+  ✓ Ukupno do sada: 224
+
+  Stranica 11: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=11
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+      ✗ Isključen: Stan Visegradska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Duplex Sarajevska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+    [1/20] Jednosoban stan u dobrom stanju, šesti sprat, Beograd na vod
+    [2/20] Trosobni stan u dobrom stanju, 12, Beograd na vodi - Palata 
+    [3/20] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [4/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [5/20] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [6/20] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [7/20] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/20] Dvosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [9/20] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [10/20] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [11/20] Jednosoban stan Hercegovačka-savski Venac, Beograd na vodi -
+    [12/20] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [13/20] Dvosobni stan u dobrom stanju, 11, Beograd na vodi - Palata 
+    [14/20] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/20] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/20] Trosobni stan sedmi sprat, Savamala, Beograd
+    [17/20] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/20] Jednosoban stan novo, sedmi sprat, Beograd na vodi - Palata 
+    [19/20] Četvorosobni stan odlično stanje, četvrti sprat, Beograd na 
+    [20/20] Trosobni stan u dobrom stanju, četvrti sprat, Beograd na vod
+  ✓ Ukupno do sada: 244
+
+  Stranica 12: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=12
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Stan Kneza Miloša, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Trosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+    [1/20] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [2/20] Jednosoban stan Hercegovačka-savski Venac, Beograd na vodi -
+    [3/20] Dvosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [4/20] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [5/20] Stan novo, 22, Beograd na vodi - Palata pravde, Beograd
+    [6/20] Jednosoban stan Hercegovačka, Beograd na vodi - Palata pravd
+    [7/20] Dvosobni stan novo, 33, Beograd na vodi - Palata pravde, Beo
+    [8/20] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [9/20] Trosobni stan Savski trg, Savamala, Beograd
+    [10/20] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [11/20] Stan u dobrom stanju, peti sprat, Beograd na vodi - Palata p
+    [12/20] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [13/20] Trosobni stan Hercegovačka-savski Venac, Beograd na vodi - P
+    [14/20] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [15/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [16/20] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [17/20] Četvorosobni stan Savska, Beograd na vodi - Palata pravde, B
+    [18/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [19/20] Četvorosobni stan novo, Beograd na vodi - Palata pravde, Beo
+    [20/20] Trosobni stan u dobrom stanju, deveti sprat, Beograd na vodi
+  ✓ Ukupno do sada: 264
+
+  Stranica 13: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=13
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Sarajevska, Beograd na vodi - Palata pravde, Beograd
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Durmitorska, Beograd na vodi - Palata pravde, 
+      ✗ Isključen: Četvorosobni stan Risanska, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+    [1/20] Stan u dobrom stanju, osmi sprat, Beograd na vodi - Palata p
+    [2/20] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [3/20] Dvosobni stan Vudroa Vilsona, Beograd na vodi - Palata pravd
+    [4/20] Trosobni stan Hercegovačka, Savamala, Beograd
+    [5/20] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [6/20] Trosobni stan Simfonija I, Beograd na vodi - Palata pravde, 
+    [7/20] Dvosobni stan 67 m², Beograd na vodi - Palata pravde, Beogra
+    [8/20] Dvosobni stan novo, 16, Beograd na vodi - Palata pravde, Beo
+    [9/20] Trosobni stan Riviera, Beograd na vodi - Palata pravde, Beog
+    [10/20] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/20] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [12/20] Četvorosobni stan Nikolaja Kravcova, Beograd na vodi - Palat
+    [13/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [14/20] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/20] Dvosobni stan 65 m², Beograd na vodi - Palata pravde, Beogra
+    [16/20] Trosobni stan u dobrom stanju, četvrti sprat, Beograd na vod
+    [17/20] Jednosoban stan novo, prizemlje, Beograd na vodi - Palata pr
+    [18/20] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [19/20] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [20/20] Jednosoban stan prvi sprat, Savamala, Beograd
+  ✓ Ukupno do sada: 284
+
+  Stranica 14: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=14
+    → Pronađeno 19 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan u dobrom stanju, šesti sprat, Klinički cen
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+    [1/17] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [2/17] Četvorosobni stan u dobrom stanju, sedmi sprat, Beograd na v
+    [3/17] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [4/17] Trosobni stan Bul. Vudroa Vilsona, Beograd na vodi - Palata 
+    [5/17] Garsonjera na prodaju, Beograd na vodi - Palata pravde, Beog
+    [6/17] Jednosoban stan novo, drugi sprat, Beograd na vodi - Palata 
+    [7/17] Četvorosobni stan novo, 15, Beograd na vodi - Palata pravde,
+    [8/17] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/17] Dvosobni stan novo, 31, Beograd na vodi - Palata pravde, Beo
+    [10/17] Četvorosobni stan novo, deveti sprat, Beograd na vodi - Pala
+    [11/17] Stan Luke Ćelovića Trebinjca, Beograd na vodi - Palata pravd
+    [12/17] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/17] Stan 156 m², Beograd na vodi - Palata pravde, Beograd
+    [14/17] Garsonjera Dr Aleksandra Kostica 19., Beograd na vodi - Pala
+    [15/17] Četvorosobni stan peti sprat, Beograd na vodi - Palata pravd
+    [16/17] Stan novo, Beograd na vodi - Palata pravde, Beograd
+    [17/17] Jednosoban stan odlično stanje, treći sprat, Beograd na vodi
+  ✓ Ukupno do sada: 301
+
+  Stranica 15: https://www.nekretnine.rs/prodaja-stanova/beograd/beograd-na-vodi-palata-pravde/?strana=15
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Ulica Kneza Milosa 90A, Beograd na vodi - Pa
+  → Nema novih oglasa, zaustavljam.
+
+  Ukupno prodaja: 301 oglasa
+  💾 Snimljeno: data\latest_nrs_prodaja.json (301 stavki, +7 novih, -7 skinutih)
+
+nekretnine.rs — RENTA
+============================================================
+
+  Stranica 1: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska, Beograd na vodi - Palata pra
+    [1/24] Četvorosobni stan 308 m², Beograd na vodi - Palata pravde, B
+    [2/24] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [3/24] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [4/24] Trosobni stan novo, 27, Beograd na vodi - Palata pravde, Beo
+    [5/24] Četvorosobni stan novo, 13, Beograd na vodi - Palata pravde,
+    [6/24] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [7/24] Trosobni stan Nikolaj Kravcova 1, Beograd na vodi - Palata p
+    [8/24] Trosobni stan Nikolaj Kravcova 1, Beograd na vodi - Palata p
+    [9/24] Četvorosobni stan 112 m², Beograd na vodi - Palata pravde, B
+    [10/24] Dvosobni stan 52 m², Beograd na vodi - Palata pravde, Beogra
+    [11/24] Trosobni stan 76 m², Beograd na vodi - Palata pravde, Beogra
+    [12/24] Trosobni stan 75 m², Beograd na vodi - Palata pravde, Beogra
+    [13/24] Dvosobni stan 61 m², Beograd na vodi - Palata pravde, Beogra
+    [14/24] Trosobni stan u dobrom stanju, osmi sprat, Beograd na vodi -
+    [15/24] Dvosobni stan 92 m², Beograd na vodi - Palata pravde, Beogra
+    [16/24] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [17/24] Četvorosobni stan 79 m², Beograd na vodi - Palata pravde, Be
+    [18/24] Dvosobni stan novo, 30, Beograd na vodi - Palata pravde, Beo
+    [19/24] Dvosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [20/24] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [21/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [22/24] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [23/24] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [24/24] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 24
+
+  Stranica 2: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=2
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Ulica Kneza Milosa 88B, Beograd na vodi - Pala
+      ✗ Isključen: Dvosobni stan Bulevar kralja Aleksandra I Karađorđevića (Sav
+      ✗ Isključen: Dvosobni stan Kneza Miloša 45, Klinički centar - Kneza Milos
+    [1/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [2/22] Četvorosobni stan Luke Celovica Trebinjca, Beograd na vodi -
+    [3/22] Četvorosobni stan Vudroa Vilsona, Beograd na vodi - Palata p
+    [4/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [5/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [7/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [8/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [9/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [10/22] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [11/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [12/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [13/22] Četvorosobni stan Ulica Hercegovacka 13A, Savamala, Beograd
+    [14/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [15/22] Dvosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [16/22] Dvosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [17/22] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [18/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [19/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [20/22] Četvorosobni stan BW Queens, Beograd na vodi - Palata pravde
+    [21/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [22/22] Trosobni stan Nikolaja Kvarcova, Beograd na vodi - Palata pr
+  ✓ Ukupno do sada: 46
+
+  Stranica 3: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=3
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan kneza milosa, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Risanska, Beograd na vodi - Palata pravde, Beo
+      ✗ Isključen: Četvorosobni stan Durmitorska, Beograd na vodi - Palata prav
+    [1/21] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [2/21] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [3/21] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [4/21] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [5/21] Trosobni stan bulevar vudroa vilsona, Beograd na vodi - Pala
+    [6/21] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [7/21] Trosobni stan Ulica Hercegovacka 14B, Beograd na vodi - Pala
+    [8/21] Trosobni stan Ulica Hercegovacka 14, Beograd na vodi - Palat
+    [9/21] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [10/21] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [11/21] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [12/21] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/21] Dvosobni stan BW Perla, Beograd na vodi - Palata pravde, Beo
+    [14/21] Četvorosobni stan Savska, Beograd na vodi - Palata pravde, B
+    [15/21] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [16/21] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [17/21] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [18/21] Dvosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [19/21] Četvorosobni stan 164 m², Beograd na vodi - Palata pravde, B
+    [20/21] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [21/21] Četvorosobni stan novo, 23, Beograd na vodi - Palata pravde,
+  ✓ Ukupno do sada: 67
+
+  Stranica 4: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=4
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Trosobni stan Durmitorska, Beograd na vodi - Palata pravde, 
+      ✗ Isključen: Jednosoban stan Vojvode Milenka, Beograd na vodi - Palata pr
+      ✗ Isključen: Dvosobni stan Risanska, Beograd na vodi - Palata pravde, Beo
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+    [1/20] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [2/20] Dvosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [3/20] Dvosobni stan 70 m², Beograd na vodi - Palata pravde, Beogra
+    [4/20] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [5/20] Dvosobni stan Savska, Savamala, Beograd
+    [6/20] Četvorosobni stan Bw King's Park, Beograd na vodi - Palata p
+    [7/20] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [8/20] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [9/20] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [10/20] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/20] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [12/20] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [13/20] Trosobni stan u dobrom stanju, 23, Beograd na vodi - Palata 
+    [14/20] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/20] Trosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [16/20] Jednosoban stan Luke Ćelovića Trebinjca, Beograd na vodi - P
+    [17/20] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [18/20] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [19/20] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [20/20] Četvorosobni stan 115 m², Beograd na vodi - Palata pravde, B
+  ✓ Ukupno do sada: 87
+
+  Stranica 5: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=5
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan Višegradska, Beograd na vodi - Palata prav
+      ✗ Isključen: Jednosoban stan Risanska, Beograd na vodi - Palata pravde, B
+    [1/23] Trosobni stan novo, 20, Beograd na vodi - Palata pravde, Beo
+    [2/23] Trosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [3/23] Stan odlično stanje, prvi sprat, Savamala, Beograd
+    [4/23] Dvosobni stan Hercegovačka 19, Beograd na vodi - Palata prav
+    [5/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/23] Dvosobni stan Savska, Savamala, Beograd
+    [7/23] Trosobni stan Belgrade Waterfront-ARIA, Beograd na vodi - Pa
+    [8/23] Dvosobni stan Savska, Savamala, Beograd
+    [9/23] Dvosobni stan Savska, Savamala, Beograd
+    [10/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [12/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/23] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [14/23] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [15/23] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/23] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [17/23] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [18/23] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [19/23] Jednosoban stan Ulica Hercegovacka, Beograd na vodi - Palata
+    [20/23] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [21/23] Četvorosobni stan novo, 15, Beograd na vodi - Palata pravde,
+    [22/23] Četvorosobni stan novo, šesti sprat, Beograd na vodi - Palat
+    [23/23] Dvosobni stan novo, 32, Beograd na vodi - Palata pravde, Beo
+  ✓ Ukupno do sada: 110
+
+  Stranica 6: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=6
+    → Pronađeno 24 oglasnih linkova
+      ✗ Isključen: Trosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Duplex Durmitorska, Beograd na vodi - Palata pravde, Beograd
+    [1/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [3/22] Trosobni stan Ulica Hercegovacka, Beograd na vodi - Palata p
+    [4/22] Četvorosobni stan u dobrom stanju, šesti sprat, Beograd na v
+    [5/22] Dvosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [6/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [7/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [9/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [10/22] Četvorosobni stan u dobrom stanju, prvi sprat, Beograd na vo
+    [11/22] Dvosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [12/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [13/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [14/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [15/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/22] Četvorosobni stan Ulica Hercegovacka, Beograd na vodi - Pala
+    [17/22] Dvosobni stan drugi sprat, Beograd na vodi - Palata pravde, 
+    [18/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [19/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [20/22] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [21/22] Stan Bulevar Vudroa Vilsona 8V, Beograd na vodi - Palata pra
+    [22/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+  ✓ Ukupno do sada: 132
+
+  Stranica 7: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=7
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+    [1/22] Stan Hercegovačka-savski Venac, Beograd na vodi - Palata pra
+    [2/22] Dvosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [3/22] Dvosobni stan Luke ćelovića Trebinjca, Beograd na vodi - Pal
+    [4/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [5/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [6/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [7/22] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [8/22] Trosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [9/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [10/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [11/22] Dvosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [12/22] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [13/22] Trosobni stan Bulevar Vuka Karadžića, Beograd na vodi - Pala
+    [14/22] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [15/22] Trosobni stan drugi sprat, Savamala, Beograd
+    [16/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [17/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [18/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [19/22] Jednosoban stan Bulevar Vudroa Vilsona, Beograd na vodi - Pa
+    [20/22] Trosobni stan Bulevar Vudroa Vilsona 50, Beograd na vodi - P
+    [21/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [22/22] Dvosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+  ✓ Ukupno do sada: 154
+
+  Stranica 8: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=8
+    → Pronađeno 24 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Dvosobni stan Risanska, Beograd na vodi - Palata pravde, Beo
+    [1/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [2/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [3/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [4/22] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [5/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [6/22] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [7/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [8/22] Stan Bulevar Vudroa Vilsona, Beograd na vodi - Palata pravde
+    [9/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [10/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [11/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [12/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/22] Dvosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [14/22] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [15/22] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [16/22] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [17/22] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [18/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [19/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [20/22] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [21/22] Jednosoban stan dr Aleksandra Kostica, Beograd na vodi - Pal
+    [22/22] Dvosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+  ✓ Ukupno do sada: 176
+
+  Stranica 9: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=9
+    → Pronađeno 24 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Jednosoban stan Ulica Sarajevska, Beograd na vodi - Palata p
+    [1/16] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [2/16] Dvosobni stan novo, prizemlje, Beograd na vodi - Palata prav
+    [3/16] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [4/16] Dvosobni stan Belgrade Waterfront, Beograd na vodi - Palata 
+    [5/16] Četvorosobni stan novo, 13, Beograd na vodi - Palata pravde,
+    [6/16] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [7/16] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [8/16] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [9/16] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [10/16] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [11/16] Trosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [12/16] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [13/16] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [14/16] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [15/16] Dvosobni stan četvrti sprat, Savamala, Beograd
+    [16/16] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+  ✓ Ukupno do sada: 192
+
+  Stranica 10: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=10
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan četvrti sprat, Klinički centar - Kneza Milosa,
+      ✗ Isključen: Trosobni stan 11, Klinički centar - Kneza Milosa, Beograd
+    [1/23] Trosobni stan prvi sprat, Beograd na vodi - Palata pravde, B
+    [2/23] Trosobni stan četvrti sprat, Beograd na vodi - Palata pravde
+    [3/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [4/23] Trosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [5/23] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [6/23] Trosobni stan četvrti sprat, Beograd na vodi - Palata pravde
+    [7/23] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+    [8/23] Četvorosobni stan peti sprat, Beograd na vodi - Palata pravd
+    [9/23] Četvorosobni stan 13, Beograd na vodi - Palata pravde, Beogr
+    [10/23] Trosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [11/23] Dvosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [12/23] Četvorosobni stan sedmi sprat, Beograd na vodi - Palata prav
+    [13/23] Trosobni stan drugi sprat, Savamala, Beograd
+    [14/23] Trosobni stan 15, Beograd na vodi - Palata pravde, Beograd
+    [15/23] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [16/23] Trosobni stan 16, Beograd na vodi - Palata pravde, Beograd
+    [17/23] Trosobni stan osmi sprat, Beograd na vodi - Palata pravde, B
+    [18/23] Dvosobni stan 16, Beograd na vodi - Palata pravde, Beograd
+    [19/23] Trosobni stan četvrti sprat, Beograd na vodi - Palata pravde
+    [20/23] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [21/23] Četvorosobni stan peti sprat, Beograd na vodi - Palata pravd
+    [22/23] Dvosobni stan treći sprat, Beograd na vodi - Palata pravde, 
+    [23/23] Dvosobni stan 12, Beograd na vodi - Palata pravde, Beograd
+  ✓ Ukupno do sada: 215
+
+  Stranica 11: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=11
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Četvorosobni stan u dobrom stanju, prvi sprat, Klinički cent
+      ✗ Isključen: Jednosoban stan Višegradska, Beograd na vodi - Palata pravde
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Klinički centar - Kneza Milo
+    [1/22] Dvosobni stan šesti sprat, Beograd na vodi - Palata pravde, 
+    [2/22] Četvorosobni stan deveti sprat, Beograd na vodi - Palata pra
+    [3/22] Četvorosobni stan deseti sprat, Beograd na vodi - Palata pra
+    [4/22] Četvorosobni stan Luke Cerovica Trebinjca, Beograd na vodi -
+    [5/22] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [6/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [7/22] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [8/22] Trosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+    [9/22] Trosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [10/22] Dvosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [11/22] Trosobni stan novo, 22, Beograd na vodi - Palata pravde, Beo
+    [12/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [13/22] Četvorosobni stan novo, 16, Beograd na vodi - Palata pravde,
+    [14/22] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [15/22] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [16/22] Trosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [17/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+    [18/22] Dvosobni stan Hercegovacka, Beograd na vodi - Palata pravde,
+    [19/22] Dvosobni stan drugi sprat, Beograd na vodi - Palata pravde, 
+    [20/22] Četvorosobni stan Hercegovacka, Beograd na vodi - Palata pra
+    [21/22] Trosobni stan sedmi sprat, Savamala, Beograd
+    [22/22] Dvosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - Pala
+  ✓ Ukupno do sada: 237
+
+  Stranica 12: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=12
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Trosobni stan prvi sprat, Klinički centar - Kneza Milosa, Be
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Jednosoban stan Višegradska, Beograd na vodi - Palata pravde
+    [1/21] Trosobni stan 12, Beograd na vodi - Palata pravde, Beograd
+    [2/21] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [3/21] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [4/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [5/21] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [6/21] Dvosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [7/21] Trosobni stan Nikolaja Kravcova, Beograd na vodi - Palata pr
+    [8/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [9/21] Dvosobni stan Hercegovačka, Beograd na vodi - Palata pravde,
+    [10/21] Trosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [11/21] Dvosobni stan prvi sprat, Beograd na vodi - Palata pravde, B
+    [12/21] Trosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [13/21] Trosobni stan Luke Celovca Trebinjca, Beograd na vodi - Pala
+    [14/21] Trosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+    [15/21] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [16/21] Dvosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [17/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [18/21] Trosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [19/21] Dvosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [20/21] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [21/21] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+  ✓ Ukupno do sada: 258
+
+  Stranica 13: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=13
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Sarajevska, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Trosobni stan u dobrom stanju, prvi sprat, Klinički centar -
+      ✗ Isključen: Dvosobni stan Kneza Miloša, Klinički centar - Kneza Milosa, 
+      ✗ Isključen: Trosobni stan Bulevar kralja Aleksandra I Karađorđevića, Beo
+      ✗ Isključen: Dvosobni stan Vojvode Milenka, Beograd na vodi - Palata prav
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Jednosoban stan Durmitorska, Beograd na vodi - Palata pravde
+    [1/18] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [2/18] Dvosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [3/18] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [4/18] Jednosoban stan novo, četvrti sprat, Beograd na vodi - Palat
+    [5/18] Jednosoban stan Aleksandra Glišića, Beograd na vodi - Palata
+    [6/18] Trosobni stan u dobrom stanju, šesti sprat, Beograd na vodi 
+    [7/18] Stan Savska, Beograd na vodi - Palata pravde, Beograd
+    [8/18] Trosobni stan BW Sole, Beograd na vodi - Palata pravde, Beog
+    [9/18] Četvorosobni stan BW Eterna, Beograd na vodi - Palata pravde
+    [10/18] Dvosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [11/18] Trosobni stan novo, 23, Beograd na vodi - Palata pravde, Beo
+    [12/18] Jednosoban stan u dobrom stanju, četvrti sprat, Beograd na v
+    [13/18] Trosobni stan odlično stanje, Beograd na vodi - Palata pravd
+    [14/18] Dvosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [15/18] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [16/18] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [17/18] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [18/18] Dvosobni stan prizemlje, Savamala, Beograd
+  ✓ Ukupno do sada: 276
+
+  Stranica 14: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=14
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Trosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Četvorosobni stan Kneza Miloša, Beograd na vodi - Palata pra
+      ✗ Isključen: Trosobni stan Kneza Miloša, Beograd na vodi - Palata pravde,
+      ✗ Isključen: Dvosobni stan Sarajevska, Beograd na vodi - Palata pravde, B
+      ✗ Isključen: Stan za renoviranje, prvi sprat, Klinički centar - Kneza Mil
+    [1/20] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [2/20] Dvosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [3/20] Trosobni stan BW Libera, Beograd na vodi - Palata pravde, Be
+    [4/20] Dvosobni stan Aria, Beograd na vodi - Palata pravde, Beograd
+    [5/20] Jednosoban stan novo, peti sprat, Beograd na vodi - Palata p
+    [6/20] Dvosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [7/20] Četvorosobni stan 13, Beograd na vodi - Palata pravde, Beogr
+    [8/20] Trosobni stan u dobrom stanju, 17, Beograd na vodi - Palata 
+    [9/20] Trosobni stan u dobrom stanju, 17, Beograd na vodi - Palata 
+    [10/20] Trosobni stan Savska, Beograd na vodi - Palata pravde, Beogr
+    [11/20] Dvosobni stan 70 m², Beograd na vodi - Palata pravde, Beogra
+    [12/20] Dvosobni stan u dobrom stanju, četvrti sprat, Beograd na vod
+    [13/20] Trosobni stan 23, Beograd na vodi - Palata pravde, Beograd
+    [14/20] Trosobni stan BW Quartet 1, Beograd na vodi - Palata pravde,
+    [15/20] Dvosobni stan BW King's Park Residences, Beograd na vodi - P
+    [16/20] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [17/20] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [18/20] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [19/20] Dvosobni stan drugi sprat, Beograd na vodi - Palata pravde, 
+    [20/20] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+  ✓ Ukupno do sada: 296
+
+  Stranica 15: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=15
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Jednosoban stan Durmitorska, Beograd na vodi - Palata pravde
+    [1/24] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [2/24] Jednosoban stan Nemanjina, Beograd na vodi - Palata pravde, 
+    [3/24] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [4/24] Četvorosobni stan u dobrom stanju, peti sprat, Beograd na vo
+    [5/24] Trosobni stan novo, 15, Beograd na vodi - Palata pravde, Beo
+    [6/24] Dvosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [7/24] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [8/24] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [9/24] Četvorosobni stan novo, 30, Beograd na vodi - Palata pravde,
+    [10/24] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [11/24] Trosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [12/24] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [13/24] Trosobni stan novo, 11, Beograd na vodi - Palata pravde, Beo
+    [14/24] Trosobni stan u dobrom stanju, prvi sprat, Beograd na vodi -
+    [15/24] Dvosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [16/24] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [17/24] Trosobni stan novo, drugi sprat, Beograd na vodi - Palata pr
+    [18/24] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [19/24] Dvosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [20/24] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [21/24] Četvorosobni stan novo, 14, Beograd na vodi - Palata pravde,
+    [22/24] Četvorosobni stan novo, četvrti sprat, Beograd na vodi - Pal
+    [23/24] Četvorosobni stan novo, treći sprat, Beograd na vodi - Palat
+    [24/24] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+  ✓ Ukupno do sada: 320
+
+  Stranica 16: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=16
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Stan Kneza Miloša, Klinički centar - Kneza Milosa, Beograd
+    [1/24] Trosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [2/24] Dvosobni stan novo, peti sprat, Beograd na vodi - Palata pra
+    [3/24] Četvorosobni stan novo, 12, Beograd na vodi - Palata pravde,
+    [4/24] Trosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [5/24] Dvosobni stan novo, sedmi sprat, Beograd na vodi - Palata pr
+    [6/24] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [7/24] Četvorosobni stan novo, peti sprat, Beograd na vodi - Palata
+    [8/24] Četvorosobni stan u dobrom stanju, treći sprat, Beograd na v
+    [9/24] Stan novo, četvrti sprat, Beograd na vodi - Palata pravde, B
+    [10/24] Četvorosobni stan novo, sedmi sprat, Beograd na vodi - Palat
+    [11/24] Četvorosobni stan novo, 14, Beograd na vodi - Palata pravde,
+    [12/24] Dvosobni stan novo, četvrti sprat, Beograd na vodi - Palata 
+    [13/24] Četvorosobni stan novo, šesti sprat, Beograd na vodi - Palat
+    [14/24] Trosobni stan sedmi sprat, Beograd na vodi - Palata pravde, 
+    [15/24] Trosobni stan novo, šesti sprat, Beograd na vodi - Palata pr
+    [16/24] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [17/24] Dvosobni stan u dobrom stanju, peti sprat, Beograd na vodi -
+    [18/24] Četvorosobni stan novo, deseti sprat, Beograd na vodi - Pala
+    [19/24] Dvosobni stan BW Sensa, Beograd na vodi - Palata pravde, Beo
+    [20/24] Jednosoban stan novo, šesti sprat, Beograd na vodi - Palata 
+    [21/24] Dvosobni stan Dr Aleksandra Kostića, Beograd na vodi - Palat
+    [22/24] Stan peti sprat, Savamala, Beograd
+    [23/24] Trosobni stan Luke Celovica Trebinjca, Beograd na vodi - Pal
+    [24/24] Četvorosobni stan Luke Ćelovića Trebinjca, Beograd na vodi -
+  ✓ Ukupno do sada: 344
+
+  Stranica 17: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=17
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska 80, Beograd na vodi - Palata 
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska 19, Beograd na vodi - Palata 
+    [1/23] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [2/23] Trosobni stan Luke Ćelovića Trebinjca, Beograd na vodi - Pal
+    [3/23] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [4/23] Trosobni stan novo, 21, Beograd na vodi - Palata pravde, Beo
+    [5/23] Dvosobni stan novo, prvi sprat, Beograd na vodi - Palata pra
+    [6/23] Trosobni stan novo, deveti sprat, Beograd na vodi - Palata p
+    [7/23] Dvosobni stan novo, treći sprat, Beograd na vodi - Palata pr
+    [8/23] Dvosobni stan u dobrom stanju, sedmi sprat, Beograd na vodi 
+    [9/23] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [10/23] Trosobni stan novo, osmi sprat, Beograd na vodi - Palata pra
+    [11/23] Trosobni stan novo, Beograd na vodi - Palata pravde, Beograd
+    [12/23] Trosobni stan novo, 25, Beograd na vodi - Palata pravde, Beo
+    [13/23] Dvosobni stan novo, 20, Beograd na vodi - Palata pravde, Beo
+    [14/23] Četvorosobni stan 12, Beograd na vodi - Palata pravde, Beogr
+    [15/23] Trosobni stan BW Residences, Beograd na vodi - Palata pravde
+    [16/23] Četvorosobni stan Bulevar Vudroa Vilsona, Beograd na vodi - 
+    [17/23] Trosobni stan peti sprat, Beograd na vodi - Palata pravde, B
+    [18/23] Četvorosobni stan četvrti sprat, Beograd na vodi - Palata pr
+    [19/23] Jednosoban stan novo, drugi sprat, Beograd na vodi - Palata 
+    [20/23] Jednosoban stan peti sprat, Beograd na vodi - Palata pravde,
+    [21/23] Stan drugi sprat, Beograd na vodi - Palata pravde, Beograd
+    [22/23] Dvosobni stan Savska 15, Savamala, Beograd
+    [23/23] Stan Ulica Savska 17, Beograd na vodi - Palata pravde, Beogr
+  ✓ Ukupno do sada: 367
+
+  Stranica 18: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?pag=18
+    → Pronađeno 2 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Ulica Bircaninova, Klinički centar - Kneza Mil
+    [1/1] Trosobni stan Bulevar Vudroa Vilsona 14, Beograd na vodi - P
+  ✓ Ukupno do sada: 368
+
+  Stranica 19: https://www.nekretnine.rs/izdavanje-stanova/beograd/beograd-na-vodi-palata-pravde/?strana=19
+    → Pronađeno 25 oglasnih linkova
+      ✗ Isključen: Dvosobni stan Ulica Sarajevska, Beograd na vodi - Palata pra
+  → Nema novih oglasa, zaustavljam.
+
+  Ukupno renta: 368 oglasa
+  💾 Snimljeno: data\latest_nrs_renta.json (368 stavki, +14 novih, -16 skinutih)
+
+Pokretam git push...
+
+⚠ Git push pokušaj 1/3 neuspešan: Command '['git', 'pull', '--rebase', '-X', 'ours', 'origin', 'main']' returned non-zero exit status 128.
+
+⚠ Git push pokušaj 2/3 neuspešan: Command '['git', 'pull', '--rebase', '-X', 'ours', 'origin', 'main']' returned non-zero exit status 128.
+
+⚠ Git push pokušaj 3/3 neuspešan: Command '['git', 'pull', '--rebase', '-X', 'ours', 'origin', 'main']' returned non-zero exit status 128.
+
+❌ Git push neuspešan posle 3 pokušaja — pushajte ručno.
+
+Gotovo.
