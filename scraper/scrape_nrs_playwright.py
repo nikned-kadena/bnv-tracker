@@ -665,13 +665,48 @@ def build_output(listings: list[dict], path: Path) -> dict:
         },
     }
 
-def save_json(data: list[dict], path: Path) -> None:
+def save_json(data: list[dict], path: Path) -> dict:
     path.parent.mkdir(parents=True, exist_ok=True)
     output = build_output(data, path)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     n, r = len(output["diff"]["new"]), len(output["diff"]["removed"])
-    print(f"  💾 Snimljeno: {path} ({len(data)} stavki, +{n} novih, -{r} skinutih)")
+    print(f"  Snimljeno: {path} ({len(data)} stavki, +{n} novih, -{r} skinutih)")
+    return output
+
+HISTORY_NRS = Path("data/history_nrs.json")
+
+def update_history(tip: str, output: dict) -> None:
+    """Dopuni history_nrs.json dnevnim redom za dati tip (prodaja/renta).
+    Dashboard filtrira po polju 'mode', pa svaki red mora da ga ima."""
+    today = datetime.now().strftime("%Y-%m-%d")
+    m2s = [l["cena_m2"] for l in output["listings"] if l.get("cena_m2")]
+    avg_m2 = round(sum(m2s) / len(m2s)) if m2s else None
+    entry = {
+        "date":         today,
+        "mode":         tip,                       # "prodaja" ili "renta"
+        "count":        output["total_unique"],
+        "total_raw":    output["total_raw"],
+        "total_unique": output["total_unique"],
+        "total_dups":   output["total_dups"],
+        "diff_new":     len(output["diff"]["new"]),
+        "diff_removed": len(output["diff"]["removed"]),
+        "avg_m2":       avg_m2,
+    }
+    hist = []
+    if HISTORY_NRS.exists():
+        try:
+            loaded = json.loads(HISTORY_NRS.read_text(encoding="utf-8"))
+            if isinstance(loaded, list):
+                hist = loaded
+        except Exception:
+            hist = []
+    # Zameni red za isti (datum, mode) ako postoji (npr. dva run-a istog dana)
+    hist = [h for h in hist if not (h.get("date") == today and h.get("mode") == tip)]
+    hist.append(entry)
+    hist.sort(key=lambda h: (h.get("date", ""), h.get("mode", "")))
+    HISTORY_NRS.write_text(json.dumps(hist, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  Istorija dopunjena: {tip} {today} (unique={entry['total_unique']}, avg_m2={avg_m2})")
 
 def git_push(changed_files: list[Path]) -> None:
     if not changed_files:
@@ -721,10 +756,14 @@ async def main():
         for tip, cfg in TARGETS.items():
             listings = await scrape_mode(browser, tip, cfg)
             if listings:
-                save_json(listings, cfg["out"])
+                output = save_json(listings, cfg["out"])
                 changed.append(cfg["out"])
+                update_history(tip, output)
 
         await browser.close()
+
+    if changed and HISTORY_NRS not in changed:
+        changed.append(HISTORY_NRS)
 
     if GIT_PUSH and changed:
         print("\nPokretam git push...")
