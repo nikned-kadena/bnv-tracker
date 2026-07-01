@@ -889,7 +889,7 @@ export default function Dashboard() {
                           </td>
                           <td style={{padding:"10px 16px",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",fontSize:12,color:agNaziv?C.text:C.textXS}}>{agNaziv||"–"}</td>
                           <td style={{padding:"10px 16px"}}><span style={{display:"inline-block",padding:"3px 9px",borderRadius:20,fontSize:11,fontWeight:600,background:col+"18",color:col}}>{lbl}</span></td>
-                          <td style={{padding:"10px 16px",color:C.textS,textAlign:"right"}}>{l.m2??"–"}</td>
+                          <td style={{padding:"10px 16px",color:C.textS,textAlign:"right"}}>{l.m2!=null?fmtDec(l.m2,2):"–"}</td>
                           <td style={{padding:"10px 16px",fontWeight:600,textAlign:"right"}}>
                             {l.cena?`${fmt(l.cena)} €`:<span style={{color:C.textS}}>na upit</span>}
                             {mode==="renta"&&l.cena?<span style={{fontSize:11,fontWeight:400,color:C.textS}}>/mj</span>:null}
