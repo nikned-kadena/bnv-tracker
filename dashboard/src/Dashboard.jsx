@@ -7,13 +7,13 @@ const SOURCES = {
     key:   "halo",
     label: "Halo Oglasi",
     files: { prodaja: "latest_prodaja.json", renta: "latest_renta.json" },
-    agMode: "slug",   // agencija je slug → mapping
+    agMode: "slug",
   },
   nrs: {
     key:   "nrs",
     label: "Nekretnine.rs",
     files: { prodaja: "latest_nrs_prodaja.json", renta: "latest_nrs_renta.json" },
-    agMode: "name",   // agencija je već puno ime
+    agMode: "name",
   },
 };
 
@@ -36,6 +36,7 @@ const fmtKRenta = n => n==null?"–":n>=1e6?(n/1e6).toFixed(1)+"M":new Intl.Numb
 const fmtPct    = n => n==null?"–":(n>=0?"+":"")+n.toFixed(2)+"%";
 const pctColor  = n => n==null?C.textS:n>0?C.green:n<0?C.red:C.textS;
 const BLD_COLORS = ["#EC4899","#10B981","#06B6D4","#3B82F6","#8B5CF6","#0EA5E9","#F59E0B","#EF4444","#84CC16","#14B8A6","#A855F7","#F97316","#22D3EE","#6366F1","#D946EF","#65A30D"];
+
 function Spark({ data, color=C.blue, height=80 }) {
   const ref = useRef(null);
   useEffect(() => {
@@ -68,9 +69,9 @@ function Spark({ data, color=C.blue, height=80 }) {
 
 function KPI({ label, value, sub, valueColor }) {
   return (
-    <div style={{background:C.white,borderRadius:12,padding:"20px 24px",boxShadow:C.shadow}}>
-      <div style={{fontSize:11,fontWeight:600,color:C.textS,textTransform:"uppercase",letterSpacing:.6,marginBottom:8}}>{label}</div>
-      <div style={{fontSize:28,fontWeight:700,color:valueColor||C.text,lineHeight:1,marginBottom:6}}>{value}</div>
+    <div style={{background:C.white,borderRadius:12,padding:"16px 18px",boxShadow:C.shadow}}>
+      <div style={{fontSize:11,fontWeight:600,color:C.textS,textTransform:"uppercase",letterSpacing:.6,marginBottom:6}}>{label}</div>
+      <div style={{fontSize:24,fontWeight:700,color:valueColor||C.text,lineHeight:1,marginBottom:4}}>{value}</div>
       {sub&&<div style={{fontSize:12,color:C.textS}}>{sub}</div>}
     </div>
   );
@@ -101,7 +102,7 @@ function BuildingFilter({ buildings, selected, onToggle, onClear }) {
         }}>
           Zgrade
           {count>0&&<span style={{background:"rgba(255,255,255,.25)",borderRadius:20,padding:"1px 7px",fontSize:11}}>{count}</span>}
-          <span style={{fontSize:10,transform:open?"rotate(180deg)":"rotate(0deg)",display:"inline-block"}}>▼</span>
+          <span style={{fontSize:10,transform:open?"rotate(180deg)":"rotate(0deg)",display:"inline-block",transition:"transform .2s"}}>▼</span>
         </button>
         {selected.map(z=>(
           <div key={z} style={{display:"flex",alignItems:"center",gap:4,padding:"5px 10px 5px 14px",borderRadius:20,fontSize:12,fontWeight:600,background:C.navy+"15",color:C.navy,border:`1px solid ${C.navy}40`}}>
@@ -117,6 +118,58 @@ function BuildingFilter({ buildings, selected, onToggle, onClear }) {
           <Pill label="Sve zgrade" active={count===0} onClick={()=>{onClear();setOpen(false);}}/>
           {buildings.map(z=>(
             <Pill key={z} label={z.replace("BW ","")} active={selected.includes(z)} onClick={()=>onToggle(z)}/>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// Kolapsibilni filter za strukturu — novi za mobilni
+function StrFilter({ segByStr, selStr, setSelStr, isMobile }) {
+  const [open, setOpen] = useState(false);
+  const available = STR_ORDER.filter(s=>segByStr[s]);
+  const activeLabel = selStr ? STR_LABEL[selStr] : null;
+
+  if (!isMobile) {
+    return (
+      <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:20}}>
+        <Pill label="Sve" active={!selStr} onClick={()=>setSelStr(null)}/>
+        {available.map(s=>(
+          <Pill key={s} label={STR_LABEL[s]} active={selStr===s} onClick={()=>setSelStr(selStr===s?null:s)} color={STR_COLOR[s]}/>
+        ))}
+      </div>
+    );
+  }
+
+  return (
+    <div style={{marginBottom:16}}>
+      <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:open?8:0}}>
+        <button onClick={()=>setOpen(o=>!o)} style={{
+          display:"flex",alignItems:"center",gap:5,
+          background:selStr?STR_COLOR[selStr]:C.white,
+          color:selStr?C.white:C.textS,
+          border:`1px solid ${selStr?STR_COLOR[selStr]:C.border}`,
+          padding:"6px 14px",borderRadius:20,fontSize:12,fontWeight:600,
+          cursor:"pointer",
+        }}>
+          {activeLabel || "Sve strukture"}
+          <span style={{fontSize:10,transform:open?"rotate(180deg)":"rotate(0deg)",display:"inline-block",transition:"transform .2s"}}>▼</span>
+        </button>
+        {selStr && (
+          <button onClick={()=>{setSelStr(null);setOpen(false);}} style={{
+            background:"transparent",border:`1px solid ${C.border}`,
+            borderRadius:12,padding:"3px 8px",fontSize:11,color:C.textS,cursor:"pointer",
+          }}>✕</button>
+        )}
+      </div>
+      {open && (
+        <div style={{padding:"10px 12px",background:C.white,borderRadius:12,boxShadow:C.shadowM,display:"flex",gap:6,flexWrap:"wrap"}}>
+          <Pill label="Sve" active={!selStr} onClick={()=>{setSelStr(null);setOpen(false);}}/>
+          {available.map(s=>(
+            <Pill key={s} label={STR_LABEL[s]} active={selStr===s}
+              onClick={()=>{setSelStr(selStr===s?null:s);setOpen(false);}}
+              color={STR_COLOR[s]}/>
           ))}
         </div>
       )}
@@ -152,7 +205,6 @@ function RangeBar({ min, max, globalMax, color }) {
 
 // ── AGENCIJE TAB ─────────────────────────────────────────────────────────────
 function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
-  // Nazivi koji se ignorišu kao agencije (greške scrapera)
   const INVALID_AG = /^(agencij[ae]|mapa|logo|foto\s*\d*|nekretnine\.rs|\d+)$/i;
 
   const agStats = useMemo(()=>{
@@ -161,12 +213,10 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
       const raw  = l.agencija;
       if (!raw) continue;
       const naziv = agMode === "slug" ? (agMapping[raw] || raw) : raw;
-      // Filtriraj genericke/pogresne nazive
       if (INVALID_AG.test(naziv.trim())) continue;
       const slug  = agMode === "slug" ? raw : null;
       if (!map[naziv]) map[naziv] = { naziv, slug, count: 0, agencija_url: null };
       map[naziv].count++;
-      // Sacuvaj agencija_url samo ako ima numericki ID
       if (!map[naziv].agencija_url && l.agencija_url) {
         if (/\/agencije-za-nekretnine\/\d+/.test(l.agencija_url)) {
           map[naziv].agencija_url = l.agencija_url;
@@ -183,14 +233,9 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
   const accentCol = isProdaja ? C.navy : C.blue;
   const medal = i => i===0?"🥇":i===1?"🥈":i===2?"🥉":null;
 
-  // Generiši link za agenciju zavisno od izvora
   const agLink = (a) => {
-    if (agMode === "slug" && a.slug) {
-      // Halo Oglasi: direktan link na stranicu agencije
-      return `https://www.halooglasi.com/oglasi/${a.slug}`;
-    }
+    if (agMode === "slug" && a.slug) return `https://www.halooglasi.com/oglasi/${a.slug}`;
     if (agMode === "name" && a.naziv) {
-      // NRS: prvo URL direktno iz oglasa (najpouzdanije), pa mapping kao rezerva
       if (a.agencija_url) return a.agencija_url;
       const agId = nrsAgMapping[a.naziv];
       if (agId) return `https://www.nekretnine.rs/agencije-za-nekretnine/${agId}/`;
@@ -200,15 +245,15 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
 
   return (
     <div>
-      <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(180px,1fr))",gap:12,marginBottom:24}}>
-        <KPI label={`Agencija aktivnih`} value={agStats.length} sub="sa bar jednim oglasom"/>
+      <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(160px,1fr))",gap:12,marginBottom:24}}>
+        <KPI label="Agencija aktivnih" value={agStats.length} sub="sa bar jednim oglasom"/>
         <KPI label="Oglasa preko agencija" value={fmt(total)} sub={`${Math.round(total/totalAll*100)||0}% od ukupnih ${totalAll}`}/>
         <KPI label="Lider tržišta" value={agStats[0]?.naziv||"–"} sub={agStats[0]?`${agStats[0].count} oglasa`:""} valueColor={accentCol}/>
         <KPI label="Top 3 udeo" value={`${Math.round((agStats.slice(0,3).reduce((s,a)=>s+a.count,0))/(total||1)*100)}%`} sub="tržišnog učešća"/>
       </div>
 
       <div style={{background:C.white,borderRadius:16,boxShadow:C.shadowM,overflow:"hidden",border:`1px solid ${C.border}`}}>
-        <div style={{padding:"18px 24px",borderBottom:`1px solid ${C.border}`,display:"flex",alignItems:"center",justifyContent:"space-between",background:"linear-gradient(135deg,#1B2A4A 0%,#243659 100%)"}}>
+        <div style={{padding:"18px 24px",borderBottom:`1px solid ${C.border}`,display:"flex",alignItems:"center",justifyContent:"space-between",background:"linear-gradient(135deg,#1B2A4A 0%,#243659 100%)",flexWrap:"wrap",gap:8}}>
           <div>
             <div style={{fontSize:15,fontWeight:700,color:"#fff",marginBottom:2}}>Rang lista agencija — {isProdaja?"Prodaja":"Izdavanje"}</div>
             <div style={{fontSize:12,color:"rgba(255,255,255,.55)"}}>{agStats.length} aktivnih agencija · sortirano po broju oglasa</div>
@@ -224,8 +269,8 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
               <tr style={{background:"#F8FAFC",borderBottom:`2px solid ${C.border}`}}>
                 <th style={{width:52,padding:"12px 16px 12px 24px",textAlign:"center",fontSize:11,fontWeight:700,color:C.textS,letterSpacing:.4,textTransform:"uppercase"}}>Rang</th>
                 <th style={{padding:"12px 20px",textAlign:"left",fontSize:11,fontWeight:700,color:C.textS,letterSpacing:.4,textTransform:"uppercase"}}>Agencija</th>
-                <th style={{width:120,padding:"12px 20px",textAlign:"right",fontSize:11,fontWeight:700,color:C.textS,letterSpacing:.4,textTransform:"uppercase"}}>Oglasi</th>
-                <th style={{width:220,padding:"12px 24px 12px 8px",textAlign:"left",fontSize:11,fontWeight:700,color:C.textS,letterSpacing:.4,textTransform:"uppercase"}}>Tržišni udeo</th>
+                <th style={{width:100,padding:"12px 20px",textAlign:"right",fontSize:11,fontWeight:700,color:C.textS,letterSpacing:.4,textTransform:"uppercase"}}>Oglasi</th>
+                <th style={{width:200,padding:"12px 24px 12px 8px",textAlign:"left",fontSize:11,fontWeight:700,color:C.textS,letterSpacing:.4,textTransform:"uppercase"}}>Tržišni udeo</th>
               </tr>
             </thead>
             <tbody>
@@ -240,13 +285,13 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
                   <tr key={a.naziv} style={{borderBottom:`1px solid ${C.border}`,background:rowBg,transition:"background .12s"}}
                     onMouseEnter={e=>e.currentTarget.style.background="#F0F4FF"}
                     onMouseLeave={e=>e.currentTarget.style.background=rowBg}>
-                    <td style={{padding:"14px 12px 14px 24px",textAlign:"center"}}>
+                    <td style={{padding:"12px 12px 12px 24px",textAlign:"center"}}>
                       {med ? <span style={{fontSize:18}}>{med}</span>
                            : <span style={{display:"inline-block",width:28,height:28,lineHeight:"28px",borderRadius:"50%",textAlign:"center",background:C.bg,fontSize:12,fontWeight:600,color:C.textS}}>{i+1}</span>}
                     </td>
-                    <td style={{padding:"14px 20px"}}>
+                    <td style={{padding:"12px 20px"}}>
                       <div style={{display:"flex",alignItems:"center",gap:10}}>
-                        <div style={{width:36,height:36,borderRadius:10,flexShrink:0,background:isTop3?accentCol:C.bg,display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:700,color:isTop3?"#fff":C.textS}}>
+                        <div style={{width:34,height:34,borderRadius:10,flexShrink:0,background:isTop3?accentCol:C.bg,display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:700,color:isTop3?"#fff":C.textS}}>
                           {a.naziv.charAt(0).toUpperCase()}
                         </div>
                         <div>
@@ -254,7 +299,6 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
                             <span style={{fontWeight:isTop3?700:500,fontSize:14,color:C.text}}>{a.naziv}</span>
                             {link && (
                               <a href={link} target="_blank" rel="noreferrer"
-                                title={agMode==="slug"?"Svi oglasi na Halo Oglasima":"Oglasi agencije na Nekretnine.rs"}
                                 style={{display:"inline-flex",alignItems:"center",justifyContent:"center",width:20,height:20,borderRadius:6,flexShrink:0,background:C.bg,color:C.textS,fontSize:11,textDecoration:"none",border:`1px solid ${C.border}`,transition:"all .15s"}}
                                 onMouseEnter={e=>{e.currentTarget.style.background=accentCol;e.currentTarget.style.color="#fff";e.currentTarget.style.borderColor=accentCol;}}
                                 onMouseLeave={e=>{e.currentTarget.style.background=C.bg;e.currentTarget.style.color=C.textS;e.currentTarget.style.borderColor=C.border;}}>↗</a>
@@ -265,10 +309,10 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
                         </div>
                       </div>
                     </td>
-                    <td style={{padding:"14px 20px",textAlign:"right"}}>
+                    <td style={{padding:"12px 20px",textAlign:"right"}}>
                       <span style={{display:"inline-block",padding:"4px 12px",borderRadius:20,fontSize:14,fontWeight:700,background:isTop3?accentCol+"18":C.bg,color:isTop3?accentCol:C.text}}>{a.count}</span>
                     </td>
-                    <td style={{padding:"14px 24px 14px 8px"}}>
+                    <td style={{padding:"12px 24px 12px 8px"}}>
                       <div style={{display:"flex",alignItems:"center",gap:10}}>
                         <div style={{flex:1,height:6,background:"#F1F3F5",borderRadius:3,overflow:"hidden"}}>
                           <div style={{width:barPct+"%",height:"100%",borderRadius:3,background:isTop3?`linear-gradient(90deg,${accentCol},${accentCol}99)`:"#CBD5E1",transition:"width .3s ease"}}/>
@@ -282,9 +326,9 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
             </tbody>
           </table>
         </div>
-        <div style={{padding:"12px 24px",borderTop:`1px solid ${C.border}`,background:"#F8FAFC",fontSize:12,color:C.textXS,display:"flex",justifyContent:"space-between"}}>
+        <div style={{padding:"12px 24px",borderTop:`1px solid ${C.border}`,background:"#F8FAFC",fontSize:12,color:C.textXS,display:"flex",justifyContent:"space-between",flexWrap:"wrap",gap:4}}>
           <span>{agStats.length} agencija · {total} oglasa sa poznatom agencijom</span>
-          <span>{totalAll-total} oglasa bez agencije (privatni / direktni)</span>
+          <span>{totalAll-total} oglasa bez agencije</span>
         </div>
       </div>
     </div>
@@ -295,7 +339,7 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
 export default function Dashboard() {
   const [source,  setSource]  = useState("halo");
   const [mode,    setMode]    = useState("prodaja");
-  const [data,    setData]    = useState({});        // { halo_prodaja, halo_renta, nrs_prodaja, nrs_renta }
+  const [data,    setData]    = useState({});
   const [agMapping, setAgMapping] = useState({});
   const [hist,    setHist]    = useState({ halo:[], nrs:[] });
   const [loading, setLoading] = useState(true);
@@ -308,12 +352,19 @@ export default function Dashboard() {
   const [sortDir, setSortDir] = useState(1);
   const [tab,     setTab]     = useState("pregled");
   const [showNew, setShowNew] = useState(false);
-  const [saleType, setSaleType] = useState("sve");   // sve | direktna | resale (samo prodaja)
-  const [bldSortKey, setBldSortKey] = useState("count");   // zgrada | count | avg_m2
-  const [bldSortDir, setBldSortDir] = useState(-1);        // 1 asc, -1 desc
+  const [saleType, setSaleType] = useState("sve");
+  const [bldSortKey, setBldSortKey] = useState("count");
+  const [bldSortDir, setBldSortDir] = useState(-1);
   const [nrsAgMapping, setNrsAgMapping] = useState({});
 
-  // Učitaj sve podatke jednom
+  // Mobilni breakpoint
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  useEffect(()=>{
+    const handler = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handler);
+    return () => window.removeEventListener("resize", handler);
+  }, []);
+
   useEffect(() => {
     setLoading(true);
     Promise.all([
@@ -334,7 +385,6 @@ export default function Dashboard() {
     }).catch(e=>{ setErr(e.message); setLoading(false); });
   },[]);
 
-  // Reset filtera kad se promijeni source/mode
   useEffect(()=>{ setSelBlds([]); setShowNew(false); setSelStr(null); setSearch(""); setSaleType("sve"); },[source,mode]);
 
   const srcCfg  = SOURCES[source];
@@ -346,13 +396,12 @@ export default function Dashboard() {
     if(/\(/.test(z) || /neident/i.test(z)) return "Neidentifikovano";
     return z;
   };
-  const listings     = useMemo(()=>{
+  const listings = useMemo(()=>{
     const raw = latest?.listings??[];
-    const okPM2 = (p)=> p>=1200 && p<=25000;   // plausibilan €/m² za prodaju
+    const okPM2 = (p)=> p>=1200 && p<=25000;
     return raw.map(l=>{
       const nz=normZgrada(l.zgrada);
       let m2=l.m2, cm2=l.cena_m2, fixed=false;
-      // Ispravka decimalnog previda u kvadraturi (npr. "36,68" pročitano kao 3668)
       if(mode==="prodaja" && m2!=null && l.cena!=null && !okPM2(l.cena/m2)){
         for(const d of [10,100,1000]){
           if(okPM2(l.cena/(m2/d))){ m2=+(m2/d).toFixed(2); cm2=Math.round(l.cena/m2); fixed=true; break; }
@@ -362,8 +411,8 @@ export default function Dashboard() {
       return {...l, zgrada:nz, m2, cena_m2:cm2};
     });
   },[latest,mode]);
+
   const diff         = useMemo(()=>latest?.diff??{},[latest]);
-  const byZgrada     = useMemo(()=>latest?.stats?.po_zgradi??{},[latest]);
   const allBuildings = useMemo(()=>{
     const set=new Set(listings.map(l=>l.zgrada).filter(z=>z && z!=="Neidentifikovano"));
     return [...set].sort();
@@ -371,9 +420,7 @@ export default function Dashboard() {
 
   const histData  = hist[source] || [];
   const histSlice = useMemo(()=>{
-    const filtered = source === "nrs"
-      ? histData.filter(h=>h.mode===mode)
-      : histData;
+    const filtered = source === "nrs" ? histData.filter(h=>h.mode===mode) : histData;
     return filtered.slice(-period);
   },[histData, source, mode, period]);
 
@@ -390,21 +437,17 @@ export default function Dashboard() {
 
   const newKeys = useMemo(()=>new Set((diff.new??[]).map(l=>l.dedup_key||l.id).filter(Boolean)),[diff]);
 
-  // Filter tipa prodaje: direktna (cena se završava na 888) vs resale (ostalo).
-  // Primenjuje se na osnovni niz pa važi za KPI, segmentaciju i listinge.
   const isDirektna = (l)=> l.cena!=null && l.cena%1000===888;
   const saleFiltered = useMemo(()=>{
     if(mode!=="prodaja" || saleType==="sve") return listings;
     if(saleType==="direktna") return listings.filter(isDirektna);
-    return listings.filter(l=>!isDirektna(l));   // resale
+    return listings.filter(l=>!isDirektna(l));
   },[listings,mode,saleType]);
 
   const bldFiltered = useMemo(()=>
     selBlds.length>0 ? saleFiltered.filter(l=>selBlds.includes(l.zgrada)) : saleFiltered
   ,[saleFiltered,selBlds]);
 
-  // Jedinstvene nekretnine (dedup po dedup_key) — za KPI i Segmentaciju.
-  // Listinzi i dalje koriste pun niz (prikazuju i duplikate).
   const uniqFiltered = useMemo(()=>{
     const seen=new Set(); const out=[];
     for(const l of bldFiltered){
@@ -443,7 +486,6 @@ export default function Dashboard() {
     };
   },[uniqFiltered,bldFiltered,selBlds,latest]);
 
-  // Rangiranje zgrada (dedup, poštuje Tip prodaje; prikazuje sve zgrade)
   const bldRanking = useMemo(()=>{
     const seen=new Set(); const grp={};
     for(const l of saleFiltered){
@@ -461,14 +503,13 @@ export default function Dashboard() {
     }));
     return arr.sort((a,b)=>{
       const aN=a.zgrada==="Neidentifikovano", bN=b.zgrada==="Neidentifikovano";
-      if(aN!==bN) return aN?1:-1;      // Neidentifikovano uvek na dno
+      if(aN!==bN) return aN?1:-1;
       return b.count-a.count;
-    }).map((b,i)=>({...b, color:BLD_COLORS[i%BLD_COLORS.length]}));   // stabilna boja po default rangu
+    }).map((b,i)=>({...b, color:BLD_COLORS[i%BLD_COLORS.length]}));
   },[saleFiltered]);
   const bldMaxCount = bldRanking[0]?.count || 1;
   const bldTotalUnique = bldRanking.reduce((s,b)=>s+b.count,0);
 
-  // Prikazno sortiranje po izabranoj koloni (Neidentifikovano ostaje na dnu)
   const bldSorted = useMemo(()=>{
     const arr=[...bldRanking];
     arr.sort((a,b)=>{
@@ -481,6 +522,7 @@ export default function Dashboard() {
     });
     return arr;
   },[bldRanking,bldSortKey,bldSortDir]);
+
   const toggleBldSort=(k)=>{
     if(bldSortKey===k) setBldSortDir(d=>-d);
     else { setBldSortKey(k); setBldSortDir(k==="zgrada"?1:-1); }
@@ -518,7 +560,6 @@ export default function Dashboard() {
   const trendPrev=histSlice[Math.max(0,histSlice.length-2)];
   const cntDelta=trendLast&&trendPrev?trendLast.count-trendPrev.count:null;
   const scraped=latest?.scraped_at?.slice(0,10)+" "+latest?.scraped_at?.slice(11,16)+" UTC";
-  const now=new Date().toLocaleDateString("sr-RS",{day:"2-digit",month:"2-digit",year:"numeric"})+" "+new Date().toLocaleTimeString("sr-RS",{hour:"2-digit",minute:"2-digit"});
   const isFiltered=selBlds.length>0 || (mode==="prodaja" && saleType!=="sve");
 
   if(loading) return <div style={{display:"flex",alignItems:"center",justifyContent:"center",height:"100vh",background:C.bg,fontSize:14,color:C.textS}}>Učitavanje podataka...</div>;
@@ -527,20 +568,27 @@ export default function Dashboard() {
   return (
     <div style={{fontFamily:"-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif",background:C.bg,minHeight:"100vh",fontSize:13,color:C.text}}>
 
-      {/* Nav */}
-      <div style={{background:C.navy,padding:"0 16px",display:"flex",alignItems:"center",height:52,gap:12}}>
+      {/* Nav — mobilni: flexWrap + manji padding */}
+      <div style={{
+        background:C.navy,
+        padding:isMobile?"8px 12px":"0 16px",
+        display:"flex",alignItems:"center",
+        minHeight:52,gap:8,flexWrap:"wrap",
+        position:"sticky",top:0,zIndex:100,
+      }}>
         <div style={{display:"flex",alignItems:"center",gap:10,marginRight:"auto"}}>
           <div style={{width:28,height:28,borderRadius:6,background:"rgba(255,255,255,.15)",display:"flex",alignItems:"center",justifyContent:"center"}}>
             <span style={{color:"#fff",fontSize:11,fontWeight:700}}>BW</span>
           </div>
-          <span style={{color:"#fff",fontSize:14,fontWeight:600}}>Market Intelligence</span>
+          <span style={{color:"#fff",fontSize:isMobile?13:14,fontWeight:600}}>Market Intelligence</span>
         </div>
 
         {/* Source switcher */}
         <div style={{display:"flex",gap:2,background:"rgba(255,255,255,.08)",borderRadius:8,padding:3}}>
           {Object.values(SOURCES).map(s=>(
             <button key={s.key} onClick={()=>setSource(s.key)} style={{
-              padding:"4px 12px",fontSize:11,fontWeight:500,borderRadius:6,border:"none",cursor:"pointer",
+              padding:isMobile?"3px 8px":"4px 12px",
+              fontSize:isMobile?11:11,fontWeight:500,borderRadius:6,border:"none",cursor:"pointer",
               background:source===s.key?"rgba(255,255,255,.9)":"transparent",
               color:source===s.key?C.navy:"rgba(255,255,255,.6)",
               transition:"all .15s",whiteSpace:"nowrap",
@@ -552,48 +600,48 @@ export default function Dashboard() {
         <div style={{display:"flex",gap:2,background:"rgba(255,255,255,.1)",borderRadius:8,padding:3}}>
           {[["prodaja","Prodaja"],["renta","Renta"]].map(([k,l])=>(
             <button key={k} onClick={()=>setMode(k)} style={{
-              padding:"4px 14px",fontSize:12,fontWeight:500,borderRadius:6,border:"none",cursor:"pointer",
+              padding:isMobile?"3px 8px":"4px 14px",
+              fontSize:isMobile?11:12,fontWeight:500,borderRadius:6,border:"none",cursor:"pointer",
               background:mode===k?"#fff":"transparent",color:mode===k?C.navy:"rgba(255,255,255,.7)",
               transition:"all .15s",
             }}>{l}</button>
           ))}
         </div>
 
-        <span style={{color:"rgba(255,255,255,.4)",fontSize:10}}>{scraped}</span>
+        {!isMobile && <span style={{color:"rgba(255,255,255,.4)",fontSize:10}}>{scraped}</span>}
       </div>
 
-      {/* Source indicator bar */}
       {!latest && (
         <div style={{background:"#FEF3C7",borderBottom:"1px solid #FDE68A",padding:"8px 16px",fontSize:12,color:"#92400E",textAlign:"center"}}>
-          ⚠️ Podaci za {srcCfg.label} — {mode} još nisu dostupni. Scraper će ih generisati sledećeg pokretanja.
+          ⚠️ Podaci za {srcCfg.label} — {mode} još nisu dostupni.
         </div>
       )}
 
-      <div style={{padding:"16px",maxWidth:1200,margin:"0 auto"}}>
+      <div style={{padding:isMobile?"12px":"16px",maxWidth:1200,margin:"0 auto"}}>
 
         {/* Info bar */}
-        <div style={{background:C.white,borderRadius:10,padding:"10px 16px",marginBottom:16,display:"flex",alignItems:"center",gap:12,boxShadow:C.shadow,flexWrap:"wrap"}}>
+        <div style={{background:C.white,borderRadius:10,padding:"8px 14px",marginBottom:12,display:"flex",alignItems:"center",gap:10,boxShadow:C.shadow,flexWrap:"wrap"}}>
           <span style={{fontSize:11,fontWeight:600,padding:"3px 10px",borderRadius:20,background:C.navy+"12",color:C.navy}}>{srcCfg.label}</span>
           <span style={{fontSize:12,color:C.textS}}>📅 <strong style={{color:C.text}}>{scraped}</strong></span>
-          <span style={{marginLeft:"auto",fontSize:12,color:C.textS}}>{now}</span>
         </div>
 
-        {/* Tab nav */}
-        <div style={{display:"flex",gap:0,borderBottom:`1px solid ${C.border}`,marginBottom:20,overflowX:"auto"}}>
+        {/* Tab nav — horizontalni scroll na mobilnom */}
+        <div style={{display:"flex",gap:0,borderBottom:`1px solid ${C.border}`,marginBottom:16,overflowX:"auto",WebkitOverflowScrolling:"touch"}}>
           {[["pregled","Segmentacija"],["zgrade","Zgrade"],["trend","Trend"],["listinzi","Listinzi"],["agencije","Agencije"]].map(([k,l])=>(
             <button key={k} onClick={()=>setTab(k)} style={{
-              padding:"10px 18px",fontSize:13,fontWeight:tab===k?600:400,
+              padding:isMobile?"8px 12px":"10px 18px",
+              fontSize:isMobile?12:13,fontWeight:tab===k?600:400,
               background:"transparent",border:"none",whiteSpace:"nowrap",
               borderBottom:tab===k?`2px solid ${C.navy}`:"2px solid transparent",
               color:tab===k?C.navy:C.textS,cursor:"pointer",marginBottom:-1,
             }}>
               {l}
-              {k==="agencije"&&<span style={{marginLeft:6,fontSize:11,padding:"2px 7px",borderRadius:10,background:mode==="prodaja"?C.navy+"18":C.blue+"18",color:mode==="prodaja"?C.navy:C.blue,fontWeight:600}}>{mode==="prodaja"?"P":"R"}</span>}
+              {k==="agencije"&&<span style={{marginLeft:4,fontSize:10,padding:"2px 6px",borderRadius:10,background:mode==="prodaja"?C.navy+"18":C.blue+"18",color:mode==="prodaja"?C.navy:C.blue,fontWeight:600}}>{mode==="prodaja"?"P":"R"}</span>}
             </button>
           ))}
         </div>
 
-        {/* SWITCH TIP PRODAJE na Agencije tabu (samo prodaja) */}
+        {/* TIP PRODAJE na Agencije tabu */}
         {tab==="agencije" && mode==="prodaja" && latest && (
           <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14,alignItems:"center"}}>
             <span style={{fontSize:11,fontWeight:600,color:C.textS,marginRight:4}}>TIP PRODAJE</span>
@@ -619,11 +667,11 @@ export default function Dashboard() {
           <BuildingFilter buildings={allBuildings} selected={selBlds} onToggle={toggleBld} onClear={()=>setSelBlds([])}/>
 
           {mode==="prodaja" && (
-            <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14,alignItems:"center"}}>
+            <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:10,alignItems:"center"}}>
               <span style={{fontSize:11,fontWeight:600,color:C.textS,marginRight:4}}>TIP PRODAJE</span>
               {[["sve","Sve"],["direktna","Direktna prodaja"],["resale","Resale"]].map(([k,l])=>(
                 <button key={k} onClick={()=>setSaleType(k)}
-                  style={{fontSize:12,fontWeight:600,padding:"6px 14px",borderRadius:20,cursor:"pointer",
+                  style={{fontSize:12,fontWeight:600,padding:"5px 12px",borderRadius:20,cursor:"pointer",
                     border:`1px solid ${saleType===k?C.navy:C.border}`,
                     background:saleType===k?C.navy:C.white,
                     color:saleType===k?"#fff":C.textS}}>
@@ -633,15 +681,11 @@ export default function Dashboard() {
             </div>
           )}
 
-          <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:20}}>
-            <Pill label="Sve" active={!selStr} onClick={()=>setSelStr(null)}/>
-            {STR_ORDER.filter(s=>segByStr[s]).map(s=>(
-              <Pill key={s} label={STR_LABEL[s]} active={selStr===s} onClick={()=>setSelStr(selStr===s?null:s)} color={STR_COLOR[s]}/>
-            ))}
-          </div>
+          {/* Struktura filter — kolapsibilan na mobilnom */}
+          <StrFilter segByStr={segByStr} selStr={selStr} setSelStr={setSelStr} isMobile={isMobile}/>
 
-          {/* KPI row */}
-          <div style={{display:"grid",gridTemplateColumns:"repeat(7,1fr)",gap:12,marginBottom:20}}>
+          {/* KPI row — auto-fill na mobilnom */}
+          <div style={{display:"grid",gridTemplateColumns:isMobile?"repeat(2,1fr)":"repeat(7,1fr)",gap:10,marginBottom:16}}>
             <KPI label="Unique nekretnine" value={fmt(summary.cnt)} sub={isFiltered?`od ${latest?.total_unique} ukupno`:`${latest?.total_raw??0} oglasa, ${latest?.total_dups??0} dup.`}/>
             <KPI label="Duplikati" value={fmt(summary.dups)} sub={isFiltered?"za selektovane zgrade":"ista nkrt, više agencija"}/>
             <div onClick={()=>{setShowNew(true);setTab("listinzi");}} style={{cursor:"pointer"}}>
@@ -655,14 +699,14 @@ export default function Dashboard() {
 
           {/* PREGLED */}
           {tab==="pregled"&&(
-            <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(280px,1fr))",gap:16}}>
+            <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(260px,1fr))",gap:14}}>
               {STR_ORDER.filter(s=>segByStr[s]&&(!selStr||selStr===s)).map(s=>{
                 const v=segByStr[s], col=STR_COLOR[s];
                 const c=v.cena??{}, m=v.cena_m2??{}, sz=v.m2??{};
                 return (
                   <div key={s} onClick={()=>setSelStr(selStr===s?null:s)}
-                    style={{background:C.white,borderRadius:12,padding:"18px 20px",boxShadow:selStr===s?`0 0 0 2px ${col}`:C.shadow,cursor:"pointer",transition:"box-shadow .15s"}}>
-                    <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:14}}>
+                    style={{background:C.white,borderRadius:12,padding:"16px 18px",boxShadow:selStr===s?`0 0 0 2px ${col}`:C.shadow,cursor:"pointer",transition:"box-shadow .15s"}}>
+                    <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:12}}>
                       <div style={{display:"flex",alignItems:"center",gap:8}}>
                         <div style={{width:10,height:10,borderRadius:"50%",background:col}}/>
                         <span style={{fontSize:14,fontWeight:600}}>{v.label}</span>
@@ -697,58 +741,61 @@ export default function Dashboard() {
           {/* ZGRADE */}
           {tab==="zgrade"&&(
             <div style={{background:C.white,borderRadius:12,boxShadow:C.shadow,overflow:"hidden"}}>
-              <div style={{padding:"12px 18px",borderBottom:`1px solid ${C.border}`,display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+              <div style={{padding:"12px 18px",borderBottom:`1px solid ${C.border}`,display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:6}}>
                 <div style={{fontSize:13,fontWeight:600,color:C.text}}>
                   {bldRanking.length} zgrada · {fmt(bldTotalUnique)} unique listinga
                 </div>
                 <span style={{fontSize:11,color:C.textS}}>sortirano po {bldSortLabel} {bldSortDir<0?"↓":"↑"}</span>
               </div>
-              {/* header */}
-              <div style={{display:"grid",gridTemplateColumns:"minmax(140px,1.4fr) 3fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
-                {(()=>{const arrow=k=>bldSortKey===k?(bldSortDir<0?" ↓":" ↑"):"";const hs={cursor:"pointer",userSelect:"none"};const act=k=>bldSortKey===k?{color:C.navy}:{};return(<>
-                  <span style={{...hs,...act("zgrada")}} onClick={()=>toggleBldSort("zgrada")}>Zgrada{arrow("zgrada")}</span>
-                  <span>Distribucija</span>
-                  <span style={{textAlign:"center",...hs,...act("count")}} onClick={()=>toggleBldSort("count")}>Oglasi{arrow("count")}</span>
-                  <span style={{textAlign:"right",...hs,...act("avg_m2")}} onClick={()=>toggleBldSort("avg_m2")}>Prosek €/m²{arrow("avg_m2")}</span>
-                  <span/>
-                </>);})()}
-              </div>
-              {bldSorted.map((b,i)=>{
-                const col=b.color;
-                return (
-                  <div key={b.zgrada}
-                    style={{display:"grid",gridTemplateColumns:"minmax(140px,1.4fr) 3fr 64px 92px 78px",gap:10,
-                      padding:"5px 18px",alignItems:"center",
-                      borderBottom:i<bldSorted.length-1?`1px solid ${C.border}80`:"none",fontSize:13}}>
-                    <div style={{display:"flex",alignItems:"center",gap:8,minWidth:0}}>
-                      <div style={{width:8,height:8,borderRadius:"50%",background:col,flexShrink:0}}/>
-                      <span style={{fontWeight:600,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>{b.zgrada}</span>
-                    </div>
-                    <div style={{background:C.bg,borderRadius:6,height:8,overflow:"hidden"}}>
-                      <div style={{width:`${Math.min(100,Math.max(3,b.count/bldMaxCount*100))}%`,height:"100%",background:col,borderRadius:6}}/>
-                    </div>
-                    <span style={{textAlign:"center"}}>
-                      <span style={{fontSize:12,fontWeight:600,color:col,background:col+"1A",padding:"2px 9px",borderRadius:20}}>{b.count}</span>
-                    </span>
-                    <span style={{textAlign:"right",fontWeight:500,color:b.avg_m2?C.text:C.textXS}}>{b.avg_m2?`${fmt(b.avg_m2)} €`:"–"}</span>
-                    <button onClick={()=>{setSelBlds([b.zgrada]);setTab("listinzi");}}
-                      style={{fontSize:11,fontWeight:600,color:C.navy,background:"none",border:`1px solid ${C.border}`,borderRadius:6,padding:"3px 8px",cursor:"pointer",whiteSpace:"nowrap"}}>
-                      Listinzi ↗
-                    </button>
+              <div style={{overflowX:"auto"}}>
+                <div style={{minWidth:480}}>
+                  <div style={{display:"grid",gridTemplateColumns:"minmax(120px,1.4fr) 3fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
+                    {(()=>{const arrow=k=>bldSortKey===k?(bldSortDir<0?" ↓":" ↑"):"";const hs={cursor:"pointer",userSelect:"none"};const act=k=>bldSortKey===k?{color:C.navy}:{};return(<>
+                      <span style={{...hs,...act("zgrada")}} onClick={()=>toggleBldSort("zgrada")}>Zgrada{arrow("zgrada")}</span>
+                      <span>Distribucija</span>
+                      <span style={{textAlign:"center",...hs,...act("count")}} onClick={()=>toggleBldSort("count")}>Oglasi{arrow("count")}</span>
+                      <span style={{textAlign:"right",...hs,...act("avg_m2")}} onClick={()=>toggleBldSort("avg_m2")}>€/m²{arrow("avg_m2")}</span>
+                      <span/>
+                    </>);})()}
                   </div>
-                );
-              })}
+                  {bldSorted.map((b,i)=>{
+                    const col=b.color;
+                    return (
+                      <div key={b.zgrada}
+                        style={{display:"grid",gridTemplateColumns:"minmax(120px,1.4fr) 3fr 64px 92px 78px",gap:10,
+                          padding:"5px 18px",alignItems:"center",
+                          borderBottom:i<bldSorted.length-1?`1px solid ${C.border}80`:"none",fontSize:13}}>
+                        <div style={{display:"flex",alignItems:"center",gap:8,minWidth:0}}>
+                          <div style={{width:8,height:8,borderRadius:"50%",background:col,flexShrink:0}}/>
+                          <span style={{fontWeight:600,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>{b.zgrada.replace("BW ","")}</span>
+                        </div>
+                        <div style={{background:C.bg,borderRadius:6,height:6,overflow:"hidden"}}>
+                          <div style={{width:`${Math.min(100,Math.max(3,b.count/bldMaxCount*100))}%`,height:"100%",background:col,borderRadius:6}}/>
+                        </div>
+                        <span style={{textAlign:"center"}}>
+                          <span style={{fontSize:12,fontWeight:600,color:col,background:col+"1A",padding:"2px 9px",borderRadius:20}}>{b.count}</span>
+                        </span>
+                        <span style={{textAlign:"right",fontWeight:500,color:b.avg_m2?C.text:C.textXS}}>{b.avg_m2?`${fmt(b.avg_m2)} €`:"–"}</span>
+                        <button onClick={()=>{setSelBlds([b.zgrada]);setTab("listinzi");}}
+                          style={{fontSize:11,fontWeight:600,color:C.navy,background:"none",border:`1px solid ${C.border}`,borderRadius:6,padding:"3px 8px",cursor:"pointer",whiteSpace:"nowrap"}}>
+                          Listinzi ↗
+                        </button>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
           )}
 
           {/* TREND */}
           {tab==="trend"&&(
-            <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:16}}>
-              <div style={{background:C.white,borderRadius:12,padding:"20px",boxShadow:C.shadow,gridColumn:"1/-1"}}>
-                <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",marginBottom:16,flexWrap:"wrap",gap:8}}>
+            <div style={{display:"grid",gridTemplateColumns:isMobile?"1fr":"1fr 1fr",gap:14}}>
+              <div style={{background:C.white,borderRadius:12,padding:"18px",boxShadow:C.shadow,gridColumn:"1/-1"}}>
+                <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",marginBottom:14,flexWrap:"wrap",gap:8}}>
                   <div>
                     <div style={{fontSize:14,fontWeight:600,marginBottom:8}}>Broj oglasa na tržištu</div>
-                    <div style={{display:"flex",gap:16,flexWrap:"wrap"}}>
+                    <div style={{display:"flex",gap:14,flexWrap:"wrap"}}>
                       {[{l:"Danas",v:trendLast?fmt(trendLast.count):"–",c:null},{l:"Promena 24h",v:cntDelta!=null?(cntDelta>=0?"+":"")+cntDelta:"–",c:pctColor(cntDelta)},{l:"Prosek €/m²",v:trendLast?.avg_m2?fmt(trendLast.avg_m2)+" €":"–",c:null}].map(({l,v,c})=>(
                         <div key={l} style={{fontSize:12,color:C.textS}}>
                           <div style={{fontSize:18,fontWeight:700,color:c||C.text}}>{v}</div>{l}
@@ -762,28 +809,28 @@ export default function Dashboard() {
                     ))}
                   </div>
                 </div>
-                {histSlice.length>=2 ? <Spark data={histSlice} color={C.blue} height={100}/> : <div style={{height:100,display:"flex",alignItems:"center",justifyContent:"center",color:C.textS,fontSize:12}}>Nema dovoljno podataka za trend.</div>}
+                {histSlice.length>=2 ? <Spark data={histSlice} color={C.blue} height={100}/> : <div style={{height:80,display:"flex",alignItems:"center",justifyContent:"center",color:C.textS,fontSize:12}}>Nema dovoljno podataka za trend.</div>}
                 {histSlice.length>=2&&<div style={{display:"flex",justifyContent:"space-between",fontSize:11,color:C.textXS,marginTop:8}}><span>{histSlice[0]?.date}</span><span>{histSlice[histSlice.length-1]?.date}</span></div>}
               </div>
               {[{l:"Indeks cena DoD",v:fmtPct(priceIdx.dod),sub:"vs juče",n:priceIdx.dod},{l:"Indeks cena YTD",v:fmtPct(priceIdx.ytd),sub:"od 01.01.",n:priceIdx.ytd},{l:"Novi oglasi danas",v:`+${diff.new?.length??0}`,sub:"vs juče",n:diff.new?.length},{l:"Skinuti oglasi",v:`−${diff.removed?.length??0}`,sub:"vs juče",n:-(diff.removed?.length??0)}].map(({l,v,sub,n})=>(
                 <KPI key={l} label={l} value={v} sub={sub} valueColor={pctColor(n)}/>
               ))}
               {histSlice.length>0&&(
-                <div style={{background:C.white,borderRadius:12,padding:"20px",boxShadow:C.shadow,gridColumn:"1/-1"}}>
-                  <div style={{fontSize:14,fontWeight:600,marginBottom:14}}>Dnevna istorija</div>
+                <div style={{background:C.white,borderRadius:12,padding:"18px",boxShadow:C.shadow,gridColumn:"1/-1"}}>
+                  <div style={{fontSize:14,fontWeight:600,marginBottom:12}}>Dnevna istorija</div>
                   <div style={{overflowX:"auto"}}>
                     <table style={{width:"100%",borderCollapse:"collapse",fontSize:12}}>
-                      <thead><tr style={{borderBottom:`1px solid ${C.border}`}}>{["Datum","Raw","Unique","Dup.","Novi","Skinuti","Avg €/m²"].map(h=><th key={h} style={{textAlign:"left",padding:"8px 10px",fontSize:11,fontWeight:600,color:C.textS}}>{h}</th>)}</tr></thead>
+                      <thead><tr style={{borderBottom:`1px solid ${C.border}`}}>{["Datum","Raw","Unique","Dup.","Novi","Skinuti","Avg €/m²"].map(h=><th key={h} style={{textAlign:"left",padding:"8px 10px",fontSize:11,fontWeight:600,color:C.textS,whiteSpace:"nowrap"}}>{h}</th>)}</tr></thead>
                       <tbody>
                         {[...histSlice].reverse().map((h,i)=>(
                           <tr key={i} style={{borderBottom:`1px solid ${C.border}`}} onMouseEnter={e=>e.currentTarget.style.background="#F9FAFB"} onMouseLeave={e=>e.currentTarget.style.background="transparent"}>
-                            <td style={{padding:"9px 10px",fontWeight:600}}>{h.date}</td>
-                            <td style={{padding:"9px 10px"}}>{fmt(h.total_raw)}</td>
-                            <td style={{padding:"9px 10px",fontWeight:600}}>{fmt(h.total_unique)}</td>
-                            <td style={{padding:"9px 10px",color:C.textS}}>{fmt(h.total_dups)}</td>
-                            <td style={{padding:"9px 10px",color:C.green}}>{h.diff_new>0?`+${h.diff_new}`:"–"}</td>
-                            <td style={{padding:"9px 10px",color:C.red}}>{h.diff_removed>0?`−${h.diff_removed}`:"–"}</td>
-                            <td style={{padding:"9px 10px",color:C.textS}}>{h.avg_m2?fmt(h.avg_m2)+" €":"–"}</td>
+                            <td style={{padding:"8px 10px",fontWeight:600,whiteSpace:"nowrap"}}>{h.date}</td>
+                            <td style={{padding:"8px 10px"}}>{fmt(h.total_raw)}</td>
+                            <td style={{padding:"8px 10px",fontWeight:600}}>{fmt(h.total_unique)}</td>
+                            <td style={{padding:"8px 10px",color:C.textS}}>{fmt(h.total_dups)}</td>
+                            <td style={{padding:"8px 10px",color:C.green}}>{h.diff_new>0?`+${h.diff_new}`:"–"}</td>
+                            <td style={{padding:"8px 10px",color:C.red}}>{h.diff_removed>0?`−${h.diff_removed}`:"–"}</td>
+                            <td style={{padding:"8px 10px",color:C.textS}}>{h.avg_m2?fmt(h.avg_m2)+" €":"–"}</td>
                           </tr>
                         ))}
                       </tbody>
@@ -799,7 +846,7 @@ export default function Dashboard() {
             <div style={{background:C.white,borderRadius:12,boxShadow:C.shadow,overflow:"hidden"}}>
               <div style={{padding:"12px 16px",borderBottom:`1px solid ${C.border}`,display:"flex",gap:8,alignItems:"center",flexWrap:"wrap"}}>
                 <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Pretraži oglase, agenciju..."
-                  style={{flex:1,minWidth:140,fontSize:13,padding:"7px 12px",border:`1px solid ${C.border}`,borderRadius:8,outline:"none"}}/>
+                  style={{flex:1,minWidth:120,fontSize:13,padding:"7px 12px",border:`1px solid ${C.border}`,borderRadius:8,outline:"none"}}/>
                 {showNew&&<span style={{padding:"4px 10px",borderRadius:20,background:C.green+"18",color:C.green,fontSize:12,fontWeight:600}}>🟢 Novi ({diffSummary.newCount})</span>}
                 <span style={{fontSize:12,color:C.textS}}>{filtered.length} res.</span>
                 {(selStr||selBlds.length>0||search||showNew)&&(
@@ -807,7 +854,7 @@ export default function Dashboard() {
                 )}
               </div>
               <div style={{overflowX:"auto"}}>
-                <table style={{width:"100%",borderCollapse:"collapse",fontSize:13,tableLayout:"fixed"}}>
+                <table style={{width:"100%",borderCollapse:"collapse",fontSize:13,tableLayout:"fixed",minWidth:600}}>
                   <thead style={{background:"#F9FAFB"}}>
                     <tr style={{borderBottom:`1px solid ${C.border}`}}>
                       <SortTH label="Zgrada"   sortKey="zgrada"   activeSortKey={sortKey} sortDir={sortDir} onSort={toggleSort} width="20%"/>
@@ -835,7 +882,7 @@ export default function Dashboard() {
                           <td style={{padding:"10px 16px",fontWeight:500,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
                             <div style={{display:"flex",alignItems:"center",gap:7}}>
                               <div style={{width:8,height:8,borderRadius:"50%",background:col,flexShrink:0}}/>
-                              <span style={{overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{l.zgrada}</span>
+                              <span style={{overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{l.zgrada?.replace("BW ","")}</span>
                               {isNew&&showNew&&<span style={{fontSize:10,fontWeight:700,color:C.green,marginLeft:2}}>NEW</span>}
                             </div>
                           </td>
@@ -859,7 +906,6 @@ export default function Dashboard() {
           )}
         </>)}
 
-        {/* Nema podataka */}
         {tab!=="agencije" && !latest && (
           <div style={{textAlign:"center",padding:"60px 20px",color:C.textS}}>
             <div style={{fontSize:32,marginBottom:12}}>⏳</div>
