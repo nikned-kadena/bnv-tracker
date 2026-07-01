@@ -31,9 +31,10 @@ const C = {
 };
 
 const fmt       = n => n==null?"–":new Intl.NumberFormat("sr-RS").format(Math.round(n));
-const fmtK      = n => n==null?"–":n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?(n/1e3).toFixed(0)+"k":String(Math.round(n));
-const fmtKRenta = n => n==null?"–":n>=1e6?(n/1e6).toFixed(1)+"M":new Intl.NumberFormat("sr-RS").format(Math.round(n));
-const fmtPct    = n => n==null?"–":(n>=0?"+":"")+n.toFixed(2)+"%";
+const fmtK      = n => n==null?"–":n>=1e6?(n/1e6).toLocaleString("sr-RS",{maximumFractionDigits:1})+"M":n>=1e3?(n/1e3).toLocaleString("sr-RS",{maximumFractionDigits:0})+"k":String(Math.round(n));
+const fmtKRenta = n => n==null?"–":n>=1e6?(n/1e6).toLocaleString("sr-RS",{maximumFractionDigits:1})+"M":new Intl.NumberFormat("sr-RS").format(Math.round(n));
+const fmtDec    = (n, dec=2) => n==null?"–":n.toLocaleString("sr-RS",{minimumFractionDigits:dec,maximumFractionDigits:dec});
+const fmtPct    = n => n==null?"–":(n>=0?"+":"")+fmtDec(n,2)+"%";
 const pctColor  = n => n==null?C.textS:n>0?C.green:n<0?C.red:C.textS;
 const BLD_COLORS = ["#EC4899","#10B981","#06B6D4","#3B82F6","#8B5CF6","#0EA5E9","#F59E0B","#EF4444","#84CC16","#14B8A6","#A855F7","#F97316","#22D3EE","#6366F1","#D946EF","#65A30D"];
 
