@@ -35,7 +35,7 @@ const fmtK      = n => n==null?"–":n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?(n/1e3
 const fmtKRenta = n => n==null?"–":n>=1e6?(n/1e6).toFixed(1)+"M":new Intl.NumberFormat("sr-RS").format(Math.round(n));
 const fmtPct    = n => n==null?"–":(n>=0?"+":"")+n.toFixed(2)+"%";
 const pctColor  = n => n==null?C.textS:n>0?C.green:n<0?C.red:C.textS;
-
+const BLD_COLORS = ["#EC4899","#10B981","#06B6D4","#3B82F6","#8B5CF6","#0EA5E9","#F59E0B","#EF4444","#84CC16","#14B8A6","#A855F7","#F97316","#22D3EE","#6366F1","#D946EF","#65A30D"];
 function Spark({ data, color=C.blue, height=80 }) {
   const ref = useRef(null);
   useEffect(() => {
@@ -418,6 +418,27 @@ export default function Dashboard() {
     };
   },[uniqFiltered,bldFiltered,selBlds,latest]);
 
+  // Rangiranje zgrada (dedup, poštuje Tip prodaje; prikazuje sve zgrade)
+  const bldRanking = useMemo(()=>{
+    const seen=new Set(); const grp={};
+    for(const l of saleFiltered){
+      const k=l.dedup_key||l.id;
+      if(seen.has(k)) continue;
+      seen.add(k);
+      const z=l.zgrada||"Neidentifikovano";
+      if(!grp[z]) grp[z]={zgrada:z,count:0,m2s:[]};
+      grp[z].count++;
+      if(l.cena_m2) grp[z].m2s.push(l.cena_m2);
+    }
+    const arr=Object.values(grp).map(g=>({
+      zgrada:g.zgrada, count:g.count,
+      avg_m2:g.m2s.length?Math.round(g.m2s.reduce((a,b)=>a+b,0)/g.m2s.length):null,
+    }));
+    return arr.sort((a,b)=>b.count-a.count);
+  },[saleFiltered]);
+  const bldMaxCount = bldRanking[0]?.count || 1;
+  const bldTotalUnique = bldRanking.reduce((s,b)=>s+b.count,0);
+
   const diffSummary = useMemo(()=>({
     newCount:     selBlds.length>0?(diff.new??[]).filter(l=>selBlds.includes(l.zgrada)).length:(diff.new?.length??0),
     removedCount: selBlds.length>0?(diff.removed??[]).filter(l=>selBlds.includes(l.zgrada)).length:(diff.removed?.length??0),
@@ -511,7 +532,7 @@ export default function Dashboard() {
 
         {/* Tab nav */}
         <div style={{display:"flex",gap:0,borderBottom:`1px solid ${C.border}`,marginBottom:20,overflowX:"auto"}}>
-          {[["pregled","Segmentacija"],["trend","Trend"],["listinzi","Listinzi"],["agencije","Agencije"]].map(([k,l])=>(
+          {[["pregled","Segmentacija"],["zgrade","Zgrade"],["trend","Trend"],["listinzi","Listinzi"],["agencije","Agencije"]].map(([k,l])=>(
             <button key={k} onClick={()=>setTab(k)} style={{
               padding:"10px 18px",fontSize:13,fontWeight:tab===k?600:400,
               background:"transparent",border:"none",whiteSpace:"nowrap",
@@ -619,6 +640,49 @@ export default function Dashboard() {
                         {m.avg&&<div style={{fontSize:11,color:C.textS,marginTop:4,textAlign:"right"}}>prosek ~{fmt(m.avg)} €/m²</div>}
                       </div>
                     )}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+          {/* ZGRADE */}
+          {tab==="zgrade"&&(
+            <div style={{background:C.white,borderRadius:12,boxShadow:C.shadow,overflow:"hidden"}}>
+              <div style={{padding:"12px 18px",borderBottom:`1px solid ${C.border}`,display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+                <div style={{fontSize:13,fontWeight:600,color:C.text}}>
+                  {bldRanking.length} zgrada · {fmt(bldTotalUnique)} unique listinga
+                </div>
+                <span style={{fontSize:11,color:C.textS}}>sortirano po broju oglasa</span>
+              </div>
+              {/* header */}
+              <div style={{display:"grid",gridTemplateColumns:"minmax(140px,1.4fr) 3fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
+                <span>Zgrada</span><span>Distribucija</span>
+                <span style={{textAlign:"center"}}>Oglasi</span>
+                <span style={{textAlign:"right"}}>Prosek €/m²</span><span/>
+              </div>
+              {bldRanking.map((b,i)=>{
+                const col=BLD_COLORS[i%BLD_COLORS.length];
+                return (
+                  <div key={b.zgrada}
+                    style={{display:"grid",gridTemplateColumns:"minmax(140px,1.4fr) 3fr 64px 92px 78px",gap:10,
+                      padding:"5px 18px",alignItems:"center",
+                      borderBottom:i<bldRanking.length-1?`1px solid ${C.border}80`:"none",fontSize:13}}>
+                    <div style={{display:"flex",alignItems:"center",gap:8,minWidth:0}}>
+                      <div style={{width:8,height:8,borderRadius:"50%",background:col,flexShrink:0}}/>
+                      <span style={{fontWeight:600,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>{b.zgrada}</span>
+                    </div>
+                    <div style={{background:C.bg,borderRadius:6,height:8,overflow:"hidden"}}>
+                      <div style={{width:`${Math.max(3,b.count/bldMaxCount*100)}%`,height:"100%",background:col,borderRadius:6}}/>
+                    </div>
+                    <span style={{textAlign:"center"}}>
+                      <span style={{fontSize:12,fontWeight:600,color:col,background:col+"1A",padding:"2px 9px",borderRadius:20}}>{b.count}</span>
+                    </span>
+                    <span style={{textAlign:"right",fontWeight:500,color:b.avg_m2?C.text:C.textXS}}>{b.avg_m2?`${fmt(b.avg_m2)} €`:"–"}</span>
+                    <button onClick={()=>{setSelBlds([b.zgrada]);setTab("listinzi");}}
+                      style={{fontSize:11,fontWeight:600,color:C.navy,background:"none",border:`1px solid ${C.border}`,borderRadius:6,padding:"3px 8px",cursor:"pointer",whiteSpace:"nowrap"}}>
+                      Listinzi ↗
+                    </button>
                   </div>
                 );
               })}
