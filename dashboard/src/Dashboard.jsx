@@ -309,6 +309,8 @@ export default function Dashboard() {
   const [tab,     setTab]     = useState("pregled");
   const [showNew, setShowNew] = useState(false);
   const [saleType, setSaleType] = useState("sve");   // sve | direktna | resale (samo prodaja)
+  const [bldSortKey, setBldSortKey] = useState("count");   // zgrada | count | avg_m2
+  const [bldSortDir, setBldSortDir] = useState(-1);        // 1 asc, -1 desc
   const [nrsAgMapping, setNrsAgMapping] = useState({});
 
   // Učitaj sve podatke jednom
@@ -346,8 +348,20 @@ export default function Dashboard() {
   };
   const listings     = useMemo(()=>{
     const raw = latest?.listings??[];
-    return raw.map(l=>{ const nz=normZgrada(l.zgrada); return nz===l.zgrada?l:{...l,zgrada:nz}; });
-  },[latest]);
+    const okPM2 = (p)=> p>=1200 && p<=25000;   // plausibilan €/m² za prodaju
+    return raw.map(l=>{
+      const nz=normZgrada(l.zgrada);
+      let m2=l.m2, cm2=l.cena_m2, fixed=false;
+      // Ispravka decimalnog previda u kvadraturi (npr. "36,68" pročitano kao 3668)
+      if(mode==="prodaja" && m2!=null && l.cena!=null && !okPM2(l.cena/m2)){
+        for(const d of [10,100,1000]){
+          if(okPM2(l.cena/(m2/d))){ m2=+(m2/d).toFixed(2); cm2=Math.round(l.cena/m2); fixed=true; break; }
+        }
+      }
+      if(nz===l.zgrada && !fixed) return l;
+      return {...l, zgrada:nz, m2, cena_m2:cm2};
+    });
+  },[latest,mode]);
   const diff         = useMemo(()=>latest?.diff??{},[latest]);
   const byZgrada     = useMemo(()=>latest?.stats?.po_zgradi??{},[latest]);
   const allBuildings = useMemo(()=>{
@@ -449,10 +463,29 @@ export default function Dashboard() {
       const aN=a.zgrada==="Neidentifikovano", bN=b.zgrada==="Neidentifikovano";
       if(aN!==bN) return aN?1:-1;      // Neidentifikovano uvek na dno
       return b.count-a.count;
-    });
+    }).map((b,i)=>({...b, color:BLD_COLORS[i%BLD_COLORS.length]}));   // stabilna boja po default rangu
   },[saleFiltered]);
   const bldMaxCount = bldRanking[0]?.count || 1;
   const bldTotalUnique = bldRanking.reduce((s,b)=>s+b.count,0);
+
+  // Prikazno sortiranje po izabranoj koloni (Neidentifikovano ostaje na dnu)
+  const bldSorted = useMemo(()=>{
+    const arr=[...bldRanking];
+    arr.sort((a,b)=>{
+      const aN=a.zgrada==="Neidentifikovano", bN=b.zgrada==="Neidentifikovano";
+      if(aN!==bN) return aN?1:-1;
+      if(bldSortKey==="zgrada") return a.zgrada.localeCompare(b.zgrada)*bldSortDir;
+      const va = bldSortKey==="avg_m2" ? (a.avg_m2??-1) : a.count;
+      const vb = bldSortKey==="avg_m2" ? (b.avg_m2??-1) : b.count;
+      return (va-vb)*bldSortDir;
+    });
+    return arr;
+  },[bldRanking,bldSortKey,bldSortDir]);
+  const toggleBldSort=(k)=>{
+    if(bldSortKey===k) setBldSortDir(d=>-d);
+    else { setBldSortKey(k); setBldSortDir(k==="zgrada"?1:-1); }
+  };
+  const bldSortLabel = bldSortKey==="zgrada"?"nazivu":bldSortKey==="avg_m2"?"proseku €/m²":"broju oglasa";
 
   const diffSummary = useMemo(()=>({
     newCount:     selBlds.length>0?(diff.new??[]).filter(l=>selBlds.includes(l.zgrada)).length:(diff.new?.length??0),
@@ -668,21 +701,25 @@ export default function Dashboard() {
                 <div style={{fontSize:13,fontWeight:600,color:C.text}}>
                   {bldRanking.length} zgrada · {fmt(bldTotalUnique)} unique listinga
                 </div>
-                <span style={{fontSize:11,color:C.textS}}>sortirano po broju oglasa</span>
+                <span style={{fontSize:11,color:C.textS}}>sortirano po {bldSortLabel} {bldSortDir<0?"↓":"↑"}</span>
               </div>
               {/* header */}
               <div style={{display:"grid",gridTemplateColumns:"minmax(140px,1.4fr) 3fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
-                <span>Zgrada</span><span>Distribucija</span>
-                <span style={{textAlign:"center"}}>Oglasi</span>
-                <span style={{textAlign:"right"}}>Prosek €/m²</span><span/>
+                {(()=>{const arrow=k=>bldSortKey===k?(bldSortDir<0?" ↓":" ↑"):"";const hs={cursor:"pointer",userSelect:"none"};const act=k=>bldSortKey===k?{color:C.navy}:{};return(<>
+                  <span style={{...hs,...act("zgrada")}} onClick={()=>toggleBldSort("zgrada")}>Zgrada{arrow("zgrada")}</span>
+                  <span>Distribucija</span>
+                  <span style={{textAlign:"center",...hs,...act("count")}} onClick={()=>toggleBldSort("count")}>Oglasi{arrow("count")}</span>
+                  <span style={{textAlign:"right",...hs,...act("avg_m2")}} onClick={()=>toggleBldSort("avg_m2")}>Prosek €/m²{arrow("avg_m2")}</span>
+                  <span/>
+                </>);})()}
               </div>
-              {bldRanking.map((b,i)=>{
-                const col=BLD_COLORS[i%BLD_COLORS.length];
+              {bldSorted.map((b,i)=>{
+                const col=b.color;
                 return (
                   <div key={b.zgrada}
                     style={{display:"grid",gridTemplateColumns:"minmax(140px,1.4fr) 3fr 64px 92px 78px",gap:10,
                       padding:"5px 18px",alignItems:"center",
-                      borderBottom:i<bldRanking.length-1?`1px solid ${C.border}80`:"none",fontSize:13}}>
+                      borderBottom:i<bldSorted.length-1?`1px solid ${C.border}80`:"none",fontSize:13}}>
                     <div style={{display:"flex",alignItems:"center",gap:8,minWidth:0}}>
                       <div style={{width:8,height:8,borderRadius:"50%",background:col,flexShrink:0}}/>
                       <span style={{fontWeight:600,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>{b.zgrada}</span>
