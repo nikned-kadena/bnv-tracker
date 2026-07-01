@@ -339,10 +339,21 @@ export default function Dashboard() {
   const dataKey = `${source}_${mode}`;
   const latest  = data[dataKey] || null;
 
-  const listings     = useMemo(()=>latest?.listings??[],[latest]);
+  const normZgrada = (z)=>{
+    if(!z) return "Neidentifikovano";
+    if(/\(/.test(z) || /neident/i.test(z)) return "Neidentifikovano";
+    return z;
+  };
+  const listings     = useMemo(()=>{
+    const raw = latest?.listings??[];
+    return raw.map(l=>{ const nz=normZgrada(l.zgrada); return nz===l.zgrada?l:{...l,zgrada:nz}; });
+  },[latest]);
   const diff         = useMemo(()=>latest?.diff??{},[latest]);
   const byZgrada     = useMemo(()=>latest?.stats?.po_zgradi??{},[latest]);
-  const allBuildings = useMemo(()=>Object.keys(byZgrada).sort(),[byZgrada]);
+  const allBuildings = useMemo(()=>{
+    const set=new Set(listings.map(l=>l.zgrada).filter(z=>z && z!=="Neidentifikovano"));
+    return [...set].sort();
+  },[listings]);
 
   const histData  = hist[source] || [];
   const histSlice = useMemo(()=>{
@@ -434,7 +445,11 @@ export default function Dashboard() {
       zgrada:g.zgrada, count:g.count,
       avg_m2:g.m2s.length?Math.round(g.m2s.reduce((a,b)=>a+b,0)/g.m2s.length):null,
     }));
-    return arr.sort((a,b)=>b.count-a.count);
+    return arr.sort((a,b)=>{
+      const aN=a.zgrada==="Neidentifikovano", bN=b.zgrada==="Neidentifikovano";
+      if(aN!==bN) return aN?1:-1;      // Neidentifikovano uvek na dno
+      return b.count-a.count;
+    });
   },[saleFiltered]);
   const bldMaxCount = bldRanking[0]?.count || 1;
   const bldTotalUnique = bldRanking.reduce((s,b)=>s+b.count,0);
@@ -673,7 +688,7 @@ export default function Dashboard() {
                       <span style={{fontWeight:600,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>{b.zgrada}</span>
                     </div>
                     <div style={{background:C.bg,borderRadius:6,height:8,overflow:"hidden"}}>
-                      <div style={{width:`${Math.max(3,b.count/bldMaxCount*100)}%`,height:"100%",background:col,borderRadius:6}}/>
+                      <div style={{width:`${Math.min(100,Math.max(3,b.count/bldMaxCount*100))}%`,height:"100%",background:col,borderRadius:6}}/>
                     </div>
                     <span style={{textAlign:"center"}}>
                       <span style={{fontSize:12,fontWeight:600,color:col,background:col+"1A",padding:"2px 9px",borderRadius:20}}>{b.count}</span>
