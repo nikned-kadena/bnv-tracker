@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-BnV Tracker v4.16 — + agencija polje
+BnV Tracker v4.17 — + sanitizacija kvadrature (decimalni previd)
 """
 
 import json, re, time, hashlib, sys
@@ -55,6 +55,38 @@ def parse_price(text, mode="prodaja"):
         if 150_000 < val < 5_000_000:
             return val
     return None
+
+def sanitize_m2(m2, cena=None, mode="prodaja"):
+    """Ispravlja decimalni previd u kvadraturi.
+    Neki Halo card template-i (npr. Premium/Novogradnja) renderuju decimalni
+    deo kvadrature kao poseban element, pa get_text spoji cifre i izgubi zarez
+    (npr. "36,68" -> "3.668" ili "3668"). Ovo daje besmislen €/m².
+    Rešenje: ako kvadratura daje nerealan €/m² (ili je van opsega 8–600 m²),
+    skalira je (×10, ×100, ÷10...) dok ne dobije realnu vrednost.
+    BnV stanovi realno: ~8–600 m², prodajni €/m²: ~1.200–25.000.
+    """
+    if m2 is None:
+        return None
+    in_range = lambda x: 8 <= x <= 600
+    ok_pm2   = lambda x: bool(x) and cena is not None and 1200 <= cena / x <= 25000
+
+    if mode == "prodaja" and cena:
+        if in_range(m2) and ok_pm2(m2):
+            return m2
+        for f in (10, 100, 0.1, 0.01, 1000, 0.001):
+            c = m2 * f
+            if in_range(c) and ok_pm2(c):
+                return round(c, 2)
+        return m2
+
+    # renta ili prodaja bez cene: samo opseg realne površine
+    if in_range(m2):
+        return m2
+    for f in (10, 100, 0.1, 0.01):
+        c = m2 * f
+        if in_range(c):
+            return round(c, 2)
+    return m2
 
 def listing_hash(zgrada, struktura, m2):
     key = f"{zgrada}|{struktura}|{round((m2 or 0)/3)}"
@@ -166,6 +198,9 @@ def parse_page(html, page_num, mode="prodaja"):
                 if mm:
                     try: m2_val = float(mm.group(1).replace(",","."))
                     except: pass
+
+            # Ispravka decimalnog previda u kvadraturi (npr. "36,68" -> 3.668/3668)
+            m2_val = sanitize_m2(m2_val, cena, mode)
 
             street_text = ""
             subtitle = card.find(class_=re.compile("subtitle-places"))
@@ -406,7 +441,7 @@ def save_snapshot(mode, all_listings, total_raw):
 
 def main():
     print("="*55)
-    print(f"BnV Scraper v4.16 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"BnV Scraper v4.17 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
     print(f"Prodaja + Izdavanje")
     print("="*55)
 
