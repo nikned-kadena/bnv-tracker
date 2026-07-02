@@ -96,6 +96,7 @@ function BuildingFilter({ buildings, selected, onToggle, onClear }) {
   return (
     <div style={{marginBottom:10}}>
       <div style={{display:"flex",alignItems:"center",gap:8,flexWrap:"wrap"}}>
+        <span style={{fontSize:11,fontWeight:600,color:C.textS,textTransform:"uppercase",letterSpacing:.5,marginRight:4}}>Zgrada</span>
         <button onClick={()=>setOpen(o=>!o)} style={{
           display:"flex",alignItems:"center",gap:6,padding:"6px 14px",borderRadius:20,
           fontSize:13,fontWeight:600,border:"none",background:C.navy,color:C.white,
@@ -126,26 +127,16 @@ function BuildingFilter({ buildings, selected, onToggle, onClear }) {
   );
 }
 
-// Kolapsibilni filter za strukturu — novi za mobilni
-function StrFilter({ segByStr, selStr, setSelStr, isMobile }) {
+// Kolapsibilni filter za strukturu — uvek kolapsiran (kao NB)
+function StrFilter({ segByStr, selStr, setSelStr }) {
   const [open, setOpen] = useState(false);
   const available = STR_ORDER.filter(s=>segByStr[s]);
   const activeLabel = selStr ? STR_LABEL[selStr] : null;
 
-  if (!isMobile) {
-    return (
-      <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:20}}>
-        <Pill label="Sve" active={!selStr} onClick={()=>setSelStr(null)}/>
-        {available.map(s=>(
-          <Pill key={s} label={STR_LABEL[s]} active={selStr===s} onClick={()=>setSelStr(selStr===s?null:s)} color={STR_COLOR[s]}/>
-        ))}
-      </div>
-    );
-  }
-
   return (
     <div style={{marginBottom:16}}>
       <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:open?8:0}}>
+        <span style={{fontSize:11,fontWeight:600,color:C.textS,textTransform:"uppercase",letterSpacing:.5,marginRight:4}}>Struktura</span>
         <button onClick={()=>setOpen(o=>!o)} style={{
           display:"flex",alignItems:"center",gap:5,
           background:selStr?STR_COLOR[selStr]:C.white,
@@ -425,17 +416,6 @@ export default function Dashboard() {
     return filtered.slice(-period);
   },[histData, source, mode, period]);
 
-  const priceIdx = useMemo(()=>{
-    if(histData.length<2) return {dod:null,ytd:null};
-    const relevant = source==="nrs" ? histData.filter(h=>h.mode===mode) : histData;
-    if(relevant.length<2) return {dod:null,ytd:null};
-    const last=relevant[relevant.length-1], prev=relevant[relevant.length-2];
-    const ytd=relevant.find(h=>h.date?.startsWith(new Date().getFullYear()+"-01"))??relevant[0];
-    const g=h=>h.avg_m2??null;
-    const lv=g(last),pv=g(prev),yv=g(ytd);
-    return {dod:lv&&pv?(lv-pv)/pv*100:null, ytd:lv&&yv?(lv-yv)/yv*100:null};
-  },[histData,source,mode]);
-
   const newKeys = useMemo(()=>new Set((diff.new??[]).map(l=>l.dedup_key||l.id).filter(Boolean)),[diff]);
 
   const isDirektna = (l)=> l.cena!=null && l.cena%1000===888;
@@ -618,13 +598,37 @@ export default function Dashboard() {
         </div>
       )}
 
-      <div style={{padding:isMobile?"12px":"16px",maxWidth:1200,margin:"0 auto"}}>
+      <div style={{padding:isMobile?"12px":"16px 24px"}}>
 
         {/* Info bar */}
         <div style={{background:C.white,borderRadius:10,padding:"8px 14px",marginBottom:12,display:"flex",alignItems:"center",gap:10,boxShadow:C.shadow,flexWrap:"wrap"}}>
           <span style={{fontSize:11,fontWeight:600,padding:"3px 10px",borderRadius:20,background:C.navy+"12",color:C.navy}}>{srcCfg.label}</span>
           <span style={{fontSize:12,color:C.textS}}>📅 <strong style={{color:C.text}}>{scraped}</strong></span>
         </div>
+
+        {/* FILTERI — tri reda: ZGRADA / TIP PRODAJE / STRUKTURA (kao NB) */}
+        {latest && (
+          <>
+            <BuildingFilter buildings={allBuildings} selected={selBlds} onToggle={toggleBld} onClear={()=>setSelBlds([])}/>
+
+            {mode==="prodaja" && (
+              <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:10,alignItems:"center"}}>
+                <span style={{fontSize:11,fontWeight:600,color:C.textS,textTransform:"uppercase",letterSpacing:.5,marginRight:4}}>Tip prodaje</span>
+                {[["sve","Sve"],["direktna","Direktna prodaja"],["resale","Resale"]].map(([k,l])=>(
+                  <button key={k} onClick={()=>setSaleType(k)}
+                    style={{fontSize:12,fontWeight:600,padding:"5px 12px",borderRadius:20,cursor:"pointer",
+                      border:`1px solid ${saleType===k?C.navy:C.border}`,
+                      background:saleType===k?C.navy:C.white,
+                      color:saleType===k?"#fff":C.textS}}>
+                    {l}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            <StrFilter segByStr={segByStr} selStr={selStr} setSelStr={setSelStr}/>
+          </>
+        )}
 
         {/* Tab nav — horizontalni scroll na mobilnom */}
         <div style={{display:"flex",gap:0,borderBottom:`1px solid ${C.border}`,marginBottom:16,overflowX:"auto",WebkitOverflowScrolling:"touch"}}>
@@ -642,22 +646,6 @@ export default function Dashboard() {
           ))}
         </div>
 
-        {/* TIP PRODAJE na Agencije tabu */}
-        {tab==="agencije" && mode==="prodaja" && latest && (
-          <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14,alignItems:"center"}}>
-            <span style={{fontSize:11,fontWeight:600,color:C.textS,marginRight:4}}>TIP PRODAJE</span>
-            {[["sve","Sve"],["direktna","Direktna prodaja"],["resale","Resale"]].map(([k,l])=>(
-              <button key={k} onClick={()=>setSaleType(k)}
-                style={{fontSize:12,fontWeight:600,padding:"6px 14px",borderRadius:20,cursor:"pointer",
-                  border:`1px solid ${saleType===k?C.navy:C.border}`,
-                  background:saleType===k?C.navy:C.white,
-                  color:saleType===k?"#fff":C.textS}}>
-                {l}
-              </button>
-            ))}
-          </div>
-        )}
-
         {/* AGENCIJE TAB */}
         {tab==="agencije" && latest && (
           <AgencijeTab mode={mode} listings={agListings} agMapping={agMapping} agMode={srcCfg.agMode} nrsAgMapping={nrsAgMapping}/>
@@ -665,28 +653,8 @@ export default function Dashboard() {
 
         {/* OSTALI TABOVI */}
         {tab!=="agencije" && latest && (<>
-          <BuildingFilter buildings={allBuildings} selected={selBlds} onToggle={toggleBld} onClear={()=>setSelBlds([])}/>
-
-          {mode==="prodaja" && (
-            <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:10,alignItems:"center"}}>
-              <span style={{fontSize:11,fontWeight:600,color:C.textS,marginRight:4}}>TIP PRODAJE</span>
-              {[["sve","Sve"],["direktna","Direktna prodaja"],["resale","Resale"]].map(([k,l])=>(
-                <button key={k} onClick={()=>setSaleType(k)}
-                  style={{fontSize:12,fontWeight:600,padding:"5px 12px",borderRadius:20,cursor:"pointer",
-                    border:`1px solid ${saleType===k?C.navy:C.border}`,
-                    background:saleType===k?C.navy:C.white,
-                    color:saleType===k?"#fff":C.textS}}>
-                  {l}
-                </button>
-              ))}
-            </div>
-          )}
-
-          {/* Struktura filter — kolapsibilan na mobilnom */}
-          <StrFilter segByStr={segByStr} selStr={selStr} setSelStr={setSelStr} isMobile={isMobile}/>
-
-          {/* KPI row — auto-fill na mobilnom */}
-          <div style={{display:"grid",gridTemplateColumns:isMobile?"repeat(2,1fr)":"repeat(7,1fr)",gap:10,marginBottom:16}}>
+          {/* KPI row — preko celog ekrana (kao NB) */}
+          <div style={{display:"grid",gridTemplateColumns:isMobile?"repeat(2,1fr)":"repeat(auto-fit,minmax(170px,1fr))",gap:10,marginBottom:16}}>
             <KPI label="Unique nekretnine" value={fmt(summary.cnt)} sub={isFiltered?`od ${latest?.total_unique} ukupno`:`${latest?.total_raw??0} oglasa, ${latest?.total_dups??0} dup.`}/>
             <KPI label="Duplikati" value={fmt(summary.dups)} sub={isFiltered?"za selektovane zgrade":"ista nkrt, više agencija"}/>
             <div onClick={()=>{setShowNew(true);setTab("listinzi");}} style={{cursor:"pointer"}}>
@@ -694,8 +662,6 @@ export default function Dashboard() {
             </div>
             <KPI label="Cena raspon" value={summary.minC?(mode==="renta"?`${fmtKRenta(summary.minC)}–${fmtKRenta(summary.maxC)} €`:`${fmtK(summary.minC)}–${fmtK(summary.maxC)} €`):"–"}/>
             <KPI label="Prosek €/m²" value={summary.avgM2?`${fmt(summary.avgM2)} €`:"–"} sub={isFiltered?"selektovane zgrade":"sve strukture"}/>
-            <KPI label="DoD" value={fmtPct(priceIdx.dod)} sub="globalni indeks" valueColor={pctColor(priceIdx.dod)}/>
-            <KPI label="YTD" value={fmtPct(priceIdx.ytd)} sub="globalni indeks" valueColor={pctColor(priceIdx.ytd)}/>
           </div>
 
           {/* PREGLED */}
@@ -813,7 +779,7 @@ export default function Dashboard() {
                 {histSlice.length>=2 ? <Spark data={histSlice} color={C.blue} height={100}/> : <div style={{height:80,display:"flex",alignItems:"center",justifyContent:"center",color:C.textS,fontSize:12}}>Nema dovoljno podataka za trend.</div>}
                 {histSlice.length>=2&&<div style={{display:"flex",justifyContent:"space-between",fontSize:11,color:C.textXS,marginTop:8}}><span>{histSlice[0]?.date}</span><span>{histSlice[histSlice.length-1]?.date}</span></div>}
               </div>
-              {[{l:"Indeks cena DoD",v:fmtPct(priceIdx.dod),sub:"vs juče",n:priceIdx.dod},{l:"Indeks cena YTD",v:fmtPct(priceIdx.ytd),sub:"od 01.01.",n:priceIdx.ytd},{l:"Novi oglasi danas",v:`+${diff.new?.length??0}`,sub:"vs juče",n:diff.new?.length},{l:"Skinuti oglasi",v:`−${diff.removed?.length??0}`,sub:"vs juče",n:-(diff.removed?.length??0)}].map(({l,v,sub,n})=>(
+              {[{l:"Novi oglasi danas",v:`+${diff.new?.length??0}`,sub:"vs juče",n:diff.new?.length},{l:"Skinuti oglasi",v:`−${diff.removed?.length??0}`,sub:"vs juče",n:-(diff.removed?.length??0)}].map(({l,v,sub,n})=>(
                 <KPI key={l} label={l} value={v} sub={sub} valueColor={pctColor(n)}/>
               ))}
               {histSlice.length>0&&(
