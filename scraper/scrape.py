@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-BnV Tracker v4.17 — + sanitizacija kvadrature (decimalni previd)
+BnV Tracker v4.18 — SCRAPER_API_KEY iz env varijable (kao NB), guard + exit kodovi
 """
 
-import json, re, time, hashlib, sys
+import json, re, time, hashlib, sys, os
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
 
-SCRAPER_API_KEY = "4dba199ae91807746affc7e94e446ce0"
+SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "")
 
 URLS = {
     "prodaja": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-savski-venac-beograd-na-vodi",
@@ -441,9 +441,15 @@ def save_snapshot(mode, all_listings, total_raw):
 
 def main():
     print("="*55)
-    print(f"BnV Scraper v4.17 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"BnV Scraper v4.18 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
     print(f"Prodaja + Izdavanje")
     print("="*55)
+
+    # ── Zaštita: ključ mora postojati (env varijabla, kao NB) ──
+    # Živi u scraperu (ne u bat-u) da važi za SVAKI način pokretanja.
+    if not SCRAPER_API_KEY:
+        print("ERROR: SCRAPER_API_KEY nije postavljen (env varijabla).", file=sys.stderr)
+        sys.exit(1)
 
     listings_p, total_p = scrape_mode("prodaja")
     if listings_p:
@@ -455,6 +461,11 @@ def main():
     listings_r, total_r = scrape_mode("renta")
     if listings_r:
         save_snapshot("renta", listings_r, total_r)
+
+    # ── Exit kod: ako bilo koji mod nije doneo oglase, javi bat-u grešku ──
+    if not listings_p or not listings_r:
+        print("⚠ Scrape nepotpun (prodaja i/ili renta bez oglasa) — exit 2.", file=sys.stderr)
+        sys.exit(2)
 
     print("\n✓ Sve završeno.")
 
