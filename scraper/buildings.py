@@ -10,6 +10,7 @@ ALL_BUILDINGS = [
     "BW Simfonija 1", "BW Simfonija 2",
     # Ostale zgrade
     "BW Iris", "BW Aurora", "BW Riviera",
+    "BW Riva",
     "BW Residences",
     "BW St. Regis",
     "BW Sole", "BW Lido",
@@ -73,6 +74,8 @@ ALIASES = {
     r"\baurora\b":                            "BW Aurora",
     # Riviera
     r"\briviera\b":                           "BW Riviera",
+    # Riva — \b granice sprečavaju koliziju sa "riviera" (nema granice posle "riva" u "riviera")
+    r"\briva\b":                              "BW Riva",
     # BW Residences — SAMO ako je eksplicitno "BW" ispred
     r"bw\s+residenc[eyi]":                   "BW Residences",
     # Bristol Residence — mora biti pre King's/Queen's Park da ne bi "The Bristol" završio u parku
@@ -292,6 +295,10 @@ if __name__ == "__main__":
         ("BW Queen's Park, neuseljavan",                 "", "", "7/8"),
         # Park Bristol — ne sme biti identifikovan
         ("Park Bristol 41m2 - Karađorđeva",              "", "", "4/7"),
+        # Riva vs Riviera — ne smeju se mešati
+        ("BW RIVA - Dvosoban stan l 55.05m2",            "", "", "5/10"),
+        ("Bw riva, novogradnja, direktna prodaja",       "", "", "3/8"),
+        ("BW Riviera, dvosoban lux",                     "", "", "6/12"),
         # Ostale
         ("BW St. Regis, 3.0, lux",                      "", "", "25/30"),
         ("Luksuzno opremljen stan u BW Kuli",            "", "", "29"),
