@@ -690,7 +690,7 @@ export default function Dashboard() {
           {/* KPI row — preko celog ekrana (kao NB) */}
           <div style={{display:"grid",gridTemplateColumns:isMobile?"repeat(2,1fr)":"repeat(auto-fit,minmax(170px,1fr))",gap:10,marginBottom:16}}>
             <KPI label="Unique nekretnine" value={fmt(summary.cnt)} sub={isFiltered?`od ${latest?.total_unique} ukupno`:`${latest?.total_raw??0} oglasa, ${latest?.total_dups??0} dup.`}/>
-            <KPI label="Duplikati" value={fmt(summary.dups)} sub={isFiltered?"za selektovane zgrade":"ista nkrt, više agencija"}/>
+            <KPI label="Duplikati" value={fmt(summary.dups)} sub={isFiltered?"za selektovane zgrade":(latest?.total_raw>0?`${(summary.dups/latest.total_raw*100).toFixed(1)}% od ukupnih · ista nkrt, više agencija`:"ista nkrt, više agencija")}/>
             <div onClick={()=>{setShowNew(true);setTab("listinzi");}} style={{cursor:"pointer"}}>
               <KPI label="Novi danas ↗" value={`+${diffSummary.newCount}`} sub={`−${diffSummary.removedCount} skinuto · klikni`} valueColor={C.green}/>
             </div>
@@ -762,7 +762,7 @@ export default function Dashboard() {
               </div>
               <div style={{overflowX:"auto"}}>
                 <div style={{minWidth:mode==="prodaja"?560:480}}>
-                  <div style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"minmax(120px,1.4fr) 3fr 64px 92px 80px 78px":"minmax(120px,1.4fr) 3fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
+                  <div style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"minmax(110px,1fr) 2fr 64px 92px 80px 78px":"minmax(110px,1fr) 2fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
                     {(()=>{const arrow=k=>bldSortKey===k?(bldSortDir<0?" ↓":" ↑"):" ↕";const hs={cursor:"pointer",userSelect:"none"};const act=k=>bldSortKey===k?{color:C.navy}:{opacity:.85};const dim=k=>bldSortKey===k?{}:{opacity:.35};return(<>
                       <span style={{...hs,...act("zgrada")}} onClick={()=>toggleBldSort("zgrada")}>Zgrada<span style={{fontSize:9,...dim("zgrada")}}>{arrow("zgrada")}</span></span>
                       <span>Distribucija</span>
@@ -776,7 +776,7 @@ export default function Dashboard() {
                     const col=b.color;
                     return (
                       <div key={b.zgrada}
-                        style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"minmax(120px,1.4fr) 3fr 64px 92px 80px 78px":"minmax(120px,1.4fr) 3fr 64px 92px 78px",gap:10,
+                        style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"minmax(110px,1fr) 2fr 64px 92px 80px 78px":"minmax(110px,1fr) 2fr 64px 92px 78px",gap:10,
                           padding:"5px 18px",alignItems:"center",
                           borderBottom:i<bldSorted.length-1?`1px solid ${C.border}80`:"none",fontSize:13}}>
                         <div style={{display:"flex",alignItems:"center",gap:8,minWidth:0}}>
