@@ -467,6 +467,24 @@ export default function Dashboard() {
     };
   },[uniqFiltered,bldFiltered,selBlds,latest]);
 
+  // Prosek rente po kombinaciji zgrada+struktura, iz ISTOG izvora (halo/nrs).
+  // Min 2 renta oglasa po kombinaciji - jedan oglas ume da bude ekstrem.
+  const rentAvgMap = useMemo(()=>{
+    const rl = data[`${source}_renta`]?.listings ?? [];
+    const grp = {};
+    for(const l of rl){
+      const z = normZgrada(l.zgrada);
+      if(z==="Neidentifikovano" || !l.struktura || !l.cena) continue;
+      const k = `${z}|${l.struktura}`;
+      (grp[k] = grp[k] || []).push(l.cena);
+    }
+    const map = {};
+    for(const [k,arr] of Object.entries(grp)){
+      if(arr.length >= 2) map[k] = arr.reduce((a,b)=>a+b,0)/arr.length;
+    }
+    return map;
+  },[data,source]);
+
   const bldRanking = useMemo(()=>{
     const seen=new Set(); const grp={};
     for(const l of saleFiltered){
@@ -474,20 +492,30 @@ export default function Dashboard() {
       if(seen.has(k)) continue;
       seen.add(k);
       const z=l.zgrada||"Neidentifikovano";
-      if(!grp[z]) grp[z]={zgrada:z,count:0,m2s:[]};
+      if(!grp[z]) grp[z]={zgrada:z,count:0,m2s:[],yields:[]};
       grp[z].count++;
       if(l.cena_m2) grp[z].m2s.push(l.cena_m2);
+      // Yield: (12 x prosecna renta iste zgrade i strukture) / trazena cena.
+      // Sanity 0.5-15% odbacuje apsurdna uparivanja (los parse i sl.)
+      if(mode==="prodaja" && l.cena && l.struktura){
+        const avgRent = rentAvgMap[`${z}|${l.struktura}`];
+        if(avgRent){
+          const y = (12*avgRent)/l.cena*100;
+          if(y>=0.5 && y<=15) grp[z].yields.push(y);
+        }
+      }
     }
     const arr=Object.values(grp).map(g=>({
       zgrada:g.zgrada, count:g.count,
       avg_m2:g.m2s.length?Math.round(g.m2s.reduce((a,b)=>a+b,0)/g.m2s.length):null,
+      avg_yield:g.yields.length?g.yields.reduce((a,b)=>a+b,0)/g.yields.length:null,
     }));
     return arr.sort((a,b)=>{
       const aN=a.zgrada==="Neidentifikovano", bN=b.zgrada==="Neidentifikovano";
       if(aN!==bN) return aN?1:-1;
       return b.count-a.count;
     }).map((b,i)=>({...b, color:BLD_COLORS[i%BLD_COLORS.length]}));
-  },[saleFiltered]);
+  },[saleFiltered,rentAvgMap,mode]);
   const bldMaxCount = bldRanking[0]?.count || 1;
   const bldTotalUnique = bldRanking.reduce((s,b)=>s+b.count,0);
 
@@ -497,8 +525,8 @@ export default function Dashboard() {
       const aN=a.zgrada==="Neidentifikovano", bN=b.zgrada==="Neidentifikovano";
       if(aN!==bN) return aN?1:-1;
       if(bldSortKey==="zgrada") return a.zgrada.localeCompare(b.zgrada)*bldSortDir;
-      const va = bldSortKey==="avg_m2" ? (a.avg_m2??-1) : a.count;
-      const vb = bldSortKey==="avg_m2" ? (b.avg_m2??-1) : b.count;
+      const va = bldSortKey==="avg_m2" ? (a.avg_m2??-1) : bldSortKey==="yield" ? (a.avg_yield??-1) : a.count;
+      const vb = bldSortKey==="avg_m2" ? (b.avg_m2??-1) : bldSortKey==="yield" ? (b.avg_yield??-1) : b.count;
       return (va-vb)*bldSortDir;
     });
     return arr;
@@ -508,7 +536,7 @@ export default function Dashboard() {
     if(bldSortKey===k) setBldSortDir(d=>-d);
     else { setBldSortKey(k); setBldSortDir(k==="zgrada"?1:-1); }
   };
-  const bldSortLabel = bldSortKey==="zgrada"?"nazivu":bldSortKey==="avg_m2"?"proseku €/m²":"broju oglasa";
+  const bldSortLabel = bldSortKey==="zgrada"?"nazivu":bldSortKey==="avg_m2"?"proseku €/m²":bldSortKey==="yield"?"yield-u":"broju oglasa";
 
   const diffSummary = useMemo(()=>({
     newCount:     selBlds.length>0?(diff.new??[]).filter(l=>selBlds.includes(l.zgrada)).length:(diff.new?.length??0),
@@ -715,13 +743,14 @@ export default function Dashboard() {
                 <span style={{fontSize:11,color:C.textS}}>sortirano po {bldSortLabel} {bldSortDir<0?"↓":"↑"}</span>
               </div>
               <div style={{overflowX:"auto"}}>
-                <div style={{minWidth:480}}>
-                  <div style={{display:"grid",gridTemplateColumns:"minmax(120px,1.4fr) 3fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
+                <div style={{minWidth:mode==="prodaja"?560:480}}>
+                  <div style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"minmax(120px,1.4fr) 3fr 64px 92px 80px 78px":"minmax(120px,1.4fr) 3fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
                     {(()=>{const arrow=k=>bldSortKey===k?(bldSortDir<0?" ↓":" ↑"):"";const hs={cursor:"pointer",userSelect:"none"};const act=k=>bldSortKey===k?{color:C.navy}:{};return(<>
                       <span style={{...hs,...act("zgrada")}} onClick={()=>toggleBldSort("zgrada")}>Zgrada{arrow("zgrada")}</span>
                       <span>Distribucija</span>
                       <span style={{textAlign:"center",...hs,...act("count")}} onClick={()=>toggleBldSort("count")}>Oglasi{arrow("count")}</span>
                       <span style={{textAlign:"right",...hs,...act("avg_m2")}} onClick={()=>toggleBldSort("avg_m2")}>€/m²{arrow("avg_m2")}</span>
+                      {mode==="prodaja"&&<span style={{textAlign:"right",...hs,...act("yield")}} onClick={()=>toggleBldSort("yield")} title="Bruto yield: 12 × prosečna renta iste zgrade i strukture / tražena cena. Min 2 renta oglasa po kombinaciji.">Yield{arrow("yield")}</span>}
                       <span/>
                     </>);})()}
                   </div>
@@ -729,7 +758,7 @@ export default function Dashboard() {
                     const col=b.color;
                     return (
                       <div key={b.zgrada}
-                        style={{display:"grid",gridTemplateColumns:"minmax(120px,1.4fr) 3fr 64px 92px 78px",gap:10,
+                        style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"minmax(120px,1.4fr) 3fr 64px 92px 80px 78px":"minmax(120px,1.4fr) 3fr 64px 92px 78px",gap:10,
                           padding:"5px 18px",alignItems:"center",
                           borderBottom:i<bldSorted.length-1?`1px solid ${C.border}80`:"none",fontSize:13}}>
                         <div style={{display:"flex",alignItems:"center",gap:8,minWidth:0}}>
@@ -743,6 +772,7 @@ export default function Dashboard() {
                           <span style={{fontSize:12,fontWeight:600,color:col,background:col+"1A",padding:"2px 9px",borderRadius:20}}>{b.count}</span>
                         </span>
                         <span style={{textAlign:"right",fontWeight:500,color:b.avg_m2?C.text:C.textXS}}>{b.avg_m2?`${fmt(b.avg_m2)} €`:"–"}</span>
+                        {mode==="prodaja"&&<span style={{textAlign:"right",fontWeight:600,color:b.avg_yield?C.green||"#16a34a":C.textXS}}>{b.avg_yield?`${b.avg_yield.toFixed(2)}%`:"/"}</span>}
                         <button onClick={()=>{setSelBlds([b.zgrada]);setTab("listinzi");}}
                           style={{fontSize:11,fontWeight:600,color:C.navy,background:"none",border:`1px solid ${C.border}`,borderRadius:6,padding:"3px 8px",cursor:"pointer",whiteSpace:"nowrap"}}>
                           Listinzi ↗
