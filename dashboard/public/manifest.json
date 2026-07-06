@@ -2,13 +2,14 @@
   "name": "BnV Market Tracker",
   "short_name": "BnV Market",
   "description": "Dnevni tracker prodaje stanova na Beogradu na vodi",
-  "start_url": "/",
+  "start_url": "/bnv-tracker/",
+  "scope": "/bnv-tracker/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2563eb",
   "orientation": "portrait-primary",
   "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "/bnv-tracker/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/bnv-tracker/icon-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
