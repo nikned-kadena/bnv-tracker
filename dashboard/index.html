@@ -16,7 +16,10 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js');
+          // Apsolutna putanja sa /bnv-tracker/ prefiksom: inline skripte
+          // Vite NE prepravlja pri build-u, pa je golo '/sw.js' gadjalo
+          // koren domena i tiho padalo sa 404.
+          navigator.serviceWorker.register('/bnv-tracker/sw.js');
         });
       }
     </script>
