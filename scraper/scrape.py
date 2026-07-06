@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-BnV Tracker v4.18 — SCRAPER_API_KEY iz env varijable (kao NB), guard + exit kodovi
+BnV Tracker v4.19 — SCRAPER_API_KEY iz env varijable (kao NB), guard + exit kodovi
 """
 
 import json, re, time, hashlib, sys, os
@@ -227,7 +227,9 @@ def parse_page(html, page_num, mode="prodaja"):
                 continue
 
             zgrada = canonical_building(title, full_context, street_text, sprat_val) if has_bld else "BW (neidentifikovano)"
-            if mode == "prodaja" and cena and m2_val and not cena_m2:
+            # cena_m2 za OBA moda: kod rente je to EUR/m2 mesecno,
+            # standardna metrika za poredjenje zgrada (v4.19 fix)
+            if cena and m2_val and not cena_m2:
                 cena_m2 = round(cena / m2_val)
 
             # Izvuci agenciju
@@ -244,7 +246,7 @@ def parse_page(html, page_num, mode="prodaja"):
                 "str_label": STRUCTURE_MAP.get(str_key,"nepoznato") if str_key else "nepoznato",
                 "m2":        m2_val,
                 "cena":      cena,
-                "cena_m2":   cena_m2 if mode == "prodaja" else None,
+                "cena_m2":   cena_m2,
                 "sprat":     sprat_val,
                 "mode":      mode,
                 "scraped_at":datetime.now(timezone.utc).isoformat(),
@@ -441,7 +443,7 @@ def save_snapshot(mode, all_listings, total_raw):
 
 def main():
     print("="*55)
-    print(f"BnV Scraper v4.18 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"BnV Scraper v4.19 — {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}")
     print(f"Prodaja + Izdavanje")
     print("="*55)
 
