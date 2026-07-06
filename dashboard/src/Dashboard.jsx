@@ -390,7 +390,8 @@ export default function Dashboard() {
   };
   const listings = useMemo(()=>{
     const raw = latest?.listings??[];
-    const okPM2 = (p)=> p>=1200 && p<=25000;
+    // Mode-aware sanity opseg: prodaja 1.200-25.000, renta 3-120 EUR/m2 mesecno
+    const okPM2 = mode==="prodaja" ? ((p)=> p>=1200 && p<=25000) : ((p)=> p>=3 && p<=120);
     return raw.map(l=>{
       const nz=normZgrada(l.zgrada);
       let m2=l.m2, cm2=l.cena_m2, fixed=false;
@@ -398,6 +399,11 @@ export default function Dashboard() {
         for(const d of [10,100,1000]){
           if(okPM2(l.cena/(m2/d))){ m2=+(m2/d).toFixed(2); cm2=Math.round(l.cena/m2); fixed=true; break; }
         }
+      }
+      // Izvedi cena_m2 kad je scraper nije poslao (NRS je ne racuna,
+      // Halo renta pre v4.19 takodje) - imamo cenu i m2, racun je trivijalan
+      if(!cm2 && l.cena!=null && m2!=null && okPM2(l.cena/m2)){
+        cm2=Math.round(l.cena/m2); fixed=true;
       }
       if(nz===l.zgrada && !fixed) return l;
       return {...l, zgrada:nz, m2, cena_m2:cm2};
