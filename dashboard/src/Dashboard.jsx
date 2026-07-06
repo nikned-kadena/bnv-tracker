@@ -762,7 +762,7 @@ export default function Dashboard() {
               </div>
               <div style={{overflowX:"auto"}}>
                 <div style={{minWidth:mode==="prodaja"?560:480}}>
-                  <div style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"minmax(110px,1fr) 2fr 64px 92px 80px 78px":"minmax(110px,1fr) 2fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
+                  <div style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"200px 1fr 64px 92px 80px 78px":"200px 1fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
                     {(()=>{const arrow=k=>bldSortKey===k?(bldSortDir<0?" ↓":" ↑"):" ↕";const hs={cursor:"pointer",userSelect:"none"};const act=k=>bldSortKey===k?{color:C.navy}:{opacity:.85};const dim=k=>bldSortKey===k?{}:{opacity:.35};return(<>
                       <span style={{...hs,...act("zgrada")}} onClick={()=>toggleBldSort("zgrada")}>Zgrada<span style={{fontSize:9,...dim("zgrada")}}>{arrow("zgrada")}</span></span>
                       <span>Distribucija</span>
@@ -776,7 +776,7 @@ export default function Dashboard() {
                     const col=b.color;
                     return (
                       <div key={b.zgrada}
-                        style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"minmax(110px,1fr) 2fr 64px 92px 80px 78px":"minmax(110px,1fr) 2fr 64px 92px 78px",gap:10,
+                        style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"200px 1fr 64px 92px 80px 78px":"200px 1fr 64px 92px 78px",gap:10,
                           padding:"5px 18px",alignItems:"center",
                           borderBottom:i<bldSorted.length-1?`1px solid ${C.border}80`:"none",fontSize:13}}>
                         <div style={{display:"flex",alignItems:"center",gap:8,minWidth:0}}>
