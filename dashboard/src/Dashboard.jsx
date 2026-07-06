@@ -742,8 +742,20 @@ export default function Dashboard() {
           {/* ZGRADE */}
           {tab==="zgrade"&&(
             <div style={{background:C.white,borderRadius:12,boxShadow:C.shadow,overflow:"hidden"}}>
-              <div style={{padding:"12px 18px",borderBottom:`1px solid ${C.border}`,display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:6}}>
-                <div style={{fontSize:13,fontWeight:600,color:C.text}}>
+              {/* Header traka — navy kontekstna kao NB */}
+              <div style={{background:C.navyD||C.navy,padding:"14px 20px",display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap",gap:8}}>
+                <div>
+                  <div style={{color:"#fff",fontWeight:700,fontSize:14}}>Listinzi po zgradi</div>
+                  <div style={{color:"#94a3b8",fontSize:11,marginTop:2}}>
+                    {mode==="prodaja"?"Prodaja":"Renta"} · klikni kolonu za sortiranje
+                  </div>
+                </div>
+                <div style={{background:mode==="prodaja"?"#2563eb":"#16a34a",color:"#fff",padding:"3px 10px",borderRadius:6,fontSize:11,fontWeight:600}}>
+                  {mode==="prodaja"?"🏠 PRODAJA":"🔑 RENTA"}
+                </div>
+              </div>
+              <div style={{padding:"10px 18px",borderBottom:`1px solid ${C.border}`,display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:6,background:"#f8fafc"}}>
+                <div style={{fontSize:12,color:C.textS}}>
                   {bldRanking.length} zgrada · {fmt(bldTotalUnique)} unique listinga
                 </div>
                 <span style={{fontSize:11,color:C.textS}}>sortirano po {bldSortLabel} {bldSortDir<0?"↓":"↑"}</span>
@@ -751,12 +763,12 @@ export default function Dashboard() {
               <div style={{overflowX:"auto"}}>
                 <div style={{minWidth:mode==="prodaja"?560:480}}>
                   <div style={{display:"grid",gridTemplateColumns:mode==="prodaja"?"minmax(120px,1.4fr) 3fr 64px 92px 80px 78px":"minmax(120px,1.4fr) 3fr 64px 92px 78px",gap:10,padding:"7px 18px",borderBottom:`1px solid ${C.border}`,fontSize:10,fontWeight:600,color:C.textXS,letterSpacing:.3,textTransform:"uppercase"}}>
-                    {(()=>{const arrow=k=>bldSortKey===k?(bldSortDir<0?" ↓":" ↑"):"";const hs={cursor:"pointer",userSelect:"none"};const act=k=>bldSortKey===k?{color:C.navy}:{};return(<>
-                      <span style={{...hs,...act("zgrada")}} onClick={()=>toggleBldSort("zgrada")}>Zgrada{arrow("zgrada")}</span>
+                    {(()=>{const arrow=k=>bldSortKey===k?(bldSortDir<0?" ↓":" ↑"):" ↕";const hs={cursor:"pointer",userSelect:"none"};const act=k=>bldSortKey===k?{color:C.navy}:{opacity:.85};const dim=k=>bldSortKey===k?{}:{opacity:.35};return(<>
+                      <span style={{...hs,...act("zgrada")}} onClick={()=>toggleBldSort("zgrada")}>Zgrada<span style={{fontSize:9,...dim("zgrada")}}>{arrow("zgrada")}</span></span>
                       <span>Distribucija</span>
-                      <span style={{textAlign:"center",...hs,...act("count")}} onClick={()=>toggleBldSort("count")}>Oglasi{arrow("count")}</span>
-                      <span style={{textAlign:"right",...hs,...act("avg_m2")}} onClick={()=>toggleBldSort("avg_m2")}>€/m²{arrow("avg_m2")}</span>
-                      {mode==="prodaja"&&<span style={{textAlign:"right",...hs,...act("yield")}} onClick={()=>toggleBldSort("yield")} title="Bruto yield: 12 × prosečna renta iste zgrade i strukture / tražena cena. Min 2 renta oglasa po kombinaciji.">Yield{arrow("yield")}</span>}
+                      <span style={{textAlign:"center",...hs,...act("count")}} onClick={()=>toggleBldSort("count")}>Oglasi<span style={{fontSize:9,...dim("count")}}>{arrow("count")}</span></span>
+                      <span style={{textAlign:"right",...hs,...act("avg_m2")}} onClick={()=>toggleBldSort("avg_m2")}>€/m²<span style={{fontSize:9,...dim("avg_m2")}}>{arrow("avg_m2")}</span></span>
+                      {mode==="prodaja"&&<span style={{textAlign:"right",...hs,...act("yield")}} onClick={()=>toggleBldSort("yield")} title="Bruto yield: 12 × prosečna renta iste zgrade i strukture / tražena cena. Min 2 renta oglasa po kombinaciji.">Yield<span style={{fontSize:9,...dim("yield")}}>{arrow("yield")}</span></span>}
                       <span/>
                     </>);})()}
                   </div>
@@ -778,9 +790,11 @@ export default function Dashboard() {
                           <span style={{fontSize:12,fontWeight:600,color:col,background:col+"1A",padding:"2px 9px",borderRadius:20}}>{b.count}</span>
                         </span>
                         <span style={{textAlign:"right",fontWeight:500,color:b.avg_m2?C.text:C.textXS}}>{b.avg_m2?`${fmt(b.avg_m2)} €`:"–"}</span>
-                        {mode==="prodaja"&&<span style={{textAlign:"right",fontWeight:600,color:b.avg_yield?C.green||"#16a34a":C.textXS}}>{b.avg_yield?`${b.avg_yield.toFixed(2)}%`:"/"}</span>}
+                        {mode==="prodaja"&&<span style={{textAlign:"right",fontWeight:700,color:b.avg_yield?"#16a34a":C.textXS}}>{b.avg_yield?`${b.avg_yield.toFixed(2)}%`:"/"}</span>}
                         <button onClick={()=>{setSelBlds([b.zgrada]);setTab("listinzi");}}
-                          style={{fontSize:11,fontWeight:600,color:C.navy,background:"none",border:`1px solid ${C.border}`,borderRadius:6,padding:"3px 8px",cursor:"pointer",whiteSpace:"nowrap"}}>
+                          onMouseEnter={e=>{e.currentTarget.style.background=C.blue;e.currentTarget.style.color="#fff";e.currentTarget.style.borderColor=C.blue;}}
+                          onMouseLeave={e=>{e.currentTarget.style.background="transparent";e.currentTarget.style.color=C.blue;e.currentTarget.style.borderColor=C.border;}}
+                          style={{fontSize:11,fontWeight:600,color:C.blue,background:"transparent",border:`1px solid ${C.border}`,borderRadius:6,padding:"4px 10px",cursor:"pointer",whiteSpace:"nowrap",transition:"all .15s"}}>
                           Listinzi ↗
                         </button>
                       </div>
