@@ -787,14 +787,14 @@ export default function Dashboard() {
                           <div style={{width:`${Math.min(100,Math.max(3,b.count/bldMaxCount*100))}%`,height:"100%",background:col,borderRadius:6}}/>
                         </div>
                         <span style={{textAlign:"center"}}>
-                          <span style={{fontSize:12,fontWeight:600,color:col,background:col+"1A",padding:"2px 9px",borderRadius:20}}>{b.count}</span>
+                          <span style={{fontSize:12,fontWeight:700,color:col,background:col+"22",border:`1px solid ${col}`,padding:"1px 8px",borderRadius:12}}>{b.count}</span>
                         </span>
                         <span style={{textAlign:"right",fontWeight:500,color:b.avg_m2?C.text:C.textXS}}>{b.avg_m2?`${fmt(b.avg_m2)} €`:"–"}</span>
                         {mode==="prodaja"&&<span style={{textAlign:"right",fontWeight:700,color:b.avg_yield?"#16a34a":C.textXS}}>{b.avg_yield?`${b.avg_yield.toFixed(2)}%`:"/"}</span>}
                         <button onClick={()=>{setSelBlds([b.zgrada]);setTab("listinzi");}}
                           onMouseEnter={e=>{e.currentTarget.style.background=C.blue;e.currentTarget.style.color="#fff";e.currentTarget.style.borderColor=C.blue;}}
                           onMouseLeave={e=>{e.currentTarget.style.background="transparent";e.currentTarget.style.color=C.blue;e.currentTarget.style.borderColor=C.border;}}
-                          style={{fontSize:11,fontWeight:600,color:C.blue,background:"transparent",border:`1px solid ${C.border}`,borderRadius:6,padding:"4px 10px",cursor:"pointer",whiteSpace:"nowrap",transition:"all .15s"}}>
+                          style={{fontSize:11,fontWeight:600,color:C.blue,background:"transparent",border:`1px solid ${C.border}`,borderRadius:6,padding:"3px 8px",cursor:"pointer",whiteSpace:"nowrap",transition:"all .15s"}}>
                           Listinzi ↗
                         </button>
                       </div>
