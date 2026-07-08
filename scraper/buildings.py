@@ -202,10 +202,16 @@ ADDRESS_MAP = {
     ("bulevar vudroa vilsona", "1"): "BW Iris",
 }
 
+# STREET_FALLBACK — samo indikator "ovo je BW ali ne znamo tacno koja zgrada".
+# Ranije je mapirao ulica -> zgrada, ali kako BW gradi vise kula u istim
+# ulicama (Savska: St. Regis + Aqua + Riva; Hercegovacka: Simfonija 1+2;
+# Luke Celovica: Sole + druge), ime ulice bez kucnog broja je nepouzdano.
+# ADDRESS_MAP (iznad) hvata konkretne kucne brojeve pouzdano.
+# (Bug otkriven 08.07.2026 - Savska stanovi bez broja obarali su na St. Regis)
 STREET_FALLBACK = {
-    "savska":        "BW St. Regis",
-    "hercegovačka":  "BW (Hercegovačka)",
-    "luke celovića": "BW Sole",
+    "savska":        "BW (neidentifikovano)",
+    "hercegovačka":  "BW (neidentifikovano)",
+    "luke celovića": "BW (neidentifikovano)",
 }
 
 def simfonija_by_floors(floor_info):
