@@ -27,6 +27,7 @@ ALL_BUILDINGS = [
     "BW Libera",
     "BW Thalia",
     "BW Aria",
+    "BW Aqua",
     "BW Eden",
     "BW Metropolitan",
     "BW Terra",
@@ -72,6 +73,10 @@ ALIASES = {
     r"\biris\b":                              "BW Iris",
     # Aurora
     r"\baurora\b":                            "BW Aurora",
+    # Aqua — MORA biti pre "kul[aiue]" aliasa (opisi Aqua stanova cesto
+    # sadrze rec "kula" jer je Aqua toranj kao St. Regis, sto je do sada
+    # obaralo Aqua oglase na St. Regis (bug otkriven 08.07.2026)
+    r"\baqua\b":                              "BW Aqua",
     # Riviera
     r"\briviera\b":                           "BW Riviera",
     # Riva — \b granice sprečavaju koliziju sa "riviera" (nema granice posle "riva" u "riviera")
@@ -87,6 +92,9 @@ ALIASES = {
     # St. Regis / Kula — sve varijante → BW St. Regis
     r"st[\.\s]*regis|stregis":               "BW St. Regis",
     r"kula\s*beograd|belgrade\s*tower":      "BW St. Regis",
+    # Napomena: "kul[aiue]" je namerno labav jer stan-oglasi cesto pisu
+    # "u kuli" umesto "St. Regis" kad opisuju taj toranj. Nove kule
+    # (Aqua, Riva itd.) MORAJU biti navedene PRE ovog reda u dictu.
     r"kul[aiue]":                             "BW St. Regis",
     r"\bverde\b":                             "BW St. Regis",
     # Sole
