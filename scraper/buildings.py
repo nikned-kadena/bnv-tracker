@@ -293,6 +293,26 @@ def canonical_building(title: str, description: str = "", address: str = "", flo
     if title_alias:
         return title_alias
 
+    # ── Adresni lookup sa TAČNIM kućnim brojem PRE fallback pretrage ──
+    # Ako oglas ima Savska 1 ili Savska 3 u adresi → St. Regis (verifikovano).
+    # (Pomereno gore jer se dole nikad ne bi izvršilo za Savska bez broja,
+    # koji sad ide u neid; ali za slučaj sa tačnim brojem treba pobediti opis.)
+    addr_lower_ex = (address + " " + title + " " + description).lower()
+    for (street, num), building in ADDRESS_MAP.items():
+        if street in addr_lower_ex and re.search(r"\b" + re.escape(num) + r"\b", addr_lower_ex, re.I):
+            return building
+
+    # ── Ulica u naslovu/adresi BEZ kućnog broja → neidentifikovano ──
+    # BW ima više tornjeva u istim ulicama (Savska: St. Regis + Aqua + Riva).
+    # Ako ulica jasno u naslovu ili adresi, a nema kućnog broja iz ADDRESS_MAP,
+    # sigurnije je vratiti neidentifikovano nego pogađati.
+    # (Bug otkriven 09.07.2026 - Savska 4.0 99m2 padao u St. Regis
+    # jer je opis pominjao "blizu St. Regis kule".)
+    title_addr = (title + " " + address).lower()
+    for street in STREET_FALLBACK.keys():
+        if street in title_addr:
+            return "BW (neidentifikovano)"
+
     # ── Ako naslov nije bio jasan, pretraži pun tekst (naslov+opis+adresa) ──
     direct = _find_by_direct_name(full_text)
     if direct:
