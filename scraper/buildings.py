@@ -28,6 +28,8 @@ ALL_BUILDINGS = [
     "BW Thalia",
     "BW Aria",
     "BW Aqua",
+    "BW Verde",
+    "BW Bonaca",
     "BW Eden",
     "BW Metropolitan",
     "BW Terra",
@@ -92,11 +94,17 @@ ALIASES = {
     # St. Regis / Kula — sve varijante → BW St. Regis
     r"st[\.\s]*regis|stregis":               "BW St. Regis",
     r"kula\s*beograd|belgrade\s*tower":      "BW St. Regis",
-    # Napomena: "kul[aiue]" je namerno labav jer stan-oglasi cesto pisu
-    # "u kuli" umesto "St. Regis" kad opisuju taj toranj. Nove kule
-    # (Aqua, Riva itd.) MORAJU biti navedene PRE ovog reda u dictu.
-    r"kul[aiue]":                             "BW St. Regis",
-    r"\bverde\b":                             "BW St. Regis",
+    # STARO (do 09.07.2026): r"kul[aiue]" je vodio na "BW St. Regis"
+    # Uklonjeno jer:
+    #   1) "kula" u srpskom je previše česta reč (svaka BW zgrada je "kula")
+    #   2) BW ima više tornjeva sada (Aqua, Riva, Verde, St. Regis)
+    #   3) St. Regis je premijum segment - pogresna atribucija podiže
+    #      prosek €/m² na dashboardu i kvari cenu tržišne slike
+    # Sada: samo eksplicitni "Belgrade Tower" ili "Kula Beograd" (marketinški
+    # nazivi St. Regis-a) vode na St. Regis. Sve ostalo → neidentifikovano.
+    r"\bverde\b":                             "BW Verde",
+    # Bonaca — nova zgrada, dodata 09.07.2026
+    r"\bbonaca\b":                            "BW Bonaca",
     # Sole
     r"\bsole\b":                              "BW Sole",
     # Lido
@@ -242,29 +250,56 @@ def is_blacklisted(title: str, description: str = "", address: str = "") -> bool
             return True
     return False
 
-def canonical_building(title: str, description: str = "", address: str = "", floor_info=None) -> str:
-    full_text = f"{title} {description} {address}".lower()
-    full_text = full_text.replace("'", "'")
-
-    # 0. Blacklista — oglasi koji nisu BW
-    for pattern in NOT_BW:
-        if re.search(pattern, full_text, re.I):
-            return "BW (neidentifikovano)"
-
-    # 1. Direktno ime zgrade (sortirano od najdužeg)
+def _find_by_direct_name(text: str) -> str:
+    """Pretraži tekst za direktna imena zgrada iz ALL_BUILDINGS."""
     for building in sorted(ALL_BUILDINGS, key=len, reverse=True):
         pattern = re.escape(building.lower()).replace(r"'", "['\u2019]?")
-        if re.search(r"\b" + pattern + r"\b", full_text):
+        if re.search(r"\b" + pattern + r"\b", text):
             return building
+    return None
 
-    # 2. Aliasi
+
+def _find_by_alias(text: str, floor_info=None) -> str:
+    """Pretraži tekst po ALIASES dictu."""
     for pattern, canonical in ALIASES.items():
-        if re.search(pattern, full_text, re.I):
-            if "simfonija" in canonical.lower() and "simfonija 1" not in full_text and "simfonija 2" not in full_text:
+        if re.search(pattern, text, re.I):
+            if "simfonija" in canonical.lower() and "simfonija 1" not in text and "simfonija 2" not in text:
                 return simfonija_by_floors(floor_info)
             if canonical == "BW Quartet ?":
                 return quartet_by_floors(floor_info)
             return canonical
+    return None
+
+
+def canonical_building(title: str, description: str = "", address: str = "", floor_info=None) -> str:
+    title_lower = title.lower().replace("'", "'")
+    full_text = f"{title} {description} {address}".lower()
+    full_text = full_text.replace("'", "'")
+
+    # 0. Blacklista — oglasi koji nisu BW (proveravamo u kombinovanom tekstu)
+    for pattern in NOT_BW:
+        if re.search(pattern, full_text, re.I):
+            return "BW (neidentifikovano)"
+
+    # ── PRIORITET NASLOVA ────────────────────────────────────────────
+    # Naslov je najpouzdaniji signal — ako u naslovu pogađamo zgradu,
+    # opis se ignoriše. Rešava klasu bug-ova gde opis pomene drugu zgradu
+    # (npr. "u blizini St. Regis kompleksa") i vuče oglas u pogrešnu zgradu.
+    # (Sistemska popravka 09.07.2026 — Bonaca, Verde slučajevi.)
+    title_direct = _find_by_direct_name(title_lower)
+    if title_direct:
+        return title_direct
+    title_alias = _find_by_alias(title_lower, floor_info)
+    if title_alias:
+        return title_alias
+
+    # ── Ako naslov nije bio jasan, pretraži pun tekst (naslov+opis+adresa) ──
+    direct = _find_by_direct_name(full_text)
+    if direct:
+        return direct
+    alias = _find_by_alias(full_text, floor_info)
+    if alias:
+        return alias
 
     # 3. Adresni lookup sa kućnim brojem
     addr_lower = (address + " " + title + " " + description).lower()
