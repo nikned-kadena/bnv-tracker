@@ -13,12 +13,14 @@ from bs4 import BeautifulSoup
 SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "")
 
 URLS = {
-    # sortiranje=1 => "najnoviji prvi" — kritican za hvatanje novih oglasa
-    # Bez ovog, Halo default sortira po Top plaćenoj poziciji pa novi
-    # oglasi bez Top statusa padaju duboko u paginaciju i mogu biti
-    # propušteni. (Bug otkriven 08.07.2026 na oglas 5425646449478.)
-    "prodaja": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-savski-venac-beograd-na-vodi?sortiranje=1",
-    "renta":   "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-savski-venac-beograd-na-vodi?sortiranje=1",
+    # NAPOMENA (09.07.2026): Sinoc je pokusano dodavanje ?sortiranje=1
+    # da bi se hvatali svezi oglasi (npr. propušten oglas 5425646449478).
+    # Ali izmena je oborila BnV Halo scraper — verovatno Cloudflare/HTML
+    # razlika za sortirane URL-ove. Vraceno na osnovni URL.
+    # ALTERNATIVA za buduce: probati sortiranje=novo, sortiranje=6, ili
+    # drugi Halo parametri; ili povecati MAX_PAGES sa 50 na 80+.
+    "prodaja": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-savski-venac-beograd-na-vodi",
+    "renta":   "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-savski-venac-beograd-na-vodi",
 }
 
 DATA_DIR  = Path(__file__).parent.parent / "data"
@@ -283,8 +285,7 @@ def scrape_mode(mode):
     for p in range(2, MAX_PAGES + 1):
         time.sleep(PAGE_DELAY)
         print(f"Učitavam stranicu {p}...")
-        # base_url sada ima ?sortiranje=1, pa stranice dodajemo sa &
-        html = scraper_get(f"{base_url}&page={p}")
+        html = scraper_get(f"{base_url}?page={p}")
         lp, _ = parse_page(html, p, mode)
         if not lp:
             empty_streak += 1
