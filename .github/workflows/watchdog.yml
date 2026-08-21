@@ -1,0 +1,73 @@
+name: Watchdog - svezina podataka
+
+# Zasto ovo postoji (11.08-21.08.2026):
+#   Task Scheduler na desktopu je bio "Interactive only". Posle restarta
+#   masine sesija je nestala, task je 10 dana cutao BEZ IJEDNE GRESKE,
+#   i to smo otkrili slucajno gledajuci dashboard.
+#   Alarm zato NE SME da zivi na masini koja otkazuje. Ovo radi na GitHub-u.
+#   Kad workflow padne, GitHub salje mejl vlasniku repo-a. To je ceo alarm.
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # 09:00 UTC = 11:00 Beograd (leto) / 10:00 (zima)
+  workflow_dispatch:       # dugme za rucno pokretanje
+
+jobs:
+  provera:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Provera svezine latest_*.json
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, datetime
+
+          # BnV: pratimo samo Halo. NRS je mrtav od DataDome-a (13.07.2026).
+          FAJLOVI = [
+              'data/latest_prodaja.json',
+              'data/latest_renta.json',
+          ]
+          TOLERANCIJA_DANA = 1   # 0 = mora biti danas; 1 = dozvoljen jedan promasen dan
+
+          danas = datetime.date.today()
+          problemi = []
+
+          for f in FAJLOVI:
+              if not os.path.exists(f):
+                  problemi.append(f'{f}: FAJL NE POSTOJI')
+                  continue
+
+              d = json.load(open(f, encoding='utf-8'))
+
+              # Datum trazimo u polju 'date', pa fallback na mtime fajla.
+              raw = d.get('date') or d.get('datum') or d.get('timestamp')
+              if raw:
+                  datum = datetime.date.fromisoformat(str(raw)[:10])
+                  izvor = 'polje'
+              else:
+                  datum = datetime.date.fromtimestamp(os.path.getmtime(f))
+                  izvor = 'mtime'
+
+              starost = (danas - datum).days
+              broj = len(d.get('listings', []))
+              status = 'OK' if starost <= TOLERANCIJA_DANA else 'ZASTARELO'
+              print(f'{status:10} {f}  datum={datum} ({izvor})  starost={starost}d  oglasa={broj}')
+
+              if starost > TOLERANCIJA_DANA:
+                  problemi.append(f'{f}: podaci od {datum}, stari {starost} dana')
+
+          if problemi:
+              print('')
+              print('!! BnV PIPELINE NE RADI !!')
+              for p in problemi:
+                  print('  - ' + p)
+              print('')
+              print('Provera: Task Scheduler na desktopu -> "BnV Market Scraper"')
+              print('  Last Run Time / Last Result / Logon Mode')
+              print('Rucni run: cd /d C:\\bnv-tracker\\bnv-tracker && run_halo_scraper.bat')
+              sys.exit(1)
+
+          print('')
+          print('Svi fajlovi svezi. Pipeline radi.')
+          PY
