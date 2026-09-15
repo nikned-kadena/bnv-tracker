@@ -1,0 +1,86 @@
+name: BnV Halo Scrape
+
+# Zamena za Task Scheduler na desktopu.
+# Razlog (11.08. i 12.09.2026): task je bio "Interactive only" - posle restarta
+# masine sesija nestane i scrape tiho stane, bez ijedne greske. Dva puta u
+# mesec dana, obe rupe u seriji su trajne jer Halo ne drzi istoriju.
+# Halo scraper ide preko ScraperAPI i nema nijednu lokalnu zavisnost,
+# pa nema razloga da zivi na desktopu.
+
+on:
+  schedule:
+    - cron: '30 4 * * *'   # 04:30 UTC. GitHub zakazane runove odlaze 1-5h,
+                           # pa realno pada izmedju 07:00 i 11:00 po Beogradu.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bnv-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalacija zavisnosti
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Scrape (prodaja + renta)
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: python scraper/scrape.py
+
+      - name: Brana svezine
+        run: |
+          python3 - <<'PY'
+          import json, sys, datetime
+
+          # Ista logika kao brana u run_halo_scraper.bat:
+          # podaci moraju biti od danas i iznad minimalnog broja oglasa.
+          PRAG = {'prodaja': 100, 'renta': 50}
+          danas = datetime.date.today().isoformat()
+          problemi = []
+
+          for mode, minimum in PRAG.items():
+              f = f'data/latest_{mode}.json'
+              d = json.load(open(f, encoding='utf-8'))
+              datum = str(d.get('date', ''))[:10]
+              broj = len(d.get('listings', []))
+              print(f'{mode:8} datum={datum} oglasa={broj} (min {minimum})')
+              if datum != danas:
+                  problemi.append(f'{mode}: datum {datum}, ocekivan {danas}')
+              if broj < minimum:
+                  problemi.append(f'{mode}: samo {broj} oglasa, prag je {minimum}')
+
+          if problemi:
+              print('\nSTOP - podaci se NE commituju:')
+              for p in problemi:
+                  print('  - ' + p)
+              sys.exit(1)
+
+          print('\nBrana prosla.')
+          PY
+
+      - name: Commit i push
+        run: |
+          git config user.name  "bnv-scraper-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Nema izmena u data/ - nista za commit."
+            exit 0
+          fi
+          git commit -m "data: halo scrape $(date -u +%d-%b-%y) [actions]"
+          git pull --rebase --autostash origin main
+          git push origin main
+          echo "Pushano na GitHub."
