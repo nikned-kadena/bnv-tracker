@@ -46,7 +46,8 @@ def scraper_get(url):
         r.raise_for_status()
         return r.text
     except Exception as e:
-        print(f"  ⚠ ScraperAPI greška za {url}: {e}", file=sys.stderr)
+        msg = str(e).replace(SCRAPER_API_KEY, "***") if SCRAPER_API_KEY else str(e)
+        print(f"  ⚠ ScraperAPI greška za {url}: {msg}", file=sys.stderr)
         return None
 
 def parse_price(text, mode="prodaja"):

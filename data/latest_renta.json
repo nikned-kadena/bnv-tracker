@@ -2295,7 +2295,7 @@
         "m2": 92.0,
         "cena": 1800,
         "cena_m2": 20,
-        "sprat": "I/5",
+        "sprat": "/8",
         "mode": "renta",
         "scraped_at": "2026-09-16T06:02:23.687353+00:00",
         "dedup_key": "39f0497fb5"
@@ -3113,6 +3113,42 @@
       }
     },
     "po_zgradi": {
+      "BW Terraces": {
+        "count": 7,
+        "strukture": [
+          "1.0",
+          "2.0",
+          "3.0"
+        ],
+        "cena": {
+          "min": 1800,
+          "max": 4900,
+          "avg": 3086
+        },
+        "cena_m2": {
+          "min": 26,
+          "max": 36,
+          "avg": 30
+        }
+      },
+      "BW Residences": {
+        "count": 8,
+        "strukture": [
+          "2.0",
+          "3.0",
+          "4.0"
+        ],
+        "cena": {
+          "min": 1600,
+          "max": 4000,
+          "avg": 2912
+        },
+        "cena_m2": {
+          "min": 20,
+          "max": 34,
+          "avg": 26
+        }
+      },
       "BW Perla": {
         "count": 8,
         "strukture": [
