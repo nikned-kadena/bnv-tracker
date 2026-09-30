@@ -2,17 +2,46 @@ import { useState, useEffect, useMemo, useRef } from "react";
 
 const REPO = "https://raw.githubusercontent.com/nikned-kadena/bnv-tracker/main/data";
 
+// Izvori.
+//
+// Nekretnine.rs je izbacen 30.09.2026: portal je presao na Immobiliare.it
+// platformu i uveo DataDome anti-bot 13.07.2026, pa je nas NRS scraper od
+// tada mrtav. Fajlovi su zamrznuti na 13.07. — prikazivati ih znacilo bi
+// svezim izgledom lagati o tromesecnim podacima.
+//
+// "all" je spojeni prikaz iz registra: isti stan vidjen na Halo-u i na
+// 4zida je JEDAN zapis, ne dva. Zato je podrazumevani izbor.
+//
+// PAZNJA na imena fajlova: Halo na BnV-u pise latest_{mod}.json BEZ prefiksa
+// (nasledjeno), dok projekcija iz registra pise latest_{izvor}_{mod}.json.
+// Zato `files` i postoji kao mapa umesto sablona.
 const SOURCES = {
+  all: {
+    key:   "all",
+    label: "Svi izvori",
+    files: { prodaja: "latest_all_prodaja.json", renta: "latest_all_renta.json" },
+    hist:  { prodaja: "history_all_prodaja.json", renta: "history_all_renta.json" },
+    agMode: "name",
+  },
   halo: {
     key:   "halo",
     label: "Halo Oglasi",
     files: { prodaja: "latest_prodaja.json", renta: "latest_renta.json" },
+    hist:  { prodaja: "history.json", renta: "history.json" },
     agMode: "slug",
   },
-  nrs: {
-    key:   "nrs",
-    label: "Nekretnine.rs",
-    files: { prodaja: "latest_nrs_prodaja.json", renta: "latest_nrs_renta.json" },
+  "4zida": {
+    key:   "4zida",
+    label: "4zida",
+    files: { prodaja: "latest_4zida_prodaja.json", renta: "latest_4zida_renta.json" },
+    hist:  { prodaja: "history_4zida_prodaja.json", renta: "history_4zida_renta.json" },
+    agMode: "name",
+  },
+  nadjidom: {
+    key:   "nadjidom",
+    label: "Nadji Dom",
+    files: { prodaja: "latest_nadjidom_prodaja.json", renta: "latest_nadjidom_renta.json" },
+    hist:  { prodaja: "history_nadjidom_prodaja.json", renta: "history_nadjidom_renta.json" },
     agMode: "name",
   },
 };
@@ -196,7 +225,7 @@ function RangeBar({ min, max, globalMax, color }) {
 }
 
 // ── AGENCIJE TAB ─────────────────────────────────────────────────────────────
-function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
+function AgencijeTab({ mode, listings, agMapping, agMode }) {
   const INVALID_AG = /^(agencij[ae]|mapa|logo|foto\s*\d*|nekretnine\.rs|\d+)$/i;
 
   const agStats = useMemo(()=>{
@@ -225,13 +254,12 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
   const accentCol = isProdaja ? C.navy : C.blue;
   const medal = i => i===0?"🥇":i===1?"🥈":i===2?"🥉":null;
 
+  // Link ka profilu agencije. Halo ima slug u oglasu; 4zida i Nadji Dom daju
+  // agenciju imenom bez profila, pa se link pravi samo ako ga oglas nosi.
+  // NRS grana je uklonjena 30.09.2026 zajedno sa izvorom.
   const agLink = (a) => {
     if (agMode === "slug" && a.slug) return `https://www.halooglasi.com/oglasi/${a.slug}`;
-    if (agMode === "name" && a.naziv) {
-      if (a.agencija_url) return a.agencija_url;
-      const agId = nrsAgMapping[a.naziv];
-      if (agId) return `https://www.nekretnine.rs/agencije-za-nekretnine/${agId}/`;
-    }
+    if (a.agencija_url) return a.agencija_url;
     return null;
   };
 
@@ -329,11 +357,11 @@ function AgencijeTab({ mode, listings, agMapping, agMode, nrsAgMapping = {} }) {
 
 // ── MAIN ─────────────────────────────────────────────────────────────────────
 export default function Dashboard() {
-  const [source,  setSource]  = useState("halo");
+  const [source,  setSource]  = useState("all");
   const [mode,    setMode]    = useState("prodaja");
   const [data,    setData]    = useState({});
   const [agMapping, setAgMapping] = useState({});
-  const [hist,    setHist]    = useState({ halo:[], nrs:[] });
+  const [hist,    setHist]    = useState({});   // kljuc: `${izvor}_${mod}`
   const [loading, setLoading] = useState(true);
   const [err,     setErr]     = useState(null);
   const [period,  setPeriod]  = useState(30);
@@ -347,7 +375,7 @@ export default function Dashboard() {
   const [saleType, setSaleType] = useState("sve");
   const [bldSortKey, setBldSortKey] = useState("count");
   const [bldSortDir, setBldSortDir] = useState(-1);
-  const [nrsAgMapping, setNrsAgMapping] = useState({});
+  const [dom, setDom] = useState({});   // dom_{mod}.json — days on market
 
   // Mobilni breakpoint
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -359,20 +387,30 @@ export default function Dashboard() {
 
   useEffect(() => {
     setLoading(true);
+    // Ucitaj SVE izvore x SVA dva moda iz SOURCES mape, plus DOM statistiku.
+    // Fajl koji ne postoji (npr. 4zida pre prvog run-a) vrati null i taj izvor
+    // se prosto prikaze prazan — ne rusi ostale.
+    const get = f => fetch(`${REPO}/${f}?t=${Date.now()}`)
+      .then(r => r.ok ? r.json() : null).catch(()=>null);
+
+    const srcs = Object.values(SOURCES);
+    const latestJobs = srcs.flatMap(s => ["prodaja","renta"].map(m =>
+      get(s.files[m]).then(d => [`${s.key}_${m}`, d])));
+    const histJobs = srcs.flatMap(s => ["prodaja","renta"].map(m =>
+      get(s.hist[m]).then(d => [`${s.key}_${m}`, d||[]])));
+    const domJobs = ["prodaja","renta"].map(m =>
+      get(`dom_${m}.json`).then(d => [m, d]));
+
     Promise.all([
-      fetch(`${REPO}/latest_prodaja.json`).then(r=>r.json()).catch(()=>null),
-      fetch(`${REPO}/latest_renta.json`).then(r=>r.json()).catch(()=>null),
-      fetch(`${REPO}/latest_nrs_prodaja.json`).then(r=>r.json()).catch(()=>null),
-      fetch(`${REPO}/latest_nrs_renta.json`).then(r=>r.json()).catch(()=>null),
-      fetch(`${REPO}/history.json`).then(r=>r.json()).catch(()=>[]),
-      fetch(`${REPO}/history_nrs.json`).then(r=>r.json()).catch(()=>[]),
-      fetch(`${REPO}/agencije_mapping.json`).then(r=>r.json()).catch(()=>({})),
-      fetch(`${REPO}/nrs_agencije_mapping.json`).then(r=>r.json()).catch(()=>({})),
-    ]).then(([hp, hr, np, nr, hh, nh, m, nm])=>{
-      setData({ halo_prodaja:hp, halo_renta:hr, nrs_prodaja:np, nrs_renta:nr });
-      setHist({ halo: hh||[], nrs: nh||[] });
+      Promise.all(latestJobs),
+      Promise.all(histJobs),
+      get("agencije_mapping.json"),
+      Promise.all(domJobs),
+    ]).then(([latestPairs, histPairs, m, domPairs])=>{
+      setData(Object.fromEntries(latestPairs));
+      setHist(Object.fromEntries(histPairs));
       setAgMapping(m||{});
-      setNrsAgMapping(nm||{});
+      setDom(Object.fromEntries(domPairs));
       setLoading(false);
     }).catch(e=>{ setErr(e.message); setLoading(false); });
   },[]);
@@ -400,7 +438,7 @@ export default function Dashboard() {
           if(okPM2(l.cena/(m2/d))){ m2=+(m2/d).toFixed(2); cm2=Math.round(l.cena/m2); fixed=true; break; }
         }
       }
-      // Izvedi cena_m2 kad je scraper nije poslao (NRS je ne racuna,
+      // Izvedi cena_m2 kad je scraper nije poslao (neki izvori je ne racunaju,
       // Halo renta pre v4.19 takodje) - imamo cenu i m2, racun je trivijalan
       if(!cm2 && l.cena!=null && m2!=null && okPM2(l.cena/m2)){
         cm2=Math.round(l.cena/m2); fixed=true;
@@ -416,11 +454,13 @@ export default function Dashboard() {
     return [...set].sort();
   },[listings]);
 
-  const histData  = hist[source] || [];
+  // Istorija je sada po IZVORU i MODU. Stari history.json (Halo) drzi oba
+  // moda u jednom fajlu, pa se filtrira po h.mode kad to polje postoji.
+  const histData  = hist[`${source}_${mode}`] || [];
   const histSlice = useMemo(()=>{
-    const filtered = source === "nrs" ? histData.filter(h=>h.mode===mode) : histData;
+    const filtered = histData.filter(h => !h.mode || h.mode === mode);
     return filtered.slice(-period);
-  },[histData, source, mode, period]);
+  },[histData, mode, period]);
 
   const newKeys = useMemo(()=>new Set((diff.new??[]).map(l=>l.dedup_key||l.id).filter(Boolean)),[diff]);
 
@@ -473,7 +513,7 @@ export default function Dashboard() {
     };
   },[uniqFiltered,bldFiltered,selBlds,latest]);
 
-  // Prosek rente po kombinaciji zgrada+struktura, iz ISTOG izvora (halo/nrs).
+  // Prosek rente po kombinaciji zgrada+struktura, iz ISTOG izvora.
   // Min 2 renta oglasa po kombinaciji - jedan oglas ume da bude ekstrem.
   const rentAvgMap = useMemo(()=>{
     const rl = data[`${source}_renta`]?.listings ?? [];
@@ -682,7 +722,7 @@ export default function Dashboard() {
 
         {/* AGENCIJE TAB */}
         {tab==="agencije" && latest && (
-          <AgencijeTab mode={mode} listings={agListings} agMapping={agMapping} agMode={srcCfg.agMode} nrsAgMapping={nrsAgMapping}/>
+          <AgencijeTab mode={mode} listings={agListings} agMapping={agMapping} agMode={srcCfg.agMode}/>
         )}
 
         {/* OSTALI TABOVI */}
@@ -696,6 +736,27 @@ export default function Dashboard() {
             </div>
             <KPI label="Cena raspon" value={summary.minC?(mode==="renta"?`${fmtKRenta(summary.minC)}–${fmtKRenta(summary.maxC)} €`:`${fmtK(summary.minC)}–${fmtK(summary.maxC)} €`):"–"}/>
             <KPI label="Prosek €/m²" value={summary.avgM2?`${fmt(summary.avgM2)} €`:"–"} sub={isFiltered?"selektovane zgrade":"sve strukture"}/>
+
+            {/* Days on market — Kaplan-Meier procena iz registra.
+                NE prosta medijana skinutih oglasa: ona izbacuje one koji su
+                jos u ponudi, a bas su oni najduzi, pa sistematski potcenjuje.
+                Registar je jedan za sve izvore, pa ovaj broj ne zavisi od
+                izabranog izvora — zato i stoji napomena u podnaslovu. */}
+            {dom?.[mode]?.ukupno?.dom_medijana != null && (
+              <KPI label="Dana na tržištu"
+                   value={`${dom[mode].ukupno.dom_medijana} dana`}
+                   sub={`medijana · ${dom[mode].ukupno.n_zavrseni} skinutih, ${dom[mode].ukupno.n_aktivni} u ponudi`}/>
+            )}
+            {dom?.[mode]?.ukupno && dom[mode].ukupno.dom_medijana == null && (
+              <KPI label="Dana na tržištu" value="—"
+                   sub={`još se meri · ${dom[mode].ukupno.n_aktivni} u ponudi`}/>
+            )}
+            {dom?.[mode]?.cene?.prosecno_snizenje_pct != null && (
+              <KPI label="Sniženja cene"
+                   value={fmt(dom[mode].cene.ukupno_snizenja)}
+                   sub={`prosečno −${dom[mode].cene.prosecno_snizenje_pct}% · ${dom[mode].cene.oglasa_sa_promenom} oglasa menjalo cenu`}
+                   valueColor={C.green}/>
+            )}
           </div>
 
           {/* PREGLED */}
