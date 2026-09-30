@@ -1,0 +1,102 @@
+name: Backfill registra (jednokratno)
+
+# JEDNOKRATNI workflow za BnV.
+#
+# RAZLIKA U ODNOSU NA NB
+# BnV pise dnevne snapshot fajlove (data/snapshot_{mod}_YYYY-MM-DD.json), pa
+# se registar gradi direktno iz njih — to je tacnije od git istorije, jer
+# snapshot postoji i za dane kad commit nije prosao.
+# Git backfill ostaje kao rezerva ako snapshot fajlova nema ili su nepotpuni.
+#
+# fetch-depth: 0 je potreban samo za git varijantu, ali ga ostavljamo uvek —
+# kosta par sekundi, a bez njega rezervna opcija ne radi.
+
+on:
+  workflow_dispatch:
+    inputs:
+      izvor_istorije:
+        description: 'Odakle graditi registar'
+        type: choice
+        options: ['snapshot fajlovi', 'git istorija']
+        default: 'snapshot fajlovi'
+      force:
+        description: 'Obrisi postojeci registar i gradi iz nule'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sta imamo od istorije
+        run: |
+          echo "Snapshot fajlova (prodaja): $(ls data/snapshot_prodaja_*.json 2>/dev/null | wc -l)"
+          echo "Snapshot fajlova (renta):   $(ls data/snapshot_renta_*.json   2>/dev/null | wc -l)"
+          echo "Commit-ova u repo-u:        $(git rev-list --count HEAD)"
+          echo "Commit-ova koji diraju latest_prodaja.json: $(git rev-list --count HEAD -- data/latest_prodaja.json)"
+
+      - name: Obrisi stari registar
+        if: ${{ inputs.force }}
+        run: rm -f data/registry_*.json
+
+      - name: Backfill iz snapshot fajlova
+        if: ${{ inputs.izvor_istorije == 'snapshot fajlovi' }}
+        run: python scraper/backfill_registry.py
+
+      - name: Backfill iz git istorije
+        if: ${{ inputs.izvor_istorije == 'git istorija' }}
+        run: |
+          python scraper/backfill_from_git.py --file data/latest_prodaja.json --mode prodaja
+          python scraper/backfill_from_git.py --file data/latest_renta.json   --mode renta
+
+      - name: Statistika trajanja i projekcija
+        run: |
+          python scraper/dom_stats.py data
+          python scraper/project.py data
+
+      - name: Sazetak
+        run: |
+          python3 - <<'PY'
+          import json, glob
+          for f in sorted(glob.glob('data/registry_*.json')):
+              e = json.load(open(f, encoding='utf-8')).get('entries', {})
+              akt = sum(1 for x in e.values() if x.get('is_active'))
+              nes = sum(1 for x in e.values() if x.get('deactivation_uncertain'))
+              prvi = min((x['first_seen'] for x in e.values()), default='-')
+              print(f"{f}: {len(e)} oglasa | {akt} aktivnih | {len(e)-akt} skinutih "
+                    f"| {nes} nesigurnih | od {prvi}")
+          for f in sorted(glob.glob('data/dom_*.json')):
+              u = json.load(open(f, encoding='utf-8'))['ukupno']
+              print(f"{f}: medijana {u['dom_medijana']} dana "
+                    f"(KM; naivno bi bilo {u['naivna_medijana_samo_skinuti']}) "
+                    f"| {u['n_zavrseni']} skinutih, {u['n_aktivni']} u ponudi")
+          PY
+
+      - name: Commit
+        run: |
+          git config user.name  "bnv-backfill-bot"
+          git config user.email "actions@github.com"
+          git add data/registry_*.json data/dom_*.json data/latest_all_*.json data/history_all_*.json
+          git add data/latest_4zida_*.json data/latest_nadjidom_*.json 2>/dev/null || true
+          git add data/history_4zida_*.json data/history_nadjidom_*.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nista novo za commit."
+            exit 0
+          fi
+          git commit -m "data: registar rekonstruisan [backfill]"
+          git pull --rebase --autostash origin main
+          git push origin main
+          echo "Registar pushovan."
