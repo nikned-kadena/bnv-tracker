@@ -3,14 +3,54 @@
   "source": "all",
   "date": "2026-09-30",
   "scraped_at": "2026-09-30",
-  "total_raw": 107,
-  "total_unique": 107,
+  "total_raw": 154,
+  "total_unique": 154,
   "total_dups": 0,
   "diff_new": [
     "91ae4456587f4d09",
     "fa17c2460500dfb5",
     "8154665033833fb6",
-    "c4bd770600ba69f3"
+    "c4bd770600ba69f3",
+    "fbc235af5093f264",
+    "d6e8dd9f06e5857e",
+    "7e5dc4030095b787",
+    "6636358ddcf419c1",
+    "bace84ab45c14ca3",
+    "6eb8ec3c41722c93",
+    "93ce3106ab0eb06d",
+    "8426c31f93ab3553",
+    "d6e8af22135670d3",
+    "6d10283bdd03512c",
+    "109807a91d907f33",
+    "5c4d58735ec87412",
+    "00cbed71ff501940",
+    "463ae7ca220797c3",
+    "96bf0f2af86da355",
+    "0374204a6529f81e",
+    "367e5dec44197f38",
+    "a988e88d3988bb92",
+    "65fb915002278c19",
+    "7e2094bcb1649f1f",
+    "c6481becf2daee1f",
+    "8ffed9edf9723f55",
+    "cdd97fc90be7f2a9",
+    "13208c8094de1c9b",
+    "044f0fc263954a5c",
+    "232cd0ca7bc54d69",
+    "4df62ee043115eb3",
+    "82bd8535f702861b",
+    "627b63a5392e5e95",
+    "23db2339f151a1e1",
+    "ea59d5b230c5bc43",
+    "f0a9107618da560a",
+    "9a37fc326785baf2",
+    "66538f19563087f0",
+    "41a84f3d0e101ef1",
+    "4536d3a51ee092d6",
+    "cd26ebd52436339e",
+    "21ede1f228ee7b2e",
+    "8a9e896c9215c2c0",
+    "d51ba1500de2a838"
   ],
   "diff_removed": [
     "04352ec04732935d",
@@ -25,9 +65,31 @@
   ],
   "listings": [
     {
+      "id": "9e4e3e5c28edc437",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/premium-st-regis-tower-belgrade-waterfront/5425647193443?kid=4",
+      "naslov": "Četvorosoban stan za izdavanje, Nikolaja Kravcova ST.Regis, 13.000€, 144m²",
+      "zgrada": "BW St. Regis",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 144.0,
+      "cena": 13000,
+      "cena_m2": 90,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 113,
+      "prva_cena": 15000,
+      "promena_cene_pct": -13.3,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "2f60c4f17982feed",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/never-occupied-flawlessly-designed/5425647237646?kid=4",
-      "naslov": "Never occupied. Flawlessly designed.",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 94m²",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "BebaRealEstate",
       "struktura": "3.0",
@@ -37,7 +99,8 @@
       "cena_m2": 21,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 113,
       "prva_cena": 2000,
@@ -63,6 +126,28 @@
       "dana_na_trzistu": 113,
       "prva_cena": 1300,
       "promena_cene_pct": 15.4,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "188f64fdb145d03d",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-pristup-bazenu-i-teretani/5425646665250?kid=4",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 95m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "SonataProperties",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 95.0,
+      "cena": 2000,
+      "cena_m2": 21,
+      "sprat": "III",
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 113,
+      "prva_cena": 2000,
+      "promena_cene_pct": null,
       "first_seen": "2026-06-09",
       "last_seen": "2026-09-30"
     },
@@ -195,7 +280,7 @@
     {
       "id": "12a6e6c8b17215aa",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/brand-new---garage---river-view/5425644578019?kid=1",
-      "naslov": "Brand new - garage - river view",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 1.700€, 72m²",
       "zgrada": "BW Simfonija",
       "agencija": "BebaRealEstate",
       "struktura": "3.0",
@@ -205,7 +290,8 @@
       "cena_m2": 24,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 113,
       "prva_cena": 1700,
@@ -237,7 +323,7 @@
     {
       "id": "5135a96a7febd7f8",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/first-line-riverfront-living-in-belgradewater/5425646965694?kid=1",
-      "naslov": "First-line riverfront living in BelgradeWaterfront",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 3.500€, 124m²",
       "zgrada": "BW Perla",
       "agencija": "BebaRealEstate",
       "struktura": "4.0",
@@ -247,7 +333,8 @@
       "cena_m2": 28,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 113,
       "prva_cena": 3000,
@@ -258,7 +345,7 @@
     {
       "id": "45482d8b96abb390",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-neuseljavan-dizajnerski-opremljen---4-0/5425645805877?kid=1",
-      "naslov": "Nov, neuseljavan, dizajnerski opremljen - 4.0",
+      "naslov": "Četvorosoban stan za izdavanje, Savska, 2.500€, 116m²",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "BebaRealEstate",
       "struktura": "4.0",
@@ -268,7 +355,8 @@
       "cena_m2": 22,
       "sprat": "VI/9",
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 113,
       "prva_cena": 2500,
@@ -279,7 +367,7 @@
     {
       "id": "5aed65536a0a641b",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/one-of-a-kind---2-bdrms-pool--gym--60sqm-terr/5425645670246?kid=1",
-      "naslov": "One of a kind - 2 bdrms-pool- gym- 60sqm terrace",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 3.500€, 140m²",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "BebaRealEstate",
       "struktura": "3.0",
@@ -289,7 +377,8 @@
       "cena_m2": 25,
       "sprat": "II",
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 113,
       "prva_cena": 3500,
@@ -426,7 +515,7 @@
     {
       "id": "81badfee9e34688f",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/exclusive-apartment-in-bw-residences-45m2-ter/5425635616381?kid=1",
-      "naslov": "Exclusive apartment in BW Residences /45m2 terrace",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 2.500€, 124m²",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "BebaRealEstate",
       "struktura": "3.0",
@@ -436,7 +525,8 @@
       "cena_m2": 20,
       "sprat": "XIV",
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 113,
       "prva_cena": 2500,
@@ -550,6 +640,28 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "140f1da6c8357654",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-67415/5425647142256?kid=4",
+      "naslov": "Trosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.700€, 80m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "beostan",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 80.0,
+      "cena": 1700,
+      "cena_m2": 21,
+      "sprat": "VI/16",
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 111,
+      "prva_cena": 1700,
+      "promena_cene_pct": null,
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "538d1332f4127780",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-4-0---garaza---pogled-na-reku---bw-reside/5425644081440?kid=1",
       "naslov": "Lux 4.0 - garaza - pogled na reku - BW Residences",
@@ -652,6 +764,28 @@
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-26",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "f96d09ebbf934cef",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-08-beograd-na-vodi-kompletno-opremlje/5425647105510?kid=1",
+      "naslov": "Dvosoban stan za izdavanje, Nikolaja Kravcova, 3.200€, 62m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "Kredium",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 62.0,
+      "cena": 3200,
+      "cena_m2": 52,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 83,
+      "prva_cena": 3200,
+      "promena_cene_pct": null,
+      "first_seen": "2026-07-09",
       "last_seen": "2026-09-30"
     },
     {
@@ -825,7 +959,7 @@
     {
       "id": "d92ce9a7ecc333b1",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-76m2-lux-namesten-sa-garaznim-mestom/5425647411925?kid=1",
-      "naslov": "BW Kula, 76m2, LUX, namešten, sa garažnim mestom",
+      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 4.000€, 76m²",
       "zgrada": "BW (neidentifikovano)",
       "agencija": null,
       "struktura": "2.0",
@@ -835,12 +969,35 @@
       "cena_m2": 53,
       "sprat": "XXV/30",
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 63,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "3edc6f3036523f50",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-63448/5425647468761?kid=4",
+      "naslov": "Dvosoban stan za izdavanje, HERCEGOVACKA, 1.300€, 58m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "beostan",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 58.0,
+      "cena": 1300,
+      "cena_m2": 22,
+      "sprat": "V/17",
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 61,
+      "prva_cena": 1200,
+      "promena_cene_pct": 8.3,
+      "first_seen": "2026-07-31",
       "last_seen": "2026-09-30"
     },
     {
@@ -1180,6 +1337,28 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "1122a8751f60410e",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/fantastican-stan-sa-parking-mestom/5425647612394?kid=4",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 1.900€, 86m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 86.0,
+      "cena": 1900,
+      "cena_m2": 22,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 29,
+      "prva_cena": 2000,
+      "promena_cene_pct": -5.0,
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "f94d7e16971fb6a1",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw---parkview---lux-90m2-4-0-gar-mesto/5425636267820?kid=1",
       "naslov": "BW - ParkView - lux, 90m2, 4.0, gar.mesto",
@@ -1224,7 +1403,7 @@
     {
       "id": "4ff877aa2f3488f9",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-68828/5425647440530?kid=4",
-      "naslov": "Centar - Beograd na vodi BW #68828",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 2.500€, 110m²",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "beostan",
       "struktura": "4.0",
@@ -1234,7 +1413,8 @@
       "cena_m2": 23,
       "sprat": "XXI/23",
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 27,
       "prva_cena": 2500,
@@ -1301,6 +1481,28 @@
       ],
       "dana_na_trzistu": 22,
       "prva_cena": 3500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "115fa9cae460d0e8",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-moderan-stan-kod-tc-galerija-garaza-id-91/5425646400295?kid=1",
+      "naslov": "Trosoban stan za izdavanje, Bulevar Vudroa Vilsona, 2.000€, 80m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "symbol-properties-doo-beograd",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 80.0,
+      "cena": 2000,
+      "cena_m2": 25,
+      "sprat": "III",
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 22,
+      "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-08",
       "last_seen": "2026-09-30"
@@ -1434,7 +1636,7 @@
     {
       "id": "01c923279c5bd882",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-68954/5425647651567?kid=4",
-      "naslov": "Centar - Beograd na vodi BW #69120",
+      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 1.500€, 56m²",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "beostan",
       "struktura": "2.0",
@@ -1444,7 +1646,8 @@
       "cena_m2": 27,
       "sprat": "III/23",
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 15,
       "prva_cena": 1500,
@@ -1623,7 +1826,7 @@
     {
       "id": "1869384912ce1201",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69045/5425647694971?kid=4",
-      "naslov": "Centar - Beograd na vodi BW #69169",
+      "naslov": "Dvosoban stan za izdavanje, Hercegovacka, 2.000€, 71m²",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "beostan",
       "struktura": "2.0",
@@ -1633,7 +1836,8 @@
       "cena_m2": 28,
       "sprat": "III/17",
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 10,
       "prva_cena": 2000,
@@ -2148,7 +2352,7 @@
     {
       "id": "9a2f5e6cb9ac69f8",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-66305/5425647717235?kid=4",
-      "naslov": "Centar - Beograd na vodi BW #66305",
+      "naslov": "Četvorosoban stan za izdavanje, Luke Celovica Trebinjca, 3.000€, 120m²",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "beostan",
       "struktura": "4.0",
@@ -2158,7 +2362,8 @@
       "cena_m2": 25,
       "sprat": "V/17",
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 1,
       "prva_cena": 3000,
@@ -2267,6 +2472,846 @@
       ],
       "dana_na_trzistu": 0,
       "prva_cena": 2500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "fbc235af5093f264",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6883c0230d06bed290099773",
+      "naslov": "Četvorosoban stan za izdavanje, Luke Ćelovića Trebinjca, 2.950€, 98m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 98.0,
+      "cena": 2950,
+      "cena_m2": 30,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2950,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "d6e8dd9f06e5857e",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6ab503456e51059f5e09776c",
+      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 1.700€, 57m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 57.0,
+      "cena": 1700,
+      "cena_m2": 30,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1700,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "7e5dc4030095b787",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6aaab27e231d190f85045cbd",
+      "naslov": "Dvosoban stan za izdavanje, Hercegovačka, 2.500€, 72m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 72.0,
+      "cena": 2500,
+      "cena_m2": 35,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "6636358ddcf419c1",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6ab0f45bf4b4ecab3c0a3d5e",
+      "naslov": "Trosoban stan za izdavanje, Nikolaja Kravcova, 3.800€, 90m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 90.0,
+      "cena": 3800,
+      "cena_m2": 42,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 3800,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "bace84ab45c14ca3",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/69b98387f8a5bde70d0b8648",
+      "naslov": "Trosoban stan za izdavanje, Nikolaja Kravcova, 4.500€, 90m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 90.0,
+      "cena": 4500,
+      "cena_m2": 50,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 4500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "6eb8ec3c41722c93",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6a6b77b4d38813783408db63",
+      "naslov": "Dvosoban stan za izdavanje, Nikolaja Kravcova, 3.200€, 62m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 62.0,
+      "cena": 3200,
+      "cena_m2": 52,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 3200,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "93ce3106ab0eb06d",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a8850e2384956b75b00fc8a",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 5.500€, 90m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 90.0,
+      "cena": 5500,
+      "cena_m2": 61,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 5500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "8426c31f93ab3553",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6aa2c821368c1dd2f8094be6",
+      "naslov": "Trosoban stan za izdavanje, Nikolaja Kravcova, 4.000€, 86m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 86.0,
+      "cena": 4000,
+      "cena_m2": 47,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 4000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "d6e8af22135670d3",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6aa2c823368c1dd2f8094be9",
+      "naslov": "Trosoban stan za izdavanje, Nikolaja Kravcova, 3.900€, 86m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 86.0,
+      "cena": 3900,
+      "cena_m2": 45,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 3900,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "6d10283bdd03512c",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6ab245dd97f8a9fe670f44fd",
+      "naslov": "Trosoban stan za izdavanje, Nikolaja Kravcova, 4.000€, 98m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 98.0,
+      "cena": 4000,
+      "cena_m2": 41,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 4000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "109807a91d907f33",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6a3d038dda65b2bc36071453",
+      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 2.850€, 74m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 74.0,
+      "cena": 2850,
+      "cena_m2": 39,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2850,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "5c4d58735ec87412",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a3d038eda65b2bc36071456",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 3.800€, 98m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 98.0,
+      "cena": 3800,
+      "cena_m2": 39,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 3800,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "00cbed71ff501940",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6a8dded8842a4dcdb60311de",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 4.500€, 158m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 158.0,
+      "cena": 4500,
+      "cena_m2": 28,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 4500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "463ae7ca220797c3",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6ab245dc97f8a9fe670f44fa",
+      "naslov": "Trosoban stan za izdavanje, Nikolaja Kravcova, 3.800€, 90m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 90.0,
+      "cena": 3800,
+      "cena_m2": 42,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 3800,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "96bf0f2af86da355",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6ab516c693f20dab260f0e4f",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 80m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 80.0,
+      "cena": 2000,
+      "cena_m2": 25,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "0374204a6529f81e",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6880cf9331fa3efe64005933",
+      "naslov": "Četvorosoban stan za izdavanje, Luke Ćelovića Trebinjca, 2.500€, 116m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 116.0,
+      "cena": 2500,
+      "cena_m2": 22,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "367e5dec44197f38",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a9f42991a20ffc17600ee1d",
+      "naslov": "Trosoban stan za izdavanje, Bulevar Vudroa Vilsona, 1.600€, 86m²",
+      "zgrada": "BW Iris",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 86.0,
+      "cena": 1600,
+      "cena_m2": 19,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1600,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "a988e88d3988bb92",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a1dce557eaab7788c081ff3",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka 14B, 2.800€, 90m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 90.0,
+      "cena": 2800,
+      "cena_m2": 31,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2800,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "65fb915002278c19",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/67b77d47ce8293a7c9043c93",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 2.500€, 109m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 109.0,
+      "cena": 2500,
+      "cena_m2": 23,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "7e2094bcb1649f1f",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6abbbb02fa8489f514068608",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 85m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 85.0,
+      "cena": 2000,
+      "cena_m2": 24,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "c6481becf2daee1f",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6abbb9c91cc13947600fa75a",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 1.800€, 79m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 79.0,
+      "cena": 1800,
+      "cena_m2": 23,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1800,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "8ffed9edf9723f55",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6abb8201bca00de32e02453e",
+      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 890€, 54m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 54.0,
+      "cena": 890,
+      "cena_m2": 16,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 890,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "cdd97fc90be7f2a9",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6abb77cac1e45bab56054f0c",
+      "naslov": "Četvorosoban stan za izdavanje, Luke Celovica Trebinjca, 3.000€, 120m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 120.0,
+      "cena": 3000,
+      "cena_m2": 25,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 3000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "13208c8094de1c9b",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6a6b8da90f0b13d7d4086049",
+      "naslov": "Dvosoban stan za izdavanje, Hercegovacka, 2.300€, 71m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 71.0,
+      "cena": 2300,
+      "cena_m2": 32,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2300,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "044f0fc263954a5c",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6a6b86867a86b0847902bb46",
+      "naslov": "Dvosoban stan za izdavanje, Nikolaja Kravcova, 3.200€, 63m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 63.0,
+      "cena": 3200,
+      "cena_m2": 51,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 3200,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "232cd0ca7bc54d69",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6aba92f744948cdfe30f2175",
+      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 3.000€, 111m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 111.0,
+      "cena": 3000,
+      "cena_m2": 27,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 3000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "4df62ee043115eb3",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6aba7a398f9dfa75950803ab",
+      "naslov": "Trosoban stan za izdavanje, Bulevar Vudroa Vilsona, 1.900€, 80m²",
+      "zgrada": "BW Iris",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 80.0,
+      "cena": 1900,
+      "cena_m2": 24,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1900,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "82bd8535f702861b",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a6b52995c6203366004d2a4",
+      "naslov": "Trosoban stan za izdavanje, Bulevar Vudroa Vilsona, 1.500€, 81m²",
+      "zgrada": "BW Iris",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 81.0,
+      "cena": 1500,
+      "cena_m2": 19,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "627b63a5392e5e95",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a6b168cd1f37526eb074348",
+      "naslov": "Trosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.700€, 78m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.0,
+      "cena": 1700,
+      "cena_m2": 22,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1700,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "23db2339f151a1e1",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6a79eaa27da346fad705f324",
+      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 15.000€, 144m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 144.0,
+      "cena": 15000,
+      "cena_m2": 104,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 15000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "ea59d5b230c5bc43",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a75299e4e9634e74d0e56c9",
+      "naslov": "Trosoban stan za izdavanje, Bulevar Vudroa Vilsona, 1.800€, 72m²",
+      "zgrada": "BW Iris",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 72.0,
+      "cena": 1800,
+      "cena_m2": 25,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1800,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "f0a9107618da560a",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6a42114d5fbb52bdee070537",
+      "naslov": "Dvosoban stan za izdavanje, Nikolaja Kravcova, 4.000€, 63m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 63.0,
+      "cena": 4000,
+      "cena_m2": 63,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 4000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "9a37fc326785baf2",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/69cbe5bdea223e891d0d4a0d",
+      "naslov": "Četvorosoban stan za izdavanje, Luke Ćelovića Trebinjca BW Kings Park, 3.100€, 122m²",
+      "zgrada": "BW King's Park",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 122.0,
+      "cena": 3100,
+      "cena_m2": 25,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 3100,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "66538f19563087f0",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6aba060298251e988b0e40a0",
+      "naslov": "Trosoban stan za izdavanje, Bulevar Vudroa Vilsona, 1.500€, 81m²",
+      "zgrada": "BW Iris",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 81.0,
+      "cena": 1500,
+      "cena_m2": 19,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "41a84f3d0e101ef1",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/672bb2de3e5208e1030477f5",
+      "naslov": "Dvosoban stan za izdavanje, Hercegovačka, 1.500€, 59m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 59.0,
+      "cena": 1500,
+      "cena_m2": 25,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "4536d3a51ee092d6",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6ab820b75cbeaff7790e9601",
+      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 3.000€, 62m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 62.0,
+      "cena": 3000,
+      "cena_m2": 48,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 3000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "cd26ebd52436339e",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6ab820b65cbeaff7790e95fe",
+      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 1.800€, 65m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 65.0,
+      "cena": 1800,
+      "cena_m2": 28,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1800,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "21ede1f228ee7b2e",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6ab820b45cbeaff7790e95fb",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 80m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 80.0,
+      "cena": 2000,
+      "cena_m2": 25,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "8a9e896c9215c2c0",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/68dd4739e10f3d375205fad2",
+      "naslov": "Trosoban stan za izdavanje, Luke Ćelovića Trebinjca, 2.300€, 72m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 72.0,
+      "cena": 2300,
+      "cena_m2": 32,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2300,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "d51ba1500de2a838",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvoiposoban-stan/697b7816af7841047d0786d8",
+      "naslov": "Dvoiposoban stan za izdavanje, Beograd na vodi, 1.700€, 75m²",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.5",
+      "str_label": "Dvoiposoban",
+      "m2": 75.0,
+      "cena": 1700,
+      "cena_m2": 23,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30"
