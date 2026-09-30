@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-09-30",
   "scraped_at": "2026-09-30",
-  "total_raw": 154,
-  "total_unique": 154,
+  "total_raw": 156,
+  "total_unique": 156,
   "total_dups": 0,
   "diff_new": [
     "91ae4456587f4d09",
@@ -50,7 +50,9 @@
     "cd26ebd52436339e",
     "21ede1f228ee7b2e",
     "8a9e896c9215c2c0",
-    "d51ba1500de2a838"
+    "d51ba1500de2a838",
+    "fe31ffcdae617986",
+    "060d6fc5b48b13ce"
   ],
   "diff_removed": [
     "04352ec04732935d",
@@ -3312,6 +3314,48 @@
       ],
       "dana_na_trzistu": 0,
       "prva_cena": 1700,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "fe31ffcdae617986",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6abd19e667800924c105cbca",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 4.500€, 147m²",
+      "zgrada": "BW Perla",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 147.0,
+      "cena": 4500,
+      "cena_m2": 31,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 4500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "060d6fc5b48b13ce",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6abd0bdf28242bfe92005d0a",
+      "naslov": "Trosoban stan za izdavanje, Nikolaja Kravcova, 2.800€, 98m²",
+      "zgrada": "BW Quartet 4",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 98.0,
+      "cena": 2800,
+      "cena_m2": 29,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30"
