@@ -3,9 +3,9 @@
   "source": "4zida",
   "date": "2026-09-30",
   "scraped_at": "2026-09-30",
-  "total_raw": 220,
-  "total_unique": 220,
-  "total_dups": 0,
+  "total_raw": 221,
+  "total_unique": 195,
+  "total_dups": 26,
   "diff_new": [
     "fbc235af5093f264",
     "d6e8dd9f06e5857e",
@@ -152,7 +152,8 @@
     "3f58cfc45dd345b1",
     "13afb52658aad761",
     "5aab906ff6693027",
-    "278ddf2cbbc08caf"
+    "278ddf2cbbc08caf",
+    "f7596d9e7e10f126"
   ],
   "diff_removed": [],
   "listings": [
@@ -4869,6 +4870,27 @@
       ],
       "dana_na_trzistu": 0,
       "prva_cena": 1800,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "f7596d9e7e10f126",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6abd39db0424d68c6a0dd4ca",
+      "naslov": "Trosoban stan za izdavanje, Luke Ćelovića Trebinjca, 2.200€, 74m²",
+      "zgrada": "BW Eterna",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 74.0,
+      "cena": 2200,
+      "cena_m2": 30,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30"
