@@ -112,7 +112,11 @@ function KPI({ label, value, sub, valueColor }) {
 // smisleno: u registru je isti stan sa vise portala JEDAN zapis, pa se iz
 // polja `izvori` vidi ko ga je doneo.
 //
-// Prva kartica je ukupan broj jedinstvenih oglasa — imenilac za sve ostale.
+// Prva kartica je ukupan broj OGLASA — imenilac za sve ostale. Namerno se
+// ne zove "jedinstvenih": KPI iznad ("Unique nekretnine") broji NEKRETNINE,
+// pa je isti stan koji nude dve agencije tamo jedan, a ovde dva. Dok su obe
+// kartice nosile rec "jedinstveno", izgledale su kao da protivrece jedna
+// drugoj (191 od 220 gore, 220 dole).
 // Procenti po portalima se zato SABIRAJU NA VISE OD 100%: isti stan vidljiv
 // na dva portala racuna se kod oba. To nije greska nego sustina merenja —
 // bez preklapanja se ne bi videlo koliko koji portal zaista dodaje.
@@ -172,10 +176,13 @@ function IzvoriPregled({ listings, isMobile }) {
 
   return (
     <div style={{display:"grid",
-      gridTemplateColumns:isMobile?"repeat(2,1fr)":"repeat(auto-fit,minmax(170px,1fr))",
+      // auto-FILL, ne auto-fit: kad ima samo dve kartice (prodaja pre nego sto
+      // 4zida i Nadji Dom prodju), auto-fit bi ih razvukao preko pola ekrana.
+      // auto-fill ostavlja prazne kolone i kartica zadrzava normalnu sirinu.
+      gridTemplateColumns:isMobile?"repeat(2,1fr)":"repeat(auto-fill,minmax(190px,1fr))",
       gap:10,marginBottom:16}}>
       <Kartica
-        naziv="Ukupno jedinstvenih"
+        naziv="Ukupno oglasa"
         broj={fmt(st.ukupno)}
         procenat={100}
         sub={`${fmt(st.viseP)} na više portala (${pct(st.viseP)}%)`
