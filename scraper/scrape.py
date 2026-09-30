@@ -446,6 +446,22 @@ def save_snapshot(mode, all_listings, total_raw):
             json.dump(history,f,ensure_ascii=False,indent=2)
 
     print(f"✓ Sačuvano latest_{mode}.json. Novi: {len(diff['new'])}, Skinuti: {len(diff['removed'])}")
+
+    # ── Registar sa zivotnim ciklusom (store.py) ──────────────────────
+    # latest_{mode}.json gore ostaje netaknut — dashboard ga i dalje cita.
+    # Ovde se iznad njega odrzava akumulativni registar koji pamti
+    # first_seen / last_seen / is_active / deactivated_at i promene cene,
+    # i spaja isti stan kad se pojavi na vise portala.
+    # Pada li store — scrape se NE rusi, jer podaci su vec sacuvani.
+    try:
+        sys.path.insert(0, str(Path(__file__).parent))
+        import store, dom_stats, project
+        store.update(DATA_DIR, mode, unique, source="halo", run_date=date_str)
+        dom_stats.build(DATA_DIR, mode)
+        project.build(DATA_DIR, mode)   # latest_all_*.json za dashboard
+    except Exception as e:
+        print(f"  ⚠ Registar/DOM preskocen: {e}", file=sys.stderr)
+
     return snapshot
 
 def main():
