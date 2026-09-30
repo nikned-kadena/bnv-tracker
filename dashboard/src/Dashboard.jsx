@@ -107,6 +107,84 @@ function KPI({ label, value, sub, valueColor }) {
   );
 }
 
+// ── Pregled izvora ──────────────────────────────────────────────────────────
+// Vidljivo samo u spojenom prikazu ("Svi izvori"), jer je tek tamo pitanje
+// smisleno: u registru je isti stan sa vise portala JEDAN zapis, pa se iz
+// polja `izvori` vidi ko ga je doneo i koliko se portali preklapaju.
+//
+// "samo ovde" je ono sto se stvarno isplati gledati. Portal koji donese 40
+// oglasa od kojih su 38 vec na Halo-u ne siri pokrivenost nego je potvrdjuje;
+// onaj koji donese 40 ekskluzivnih vredi drzati. Zato traka ima dva dela:
+// puna boja su oglasi koje ima samo taj portal, bleda su deljeni.
+//
+// Racuna se na NEFILTRIRANOM skupu — pokrivenost portala je svojstvo izvora,
+// ne trenutno izabranih zgrada ili struktura.
+function IzvoriPregled({ listings, isMobile }) {
+  const st = useMemo(()=>{
+    const po = {};
+    let viseP = 0, bezOznake = 0;
+    for (const l of listings) {
+      const izv = l.izvori || [];
+      if (!izv.length) { bezOznake++; continue; }
+      if (izv.length > 1) viseP++;
+      for (const k of izv) {
+        po[k] = po[k] || { ukupno:0, samo:0 };
+        po[k].ukupno++;
+        if (izv.length === 1) po[k].samo++;
+      }
+    }
+    return {
+      red: Object.entries(po).sort((a,b)=>b[1].ukupno-a[1].ukupno),
+      viseP, bezOznake, ukupno: listings.length,
+    };
+  },[listings]);
+
+  if (!st.red.length) return null;
+  const max  = Math.max(...st.red.map(([,v])=>v.ukupno), 1);
+  const boje = { halo:C.blue, "4zida":C.green, nadjidom:"#F59E0B" };
+  const pct  = n => st.ukupno ? Math.round(100*n/st.ukupno) : 0;
+  const ime  = k => (SOURCES[k] && SOURCES[k].label) || k;
+
+  return (
+    <div style={{background:C.white,borderRadius:12,padding:"16px 18px",
+      boxShadow:C.shadow,marginBottom:16}}>
+      <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",
+        flexWrap:"wrap",gap:8,marginBottom:14}}>
+        <div style={{fontSize:11,fontWeight:600,color:C.textS,textTransform:"uppercase",
+          letterSpacing:.6}}>Oglasi po portalu</div>
+        <div style={{fontSize:12,color:C.textS}}>
+          {fmt(st.ukupno)} jedinstvenih · {fmt(st.viseP)} na više portala ({pct(st.viseP)}%)
+          {st.bezOznake>0 && ` · ${fmt(st.bezOznake)} bez oznake izvora`}
+        </div>
+      </div>
+
+      {st.red.map(([k,v])=>(
+        <div key={k} style={{marginBottom:12}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",
+            gap:10,fontSize:12,marginBottom:5,flexWrap:isMobile?"wrap":"nowrap"}}>
+            <span style={{fontWeight:600,color:C.text}}>{ime(k)}</span>
+            <span style={{color:C.textS,textAlign:"right"}}>
+              <b style={{color:C.text,fontSize:14}}>{fmt(v.ukupno)}</b>
+              {` oglasa · ${pct(v.ukupno)}% pokrivenosti · `}
+              <b style={{color:v.samo?(boje[k]||C.text):C.textS}}>{fmt(v.samo)}</b>
+              {` samo ovde (${pct(v.samo)}%)`}
+            </span>
+          </div>
+          <div style={{height:8,borderRadius:4,background:C.bg,display:"flex",overflow:"hidden"}}>
+            <div style={{width:`${100*v.samo/max}%`,background:boje[k]||C.navy}}/>
+            <div style={{width:`${100*(v.ukupno-v.samo)/max}%`,background:boje[k]||C.navy,opacity:.32}}/>
+          </div>
+        </div>
+      ))}
+
+      <div style={{fontSize:11,color:C.textXS,marginTop:10,lineHeight:1.5}}>
+        Puna boja — oglasi koje ima samo taj portal. Bleda — isti stan vidljiv i na
+        drugom portalu. Zbir po portalima veći je od broja oglasa upravo za ta preklapanja.
+      </div>
+    </div>
+  );
+}
+
 function Pill({ label, active, onClick, color }) {
   return (
     <button onClick={onClick} style={{
@@ -758,6 +836,9 @@ export default function Dashboard() {
                    valueColor={C.green}/>
             )}
           </div>
+
+          {/* PREGLED IZVORA — samo u spojenom prikazu */}
+          {source==="all" && <IzvoriPregled listings={listings} isMobile={isMobile}/>}
 
           {/* PREGLED */}
           {tab==="pregled"&&(
