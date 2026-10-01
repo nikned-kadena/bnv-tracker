@@ -3,22 +3,22 @@
   "source": "all",
   "date": "2026-10-01",
   "scraped_at": "2026-10-01",
-  "total_raw": 730,
-  "total_unique": 640,
+  "total_raw": 734,
+  "total_unique": 644,
   "total_dups": 90,
   "diff_new": [
     "0b858f45ddf938f5",
     "8d7c571245168db4",
     "779efc421a25382d",
     "80467d243c0ef21b",
-    "9be64c9fac235780"
+    "9be64c9fac235780",
+    "dcb12bd3b56ac18d"
   ],
   "diff_removed": [
     "33d53bc1f2c5efd0",
     "f8183c16aed4448d",
     "0c8f04d8e6e92e09",
     "afb551b51e83a56a",
-    "c82a97acaf662f46",
     "3531af89c5599a02",
     "8a548073c2220f4d",
     "26db53e375481d66",
@@ -121,7 +121,7 @@
     {
       "id": "1c4a084dcdb546bd",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bwf-luke-celovica-trebinjca-3-0-74-m2-nameste/5425646821339?kid=4",
-      "naslov": "BWF, Luke Celovica Trebinjca, 3.0, 74 m2, namesten",
+      "naslov": "BWF, Luks 3.0 namesten stan! Odlicna investicija",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "raicevic-nekretnine-2",
       "struktura": "3.0",
@@ -137,7 +137,7 @@
       "prva_cena": 375000,
       "promena_cene_pct": -8.0,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|73.73|345000"
     },
     {
@@ -149,18 +149,18 @@
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 55.32,
-      "cena": 285000,
-      "cena_m2": 5152,
+      "cena": 290000,
+      "cena_m2": 5242,
       "sprat": "VII",
       "izvori": [
         "halo"
       ],
       "dana_na_trzistu": 114,
       "prva_cena": 285000,
-      "promena_cene_pct": null,
+      "promena_cene_pct": 1.8,
       "first_seen": "2026-06-09",
       "last_seen": "2026-10-01",
-      "dedup_key": "BW Nika|55.32|285000"
+      "dedup_key": "BW Nika|55.32|290000"
     },
     {
       "id": "f3a5101367891781",
@@ -1544,6 +1544,28 @@
       "first_seen": "2026-06-09",
       "last_seen": "2026-10-01",
       "dedup_key": "BW Rima|61.5|289000"
+    },
+    {
+      "id": "aa78a6b9812042bd",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/st-regis-57m2/5425645963482?kid=1",
+      "naslov": "St Regis, 57m2",
+      "zgrada": "BW St. Regis",
+      "agencija": "PremiumRealEstate",
+      "struktura": "1.0",
+      "str_label": "Jednosoban",
+      "m2": 57.0,
+      "cena": 495000,
+      "cena_m2": 8684,
+      "sprat": "XXIV",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 114,
+      "prva_cena": 495000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW St. Regis|57.0|495000"
     },
     {
       "id": "b38fe6292de41e1c",
@@ -4829,6 +4851,28 @@
       "dedup_key": "BW Dolce|66.3|385000"
     },
     {
+      "id": "046f8ddc5e8c309a",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-bella-2-0-55m2/5425647361940?kid=1",
+      "naslov": "Bw Bella , 2.0 , 55m2",
+      "zgrada": "BW Bella",
+      "agencija": "PremiumRealEstate",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 54.93,
+      "cena": 319000,
+      "cena_m2": 5807,
+      "sprat": "XII/20",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 89,
+      "prva_cena": 319000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-07-04",
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Bella|54.93|319000"
+    },
+    {
       "id": "6ee2422c5f4ea1eb",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-perla-ekskluzivan-stan-pogled-na-reku/5425646821600?kid=1",
       "naslov": "Četvorosoban stan na prodaju, Hercegovačka, 1.250.000€, 153m²",
@@ -4921,15 +4965,15 @@
     {
       "id": "645913f6e2330a04",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-bw-residences-89m2/5425646683102?kid=1",
-      "naslov": "BW Residences, trosoban stan sa pogledom na reku ID#1622711",
+      "naslov": "Beograd na vodi, Bw Residences, 89m2",
       "zgrada": "BW Residences",
-      "agencija": "ART nekretnine d.o.o. ",
+      "agencija": "PremiumRealEstate",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 89.0,
       "cena": 729000,
       "cena_m2": 8191,
-      "sprat": "4",
+      "sprat": "IV/20",
       "izvori": [
         "halo",
         "4zida",
@@ -4939,7 +4983,7 @@
       "prva_cena": 749000,
       "promena_cene_pct": -2.7,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Residences|89.0|729000"
     },
     {
@@ -5462,7 +5506,7 @@
     {
       "id": "d35690a44d6f53f5",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-simfonija-2-lux-namesten-3-0-stan-69m2/5425646687135?kid=1",
-      "naslov": "Trosoban stan na prodaju, Hercegovačka, 370.000€, 69m²",
+      "naslov": "BW Simfonija 2, lux namešten 3.0 stan, 69m2",
       "zgrada": "BW Simfonija 2",
       "agencija": "divis-nekretnine",
       "struktura": "3.0",
@@ -5479,7 +5523,7 @@
       "prva_cena": 370000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-18",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Simfonija 2|69.0|370000"
     },
     {
@@ -7167,6 +7211,28 @@
       "dedup_key": "BW (neidentifikovano)|48.0|207171"
     },
     {
+      "id": "c82a97acaf662f46",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-aqua-3-0-odmah-useljiv/5425647677523?kid=4",
+      "naslov": "BW AQUA | 3.0 Odmah useljiv",
+      "zgrada": "BW Aqua",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 88.25,
+      "cena": 475000,
+      "cena_m2": 5382,
+      "sprat": "XXII/24",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 16,
+      "prva_cena": 465000,
+      "promena_cene_pct": 2.2,
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Aqua|88.25|475000"
+    },
+    {
       "id": "e354bd305b23a02b",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-bonaca-prva-linija-do-reke-dve-terase-id49/5425647680262?kid=1",
       "naslov": "BW Bonaca, prva linija do reke, dve terase ID#4930",
@@ -7657,7 +7723,7 @@
       "prva_cena": 390000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|77.46|390000"
     },
     {
@@ -16223,7 +16289,7 @@
     {
       "id": "0b858f45ddf938f5",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-aria-28-beograd-na-vodi-odlicna-orjentacij/5425647756664?kid=4",
-      "naslov": "BW Aria 28 | Beograd na vodi | Odlična orjentacija",
+      "naslov": "BW Aria 28 | Beograd na vodi | Izuzetan položaj",
       "zgrada": "BW Aria",
       "agencija": "Kredium",
       "struktura": "3.0",
@@ -16289,7 +16355,7 @@
     {
       "id": "80467d243c0ef21b",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-35-m2-garazno-mesto/5425647754991?kid=1",
-      "naslov": "Beograd na vodi, 35 m2, garažno mesto",
+      "naslov": "BW Aria, 35 m2, garažno mesto u ceni stana",
       "zgrada": "BW Iris",
       "agencija": null,
       "struktura": "1.0",
@@ -16329,6 +16395,28 @@
       "first_seen": "2026-10-01",
       "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|78.0|395000"
+    },
+    {
+      "id": "dcb12bd3b56ac18d",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sonata-fantastican-pogled-ugaona-pozicija/5425647758858?kid=1",
+      "naslov": "BW Sonata, fantastičan pogled, ugaona pozicija ID#",
+      "zgrada": "BW Sava",
+      "agencija": "PropertyBroker",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 73.0,
+      "cena": 316888,
+      "cena_m2": 4341,
+      "sprat": "XII/16",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 316888,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Sava|73.0|316888"
     }
   ]
 }

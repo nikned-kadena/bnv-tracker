@@ -5807,9 +5807,9 @@
     "147c425bfa5992cc": {
       "uid": "147c425bfa5992cc",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-01",
-      "is_active": false,
-      "deactivated_at": "2026-09-03",
+      "last_seen": "2026-10-01",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "b37088b53455360c",
       "fp_strict_all": [
         "b0932d71820695e2"
@@ -5833,8 +5833,15 @@
       "price_first": 2000,
       "price_current": 2000,
       "price_changes": [],
-      "days_listed": 86,
-      "cena_m2": 17
+      "days_listed": 114,
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-10-01"
+      },
+      "fp_nosprat_all": [
+        "f8125163d34b58b5"
+      ],
+      "fp_nosprat": "f8125163d34b58b5"
     },
     "42d670f1d47faefe": {
       "uid": "42d670f1d47faefe",
@@ -29623,7 +29630,7 @@
     "030307d28e6af55f": {
       "uid": "030307d28e6af55f",
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "339937b774cc3bdb",
@@ -29649,14 +29656,14 @@
       "m2": 138.0,
       "sprat": "V/19",
       "agencija": "PropertyBroker",
-      "naslov": "Četvorosoban stan za izdavanje, Bw Residence, 3.500€, 138m²",
+      "naslov": "BW Residences, premium, pool and gym ID#4143",
       "price_first": 3500,
       "price_current": 3500,
       "price_changes": [],
       "days_listed": 22,
       "cena_m2": 25,
       "last_seen_src": {
-        "halo": "2026-09-29",
+        "halo": "2026-10-01",
         "4zida": "2026-09-30"
       },
       "fp_nosprat_all": [
@@ -31305,9 +31312,9 @@
     "907d22573d0c5b6f": {
       "uid": "907d22573d0c5b6f",
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-26",
-      "is_active": false,
-      "deactivated_at": "2026-09-28",
+      "last_seen": "2026-10-01",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "f130deb41189d7a6",
       "fp_strict_all": [
         "01b72cce41bbd1d3"
@@ -31331,8 +31338,15 @@
       "price_first": 1500,
       "price_current": 1500,
       "price_changes": [],
-      "days_listed": 10,
-      "cena_m2": 20
+      "days_listed": 13,
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-10-01"
+      },
+      "fp_nosprat_all": [
+        "db28adec0476a536"
+      ],
+      "fp_nosprat": "db28adec0476a536"
     },
     "4dde0109736070eb": {
       "uid": "4dde0109736070eb",
@@ -33282,7 +33296,8 @@
       "deactivated_at": null,
       "fp_loose": "438f793d996cc54f",
       "fp_strict_all": [
-        "862ebfdb850c7490"
+        "862ebfdb850c7490",
+        "d8228fed76d3a4db"
       ],
       "sources": [
         "halo"
@@ -33301,8 +33316,14 @@
       "agencija": "KADENASothebys",
       "naslov": "Dvosoban | BW Vista | Top lokacija",
       "price_first": 1400,
-      "price_current": 1400,
-      "price_changes": [],
+      "price_current": 1300,
+      "price_changes": [
+        {
+          "date": "2026-10-01",
+          "from": 1400,
+          "to": 1300
+        }
+      ],
       "days_listed": 1,
       "last_seen_src": {
         "halo": "2026-10-01"
@@ -33311,7 +33332,7 @@
         "ef730bcb50333f31"
       ],
       "fp_nosprat": "ef730bcb50333f31",
-      "cena_m2": 26
+      "cena_m2": 24
     },
     "8154665033833fb6": {
       "uid": "8154665033833fb6",
@@ -40346,7 +40367,8 @@
       "price_first": 4500,
       "price_current": 4500,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 30
     },
     "6fd4315ab3f5fcd5": {
       "uid": "6fd4315ab3f5fcd5",
@@ -40387,10 +40409,93 @@
       "price_first": 2800,
       "price_current": 2800,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 28
+    },
+    "3827b5f112e0f97c": {
+      "uid": "3827b5f112e0f97c",
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "4d1cb12df42add32",
+      "fp_loose_all": [
+        "4d1cb12df42add32"
+      ],
+      "fp_nosprat": "a79f164928baf2a1",
+      "fp_nosprat_all": [
+        "a79f164928baf2a1"
+      ],
+      "fp_strict_all": [
+        "9067053474cd0c1c"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-01"
+      },
+      "source_ids": {
+        "halo": "5425645280947"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-magnolia-lux-novogradnja-namesten-id-15529/5425645280947?kid=4"
+      ],
+      "zgrada": "BW Magnolia",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 60.0,
+      "sprat": "/5",
+      "agencija": "eminent-nekretnine",
+      "naslov": "BW Magnolia, lux, novogradnja, namešten, ID 15529",
+      "price_first": 1150,
+      "price_current": 1150,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "e48ca134ebf55328": {
+      "uid": "e48ca134ebf55328",
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "078b99194b870df9",
+      "fp_loose_all": [
+        "078b99194b870df9"
+      ],
+      "fp_nosprat": "6dea5ebac8718342",
+      "fp_nosprat_all": [
+        "6dea5ebac8718342"
+      ],
+      "fp_strict_all": [
+        "5ef88c5d852dbe3c"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-01"
+      },
+      "source_ids": {
+        "halo": "5425647758881"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-metropolitan---osuncan-trosoban-stan/5425647758881?kid=1"
+      ],
+      "zgrada": "BW Metropolitan",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 82.5,
+      "sprat": "VIII/17",
+      "agencija": "AtriumPropertyServices",
+      "naslov": "BW Metropolitan - osunčan trosoban stan",
+      "price_first": 1800,
+      "price_current": 1800,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-01T06:03:17.188806+00:00",
+  "updated_at": "2026-10-01T11:08:07.447317+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",

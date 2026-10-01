@@ -3,12 +3,14 @@
   "source": "all",
   "date": "2026-10-01",
   "scraped_at": "2026-10-01",
-  "total_raw": 316,
-  "total_unique": 272,
-  "total_dups": 44,
+  "total_raw": 320,
+  "total_unique": 275,
+  "total_dups": 45,
   "diff_new": [
     "bfad89cb5e055d2d",
-    "6fd4315ab3f5fcd5"
+    "6fd4315ab3f5fcd5",
+    "3827b5f112e0f97c",
+    "e48ca134ebf55328"
   ],
   "diff_removed": [
     "d9c28d7ddf88daf6",
@@ -727,6 +729,28 @@
       "first_seen": "2026-06-09",
       "last_seen": "2026-09-30",
       "dedup_key": "BW Magnolia|120.0|2600"
+    },
+    {
+      "id": "147c425bfa5992cc",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-3-115m2/5425647162442?kid=1",
+      "naslov": "Bw Quartet 3, 115m2",
+      "zgrada": "BW Quartet 3",
+      "agencija": "PremiumRealEstate",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 115.0,
+      "cena": 2000,
+      "cena_m2": 17,
+      "sprat": "I",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 114,
+      "prva_cena": 2000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Quartet 3|115.0|2000"
     },
     {
       "id": "ba7714e7dc3212e6",
@@ -2388,7 +2412,7 @@
     {
       "id": "030307d28e6af55f",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-trostran-vanserijski-pogled-id4/5425647649099?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Bw Residence, 3.500€, 138m²",
+      "naslov": "BW Residences, premium, pool and gym ID#4143",
       "zgrada": "BW Residences",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -2405,7 +2429,7 @@
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Residences|138.0|3500"
     },
     {
@@ -2631,6 +2655,28 @@
       "first_seen": "2026-09-18",
       "last_seen": "2026-10-01",
       "dedup_key": "BW Residences|138.0|3500"
+    },
+    {
+      "id": "907d22573d0c5b6f",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-na-vodi-75-m2-id16671-1/5425647690955?kid=1",
+      "naslov": "Beograd na vodi 75 m2 ID16671-1",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 75.0,
+      "cena": 1500,
+      "cena_m2": 20,
+      "sprat": "VIII",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 13,
+      "prva_cena": 1500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW (neidentifikovano)|75.0|1500"
     },
     {
       "id": "f71bafca5eaa3c57",
@@ -3357,18 +3403,18 @@
       "struktura": "1.0",
       "str_label": "Garsonjera/Studio",
       "m2": 54.0,
-      "cena": 1400,
-      "cena_m2": 26,
+      "cena": 1300,
+      "cena_m2": 24,
       "sprat": "IV/23",
       "izvori": [
         "halo"
       ],
       "dana_na_trzistu": 1,
       "prva_cena": 1400,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -7.1,
       "first_seen": "2026-09-30",
       "last_seen": "2026-10-01",
-      "dedup_key": "BW Vista|54.0|1400"
+      "dedup_key": "BW Vista|54.0|1300"
     },
     {
       "id": "8154665033833fb6",
@@ -7078,6 +7124,50 @@
       "first_seen": "2026-10-01",
       "last_seen": "2026-10-01",
       "dedup_key": "BW Quartet 4|98.63|2800"
+    },
+    {
+      "id": "3827b5f112e0f97c",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-magnolia-lux-novogradnja-namesten-id-15529/5425645280947?kid=4",
+      "naslov": "BW Magnolia, lux, novogradnja, namešten, ID 15529",
+      "zgrada": "BW Magnolia",
+      "agencija": "eminent-nekretnine",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 60.0,
+      "cena": 1150,
+      "cena_m2": 19,
+      "sprat": "/5",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1150,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Magnolia|60.0|1150"
+    },
+    {
+      "id": "e48ca134ebf55328",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-metropolitan---osuncan-trosoban-stan/5425647758881?kid=1",
+      "naslov": "BW Metropolitan - osunčan trosoban stan",
+      "zgrada": "BW Metropolitan",
+      "agencija": "AtriumPropertyServices",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 82.5,
+      "cena": 1800,
+      "cena_m2": 22,
+      "sprat": "VIII/17",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1800,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Metropolitan|82.5|1800"
     }
   ]
 }
