@@ -1,330 +1,12 @@
 {
   "mode": "prodaja",
   "source": "4zida",
-  "date": "2026-09-30",
-  "scraped_at": "2026-09-30",
+  "date": "2026-10-01",
+  "scraped_at": "2026-10-01",
   "total_raw": 494,
-  "total_unique": 427,
-  "total_dups": 67,
-  "diff_new": [
-    "511c92db18599093",
-    "d5a67ad3d9b7426a",
-    "f2129f118f934d71",
-    "3b495286796bd720",
-    "abedbd89536cd37c",
-    "191aed071f868d9d",
-    "9f24e62a4e5e48b7",
-    "31386af6fdda0a75",
-    "285de02f37135cac",
-    "092005bba0b5f79b",
-    "e5a26c227fc5e422",
-    "6c2702ad016004e2",
-    "d495fdf150a733c8",
-    "dd3590dbb8491dbf",
-    "796aeef3156e0782",
-    "625b370a60fc5bb7",
-    "9de7675f8c370773",
-    "7f3f1cc16c045a8b",
-    "38e8ff86957a1730",
-    "41658a79d2f46f92",
-    "723aa3be305d9e2a",
-    "98c10d8c86780063",
-    "2e4b10665283f64a",
-    "2d9403e8d25ccc47",
-    "e63d8cf53115c7d9",
-    "7fd46a2936b275c5",
-    "72c47bc69e4550e2",
-    "e7a57783868e146a",
-    "4217322148eb5eb0",
-    "b118ed9676f274af",
-    "82e5655fb2af5ddb",
-    "cc68f9e4d6d4c016",
-    "191e130759cc9b2a",
-    "97cd2839ba024c7d",
-    "96af69ba96c5a38a",
-    "ca06e11e8d403233",
-    "a4749ef00a39a61c",
-    "1531ce8bb17c01a3",
-    "6ad014eca13a1a76",
-    "0bacbb4586654987",
-    "b5db66c5d5100018",
-    "b7893039323c319c",
-    "045e8ea8e5ee17b8",
-    "009f8efa4c60ba3c",
-    "1f6beb30c8e0d49a",
-    "8af90fcb67b59486",
-    "3c37205079626fcb",
-    "f5a0564ef826f789",
-    "e57eb5d4d68b9dce",
-    "d2fce0d84da983e4",
-    "1f249c9ce3c85da5",
-    "1efae1aa3e8a3fb7",
-    "770fcc0100ca14d6",
-    "6131149a66a6b1d7",
-    "55ab684d2118525e",
-    "b5e7142a629f98ac",
-    "2943e7c9d9ab6bdf",
-    "88f30e8d63d11bee",
-    "ccd28cb4e19857ea",
-    "901b8c39983a3604",
-    "46c80700bb18b8be",
-    "25011ebf045b70ac",
-    "21e333e17833b798",
-    "f7d7094cf4386f1c",
-    "61f7058c89689a85",
-    "7a85d4ed15758d3b",
-    "a68a23a9271604bd",
-    "4ffa35abb6db3b40",
-    "2fd0be5314ab4c87",
-    "053073e006e0f981",
-    "276414d86d6e09dd",
-    "e9d7b0ac4a4cca49",
-    "7218f29ee1768380",
-    "2785f868c61d5669",
-    "bd9194c49634b841",
-    "0c317b8af230e377",
-    "c6666ec1cf0a4dea",
-    "e10fc9410335068f",
-    "2f5b2403287c2d08",
-    "e9df08aa7e98cab0",
-    "ad70a8d1b1a13db5",
-    "2f380cc31e7a1ba9",
-    "9d4cc8e66a53d70e",
-    "2b7948faf873e24e",
-    "8edd91620e38429b",
-    "f4464605ea6e96db",
-    "7dec60fd99610193",
-    "99425e8bf93a04dc",
-    "20c8c2c9f0aae858",
-    "ef7acb6caeead214",
-    "53b81dc037faf1a3",
-    "b4233255667d5fc5",
-    "58406cb9d55b0e97",
-    "1fdc67f7df82423b",
-    "afedc0563defcfee",
-    "224fecbe9805ce24",
-    "76de539f62495107",
-    "dd3bdbf296eb23b8",
-    "bc87d5ae30d84d2a",
-    "758df9ed3ce8fa18",
-    "02ce8484728da6b4",
-    "0e6c36ec6c5d86e2",
-    "10880197f913560d",
-    "ece86e6edb41715d",
-    "92189483fa5d9532",
-    "b08bdbe1bc47c8a0",
-    "eb746377387c1d2c",
-    "09397a04b5a70bb5",
-    "31684bb33599deee",
-    "e7fe535d1cef9863",
-    "30fa2e4f630af574",
-    "0b241ceb6b445fa1",
-    "3be85b7ecce3854e",
-    "a58674515ac680ad",
-    "14f044c19261de15",
-    "af51175a9cf17669",
-    "2f04d7966b73cbda",
-    "836855b0817daa3b",
-    "46c4b7bb07cb3676",
-    "2bf8925b29ce1cf6",
-    "22365e76bc859932",
-    "846575939ab88843",
-    "2c067d8a0afc28f1",
-    "65d610e4009fc96d",
-    "94c0401748409f6f",
-    "924ade39e27be2f3",
-    "84761a6f964ab38e",
-    "42e4cfddb37678e7",
-    "e24b4bb411f2ea6d",
-    "6b72243674a44ef0",
-    "a1327516b7498d8e",
-    "f67364bfcbf2c5ad",
-    "a4e5ef145de29d34",
-    "ca6ed4cbc59bdac3",
-    "75215aac45b0426b",
-    "e349fadd908383b4",
-    "1f50ccecffc47a2c",
-    "f6d18a6dc0e91315",
-    "75bc3e1b93bd312d",
-    "64a9a74d5b3080da",
-    "d351eac86944f3fa",
-    "11b697339406f798",
-    "157b053bab2f2249",
-    "59ee02118a88ca15",
-    "efe099a2bdf26dc4",
-    "2d2cc31d20844c12",
-    "3133e60c16028755",
-    "d7a2c0837dfc94c5",
-    "91d93e2c76a95dc3",
-    "1efc9423a10992cc",
-    "79520ef9eb025cb2",
-    "511228fc0a7ba326",
-    "a2b84be67c4b0d60",
-    "6325ce811a24c1f9",
-    "ffce284ba81cfbaa",
-    "a6aea2969412d5f2",
-    "e2f3e98c9dd3991b",
-    "e859a5efe1e9de90",
-    "f82ec69af3cc17d4",
-    "4e5c5dee552c78fc",
-    "91e8a3f77aa51b7a",
-    "677e56298abe15b9",
-    "691894afc4bba6fc",
-    "a7d3809c56de6b22",
-    "fd08139f89fdb846",
-    "d6121c8dbaf35d23",
-    "ee95ab77d94ec687",
-    "ac523ac728a78e76",
-    "da1e5686c30c9a1b",
-    "95b16e5261b937a4",
-    "368c1f2a5fdf1180",
-    "4cc7080682e7fb49",
-    "04330a6897aa9fd5",
-    "41bcfd6cac586203",
-    "d7eec516c4406cbc",
-    "a9aecacb36920e08",
-    "fac422650b694ae0",
-    "095f03341f8243ef",
-    "fb0c8818b3c156ba",
-    "e793c6651bb63656",
-    "243fbeead2dfca9b",
-    "0cd4df417fc0fc62",
-    "cad85d483d331e3c",
-    "c3d5e6b1abc86686",
-    "4e373aabcaf49fad",
-    "9e835ff6b1d66616",
-    "6e06c313d3724e33",
-    "9032241e2a6e1207",
-    "c9d15ef8591fbccc",
-    "d08e3f6939d40dc5",
-    "12c613805cadc494",
-    "b048b333f98659b5",
-    "238c03cf7ed2fd64",
-    "63ac247747e76322",
-    "78f8d34fcbabf534",
-    "514c10031b796b0f",
-    "358e4ad627b2962e",
-    "8451b3ee3e1fd7bc",
-    "0edab1b92c8631d3",
-    "f5a5ed31d6b3659c",
-    "32b911305e95db22",
-    "1f7a7c472cd35544",
-    "ac06120114789b00",
-    "0e2766c6cb7cc579",
-    "e2773019c514d462",
-    "09af790729544b43",
-    "aebefc17293f14a6",
-    "19606ed3ecfc130e",
-    "62fc9023d7f952f3",
-    "8ddee45adf23ea9a",
-    "21289c447af97ab9",
-    "e50d5a35262e0ddb",
-    "24ede1566c833d41",
-    "79bfe9006e55ea0f",
-    "37d964eaa33e7331",
-    "325b8bc72ec251a2",
-    "3fbf32ed86eb2cc6",
-    "c8a5f95416dc9c16",
-    "3a29ee527491a7eb",
-    "8882d068a7d214eb",
-    "02feb896fbb83dd1",
-    "ec720328e4f35951",
-    "7640859eb23ce090",
-    "08a518f2aa74fc22",
-    "cdf7b27552c19adb",
-    "3c72c4f6b0b00430",
-    "84f49c4d4fd955b9",
-    "2a4aede81c6079ca",
-    "22d7fee3245df862",
-    "6e2ae2817a63b358",
-    "0f4b08ef452900d3",
-    "357c248aaf6d1c7d",
-    "5c97f6bf0a9a4a1b",
-    "33c668f9ffe2a3e4",
-    "3abdb5a58640f1a1",
-    "39c42d660828d60e",
-    "90da5af276cabbdf",
-    "d0dceacd9e53e9f4",
-    "0499de1b64156428",
-    "99b67a90011beb2e",
-    "5356c1dab675c42d",
-    "0519853f6c0393c5",
-    "088382c06ed4c893",
-    "f310f59b5168456a",
-    "f044a2f3cf238f89",
-    "57cb19c7bddd3cd0",
-    "dbe2a466e039b7cb",
-    "c2f921db111d14a4",
-    "54ebe58b46541f87",
-    "1094dd47c0155484",
-    "4b0a95854ad81539",
-    "00dd63234d5b6485",
-    "1f3815471699028d",
-    "125aadcf8e422b17",
-    "458b37b53f2889d2",
-    "3d1cfbabc2be06c9",
-    "d500e3d58963e4a0",
-    "e00598dbc2c5f975",
-    "4e47f58189ba1bbc",
-    "5162a45f3e578c89",
-    "94c9a54ae90912ff",
-    "a204aa1cbcf9f717",
-    "7739060ea7a9dc5e",
-    "7b0ea43864ac3589",
-    "d63e374d5df3de3a",
-    "ce34a0a25b7347a8",
-    "79bf2bda6a4e0c03",
-    "065a53d355583156",
-    "339b056bb034fce6",
-    "bb8296873d71eba0",
-    "39b6d515c70fe652",
-    "2dc2a2da61cde723",
-    "ae3bb3d4f9212a74",
-    "0512be2691c135dd",
-    "f0aa7f9a9b9efebb",
-    "bf7766e3e5400454",
-    "574f1a57ad7f1290",
-    "75b80d675ff9085b",
-    "ab50e8fae193b7f2",
-    "37adebb5e66abc7a",
-    "00800ab43e53feee",
-    "342d6b1753c8a1e7",
-    "509af60490519a24",
-    "512d638ad377dfc4",
-    "69f001e571876d89",
-    "d02f3d5303e61d46",
-    "7b572ee2f404e848",
-    "1a5373f228c0c8cb",
-    "a24849339256649a",
-    "37a2145acace26a3",
-    "1ac5f74ad6b092f6",
-    "a02f0cc51e25c9a6",
-    "ba80ec53916129c2",
-    "06a0322464b01a89",
-    "6ccc1d9caa0e2288",
-    "b0ffe6294a8dcf89",
-    "4bc171829aded96b",
-    "7e8d2c827d4574a6",
-    "942a636a33174b60",
-    "460468c633b2ec7a",
-    "931c04d454884415",
-    "43dd302231553b24",
-    "87310fdfef001366",
-    "f314b706ce008dea",
-    "783af6c8c02ce44e",
-    "19fd0733cc38dd62",
-    "3fd6d5a5b2958855",
-    "89460c023f28a07e",
-    "d457bf8741aac160",
-    "c7ac8fe677834a6b",
-    "978c147122a3af11",
-    "f2f68ebb292286ff",
-    "e8daf05823477cc1",
-    "520759e167da764e",
-    "ae01a9b24d7b49db",
-    "77fbc2b2e4f7f622",
-    "05d5bb269f650854"
-  ],
+  "total_unique": 426,
+  "total_dups": 68,
+  "diff_new": [],
   "diff_removed": [],
   "listings": [
     {
@@ -343,7 +25,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 665000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -366,7 +48,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 195000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -376,7 +58,7 @@
     {
       "id": "f3a5101367891781",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-kula---pogled-na-reku-id1160/5425644658848?kid=4",
-      "naslov": "Dvosoban stan na prodaju, Nikolaja Kravcova, 495.000€, 60m²",
+      "naslov": "BW Kula - pogled na reku ID#1160",
       "zgrada": "BW St. Regis",
       "agencija": "confidonekretnine",
       "struktura": "2.0",
@@ -389,17 +71,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 499000,
       "promena_cene_pct": -0.8,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|60.0|495000"
     },
     {
       "id": "dfc5a53f7c1c796c",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-4-0-2-garazna/5425643858817?kid=4",
-      "naslov": "Četvorosoban stan na prodaju, Hercegovačka, 530.000€, 118m²",
+      "naslov": "Lux 4.0 / 2 garazna - Arkadija",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "BebaRealEstate",
       "struktura": "4.0",
@@ -412,11 +94,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 540000,
       "promena_cene_pct": -1.9,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|118.0|530000"
     },
     {
@@ -435,7 +117,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 357000,
       "promena_cene_pct": -3.1,
       "first_seen": "2026-06-09",
@@ -458,7 +140,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 400000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -468,30 +150,30 @@
     {
       "id": "bcc138428c1b9aa7",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/st-regis-opremljen-stan-163m2/5425646442373?kid=4",
-      "naslov": "Četvorosoban stan na prodaju, Nikolaja Kravcova, 1.800.000€, 164m²",
+      "naslov": "St Regis , opremljen stan, 163m2",
       "zgrada": "BW St. Regis",
       "agencija": "PremiumRealEstate",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
-      "m2": 164.0,
+      "m2": 163.5,
       "cena": 1800000,
-      "cena_m2": 10976,
+      "cena_m2": 11009,
       "sprat": null,
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1800000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
-      "dedup_key": "BW St. Regis|164.0|1800000"
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW St. Regis|163.5|1800000"
     },
     {
       "id": "05da27db3f404ddb",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-eden-studio/5425646775490?kid=4",
-      "naslov": "Jednosoban stan na prodaju, Beograd na vodi, 184.000€, 32m²",
+      "naslov": "Bw Eden Studio",
       "zgrada": "BW Eden",
       "agencija": "SonataProperties",
       "struktura": "1.0",
@@ -504,11 +186,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 184000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Eden|32.0|184000"
     },
     {
@@ -516,23 +198,23 @@
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/st-regis---lux-5-0-stan/5425646979175?kid=4",
       "naslov": "St. Regis - lux 5.0 stan",
       "zgrada": "BW St. Regis",
-      "agencija": "Benefit nekretnine ",
+      "agencija": "Benefit",
       "struktura": "5.0",
       "str_label": "Petosoban+",
       "m2": 147.0,
       "cena": 1860000,
       "cena_m2": 12653,
-      "sprat": "22",
+      "sprat": "XXII",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 2180000,
       "promena_cene_pct": -14.7,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|147.0|1860000"
     },
     {
@@ -540,7 +222,7 @@
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/st-regis---lux-2-0-stan/5425646979174?kid=4",
       "naslov": "St. Regis - lux 2.0 stan",
       "zgrada": "BW St. Regis",
-      "agencija": "Benefit nekretnine ",
+      "agencija": "Benefit",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 74.0,
@@ -552,17 +234,17 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1265000,
       "promena_cene_pct": -26.5,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|74.0|930000"
     },
     {
       "id": "b7fb30695ccb1aa9",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-eterna-3-0-izuzetan-enterijer/5425647027010?kid=4",
-      "naslov": "Trosoban stan na prodaju, Beograd na vodi, 316.000€, 79m²",
+      "naslov": "Bw Nika, 3.0 Top Cena",
       "zgrada": "BW Eterna",
       "agencija": "SonataProperties",
       "struktura": "3.0",
@@ -575,17 +257,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 443000,
       "promena_cene_pct": -28.7,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Eterna|79.0|316000"
     },
     {
       "id": "dabd5c111545614e",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-01-beograd-na-vodi-pogled-na-reku/5425646962309?kid=4",
-      "naslov": "Trosoban stan na prodaju, Riviera, 1.000.000€, 153m²",
+      "naslov": "BW Riviera 01 | Beograd na vodi | Pogled na reku",
       "zgrada": "BW Riviera",
       "agencija": "Kredium",
       "struktura": "3.0",
@@ -598,11 +280,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1000000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Riviera|153.0|1000000"
     },
     {
@@ -622,7 +304,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 195000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -645,7 +327,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 680000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -668,7 +350,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 345000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -678,31 +360,31 @@
     {
       "id": "e6a015d82e2470ca",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/atraktivan-izuzetan-stan-bw---sensa/5425645610345?kid=3",
-      "naslov": "Luksuzno opremljen, 4.0, Sensa BW ID#13295",
+      "naslov": "Atraktivan, izuzetan stan, BW - Sensa",
       "zgrada": "BW Sensa",
-      "agencija": "ART nekretnine d.o.o. ",
+      "agencija": "BELIGRAD",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 123.0,
       "cena": 630000,
       "cena_m2": 5122,
-      "sprat": "6",
+      "sprat": "VI/8",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 630000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sensa|123.0|630000"
     },
     {
       "id": "d44302009c5b3d1a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bg-na-vodi---penthaus-na-2-sprata/5425645914591?kid=3",
-      "naslov": "Četvorosoban stan na prodaju, Hercegovačka, 630.000€, 135m²",
+      "naslov": "BG na vodi - Penthaus na 2 sprata",
       "zgrada": "BW Simfonija 2",
       "agencija": "BELIGRAD",
       "struktura": "4.0",
@@ -715,11 +397,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 630000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Simfonija 2|135.0|630000"
     },
     {
@@ -739,7 +421,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 590000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -762,7 +444,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 420000,
       "promena_cene_pct": -6.0,
       "first_seen": "2026-06-09",
@@ -785,7 +467,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 838400,
       "promena_cene_pct": 1.4,
       "first_seen": "2026-06-09",
@@ -795,7 +477,7 @@
     {
       "id": "cce6a9a6a4626923",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-3-0-garazno-mesto/5425647225801?kid=3",
-      "naslov": "Trosoban stan na prodaju, Bul. Vudroa Vilsona, 410.000€, 79m²",
+      "naslov": "Beograd na vodi, 3.0, garazno mesto",
       "zgrada": "BW Verde",
       "agencija": "agencija-favorit",
       "struktura": "3.0",
@@ -808,11 +490,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 450000,
       "promena_cene_pct": -8.9,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Verde|79.0|410000"
     },
     {
@@ -831,7 +513,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1850000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -841,7 +523,7 @@
     {
       "id": "1ce66c3ed275d9ed",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-bw-queens-park-residences-141/5425647255104?kid=1",
-      "naslov": "Trosoban stan na prodaju, Luke Celovica Trebinjca, 602.888€, 141m²",
+      "naslov": "Beograd na vodi, Bw Queens Park Residences, 141m2",
       "zgrada": "BW Queen's Park",
       "agencija": "PremiumRealEstate",
       "struktura": "3.0",
@@ -854,11 +536,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 602888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Queen's Park|141.0|602888"
     },
     {
@@ -877,7 +559,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 329888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -901,7 +583,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 290000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -911,7 +593,7 @@
     {
       "id": "fed369d7ac4753ce",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/glamurozan-penthaus-u-zgradi-bw-magnolia/5425646464906?kid=1",
-      "naslov": "Petosoban stan na prodaju, Beograd na vodi, 950.000€, 194m²",
+      "naslov": "Glamurozan penthaus u zgradi BW Magnolia",
       "zgrada": "BW Magnolia",
       "agencija": "AtriumPropertyServices",
       "struktura": "5.0",
@@ -924,11 +606,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 950000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Magnolia|194.0|950000"
     },
     {
@@ -947,7 +629,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 290000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -957,12 +639,12 @@
     {
       "id": "60e3d05a33c71556",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/fenomenalan-dupleks-u-bw-oda/5425646994217?kid=1",
-      "naslov": "Petosoban stan na prodaju, Beograd na vodi, 1.176.888€, 299m²",
+      "naslov": "Fenomenalan dupleks u BW Oda",
       "zgrada": "BW Oda",
       "agencija": "AtriumPropertyServices",
       "struktura": "5.0",
       "str_label": "Petosoban+",
-      "m2": 299.0,
+      "m2": 299.01,
       "cena": 1176888,
       "cena_m2": 3936,
       "sprat": "VII/8",
@@ -970,17 +652,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1176888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
-      "dedup_key": "BW Oda|299.0|1176888"
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Oda|299.01|1176888"
     },
     {
       "id": "99287825c5589cd3",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-garden-plaza-odlicna-ponuda-dvostrana-orij/5425647241388?kid=1",
-      "naslov": "Trosoban stan na prodaju, Luke Ćelovića Trebinjca, 380.888€, 91m²",
+      "naslov": "BW Garden Plaza, odlična ponuda, dvostrana orijent",
       "zgrada": "BW Garden Plaza",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -993,11 +675,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 380888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Garden Plaza|91.0|380888"
     },
     {
@@ -1016,7 +698,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 240888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1039,7 +721,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 246888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1062,7 +744,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 514888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1072,7 +754,7 @@
     {
       "id": "426006eaca76f69a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-iris-79m2-3-0-garaza/5425647227787?kid=1",
-      "naslov": "Trosoban stan na prodaju, Kraljice Drage Obrenović, 309.990€, 79m²",
+      "naslov": "BW Iris, 79m2, 3.0, garaža",
       "zgrada": "BW Iris",
       "agencija": "MonaNekretnine",
       "struktura": "3.0",
@@ -1085,11 +767,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 325000,
       "promena_cene_pct": -4.6,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Iris|79.0|309990"
     },
     {
@@ -1109,17 +791,17 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1215000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Terraces|138.0|1215000"
     },
     {
       "id": "1f83f495f189b4cf",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-residences-opremljen-138m2/5425645640376?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Hercegovačka, 1.150.000€, 138m²",
+      "naslov": "Bw Residences, Opremljen , 138m2",
       "zgrada": "BW Residences",
       "agencija": "PremiumRealEstate",
       "struktura": "4.0",
@@ -1132,17 +814,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1150000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Residences|138.0|1150000"
     },
     {
       "id": "a6a86bcd0d13c48c",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-stan-sa-dve-spavace-sobe---bw-hudson/5425646973174?kid=1",
-      "naslov": "Trosoban stan na prodaju, Beograd na vodi, 514.888€, 96m²",
+      "naslov": "Luksuzan stan sa dve spavaće sobe - BW Hudson",
       "zgrada": "BW Hudson",
       "agencija": "AtriumPropertyServices",
       "struktura": "3.0",
@@ -1155,11 +837,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 514888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Hudson|96.0|514888"
     },
     {
@@ -1178,7 +860,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 594000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1201,7 +883,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 420000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1211,7 +893,7 @@
     {
       "id": "3eead75af175b0b8",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sena-direktan-pogled-na-reku-i-setaliste-i/5425647202836?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 574.888€, 114m²",
+      "naslov": "BW Sena, direktan pogled na reku i šetalište ID#46",
       "zgrada": "BW Sena",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -1224,17 +906,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 574888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sena|114.0|574888"
     },
     {
       "id": "1380d4504b947377",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-terraces-pogled-na-reku-jedinstven-nameste/5425645717554?kid=1",
-      "naslov": "Trosoban stan na prodaju, Hercegovačka, 1.300.000€, 136m²",
+      "naslov": "BW Terraces, pogled na reku, jedinstven, namešten",
       "zgrada": "BW Terraces",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -1247,17 +929,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1100000,
       "promena_cene_pct": 18.2,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Terraces|136.0|1300000"
     },
     {
       "id": "00b405c4cbb8c5b2",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/2-0-quartet-4-moderno-opremljen-id2735/5425647198460?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Beograd na vodi, 315.000€, 56m²",
+      "naslov": "2.0 Quartet 4, moderno opremljen ID#2735",
       "zgrada": "BW Quartet 4",
       "agencija": "BrickPro",
       "struktura": "2.0",
@@ -1270,41 +952,41 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 315000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Quartet 4|56.0|315000"
     },
     {
       "id": "11aeb10cc587a583",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-libera-22-beograd-na-vodi-kompletno-opreml/5425647063470?kid=1",
-      "naslov": "BW Libera, 53m2, kompletno namešten ID#14828",
+      "naslov": "BW Libera 22 | Beograd na vodi | Kompletno opremlj",
       "zgrada": "BW Libera",
-      "agencija": "ART nekretnine d.o.o. ",
+      "agencija": "Kredium",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 53.0,
       "cena": 310000,
       "cena_m2": 5849,
-      "sprat": "10",
+      "sprat": "X/16",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 321000,
       "promena_cene_pct": -3.4,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Libera|53.0|310000"
     },
     {
       "id": "5d98222425ddea0b",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sava-ugaona-pozicija-dve-terase-id4524/5425647060887?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Bulevar Vudroa Vilsona, 334.888€, 66m²",
+      "naslov": "BW Sava, ugaona pozicija, dve terase ID#4524",
       "zgrada": "BW Sava Riverline",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
@@ -1317,17 +999,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 334888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sava Riverline|66.0|334888"
     },
     {
       "id": "7b41e8b3f2eb4a6a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sava-dvostrana-orijentacija-pogled-na-reku/5425647060884?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vudroa Vilsona, 414.888€, 81m²",
+      "naslov": "BW Sava, dvostrana orijentacija, pogled na reku ID",
       "zgrada": "BW Sava Riverline",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -1340,17 +1022,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 414888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sava Riverline|81.0|414888"
     },
     {
       "id": "5bff06fefa10797a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sava-prva-linija-do-reke-id4526/5425647060886?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Bulevar Vudroa Vilsona, 262.888€, 54m²",
+      "naslov": "BW Sava, prva linija do reke ID#4526",
       "zgrada": "BW Sava Riverline",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
@@ -1363,11 +1045,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 262888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sava Riverline|54.0|262888"
     },
     {
@@ -1386,7 +1068,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 385000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1396,7 +1078,7 @@
     {
       "id": "b9337f777ecf1bcf",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-topaz-premium-zgrada-ugaona-pozicija-id452/5425647059274?kid=1",
-      "naslov": "Trosoban stan na prodaju, Travnička, 664.888€, 110m²",
+      "naslov": "BW Topaz, premium zgrada, ugaona pozicija ID#4521",
       "zgrada": "BW Topaz",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -1409,17 +1091,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 664888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Topaz|110.0|664888"
     },
     {
       "id": "8c067dff1c87982a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-topaz-prva-linija-do-reke-bez-provizije-za/5425647059275?kid=1",
-      "naslov": "Trosoban stan na prodaju, Travnička, 501.888€, 89m²",
+      "naslov": "BW Topaz, prva linija do reke, bez provizije za kl",
       "zgrada": "BW Topaz",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -1432,17 +1114,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 501888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Topaz|89.0|501888"
     },
     {
       "id": "7b49e22b75bd69a5",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-vizia-bez-provizije-id4519/5425647059276?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vojvode Mišića, 302.888€, 72m²",
+      "naslov": "BW Vizia, bez provizije ID#4519",
       "zgrada": "BW Vizia",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -1455,11 +1137,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 292888,
       "promena_cene_pct": 3.4,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Vizia|72.0|302888"
     },
     {
@@ -1478,7 +1160,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 921888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1502,7 +1184,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 341888,
       "promena_cene_pct": -2.3,
       "first_seen": "2026-06-09",
@@ -1512,7 +1194,7 @@
     {
       "id": "490785c1cdd3a454",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika-76m2-2-5-dvostran-id1799/5425647056834?kid=1",
-      "naslov": "Dvoiposoban stan na prodaju, Vožda Đorđa Stratimirovića, 349.600€, 76m²",
+      "naslov": "BW Nika,76m2,2.5,dvostran ID#1799",
       "zgrada": "BW Nika",
       "agencija": "vivo-nekretnine",
       "struktura": "2.5",
@@ -1525,17 +1207,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 349600,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Nika|76.0|349600"
     },
     {
       "id": "c29ad0f5f50d54f5",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-emerald-premium-ugaona-pozicija-id4516/5425647056827?kid=1",
-      "naslov": "Trosoban stan na prodaju, Travnička, 476.888€, 103m²",
+      "naslov": "BW Emerald, premium, ugaona pozicija ID#4516",
       "zgrada": "BW Emerald",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -1548,11 +1230,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 476888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Emerald|103.0|476888"
     },
     {
@@ -1571,7 +1253,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 283888,
       "promena_cene_pct": 3.5,
       "first_seen": "2026-06-09",
@@ -1581,7 +1263,7 @@
     {
       "id": "9dbfea21ac40fe5e",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-iskra-druga-linija-od-reke-id4473/5425647054205?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vojvode Mišića, 322.888€, 76m²",
+      "naslov": "BW Iskra, bez provizije ID#4473",
       "zgrada": "BW Iskra",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -1594,11 +1276,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 311888,
       "promena_cene_pct": 3.5,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Iskra|76.0|322888"
     },
     {
@@ -1606,29 +1288,29 @@
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/savska-4-0-99m2-uknjizen-id14513/5425646921743?kid=1",
       "naslov": "Savska, 4.0, 99m2, uknjižen ID#14513",
       "zgrada": "BW St. Regis",
-      "agencija": "ART nekretnine d.o.o. ",
+      "agencija": "art-nekretnine-d-o-o",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 99.0,
       "cena": 380000,
       "cena_m2": 3838,
-      "sprat": "1",
+      "sprat": "I/7",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 380000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|99.0|380000"
     },
     {
       "id": "b86c09a9b23f0ea9",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-sa-garaznim-mestom/5425645253410?kid=1",
-      "naslov": "Trosoban stan na prodaju, Hercegovačka, 855.000€, 94m²",
+      "naslov": "Beograd na vodi, sa garažnim mestom",
       "zgrada": "BW (neidentifikovano)",
       "agencija": null,
       "struktura": "3.0",
@@ -1641,17 +1323,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 855000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|94.0|855000"
     },
     {
       "id": "5cd2972d53738687",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw--arkadia-83m2/5425643715532?kid=1",
-      "naslov": "Trosoban stan na prodaju, Hercegovačka-Savski venac, 495.000€, 83m²",
+      "naslov": "BW- Arkadia, 83m2,",
       "zgrada": "BW Arcadia",
       "agencija": null,
       "struktura": "3.0",
@@ -1664,11 +1346,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 495000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Arcadia|83.0|495000"
     },
     {
@@ -1687,7 +1369,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 195000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1697,8 +1379,8 @@
     {
       "id": "ce201f29ae01e297",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/stan-sa-najvecom-kaskadom-u-bw-residences/5425646195493?kid=1",
-      "naslov": "Trosoban stan na prodaju, Beograd na vodi, 1.050.000€, 139m²",
-      "zgrada": "BW (neidentifikovano)",
+      "naslov": "Stan sa najvecom kaskadom u Bw Residences",
+      "zgrada": "BW Residences",
       "agencija": null,
       "struktura": "3.0",
       "str_label": "Trosoban",
@@ -1710,12 +1392,12 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1050000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
-      "dedup_key": "BW (neidentifikovano)|139.0|1050000"
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Residences|139.0|1050000"
     },
     {
       "id": "302ee3ad47a95f55",
@@ -1733,7 +1415,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 2394000,
       "promena_cene_pct": 0.3,
       "first_seen": "2026-06-09",
@@ -1756,7 +1438,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 376666,
       "promena_cene_pct": -1.2,
       "first_seen": "2026-06-09",
@@ -1779,7 +1461,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 540000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1789,7 +1471,7 @@
     {
       "id": "c9fdd0c8acdc4688",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bulevar-vudroa-vilsona-bw-metropolitan/5425645290982?kid=1",
-      "naslov": "Savski venac, Belgrade Waterfront - Bulevar Vudroa Vilsona (BW Metropolitan), 109m2 - A Haven of Qua",
+      "naslov": "Bulevar Vudroa Vilsona (BW Metropolitan)",
       "zgrada": "BW Metropolitan",
       "agencija": "MOJ KVADRAT D.O.O. ",
       "struktura": "4.0",
@@ -1797,23 +1479,23 @@
       "m2": 109.0,
       "cena": 770000,
       "cena_m2": 7064,
-      "sprat": "12",
+      "sprat": "XII/17",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 770000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Metropolitan|109.0|770000"
     },
     {
       "id": "1a5b5cba9b0ca091",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bulevar-vudroa-vilsona-bw-aria/5425645291075?kid=1",
-      "naslov": "Troiposoban stan na prodaju, Bulevar Vudroa Vilsona (BW Aria), 498.888€, 92m²",
+      "naslov": "Bulevar Vudroa Vilsona (BW Aria)",
       "zgrada": "BW Aria",
       "agencija": null,
       "struktura": "3.5",
@@ -1826,11 +1508,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 498888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Aria|92.0|498888"
     },
     {
@@ -1849,7 +1531,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 845000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1872,7 +1554,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 374888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -1882,7 +1564,7 @@
     {
       "id": "06161dd42d7299a3",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-topaz-pogled-na-reku-premium-zgrada-id4429/5425646881337?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Travnička, 850.888€, 145m²",
+      "naslov": "BW Topaz, pogled na reku, premium zgrada ID#4429",
       "zgrada": "BW Topaz",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -1895,17 +1577,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 850888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Topaz|145.0|850888"
     },
     {
       "id": "95964c07260fea9b",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-topaz-prva-linija-do-reke-bez-provizije-za/5425646881338?kid=1",
-      "naslov": "Trosoban stan na prodaju, Travnička, 632.888€, 99m²",
+      "naslov": "BW Topaz, prva linija do reke, bez provizije za kl",
       "zgrada": "BW Topaz",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -1918,17 +1600,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 632888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Topaz|99.0|632888"
     },
     {
       "id": "11753db2fe52e411",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-perla-prestizan-stan-16-sprat-pogled-na-re/5425646578561?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Beograd na vodi, 1.106.000€, 158m²",
+      "naslov": "Bw Perla Prestižan stan, 16.sprat, pogled na reku",
       "zgrada": "BW Perla",
       "agencija": "SonataProperties",
       "struktura": "4.0",
@@ -1941,35 +1623,35 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1106000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Perla|158.0|1106000"
     },
     {
       "id": "87ddd5154fcbc018",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-4-0-stan-sa-panoramskim-pogledom/5425647195279?kid=4",
-      "naslov": "Četvorosoban stan na prodaju, Beograd na vodi, 610.000€, 124m²",
+      "naslov": "LUX 4.0 stan sa panoramskim pogledom",
       "zgrada": "BW Simfonija 1",
       "agencija": "BELIGRAD",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 124.0,
-      "cena": 610000,
-      "cena_m2": 4919,
+      "cena": 599000,
+      "cena_m2": 4831,
       "sprat": "XII/15",
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 112,
+      "dana_na_trzistu": 113,
       "prva_cena": 610000,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -1.8,
       "first_seen": "2026-06-10",
-      "last_seen": "2026-09-30",
-      "dedup_key": "BW Simfonija 1|124.0|610000"
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Simfonija 1|124.0|599000"
     },
     {
       "id": "6d37f8929eb90344",
@@ -1987,7 +1669,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 112,
+      "dana_na_trzistu": 113,
       "prva_cena": 305999,
       "promena_cene_pct": 4.6,
       "first_seen": "2026-06-10",
@@ -2011,7 +1693,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 112,
+      "dana_na_trzistu": 113,
       "prva_cena": 290000,
       "promena_cene_pct": 6.9,
       "first_seen": "2026-06-10",
@@ -2034,7 +1716,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 112,
+      "dana_na_trzistu": 113,
       "prva_cena": 595000,
       "promena_cene_pct": -3.4,
       "first_seen": "2026-06-10",
@@ -2044,7 +1726,7 @@
     {
       "id": "f378565789b727ef",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-3-0-stan-od-137m2-bw-terraces/5425647068206?kid=1",
-      "naslov": "Trosoban stan na prodaju, Beograd na vodi, 1.500.000€, 137m²",
+      "naslov": "Luksuzan 3.0 stan od 137m2, Bw Terraces",
       "zgrada": "BW Terraces",
       "agencija": "SonataProperties",
       "struktura": "3.0",
@@ -2057,11 +1739,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 112,
+      "dana_na_trzistu": 113,
       "prva_cena": 1250000,
       "promena_cene_pct": 20.0,
       "first_seen": "2026-06-10",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Terraces|137.0|1500000"
     },
     {
@@ -2080,7 +1762,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 111,
+      "dana_na_trzistu": 112,
       "prva_cena": 381000,
       "promena_cene_pct": 9.4,
       "first_seen": "2026-06-11",
@@ -2090,7 +1772,7 @@
     {
       "id": "f7123338c327b7a9",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-perla---za-ljubitelje-niskih-spratova/5425647025653?kid=4",
-      "naslov": "Dvosoban stan na prodaju, Beograd na vodi, 460.000€, 71m²",
+      "naslov": "Perla sa velikom terasom - odlična cena, 14 sprat",
       "zgrada": "BW Perla",
       "agencija": "Vesnarb1",
       "struktura": "3.0",
@@ -2103,11 +1785,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 111,
+      "dana_na_trzistu": 112,
       "prva_cena": 895000,
       "promena_cene_pct": -48.6,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Perla|71.0|460000"
     },
     {
@@ -2126,7 +1808,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 111,
+      "dana_na_trzistu": 112,
       "prva_cena": 355000,
       "promena_cene_pct": 68.7,
       "first_seen": "2026-06-11",
@@ -2149,7 +1831,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 111,
+      "dana_na_trzistu": 112,
       "prva_cena": 620888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-11",
@@ -2172,7 +1854,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 111,
+      "dana_na_trzistu": 112,
       "prva_cena": 499000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-11",
@@ -2182,7 +1864,7 @@
     {
       "id": "e4d5a9a6eba3448c",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-lena-pored-reke-bez-provizije-id4302/5425646529995?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vudroa Vilsona, 412.888€, 80m²",
+      "naslov": "BW Lena, pored reke, bez provizije ID#4302",
       "zgrada": "BW Lena",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -2195,11 +1877,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 111,
+      "dana_na_trzistu": 112,
       "prva_cena": 412888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Lena|80.0|412888"
     },
     {
@@ -2218,7 +1900,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 109,
+      "dana_na_trzistu": 110,
       "prva_cena": 620000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-13",
@@ -2228,7 +1910,7 @@
     {
       "id": "70a13e8cfcc3dc00",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/hercegovacka-bw-residences/5425645290986?kid=1",
-      "naslov": "Beograd na vodi - Hercegovačka (BW Residences), 117m2 - Prestige belongs in the first row by the riv",
+      "naslov": "Hercegovačka (BW Residences)",
       "zgrada": "BW Residences",
       "agencija": "MOJ KVADRAT D.O.O. ",
       "struktura": "4.0",
@@ -2236,17 +1918,17 @@
       "m2": 117.0,
       "cena": 950000,
       "cena_m2": 8120,
-      "sprat": "6",
+      "sprat": "VI/20",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 108,
+      "dana_na_trzistu": 109,
       "prva_cena": 950000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-14",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Residences|117.0|950000"
     },
     {
@@ -2265,7 +1947,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 108,
+      "dana_na_trzistu": 109,
       "prva_cena": 1310000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-14",
@@ -2288,7 +1970,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 106,
+      "dana_na_trzistu": 107,
       "prva_cena": 1510000,
       "promena_cene_pct": -6.6,
       "first_seen": "2026-06-16",
@@ -2298,7 +1980,7 @@
     {
       "id": "888a9feb6bd132ce",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-kula-dvostrana-orijentacija-izuzetan-kvali/5425647287109?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Nikolaja Kravcova, 1.704.888€, 168m²",
+      "naslov": "BW Kula, ugao ka reci, predivan ID#4678",
       "zgrada": "BW St. Regis",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -2311,17 +1993,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 106,
+      "dana_na_trzistu": 107,
       "prva_cena": 1628888,
       "promena_cene_pct": 4.7,
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|168.0|1704888"
     },
     {
       "id": "b24a300bb18f89a5",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-kula-ugaona-pozicija-spektakularan-pogled/5425647287091?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Nikolaja Kravcova, 1.845.888€, 166m²",
+      "naslov": "BW Kula, ugaona pozicija, spektakularan pogled ID#",
       "zgrada": "BW St. Regis",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -2334,11 +2016,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 106,
+      "dana_na_trzistu": 107,
       "prva_cena": 1762888,
       "promena_cene_pct": 4.7,
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|166.0|1845888"
     },
     {
@@ -2358,7 +2040,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 106,
+      "dana_na_trzistu": 107,
       "prva_cena": 969000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-16",
@@ -2368,7 +2050,7 @@
     {
       "id": "86fa3bec9093388f",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-residences---trosoban-stan-sa-pogledom-na/5425646874989?kid=1",
-      "naslov": "Trosoban stan na prodaju, Beograd na vodi, 729.000€, 90m²",
+      "naslov": "BW Residences - Trosoban stan sa pogledom na reku",
       "zgrada": "BW Residences",
       "agencija": "AtriumPropertyServices",
       "struktura": "3.0",
@@ -2381,11 +2063,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 106,
+      "dana_na_trzistu": 107,
       "prva_cena": 749000,
       "promena_cene_pct": -2.7,
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Residences|90.0|729000"
     },
     {
@@ -2404,7 +2086,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 105,
+      "dana_na_trzistu": 106,
       "prva_cena": 374000,
       "promena_cene_pct": -1.1,
       "first_seen": "2026-06-17",
@@ -2414,31 +2096,31 @@
     {
       "id": "37fad5d9208e134a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/penthouse-u-bw-u-kuli-verde-sa-garaznim-mesto/5425643813480?kid=1",
-      "naslov": "Penthaus u Beogradu na vodi u kuli Verde sa garažnim mestom",
+      "naslov": "Penthouse u BW u kuli Verde sa garažnim mestom",
       "zgrada": "BW St. Regis",
-      "agencija": "Grad nekretnine ",
+      "agencija": "Gradnekretnine",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 116.0,
       "cena": 550000,
       "cena_m2": 4741,
-      "sprat": "23",
+      "sprat": "XXIII/23",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 105,
+      "dana_na_trzistu": 106,
       "prva_cena": 550000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-17",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|116.0|550000"
     },
     {
       "id": "c9d071686693d797",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/sredjen-stan-sa-pogledom-na-reku-u-bw/5425647167789?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Hercegovačka, 550.000€, 111m²",
+      "naslov": "Sređen stan sa pogledom na reku, u BW",
       "zgrada": "BW (Hercegovačka)",
       "agencija": "DomInvestnekretnine",
       "struktura": "4.0",
@@ -2451,17 +2133,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 104,
+      "dana_na_trzistu": 105,
       "prva_cena": 595000,
       "promena_cene_pct": -7.6,
       "first_seen": "2026-06-18",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (Hercegovačka)|111.0|550000"
     },
     {
       "id": "4c32627a2725d79d",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sena-premium-zgrada-pogled-na-park-id4596/5425647165407?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Bulevar Vudroa Vilsona, 272.888€, 61m²",
+      "naslov": "BW Sena, premium zgrada, pogled na park ID#4596",
       "zgrada": "BW Sena",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
@@ -2474,17 +2156,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 104,
+      "dana_na_trzistu": 105,
       "prva_cena": 272888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-18",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sena|61.0|272888"
     },
     {
       "id": "56fa5ec9bed41cdf",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-metropolitan-lux-novogradnja-garaza-id-257/5425647303654?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vudroa Vilsona, 455.000€, 90m²",
+      "naslov": "BW Metropolitan, lux, novogradnja,garaža, ID 25793",
       "zgrada": "BW Metropolitan",
       "agencija": "eminent-nekretnine",
       "struktura": "3.0",
@@ -2497,17 +2179,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 103,
+      "dana_na_trzistu": 104,
       "prva_cena": 460000,
       "promena_cene_pct": -1.1,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Metropolitan|90.0|455000"
     },
     {
       "id": "5ccb6cb4e93126ad",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-hudson-premium-zgrada-bazen-spa-id4454/5425647054241?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 614.888€, 115m²",
+      "naslov": "BW Hudson, premium zgrada, bazen, spa ID#4454",
       "zgrada": "BW Hudson",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -2520,11 +2202,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 102,
+      "dana_na_trzistu": 103,
       "prva_cena": 614888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Hudson|115.0|614888"
     },
     {
@@ -2543,7 +2225,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 102,
+      "dana_na_trzistu": 103,
       "prva_cena": 390888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-20",
@@ -2566,7 +2248,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 102,
+      "dana_na_trzistu": 103,
       "prva_cena": 343650,
       "promena_cene_pct": -1.1,
       "first_seen": "2026-06-20",
@@ -2589,7 +2271,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 849000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-21",
@@ -2612,7 +2294,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 185000,
       "promena_cene_pct": -5.4,
       "first_seen": "2026-06-21",
@@ -2622,30 +2304,30 @@
     {
       "id": "1ac9b2a7be9ccf1c",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-victoria-one-bedroom/5425647316462?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Beograd na vodi, 418.000€, 69m²",
+      "naslov": "Bw Victoria One Bedroom",
       "zgrada": "BW Victoria",
       "agencija": "SonataProperties",
       "struktura": "2.0",
       "str_label": "Dvosoban",
-      "m2": 69.0,
+      "m2": 69.13,
       "cena": 418000,
-      "cena_m2": 6058,
+      "cena_m2": 6047,
       "sprat": "VII",
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 100,
+      "dana_na_trzistu": 101,
       "prva_cena": 418000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-09-30",
-      "dedup_key": "BW Victoria|69.0|418000"
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Victoria|69.13|418000"
     },
     {
       "id": "2425ea0fea85488e",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/savski-venac-beograd-beograd-na-vodi-stan-2-5/5425647315819?kid=1",
-      "naslov": "Dvoiposoban stan na prodaju, Beograd na vodi, 427.888€, 81m²",
+      "naslov": "BW Riva – Marina Beograd na vodi, premium stan 81",
       "zgrada": "BW Riva",
       "agencija": "AtriumPropertyServices",
       "struktura": "2.5",
@@ -2658,11 +2340,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 100,
+      "dana_na_trzistu": 101,
       "prva_cena": 427888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Riva|81.0|427888"
     },
     {
@@ -2676,17 +2358,17 @@
       "m2": 73.0,
       "cena": 345000,
       "cena_m2": 4726,
-      "sprat": "6",
+      "sprat": "VI/8",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 100,
+      "dana_na_trzistu": 101,
       "prva_cena": 425000,
       "promena_cene_pct": -18.8,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|73.0|345000"
     },
     {
@@ -2705,7 +2387,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 97,
+      "dana_na_trzistu": 98,
       "prva_cena": 599000,
       "promena_cene_pct": 0.8,
       "first_seen": "2026-06-25",
@@ -2728,7 +2410,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 97,
+      "dana_na_trzistu": 98,
       "prva_cena": 375000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-25",
@@ -2738,25 +2420,25 @@
     {
       "id": "fb128824a5f9ea1e",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riva-marina-beograd-na-vodi-premium-stan-9/5425647329703?kid=1",
-      "naslov": "Dvoiposoban stan na prodaju, Beograd na vodi, 470.888€, 94m²",
+      "naslov": "BW Riva – Marina Beograd na vodi, premium stan",
       "zgrada": "BW Riva",
       "agencija": "AtriumPropertyServices",
       "struktura": "2.5",
       "str_label": "Dvoiposoban",
-      "m2": 94.0,
+      "m2": 94.02,
       "cena": 470888,
-      "cena_m2": 5009,
+      "cena_m2": 5008,
       "sprat": "V/20",
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 97,
+      "dana_na_trzistu": 98,
       "prva_cena": 472888,
       "promena_cene_pct": -0.4,
       "first_seen": "2026-06-25",
-      "last_seen": "2026-09-30",
-      "dedup_key": "BW Riva|94.0|470888"
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW Riva|94.02|470888"
     },
     {
       "id": "4e39bd60ce6b61c9",
@@ -2774,7 +2456,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 97,
+      "dana_na_trzistu": 98,
       "prva_cena": 1071000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-25",
@@ -2784,7 +2466,7 @@
     {
       "id": "62972f9a9807d8df",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-garden-plaza-odlicna-ponuda-drugi-red-od-r/5425647324824?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Luke Ćelovića Trebinjca, 260.888€, 53m²",
+      "naslov": "BW Garden Plaza, odlična ponuda, drugi red od reke",
       "zgrada": "BW Garden Plaza",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
@@ -2797,17 +2479,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 97,
+      "dana_na_trzistu": 98,
       "prva_cena": 260888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-25",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Garden Plaza|53.0|260888"
     },
     {
       "id": "ffb296ccbe03308e",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sena-odlicna-ponuda-pogled-na-park-id4605/5425647190745?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Bulevar Vudroa Vilsona, 278.888€, 62m²",
+      "naslov": "BW Sena, odlična ponuda, pogled na park ID#4605",
       "zgrada": "BW Sena",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
@@ -2820,11 +2502,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 97,
+      "dana_na_trzistu": 98,
       "prva_cena": 278888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-25",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sena|62.0|278888"
     },
     {
@@ -2843,7 +2525,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 450000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-26",
@@ -2867,7 +2549,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 94,
+      "dana_na_trzistu": 95,
       "prva_cena": 330000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-28",
@@ -2890,7 +2572,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 93,
+      "dana_na_trzistu": 94,
       "prva_cena": 169900,
       "promena_cene_pct": null,
       "first_seen": "2026-06-29",
@@ -2913,7 +2595,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 261888,
       "promena_cene_pct": 4.2,
       "first_seen": "2026-07-04",
@@ -2936,7 +2618,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 243888,
       "promena_cene_pct": null,
       "first_seen": "2026-07-04",
@@ -2959,7 +2641,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 1250000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-04",
@@ -2982,7 +2664,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 375000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-04",
@@ -3006,7 +2688,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 749000,
       "promena_cene_pct": -2.7,
       "first_seen": "2026-07-04",
@@ -3029,7 +2711,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 910888,
       "promena_cene_pct": null,
       "first_seen": "2026-07-04",
@@ -3052,7 +2734,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 84,
+      "dana_na_trzistu": 85,
       "prva_cena": 925000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-08",
@@ -3075,7 +2757,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 84,
+      "dana_na_trzistu": 85,
       "prva_cena": 575000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-08",
@@ -3098,7 +2780,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 80,
+      "dana_na_trzistu": 81,
       "prva_cena": 930180,
       "promena_cene_pct": null,
       "first_seen": "2026-07-12",
@@ -3121,7 +2803,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 79,
+      "dana_na_trzistu": 80,
       "prva_cena": 500000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-13",
@@ -3131,7 +2813,7 @@
     {
       "id": "0773fe101d1160c0",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-hudson-premium-zgrada-bez-provizije-id4758/5425647403682?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vudroa Vilsona, 423.888€, 78m²",
+      "naslov": "BW Hudson, premium zgrada, bez provizije ID#4758",
       "zgrada": "BW Hudson",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -3144,11 +2826,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 78,
+      "dana_na_trzistu": 79,
       "prva_cena": 423888,
       "promena_cene_pct": null,
       "first_seen": "2026-07-14",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Hudson|78.0|423888"
     },
     {
@@ -3167,7 +2849,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 78,
+      "dana_na_trzistu": 79,
       "prva_cena": 410888,
       "promena_cene_pct": null,
       "first_seen": "2026-07-14",
@@ -3191,7 +2873,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 77,
+      "dana_na_trzistu": 78,
       "prva_cena": 700888,
       "promena_cene_pct": -0.3,
       "first_seen": "2026-07-15",
@@ -3214,7 +2896,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 77,
+      "dana_na_trzistu": 78,
       "prva_cena": 575000,
       "promena_cene_pct": -4.3,
       "first_seen": "2026-07-15",
@@ -3224,7 +2906,7 @@
     {
       "id": "e14317caf99aa7f6",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/stan-sa-najlepsim-rasporedom-bw-potpuno-names/5425647411253?kid=4",
-      "naslov": "Trosoban stan na prodaju, Beograd na vodi, 390.000€, 77m²",
+      "naslov": "Stan sa najlepšim rasporedom, BW, potpuno namešten",
       "zgrada": "BW Quartet 1",
       "agencija": "ARTOPOLIS369",
       "struktura": "3.0",
@@ -3237,11 +2919,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 74,
+      "dana_na_trzistu": 75,
       "prva_cena": 390000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-18",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Quartet 1|77.0|390000"
     },
     {
@@ -3260,7 +2942,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 74,
+      "dana_na_trzistu": 75,
       "prva_cena": 370000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-18",
@@ -3270,7 +2952,7 @@
     {
       "id": "6dec0e71ef761f1d",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sole---trosoban-stan/5425647055336?kid=4",
-      "naslov": "Trosoban stan na prodaju, Beograd na vodi, 385.000€, 79m²",
+      "naslov": "Bw Lumia 3.0 namešten, odlična pozicija",
       "zgrada": "BW Sole",
       "agencija": "SonataProperties",
       "struktura": "3.0",
@@ -3283,17 +2965,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 71,
+      "dana_na_trzistu": 72,
       "prva_cena": 375000,
       "promena_cene_pct": 2.7,
       "first_seen": "2026-07-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sole|79.0|385000"
     },
     {
       "id": "6d62405551015fa5",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sena-premium-zgrada-dve-terase-id4780/5425647431432?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vudroa Vilsona, 411.888€, 97m²",
+      "naslov": "BW Sena, premium zgrada, dve terase ID#4780",
       "zgrada": "BW Sena",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -3306,17 +2988,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 71,
+      "dana_na_trzistu": 72,
       "prva_cena": 411888,
       "promena_cene_pct": null,
       "first_seen": "2026-07-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sena|97.0|411888"
     },
     {
       "id": "9a48566ae6ccf18a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-metropolitan-odlican-kao-pp-id4769/5425647431400?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vudroa Vilsona, 393.000€, 88m²",
+      "naslov": "BW Metropolitan, odličan kao PP ID#4769",
       "zgrada": "BW Metropolitan",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -3329,17 +3011,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 71,
+      "dana_na_trzistu": 72,
       "prva_cena": 393000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Metropolitan|88.0|393000"
     },
     {
       "id": "e38c1bbf3e6e344d",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/trosoban-stan-u-zgradi-bw-rima-u-beogradu-na/5425647455439?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vudroa Vilsona, 330.500€, 76m²",
+      "naslov": "Trosoban stan u zgradi BW Rima u Beogradu na vodi",
       "zgrada": "BW Rima",
       "agencija": "divis-nekretnine",
       "struktura": "3.0",
@@ -3352,11 +3034,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 63,
+      "dana_na_trzistu": 64,
       "prva_cena": 330500,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Rima|76.0|330500"
     },
     {
@@ -3375,7 +3057,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 63,
+      "dana_na_trzistu": 64,
       "prva_cena": 510000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -3398,7 +3080,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 63,
+      "dana_na_trzistu": 64,
       "prva_cena": 385000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -3421,7 +3103,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 63,
+      "dana_na_trzistu": 64,
       "prva_cena": 308888,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -3431,7 +3113,7 @@
     {
       "id": "f70152b19db7a9c6",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nota-nov-5-0-16225m2-2-gar-mesta-namesten/5425647467539?kid=3",
-      "naslov": "Petosoban stan na prodaju, Luke Ćelovića Trebinjca, 820.000€, 162m²",
+      "naslov": "BW Nota, nov, 5.0, 162+25m2, 2 gar mesta, namešten",
       "zgrada": "BW Nota",
       "agencija": "city-hedonia-agencija-za-nekretnine",
       "struktura": "5.0",
@@ -3444,11 +3126,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 60,
+      "dana_na_trzistu": 61,
       "prva_cena": 820000,
       "promena_cene_pct": null,
       "first_seen": "2026-08-01",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Nota|162.0|820000"
     },
     {
@@ -3468,7 +3150,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 57,
+      "dana_na_trzistu": 58,
       "prva_cena": 435000,
       "promena_cene_pct": null,
       "first_seen": "2026-08-04",
@@ -3478,7 +3160,7 @@
     {
       "id": "f29abf0a63fa70bc",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/savski-venac-beograd-na-vodi-id1605/5425647500621?kid=4",
-      "naslov": "Dvosoban stan na prodaju, Bulevar Vudroa Vilsona, 300.000€, 54m²",
+      "naslov": "Savski Venac-Beograd na vodi ID#1605",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "bjanca",
       "struktura": "2.0",
@@ -3491,17 +3173,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 53,
+      "dana_na_trzistu": 54,
       "prva_cena": 300000,
       "promena_cene_pct": null,
       "first_seen": "2026-08-08",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|54.0|300000"
     },
     {
       "id": "7de069b9fb0d2bd7",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-lumia-3-0-namesten/5425647525548?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Beograd na vodi, 479.000€, 100m²",
+      "naslov": "Bw Nota, 16. sprat, pogled na reku",
       "zgrada": "BW Lumia",
       "agencija": "SonataProperties",
       "struktura": "3.0",
@@ -3514,17 +3196,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 40,
+      "dana_na_trzistu": 41,
       "prva_cena": 375000,
       "promena_cene_pct": 27.7,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Lumia|100.0|479000"
     },
     {
       "id": "9c57728fd82cc8e6",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-terraces-luksuzan-trosoban-stan-sa-panoram/5425647525631?kid=1",
-      "naslov": "Trosoban stan na prodaju, Beograd na vodi, 630.000€, 105m²",
+      "naslov": "BW Terraces | Luksuzan trosoban stan sa panoramski",
       "zgrada": "BW Terraces",
       "agencija": "AtriumPropertyServices",
       "struktura": "3.0",
@@ -3537,11 +3219,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 40,
+      "dana_na_trzistu": 41,
       "prva_cena": 630000,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Terraces|105.0|630000"
     },
     {
@@ -3560,7 +3242,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 258000,
       "promena_cene_pct": 6.6,
       "first_seen": "2026-08-22",
@@ -3570,7 +3252,7 @@
     {
       "id": "7f34456aecb22130",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sena-premium-zgrada-ugaona-pozicija-id4841/5425647571329?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vudroa Vilsona, 337.888€, 81m²",
+      "naslov": "BW Sena, premium zgrada, ugaona pozicija ID#4841",
       "zgrada": "BW Sena",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -3583,11 +3265,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 36,
+      "dana_na_trzistu": 37,
       "prva_cena": 337888,
       "promena_cene_pct": null,
       "first_seen": "2026-08-25",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sena|81.0|337888"
     },
     {
@@ -3606,7 +3288,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 35,
+      "dana_na_trzistu": 36,
       "prva_cena": 435000,
       "promena_cene_pct": null,
       "first_seen": "2026-08-26",
@@ -3630,7 +3312,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 28,
+      "dana_na_trzistu": 29,
       "prva_cena": 531000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-02",
@@ -3640,7 +3322,7 @@
     {
       "id": "5b25ed5b829ae649",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-azura-ugaona-pozicija-bez-provizije-id4874/5425647623538?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 415.353€, 91m²",
+      "naslov": "BW Azura, ugaona pozicija, bez provizije ID#4874",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -3653,11 +3335,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 26,
+      "dana_na_trzistu": 27,
       "prva_cena": 456888,
       "promena_cene_pct": -9.1,
       "first_seen": "2026-09-04",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|91.0|415353"
     },
     {
@@ -3676,7 +3358,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 308989,
       "promena_cene_pct": null,
       "first_seen": "2026-09-05",
@@ -3686,7 +3368,7 @@
     {
       "id": "a0ddfc6385ef143d",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-azura-dvostrana-orijentacija-bez-provizije/5425647626754?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 381.716€, 92m²",
+      "naslov": "BW Azura, dvostrana orijentacija, bez provizije ID",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -3699,11 +3381,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 381716,
       "promena_cene_pct": null,
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|92.0|381716"
     },
     {
@@ -3722,7 +3404,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 22,
+      "dana_na_trzistu": 23,
       "prva_cena": 710888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-08",
@@ -3732,30 +3414,30 @@
     {
       "id": "c33c790683107cab",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/najatraktivniji-stan-sa-panoramskim-pogledom/5425647651543?kid=1",
-      "naslov": "Trosoban stan na prodaju, Beograd na vodi, 1.060.000€, 98m²",
+      "naslov": "Najatraktivniji stan sa panoramskim pogledom na re",
       "zgrada": "BW St. Regis",
       "agencija": "AtriumPropertyServices",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 98.0,
+      "m2": 98.37,
       "cena": 1060000,
-      "cena_m2": 10816,
+      "cena_m2": 10776,
       "sprat": null,
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 20,
+      "dana_na_trzistu": 21,
       "prva_cena": 1060000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-10",
-      "last_seen": "2026-09-30",
-      "dedup_key": "BW St. Regis|98.0|1060000"
+      "last_seen": "2026-10-01",
+      "dedup_key": "BW St. Regis|98.37|1060000"
     },
     {
       "id": "2f3058754093a087",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-garden-plaza-otvoren-pogled-prema-gradu-ug/5425647656459?kid=1",
-      "naslov": "Trosoban stan na prodaju, Luke Ćelovića Trebinjca, 310.888€, 68m²",
+      "naslov": "BW Garden Plaza, otvoren pogled prema gradu, ugaon",
       "zgrada": "BW Garden Plaza",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -3768,11 +3450,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 310888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Garden Plaza|68.0|310888"
     },
     {
@@ -3791,7 +3473,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 277171,
       "promena_cene_pct": null,
       "first_seen": "2026-09-11",
@@ -3815,7 +3497,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 1472000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-12",
@@ -3825,7 +3507,7 @@
     {
       "id": "d3b4ad2a76e0cde4",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sole-jedinstven-stan-sa-kaskadnom-terasom/5425647661006?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 760.000€, 124m²",
+      "naslov": "BW Sole, jedinstven stan sa kaskadnom terasom ID#4",
       "zgrada": "BW Sole",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -3838,11 +3520,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 760000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sole|124.0|760000"
     },
     {
@@ -3861,7 +3543,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 219898,
       "promena_cene_pct": null,
       "first_seen": "2026-09-12",
@@ -3884,7 +3566,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 17,
+      "dana_na_trzistu": 18,
       "prva_cena": 750000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-13",
@@ -3907,7 +3589,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 17,
+      "dana_na_trzistu": 18,
       "prva_cena": 386888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-13",
@@ -3930,7 +3612,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 17,
+      "dana_na_trzistu": 18,
       "prva_cena": 207171,
       "promena_cene_pct": null,
       "first_seen": "2026-09-13",
@@ -3940,7 +3622,7 @@
     {
       "id": "e354bd305b23a02b",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-bonaca-prva-linija-do-reke-dve-terase-id49/5425647680262?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 789.888€, 142m²",
+      "naslov": "BW Bonaca, prva linija do reke, dve terase ID#4930",
       "zgrada": "BW Bonaca",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -3953,17 +3635,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 789888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-15",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Bonaca|142.0|789888"
     },
     {
       "id": "907f12281cd7d8cc",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-garden-plaza-dvostrana-orijentacija-dve-te/5425647677789?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Luke Ćelovića Trebinjca, 434.888€, 105m²",
+      "naslov": "BW Garden Plaza, dvostrana orijentacija, dve teras",
       "zgrada": "BW Garden Plaza",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -3976,17 +3658,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 434888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-15",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Garden Plaza|105.0|434888"
     },
     {
       "id": "f0efc0b539dfeacc",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-garden-plaza-pogled-na-grad-bez-provizije/5425647677788?kid=1",
-      "naslov": "Trosoban stan na prodaju, Luke Ćelovića Trebinjca, 301.888€, 71m²",
+      "naslov": "BW Garden Plaza, pogled na grad, bez provizije ID#",
       "zgrada": "BW Garden Plaza",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -3999,17 +3681,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 301888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-15",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Garden Plaza|71.0|301888"
     },
     {
       "id": "8a89c53119a19b94",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/st-regis-dizajnerski-opremljen-stan-na-33-spr/5425646947866?kid=4",
-      "naslov": "Dvosoban stan na prodaju, Beograd na vodi, 930.000€, 73m²",
+      "naslov": "St. Regis-Dizajnerski opremljen stan na 33. spratu",
       "zgrada": "BW St. Regis",
       "agencija": "astranowa",
       "struktura": "2.0",
@@ -4022,17 +3704,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 13,
+      "dana_na_trzistu": 14,
       "prva_cena": 930000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|73.0|930000"
     },
     {
       "id": "253ed122584ddd6f",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-hudson-premium-zgrada-pogled-ka-reci-id494/5425647694928?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Bulevar Vudroa Vilsona, 396.888€, 63m²",
+      "naslov": "BW Hudson, premium zgrada, pogled ka reci ID#4940",
       "zgrada": "BW Hudson",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
@@ -4045,17 +3727,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 396888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Hudson|63.0|396888"
     },
     {
       "id": "0af6c44f954faede",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-residences-167m2-3-0-lux/5425647694911?kid=1",
-      "naslov": "Trosoban stan na prodaju, Hercegovačka-Savski venac, 1.472.000€, 159m²",
+      "naslov": "BW-Residences, 167m2, 3.0, lux",
       "zgrada": "BW (neidentifikovano)",
       "agencija": null,
       "struktura": "3.0",
@@ -4068,11 +3750,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 1472000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|159.0|1472000"
     },
     {
@@ -4092,7 +3774,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 1472000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-18",
@@ -4102,7 +3784,7 @@
     {
       "id": "90d2b8a8b686800a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sena-fantastican-pogled-na-reku-ugaona-poz/5425647689526?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 543.888€, 109m²",
+      "naslov": "BW Sena, fantastičan pogled na reku, ugaona pozici",
       "zgrada": "BW Sena",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -4115,17 +3797,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 543888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Sena|109.0|543888"
     },
     {
       "id": "98b0a0e43a94d91e",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-topaz-prva-linija-do-reke-bez-provizije-id/5425647689525?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Travnička, 375.888€, 67m²",
+      "naslov": "BW Topaz, prva linija do reke, bez provizije ID#49",
       "zgrada": "BW Topaz",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
@@ -4138,11 +3820,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 375888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Topaz|67.0|375888"
     },
     {
@@ -4162,7 +3844,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 395000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-19",
@@ -4185,7 +3867,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 1300000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
@@ -4195,25 +3877,25 @@
     {
       "id": "2329dd019d3a3af4",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-residences-11-beograd-na-vodi-prvoklasan/5425647712296?kid=4",
-      "naslov": "BW Residences, prvi red do Save, privatni spa i panoramski pogled ID#10343",
+      "naslov": "BW Residences 11 | Beograd na vodi | Prvoklasan",
       "zgrada": "BW Residences",
-      "agencija": "EUROPOLIS NEKRETNINE ",
+      "agencija": "Kredium",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 167.0,
       "cena": 1472000,
       "cena_m2": 8814,
-      "sprat": "16",
+      "sprat": "XVI/20",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 1472000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Residences|167.0|1472000"
     },
     {
@@ -4232,7 +3914,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 360000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-24",
@@ -4242,7 +3924,7 @@
     {
       "id": "090a266b7544b9f2",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-simfonija-3-0-69m2/5425646918835?kid=3",
-      "naslov": "Trosoban stan na prodaju, hercegovačka, 370.000€, 69m²",
+      "naslov": "BW Simfonija 3.0 69m2",
       "zgrada": "BW Simfonija 1",
       "agencija": "MaxisGroup1",
       "struktura": "3.0",
@@ -4255,11 +3937,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 370000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-24",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Simfonija 1|69.0|370000"
     },
     {
@@ -4278,7 +3960,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 685888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-24",
@@ -4288,7 +3970,7 @@
     {
       "id": "e52f295d24a15311",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-fantastican-pogled-na-reku-ugaona-poz/5425647732428?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 765.888€, 114m²",
+      "naslov": "BW Luna, fantastičan pogled na reku, ugaona pozici",
       "zgrada": "BW St. Regis",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -4301,65 +3983,65 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 765888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-26",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|114.0|765888"
     },
     {
       "id": "a74c036d36c2f870",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-pogled-na-reku-bazen-spa-id4960/5425647732424?kid=1",
-      "naslov": "BW Luna, bazen i teretana, pogled ka reci, PDV ID#1308",
+      "naslov": "BW Luna, pogled na reku, bazen, spa ID#4960",
       "zgrada": "BW St. Regis",
-      "agencija": "Legacy ",
+      "agencija": "PropertyBroker",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 54.0,
       "cena": 359888,
       "cena_m2": 6665,
-      "sprat": "3",
+      "sprat": "III/29",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 359888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-26",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|54.0|359888"
     },
     {
       "id": "f3dd427db49ac58f",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-stan-u-bw-simfonija-1-sa-garaznim-me/5425647732282?kid=1",
-      "naslov": "Dizajnerski enterijer, kompletno namešten",
+      "naslov": "Luksuzan stan u BW Simfonija 1 sa garažnim mestom",
       "zgrada": "BW Simfonija 1",
-      "agencija": "Galas Nekretnine ",
+      "agencija": "r-e-a-l-consulting",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 52.0,
       "cena": 300000,
       "cena_m2": 5769,
-      "sprat": "2",
+      "sprat": "II/16",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 300000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-26",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Simfonija 1|52.0|300000"
     },
     {
       "id": "06269bebbc03e337",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-thalia-studio-pogled-na-unutrasnje-dvorist/5425647719251?kid=4",
-      "naslov": "Jednosoban stan na prodaju, Beograd na vodi, 185.000€, 32m²",
+      "naslov": "Bw Thalia Studio pogled na unutrasnje dvoriste",
       "zgrada": "BW Thalia",
       "agencija": "SonataProperties",
       "struktura": "1.0",
@@ -4372,17 +4054,17 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 185000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW Thalia|32.0|185000"
     },
     {
       "id": "81a4cd5efb533208",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-ugaona-terasa-pogled-na-unutrasnje-dv/5425647744308?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vudroa Vilsona, 356.888€, 70m²",
+      "naslov": "BW Luna, ugaona terasa, bazen, spa ID#4972",
       "zgrada": "BW St. Regis",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -4395,11 +4077,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 356888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|70.0|356888"
     },
     {
@@ -4418,7 +4100,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 360000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-29",
@@ -4428,7 +4110,7 @@
     {
       "id": "511c92db18599093",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-dvostrana-orijentacija-bez-provizije/5425647754234?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Bulevar Vudroa Vilsona, 349.888€, 58m²",
+      "naslov": "BW Luna, dvostrana orijentacija, bez provizije ID#",
       "zgrada": "BW St. Regis",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
@@ -4441,11 +4123,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 349888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW St. Regis|58.0|349888"
     },
     {
@@ -4459,23 +4141,23 @@
       "m2": 84.0,
       "cena": 538888,
       "cena_m2": 6415,
-      "sprat": "26",
+      "sprat": "XXVI",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 538888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|84.0|538888"
     },
     {
       "id": "f2129f118f934d71",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-azura-pogled-na-unutrasnje-dvoriste-id4971/5425647749437?kid=1",
-      "naslov": "Trosoban stan na prodaju, Bulevar Vudroa Vilsona, 308.080€, 65m²",
+      "naslov": "BW Azura, pogled na unutrašnje dvorište ID#4971",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "PropertyBroker",
       "struktura": "3.0",
@@ -4488,11 +4170,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 308080,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "BW (neidentifikovano)|65.0|308080"
     },
     {
@@ -4510,7 +4192,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 595000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4532,7 +4214,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 609000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4555,7 +4237,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1400000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4577,7 +4259,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 720000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4599,7 +4281,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 257000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4621,7 +4303,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1472000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4643,7 +4325,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 499500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4665,7 +4347,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 345000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4687,7 +4369,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1200000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4709,7 +4391,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 691000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4731,7 +4413,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 595000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4753,7 +4435,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 370000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4775,7 +4457,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 198000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4797,7 +4479,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 750500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4819,7 +4501,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 208000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4841,7 +4523,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1472000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4863,7 +4545,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1400000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4885,7 +4567,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 907000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4907,7 +4589,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 217999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4929,7 +4611,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 350000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4951,7 +4633,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 680000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4973,7 +4655,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 372888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4995,7 +4677,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 250000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5017,7 +4699,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 999999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5039,7 +4721,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 360000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5061,7 +4743,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 329999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5083,7 +4765,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 765888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5105,7 +4787,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 184000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5127,7 +4809,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 720000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5149,7 +4831,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 360000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5172,7 +4854,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1890000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5194,7 +4876,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 322888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5216,7 +4898,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 650000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5238,7 +4920,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 298888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5261,7 +4943,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 450000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5283,7 +4965,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 350999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5305,7 +4987,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 499500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5327,7 +5009,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 499500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5349,7 +5031,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1237888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5372,7 +5054,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 585000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5394,7 +5076,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 207000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5416,7 +5098,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 332888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5439,7 +5121,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 750000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5461,7 +5143,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 409888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5483,7 +5165,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 293888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5505,7 +5187,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 768888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5527,7 +5209,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 921888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5549,7 +5231,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 537500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5571,7 +5253,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 365888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5593,7 +5275,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 435000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5615,7 +5297,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 330500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5637,7 +5319,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 550000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5659,7 +5341,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 310000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5681,7 +5363,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 285000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5703,7 +5385,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 530000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5725,7 +5407,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 599000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5747,7 +5429,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 583000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5769,7 +5451,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 754112,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5791,7 +5473,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 426888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5813,7 +5495,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1800000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5835,7 +5517,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 215500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5858,7 +5540,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 630000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5880,7 +5562,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1399000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5902,7 +5584,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1850000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5925,7 +5607,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1900000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5948,7 +5630,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 220000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5970,7 +5652,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 205000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5992,7 +5674,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 195000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6014,7 +5696,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 315000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6036,7 +5718,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 549000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6058,7 +5740,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 500000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6080,7 +5762,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 330624,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6102,7 +5784,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1197000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6124,7 +5806,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 213535,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6146,7 +5828,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 750000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6168,7 +5850,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 760000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6190,7 +5872,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 325888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6212,7 +5894,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 768000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6234,7 +5916,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 390888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6256,7 +5938,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 348888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6278,7 +5960,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1700000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6300,7 +5982,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 514888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6322,7 +6004,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 385888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6344,7 +6026,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 351888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6366,7 +6048,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 341888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6388,7 +6070,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 631888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6410,7 +6092,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 620888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6432,7 +6114,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 250888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6454,7 +6136,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 357888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6476,7 +6158,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 448700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6498,7 +6180,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 460000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6520,7 +6202,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 565000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6542,7 +6224,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 359888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6565,7 +6247,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 599000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6588,7 +6270,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1470000,
       "promena_cene_pct": 0.1,
       "first_seen": "2026-09-30",
@@ -6610,7 +6292,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 630000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6632,7 +6314,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 300000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6655,7 +6337,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 417000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6677,7 +6359,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 241888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6699,7 +6381,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 255888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6721,7 +6403,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 243888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6743,7 +6425,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 241888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6765,7 +6447,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 343000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6787,7 +6469,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 359888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6809,7 +6491,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 380888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6831,7 +6513,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1019999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6853,7 +6535,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 390000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6875,7 +6557,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 450000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6897,7 +6579,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 345000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6919,7 +6601,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 384888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6941,7 +6623,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 290000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6964,7 +6646,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1472000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6987,7 +6669,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1073888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7009,7 +6691,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 240888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7031,7 +6713,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 302000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7053,7 +6735,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 167888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7075,7 +6757,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 533888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7097,7 +6779,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 605000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7119,7 +6801,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 285000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7141,7 +6823,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1628888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7163,7 +6845,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 667888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7185,7 +6867,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 2500000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7207,7 +6889,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 345000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7230,7 +6912,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 926888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7252,7 +6934,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 330000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7274,7 +6956,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 926888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7296,7 +6978,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 498888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7318,7 +7000,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 950000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7341,7 +7023,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1600000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7363,7 +7045,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 770000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7385,7 +7067,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 473500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7407,7 +7089,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 475000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7429,7 +7111,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 189999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7451,7 +7133,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 745000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7473,7 +7155,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 569888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7496,7 +7178,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 755000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7518,7 +7200,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 607072,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7540,7 +7222,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 700000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7562,7 +7244,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 583888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7584,7 +7266,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 369888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7606,7 +7288,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 265000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7628,7 +7310,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 608000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7650,7 +7332,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 819800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7672,7 +7354,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 299000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7694,7 +7376,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 306888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7716,7 +7398,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 320888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7738,7 +7420,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 306888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7760,7 +7442,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 495000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7782,7 +7464,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 325000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7804,7 +7486,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 345888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7826,7 +7508,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 238888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7848,7 +7530,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 773500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7870,7 +7552,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1150000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7893,7 +7575,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 275400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7915,7 +7597,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 435000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7937,7 +7619,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 318888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7959,7 +7641,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 310000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -7981,7 +7663,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 435000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8003,7 +7685,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 693888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8025,7 +7707,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 435888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8047,7 +7729,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 599000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8069,7 +7751,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 229888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8091,7 +7773,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 605000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8113,7 +7795,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 812000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8135,7 +7817,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 300000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8157,7 +7839,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1470000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8179,7 +7861,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 395000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8201,7 +7883,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 396888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8223,7 +7905,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 480000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8245,7 +7927,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1160000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8267,7 +7949,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1390000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8290,7 +7972,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 390000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8313,7 +7995,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 594000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8335,7 +8017,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 308888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8357,7 +8039,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 435000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8380,7 +8062,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 501888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8402,7 +8084,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 435000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8424,7 +8106,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 330000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8446,7 +8128,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 850000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8468,7 +8150,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 360000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8490,7 +8172,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 470000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8512,7 +8194,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 290000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8534,7 +8216,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 416500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8556,7 +8238,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1472000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8578,7 +8260,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1472000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8600,7 +8282,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1472000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8622,7 +8304,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 771364,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8644,7 +8326,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 442000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8666,7 +8348,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 455600,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8688,7 +8370,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1091100,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8710,7 +8392,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 945000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8732,7 +8414,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 310000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8754,7 +8436,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 270000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8776,7 +8458,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 695888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8798,7 +8480,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 650000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8820,7 +8502,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 750000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8842,7 +8524,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 320000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8864,7 +8546,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 217171,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8886,7 +8568,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 477000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8908,7 +8590,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 410000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8930,7 +8612,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 710888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8952,7 +8634,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 370000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8974,7 +8656,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 395000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -8996,7 +8678,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 430000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9018,7 +8700,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 698000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9040,7 +8722,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 310888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9062,7 +8744,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 470888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9084,7 +8766,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1534399,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9106,7 +8788,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 613699,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9128,7 +8810,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 360000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9150,7 +8832,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 370000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9172,7 +8854,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1359799,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9194,7 +8876,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 754000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9216,7 +8898,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 894660,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9239,7 +8921,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 240000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9262,7 +8944,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 310000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9285,7 +8967,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 290000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9307,7 +8989,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 229888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9329,7 +9011,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 964999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9351,7 +9033,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1250000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9373,7 +9055,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 537500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9395,7 +9077,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 594000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9417,7 +9099,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 290000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9439,7 +9121,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 290000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9461,7 +9143,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 346000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9483,7 +9165,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 949500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9505,7 +9187,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 400000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9527,7 +9209,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 430000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9549,7 +9231,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 654000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9571,7 +9253,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 399000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9594,7 +9276,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 684000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9616,7 +9298,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 727500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9638,7 +9320,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 435000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9660,7 +9342,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 176500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9682,7 +9364,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 425000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9704,7 +9386,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 945000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9726,7 +9408,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 570000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9748,7 +9430,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 500000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9770,7 +9452,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 900000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9792,7 +9474,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1971888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9814,7 +9496,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 362000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9836,7 +9518,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 363000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9858,7 +9540,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 372000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9880,7 +9562,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 614888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9902,7 +9584,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 475000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9924,7 +9606,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 960000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9946,7 +9628,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1065000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9968,7 +9650,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 910888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -9990,7 +9672,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 499500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10012,7 +9694,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 910000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10034,7 +9716,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 395000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10056,7 +9738,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 270000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10078,7 +9760,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 759000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10100,7 +9782,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1100000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10122,7 +9804,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 789888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10144,7 +9826,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 882888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10166,7 +9848,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 495000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10188,7 +9870,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1221888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10210,7 +9892,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 2640000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10232,7 +9914,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 266500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10254,7 +9936,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 630000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10276,7 +9958,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1150000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10299,7 +9981,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 930186,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10321,7 +10003,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 290000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10343,7 +10025,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 950000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10365,7 +10047,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 607072,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10387,7 +10069,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 569888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10409,7 +10091,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 285000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10431,7 +10113,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 290000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10453,7 +10135,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1019999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10475,7 +10157,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 289650,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10497,7 +10179,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1299000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10519,7 +10201,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 169900,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10541,7 +10223,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 333888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10563,7 +10245,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 442000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10585,7 +10267,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 455600,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10607,7 +10289,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1091100,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10629,7 +10311,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 230888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10651,7 +10333,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 768888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10673,7 +10355,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 256888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10695,7 +10377,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 310888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10717,7 +10399,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 897888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10739,7 +10421,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 630000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10761,7 +10443,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 656888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10783,7 +10465,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 328500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10805,7 +10487,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1400000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10828,7 +10510,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 880000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10850,7 +10532,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 269888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10872,7 +10554,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 170000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10894,7 +10576,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 504000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10916,7 +10598,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 349500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10938,7 +10620,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 969000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10960,7 +10642,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 395000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -10982,7 +10664,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 598999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11004,7 +10686,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 289888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11026,7 +10708,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 450000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11048,7 +10730,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 377888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11070,7 +10752,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 377888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11092,7 +10774,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1800000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11114,7 +10796,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 685000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11136,7 +10818,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 451000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11158,7 +10840,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 379000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11180,7 +10862,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 395000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11202,7 +10884,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 320888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11224,7 +10906,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 630000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11246,7 +10928,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 630000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11268,7 +10950,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 617000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11290,7 +10972,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 224888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11312,7 +10994,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 306888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11334,7 +11016,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 595000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11356,7 +11038,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 377888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11378,7 +11060,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 272888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11400,7 +11082,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 306888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -11422,7 +11104,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 313888,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
