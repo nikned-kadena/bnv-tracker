@@ -3,14 +3,15 @@
   "source": "all",
   "date": "2026-10-02",
   "scraped_at": "2026-10-02",
-  "total_raw": 741,
-  "total_unique": 651,
+  "total_raw": 742,
+  "total_unique": 652,
   "total_dups": 90,
   "diff_new": [
     "6d15880089a63fda",
     "f01580860556c22e",
     "3875567707d2210b",
-    "620ac96075ca85eb"
+    "620ac96075ca85eb",
+    "230c4ff3ea7a1bd0"
   ],
   "diff_removed": [
     "981cd57d7fdb0877",
@@ -1293,7 +1294,7 @@
     {
       "id": "8564b3f39b7ba592",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sena-ugaona-pozicija-prva-linija-do-reke-i/5425647107120?kid=1",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 514.888€, 109m²",
+      "naslov": "BW Sena, ugaona pozicija, prva linija do reke ID#4",
       "zgrada": "BW Sena",
       "agencija": "PropertyBroker",
       "struktura": "4.0",
@@ -1310,7 +1311,7 @@
       "prva_cena": 514888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "dedup_key": "BW Sena|109.0|514888"
     },
     {
@@ -7500,18 +7501,18 @@
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 89.48,
-      "cena": 445000,
-      "cena_m2": 4973,
+      "cena": 425000,
+      "cena_m2": 4750,
       "sprat": "VI/8",
       "izvori": [
         "halo"
       ],
       "dana_na_trzistu": 15,
       "prva_cena": 445000,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -4.5,
       "first_seen": "2026-09-17",
-      "last_seen": "2026-10-01",
-      "dedup_key": "BW Sensa|89.48|445000"
+      "last_seen": "2026-10-02",
+      "dedup_key": "BW Sensa|89.48|425000"
     },
     {
       "id": "0c3f4f8b821a8eaa",
@@ -16563,6 +16564,28 @@
       "first_seen": "2026-10-02",
       "last_seen": "2026-10-02",
       "dedup_key": "BW Nota|73.62|319000"
+    },
+    {
+      "id": "230c4ff3ea7a1bd0",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-bazen-i-teretana-pogled-ka-reci-pdv-i/5425647749426?kid=1",
+      "naslov": "BW Luna, bazen i teretana, pogled ka reci, PDV ID#",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 54.0,
+      "cena": 359888,
+      "cena_m2": 6665,
+      "sprat": "III",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 359888,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "dedup_key": "BW (neidentifikovano)|54.0|359888"
     }
   ]
 }

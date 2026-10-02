@@ -5558,7 +5558,7 @@
     "8564b3f39b7ba592": {
       "uid": "8564b3f39b7ba592",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "aefbeabc935286e8",
@@ -5583,14 +5583,14 @@
       "m2": 109.0,
       "sprat": "XXIII/25",
       "agencija": "PropertyBroker",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 514.888€, 109m²",
+      "naslov": "BW Sena, ugaona pozicija, prva linija do reke ID#4",
       "price_first": 514888,
       "price_current": 514888,
       "price_changes": [],
       "days_listed": 115,
       "cena_m2": 4724,
       "last_seen_src": {
-        "halo": "2026-09-30",
+        "halo": "2026-10-02",
         "4zida": "2026-09-30"
       },
       "fp_nosprat_all": [
@@ -34572,12 +34572,13 @@
     "178ee896ed636546": {
       "uid": "178ee896ed636546",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-10-01",
+      "last_seen": "2026-10-02",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9a6f58f8539108af",
       "fp_strict_all": [
-        "7104c98f3c9edab8"
+        "7104c98f3c9edab8",
+        "8e1d164aa11d4f27"
       ],
       "sources": [
         "halo"
@@ -34596,12 +34597,18 @@
       "agencija": "KADENASothebys",
       "naslov": "Trosoban stan | BW Sensa | Top lokacija",
       "price_first": 445000,
-      "price_current": 445000,
-      "price_changes": [],
+      "price_current": 425000,
+      "price_changes": [
+        {
+          "date": "2026-10-02",
+          "from": 445000,
+          "to": 425000
+        }
+      ],
       "days_listed": 15,
-      "cena_m2": 4973,
+      "cena_m2": 4750,
       "last_seen_src": {
-        "halo": "2026-10-01"
+        "halo": "2026-10-02"
       },
       "fp_nosprat_all": [
         "7111461a59557bbd"
@@ -52255,7 +52262,8 @@
       "price_first": 365000,
       "price_current": 365000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4620
     },
     "f01580860556c22e": {
       "uid": "f01580860556c22e",
@@ -52296,7 +52304,8 @@
       "price_first": 365000,
       "price_current": 365000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4620
     },
     "3875567707d2210b": {
       "uid": "3875567707d2210b",
@@ -52337,7 +52346,8 @@
       "price_first": 283535,
       "price_current": 283535,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 3884
     },
     "620ac96075ca85eb": {
       "uid": "620ac96075ca85eb",
@@ -52378,10 +52388,52 @@
       "price_first": 319000,
       "price_current": 319000,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 4333
+    },
+    "230c4ff3ea7a1bd0": {
+      "uid": "230c4ff3ea7a1bd0",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "cdbd989d6be06563",
+      "fp_loose_all": [
+        "cdbd989d6be06563"
+      ],
+      "fp_nosprat": "e1a80f2073c6cd4b",
+      "fp_nosprat_all": [
+        "e1a80f2073c6cd4b"
+      ],
+      "fp_strict_all": [
+        "040a9cbe8b1751f2"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-02"
+      },
+      "source_ids": {
+        "halo": "5425647749426"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-bazen-i-teretana-pogled-ka-reci-pdv-i/5425647749426?kid=1"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 54.0,
+      "sprat": "III",
+      "agencija": null,
+      "naslov": "BW Luna, bazen i teretana, pogled ka reci, PDV ID#",
+      "price_first": 359888,
+      "price_current": 359888,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-02T06:02:23.589474+00:00",
+  "updated_at": "2026-10-02T10:39:34.490922+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",

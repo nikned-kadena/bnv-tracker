@@ -3,9 +3,9 @@
   "source": "all",
   "date": "2026-10-02",
   "scraped_at": "2026-10-02",
-  "total_raw": 320,
-  "total_unique": 276,
-  "total_dups": 44,
+  "total_raw": 322,
+  "total_unique": 277,
+  "total_dups": 45,
   "diff_new": [
     "dff30c488591d663"
   ],
@@ -1383,7 +1383,7 @@
     {
       "id": "a4c7f0a15e439a83",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residence-teretana-bazen-spa-odmah-useljiv/5425646951476?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Hercegovačka, 1.900€, 63m²",
+      "naslov": "BW Residence, teretana, bazen, spa, odmah useljiv.",
       "zgrada": "BW Residences",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
@@ -1400,7 +1400,7 @@
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "dedup_key": "BW Residences|63.0|1900"
     },
     {
@@ -1448,6 +1448,28 @@
       "first_seen": "2026-07-09",
       "last_seen": "2026-09-30",
       "dedup_key": "BW St. Regis|62.0|3200"
+    },
+    {
+      "id": "5162ac967d7761e2",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-06-beograd-na-vodi-ekskluzivna-ponuda/5425647414713?kid=4",
+      "naslov": "BW Kula 06 | Beograd na vodi | Ekskluzivna ponuda",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "Kredium",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 62.0,
+      "cena": 2900,
+      "cena_m2": 47,
+      "sprat": "XXIV",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 76,
+      "prva_cena": 3500,
+      "promena_cene_pct": -17.1,
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-10-02",
+      "dedup_key": "BW (neidentifikovano)|62.0|2900"
     },
     {
       "id": "42e8fe7867b7534a",
@@ -2104,6 +2126,28 @@
       "first_seen": "2026-08-25",
       "last_seen": "2026-10-02",
       "dedup_key": "BW Residences|116.0|3900"
+    },
+    {
+      "id": "17db858ab995d703",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-3-0-stan-u-bw/5425647580231?kid=1",
+      "naslov": "Lux 3.0 stan u Bw",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 85.37,
+      "cena": 2000,
+      "cena_m2": 23,
+      "sprat": "II/8",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 36,
+      "prva_cena": 2000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-10-02",
+      "dedup_key": "BW (neidentifikovano)|85.37|2000"
     },
     {
       "id": "97b193b9c197f754",
@@ -3588,24 +3632,25 @@
     {
       "id": "8426c31f93ab3553",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6aa2c821368c1dd2f8094be6",
-      "naslov": "Trosoban stan za izdavanje, Nikolaja Kravcova, 4.000€, 86m²",
+      "naslov": "Kula St. Regis │ nesvakidašnji pogled na reku i gr",
       "zgrada": "BW St. Regis",
-      "agencija": null,
+      "agencija": "PropertyBroker",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 86.0,
-      "cena": 4000,
-      "cena_m2": 47,
-      "sprat": null,
+      "cena": 3800,
+      "cena_m2": 44,
+      "sprat": "XXV",
       "izvori": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "dana_na_trzistu": 2,
       "prva_cena": 4000,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -5.0,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
-      "dedup_key": "BW St. Regis|86.0|4000"
+      "last_seen": "2026-10-02",
+      "dedup_key": "BW St. Regis|86.0|3800"
     },
     {
       "id": "d6e8af22135670d3",

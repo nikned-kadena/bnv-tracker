@@ -15283,7 +15283,7 @@
     "a4c7f0a15e439a83": {
       "uid": "a4c7f0a15e439a83",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "5ff6b313b158f9a4",
@@ -15309,7 +15309,7 @@
       "m2": 63.0,
       "sprat": "VII/19",
       "agencija": "PropertyBroker",
-      "naslov": "Dvosoban stan za izdavanje, Hercegovačka, 1.900€, 63m²",
+      "naslov": "BW Residence, teretana, bazen, spa, odmah useljiv.",
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [
@@ -15327,7 +15327,7 @@
       "days_listed": 90,
       "cena_m2": 30,
       "last_seen_src": {
-        "halo": "2026-09-30",
+        "halo": "2026-10-02",
         "4zida": "2026-09-30"
       },
       "fp_nosprat_all": [
@@ -17969,9 +17969,9 @@
     "5162ac967d7761e2": {
       "uid": "5162ac967d7761e2",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-09-20",
-      "is_active": false,
-      "deactivated_at": "2026-09-22",
+      "last_seen": "2026-10-02",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "3e2ecdb251462db8",
       "fp_strict_all": [
         "969370f1a1e3e541",
@@ -18008,8 +18008,15 @@
           "to": 2900
         }
       ],
-      "days_listed": 66,
-      "cena_m2": 47
+      "days_listed": 76,
+      "cena_m2": 47,
+      "last_seen_src": {
+        "halo": "2026-10-02"
+      },
+      "fp_nosprat_all": [
+        "5a9ae83a23e1cfbf"
+      ],
+      "fp_nosprat": "5a9ae83a23e1cfbf"
     },
     "c94999c3d97f78c5": {
       "uid": "c94999c3d97f78c5",
@@ -26904,9 +26911,9 @@
     "17db858ab995d703": {
       "uid": "17db858ab995d703",
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-21",
-      "is_active": false,
-      "deactivated_at": "2026-09-23",
+      "last_seen": "2026-10-02",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "f44213b4f6a09207",
       "fp_strict_all": [
         "5de871e271a65af2"
@@ -26930,8 +26937,15 @@
       "price_first": 2000,
       "price_current": 2000,
       "price_changes": [],
-      "days_listed": 27,
-      "cena_m2": 23
+      "days_listed": 36,
+      "cena_m2": 23,
+      "last_seen_src": {
+        "halo": "2026-10-02"
+      },
+      "fp_nosprat_all": [
+        "f744f560a72d0086"
+      ],
+      "fp_nosprat": "f744f560a72d0086"
     },
     "eedc8702f9878c3a": {
       "uid": "eedc8702f9878c3a",
@@ -33748,38 +33762,49 @@
     "8426c31f93ab3553": {
       "uid": "8426c31f93ab3553",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "dce9b4e7a58168ca",
       "fp_strict_all": [
         "441de1c9d6b3a0e3",
-        "b5b1e17c572a5261"
+        "b5b1e17c572a5261",
+        "afb3cecad8c7ec46"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "source_ids": {
-        "4zida": "4zida:6aa2c821368c1dd2f8094be6"
+        "4zida": "4zida:6aa2c821368c1dd2f8094be6",
+        "halo": "5425647764024"
       },
       "source_urls": [
-        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6aa2c821368c1dd2f8094be6"
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6aa2c821368c1dd2f8094be6",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kula-st-regis-nesvakidasnji-pogled-na-reku-i/5425647764024?kid=4"
       ],
       "zgrada": "BW St. Regis",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 86.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Trosoban stan za izdavanje, Nikolaja Kravcova, 4.000€, 86m²",
+      "sprat": "XXV",
+      "agencija": "PropertyBroker",
+      "naslov": "Kula St. Regis │ nesvakidašnji pogled na reku i gr",
       "price_first": 4000,
-      "price_current": 4000,
-      "price_changes": [],
+      "price_current": 3800,
+      "price_changes": [
+        {
+          "date": "2026-10-02",
+          "from": 4000,
+          "to": 3800
+        }
+      ],
       "days_listed": 2,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-09-30",
+        "halo": "2026-10-02"
       },
-      "cena_m2": 47,
+      "cena_m2": 44,
       "fp_loose_all": [
         "7f651d27e5032824",
         "dce9b4e7a58168ca"
@@ -40577,10 +40602,11 @@
       "price_first": 1800,
       "price_current": 1800,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 16
     }
   },
-  "updated_at": "2026-10-02T06:03:32.013820+00:00",
+  "updated_at": "2026-10-02T10:40:41.913466+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",
