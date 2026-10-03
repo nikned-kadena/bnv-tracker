@@ -295,13 +295,14 @@
     "e9761ab2ecbc8e4f": {
       "uid": "e9761ab2ecbc8e4f",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-24",
-      "is_active": false,
-      "deactivated_at": "2026-09-26",
+      "last_seen": "2026-10-03",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "0c898636aece559c",
       "fp_strict_all": [
         "9957397e0467a1b6",
-        "882d9697d2c7a279"
+        "882d9697d2c7a279",
+        "bb3fe30780334ca6"
       ],
       "sources": [
         "halo"
@@ -320,16 +321,28 @@
       "agencija": "amainvestdoo",
       "naslov": "BW Thalia – premium standard stanovanja",
       "price_first": 1300,
-      "price_current": 1500,
+      "price_current": 1700,
       "price_changes": [
         {
           "date": "2026-06-12",
           "from": 1300,
           "to": 1500
+        },
+        {
+          "date": "2026-10-03",
+          "from": 1500,
+          "to": 1700
         }
       ],
-      "days_listed": 109,
-      "cena_m2": 19
+      "days_listed": 116,
+      "cena_m2": 21,
+      "last_seen_src": {
+        "halo": "2026-10-03"
+      },
+      "fp_nosprat_all": [
+        "cdb6815643ef4254"
+      ],
+      "fp_nosprat": "cdb6815643ef4254"
     },
     "bd7c2bb278751b4f": {
       "uid": "bd7c2bb278751b4f",
@@ -40647,10 +40660,52 @@
       "price_first": 1400,
       "price_current": 1400,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 25
+    },
+    "88a96dcd4504912c": {
+      "uid": "88a96dcd4504912c",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "3cbf8bd77e9c05bd",
+      "fp_loose_all": [
+        "3cbf8bd77e9c05bd"
+      ],
+      "fp_nosprat": "0df5652224c68a03",
+      "fp_nosprat_all": [
+        "0df5652224c68a03"
+      ],
+      "fp_strict_all": [
+        "a197198d163d1ba0"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-03"
+      },
+      "source_ids": {
+        "halo": "5425647769854"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/aurora-2-0-lux-stan/5425647769854?kid=1"
+      ],
+      "zgrada": "BW Aurora",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 57.0,
+      "sprat": "VI/23",
+      "agencija": "milkina-kuca",
+      "naslov": "Aurora-2.0 LUX stan",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-03T06:03:26.593800+00:00",
+  "updated_at": "2026-10-03T10:00:53.723881+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",

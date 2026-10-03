@@ -3,15 +3,17 @@
   "source": "all",
   "date": "2026-10-03",
   "scraped_at": "2026-10-03",
-  "total_raw": 734,
-  "total_unique": 649,
-  "total_dups": 85,
+  "total_raw": 737,
+  "total_unique": 650,
+  "total_dups": 87,
   "diff_new": [
     "ecbc8ff43213ae51",
     "7f233890fc18b005",
     "ff4e1e990f4cb750",
     "c7fb564e775659a4",
-    "9ded92dd547f7800"
+    "9ded92dd547f7800",
+    "6dc813a22be5a476",
+    "8caff048474eb3ab"
   ],
   "diff_removed": [
     "e96f8116c29dfdae",
@@ -1240,7 +1242,7 @@
     {
       "id": "b431a85f89328e17",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-garden-plaza-odlicna-ponuda-pogled-na-grad/5425647241347?kid=1",
-      "naslov": "Dvosoban stan na prodaju, Luke Ćelovića Trebinjca, 246.888€, 54m²",
+      "naslov": "BW Garden Plaza, odlična ponuda, pogled na grad ID",
       "zgrada": "BW Garden Plaza",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
@@ -1257,7 +1259,7 @@
       "prva_cena": 246888,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "dedup_key": "BW Garden Plaza|54.0|246888"
     },
     {
@@ -5979,7 +5981,7 @@
       "prva_cena": 300000,
       "promena_cene_pct": null,
       "first_seen": "2026-08-08",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-03",
       "dedup_key": "BW (neidentifikovano)|54.0|300000"
     },
     {
@@ -6383,6 +6385,28 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-10-03",
       "dedup_key": "BW Sava|49.0|220807"
+    },
+    {
+      "id": "9272e6056b7ee6cf",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-iris-4-0-stan---novo/5425647525608?kid=4",
+      "naslov": "Bw Iris, 4.0 stan - Novo",
+      "zgrada": "BW Iris",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 111.0,
+      "cena": 499500,
+      "cena_m2": 4500,
+      "sprat": "XIII/18",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 35,
+      "prva_cena": 499500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-10-03",
+      "dedup_key": "BW Iris|111.0|499500"
     },
     {
       "id": "78a2d452907ea377",
@@ -16424,6 +16448,50 @@
       "first_seen": "2026-10-03",
       "last_seen": "2026-10-03",
       "dedup_key": "BW Sava|34.0|157171"
+    },
+    {
+      "id": "6dc813a22be5a476",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuz-sa-pogledom-na-savu-bw-residenes-id233/5425647769247?kid=4",
+      "naslov": "Luksuz sa pogledom na Savu BW Residenes ID#2337",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "Milenijumnekretnine",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 166.0,
+      "cena": 1472000,
+      "cena_m2": 8867,
+      "sprat": "XVI/20",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1472000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "dedup_key": "BW (neidentifikovano)|166.0|1472000"
+    },
+    {
+      "id": "8caff048474eb3ab",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-trosoban-stan-78-m-id10466/5425647769255?kid=1",
+      "naslov": "Beograd na vodi, trosoban stan 78 m² ID#10466",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "EUROPOLISNEKRETNINE",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.0,
+      "cena": 346000,
+      "cena_m2": 4436,
+      "sprat": "IV/8",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 346000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "dedup_key": "BW (neidentifikovano)|78.0|346000"
     }
   ]
 }

@@ -3,11 +3,12 @@
   "source": "all",
   "date": "2026-10-03",
   "scraped_at": "2026-10-03",
-  "total_raw": 317,
-  "total_unique": 276,
+  "total_raw": 319,
+  "total_unique": 278,
   "total_dups": 41,
   "diff_new": [
-    "f5e5addec73f9038"
+    "f5e5addec73f9038",
+    "88a96dcd4504912c"
   ],
   "diff_removed": [
     "97b193b9c197f754",
@@ -41,6 +42,28 @@
       "first_seen": "2026-06-09",
       "last_seen": "2026-09-30",
       "dedup_key": "BW St. Regis|144.0|15000"
+    },
+    {
+      "id": "e9761ab2ecbc8e4f",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia-premium-standard-stanovanja/5425647189810?kid=4",
+      "naslov": "BW Thalia – premium standard stanovanja",
+      "zgrada": "BW Thalia",
+      "agencija": "amainvestdoo",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 80.35,
+      "cena": 1700,
+      "cena_m2": 21,
+      "sprat": "VIII/15",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 116,
+      "prva_cena": 1300,
+      "promena_cene_pct": 30.8,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-10-03",
+      "dedup_key": "BW Thalia|80.35|1700"
     },
     {
       "id": "2f60c4f17982feed",
@@ -7100,6 +7123,28 @@
       "first_seen": "2026-10-03",
       "last_seen": "2026-10-03",
       "dedup_key": "BW Iris|55.0|1400"
+    },
+    {
+      "id": "88a96dcd4504912c",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/aurora-2-0-lux-stan/5425647769854?kid=1",
+      "naslov": "Aurora-2.0 LUX stan",
+      "zgrada": "BW Aurora",
+      "agencija": "milkina-kuca",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 57.0,
+      "cena": 1500,
+      "cena_m2": 26,
+      "sprat": "VI/23",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "dedup_key": "BW Aurora|57.0|1500"
     }
   ]
 }
