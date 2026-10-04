@@ -146,7 +146,7 @@ ALIASES = {
     # Sena
     r"\bsena\b":                            "BW Sena",
     # Magnolia
-    r"\bmagnolia\b":                        "BW Magnolia",
+    r"\bmagnoli(?:a|j[aeiu]|e)\b":              "BW Magnolia",   # Magnolia / Magnolija / Magnoliji ...
     # Topaz
     r"\btopaz\b":                           "BW Topaz",
     # Lumia
@@ -170,7 +170,7 @@ ALIASES = {
     # Emerald
     r"\bemerald\b":                         "BW Emerald",
     # Arcadia / Arkadia — sinonimi
-    r"arc?adia|ark?adia":                     "BW Arcadia",
+    r"\bar[ck]?adi(?:a|j[aeiu])\b":             "BW Arcadia",    # Arcadia / Arkadia / Arkadija / Arcadiji ...
     # Nota
     r"\bnota\b":                            "BW Nota",
     # Diva
