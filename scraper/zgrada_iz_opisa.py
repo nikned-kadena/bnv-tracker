@@ -74,6 +74,9 @@ from buildings import (
 # alias r"kula\s*beograd" hvata samo nominativ, pa "Kule/Kuli Beograd"
 # (18 pojava na 79 oglasa) nije prolazio.
 DOPUNSKI = {
+    # "Kula A" (Kuli A, Kule A, Kulu A) = BW Residences (osnivac, 04.10.2026).
+    # PRE "bw kula" da "BW Kula A" ne padne u St. Regis.
+    r"\bkul[aeiou]\s+a\b": "BW Residences",
     r"kul[aeiou]\s*\(?\s*(?:st[\.\s]*regis|saint\s*regis)": "BW St. Regis",
     r"st[\.\s]*regis\s*(?:residences?|belgrade|tower|kul[aeiou])": "BW St. Regis",
     r"saint\s*regis": "BW St. Regis",
@@ -102,6 +105,7 @@ SLABI = {r"\bbw\s*kul[aeiou]\b"}
 # mora imati "bw", "zgrada", "kula", "kompleks", "rezidencija" ili
 # "u okviru" u 40 znakova ispred sebe.
 NEDVOSMISLENI = [
+    r"kul[aeiou]\s+a\b",
     r"st[\.\s]*regis", r"stregis", r"saint\s*regis",
     r"kul[aeiou]\s*beograd", r"belgrade\s*tower",
     r"kings?\s*['’]?\s*park", r"queens?\s*['’]?\s*park",

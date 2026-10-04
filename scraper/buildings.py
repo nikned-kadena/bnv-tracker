@@ -204,6 +204,9 @@ ALIASES = {
     r"\bviktorij[aeiu]\b":                    "BW Victoria",
     # "BW Kula" je marketinsko ime St. Regis-a (potvrdio osnivac 04.10.2026).
     # Na kraju recnika: svaki eksplicitan naziv zgrade ima prednost.
+    # "Kula A" (sa padezima: Kuli A, Kule A, Kulu A) = BW Residences (potvrdio osnivac 04.10.2026).
+    # Mora PRE "bw kula" da "BW Kula A" ne bi pao u St. Regis.
+    r"\bkul[aeiou]\s+a\b":                    "BW Residences",
     r"\bbw\s*kul[aeiou]\b":                   "BW St. Regis",
 }
 
