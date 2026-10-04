@@ -11750,9 +11750,9 @@
     "0c4433a0a89d54f2": {
       "uid": "0c4433a0a89d54f2",
       "first_seen": "2026-06-10",
-      "last_seen": "2026-09-24",
-      "is_active": false,
-      "deactivated_at": "2026-09-26",
+      "last_seen": "2026-10-04",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "afe1424d1644c1ea",
       "fp_strict_all": [
         "b1e72c73c508e48c",
@@ -11784,8 +11784,15 @@
           "to": 441000
         }
       ],
-      "days_listed": 108,
-      "cena_m2": 5188
+      "days_listed": 116,
+      "cena_m2": 5188,
+      "last_seen_src": {
+        "halo": "2026-10-04"
+      },
+      "fp_nosprat_all": [
+        "564e6f444365716c"
+      ],
+      "fp_nosprat": "564e6f444365716c"
     },
     "6d37f8929eb90344": {
       "uid": "6d37f8929eb90344",
@@ -31824,9 +31831,9 @@
     "d4a9c35bb581981f": {
       "uid": "d4a9c35bb581981f",
       "first_seen": "2026-09-04",
-      "last_seen": "2026-09-08",
-      "is_active": false,
-      "deactivated_at": "2026-09-10",
+      "last_seen": "2026-10-04",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "917857cbe806a876",
       "fp_strict_all": [
         "0923499695dddfde"
@@ -31838,7 +31845,8 @@
         "halo": "5425647622297"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/savski-venac-beograd-na-vodi-id1612/5425647622297?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/savski-venac-beograd-na-vodi-id1612/5425647622297?kid=4",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/savski-venac-beograd-na-vodi-id1612/5425647622297?kid=1"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "4.0",
@@ -31850,8 +31858,15 @@
       "price_first": 550000,
       "price_current": 550000,
       "price_changes": [],
-      "days_listed": 6,
-      "cena_m2": 4955
+      "days_listed": 30,
+      "cena_m2": 4955,
+      "last_seen_src": {
+        "halo": "2026-10-04"
+      },
+      "fp_nosprat_all": [
+        "384284c68db00581"
+      ],
+      "fp_nosprat": "384284c68db00581"
     },
     "e726679991433e75": {
       "uid": "e726679991433e75",
@@ -32499,9 +32514,9 @@
     "f7a4947083c6567e": {
       "uid": "f7a4947083c6567e",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-19",
-      "is_active": false,
-      "deactivated_at": "2026-09-21",
+      "last_seen": "2026-10-04",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "fc2d30e19916c67e",
       "fp_strict_all": [
         "dc3a3fb16219f735"
@@ -32525,8 +32540,15 @@
       "price_first": 230888,
       "price_current": 230888,
       "price_changes": [],
-      "days_listed": 16,
-      "cena_m2": 4788
+      "days_listed": 29,
+      "cena_m2": 4788,
+      "last_seen_src": {
+        "halo": "2026-10-04"
+      },
+      "fp_nosprat_all": [
+        "83e5a310ca3427b8"
+      ],
+      "fp_nosprat": "83e5a310ca3427b8"
     },
     "a0ddfc6385ef143d": {
       "uid": "a0ddfc6385ef143d",
@@ -34754,7 +34776,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-bw-dolce-134-m2/5425647685456?kid=4",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-bw-dolce-134-m2/5425647685456?kid=3"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-bw-dolce-134-m2/5425647685456?kid=3",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-bw-dolce-134-m2/5425647685456"
       ],
       "zgrada": "BW Dolce",
       "struktura": "3.0",
@@ -52920,10 +52943,11 @@
       "price_first": 1197000,
       "price_current": 1197000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 8143
     }
   },
-  "updated_at": "2026-10-04T06:02:40.576985+00:00",
+  "updated_at": "2026-10-04T10:43:18.830550+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",
