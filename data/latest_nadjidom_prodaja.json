@@ -334,7 +334,7 @@
       "id": "181495e1bd881fe1",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/savska-4-0-99m2-uknjizen-id14513/5425646921743?kid=1",
       "naslov": "Savska, 4.0, 99m2, uknjižen ID#14513",
-      "zgrada": "BW St. Regis",
+      "zgrada": "BW (neidentifikovano)",
       "agencija": "art-nekretnine-d-o-o",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
@@ -352,10 +352,11 @@
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
       "last_seen": "2026-10-04",
-      "dedup_key": "BW St. Regis|99.0|380000",
-      "zgrada_izvor": "ulica",
+      "dedup_key": "BW (neidentifikovano)|99.0|380000",
+      "zgrada_izvor": "ispravljeno",
       "tip_prodaje": "resale",
-      "cena_m2_sumnjiva": true
+      "zgrada_orig": "BW St. Regis",
+      "cena_m2_sumnjiva": false
     },
     {
       "id": "c9fdd0c8acdc4688",
@@ -676,7 +677,7 @@
       "first_seen": "2026-07-15",
       "last_seen": "2026-09-30",
       "dedup_key": "BW St. Regis|76.0|698888",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "tip_prodaje": "direktna",
       "cena_m2_sumnjiva": false
     },
@@ -711,7 +712,7 @@
       "id": "e06c7e964489213e",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-viktorija-v-xv-3-lifta-recepcija-bazen/5425647522307?kid=1",
       "naslov": "BW; Viktorija; V/ XV; 3 lifta, recepcija, bazen,",
-      "zgrada": "BW (neidentifikovano)",
+      "zgrada": "BW Victoria",
       "agencija": "Gradnekretnine",
       "struktura": "2.0",
       "str_label": "Dvosoban",
@@ -728,9 +729,10 @@
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
       "last_seen": "2026-10-04",
-      "dedup_key": "BW (neidentifikovano)|67.0|405000",
-      "zgrada_izvor": "opis",
+      "dedup_key": "BW Victoria|67.0|405000",
+      "zgrada_izvor": "ispravljeno",
       "tip_prodaje": "resale",
+      "zgrada_orig": "BW (neidentifikovano)",
       "cena_m2_sumnjiva": false
     },
     {
@@ -898,7 +900,7 @@
       "id": "a74c036d36c2f870",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-pogled-na-reku-bazen-spa-id4960/5425647732424?kid=1",
       "naslov": "BW Luna, pogled na reku, bazen, spa ID#4960",
-      "zgrada": "BW St. Regis",
+      "zgrada": "BW Luna",
       "agencija": "PropertyBroker",
       "struktura": "2.0",
       "str_label": "Dvosoban",
@@ -916,9 +918,10 @@
       "promena_cene_pct": 1.4,
       "first_seen": "2026-09-26",
       "last_seen": "2026-10-04",
-      "dedup_key": "BW St. Regis|54.0|364888",
-      "zgrada_izvor": "opis",
+      "dedup_key": "BW Luna|54.0|364888",
+      "zgrada_izvor": "ispravljeno",
       "tip_prodaje": "direktna",
+      "zgrada_orig": "BW St. Regis",
       "cena_m2_sumnjiva": false
     },
     {
@@ -952,7 +955,7 @@
       "id": "d5a67ad3d9b7426a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-izuzetan-stan-pogled-ka-reci-id1309/5425647752414?kid=1",
       "naslov": "BW Luna, izuzetan stan, pogled ka reci ID#1309",
-      "zgrada": "BW (neidentifikovano)",
+      "zgrada": "BW Luna",
       "agencija": "Legacy ",
       "struktura": "3.0",
       "str_label": "Trosoban",
@@ -970,9 +973,10 @@
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-10-04",
-      "dedup_key": "BW (neidentifikovano)|84.0|538888",
-      "zgrada_izvor": "opis",
+      "dedup_key": "BW Luna|84.0|538888",
+      "zgrada_izvor": "ispravljeno",
       "tip_prodaje": "direktna",
+      "zgrada_orig": "BW (neidentifikovano)",
       "cena_m2_sumnjiva": false
     },
     {
@@ -1309,7 +1313,7 @@
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
       "dedup_key": "BW St. Regis|109.0|1073888",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "tip_prodaje": "direktna",
       "cena_m2_sumnjiva": false
     },
@@ -1680,7 +1684,7 @@
       "id": "d6ccad30f77e844d",
       "url": "https://www.nadjidom.com/sr/details/2357678/Beograd-Savski+Venac-Beograd+na+vodi-Prodaja-Stan.html",
       "naslov": "BW Luna, ugaoni, vrhunski pogled ka reci ID#1310",
-      "zgrada": "BW (neidentifikovano)",
+      "zgrada": "BW Luna",
       "agencija": "Legacy ",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
@@ -1696,9 +1700,10 @@
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "dedup_key": "BW (neidentifikovano)|114.0|765888",
-      "zgrada_izvor": "opis",
+      "dedup_key": "BW Luna|114.0|765888",
+      "zgrada_izvor": "ispravljeno",
       "tip_prodaje": "direktna",
+      "zgrada_orig": "BW (neidentifikovano)",
       "cena_m2_sumnjiva": false
     },
     {
@@ -1922,7 +1927,7 @@
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
       "dedup_key": "BW St. Regis|60.0|585000",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "tip_prodaje": "resale",
       "cena_m2_sumnjiva": false
     },
@@ -2230,7 +2235,7 @@
       "id": "90f325991ec9ab1d",
       "url": "https://www.nadjidom.com/sr/details/2341897/Beograd-Savski+Venac-Beograd+na+vodi-Prodaja-Stan.html",
       "naslov": "Sonata, pogled ka gradu, bez provizije, cena samo danas ID#1303",
-      "zgrada": "BW Iris",
+      "zgrada": "BW Sonata",
       "agencija": "Legacy ",
       "struktura": "2.0",
       "str_label": "Dvosoban",
@@ -2246,9 +2251,10 @@
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "dedup_key": "BW Iris|49.0|238888",
-      "zgrada_izvor": "opis",
+      "dedup_key": "BW Sonata|49.0|238888",
+      "zgrada_izvor": "ispravljeno",
       "tip_prodaje": "direktna",
+      "zgrada_orig": "BW Iris",
       "cena_m2_sumnjiva": false
     }
   ]

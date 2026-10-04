@@ -4,8 +4,8 @@
   "date": "2026-10-04",
   "scraped_at": "2026-10-04",
   "total_raw": 221,
-  "total_unique": 196,
-  "total_dups": 25,
+  "total_unique": 195,
+  "total_dups": 26,
   "diff_new": [],
   "diff_removed": [],
   "listings": [
@@ -1155,7 +1155,7 @@
       "first_seen": "2026-07-29",
       "last_seen": "2026-10-04",
       "dedup_key": "BW St. Regis|76.0|4000",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     },
@@ -1687,7 +1687,7 @@
       "id": "f71bafca5eaa3c57",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/residences-kula-b---bw---izdavanje/5425647698241?kid=3",
       "naslov": "BW - Residences Kula B - izdavanje",
-      "zgrada": "BW (neidentifikovano)",
+      "zgrada": "BW Residences",
       "agencija": "MaxisGroup1",
       "struktura": "3.0",
       "str_label": "Trosoban",
@@ -1704,9 +1704,10 @@
       "promena_cene_pct": null,
       "first_seen": "2026-09-19",
       "last_seen": "2026-10-03",
-      "dedup_key": "BW (neidentifikovano)|147.0|3500",
-      "zgrada_izvor": "opis",
+      "dedup_key": "BW Residences|147.0|3500",
+      "zgrada_izvor": "ispravljeno",
       "tip_prodaje": null,
+      "zgrada_orig": "BW (neidentifikovano)",
       "cena_m2_sumnjiva": false
     },
     {
@@ -3106,7 +3107,7 @@
       "id": "2fadb9de758133f7",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/68db30827a578d5d670668c1",
       "naslov": "Trosoban stan za izdavanje, Savska ulica, 1.600€, 94m²",
-      "zgrada": "BW St. Regis",
+      "zgrada": "BW (neidentifikovano)",
       "agencija": null,
       "struktura": "3.0",
       "str_label": "Trosoban",
@@ -3122,10 +3123,11 @@
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "dedup_key": "BW St. Regis|94.0|1600",
-      "zgrada_izvor": "ulica",
+      "dedup_key": "BW (neidentifikovano)|94.0|1600",
+      "zgrada_izvor": "ispravljeno",
       "tip_prodaje": null,
-      "cena_m2_sumnjiva": true
+      "zgrada_orig": "BW St. Regis",
+      "cena_m2_sumnjiva": false
     },
     {
       "id": "a8c1474efc277aa6",
@@ -4261,7 +4263,7 @@
       "id": "60d38e95495734b1",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6a705b853c8d44ec5d08d92b",
       "naslov": "Dvosoban stan za izdavanje, Savska, 1.800€, 56m²",
-      "zgrada": "BW St. Regis",
+      "zgrada": "BW Echo",
       "agencija": null,
       "struktura": "2.0",
       "str_label": "Dvosoban",
@@ -4277,9 +4279,10 @@
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "dedup_key": "BW St. Regis|56.0|1800",
-      "zgrada_izvor": "ulica",
+      "dedup_key": "BW Echo|56.0|1800",
+      "zgrada_izvor": "opis_agenta",
       "tip_prodaje": null,
+      "zgrada_orig": "BW St. Regis",
       "cena_m2_sumnjiva": false
     },
     {
@@ -4311,7 +4314,7 @@
       "id": "59243cd458ea8da2",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/petosoban-stan/67db19fb35125503500bf667",
       "naslov": "Petosoban stan za izdavanje, Savska, 4.100€, 250m²",
-      "zgrada": "BW St. Regis",
+      "zgrada": "BW Quartet 1",
       "agencija": null,
       "struktura": "5.0",
       "str_label": "Petosoban+",
@@ -4327,10 +4330,11 @@
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "dedup_key": "BW St. Regis|250.0|4100",
-      "zgrada_izvor": "ulica",
+      "dedup_key": "BW Quartet 1|250.0|4100",
+      "zgrada_izvor": "opis_agenta",
       "tip_prodaje": null,
-      "cena_m2_sumnjiva": true
+      "zgrada_orig": "BW St. Regis",
+      "cena_m2_sumnjiva": false
     },
     {
       "id": "c518445abedd8ea6",
@@ -5038,7 +5042,7 @@
       "id": "2dae630ab37891c7",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6a74b81380ce79af250c1f67",
       "naslov": "Četvorosoban stan za izdavanje, BW Kula, 10.000€, 160m²",
-      "zgrada": "BW Nova",
+      "zgrada": "BW St. Regis",
       "agencija": null,
       "struktura": "4.0",
       "str_label": "Četvorosoban",
@@ -5054,9 +5058,10 @@
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "dedup_key": "BW Nova|160.0|10000",
-      "zgrada_izvor": "opis",
+      "dedup_key": "BW St. Regis|160.0|10000",
+      "zgrada_izvor": "ispravljeno",
       "tip_prodaje": null,
+      "zgrada_orig": "BW Nova",
       "cena_m2_sumnjiva": false
     },
     {
