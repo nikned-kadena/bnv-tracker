@@ -58,6 +58,13 @@ ALL_BUILDINGS = [
     "BW Nova",
     "BW Alegra",
     "BW Sava",
+    # Dodato 04.10.2026 — u izgradnji (ne ulaze u izvestaje o gotovim stanovima)
+    "BW Azura",
+    "BW Luna",
+    "BW Echo",
+    "BW Vapa",
+    "BW Sonata",
+    "BW Garden Palace",
 ]
 
 ALIASES = {
@@ -84,7 +91,7 @@ ALIASES = {
     # Riva — \b granice sprečavaju koliziju sa "riviera" (nema granice posle "riva" u "riviera")
     r"\briva\b":                              "BW Riva",
     # BW Residences — SAMO ako je eksplicitno "BW" ispred
-    r"bw\s+residenc[eyi]":                   "BW Residences",
+    r"bw[\s\-\u2013]*residen(?:c[eyi]|es)":      "BW Residences",   # BW Residences / BW-Residences / Residenes
     # Bristol Residence — mora biti pre King's/Queen's Park da ne bi "The Bristol" završio u parku
     r"bristol\s+residenc|the\s+bristol":     "BW Bristol",
     # King's Park — sa i bez apostrofa, i samo King
@@ -185,6 +192,19 @@ ALIASES = {
     r"\bsava\b":                             "BW Sava",
     # Sky
     r"\bsky\b":                               "BW Sky",
+    # ── Dodato 04.10.2026 ─────────────────────────────────────────────
+    # Zgrade u izgradnji (Azura, Luna, Echo, Vapa, Sonata, Garden Palace)
+    r"\bazura\b":                             "BW Azura",
+    r"\bluna\b":                              "BW Luna",
+    r"\becho\b":                              "BW Echo",
+    r"\bvapa\b":                              "BW Vapa",
+    r"\bsonata\b":                            "BW Sonata",
+    r"garden\s*palace":                       "BW Garden Palace",
+    # Viktorija = Victoria (srpska transkripcija)
+    r"\bviktorij[aeiu]\b":                    "BW Victoria",
+    # "BW Kula" je marketinsko ime St. Regis-a (potvrdio osnivac 04.10.2026).
+    # Na kraju recnika: svaki eksplicitan naziv zgrade ima prednost.
+    r"\bbw\s*kul[aeiou]\b":                   "BW St. Regis",
 }
 
 # Oglasi koji izgledaju kao BW ali nisu — preskočiti identifikaciju
@@ -197,6 +217,11 @@ NOT_BW = [
     r"durmitorska",               # Durmitorska — nije BW
     r"mihaila\s*bogićevića|mihaila\s*bogicevica",  # Mihaila Bogićevića — nije BW
     r"vojvode\s*milenka",        # Vojvode Milenka — nije BW
+    # Dodato 04.10.2026 — nadjeno medju neidentifikovanim oglasima
+    r"skyline\s*belgrade",       # Skyline Belgrade — Kneza Miloša
+    r"kneza\s*milo[sš]a",        # Kneza Miloša — nije BW
+    r"kraljevi[cć]a\s*marka",    # Kraljevića Marka (preko puta hotela Bristol) — nije BW
+    r"kralja\s*aleksandra",      # Bul. kralja Aleksandra ("BG Echo") — nije BW
 ]
 
 ADDRESS_MAP = {
