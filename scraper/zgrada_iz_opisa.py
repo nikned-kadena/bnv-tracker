@@ -127,6 +127,10 @@ NEG_PRE = re.compile(
     re.I,
 )
 
+LANDMARK_PRE = re.compile(
+    r"(?:nalaz\w*\s+se|pru[zž]\w*\s+se|sa\s+terase|sa\s+balkon|iz\s+stana|prozor\w*|koraka|minut\w*"
+    r"|promenad\w*|galerij\w*|okru[zž]enj\w*|blizin\w*|pogled\w*)", re.I)
+
 # Cue POSLE imena: rec je o sadrzajima hotela, ne o adresi stana.
 NEG_POST = re.compile(
     r"(?:hotel\w*|\bbar\b|\bspa\b|restoran\w*|\blounge\b|kafe\w*|brend\w*)",
@@ -230,6 +234,17 @@ def zgrada_iz_opisa(opis: str, sprat=None, detaljno: bool = False):
                 continue
 
             kvalif = bool(KVALIFIKATOR.search(pre[-40:])) or deo.startswith("bw")
+
+            # "Kula Beograd" je i LANDMARK (vidi se sa pola komplexa): u
+            # nabrajanju okoline ("nalaze se Sava promenada, Galerija, Kula
+            # Beograd", "pogled na park, TC Galeriju, Kulu Beograd") nije adresa
+            # stana. Bez kvalifikatora prolazi samo na pocetku oglasa i bez
+            # cue-a okoline u prethodnih 120 znakova (04.10.2026: 207k za 35 m2
+            # i 346k za 79 m2 su vodjeni kao St. Regis zbog ovoga).
+            if (not kvalif and re.search(r"kul[aeiou]\s*beograd|belgrade\s*tower", deo)
+                    and (m.start() >= 150 or LANDMARK_PRE.search(s[max(0, m.start() - 120):m.start()]))):
+                obrazlozenje.append(f"'{deo}'@{m.start()} odbijen (landmark u okruzenju)")
+                continue
             if not (kvalif or _nedvosmislen(deo)):
                 obrazlozenje.append(f"'{deo}'@{m.start()} odbijen (bez kvalifikatora)")
                 continue
