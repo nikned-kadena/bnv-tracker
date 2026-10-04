@@ -95,15 +95,34 @@ def iz_naslova(naslov, sprat=None):
     return None
 
 
+_ISPRAVKE = {}
+
+
+def rucna_ispravka(e):
+    """data/ispravke_rucno.json: {halo_ili_4zida_id: {polje: vrednost}} — rucne ispravke
+    podataka oglasa (npr. pogresna struktura u naslovu). Dozvoljena polja: struktura,
+    str_label, m2, cena. Vraca dict ili {}."""
+    for u in (e.get("source_urls") or []):
+        for kljuc, ispr in _ISPRAVKE.items():
+            if kljuc in (u or ""):
+                return ispr
+    return {}
+
+
 _RUCNO = {}
 
 
 def _ucitaj_rucno(data_dir):
     """data/zgrada_rucno.json: {halo_id_ili_deo_url: zgrada} — ruzna potvrda
     osnivaca iz opisa oglasa. Ima prednost nad svim pravilima."""
-    global _RUCNO
+    global _RUCNO, _ISPRAVKE
     import json
     from pathlib import Path
+    try:
+        raw = json.loads((Path(data_dir) / "ispravke_rucno.json").read_text(encoding="utf-8"))
+        _ISPRAVKE = {k: v for k, v in raw.items() if not k.startswith("_")}
+    except Exception:
+        _ISPRAVKE = {}
     try:
         raw = json.loads((Path(data_dir) / "zgrada_rucno.json").read_text(encoding="utf-8"))
         _RUCNO = {k: v for k, v in raw.items() if not k.startswith("_")}

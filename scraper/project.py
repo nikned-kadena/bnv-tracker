@@ -66,6 +66,10 @@ def _ispravan(e: dict, mode: str) -> bool:
 def _listing(e: dict, mode: str = "prodaja") -> dict:
     """Zapis iz registra -> oblik koji dashboard ocekuje u `listings`."""
     zgrada, zgrada_izvor, zgrada_orig = _kl.ispravi_zgradu(e)
+    _isp = _kl.rucna_ispravka(e)
+    if _isp:
+        e = {**e, **{k: v for k, v in _isp.items() if k in ("struktura", "str_label", "m2")},
+             **({"price_current": _isp["cena"]} if "cena" in _isp else {})}
     agencija, ag_izvor, posrednik = _kl.agencija_za(e)
     out = {
         "id": e.get("uid"),
