@@ -68,8 +68,8 @@ const mergeDup = (list)=>{
     const k=l.dedup_key||l.id;
     const ag=l.agencija||null;
     const e=m.get(k);
-    if(!e){ m.set(k,{...l,_n:1,_agencije:ag?[ag]:[],_urls:[l.url]}); continue; }
-    e._n++;
+    if(!e){ m.set(k,{...l,_n:1,_agencije:ag?[ag]:[],_urls:[l.url],_raw:[l]}); continue; }
+    e._n++; e._raw.push(l);
     if(ag && !e._agencije.includes(ag)) e._agencije.push(ag);
     if(l.url && !e._urls.includes(l.url)) e._urls.push(l.url);
     if(!e.sprat && l.sprat) e.sprat=l.sprat;
@@ -118,6 +118,7 @@ const DUP_RATIO = 1.05;
 const mergeCluster = (arr)=>{
   const r={...arr[0]};
   r._n=arr.reduce((a,x)=>a+(x._n||1),0);
+  r._raw=arr.flatMap(x=>x._raw||[x]);
   r._agencije=[...new Set(arr.flatMap(x=>x._agencije||[]))];
   r._urls=[...new Set(arr.flatMap(x=>x._urls||[x.url]))];
   r._cene=[...new Set(arr.map(x=>x.cena).filter(Boolean))].sort((a,b)=>a-b);
@@ -125,12 +126,6 @@ const mergeCluster = (arr)=>{
   return r;
 };
 const dedupeListings = (list)=>clusterListings(mergeDup(list),DUP_RATIO).map(c=>c.length>1?mergeCluster(c):c[0]);
-// SLICNI = vizuelno grupisanje sireg praga (cena do 5%, nakon spajanja); nikad se ne spaja.
-const groupSimilar = (list)=>{
-  const out=new Map(); let gi=0;
-  for(const g of clusterListings(list,DUP_RATIO)){ if(g.length>1){ gi++; for(const x of g) out.set(x.dedup_key||x.id,{g:gi,n:g.length}); } }
-  return out;
-};
 const GRP_COLORS=["#6366F1","#F59E0B","#10B981","#EF4444","#06B6D4","#A855F7","#84CC16","#F97316"];
 const median = a=>{ if(!a.length) return null; const v=[...a].sort((x,y)=>x-y); const h=v.length>>1; return v.length%2?v[h]:(v[h-1]+v[h])/2; };
 const srcTag = u=> /halooglasi/.test(u)?"H":/4zida/.test(u)?"4Z":/nadjidom/.test(u)?"ND":"↗";
@@ -653,7 +648,6 @@ export default function Dashboard() {
   // Jedinstvene nekretnine u izabranim zgradama (sve strukture): tacni duplikati + cena do 5%.
   const uniqFiltered = useMemo(()=>dedupeListings(bldFiltered),[bldFiltered]);
   const uniqScoped = useMemo(()=> selStr ? uniqFiltered.filter(l=>l.struktura===selStr) : uniqFiltered,[uniqFiltered,selStr]);
-  const simGroups = useMemo(()=>groupSimilar(uniqScoped),[uniqScoped]);
 
   const segByStr = useMemo(()=>{
     const result={};
@@ -770,10 +764,13 @@ export default function Dashboard() {
   const agListings = useMemo(()=>saleFiltered,[saleFiltered]);
 
   const filtered = useMemo(()=>{
-    let d=uniqScoped;   // vec spojeni duplikati
+    // Svaki oglas ima SVOJ red. Duplikati (isti stan) su klaster: _g = id klastera, _gn = velicina.
+    let d=uniqScoped.flatMap((c,ci)=>{
+      const raw=c._raw&&c._raw.length>1?c._raw:null;
+      return (c._raw||[c]).map(r=>raw?{...r,_g:ci+1,_gn:raw.length}:r);
+    });
     if(showNew)           d=d.filter(l=>newKeys.has(l.dedup_key));
-    if(search)            d=d.filter(l=>(l.zgrada+(l.naslov||"")+(l._agencije||[]).join(" ")).toLowerCase().includes(search.toLowerCase()));
-    d=d.map(l=>{const g=simGroups.get(l.dedup_key||l.id); return g?{...l,_g:g.g,_gn:g.n}:l;});
+    if(search)            d=d.filter(l=>(l.zgrada+(l.naslov||"")+(l.agencija||"")).toLowerCase().includes(search.toLowerCase()));
     const sorted=d.slice().sort((a,b)=>{
       const agLabel = x => srcCfg.agMode==="slug" ? (agMapping[x.agencija]||x.agencija||"") : (x.agencija||"");
       const v=x=>sortKey==="zgrada"?(x.zgrada||""):sortKey==="str"?parseFloat(x.struktura||99):sortKey==="m2"?(x.m2||0):sortKey==="cena"?(x.cena||0):sortKey==="agencija"?agLabel(x):(x.cena_m2||0);
@@ -793,7 +790,7 @@ export default function Dashboard() {
       out.push(...sorted.filter(x=>x._g===l._g).sort((a,b)=>(a.cena||0)-(b.cena||0)));
     }
     return out;
-  },[uniqScoped,simGroups,grupisi,showNew,newKeys,search,sortKey,sortDir,agMapping,srcCfg]);
+  },[uniqScoped,grupisi,showNew,newKeys,search,sortKey,sortDir,agMapping,srcCfg]);
 
   const toggleSort=k=>{if(sortKey===k)setSortDir(d=>-d);else{setSortKey(k);setSortDir(1);}};
   const toggleBld=z=>setSelBlds(prev=>prev.includes(z)?prev.filter(x=>x!==z):[...prev,z]);
@@ -919,7 +916,7 @@ export default function Dashboard() {
           {/* KPI row — preko celog ekrana (kao NB) */}
           <div style={{display:"grid",gridTemplateColumns:isMobile?"repeat(2,1fr)":"repeat(auto-fit,minmax(170px,1fr))",gap:10,marginBottom:16}}>
             <KPI label="Unique nekretnine" value={fmt(summary.cnt)} sub={isFiltered?`u selekciji · od ${latest?.total_unique} ukupno`:`${summary.raw} oglasa, ${summary.dups} dup.`}/>
-            <KPI label="Duplikati" value={fmt(summary.dups)} sub={`${summary.raw} oglasa → ${summary.cnt} nekretnina${simGroups.size?` · još ${simGroups.size} oglasa u grupama sličnih oglasa`:""}`}/>
+            <KPI label="Duplikati" value={fmt(summary.dups)} sub={`${summary.raw} oglasa → ${summary.cnt} nekretnina`}/>
             <div onClick={()=>{setShowNew(true);setTab("listinzi");}} style={{cursor:"pointer"}}>
               <KPI label="Novi danas ↗" value={`+${diffSummary.newCount}`} sub={`−${diffSummary.removedCount} skinuto · klikni`} valueColor={C.green}/>
             </div>
@@ -1121,8 +1118,8 @@ export default function Dashboard() {
                 <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Pretraži oglase, agenciju..."
                   style={{flex:1,minWidth:120,fontSize:13,padding:"7px 12px",border:`1px solid ${C.border}`,borderRadius:8,outline:"none"}}/>
                 {showNew&&<span style={{padding:"4px 10px",borderRadius:20,background:C.green+"18",color:C.green,fontSize:12,fontWeight:600}}>🟢 Novi ({diffSummary.newCount})</span>}
-                <label style={{fontSize:12,color:C.textS,display:"flex",alignItems:"center",gap:5,cursor:"pointer",whiteSpace:"nowrap"}} title="Isti zgrada i struktura, m² u okviru 1, cena u okviru 5%, isti sprat (ili nepoznat). Samo vizuelno grupisanje.">
-                  <input type="checkbox" checked={grupisi} onChange={e=>setGrupisi(e.target.checked)}/> Grupiši slične oglase
+                <label style={{fontSize:12,color:C.textS,display:"flex",alignItems:"center",gap:5,cursor:"pointer",whiteSpace:"nowrap"}} title="Duplikati (isti stan: ista zgrada i struktura, m² u okviru 1, cena do 5%, isti sprat ili nepoznat) stoje jedan ispod drugog u okviru. Svaki oglas zadržava svoj red.">
+                  <input type="checkbox" checked={grupisi} onChange={e=>setGrupisi(e.target.checked)}/> Grupiši duplikate
                 </label>
                 <span style={{fontSize:12,color:C.textS}}>{filtered.length} res.</span>
                 {(selStr||selBlds.length>0||search||showNew)&&(
@@ -1144,16 +1141,21 @@ export default function Dashboard() {
                     </tr>
                   </thead>
                   <tbody>
-                    {filtered.map(l=>{
+                    {filtered.map((l,idx)=>{
                       const col=STR_COLOR[l.struktura]??"#9CA3AF";
                       const lbl=STR_LABEL[l.struktura]??l.str_label??"–";
                       const isNew=newKeys.has(l.dedup_key||l.id);
+                      const inG = grupisi && !!l._g;
+                      const gCol = inG ? GRP_COLORS[(l._g-1)%GRP_COLORS.length] : null;
+                      const first = inG && filtered[idx-1]?._g!==l._g;
+                      const last  = inG && filtered[idx+1]?._g!==l._g;
+                      let gPos=1; if(inG){ for(let k=idx-1;k>=0&&filtered[k]._g===l._g;k--) gPos++; }
                       const grpBg=(x,nw)=> grupisi&&x._g ? GRP_COLORS[(x._g-1)%GRP_COLORS.length]+"0F" : (nw&&showNew?C.green+"0A":"transparent");
                       const agNaziv = srcCfg.agMode==="slug"
                         ? (l.agencija ? (agMapping[l.agencija]||l.agencija) : null)
                         : (l.agencija||null);
                       return (
-                        <tr key={l.dedup_key||l.id} style={{borderBottom:`1px solid ${C.border}`,background:grpBg(l,isNew),boxShadow:grupisi&&l._g?`inset 4px 0 0 ${GRP_COLORS[(l._g-1)%GRP_COLORS.length]}`:"none"}}
+                        <tr key={l.dedup_key||l.id} style={{borderBottom:last?`2px solid ${gCol}`:`1px solid ${inG?gCol+"33":C.border}`,borderTop:first?`2px solid ${gCol}`:undefined,background:grpBg(l,isNew),boxShadow:inG?`inset 5px 0 0 ${gCol}`:"none"}}
                           onMouseEnter={e=>e.currentTarget.style.background="#F9FAFB"}
                           onMouseLeave={e=>e.currentTarget.style.background=grpBg(l,isNew)}>
                           <td style={{padding:"10px 16px",fontWeight:500,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
@@ -1161,7 +1163,7 @@ export default function Dashboard() {
                               <div style={{width:8,height:8,borderRadius:"50%",background:col,flexShrink:0}}/>
                               <span style={{overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{l.zgrada?.replace("BW ","")}</span>
                               {isNew&&showNew&&<span style={{fontSize:10,fontWeight:700,color:C.green,marginLeft:2}}>NEW</span>}
-                              {grupisi&&l._g&&<span title={`Slični oglasi (mogući isti stan): ${l._gn} u grupi`} style={{fontSize:10,fontWeight:700,color:GRP_COLORS[(l._g-1)%GRP_COLORS.length],marginLeft:2}}>⇄{l._gn}</span>}
+                              {inG&&<span title={`Duplikat: ${gPos}. od ${l._gn} oglasa za isti stan`} style={{fontSize:10,fontWeight:700,color:gCol,marginLeft:2,whiteSpace:"nowrap"}}>dup {gPos}/{l._gn}</span>}
                             </div>
                           </td>
                           <td style={{padding:"10px 16px",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",fontSize:12,color:agNaziv?C.text:C.textXS}}>{agNaziv||"–"}{l._agencije&&l._agencije.length>1&&<span title={l._agencije.join(", ")} style={{marginLeft:5,fontSize:10,fontWeight:700,color:C.textS,background:"#F3F4F6",borderRadius:8,padding:"1px 5px"}}>+{l._agencije.length-1}</span>}</td>
