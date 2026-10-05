@@ -127,6 +127,14 @@ const mergeCluster = (arr)=>{
 };
 const dedupeListings = (list)=>clusterListings(mergeDup(list),DUP_RATIO).map(c=>c.length>1?mergeCluster(c):c[0]);
 const GRP_COLORS=["#6366F1","#F59E0B","#10B981","#EF4444","#06B6D4","#A855F7","#84CC16","#F97316"];
+// Prikaz sprata: rimski -> arapski ("XXV/30" -> "25/30"), ostalo (PR, VPR, 24...) ostaje kako jeste.
+const fmtSprat = (x)=>{
+  if(!x) return "–";
+  const [a,...rest]=String(x).split("/");
+  const n=spratNum(a);
+  const tail=rest.map(r=>{const k=spratNum(r); return k!=null?String(k):r.trim();});
+  return [n!=null?String(n):a.trim(),...tail].join("/");
+};
 const median = a=>{ if(!a.length) return null; const v=[...a].sort((x,y)=>x-y); const h=v.length>>1; return v.length%2?v[h]:(v[h-1]+v[h])/2; };
 const srcTag = u=> /halooglasi/.test(u)?"H":/4zida/.test(u)?"4Z":/nadjidom/.test(u)?"ND":"↗";
 const fmt       = n => n==null?"–":new Intl.NumberFormat("sr-RS").format(Math.round(n));
@@ -1174,7 +1182,7 @@ export default function Dashboard() {
                             {mode==="renta"&&l.cena?<span style={{fontSize:11,fontWeight:400,color:C.textS}}>/mj</span>:null}
                           </td>
                           {mode==="prodaja"&&<td style={{padding:"10px 16px",color:C.textS,textAlign:"right"}}>{l.cena_m2?fmt(l.cena_m2):"–"}</td>}
-                          <td style={{padding:"10px 16px",color:C.textS,fontSize:12}}>{l.sprat||"–"}</td>
+                          <td style={{padding:"10px 16px",color:C.textS,fontSize:12}}>{fmtSprat(l.sprat)}</td>
                           <td style={{padding:"10px 16px",textAlign:"right"}}>{(l._urls&&l._urls.length>1?l._urls:[l.url]).map(u=><a key={u} href={u} target="_blank" rel="noreferrer" title={u} style={{color:C.blue,textDecoration:"none",fontSize:l._urls&&l._urls.length>1?10:16,fontWeight:700,marginLeft:4}}>{l._urls&&l._urls.length>1?srcTag(u):"↗"}</a>)}</td>
                         </tr>
                       );
