@@ -89,11 +89,11 @@ const spratNum = (x)=>{
   }
   return null;
 };
-// "Moguci isti stan": ista zgrada+struktura, m2 u okviru 1 m2, cena u okviru 25%,
+// "Moguci isti stan": ista zgrada+struktura, m2 u okviru 1 m2, cena u okviru 5%,
 // sprat isti ili nepoznat kod bar jednog. Cene NE moraju da budu iste - bas to
 // hvata isti stan koji dve agencije nude po razlicitoj ceni. Samo vizuelno
 // grupisanje, nikad spajanje: brojevi u karticama ostaju na tacnim duplikatima.
-const groupSimilar = (list)=>{
+const clusterListings = (list, maxRatio)=>{
   const items=list.map(l=>({l,sp:spratNum(l.sprat)}))
     .sort((a,b)=>(a.sp==null)-(b.sp==null) || (a.l.m2||0)-(b.l.m2||0));
   const groups=[];
@@ -101,7 +101,7 @@ const groupSimilar = (list)=>{
     if(g.key!==(it.l.zgrada+"|"+it.l.struktura)) return false;
     if(Math.abs((x.l.m2||0)-(it.l.m2||0))>1) return false;
     if(x.sp!=null && it.sp!=null && x.sp!==it.sp) return false;
-    if(x.l.cena && it.l.cena){ const r=Math.max(x.l.cena,it.l.cena)/Math.min(x.l.cena,it.l.cena); if(r>1.25) return false; }
+    if(x.l.cena && it.l.cena){ const r=Math.max(x.l.cena,it.l.cena)/Math.min(x.l.cena,it.l.cena); if(r>maxRatio) return false; }
     return true;
   });
   for(const it of items){
@@ -110,8 +110,25 @@ const groupSimilar = (list)=>{
     const best=cands.find(g=>g.items.some(x=>x.sp!=null&&x.sp===it.sp)) || cands[0];
     if(best) best.items.push(it); else groups.push({key:it.l.zgrada+"|"+it.l.struktura,items:[it]});
   }
+  return groups.map(g=>g.items.map(x=>x.l));
+};
+// DUPLIKAT = isti stan: cena do 5% razlike (sve preko toga verovatnije nije isti stan).
+// Spaja se u jedan red, pa je to ono sto kartice broje.
+const DUP_RATIO = 1.05;
+const mergeCluster = (arr)=>{
+  const r={...arr[0]};
+  r._n=arr.reduce((a,x)=>a+(x._n||1),0);
+  r._agencije=[...new Set(arr.flatMap(x=>x._agencije||[]))];
+  r._urls=[...new Set(arr.flatMap(x=>x._urls||[x.url]))];
+  r._cene=[...new Set(arr.map(x=>x.cena).filter(Boolean))].sort((a,b)=>a-b);
+  for(const x of arr){ if(!r.sprat && x.sprat) r.sprat=x.sprat; if(!r.agencija && x.agencija) r.agencija=x.agencija; }
+  return r;
+};
+const dedupeListings = (list)=>clusterListings(mergeDup(list),DUP_RATIO).map(c=>c.length>1?mergeCluster(c):c[0]);
+// SLICNI = vizuelno grupisanje sireg praga (cena do 5%, nakon spajanja); nikad se ne spaja.
+const groupSimilar = (list)=>{
   const out=new Map(); let gi=0;
-  for(const g of groups){ if(g.items.length>1){ gi++; for(const x of g.items) out.set(x.l.dedup_key||x.l.id,{g:gi,n:g.items.length}); } }
+  for(const g of clusterListings(list,DUP_RATIO)){ if(g.length>1){ gi++; for(const x of g) out.set(x.dedup_key||x.id,{g:gi,n:g.length}); } }
   return out;
 };
 const GRP_COLORS=["#6366F1","#F59E0B","#10B981","#EF4444","#06B6D4","#A855F7","#84CC16","#F97316"];
@@ -631,18 +648,12 @@ export default function Dashboard() {
   // Selekcija = zgrade + struktura (+ tip prodaje). KPI kartice i tabela citaju
   // OVAJ skup; uniqFiltered (bez strukture) ostaje za segmentaciju po strukturama.
   const scoped = useMemo(()=> selStr ? bldFiltered.filter(l=>l.struktura===selStr) : bldFiltered,[bldFiltered,selStr]);
-  const uniqScoped = useMemo(()=>mergeDup(scoped),[scoped]);
-  const simGroups = useMemo(()=>groupSimilar(uniqScoped),[uniqScoped]);
+  
 
-  const uniqFiltered = useMemo(()=>{
-    const seen=new Set(); const out=[];
-    for(const l of bldFiltered){
-      const k=l.dedup_key||l.id;
-      if(seen.has(k)) continue;
-      seen.add(k); out.push(l);
-    }
-    return out;
-  },[bldFiltered]);
+  // Jedinstvene nekretnine u izabranim zgradama (sve strukture): tacni duplikati + cena do 5%.
+  const uniqFiltered = useMemo(()=>dedupeListings(bldFiltered),[bldFiltered]);
+  const uniqScoped = useMemo(()=> selStr ? uniqFiltered.filter(l=>l.struktura===selStr) : uniqFiltered,[uniqFiltered,selStr]);
+  const simGroups = useMemo(()=>groupSimilar(uniqScoped),[uniqScoped]);
 
   const segByStr = useMemo(()=>{
     const result={};
@@ -702,11 +713,8 @@ export default function Dashboard() {
   },[data,source]);
 
   const bldRanking = useMemo(()=>{
-    const seen=new Set(); const grp={};
-    for(const l of saleFiltered){
-      const k=l.dedup_key||l.id;
-      if(seen.has(k)) continue;
-      seen.add(k);
+    const grp={};
+    for(const l of dedupeListings(saleFiltered)){
       const z=l.zgrada||"Neidentifikovano";
       if(!grp[z]) grp[z]={zgrada:z,count:0,m2s:[],yields:[]};
       grp[z].count++;
@@ -1113,7 +1121,7 @@ export default function Dashboard() {
                 <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Pretraži oglase, agenciju..."
                   style={{flex:1,minWidth:120,fontSize:13,padding:"7px 12px",border:`1px solid ${C.border}`,borderRadius:8,outline:"none"}}/>
                 {showNew&&<span style={{padding:"4px 10px",borderRadius:20,background:C.green+"18",color:C.green,fontSize:12,fontWeight:600}}>🟢 Novi ({diffSummary.newCount})</span>}
-                <label style={{fontSize:12,color:C.textS,display:"flex",alignItems:"center",gap:5,cursor:"pointer",whiteSpace:"nowrap"}} title="Isti zgrada i struktura, m² u okviru 1, cena u okviru 25%, isti sprat (ili nepoznat). Samo vizuelno grupisanje.">
+                <label style={{fontSize:12,color:C.textS,display:"flex",alignItems:"center",gap:5,cursor:"pointer",whiteSpace:"nowrap"}} title="Isti zgrada i struktura, m² u okviru 1, cena u okviru 5%, isti sprat (ili nepoznat). Samo vizuelno grupisanje.">
                   <input type="checkbox" checked={grupisi} onChange={e=>setGrupisi(e.target.checked)}/> Grupiši slične oglase
                 </label>
                 <span style={{fontSize:12,color:C.textS}}>{filtered.length} res.</span>
@@ -1159,7 +1167,7 @@ export default function Dashboard() {
                           <td style={{padding:"10px 16px",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",fontSize:12,color:agNaziv?C.text:C.textXS}}>{agNaziv||"–"}{l._agencije&&l._agencije.length>1&&<span title={l._agencije.join(", ")} style={{marginLeft:5,fontSize:10,fontWeight:700,color:C.textS,background:"#F3F4F6",borderRadius:8,padding:"1px 5px"}}>+{l._agencije.length-1}</span>}</td>
                           <td style={{padding:"10px 16px"}}><span style={{display:"inline-block",padding:"3px 9px",borderRadius:20,fontSize:11,fontWeight:600,background:col+"18",color:col}}>{lbl}</span></td>
                           <td style={{padding:"10px 16px",color:C.textS,textAlign:"right"}}>{l.m2!=null?fmtDec(l.m2,2):"–"}</td>
-                          <td style={{padding:"10px 16px",fontWeight:600,textAlign:"right"}}>
+                          <td title={l._cene&&l._cene.length>1?`Duplikati sa cenama: ${l._cene.join(", ")} €`:undefined} style={{padding:"10px 16px",fontWeight:600,textAlign:"right"}}>
                             {l.cena?`${fmt(l.cena)} €`:<span style={{color:C.textS}}>na upit</span>}
                             {mode==="renta"&&l.cena?<span style={{fontSize:11,fontWeight:400,color:C.textS}}>/mj</span>:null}
                           </td>
