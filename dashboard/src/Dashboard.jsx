@@ -59,6 +59,26 @@ const C = {
   shadowM:"0 4px 12px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.04)",
 };
 
+// Spaja oglase sa istim dedup_key u JEDAN red: isti stan koji nude dve agencije
+// ili dva portala. Predstavnik je zapis sa vise podataka (agencija, sprat);
+// ostali se pamte u _agencije / _urls / _n da se ne izgube.
+const mergeDup = (list)=>{
+  const m=new Map();
+  for(const l of list){
+    const k=l.dedup_key||l.id;
+    const ag=l.agencija||null;
+    const e=m.get(k);
+    if(!e){ m.set(k,{...l,_n:1,_agencije:ag?[ag]:[],_urls:[l.url]}); continue; }
+    e._n++;
+    if(ag && !e._agencije.includes(ag)) e._agencije.push(ag);
+    if(l.url && !e._urls.includes(l.url)) e._urls.push(l.url);
+    if(!e.sprat && l.sprat) e.sprat=l.sprat;
+    if(!e.agencija && ag) e.agencija=ag;
+  }
+  return [...m.values()];
+};
+const median = a=>{ if(!a.length) return null; const v=[...a].sort((x,y)=>x-y); const h=v.length>>1; return v.length%2?v[h]:(v[h-1]+v[h])/2; };
+const srcTag = u=> /halooglasi/.test(u)?"H":/4zida/.test(u)?"4Z":/nadjidom/.test(u)?"ND":"↗";
 const fmt       = n => n==null?"–":new Intl.NumberFormat("sr-RS").format(Math.round(n));
 const fmtK      = n => n==null?"–":n>=1e6?(n/1e6).toLocaleString("sr-RS",{maximumFractionDigits:1})+"M":n>=1e3?(n/1e3).toLocaleString("sr-RS",{maximumFractionDigits:0})+"k":String(Math.round(n));
 const fmtKRenta = n => n==null?"–":n>=1e6?(n/1e6).toLocaleString("sr-RS",{maximumFractionDigits:1})+"M":new Intl.NumberFormat("sr-RS").format(Math.round(n));
@@ -569,6 +589,11 @@ export default function Dashboard() {
     selBlds.length>0 ? saleFiltered.filter(l=>selBlds.includes(l.zgrada)) : saleFiltered
   ,[saleFiltered,selBlds]);
 
+  // Selekcija = zgrade + struktura (+ tip prodaje). KPI kartice i tabela citaju
+  // OVAJ skup; uniqFiltered (bez strukture) ostaje za segmentaciju po strukturama.
+  const scoped = useMemo(()=> selStr ? bldFiltered.filter(l=>l.struktura===selStr) : bldFiltered,[bldFiltered,selStr]);
+  const uniqScoped = useMemo(()=>mergeDup(scoped),[scoped]);
+
   const uniqFiltered = useMemo(()=>{
     const seen=new Set(); const out=[];
     for(const l of bldFiltered){
@@ -594,18 +619,29 @@ export default function Dashboard() {
   },[uniqFiltered]);
 
   const summary = useMemo(()=>{
-    const prices=uniqFiltered.filter(l=>l.cena).map(l=>l.cena);
-    const m2s=uniqFiltered.filter(l=>l.cena_m2).map(l=>l.cena_m2);
-    const dups=selBlds.length>0
-      ? (latest?.duplicates??[]).filter(d=>bldFiltered.some(l=>l.id===d.original_id)).length
-      : latest?.total_dups??0;
+    const prices=uniqScoped.filter(l=>l.cena).map(l=>l.cena);
+    const m2s=uniqScoped.filter(l=>l.cena_m2).map(l=>l.cena_m2);
+    const promene=uniqScoped.filter(l=>l.promena_cene_pct!=null && l.promena_cene_pct<0).map(l=>-l.promena_cene_pct);
     return {
-      cnt:uniqFiltered.length, dups,
+      cnt:uniqScoped.length, raw:scoped.length, dups:scoped.length-uniqScoped.length,
       minC:prices.length?Math.min(...prices):null,
       maxC:prices.length?Math.max(...prices):null,
-      avgM2:m2s.length?Math.round(m2s.reduce((a,b)=>a+b)/m2s.length):null,
+      medC:median(prices),
+      medM2:m2s.length?median(m2s):null,
+      snizeno:promene.length,
+      snizenoPct:promene.length?promene.reduce((a,b)=>a+b,0)/promene.length:null,
     };
-  },[uniqFiltered,bldFiltered,selBlds,latest]);
+  },[uniqScoped,scoped]);
+
+  // Dana na trzistu: dom_*.json ima razrez po zgradi i po strukturi, ali ne
+  // kombinovano. Jedna zgrada -> po zgradi; samo struktura -> po strukturi.
+  const domSel = useMemo(()=>{
+    const d=dom?.[mode]; if(!d) return null;
+    if(selBlds.length===1 && d.po_zgradi?.[selBlds[0]]) return {...d.po_zgradi[selBlds[0]], scope: selStr?"zgrada, sve strukture":"zgrada"};
+    if(selBlds.length===0 && selStr && d.po_strukturi?.[STR_LABEL[selStr]]) return {...d.po_strukturi[STR_LABEL[selStr]], scope:"struktura, sve zgrade"};
+    if(selBlds.length===0 && !selStr) return {...d.ukupno, scope:"sve"};
+    return null;
+  },[dom,mode,selBlds,selStr]);
 
   // Prosek rente po kombinaciji zgrada+struktura, iz ISTOG izvora.
   // Min 2 renta oglasa po kombinaciji - jedan oglas ume da bude ekstrem.
@@ -679,18 +715,16 @@ export default function Dashboard() {
   const bldSortLabel = bldSortKey==="zgrada"?"nazivu":bldSortKey==="avg_m2"?"proseku €/m²":bldSortKey==="yield"?"yield-u":"broju oglasa";
 
   const diffSummary = useMemo(()=>({
-    newCount:     selBlds.length>0?(diff.new??[]).filter(l=>selBlds.includes(l.zgrada)).length:(diff.new?.length??0),
-    removedCount: selBlds.length>0?(diff.removed??[]).filter(l=>selBlds.includes(l.zgrada)).length:(diff.removed?.length??0),
-  }),[diff,selBlds]);
+    newCount:     (diff.new??[]).filter(l=>(!selBlds.length||selBlds.includes(l.zgrada)) && (!selStr||l.struktura===selStr)).length,
+    removedCount: (diff.removed??[]).filter(l=>(!selBlds.length||selBlds.includes(l.zgrada)) && (!selStr||l.struktura===selStr)).length,
+  }),[diff,selBlds,selStr]);
 
   const agListings = useMemo(()=>saleFiltered,[saleFiltered]);
 
   const filtered = useMemo(()=>{
-    let d=saleFiltered;
+    let d=uniqScoped;   // vec spojeni duplikati
     if(showNew)           d=d.filter(l=>newKeys.has(l.dedup_key));
-    if(selStr)            d=d.filter(l=>l.struktura===selStr);
-    if(selBlds.length>0)  d=d.filter(l=>selBlds.includes(l.zgrada));
-    if(search)            d=d.filter(l=>(l.zgrada+(l.naslov||"")+(l.agencija||"")).toLowerCase().includes(search.toLowerCase()));
+    if(search)            d=d.filter(l=>(l.zgrada+(l.naslov||"")+(l._agencije||[]).join(" ")).toLowerCase().includes(search.toLowerCase()));
     return d.slice().sort((a,b)=>{
       const agLabel = x => srcCfg.agMode==="slug" ? (agMapping[x.agencija]||x.agencija||"") : (x.agencija||"");
       const v=x=>sortKey==="zgrada"?(x.zgrada||""):sortKey==="str"?parseFloat(x.struktura||99):sortKey==="m2"?(x.m2||0):sortKey==="cena"?(x.cena||0):sortKey==="agencija"?agLabel(x):(x.cena_m2||0);
@@ -698,7 +732,7 @@ export default function Dashboard() {
       if(typeof va==="string") return va.localeCompare(vb)*sortDir;
       return (va-vb)*sortDir;
     });
-  },[saleFiltered,showNew,newKeys,selStr,selBlds,search,sortKey,sortDir,agMapping,srcCfg]);
+  },[uniqScoped,showNew,newKeys,search,sortKey,sortDir,agMapping,srcCfg]);
 
   const toggleSort=k=>{if(sortKey===k)setSortDir(d=>-d);else{setSortKey(k);setSortDir(1);}};
   const toggleBld=z=>setSelBlds(prev=>prev.includes(z)?prev.filter(x=>x!==z):[...prev,z]);
@@ -709,7 +743,7 @@ export default function Dashboard() {
   const trendPrev=histSlice[Math.max(0,histSlice.length-2)];
   const cntDelta=trendLast&&trendPrev?trendLast.count-trendPrev.count:null;
   const scraped=latest?.scraped_at?.slice(0,10)+" "+latest?.scraped_at?.slice(11,16)+" UTC";
-  const isFiltered=selBlds.length>0 || (mode==="prodaja" && saleType!=="sve");
+  const isFiltered=selBlds.length>0 || !!selStr || (mode==="prodaja" && saleType!=="sve");
 
   if(loading) return <div style={{display:"flex",alignItems:"center",justifyContent:"center",height:"100vh",background:C.bg,fontSize:14,color:C.textS}}>Učitavanje podataka...</div>;
   if(err)     return <div style={{padding:32,background:C.bg,minHeight:"100vh",fontSize:13,color:C.red}}><strong>Greška:</strong> {err}</div>;
@@ -823,34 +857,37 @@ export default function Dashboard() {
         {tab!=="agencije" && latest && (<>
           {/* KPI row — preko celog ekrana (kao NB) */}
           <div style={{display:"grid",gridTemplateColumns:isMobile?"repeat(2,1fr)":"repeat(auto-fit,minmax(170px,1fr))",gap:10,marginBottom:16}}>
-            <KPI label="Unique nekretnine" value={fmt(summary.cnt)} sub={isFiltered?`od ${latest?.total_unique} ukupno`:`${latest?.total_raw??0} oglasa, ${latest?.total_dups??0} dup.`}/>
-            <KPI label="Duplikati" value={fmt(summary.dups)} sub={isFiltered?"za selektovane zgrade":(latest?.total_raw>0?`${(summary.dups/latest.total_raw*100).toFixed(1)}% od ukupnih · ista nkrt, više agencija`:"ista nkrt, više agencija")}/>
+            <KPI label="Unique nekretnine" value={fmt(summary.cnt)} sub={isFiltered?`u selekciji · od ${latest?.total_unique} ukupno`:`${summary.raw} oglasa, ${summary.dups} dup.`}/>
+            <KPI label="Duplikati" value={fmt(summary.dups)} sub={`${summary.raw} oglasa → ${summary.cnt} nekretnina · ista nkrt, više agencija/portala`}/>
             <div onClick={()=>{setShowNew(true);setTab("listinzi");}} style={{cursor:"pointer"}}>
               <KPI label="Novi danas ↗" value={`+${diffSummary.newCount}`} sub={`−${diffSummary.removedCount} skinuto · klikni`} valueColor={C.green}/>
             </div>
-            <KPI label="Cena raspon" value={summary.minC?(mode==="renta"?`${fmtKRenta(summary.minC)}–${fmtKRenta(summary.maxC)} €`:`${fmtK(summary.minC)}–${fmtK(summary.maxC)} €`):"–"}/>
-            <KPI label="Prosek €/m²" value={summary.avgM2?`${fmt(summary.avgM2)} €`:"–"} sub={isFiltered?"selektovane zgrade":"sve strukture"}/>
+            <KPI label={mode==="renta"?"Medijana rente":"Medijana cene"} value={summary.medC?`${fmt(summary.medC)} €`:"–"} sub={summary.minC?`raspon ${mode==="renta"?fmtKRenta(summary.minC):fmtK(summary.minC)}–${mode==="renta"?fmtKRenta(summary.maxC):fmtK(summary.maxC)} €`:undefined}/>
+            <KPI label={mode==="renta"?"Medijana €/m² mesečno":"Medijana €/m²"} value={summary.medM2?`${fmtDec(summary.medM2,mode==="renta"?1:0)} €`:"–"} sub={isFiltered?"izabrana selekcija":"sve strukture"}/>
 
             {/* Days on market — Kaplan-Meier procena iz registra.
                 NE prosta medijana skinutih oglasa: ona izbacuje one koji su
                 jos u ponudi, a bas su oni najduzi, pa sistematski potcenjuje.
-                Registar je jedan za sve izvore, pa ovaj broj ne zavisi od
-                izabranog izvora — zato i stoji napomena u podnaslovu. */}
-            {dom?.[mode]?.ukupno?.dom_medijana != null && (
+                Razrez postoji po zgradi i po strukturi, ne kombinovano. */}
+            {domSel && domSel.dom_medijana != null && (
               <KPI label="Dana na tržištu"
-                   value={`${dom[mode].ukupno.dom_medijana} dana`}
-                   sub={`medijana · ${dom[mode].ukupno.n_zavrseni} skinutih, ${dom[mode].ukupno.n_aktivni} u ponudi`}/>
+                   value={`${domSel.dom_medijana} dana`}
+                   sub={`medijana · ${domSel.n_zavrseni} skinutih, ${domSel.n_aktivni} u ponudi${domSel.scope!=="sve"?` · ${domSel.scope}`:""}`}/>
             )}
-            {dom?.[mode]?.ukupno && dom[mode].ukupno.dom_medijana == null && (
+            {domSel && domSel.dom_medijana == null && (
               <KPI label="Dana na tržištu" value="—"
-                   sub={`još se meri · ${dom[mode].ukupno.n_aktivni} u ponudi`}/>
+                   sub={`još se meri · ${domSel.n_aktivni} u ponudi`}/>
             )}
-            {dom?.[mode]?.cene?.prosecno_snizenje_pct != null && (
-              <KPI label="Sniženja cene"
-                   value={fmt(dom[mode].cene.ukupno_snizenja)}
-                   sub={`prosečno −${dom[mode].cene.prosecno_snizenje_pct}% · ${dom[mode].cene.oglasa_sa_promenom} oglasa menjalo cenu`}
+            {!domSel && isFiltered && (
+              <KPI label="Dana na tržištu" value="—" sub="nema razreza za ovu kombinaciju"/>
+            )}
+            {summary.snizeno>0 ? (
+              <KPI label="Sniženja cene" value={fmt(summary.snizeno)}
+                   sub={`prosečno −${summary.snizenoPct.toFixed(1)}% · od ${summary.cnt} nekretnina`}
                    valueColor={C.green}/>
-            )}
+            ) : isFiltered ? (
+              <KPI label="Sniženja cene" value="0" sub={`od ${summary.cnt} nekretnina`}/>
+            ) : null}
           </div>
 
           {/* PREGLED IZVORA — samo u spojenom prikazu */}
@@ -1051,7 +1088,7 @@ export default function Dashboard() {
                         ? (l.agencija ? (agMapping[l.agencija]||l.agencija) : null)
                         : (l.agencija||null);
                       return (
-                        <tr key={l.id} style={{borderBottom:`1px solid ${C.border}`,background:isNew&&showNew?C.green+"0A":"transparent"}}
+                        <tr key={l.dedup_key||l.id} style={{borderBottom:`1px solid ${C.border}`,background:isNew&&showNew?C.green+"0A":"transparent"}}
                           onMouseEnter={e=>e.currentTarget.style.background="#F9FAFB"}
                           onMouseLeave={e=>e.currentTarget.style.background=isNew&&showNew?C.green+"0A":"transparent"}>
                           <td style={{padding:"10px 16px",fontWeight:500,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
@@ -1061,7 +1098,7 @@ export default function Dashboard() {
                               {isNew&&showNew&&<span style={{fontSize:10,fontWeight:700,color:C.green,marginLeft:2}}>NEW</span>}
                             </div>
                           </td>
-                          <td style={{padding:"10px 16px",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",fontSize:12,color:agNaziv?C.text:C.textXS}}>{agNaziv||"–"}</td>
+                          <td style={{padding:"10px 16px",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",fontSize:12,color:agNaziv?C.text:C.textXS}}>{agNaziv||"–"}{l._agencije&&l._agencije.length>1&&<span title={l._agencije.join(", ")} style={{marginLeft:5,fontSize:10,fontWeight:700,color:C.textS,background:"#F3F4F6",borderRadius:8,padding:"1px 5px"}}>+{l._agencije.length-1}</span>}</td>
                           <td style={{padding:"10px 16px"}}><span style={{display:"inline-block",padding:"3px 9px",borderRadius:20,fontSize:11,fontWeight:600,background:col+"18",color:col}}>{lbl}</span></td>
                           <td style={{padding:"10px 16px",color:C.textS,textAlign:"right"}}>{l.m2!=null?fmtDec(l.m2,2):"–"}</td>
                           <td style={{padding:"10px 16px",fontWeight:600,textAlign:"right"}}>
@@ -1070,7 +1107,7 @@ export default function Dashboard() {
                           </td>
                           {mode==="prodaja"&&<td style={{padding:"10px 16px",color:C.textS,textAlign:"right"}}>{l.cena_m2?fmt(l.cena_m2):"–"}</td>}
                           <td style={{padding:"10px 16px",color:C.textS,fontSize:12}}>{l.sprat||"–"}</td>
-                          <td style={{padding:"10px 16px",textAlign:"right"}}><a href={l.url} target="_blank" rel="noreferrer" style={{color:C.blue,textDecoration:"none",fontSize:16}}>↗</a></td>
+                          <td style={{padding:"10px 16px",textAlign:"right"}}>{(l._urls&&l._urls.length>1?l._urls:[l.url]).map(u=><a key={u} href={u} target="_blank" rel="noreferrer" title={u} style={{color:C.blue,textDecoration:"none",fontSize:l._urls&&l._urls.length>1?10:16,fontWeight:700,marginLeft:4}}>{l._urls&&l._urls.length>1?srcTag(u):"↗"}</a>)}</td>
                         </tr>
                       );
                     })}
