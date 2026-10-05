@@ -9608,9 +9608,9 @@
     "da64efbe01f6e320": {
       "uid": "da64efbe01f6e320",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-08-29",
-      "is_active": false,
-      "deactivated_at": "2026-08-31",
+      "last_seen": "2026-10-05",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "6ee9105c5307a10c",
       "fp_strict_all": [
         "feaffbf23201a292"
@@ -9635,8 +9635,15 @@
       "price_first": 6000,
       "price_current": 6000,
       "price_changes": [],
-      "days_listed": 76,
-      "cena_m2": 100
+      "days_listed": 111,
+      "cena_m2": 100,
+      "last_seen_src": {
+        "halo": "2026-10-05"
+      },
+      "fp_nosprat_all": [
+        "d057e20eb304bd96"
+      ],
+      "fp_nosprat": "d057e20eb304bd96"
     },
     "eb64c7003bc05272": {
       "uid": "eb64c7003bc05272",
@@ -19319,12 +19326,13 @@
     "c1c63b035960b19a": {
       "uid": "c1c63b035960b19a",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-05",
       "is_active": true,
       "deactivated_at": null,
-      "fp_loose": "18c6f525c5a4761f",
+      "fp_loose": "d8733bf057b3dc16",
       "fp_strict_all": [
-        "142673799056d41c"
+        "142673799056d41c",
+        "9b4f2f0e6e22adc9"
       ],
       "sources": [
         "halo",
@@ -19338,26 +19346,31 @@
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-kula-65428/5425646422774?kid=4",
         "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/692b366fbe42744b9b0f8b2e"
       ],
-      "zgrada": "BW (neidentifikovano)",
+      "zgrada": "BW St. Regis",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 62.0,
       "sprat": "III/23",
       "agencija": "beostan",
-      "naslov": "Dvosoban stan za izdavanje, Hercegovacka, 1.550€, 62m²",
+      "naslov": "Centar - Beograd na vodi BW Kula #65428",
       "price_first": 1550,
       "price_current": 1550,
       "price_changes": [],
       "days_listed": 76,
       "cena_m2": 25,
       "last_seen_src": {
-        "halo": "2026-09-30",
+        "halo": "2026-10-05",
         "4zida": "2026-09-30"
       },
       "fp_nosprat_all": [
-        "5a9ae83a23e1cfbf"
+        "5a9ae83a23e1cfbf",
+        "5ca45fc515126901"
       ],
-      "fp_nosprat": "5a9ae83a23e1cfbf"
+      "fp_nosprat": "5a9ae83a23e1cfbf",
+      "fp_loose_all": [
+        "18c6f525c5a4761f",
+        "d8733bf057b3dc16"
+      ]
     },
     "3be9c6fb07758a02": {
       "uid": "3be9c6fb07758a02",
@@ -33299,13 +33312,14 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "5425647744326",
+        "halo": "5425647749367",
         "4zida": "4zida:6abb93d6402f70638604818e"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-66305/5425647717235?kid=4",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-66305/5425647744326?kid=4",
-        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6abb93d6402f70638604818e"
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6abb93d6402f70638604818e",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-2966305/5425647749367?kid=1"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "4.0",
@@ -33313,7 +33327,7 @@
       "m2": 120.0,
       "sprat": "V/17",
       "agencija": "beostan",
-      "naslov": "Centar - Beograd na vodi BW #66305",
+      "naslov": "Centar - Beograd na vodi BW #2966305",
       "price_first": 3000,
       "price_current": 3000,
       "price_changes": [],
@@ -39636,7 +39650,7 @@
     "5aab906ff6693027": {
       "uid": "5aab906ff6693027",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-05",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "143f7b80edc37556",
@@ -39647,24 +39661,28 @@
         "940d71f45dc1f40b"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-09-30",
+        "halo": "2026-10-05"
       },
       "source_ids": {
-        "4zida": "4zida:6a62a4d15c651cc0b7079479"
+        "4zida": "4zida:6a62a4d15c651cc0b7079479",
+        "halo": "5425647659071"
       },
       "source_urls": [
-        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a62a4d15c651cc0b7079479"
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a62a4d15c651cc0b7079479",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-68327/5425647659071?kid=1"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 90.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Trosoban stan za izdavanje, Hercegovacka, 2.300€, 90m²",
+      "sprat": "VIII/17",
+      "agencija": "beostan",
+      "naslov": "Centar - Beograd na vodi BW #68327",
       "price_first": 2300,
       "price_current": 2300,
       "price_changes": [],
@@ -40715,7 +40733,8 @@
         "halo": "5425647764036"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-odmah-useljiv-kompletno-opremljen-id4/5425647764036?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-odmah-useljiv-kompletno-opremljen-id4/5425647764036?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-odmah-useljiv-kompletno-opremljen-id4/5425647764036?kid=4"
       ],
       "zgrada": "BW Iris",
       "struktura": "2.0",
@@ -40883,7 +40902,8 @@
         "halo": "5425647770961"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/cetvorosoban-stan-za-izdavanje-bw-libera-128m/5425647770961?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/cetvorosoban-stan-za-izdavanje-bw-libera-128m/5425647770961?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/cetvorosoban-stan-za-izdavanje-bw-libera-128m/5425647770961?kid=4"
       ],
       "zgrada": "BW Libera",
       "struktura": "4.0",
@@ -40937,7 +40957,8 @@
       "price_first": 1700,
       "price_current": 1700,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 21
     },
     "54e185ac68af7754": {
       "uid": "54e185ac68af7754",
@@ -40978,7 +40999,8 @@
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 22
     },
     "7a7fe9bbe7a1ee85": {
       "uid": "7a7fe9bbe7a1ee85",
@@ -41019,10 +41041,216 @@
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 26
+    },
+    "4264c6d104703590": {
+      "uid": "4264c6d104703590",
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "3af5b730b9082b95",
+      "fp_loose_all": [
+        "3af5b730b9082b95"
+      ],
+      "fp_nosprat": "8ad2498522190365",
+      "fp_nosprat_all": [
+        "8ad2498522190365"
+      ],
+      "fp_strict_all": [
+        "3bf15f97216adaad"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-05"
+      },
+      "source_ids": {
+        "halo": "5425647778383"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-arcadia-3-0-useljiv/5425647778383?kid=4"
+      ],
+      "zgrada": "BW Arcadia",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 81.0,
+      "sprat": "III/23",
+      "agencija": null,
+      "naslov": "BW Arcadia | 3.0. | Useljiv",
+      "price_first": 1800,
+      "price_current": 1800,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "7a4324943a03a429": {
+      "uid": "7a4324943a03a429",
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "51560e85cb9cff3e",
+      "fp_loose_all": [
+        "51560e85cb9cff3e"
+      ],
+      "fp_nosprat": "696db75596adcb26",
+      "fp_nosprat_all": [
+        "696db75596adcb26"
+      ],
+      "fp_strict_all": [
+        "894d57a95ed1ddaf"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-05"
+      },
+      "source_ids": {
+        "halo": "5425647767069"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-za-izdavanje-58m2-bw-iris/5425647767069"
+      ],
+      "zgrada": "BW Iris",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 58.0,
+      "sprat": "IV/18",
+      "agencija": "JBLConceptRE",
+      "naslov": "Stan za izdavanje, 58m2, BW Iris",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "93abf490114b0261": {
+      "uid": "93abf490114b0261",
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "20c4037062d0320d",
+      "fp_loose_all": [
+        "20c4037062d0320d"
+      ],
+      "fp_nosprat": "ed6b806648c0e360",
+      "fp_nosprat_all": [
+        "ed6b806648c0e360"
+      ],
+      "fp_strict_all": [
+        "2f20632619cc5f03"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-05"
+      },
+      "source_ids": {
+        "halo": "5425647777753"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet---stan-sa-bastom/5425647777753?kid=4"
+      ],
+      "zgrada": "BW Quartet 1",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 65.32,
+      "sprat": "/8",
+      "agencija": "Vesnarb1",
+      "naslov": "BW Quartet - Stan sa baštom",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "3c2ce83be562887c": {
+      "uid": "3c2ce83be562887c",
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "1f81e1e89962c724",
+      "fp_loose_all": [
+        "1f81e1e89962c724"
+      ],
+      "fp_nosprat": "f048907ebf5b517b",
+      "fp_nosprat_all": [
+        "f048907ebf5b517b"
+      ],
+      "fp_strict_all": [
+        "6f3af016039f06e6"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-05"
+      },
+      "source_ids": {
+        "halo": "5425647777884"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris---osuncan-dvostrano-orijentisan-troso/5425647777884?kid=1"
+      ],
+      "zgrada": "BW Iris",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 80.35,
+      "sprat": "XIII/18",
+      "agencija": "AtriumPropertyServices",
+      "naslov": "BW Iris - osunčan, dvostrano orijentisan trosoban",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "996c2b2fab36613b": {
+      "uid": "996c2b2fab36613b",
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "ea0e1926333dd19e",
+      "fp_loose_all": [
+        "ea0e1926333dd19e"
+      ],
+      "fp_nosprat": "3418b10c173a0283",
+      "fp_nosprat_all": [
+        "3418b10c173a0283"
+      ],
+      "fp_strict_all": [
+        "e42b52466f28fa2b"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-05"
+      },
+      "source_ids": {
+        "halo": "5425647777854"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/savski-venac-beograd-beograd-na-vodi-stan-2/5425647777854?kid=1"
+      ],
+      "zgrada": "BW Terra",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.0,
+      "sprat": "III/17",
+      "agencija": "AtriumPropertyServices",
+      "naslov": "Savski Venac (Beograd), Beograd Na Vodi, Stan, 2,",
+      "price_first": 1300,
+      "price_current": 1300,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-05T06:03:17.965068+00:00",
+  "updated_at": "2026-10-05T11:45:53.559271+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",
