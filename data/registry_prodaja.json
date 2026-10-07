@@ -7146,7 +7146,8 @@
       "fp_loose": "4f6770e2823bbed0",
       "fp_strict_all": [
         "d9866c82a67f30d8",
-        "d9e0696f1124d0ca"
+        "d9e0696f1124d0ca",
+        "291715945f89abf9"
       ],
       "sources": [
         "halo",
@@ -7163,21 +7164,28 @@
       "zgrada": "BW Hudson",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 96.0,
-      "sprat": "VII/25",
+      "m2": 94.56,
+      "sprat": "V/25",
       "agencija": "AtriumPropertyServices",
       "naslov": "Luksuzan stan sa dve spavaće sobe - BW Hudson",
       "price_first": 514888,
-      "price_current": 514888,
-      "price_changes": [],
+      "price_current": 505888,
+      "price_changes": [
+        {
+          "date": "2026-10-07",
+          "from": 514888,
+          "to": 505888
+        }
+      ],
       "days_listed": 120,
-      "cena_m2": 5363,
+      "cena_m2": 5350,
       "last_seen_src": {
         "halo": "2026-10-07",
         "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
-        "da3bebefc98b14b0"
+        "da3bebefc98b14b0",
+        "f4603994b028d39f"
       ],
       "fp_nosprat": "da3bebefc98b14b0"
     },
@@ -11781,9 +11789,9 @@
       "m2": 124.0,
       "sprat": "XII/15",
       "agencija": "BELIGRAD",
-      "naslov": "Četvorosoban stan na prodaju, Beograd na vodi, 610.000€, 124m²",
+      "naslov": "LUX 4.0 stan sa panoramskim pogledom",
       "price_first": 610000,
-      "price_current": 610000,
+      "price_current": 599000,
       "price_changes": [
         {
           "date": "2026-08-28",
@@ -11804,12 +11812,17 @@
           "date": "2026-10-07",
           "from": 599000,
           "to": 610000
+        },
+        {
+          "date": "2026-10-07",
+          "from": 610000,
+          "to": 599000
         }
       ],
       "days_listed": 119,
-      "cena_m2": 4919,
+      "cena_m2": 4831,
       "last_seen_src": {
-        "halo": "2026-10-06",
+        "halo": "2026-10-07",
         "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
@@ -14096,9 +14109,9 @@
     "789a658b0b432690": {
       "uid": "789a658b0b432690",
       "first_seen": "2026-06-11",
-      "last_seen": "2026-07-20",
-      "is_active": false,
-      "deactivated_at": "2026-07-22",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "1038c6886aa30d29",
       "fp_strict_all": [
         "c52820dcdf1aae67",
@@ -14123,8 +14136,15 @@
       "price_first": 530000,
       "price_current": 530000,
       "price_changes": [],
-      "days_listed": 41,
-      "cena_m2": 4587
+      "days_listed": 118,
+      "cena_m2": 4587,
+      "last_seen_src": {
+        "halo": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "d9b59cbfd88c9ac3"
+      ],
+      "fp_nosprat": "d9b59cbfd88c9ac3"
     },
     "86a13e5052d04203": {
       "uid": "86a13e5052d04203",
@@ -22683,7 +22703,8 @@
       "deactivated_at": null,
       "fp_loose": "0cc8553c55b76f14",
       "fp_strict_all": [
-        "bd5e39b4a23f3120"
+        "bd5e39b4a23f3120",
+        "864fa7cbb29f7e08"
       ],
       "sources": [
         "halo"
@@ -22697,20 +22718,27 @@
       "zgrada": "BW Hudson",
       "struktura": "1.5",
       "str_label": "Jednoiposoban",
-      "m2": 59.85,
-      "sprat": "V/25",
+      "m2": 60.91,
+      "sprat": "VIII/25",
       "agencija": "AtriumPropertyServices",
       "naslov": "Luksuzan stan sa jednom spavaćom sobom - BW Hudson",
       "price_first": 332888,
-      "price_current": 332888,
-      "price_changes": [],
+      "price_current": 340888,
+      "price_changes": [
+        {
+          "date": "2026-10-07",
+          "from": 332888,
+          "to": 340888
+        }
+      ],
       "days_listed": 95,
-      "cena_m2": 5562,
+      "cena_m2": 5597,
       "last_seen_src": {
         "halo": "2026-10-07"
       },
       "fp_nosprat_all": [
-        "81d6da8fecdb5ae7"
+        "81d6da8fecdb5ae7",
+        "ee3af242c25eba46"
       ],
       "fp_nosprat": "81d6da8fecdb5ae7"
     },
@@ -34000,7 +34028,8 @@
       "fp_loose": "c55dd0faf43401e3",
       "fp_strict_all": [
         "d190d06ce915d7d0",
-        "099ae5d8d773b768"
+        "099ae5d8d773b768",
+        "ebe0fe9ac7d7170c"
       ],
       "sources": [
         "halo"
@@ -34019,16 +34048,21 @@
       "agencija": null,
       "naslov": "BW Rima preko puta Galerije",
       "price_first": 265000,
-      "price_current": 270000,
+      "price_current": 275000,
       "price_changes": [
         {
           "date": "2026-09-15",
           "from": 265000,
           "to": 270000
+        },
+        {
+          "date": "2026-10-07",
+          "from": 270000,
+          "to": 275000
         }
       ],
       "days_listed": 27,
-      "cena_m2": 4909,
+      "cena_m2": 5000,
       "last_seen_src": {
         "halo": "2026-10-07"
       },
@@ -36114,7 +36148,8 @@
       "price_first": 1472000,
       "price_current": 1472000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 9258
     },
     "90d2b8a8b686800a": {
       "uid": "90d2b8a8b686800a",
@@ -37943,10 +37978,11 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "5425647403654"
+        "halo": "5425647787670"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-eden-pogled-na-reku-useljiv-id4756/5425647403654?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-eden-pogled-na-reku-useljiv-id4756/5425647403654?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-eden-pogled-na-reku-useljiv-id4995/5425647787670?kid=1"
       ],
       "zgrada": "BW Eden",
       "struktura": "2.0",
@@ -37954,7 +37990,7 @@
       "m2": 55.26,
       "sprat": "VI/20",
       "agencija": "PropertyBroker",
-      "naslov": "BW Eden, pogled na reku, useljiv ID#4756",
+      "naslov": "BW Eden, pogled na reku, useljiv ID#4995",
       "price_first": 270000,
       "price_current": 270000,
       "price_changes": [],
@@ -42943,32 +42979,43 @@
         "4f7c47d892f035b8"
       ],
       "fp_strict_all": [
-        "628132d178133e92"
+        "628132d178133e92",
+        "4ceebfdf458050bf"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-10-07"
+        "4zida": "2026-10-07",
+        "halo": "2026-10-07"
       },
       "source_ids": {
-        "4zida": "4zida:6a194a2d986af003230289e3"
+        "4zida": "4zida:6a194a2d986af003230289e3",
+        "halo": "5425647787647"
       },
       "source_urls": [
-        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6a194a2d986af003230289e3"
+        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6a194a2d986af003230289e3",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-hudson-porodican-dom-na-obali-reke/5425647787647?kid=1"
       ],
       "zgrada": "BW Hudson",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
-      "m2": 113.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Četvorosoban stan na prodaju, Bulevar Vudroa Vilsona, 631.888€, 113m²",
+      "m2": 112.94,
+      "sprat": "XX/25",
+      "agencija": "AtriumPropertyServices",
+      "naslov": "BW Hudson-porodičan dom na obali reke",
       "price_first": 631888,
-      "price_current": 631888,
-      "price_changes": [],
+      "price_current": 618888,
+      "price_changes": [
+        {
+          "date": "2026-10-07",
+          "from": 631888,
+          "to": 618888
+        }
+      ],
       "days_listed": 7,
-      "cena_m2": 5592
+      "cena_m2": 5480
     },
     "ef7acb6caeead214": {
       "uid": "ef7acb6caeead214",
@@ -54648,7 +54695,7 @@
     "9648fa86f31b0f56": {
       "uid": "9648fa86f31b0f56",
       "first_seen": "2026-10-05",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "5295937b1881978e",
@@ -54666,21 +54713,22 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-07"
       },
       "source_ids": {
-        "halo": "5425647744309"
+        "halo": "5425647787643"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-ugaona-pozicija-bez-provizije-id4961/5425647744309?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-ugaona-pozicija-bez-provizije-id4961/5425647744309?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-luna-pogled-na-reku-ugaona-terasa-id4993/5425647787643?kid=1"
       ],
       "zgrada": "BW Luna",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 60.0,
-      "sprat": "V/29",
+      "sprat": "III/29",
       "agencija": "PropertyBroker",
-      "naslov": "BW Luna, ugaona pozicija, bez provizije ID#4961",
+      "naslov": "BW Luna, pogled na reku, ugaona terasa ID#4993",
       "price_first": 370888,
       "price_current": 370888,
       "price_changes": [],
@@ -55744,7 +55792,8 @@
       "price_first": 395000,
       "price_current": 395000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5074
     },
     "c14bacd0b12dd107": {
       "uid": "c14bacd0b12dd107",
@@ -55785,7 +55834,8 @@
       "price_first": 698000,
       "price_current": 698000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 7843
     },
     "03f0a15344492ee6": {
       "uid": "03f0a15344492ee6",
@@ -55826,7 +55876,8 @@
       "price_first": 207000,
       "price_current": 207000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5914
     },
     "5dc63f885dc44848": {
       "uid": "5dc63f885dc44848",
@@ -55867,7 +55918,8 @@
       "price_first": 369000,
       "price_current": 369000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4674
     },
     "276ed7fe9ebc9469": {
       "uid": "276ed7fe9ebc9469",
@@ -55908,7 +55960,8 @@
       "price_first": 370000,
       "price_current": 370000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4687
     },
     "57c4ce5ffdbd0816": {
       "uid": "57c4ce5ffdbd0816",
@@ -55949,7 +56002,8 @@
       "price_first": 370000,
       "price_current": 370000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4744
     },
     "2fa541a5413a37a1": {
       "uid": "2fa541a5413a37a1",
@@ -55990,7 +56044,8 @@
       "price_first": 189900,
       "price_current": 189900,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5934
     },
     "f579974d7a759be0": {
       "uid": "f579974d7a759be0",
@@ -56031,7 +56086,8 @@
       "price_first": 379000,
       "price_current": 379000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5493
     },
     "9fb5d4897eaa50d6": {
       "uid": "9fb5d4897eaa50d6",
@@ -56072,7 +56128,8 @@
       "price_first": 207000,
       "price_current": 207000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5914
     },
     "0484a058f498e215": {
       "uid": "0484a058f498e215",
@@ -56113,7 +56170,8 @@
       "price_first": 205000,
       "price_current": 205000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6412
     },
     "ffcfa274b7102645": {
       "uid": "ffcfa274b7102645",
@@ -56154,7 +56212,8 @@
       "price_first": 195000,
       "price_current": 195000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6096
     },
     "b51ea13cb8a96de6": {
       "uid": "b51ea13cb8a96de6",
@@ -56195,7 +56254,8 @@
       "price_first": 1472000,
       "price_current": 1472000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 8814
     },
     "cba9136bbeeaa9ec": {
       "uid": "cba9136bbeeaa9ec",
@@ -56236,7 +56296,8 @@
       "price_first": 300000,
       "price_current": 300000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5556
     },
     "d04e32205d7d7d5a": {
       "uid": "d04e32205d7d7d5a",
@@ -56277,7 +56338,8 @@
       "price_first": 194999,
       "price_current": 194999,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6094
     },
     "8d871fd53343ee56": {
       "uid": "8d871fd53343ee56",
@@ -56318,7 +56380,8 @@
       "price_first": 395000,
       "price_current": 395000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5064
     },
     "595643523d03c69f": {
       "uid": "595643523d03c69f",
@@ -56359,7 +56422,8 @@
       "price_first": 195000,
       "price_current": 195000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6011
     },
     "c9e4874ed201e68e": {
       "uid": "c9e4874ed201e68e",
@@ -56400,7 +56464,8 @@
       "price_first": 351888,
       "price_current": 351888,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5676
     },
     "dc3065e7030d3650": {
       "uid": "dc3065e7030d3650",
@@ -56441,7 +56506,8 @@
       "price_first": 341888,
       "price_current": 341888,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5514
     },
     "78c21be35b670ff7": {
       "uid": "78c21be35b670ff7",
@@ -56482,7 +56548,8 @@
       "price_first": 1472000,
       "price_current": 1472000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 9258
     },
     "97c49a3baeb6d8bf": {
       "uid": "97c49a3baeb6d8bf",
@@ -56523,7 +56590,8 @@
       "price_first": 585000,
       "price_current": 585000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5792
     },
     "88965a262e756e0b": {
       "uid": "88965a262e756e0b",
@@ -56564,7 +56632,8 @@
       "price_first": 195000,
       "price_current": 195000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6683
     },
     "37dcfb7c86080021": {
       "uid": "37dcfb7c86080021",
@@ -56605,7 +56674,8 @@
       "price_first": 680000,
       "price_current": 680000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5766
     },
     "a966235d25c33a9f": {
       "uid": "a966235d25c33a9f",
@@ -56646,7 +56716,8 @@
       "price_first": 220000,
       "price_current": 220000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6637
     },
     "c5446ac3c318e3d0": {
       "uid": "c5446ac3c318e3d0",
@@ -56687,7 +56758,8 @@
       "price_first": 1359799,
       "price_current": 1359799,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 8360
     },
     "02fddc3d747ae24a": {
       "uid": "02fddc3d747ae24a",
@@ -56728,10 +56800,134 @@
       "price_first": 1534399,
       "price_current": 1534399,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 9197
+    },
+    "504d71cc60ae785b": {
+      "uid": "504d71cc60ae785b",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "8ca47b28fd6eac01",
+      "fp_loose_all": [
+        "8ca47b28fd6eac01"
+      ],
+      "fp_nosprat": "fb58626cca617afa",
+      "fp_nosprat_all": [
+        "fb58626cca617afa"
+      ],
+      "fp_strict_all": [
+        "07c8941c60624cbd"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-07"
+      },
+      "source_ids": {
+        "halo": "5425647787665"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika-stan-na-prodaju-studio-33m2/5425647787665?kid=3"
+      ],
+      "zgrada": "BW Nika",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 32.44,
+      "sprat": "XV/18",
+      "agencija": "JBLConceptRE",
+      "naslov": "BW Nika,Stan na prodaju,Studio 33m2",
+      "price_first": 195000,
+      "price_current": 195000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "5db30e1e815cd274": {
+      "uid": "5db30e1e815cd274",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "50f05f42fe5010cd",
+      "fp_loose_all": [
+        "50f05f42fe5010cd"
+      ],
+      "fp_nosprat": "8760f25ecf6bac2f",
+      "fp_nosprat_all": [
+        "8760f25ecf6bac2f"
+      ],
+      "fp_strict_all": [
+        "940ac9986ad74f8e"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-07"
+      },
+      "source_ids": {
+        "halo": "5425647779849"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-residences-prvi-red-do-reke-opremljen/5425647779849?kid=1"
+      ],
+      "zgrada": "BW Residences",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 159.0,
+      "sprat": "XVI/20",
+      "agencija": null,
+      "naslov": "BW Residences, prvi red do reke, opremljen",
+      "price_first": 1472000,
+      "price_current": 1472000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "26ee31b67b794f5a": {
+      "uid": "26ee31b67b794f5a",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d1fb32ab40dce54f",
+      "fp_loose_all": [
+        "d1fb32ab40dce54f"
+      ],
+      "fp_nosprat": "61744f6d01892bc9",
+      "fp_nosprat_all": [
+        "61744f6d01892bc9"
+      ],
+      "fp_strict_all": [
+        "def94efb473a86d8"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-07"
+      },
+      "source_ids": {
+        "halo": "5425647689538"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-residences-159m-penthouse-panoramski-pogle/5425647689538"
+      ],
+      "zgrada": "BW Residences",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 159.0,
+      "sprat": "XVI/20",
+      "agencija": "BorovicNekretnine",
+      "naslov": "Bw Residences, 159m², penthouse, panoramski pogled",
+      "price_first": 1472000,
+      "price_current": 1472000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-07T08:31:02.359402+00:00",
+  "updated_at": "2026-10-07T11:15:02.177578+00:00",
   "last_run": {
     "4zida": "2026-10-07",
     "nadjidom": "2026-10-07",

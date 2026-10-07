@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-10-07",
   "scraped_at": "2026-10-07",
-  "total_raw": 367,
-  "total_unique": 300,
+  "total_raw": 368,
+  "total_unique": 301,
   "total_dups": 67,
   "diff_new": [
     "030307d28e6af55f",
@@ -45,7 +45,8 @@
     "d12a02885d99a2df",
     "e2114846cf4b4651",
     "22e36b6cdf224399",
-    "3babfb65625473b6"
+    "3babfb65625473b6",
+    "ea275e13e27e578e"
   ],
   "diff_removed": [
     "d17ad41f1fc09919",
@@ -10183,6 +10184,33 @@
       "first_seen": "2026-10-07",
       "last_seen": "2026-10-07",
       "dedup_key": "BW Residences|138.0|3500",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "ea275e13e27e578e",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-st-regis-residence-2-0/5425647788377?kid=4",
+      "naslov": "BW St. Regis Residence 2.0",
+      "zgrada": "BW St. Regis",
+      "agencija": "Maxis Group",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 57.0,
+      "cena": 2500,
+      "cena_m2": 44,
+      "sprat": "XXIV",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "dedup_key": "BW St. Regis|57.0|2500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
