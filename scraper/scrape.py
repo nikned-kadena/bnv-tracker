@@ -456,7 +456,13 @@ def save_snapshot(mode, all_listings, total_raw):
     try:
         sys.path.insert(0, str(Path(__file__).parent))
         import store, dom_stats, project
-        store.update(DATA_DIR, mode, unique, source="halo", run_date=date_str)
+        # Registru idu SVI oglasi (all_listings), ne samo `unique`: dedup() gore zadrzava
+        # prvi oglas po (zgrada, m2, cena), pa je isti stan koji nude dve agencije po istoj
+        # ceni gubio drugi oglas — taj se posle grace perioda "gasio" u registru, a agencijska
+        # statistika nije videla sve agencije. store.update sam spaja prave duple objave
+        # (ista agencija + isti otisak); razlicite agencije ostaju zasebni zapisi koji se
+        # grupisu pri prikazu (project.py / dashboard). latest_{mode}.json ostaje deduplikovan.
+        store.update(DATA_DIR, mode, all_listings, source="halo", run_date=date_str)
         dom_stats.build(DATA_DIR, mode)
         project.build(DATA_DIR, mode)   # latest_all_*.json za dashboard
     except Exception as e:
