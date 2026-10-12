@@ -3,18 +3,18 @@
   "generated": "2026-10-12",
   "pocetak_pracenja": "2026-06-09",
   "ukupno": {
-    "n_zavrseni": 575,
-    "n_aktivni": 873,
+    "n_zavrseni": 574,
+    "n_aktivni": 877,
     "dom_medijana": 88,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 19,
     "starost_aktivnih_medijana": 18,
-    "udeo_jos_u_ponudi": 0.3882,
+    "udeo_jos_u_ponudi": 0.3907,
     "udeo_aktivnih_pct": 60,
     "skinuti_p25": 7,
     "skinuti_p75": 53,
-    "brzo_do_30d": 59,
+    "brzo_do_30d": 60,
     "sporo_preko_180d": 0,
     "kriva": [
       {
@@ -240,10 +240,6 @@
       {
         "dan": 121,
         "preziveli": 0.3934
-      },
-      {
-        "dan": 125,
-        "preziveli": 0.3882
       }
     ]
   },
@@ -737,14 +733,14 @@
     },
     "BW Bonaca": {
       "n_zavrseni": 3,
-      "n_aktivni": 7,
+      "n_aktivni": 8,
       "dom_medijana": 98,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 16,
       "starost_aktivnih_medijana": 12,
       "udeo_jos_u_ponudi": 0.36,
-      "udeo_aktivnih_pct": 70,
+      "udeo_aktivnih_pct": 73,
       "skinuti_p25": 2,
       "skinuti_p75": 98,
       "brzo_do_30d": 67,
@@ -2146,14 +2142,14 @@
     },
     "BW Riviera": {
       "n_zavrseni": 20,
-      "n_aktivni": 28,
+      "n_aktivni": 29,
       "dom_medijana": 107,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 44,
-      "starost_aktivnih_medijana": 46,
+      "starost_aktivnih_medijana": 45,
       "udeo_jos_u_ponudi": 0.3785,
-      "udeo_aktivnih_pct": 58,
+      "udeo_aktivnih_pct": 59,
       "skinuti_p25": 16,
       "skinuti_p75": 85,
       "brzo_do_30d": 35,
@@ -2803,14 +2799,14 @@
     },
     "BW Thalia": {
       "n_zavrseni": 8,
-      "n_aktivni": 16,
+      "n_aktivni": 17,
       "dom_medijana": null,
       "metod": "kaplan-meier",
       "pouzdano": false,
       "naivna_medijana_samo_skinuti": 20,
-      "starost_aktivnih_medijana": 43,
+      "starost_aktivnih_medijana": 14,
       "udeo_jos_u_ponudi": 0.5093,
-      "udeo_aktivnih_pct": 67,
+      "udeo_aktivnih_pct": 68,
       "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'.",
       "skinuti_p25": 7,
       "skinuti_p75": 112,
@@ -2914,18 +2910,19 @@
       ]
     },
     "BW Victoria": {
-      "n_zavrseni": 18,
-      "n_aktivni": 48,
-      "dom_medijana": 124,
+      "n_zavrseni": 17,
+      "n_aktivni": 49,
+      "dom_medijana": null,
       "metod": "kaplan-meier",
-      "pouzdano": true,
-      "naivna_medijana_samo_skinuti": 22,
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": 18,
       "starost_aktivnih_medijana": 27,
-      "udeo_jos_u_ponudi": 0.4679,
-      "udeo_aktivnih_pct": 73,
+      "udeo_jos_u_ponudi": 0.5614,
+      "udeo_aktivnih_pct": 74,
+      "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'.",
       "skinuti_p25": 9,
-      "skinuti_p75": 80,
-      "brzo_do_30d": 56,
+      "skinuti_p75": 57,
+      "brzo_do_30d": 59,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -2995,10 +2992,6 @@
         {
           "dan": 99,
           "preziveli": 0.5614
-        },
-        {
-          "dan": 124,
-          "preziveli": 0.4679
         }
       ]
     },
@@ -3692,14 +3685,14 @@
     },
     "Petosoban+": {
       "n_zavrseni": 13,
-      "n_aktivni": 28,
+      "n_aktivni": 29,
       "dom_medijana": null,
       "metod": "kaplan-meier",
       "pouzdano": false,
       "naivna_medijana_samo_skinuti": 9,
-      "starost_aktivnih_medijana": 30,
+      "starost_aktivnih_medijana": 20,
       "udeo_jos_u_ponudi": 0.5468,
-      "udeo_aktivnih_pct": 68,
+      "udeo_aktivnih_pct": 69,
       "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'.",
       "skinuti_p25": 7,
       "skinuti_p75": 49,
@@ -3989,15 +3982,15 @@
       ]
     },
     "Četvorosoban": {
-      "n_zavrseni": 113,
-      "n_aktivni": 231,
+      "n_zavrseni": 112,
+      "n_aktivni": 234,
       "dom_medijana": 113,
       "metod": "kaplan-meier",
       "pouzdano": true,
-      "naivna_medijana_samo_skinuti": 28,
+      "naivna_medijana_samo_skinuti": 26,
       "starost_aktivnih_medijana": 20,
-      "udeo_jos_u_ponudi": 0.4676,
-      "udeo_aktivnih_pct": 67,
+      "udeo_jos_u_ponudi": 0.4793,
+      "udeo_aktivnih_pct": 68,
       "skinuti_p25": 8,
       "skinuti_p75": 71,
       "brzo_do_30d": 54,
@@ -4254,10 +4247,6 @@
         {
           "dan": 119,
           "preziveli": 0.4793
-        },
-        {
-          "dan": 124,
-          "preziveli": 0.4676
         }
       ]
     }
@@ -4283,18 +4272,18 @@
     },
     {
       "kvartil": "najskuplji 25%",
-      "n": 143,
-      "cena_medijana": 760000,
-      "dom_medijana": 31
+      "n": 142,
+      "cena_medijana": 759500,
+      "dom_medijana": 30
     }
   ],
   "cene": {
-    "oglasa_sa_promenom": 227,
-    "ukupno_snizenja": 263,
-    "prosecno_snizenje_pct": 4.5
+    "oglasa_sa_promenom": 231,
+    "ukupno_snizenja": 264,
+    "prosecno_snizenje_pct": 4.6
   },
   "izvori": {
-    "halo": 1109,
+    "halo": 1112,
     "4zida": 541,
     "nadjidom": 103
   },
