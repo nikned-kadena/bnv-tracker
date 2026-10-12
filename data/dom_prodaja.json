@@ -4,7 +4,7 @@
   "pocetak_pracenja": "2026-06-09",
   "ukupno": {
     "n_zavrseni": 574,
-    "n_aktivni": 877,
+    "n_aktivni": 878,
     "dom_medijana": 88,
     "metod": "kaplan-meier",
     "pouzdano": true,
@@ -1429,14 +1429,14 @@
     },
     "BW Magnolia": {
       "n_zavrseni": 8,
-      "n_aktivni": 4,
+      "n_aktivni": 5,
       "dom_medijana": 33,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 18,
       "starost_aktivnih_medijana": 125,
       "udeo_jos_u_ponudi": 0.275,
-      "udeo_aktivnih_pct": 33,
+      "udeo_aktivnih_pct": 38,
       "skinuti_p25": 14,
       "skinuti_p75": 46,
       "brzo_do_30d": 62,
@@ -3776,7 +3776,7 @@
     },
     "Trosoban": {
       "n_zavrseni": 219,
-      "n_aktivni": 275,
+      "n_aktivni": 276,
       "dom_medijana": 85,
       "metod": "kaplan-meier",
       "pouzdano": true,
@@ -4278,14 +4278,14 @@
     }
   ],
   "cene": {
-    "oglasa_sa_promenom": 231,
-    "ukupno_snizenja": 264,
-    "prosecno_snizenje_pct": 4.6
+    "oglasa_sa_promenom": 232,
+    "ukupno_snizenja": 276,
+    "prosecno_snizenje_pct": 4.5
   },
   "izvori": {
     "halo": 1112,
-    "4zida": 541,
-    "nadjidom": 103
+    "4zida": 543,
+    "nadjidom": 104
   },
   "napomena": "dom_medijana je Kaplan-Meier procena i JEDINI broj koji se citira kao trajanje oglasa. Aktivni oglasi ulaze u racun kao cenzurisana opazanja (trajali su BAR toliko), umesto da se izbace. naivna_medijana_samo_skinuti je kontrolni broj koji gleda samo zatvorene oglase i sistematski je POTCENJEN — na NB prodaji je davao 13 dana naspram stvarnih 29. Ne citirati ga. starost_aktivnih_medijana je koliko vec stoje oglasi koji su jos u ponudi; to je donja granica, ne trajanje. Medijana se prikazuje tek od 5 oglasa u grupi."
 }
