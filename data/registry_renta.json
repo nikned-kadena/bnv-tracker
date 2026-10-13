@@ -3155,7 +3155,7 @@
     "ccbd1517a54a0b08": {
       "uid": "ccbd1517a54a0b08",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-10-12",
+      "last_seen": "2026-10-13",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4455b29952965e33",
@@ -3184,7 +3184,7 @@
       "days_listed": 126,
       "cena_m2": 17,
       "last_seen_src": {
-        "halo": "2026-10-12"
+        "halo": "2026-10-13"
       },
       "fp_nosprat_all": [
         "8e1351628116fa6f"
@@ -9955,12 +9955,13 @@
     "0a78c81335162908": {
       "uid": "0a78c81335162908",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-06-18",
-      "is_active": false,
-      "deactivated_at": "2026-06-20",
+      "last_seen": "2026-10-13",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "829d7bb521dccb00",
       "fp_strict_all": [
-        "8733d38bcc2f1fd9"
+        "8733d38bcc2f1fd9",
+        "7cb3660f61aac984"
       ],
       "sources": [
         "halo"
@@ -9969,7 +9970,8 @@
         "halo": "5425647284647"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-1---odmah-useljiv---porodicni-dom/5425647284647?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-1---odmah-useljiv---porodicni-dom/5425647284647?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-1---porodicni-dom/5425647284647?kid=4"
       ],
       "zgrada": "BW Quartet 1",
       "struktura": "3.0",
@@ -9977,11 +9979,25 @@
       "m2": 72.95,
       "sprat": "VI/8",
       "agencija": "Vesnarb1",
-      "naslov": "BW Quartet 1 - Odmah useljiv - Porodični dom",
+      "naslov": "BW Quartet 1 - Porodični dom",
       "price_first": 1300,
-      "price_current": 1300,
-      "price_changes": [],
-      "days_listed": 4
+      "price_current": 1400,
+      "price_changes": [
+        {
+          "date": "2026-10-13",
+          "from": 1300,
+          "to": 1400
+        }
+      ],
+      "days_listed": 119,
+      "last_seen_src": {
+        "halo": "2026-10-13"
+      },
+      "fp_nosprat_all": [
+        "da7f453548cbf6ec"
+      ],
+      "fp_nosprat": "da7f453548cbf6ec",
+      "cena_m2": 19
     },
     "1bbcca29457a6369": {
       "uid": "1bbcca29457a6369",
@@ -18461,14 +18477,15 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "5425647646039",
+        "halo": "5425647816543",
         "4zida": "4zida:6a9fc2fbfb38e2914b0b493c"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kula-st-regis-kompletno-namesten-odmah-uselji/5425647352603?kid=4",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kula-st-regis-kompletno-namesten-odmah-uselji/5425647646039?kid=4",
         "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6a9fc2fbfb38e2914b0b493c",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kula-st-regis-kompletno-namesten-odmah-uselji/5425647646039?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kula-st-regis-kompletno-namesten-odmah-uselji/5425647646039?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kula-st-regis-premium-odmah-dostupan-id5015/5425647816543?kid=1"
       ],
       "zgrada": "BW St. Regis",
       "struktura": "2.0",
@@ -18476,7 +18493,7 @@
       "m2": 59.0,
       "sprat": "XX",
       "agencija": "PropertyBroker",
-      "naslov": "Kula St. Regis, kompletno namešten, odmah useljiv",
+      "naslov": "Kula St. Regis, premium, odmah dostupan ID#5015",
       "price_first": 2900,
       "price_current": 2500,
       "price_changes": [
@@ -33917,12 +33934,13 @@
     "6769cabbd0151208": {
       "uid": "6769cabbd0151208",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-09-29",
-      "is_active": false,
-      "deactivated_at": "2026-10-01",
+      "last_seen": "2026-10-13",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "a9e7d45daa917c1b",
       "fp_strict_all": [
-        "bec0792d1572b848"
+        "bec0792d1572b848",
+        "ba73f90cf3065159"
       ],
       "sources": [
         "halo"
@@ -33941,12 +33959,23 @@
       "agencija": "SonataProperties",
       "naslov": "Lux 2.0 stan od 60m2 sa gar.mestom, Bw Magnolia",
       "price_first": 1000,
-      "price_current": 1000,
-      "price_changes": [],
-      "days_listed": 2,
+      "price_current": 1100,
+      "price_changes": [
+        {
+          "date": "2026-10-13",
+          "from": 1000,
+          "to": 1100
+        }
+      ],
+      "days_listed": 14,
       "last_seen_src": {
-        "halo": "2026-09-29"
-      }
+        "halo": "2026-10-13"
+      },
+      "fp_nosprat_all": [
+        "a79f164928baf2a1"
+      ],
+      "fp_nosprat": "a79f164928baf2a1",
+      "cena_m2": 18
     },
     "9a2f5e6cb9ac69f8": {
       "uid": "9a2f5e6cb9ac69f8",
@@ -43888,7 +43917,7 @@
     "67ec1658ea383778": {
       "uid": "67ec1658ea383778",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-10-12",
+      "last_seen": "2026-10-13",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b933734a65ac59d3",
@@ -43906,7 +43935,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-10-12"
+        "halo": "2026-10-13"
       },
       "source_ids": {
         "halo": "5425646194165"
@@ -45616,7 +45645,8 @@
         "b26121739d40ea8b"
       ],
       "fp_strict_all": [
-        "d02441781a5c53d5"
+        "d02441781a5c53d5",
+        "19227a5c28fe9d19"
       ],
       "sources": [
         "halo",
@@ -45642,10 +45672,16 @@
       "agencija": null,
       "naslov": "Prvi put se izdaje, moderan stan sa garažom u ceni",
       "price_first": 1700,
-      "price_current": 1700,
-      "price_changes": [],
+      "price_current": 1600,
+      "price_changes": [
+        {
+          "date": "2026-10-13",
+          "from": 1700,
+          "to": 1600
+        }
+      ],
       "days_listed": 3,
-      "cena_m2": 29
+      "cena_m2": 28
     },
     "cc839632cec90c92": {
       "uid": "cc839632cec90c92",
@@ -46062,10 +46098,93 @@
       "price_first": 1300,
       "price_current": 1300,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 24
+    },
+    "df502ad79f90604d": {
+      "uid": "df502ad79f90604d",
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "0ffad861582da976",
+      "fp_loose_all": [
+        "0ffad861582da976"
+      ],
+      "fp_nosprat": "647d9a7a58e93ec1",
+      "fp_nosprat_all": [
+        "647d9a7a58e93ec1"
+      ],
+      "fp_strict_all": [
+        "286a27de40ef9edf"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-13"
+      },
+      "source_ids": {
+        "halo": "5425646579293"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-na-vodi-bw-quartet-3-0-sa-garazom-lux/5425646579293?kid=4"
+      ],
+      "zgrada": "BW Quartet 1",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 86.0,
+      "sprat": "V/8",
+      "agencija": null,
+      "naslov": "Beograd na vodi, BW Quartet, 3.0. Sa garazom,LUX,",
+      "price_first": 1900,
+      "price_current": 1900,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "aa7ca8e3f21d8dee": {
+      "uid": "aa7ca8e3f21d8dee",
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "c6b2c81212eb5e43",
+      "fp_loose_all": [
+        "c6b2c81212eb5e43"
+      ],
+      "fp_nosprat": "2e101d477a1eba44",
+      "fp_nosprat_all": [
+        "2e101d477a1eba44"
+      ],
+      "fp_strict_all": [
+        "1ae9284293c9c67f"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-13"
+      },
+      "source_ids": {
+        "halo": "5425645086624"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/moderan-stan-2-spavace-garaza-bw-id-4064/5425645086624?kid=1"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 90.0,
+      "sprat": "XVI",
+      "agencija": "symbol-properties-doo-beograd",
+      "naslov": "Moderan stan, 2 spavaće, garaža, BW, ID 4064",
+      "price_first": 1800,
+      "price_current": 1800,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-13T06:03:17.798042+00:00",
+  "updated_at": "2026-10-13T12:03:36.728173+00:00",
   "last_run": {
     "4zida": "2026-10-12",
     "nadjidom": "2026-10-12",
