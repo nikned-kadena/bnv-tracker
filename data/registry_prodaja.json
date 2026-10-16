@@ -17434,13 +17434,14 @@
     "506faa23e8cf27d2": {
       "uid": "506faa23e8cf27d2",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-10-07",
-      "is_active": false,
-      "deactivated_at": "2026-10-09",
+      "last_seen": "2026-10-16",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "03e4cdf044988d5e",
       "fp_strict_all": [
         "cd27440f8ebf6856",
-        "ec0fe84e5f2d1c6f"
+        "ec0fe84e5f2d1c6f",
+        "2a2a5ddc091ea9e0"
       ],
       "sources": [
         "halo"
@@ -17459,18 +17460,23 @@
       "agencija": "Vesnarb1",
       "naslov": "BW Eden - Za aktivan život u Apollo centru",
       "price_first": 375000,
-      "price_current": 370000,
+      "price_current": 355000,
       "price_changes": [
         {
           "date": "2026-07-30",
           "from": 375000,
           "to": 370000
+        },
+        {
+          "date": "2026-10-16",
+          "from": 370000,
+          "to": 355000
         }
       ],
-      "days_listed": 112,
-      "cena_m2": 4698,
+      "days_listed": 119,
+      "cena_m2": 4508,
       "last_seen_src": {
-        "halo": "2026-10-07"
+        "halo": "2026-10-16"
       },
       "fp_nosprat_all": [
         "d7014cabe7b8f46d"
@@ -31755,7 +31761,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-4-0-stan-bw-simfonija-sa-najlepsim-pogled/5425646985121?kid=4",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-4-0-stan-bw-simfonija-sa-najlepsim-pogled/5425646985121?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-4-0-stan-bw-simfonija-sa-najlepsim-pogled/5425646985121?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-simfonija-4-0/5425646985121?kid=1"
       ],
       "zgrada": "BW Simfonija 1",
       "struktura": "4.0",
@@ -31763,7 +31770,7 @@
       "m2": 123.74,
       "sprat": "XII/17",
       "agencija": "MaxisGroup1",
-      "naslov": "Lux 4.0 stan BW Simfonija sa najlepšim pogledom",
+      "naslov": "BW Simfonija 4.0",
       "price_first": 599000,
       "price_current": 599000,
       "price_changes": [],
@@ -36823,7 +36830,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-cetvorosoban-stan-u-bw-sensa/5425647114570?kid=4",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/kompletno-namesten-4-0-luksuzan-stan-u-bw-sen/5425647114570?kid=3"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/kompletno-namesten-4-0-luksuzan-stan-u-bw-sen/5425647114570?kid=3",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sensa-4-0/5425647114570?kid=3"
       ],
       "zgrada": "BW Sensa",
       "struktura": "4.0",
@@ -36831,7 +36839,7 @@
       "m2": 123.33,
       "sprat": "VI/8",
       "agencija": "MaxisGroup1",
-      "naslov": "Kompletno namešten 4.0 luksuzan stan u BW Sensa",
+      "naslov": "BW Sensa 4.0",
       "price_first": 630000,
       "price_current": 630000,
       "price_changes": [],
@@ -61176,7 +61184,8 @@
       "price_first": 210000,
       "price_current": 210000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4619
     },
     "36db9b18a2680dbe": {
       "uid": "36db9b18a2680dbe",
@@ -61217,7 +61226,8 @@
       "price_first": 698000,
       "price_current": 698000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 7843
     },
     "788d035c0be3750f": {
       "uid": "788d035c0be3750f",
@@ -61258,7 +61268,8 @@
       "price_first": 690000,
       "price_current": 690000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5610
     },
     "7332dcc1ae88d59a": {
       "uid": "7332dcc1ae88d59a",
@@ -61299,10 +61310,11 @@
       "price_first": 340000,
       "price_current": 340000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4304
     }
   },
-  "updated_at": "2026-10-16T06:02:19.727966+00:00",
+  "updated_at": "2026-10-16T09:11:49.326118+00:00",
   "last_run": {
     "4zida": "2026-10-15",
     "nadjidom": "2026-10-15",

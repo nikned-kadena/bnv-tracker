@@ -42257,7 +42257,8 @@
         "halo": "5425647775244"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-3-0-stan-drugi-red-do-reke/5425647775244?kid=3"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-3-0-stan-drugi-red-do-reke/5425647775244?kid=3",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-3-0-87m2/5425647775244?kid=3"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "3.0",
@@ -42265,7 +42266,7 @@
       "m2": 87.0,
       "sprat": "VI/17",
       "agencija": "MaxisGroup1",
-      "naslov": "lux 3.0 stan drugi red do reke",
+      "naslov": "BW, 3.0, 87m2,",
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
@@ -44509,7 +44510,7 @@
     "ea275e13e27e578e": {
       "uid": "ea275e13e27e578e",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0f26d64531520ea4",
@@ -44528,7 +44529,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-14",
+        "halo": "2026-10-16",
         "4zida": "2026-10-15"
       },
       "source_ids": {
@@ -44545,7 +44546,7 @@
       "m2": 57.0,
       "sprat": "XXIV",
       "agencija": "MaxisGroup1",
-      "naslov": "Dvosoban stan za izdavanje, Nikolaja Kravcova, 2.500€, 57m²",
+      "naslov": "BW St. Regis Residence 2.0",
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
@@ -47858,7 +47859,8 @@
       "price_first": 1300,
       "price_current": 1300,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 18
     },
     "d6cbce87b252f1ea": {
       "uid": "d6cbce87b252f1ea",
@@ -47899,7 +47901,8 @@
       "price_first": 1400,
       "price_current": 1400,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 24
     },
     "270a08669bef95b1": {
       "uid": "270a08669bef95b1",
@@ -47940,10 +47943,93 @@
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 21
+    },
+    "55a6cb1e87ff0aca": {
+      "uid": "55a6cb1e87ff0aca",
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "06e841ad7e8a3271",
+      "fp_loose_all": [
+        "06e841ad7e8a3271"
+      ],
+      "fp_nosprat": "088fa45163026f53",
+      "fp_nosprat_all": [
+        "088fa45163026f53"
+      ],
+      "fp_strict_all": [
+        "981bc379fbcedead"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-16"
+      },
+      "source_ids": {
+        "halo": "5425647833093"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-sole---preko-puta-galerije-trosoban-garaza/5425647833093?kid=4"
+      ],
+      "zgrada": "BW Sole",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 84.0,
+      "sprat": "VI",
+      "agencija": null,
+      "naslov": "BW Sole - preko puta Galerije, trosoban, garaža",
+      "price_first": 1600,
+      "price_current": 1600,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "051b7f2d8baedd3a": {
+      "uid": "051b7f2d8baedd3a",
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "647fcf326b8c4633",
+      "fp_loose_all": [
+        "647fcf326b8c4633"
+      ],
+      "fp_nosprat": "4ed29e895d3886d7",
+      "fp_nosprat_all": [
+        "4ed29e895d3886d7"
+      ],
+      "fp_strict_all": [
+        "8e6c8dc852caabad"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-16"
+      },
+      "source_ids": {
+        "halo": "5425647832509"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-scala--sa-garaznim-mestom/5425647832509?kid=1"
+      ],
+      "zgrada": "BW Scala",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 35.0,
+      "sprat": "I",
+      "agencija": null,
+      "naslov": "BW Scala- sa garaznim mestom",
+      "price_first": 1100,
+      "price_current": 1100,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-16T06:03:27.624722+00:00",
+  "updated_at": "2026-10-16T09:12:50.736956+00:00",
   "last_run": {
     "4zida": "2026-10-15",
     "nadjidom": "2026-10-15",

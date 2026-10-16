@@ -3,18 +3,18 @@
   "generated": "2026-10-16",
   "pocetak_pracenja": "2026-06-09",
   "ukupno": {
-    "n_zavrseni": 601,
-    "n_aktivni": 872,
+    "n_zavrseni": 600,
+    "n_aktivni": 873,
     "dom_medijana": 89,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 18,
     "starost_aktivnih_medijana": 21,
-    "udeo_jos_u_ponudi": 0.3804,
+    "udeo_jos_u_ponudi": 0.382,
     "udeo_aktivnih_pct": 59,
     "skinuti_p25": 7,
     "skinuti_p75": 53,
-    "brzo_do_30d": 59,
+    "brzo_do_30d": 60,
     "sporo_preko_180d": 0,
     "kriva": [
       {
@@ -219,27 +219,27 @@
       },
       {
         "dan": 112,
-        "preziveli": 0.4314
+        "preziveli": 0.4331
       },
       {
         "dan": 114,
-        "preziveli": 0.4244
+        "preziveli": 0.4261
       },
       {
         "dan": 116,
-        "preziveli": 0.4169
+        "preziveli": 0.4186
       },
       {
         "dan": 118,
-        "preziveli": 0.411
+        "preziveli": 0.4127
       },
       {
         "dan": 121,
-        "preziveli": 0.4004
+        "preziveli": 0.4021
       },
       {
         "dan": 128,
-        "preziveli": 0.3832
+        "preziveli": 0.3848
       }
     ]
   },
@@ -860,18 +860,19 @@
       "udeo_aktivnih_pct": 100
     },
     "BW Eden": {
-      "n_zavrseni": 13,
-      "n_aktivni": 20,
-      "dom_medijana": 112,
+      "n_zavrseni": 12,
+      "n_aktivni": 21,
+      "dom_medijana": null,
       "metod": "kaplan-meier",
-      "pouzdano": true,
-      "naivna_medijana_samo_skinuti": 16,
-      "starost_aktivnih_medijana": 41,
-      "udeo_jos_u_ponudi": 0.4663,
-      "udeo_aktivnih_pct": 61,
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": 14,
+      "starost_aktivnih_medijana": 47,
+      "udeo_jos_u_ponudi": 0.544,
+      "udeo_aktivnih_pct": 64,
+      "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'.",
       "skinuti_p25": 8,
       "skinuti_p75": 33,
-      "brzo_do_30d": 69,
+      "brzo_do_30d": 75,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -913,10 +914,6 @@
         {
           "dan": 88,
           "preziveli": 0.544
-        },
-        {
-          "dan": 112,
-          "preziveli": 0.4663
         }
       ]
     },
@@ -3901,14 +3898,14 @@
       ]
     },
     "Trosoban": {
-      "n_zavrseni": 231,
-      "n_aktivni": 271,
+      "n_zavrseni": 230,
+      "n_aktivni": 272,
       "dom_medijana": 83,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 24,
-      "starost_aktivnih_medijana": 33,
-      "udeo_jos_u_ponudi": 0.3513,
+      "starost_aktivnih_medijana": 34,
+      "udeo_jos_u_ponudi": 0.3555,
       "udeo_aktivnih_pct": 54,
       "skinuti_p25": 7,
       "skinuti_p75": 53,
@@ -4068,20 +4065,20 @@
           "preziveli": 0.406
         },
         {
-          "dan": 112,
-          "preziveli": 0.3973
+          "dan": 113,
+          "preziveli": 0.3972
         },
         {
-          "dan": 115,
-          "preziveli": 0.388
+          "dan": 116,
+          "preziveli": 0.3876
         },
         {
-          "dan": 117,
-          "preziveli": 0.3782
+          "dan": 118,
+          "preziveli": 0.3778
         },
         {
-          "dan": 120,
-          "preziveli": 0.3582
+          "dan": 129,
+          "preziveli": 0.3555
         }
       ]
     },
@@ -4398,14 +4395,14 @@
     },
     {
       "kvartil": "najskuplji 25%",
-      "n": 151,
-      "cena_medijana": 758000,
+      "n": 150,
+      "cena_medijana": 758500,
       "dom_medijana": 30
     }
   ],
   "cene": {
     "oglasa_sa_promenom": 237,
-    "ukupno_snizenja": 337,
+    "ukupno_snizenja": 338,
     "prosecno_snizenje_pct": 4.2
   },
   "izvori": {
