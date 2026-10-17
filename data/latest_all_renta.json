@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-10-17",
   "scraped_at": "2026-10-17",
-  "total_raw": 396,
-  "total_unique": 311,
+  "total_raw": 397,
+  "total_unique": 312,
   "total_dups": 85,
   "diff_new": [
     "4f8e167f6ae9f6b1",
@@ -13,8 +13,7 @@
     "888a74322b5333f3"
   ],
   "diff_removed": [
-    "a59f50e41345751c",
-    "dbc333aeab881d38"
+    "a59f50e41345751c"
   ],
   "listings": [
     {
@@ -9009,6 +9008,33 @@
       "last_seen": "2026-10-17",
       "dedup_key": "BW (neidentifikovano)|90.0|1600",
       "zgrada_izvor": "opis",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "dbc333aeab881d38",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris---apollo-centar---dve-spavace-sobe/5425647793124?kid=4",
+      "naslov": "BW Iris - Apollo centar - Dve spavaće sobe",
+      "zgrada": "BW Iris",
+      "agencija": "8 Rooms",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.95,
+      "cena": 1600,
+      "cena_m2": 20,
+      "sprat": "XI/18",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 9,
+      "prva_cena": 1600,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-17",
+      "dedup_key": "BW Iris|78.95|1600",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
