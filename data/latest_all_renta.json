@@ -3,15 +3,17 @@
   "source": "all",
   "date": "2026-10-19",
   "scraped_at": "2026-10-19",
-  "total_raw": 371,
-  "total_unique": 297,
-  "total_dups": 74,
-  "diff_new": [],
+  "total_raw": 374,
+  "total_unique": 299,
+  "total_dups": 75,
+  "diff_new": [
+    "5e29c208f183bb07",
+    "07304da95ac7c03c"
+  ],
   "diff_removed": [
     "61b96ec3df1b30c6",
     "907d22573d0c5b6f",
     "4dde0109736070eb",
-    "c46d9e4a9fd471fe",
     "6dafd4df618c4ffe",
     "bf36af97ede32cb4"
   ],
@@ -6355,6 +6357,34 @@
       "cena_m2_sumnjiva": true
     },
     {
+      "id": "c46d9e4a9fd471fe",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6aa017b7eafaadec5a079827",
+      "naslov": "Bw Residence |4,0 stan | 138m2 | garažno mesto",
+      "zgrada": "BW Residences",
+      "agencija": "Expo Real Estate",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 138.0,
+      "cena": 3500,
+      "cena_m2": 25,
+      "sprat": "V/18",
+      "izvori": [
+        "4zida",
+        "halo"
+      ],
+      "dana_na_trzistu": 19,
+      "prva_cena": 3500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-10-19",
+      "dedup_key": "BW Residences|138.0|3500",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
       "id": "38832369917fa193",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/jednosoban-stan/6a9feee38b153470af0651db",
       "naslov": "Jednosoban stan za izdavanje, Nikolaja Kravcova, 3.200€, 62m²",
@@ -10241,6 +10271,60 @@
       "posrednik": null,
       "tip_prodaje": null,
       "zgrada_orig": "BW Iris",
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "5e29c208f183bb07",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-vista-sa-garazom/5425647847832?kid=4",
+      "naslov": "BW Vista, sa garažom",
+      "zgrada": "BW Vista",
+      "agencija": "Astranowa",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 50.0,
+      "cena": 1100,
+      "cena_m2": 22,
+      "sprat": "X/23",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1100,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "dedup_key": "BW Vista|50.0|1100",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "07304da95ac7c03c",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-4-0--bazen-teretana-2-garazna-mesta-id-86/5425647847838?kid=1",
+      "naslov": "Lux 4.0- bazen, teretana, 2 garažna mesta, ID 8697",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "Symbol Properties",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 124.0,
+      "cena": 4000,
+      "cena_m2": 32,
+      "sprat": "XIV",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 4000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "dedup_key": "BW (neidentifikovano)|124.0|4000",
+      "zgrada_izvor": "opis",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
   ]

@@ -3,12 +3,11 @@
   "source": "4zida",
   "date": "2026-10-19",
   "scraped_at": "2026-10-19",
-  "total_raw": 252,
+  "total_raw": 253,
   "total_unique": 207,
-  "total_dups": 45,
+  "total_dups": 46,
   "diff_new": [],
   "diff_removed": [
-    "c46d9e4a9fd471fe",
     "6dafd4df618c4ffe"
   ],
   "listings": [
@@ -4669,6 +4668,34 @@
       "tip_prodaje": null,
       "zgrada_orig": "BW St. Regis",
       "cena_m2_sumnjiva": true
+    },
+    {
+      "id": "c46d9e4a9fd471fe",
+      "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6aa017b7eafaadec5a079827",
+      "naslov": "Bw Residence |4,0 stan | 138m2 | garažno mesto",
+      "zgrada": "BW Residences",
+      "agencija": "Expo Real Estate",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 138.0,
+      "cena": 3500,
+      "cena_m2": 25,
+      "sprat": "V/18",
+      "izvori": [
+        "4zida",
+        "halo"
+      ],
+      "dana_na_trzistu": 19,
+      "prva_cena": 3500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-10-19",
+      "dedup_key": "BW Residences|138.0|3500",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
     },
     {
       "id": "38832369917fa193",
