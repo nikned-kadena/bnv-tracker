@@ -652,7 +652,7 @@
     "b7646916748dc901": {
       "uid": "b7646916748dc901",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-22",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "31af11ea05b47045",
@@ -688,7 +688,7 @@
       "days_listed": 135,
       "cena_m2": 6658,
       "last_seen_src": {
-        "halo": "2026-10-21"
+        "halo": "2026-10-22"
       },
       "fp_nosprat_all": [
         "2e15e47dc144a8a0"
@@ -2146,13 +2146,14 @@
     "b7fb30695ccb1aa9": {
       "uid": "b7fb30695ccb1aa9",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-10-16",
-      "is_active": false,
-      "deactivated_at": "2026-10-18",
+      "last_seen": "2026-10-22",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "164d2a75b5a4d42b",
       "fp_strict_all": [
         "0e876311686ac187",
-        "0a079e08a5fe4af2"
+        "0a079e08a5fe4af2",
+        "ec49e6f26ab2eb87"
       ],
       "sources": [
         "halo",
@@ -2167,32 +2168,39 @@
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-eterna-3-0-izuzetan-enterijer/5425647027010?kid=1",
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika-3-0-top-cena/5425647027010?kid=1",
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika-3-0-top-cena/5425647027010?kid=4",
-        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a9bde8d9ed5acb8a10556ed"
+        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a9bde8d9ed5acb8a10556ed",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika-4-0-visoki-sprat/5425647027010?kid=1"
       ],
       "zgrada": "BW Eterna",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 79.0,
-      "sprat": "I",
+      "m2": 111.0,
+      "sprat": "X",
       "agencija": "SonataProperties",
-      "naslov": "Trosoban stan na prodaju, Beograd na vodi, 316.000€, 79m²",
+      "naslov": "Bw Nika 4.0 Visoki Sprat",
       "price_first": 443000,
-      "price_current": 316000,
+      "price_current": 516150,
       "price_changes": [
         {
           "date": "2026-09-06",
           "from": 443000,
           "to": 316000
+        },
+        {
+          "date": "2026-10-22",
+          "from": 316000,
+          "to": 516150
         }
       ],
-      "days_listed": 131,
-      "cena_m2": 4000,
+      "days_listed": 135,
+      "cena_m2": 4650,
       "last_seen_src": {
-        "halo": "2026-10-16",
+        "halo": "2026-10-22",
         "4zida": "2026-10-16"
       },
       "fp_nosprat_all": [
-        "392bee405b9d1098"
+        "392bee405b9d1098",
+        "2e571a4349881773"
       ],
       "fp_nosprat": "392bee405b9d1098"
     },
@@ -4582,9 +4590,9 @@
     "48b78ac7f45f765e": {
       "uid": "48b78ac7f45f765e",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-08-11",
-      "is_active": false,
-      "deactivated_at": "2026-08-21",
+      "last_seen": "2026-10-22",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "caf34f2bd5098709",
       "fp_strict_all": [
         "1c48c0164c2c45b3",
@@ -4608,17 +4616,29 @@
       "agencija": null,
       "naslov": "BW,4.0,pogled ka reci,nov,LUX,bez agencija",
       "price_first": 575000,
-      "price_current": 545000,
+      "price_current": 575000,
       "price_changes": [
         {
           "date": "2026-08-07",
           "from": 575000,
           "to": 545000
+        },
+        {
+          "date": "2026-10-22",
+          "from": 545000,
+          "to": 575000
         }
       ],
-      "days_listed": 73,
-      "cena_m2": 4993,
-      "deactivation_uncertain": true
+      "days_listed": 135,
+      "cena_m2": 5267,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-10-22"
+      },
+      "fp_nosprat_all": [
+        "fc65681aeff07e1d"
+      ],
+      "fp_nosprat": "fc65681aeff07e1d"
     },
     "5e5be634d97f9a3d": {
       "uid": "5e5be634d97f9a3d",
@@ -5202,7 +5222,8 @@
       "fp_loose": "89fec6e5e0d4e230",
       "fp_strict_all": [
         "77f588bd7b52bc21",
-        "8acb576ed2d2a9de"
+        "8acb576ed2d2a9de",
+        "04f2db27eeb2221d"
       ],
       "sources": [
         "halo",
@@ -5224,10 +5245,16 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Garden Plaza, odlična ponuda, dvostrana orijent",
       "price_first": 380888,
-      "price_current": 380888,
-      "price_changes": [],
+      "price_current": 389888,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 380888,
+          "to": 389888
+        }
+      ],
       "days_listed": 135,
-      "cena_m2": 4186,
+      "cena_m2": 4284,
       "last_seen_src": {
         "halo": "2026-10-22",
         "4zida": "2026-10-21"
@@ -5398,7 +5425,8 @@
       "fp_loose": "b6d27a2d2f5d641e",
       "fp_strict_all": [
         "165a13f18b1531c4",
-        "31cbdb4014f0c618"
+        "31cbdb4014f0c618",
+        "9365dd8e3e5c1d6f"
       ],
       "sources": [
         "halo",
@@ -5420,10 +5448,16 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Garden Plaza, na odličnoj lokaciji, drugi red d",
       "price_first": 240888,
-      "price_current": 240888,
-      "price_changes": [],
+      "price_current": 246888,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 240888,
+          "to": 246888
+        }
+      ],
       "days_listed": 135,
-      "cena_m2": 4723,
+      "cena_m2": 4841,
       "last_seen_src": {
         "halo": "2026-10-22",
         "4zida": "2026-10-21"
@@ -14506,7 +14540,8 @@
         "958e479a74619234",
         "96a765cc090db0cf",
         "0b90e399d0fc3817",
-        "66134c882aae955a"
+        "66134c882aae955a",
+        "f35bb3620cf26360"
       ],
       "sources": [
         "halo"
@@ -14526,7 +14561,7 @@
       "agencija": null,
       "naslov": "Garsonjera od 32kvm u BW Eden",
       "price_first": 179900,
-      "price_current": 179500,
+      "price_current": 184000,
       "price_changes": [
         {
           "date": "2026-06-20",
@@ -14542,10 +14577,15 @@
           "date": "2026-08-05",
           "from": 180000,
           "to": 179500
+        },
+        {
+          "date": "2026-10-22",
+          "from": 179500,
+          "to": 184000
         }
       ],
       "days_listed": 133,
-      "cena_m2": 5599,
+      "cena_m2": 5739,
       "last_seen_src": {
         "halo": "2026-10-22"
       },
@@ -21321,7 +21361,8 @@
       "fp_loose": "d21bb9f9d7c2889f",
       "fp_strict_all": [
         "f9c96b432975068e",
-        "96cd1d77dda7b144"
+        "96cd1d77dda7b144",
+        "e1126a8ef32ec936"
       ],
       "sources": [
         "halo",
@@ -21343,10 +21384,16 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Garden Plaza, odlična ponuda, drugi red od reke",
       "price_first": 260888,
-      "price_current": 260888,
-      "price_changes": [],
+      "price_current": 267888,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 260888,
+          "to": 267888
+        }
+      ],
       "days_listed": 119,
-      "cena_m2": 4922,
+      "cena_m2": 5054,
       "last_seen_src": {
         "halo": "2026-10-22",
         "4zida": "2026-10-21"
@@ -23369,7 +23416,8 @@
       "fp_loose": "8d4fb2dc8fa2183d",
       "fp_strict_all": [
         "1110a22a5adb7e24",
-        "32d00fce85afbd88"
+        "32d00fce85afbd88",
+        "1723b073713696c3"
       ],
       "sources": [
         "halo",
@@ -23391,10 +23439,16 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Garden Plaza, pogled na muzej Nikole Tesle ID#4",
       "price_first": 243888,
-      "price_current": 243888,
-      "price_changes": [],
+      "price_current": 249888,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 243888,
+          "to": 249888
+        }
+      ],
       "days_listed": 110,
-      "cena_m2": 4602,
+      "cena_m2": 4715,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-10-22",
@@ -27887,7 +27941,8 @@
       "fp_loose": "a8bbea33785efd8c",
       "fp_strict_all": [
         "c78f1c976120d3af",
-        "99e4499887a955c9"
+        "99e4499887a955c9",
+        "e92db1f7425e46f0"
       ],
       "sources": [
         "halo",
@@ -27909,10 +27964,16 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Garden Plaza, dve terase, druga linija od reke",
       "price_first": 308888,
-      "price_current": 308888,
-      "price_changes": [],
+      "price_current": 316888,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 308888,
+          "to": 316888
+        }
+      ],
       "days_listed": 85,
-      "cena_m2": 4351,
+      "cena_m2": 4463,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-10-22",
@@ -33864,7 +33925,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-74-41-m2-bw-nota/5425647624540?kid=4",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-74-41-m2-bw-nota/5425647624540?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-74-41-m2-bw-nota/5425647624540?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nota-3-0-74-41-m2/5425647624540?kid=1"
       ],
       "zgrada": "BW Nota",
       "struktura": "3.0",
@@ -33872,7 +33934,7 @@
       "m2": 74.41,
       "sprat": "IX/20",
       "agencija": "MaxisGroup1",
-      "naslov": "Lux 74.41 m2-BW Nota",
+      "naslov": "BW Nota, 3.0, 74.41 m2",
       "price_first": 319999,
       "price_current": 320999,
       "price_changes": [
@@ -34122,7 +34184,8 @@
       "fp_strict_all": [
         "dcc7f4bbecab7201",
         "0178c5d44abcfacd",
-        "c2dc20d69f13fdb1"
+        "c2dc20d69f13fdb1",
+        "05f77dfdc58019a0"
       ],
       "sources": [
         "halo",
@@ -34144,16 +34207,21 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Azura, ugaona pozicija, bez provizije ID#4874",
       "price_first": 456888,
-      "price_current": 415353,
+      "price_current": 428989,
       "price_changes": [
         {
           "date": "2026-09-05",
           "from": 456888,
           "to": 415353
+        },
+        {
+          "date": "2026-10-22",
+          "from": 415353,
+          "to": 428989
         }
       ],
       "days_listed": 48,
-      "cena_m2": 4564,
+      "cena_m2": 4714,
       "last_seen_src": {
         "halo": "2026-10-22",
         "4zida": "2026-10-20"
@@ -34700,7 +34768,8 @@
       "fp_loose": "bc6dc43e80997af4",
       "fp_strict_all": [
         "24cf3a0bf2d59884",
-        "50c198b63afaf7ad"
+        "50c198b63afaf7ad",
+        "bb734fd8d9db451b"
       ],
       "sources": [
         "halo",
@@ -34722,10 +34791,16 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Azura, dvostrana orijentacija, bez provizije ID",
       "price_first": 381716,
-      "price_current": 381716,
-      "price_changes": [],
+      "price_current": 394444,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 381716,
+          "to": 394444
+        }
+      ],
       "days_listed": 47,
-      "cena_m2": 4149,
+      "cena_m2": 4287,
       "last_seen_src": {
         "halo": "2026-10-22",
         "4zida": "2026-10-21"
@@ -35706,7 +35781,8 @@
       "fp_loose": "d415b7daf3338a6a",
       "fp_strict_all": [
         "c1062f34420dc1c7",
-        "894420e570fba826"
+        "894420e570fba826",
+        "074615f0e2e60f15"
       ],
       "sources": [
         "halo",
@@ -35728,10 +35804,16 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Garden Plaza, otvoren pogled prema gradu, ugaon",
       "price_first": 310888,
-      "price_current": 310888,
-      "price_changes": [],
+      "price_current": 318888,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 310888,
+          "to": 318888
+        }
+      ],
       "days_listed": 41,
-      "cena_m2": 4572,
+      "cena_m2": 4690,
       "last_seen_src": {
         "halo": "2026-10-22",
         "4zida": "2026-10-21"
@@ -35751,7 +35833,8 @@
       "fp_loose": "2013f14a1a0272c9",
       "fp_strict_all": [
         "eabdb9bf1d9fc9b1",
-        "ff60d158184eca76"
+        "ff60d158184eca76",
+        "ecf79cfcbd0d3dff"
       ],
       "sources": [
         "halo",
@@ -35773,10 +35856,16 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Azura, dvostrana orijentacija, bez provizije ID",
       "price_first": 277171,
-      "price_current": 277171,
-      "price_changes": [],
+      "price_current": 287171,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 277171,
+          "to": 287171
+        }
+      ],
       "days_listed": 41,
-      "cena_m2": 4137,
+      "cena_m2": 4286,
       "last_seen_src": {
         "halo": "2026-10-22",
         "4zida": "2026-10-21"
@@ -38330,7 +38419,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/cetvorosoban-stan-na-prodaju-u-bw-victoria/5425647710094?kid=3",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/cetvorosoban-stan-na-prodaju-u-bw-victoria/5425647710094?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/cetvorosoban-stan-na-prodaju-u-bw-victoria/5425647710094?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-victoria-4-0-138-81m2/5425647710094?kid=1"
       ],
       "zgrada": "BW Victoria",
       "struktura": "4.0",
@@ -38338,7 +38428,7 @@
       "m2": 138.81,
       "sprat": "IX/21",
       "agencija": "MaxisGroup1",
-      "naslov": "Četvorosoban stan na prodaju u BW Victoria",
+      "naslov": "BW Victoria, 4.0, 138,81m2",
       "price_first": 819800,
       "price_current": 819800,
       "price_changes": [],
@@ -40842,7 +40932,8 @@
       "fp_loose": "b5a2e654c88d3b9a",
       "fp_strict_all": [
         "27a99300859b48f8",
-        "743c031754080e2a"
+        "743c031754080e2a",
+        "cce5212b6822121f"
       ],
       "sources": [
         "halo",
@@ -40864,8 +40955,14 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Azura, pogled na unutrašnje dvorište ID#4971",
       "price_first": 308080,
-      "price_current": 308080,
-      "price_changes": [],
+      "price_current": 318989,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 308080,
+          "to": 318989
+        }
+      ],
       "days_listed": 22,
       "last_seen_src": {
         "halo": "2026-10-22",
@@ -40876,7 +40973,7 @@
         "a9aae953fcee518c"
       ],
       "fp_nosprat": "a22b8c2020644d05",
-      "cena_m2": 4740,
+      "cena_m2": 4908,
       "fp_loose_all": [
         "ecc1c3eb573307d5",
         "b5a2e654c88d3b9a"
@@ -48719,7 +48816,7 @@
     "95b16e5261b937a4": {
       "uid": "95b16e5261b937a4",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-22",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0c851681e937c364",
@@ -48739,7 +48836,7 @@
       ],
       "last_seen_src": {
         "4zida": "2026-10-21",
-        "halo": "2026-10-21"
+        "halo": "2026-10-22"
       },
       "source_ids": {
         "4zida": "4zida:6aae8b63b78869d29303d32e",
@@ -48755,7 +48852,7 @@
       "m2": 78.0,
       "sprat": "I/15",
       "agencija": "Vesnarb1",
-      "naslov": "Trosoban stan na prodaju, Luke Ćelovića Trebinjca, 395.000€, 78m²",
+      "naslov": "BW Kings Park Residences - 78m² - 1. sprat",
       "price_first": 395000,
       "price_current": 395000,
       "price_changes": [],
@@ -62058,7 +62155,8 @@
         "1fb1868b508618ce"
       ],
       "fp_strict_all": [
-        "4c73e1eeeeada34b"
+        "4c73e1eeeeada34b",
+        "ff98ea870bf59bd0"
       ],
       "sources": [
         "halo",
@@ -62084,10 +62182,16 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Azura, prestižna lokacija uz reku, bez provizij",
       "price_first": 225353,
-      "price_current": 225353,
-      "price_changes": [],
+      "price_current": 233535,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 225353,
+          "to": 233535
+        }
+      ],
       "days_listed": 7,
-      "cena_m2": 4695
+      "cena_m2": 4865
     },
     "afcd7000f959e83d": {
       "uid": "afcd7000f959e83d",
@@ -63020,7 +63124,8 @@
         "386b034bce69fb40"
       ],
       "fp_strict_all": [
-        "d3ac8161a8421ec8"
+        "d3ac8161a8421ec8",
+        "902cc1607ffe6693"
       ],
       "sources": [
         "halo",
@@ -63046,10 +63151,16 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Azura, prestižna lokacija uz reku i Sava Promen",
       "price_first": 215353,
-      "price_current": 215353,
-      "price_changes": [],
+      "price_current": 222625,
+      "price_changes": [
+        {
+          "date": "2026-10-22",
+          "from": 215353,
+          "to": 222625
+        }
+      ],
       "days_listed": 2,
-      "cena_m2": 4307
+      "cena_m2": 4452
     },
     "75c16177ae2af84b": {
       "uid": "75c16177ae2af84b",
@@ -63392,7 +63503,8 @@
       "price_first": 545000,
       "price_current": 545000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 7739
     },
     "8cb21ab183d9ba01": {
       "uid": "8cb21ab183d9ba01",
@@ -63433,7 +63545,8 @@
       "price_first": 350000,
       "price_current": 350000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6364
     },
     "1372f9d3a296072a": {
       "uid": "1372f9d3a296072a",
@@ -63474,10 +63587,11 @@
       "price_first": 280000,
       "price_current": 280000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5000
     }
   },
-  "updated_at": "2026-10-22T06:02:31.863816+00:00",
+  "updated_at": "2026-10-22T09:33:59.970652+00:00",
   "last_run": {
     "4zida": "2026-10-21",
     "nadjidom": "2026-10-21",
