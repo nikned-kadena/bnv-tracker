@@ -29231,7 +29231,7 @@
     "4669d998ff6c0934": {
       "uid": "4669d998ff6c0934",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "2fafb55a72fd5bc3",
@@ -29257,16 +29257,16 @@
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 98.0,
-      "sprat": "9",
-      "agencija": "Kuca i stan Doo ",
-      "naslov": "New! BW Libera. 3 Beds Apt. Parking. Pet friendly!",
+      "sprat": "VIII/15",
+      "agencija": "BebaRealEstate",
+      "naslov": "Beautifully designed, brand new - Libera",
       "price_first": 2950,
       "price_current": 2950,
       "price_changes": [],
       "days_listed": 50,
       "cena_m2": 30,
       "last_seen_src": {
-        "halo": "2026-10-22",
+        "halo": "2026-10-23",
         "4zida": "2026-10-22",
         "nadjidom": "2026-10-22"
       },
@@ -42793,9 +42793,9 @@
     "54e185ac68af7754": {
       "uid": "54e185ac68af7754",
       "first_seen": "2026-10-05",
-      "last_seen": "2026-10-19",
-      "is_active": false,
-      "deactivated_at": "2026-10-21",
+      "last_seen": "2026-10-23",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "7af0484ad446c9cc",
       "fp_loose_all": [
         "7af0484ad446c9cc"
@@ -42811,14 +42811,15 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-10-19"
+        "halo": "2026-10-23"
       },
       "source_ids": {
         "halo": "5425647775244"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-3-0-stan-drugi-red-do-reke/5425647775244?kid=3",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-3-0-87m2/5425647775244?kid=3"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-3-0-87m2/5425647775244?kid=3",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-3-0-87m2/5425647775244?kid=1"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "3.0",
@@ -42830,7 +42831,7 @@
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
-      "days_listed": 16,
+      "days_listed": 18,
       "cena_m2": 22
     },
     "7a7fe9bbe7a1ee85": {
@@ -48852,10 +48853,12 @@
       ],
       "fp_nosprat": "5ca45fc515126901",
       "fp_nosprat_all": [
-        "5ca45fc515126901"
+        "5ca45fc515126901",
+        "f048907ebf5b517b"
       ],
       "fp_strict_all": [
-        "49cab8cf86a0f156"
+        "49cab8cf86a0f156",
+        "963bac5948558916"
       ],
       "sources": [
         "halo"
@@ -48867,20 +48870,27 @@
         "halo": "5425647835601"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-st-regis-garage-included/5425647835601?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-st-regis-garage-included/5425647835601?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-dizajnerski-enterijer-garaza-u-ceni/5425647835601?kid=4"
       ],
       "zgrada": "BW St. Regis",
       "struktura": "2.0",
       "str_label": "Dvosoban",
-      "m2": 62.0,
-      "sprat": null,
+      "m2": 80.0,
+      "sprat": "XVI/18",
       "agencija": null,
-      "naslov": "BW Kula, St. Regis. Garage included",
+      "naslov": "BW Iris. Dizajnerski enterijer. Garaža u ceni.",
       "price_first": 2500,
-      "price_current": 2500,
-      "price_changes": [],
+      "price_current": 2600,
+      "price_changes": [
+        {
+          "date": "2026-10-23",
+          "from": 2500,
+          "to": 2600
+        }
+      ],
       "days_listed": 6,
-      "cena_m2": 40
+      "cena_m2": 32
     },
     "31d59829be3c0d76": {
       "uid": "31d59829be3c0d76",
@@ -51292,7 +51302,8 @@
       "price_first": 3400,
       "price_current": 3400,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 30
     },
     "10ab7f8188f4fa69": {
       "uid": "10ab7f8188f4fa69",
@@ -51333,7 +51344,8 @@
       "price_first": 1450,
       "price_current": 1450,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 48
     },
     "e49409b0cc6401b0": {
       "uid": "e49409b0cc6401b0",
@@ -51374,10 +51386,11 @@
       "price_first": 1600,
       "price_current": 1600,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 20
     }
   },
-  "updated_at": "2026-10-23T06:03:33.484897+00:00",
+  "updated_at": "2026-10-23T09:30:32.756482+00:00",
   "last_run": {
     "4zida": "2026-10-22",
     "nadjidom": "2026-10-22",
