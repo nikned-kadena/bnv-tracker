@@ -47702,7 +47702,7 @@
     "24edf9fbe27561ac": {
       "uid": "24edf9fbe27561ac",
       "first_seen": "2026-10-14",
-      "last_seen": "2026-10-23",
+      "last_seen": "2026-10-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4576f950336948ce",
@@ -47721,7 +47721,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-20",
+        "halo": "2026-10-24",
         "4zida": "2026-10-23"
       },
       "source_ids": {
@@ -47730,7 +47730,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69373/5425647816611?kid=4",
-        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6ace331f67a6c7bd310772b7"
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6ace331f67a6c7bd310772b7",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69373/5425647816611?kid=1"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "3.0",
@@ -47738,7 +47739,7 @@
       "m2": 85.0,
       "sprat": "XII/17",
       "agencija": "beostan",
-      "naslov": "Trosoban stan za izdavanje, Luke Celovica Trebinjca, 2.200€, 85m²",
+      "naslov": "Centar - Beograd na vodi BW #69373",
       "price_first": 2200,
       "price_current": 2200,
       "price_changes": [],
@@ -51653,7 +51654,8 @@
       "price_first": 1800,
       "price_current": 1800,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 21
     },
     "c77bb6f0eba26df7": {
       "uid": "c77bb6f0eba26df7",
@@ -51694,7 +51696,8 @@
       "price_first": 2600,
       "price_current": 2600,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 32
     },
     "e49311426ec8362c": {
       "uid": "e49311426ec8362c",
@@ -51735,10 +51738,52 @@
       "price_first": 2800,
       "price_current": 2800,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 24
+    },
+    "b17844682d782874": {
+      "uid": "b17844682d782874",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "dabe2085930b67a4",
+      "fp_loose_all": [
+        "dabe2085930b67a4"
+      ],
+      "fp_nosprat": "f54dd65ec24c0c29",
+      "fp_nosprat_all": [
+        "f54dd65ec24c0c29"
+      ],
+      "fp_strict_all": [
+        "593791c57ff7e48e"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-24"
+      },
+      "source_ids": {
+        "halo": "5425647334213"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/pilates-studio-spreman-za-rad-bw-quartet/5425647334213?kid=1"
+      ],
+      "zgrada": "BW Quartet 1",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 94.0,
+      "sprat": "III/8",
+      "agencija": "SonataProperties",
+      "naslov": "Pilates studio spreman za rad | Bw Quartet",
+      "price_first": 2300,
+      "price_current": 2300,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-24T06:03:38.224771+00:00",
+  "updated_at": "2026-10-24T09:02:16.462082+00:00",
   "last_run": {
     "4zida": "2026-10-23",
     "nadjidom": "2026-10-23",
