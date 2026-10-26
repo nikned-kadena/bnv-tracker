@@ -8786,7 +8786,7 @@
     "45ac1a8f59baa6b1": {
       "uid": "45ac1a8f59baa6b1",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-10-26",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3bbabb09e3df0238",
@@ -8812,14 +8812,14 @@
       "m2": 77.0,
       "sprat": "III/15",
       "agencija": "beocom",
-      "naslov": "Trosoban stan na prodaju, Luke Ćelovića Trebinjca, 420.000€, 77m²",
+      "naslov": "BW KING 3.0 - Lux opremljen",
       "price_first": 420000,
       "price_current": 420000,
       "price_changes": [],
       "days_listed": 139,
       "cena_m2": 5455,
       "last_seen_src": {
-        "halo": "2026-10-25",
+        "halo": "2026-10-26",
         "4zida": "2026-10-25"
       },
       "fp_nosprat_all": [
@@ -32774,7 +32774,7 @@
     "d282f53d4b94e422": {
       "uid": "d282f53d4b94e422",
       "first_seen": "2026-08-27",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-10-26",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e3b5d41ddd56a86c",
@@ -32803,7 +32803,7 @@
       "days_listed": 60,
       "cena_m2": 6975,
       "last_seen_src": {
-        "halo": "2026-10-25"
+        "halo": "2026-10-26"
       },
       "fp_nosprat_all": [
         "eb272218e42c70fb"
@@ -58888,7 +58888,8 @@
         "0d15eeae6255501b"
       ],
       "fp_strict_all": [
-        "e04dafe945d42320"
+        "e04dafe945d42320",
+        "b4c640595778e115"
       ],
       "sources": [
         "halo"
@@ -58913,10 +58914,16 @@
       "agencija": "AtriumPropertyServices",
       "naslov": "BW Garden Plaza, porodičan stan",
       "price_first": 368888,
-      "price_current": 368888,
-      "price_changes": [],
+      "price_current": 372888,
+      "price_changes": [
+        {
+          "date": "2026-10-26",
+          "from": 368888,
+          "to": 372888
+        }
+      ],
       "days_listed": 20,
-      "cena_m2": 4291
+      "cena_m2": 4337
     },
     "eca25ea8923c734d": {
       "uid": "eca25ea8923c734d",
@@ -60760,9 +60767,9 @@
     "6e2a0325abf6c04e": {
       "uid": "6e2a0325abf6c04e",
       "first_seen": "2026-10-08",
-      "last_seen": "2026-10-22",
-      "is_active": false,
-      "deactivated_at": "2026-10-24",
+      "last_seen": "2026-10-26",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "b849f52c76777b50",
       "fp_loose_all": [
         "b849f52c76777b50"
@@ -60778,7 +60785,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-10-22"
+        "halo": "2026-10-26"
       },
       "source_ids": {
         "halo": "5425647788304"
@@ -60796,7 +60803,7 @@
       "price_first": 760500,
       "price_current": 760500,
       "price_changes": [],
-      "days_listed": 16,
+      "days_listed": 18,
       "cena_m2": 6500
     },
     "6d01006160435ef2": {
@@ -62993,9 +63000,9 @@
     "77e4932532f22b55": {
       "uid": "77e4932532f22b55",
       "first_seen": "2026-10-15",
-      "last_seen": "2026-10-21",
-      "is_active": false,
-      "deactivated_at": "2026-10-23",
+      "last_seen": "2026-10-26",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "4cf6dab8a527de6a",
       "fp_loose_all": [
         "4cf6dab8a527de6a"
@@ -63011,7 +63018,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-10-21"
+        "halo": "2026-10-26"
       },
       "source_ids": {
         "halo": "5425647822210"
@@ -63029,7 +63036,7 @@
       "price_first": 181000,
       "price_current": 181000,
       "price_changes": [],
-      "days_listed": 8,
+      "days_listed": 11,
       "cena_m2": 5656
     },
     "3e72ebe6a5895bf2": {
@@ -65121,7 +65128,7 @@
       "cena_m2": 4726
     }
   },
-  "updated_at": "2026-10-26T07:02:22.835123+00:00",
+  "updated_at": "2026-10-26T10:23:36.338640+00:00",
   "last_run": {
     "4zida": "2026-10-25",
     "nadjidom": "2026-10-25",
