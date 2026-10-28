@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-10-28",
   "scraped_at": "2026-10-28",
-  "total_raw": 407,
-  "total_unique": 318,
+  "total_raw": 410,
+  "total_unique": 321,
   "total_dups": 89,
   "diff_new": [
     "6d26cbf5ebebdd53",
@@ -22,7 +22,9 @@
     "301e22f99b82d9c1",
     "f8ec645cef9e0834",
     "3027572994de280a",
-    "4f20de2cb18e582a"
+    "4f20de2cb18e582a",
+    "f0df375194211f2c",
+    "9f9763ad846078b7"
   ],
   "diff_removed": [
     "ae6bf4d6f920e2d2",
@@ -1870,6 +1872,33 @@
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "4df5bd85da519143",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-riviera---3-0-premium-stan-za-izdavanje/5425647438214?kid=4",
+      "naslov": "BW Riviera - 3.0 PREMIUM stan za izdavanje",
+      "zgrada": "BW Riviera",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 154.43,
+      "cena": 4300,
+      "cena_m2": 28,
+      "sprat": "XXI/25",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 88,
+      "prva_cena": 4300,
+      "promena_cene_pct": null,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-10-28",
+      "dedup_key": "BW Riviera|154.43|4300",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     },
@@ -10460,7 +10489,7 @@
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
-      "cena_m2_sumnjiva": false
+      "cena_m2_sumnjiva": true
     },
     {
       "id": "8c316e2a492f4a84",
@@ -11246,6 +11275,60 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "f0df375194211f2c",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69546/5425647890259?kid=4",
+      "naslov": "Centar - Beograd na vodi BW #69546",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "Beostan",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 60.0,
+      "cena": 1500,
+      "cena_m2": 25,
+      "sprat": "I/6",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "dedup_key": "BW (neidentifikovano)|60.0|1500",
+      "zgrada_izvor": "opis",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "9f9763ad846078b7",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdavanje-stan-28m2-beograd-na-vodi/5425645691910?kid=1",
+      "naslov": "Izdavanje. Stan 28m2. Beograd na Vodi",
+      "zgrada": "BW Metropolitan",
+      "agencija": null,
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 28.0,
+      "cena": 750,
+      "cena_m2": 27,
+      "sprat": "XVI",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 750,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-10-28",
+      "dedup_key": "BW Metropolitan|28.0|750",
+      "zgrada_izvor": "opis",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
