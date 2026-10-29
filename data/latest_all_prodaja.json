@@ -3,17 +3,17 @@
   "source": "all",
   "date": "2026-10-29",
   "scraped_at": "2026-10-29",
-  "total_raw": 846,
-  "total_unique": 686,
+  "total_raw": 850,
+  "total_unique": 690,
   "total_dups": 160,
   "diff_new": [
     "92511d85dbd208da",
     "05385fb7b70031a3",
-    "aae19a2e38075585"
+    "aae19a2e38075585",
+    "5abb01bc538d4880"
   ],
   "diff_removed": [
-    "10b9e35ddfb5ade9",
-    "ede9dcbef14288a8"
+    "10b9e35ddfb5ade9"
   ],
   "listings": [
     {
@@ -650,6 +650,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": "resale",
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "713014e69a1785f4",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-terraces-3-0-lux-useljiv/5425647090981?kid=4",
+      "naslov": "BW Terraces, 3.0. Lux, Useljiv",
+      "zgrada": "BW Terraces",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 102.0,
+      "cena": 649000,
+      "cena_m2": 6363,
+      "sprat": "II/17",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 142,
+      "prva_cena": 725000,
+      "promena_cene_pct": -10.5,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-10-29",
+      "dedup_key": "BW Terraces|102.0|649000",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": "resale",
       "cena_m2_sumnjiva": false
     },
@@ -1878,19 +1905,19 @@
       "agencija": "Atrium",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 70.45,
-      "cena": 298888,
-      "cena_m2": 4243,
+      "m2": 73.28,
+      "cena": 308888,
+      "cena_m2": 4215,
       "sprat": "IX/9",
       "izvori": [
         "halo"
       ],
       "dana_na_trzistu": 142,
       "prva_cena": 288888,
-      "promena_cene_pct": 3.5,
+      "promena_cene_pct": 6.9,
       "first_seen": "2026-06-09",
       "last_seen": "2026-10-29",
-      "dedup_key": "BW Vizia|70.45|298888",
+      "dedup_key": "BW Vizia|73.28|308888",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -8428,6 +8455,33 @@
       "cena_m2_sumnjiva": false
     },
     {
+      "id": "a3a5276d0d43d4e5",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sonata-prestizan-porodican-stan-pogled-na/5425647555575?kid=1",
+      "naslov": "BW Sonata prestižan porodičan stan",
+      "zgrada": "BW Sonata",
+      "agencija": "Atrium",
+      "struktura": "2.5",
+      "str_label": "Dvoiposoban",
+      "m2": 71.74,
+      "cena": 312888,
+      "cena_m2": 4361,
+      "sprat": "VI/16",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 69,
+      "prva_cena": 327888,
+      "promena_cene_pct": -4.6,
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-10-29",
+      "dedup_key": "BW Sonata|71.74|312888",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": "direktna",
+      "cena_m2_sumnjiva": false
+    },
+    {
       "id": "7de069b9fb0d2bd7",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-lumia-3-0-namesten/5425647525548?kid=1",
       "naslov": "Bw Nota, 16. sprat, pogled na reku",
@@ -11710,12 +11764,12 @@
       "url": "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6a242f8208509794ad0ffc45",
       "naslov": "BW Terraces – luksuzan stan sa panoramskim pogledo",
       "zgrada": "BW Terraces",
-      "agencija": null,
+      "agencija": "Danos",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 138.0,
-      "cena": 1215000,
-      "cena_m2": 8804,
+      "cena": 1190000,
+      "cena_m2": 8623,
       "sprat": null,
       "izvori": [
         "4zida",
@@ -11723,13 +11777,13 @@
       ],
       "dana_na_trzistu": 29,
       "prva_cena": 1200000,
-      "promena_cene_pct": 1.2,
+      "promena_cene_pct": -0.8,
       "first_seen": "2026-09-30",
       "last_seen": "2026-10-29",
-      "dedup_key": "BW Terraces|138.0|1215000",
+      "dedup_key": "BW Terraces|138.0|1190000",
       "zgrada_izvor": "naslov",
-      "agencija_izvor": null,
-      "posrednik": null,
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": "resale",
       "cena_m2_sumnjiva": false
     },
@@ -21627,6 +21681,33 @@
       "cena_m2_sumnjiva": false
     },
     {
+      "id": "ede9dcbef14288a8",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-iris---bocni-pogled-na-reku/5425647814398?kid=4",
+      "naslov": "BW Iris - Bočni pogled na reku",
+      "zgrada": "BW Iris",
+      "agencija": "Castellonekretnine",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 79.0,
+      "cena": 361820,
+      "cena_m2": 4580,
+      "sprat": "IX/18",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 16,
+      "prva_cena": 363400,
+      "promena_cene_pct": -0.4,
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-29",
+      "dedup_key": "BW Iris|79.0|361820",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": "resale",
+      "cena_m2_sumnjiva": false
+    },
+    {
       "id": "552b7048b487a759",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-libera-kompletno-namesten-odlicna-investic/5425647815331",
       "naslov": "BW Libera, kompletno namešten, odlična investicija",
@@ -23268,6 +23349,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": "resale",
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "5abb01bc538d4880",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-thalia-79-m2-pogled-koji-osvaja/5425647896239?kid=1",
+      "naslov": "BW Thalia, 79 m2, pogled koji osvaja",
+      "zgrada": "BW Thalia",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 79.0,
+      "cena": 340000,
+      "cena_m2": 4304,
+      "sprat": "IV/15",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 340000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "dedup_key": "BW Thalia|79.0|340000",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": "resale",
       "cena_m2_sumnjiva": false
     }

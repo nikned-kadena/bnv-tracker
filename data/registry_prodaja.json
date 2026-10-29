@@ -2891,9 +2891,9 @@
     "713014e69a1785f4": {
       "uid": "713014e69a1785f4",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-10-25",
-      "is_active": false,
-      "deactivated_at": "2026-10-27",
+      "last_seen": "2026-10-29",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "839cd5331b3253e8",
       "fp_strict_all": [
         "955665d27b5c58e4",
@@ -2937,10 +2937,10 @@
           "to": 649000
         }
       ],
-      "days_listed": 140,
+      "days_listed": 142,
       "cena_m2": 6363,
       "last_seen_src": {
-        "halo": "2026-10-25"
+        "halo": "2026-10-29"
       },
       "fp_nosprat_all": [
         "651b92d62861038c"
@@ -6864,7 +6864,8 @@
       "fp_loose": "7b2624239f0b501f",
       "fp_strict_all": [
         "adb6bfe405c18624",
-        "ff98c11906531706"
+        "ff98c11906531706",
+        "a65f792c47932606"
       ],
       "sources": [
         "halo"
@@ -6878,26 +6879,32 @@
       "zgrada": "BW Vizia",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 70.45,
+      "m2": 73.28,
       "sprat": "IX/9",
       "agencija": "AtriumPropertyServices",
       "naslov": "Trosoban stan u BW Vizia - bez provizije",
       "price_first": 288888,
-      "price_current": 298888,
+      "price_current": 308888,
       "price_changes": [
         {
           "date": "2026-07-04",
           "from": 288888,
           "to": 298888
+        },
+        {
+          "date": "2026-10-29",
+          "from": 298888,
+          "to": 308888
         }
       ],
       "days_listed": 142,
-      "cena_m2": 4243,
+      "cena_m2": 4215,
       "last_seen_src": {
         "halo": "2026-10-29"
       },
       "fp_nosprat_all": [
-        "659a4d02f9879a1f"
+        "659a4d02f9879a1f",
+        "1000d2b00306a4af"
       ],
       "fp_nosprat": "659a4d02f9879a1f"
     },
@@ -31474,12 +31481,13 @@
     "a3a5276d0d43d4e5": {
       "uid": "a3a5276d0d43d4e5",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-22",
-      "is_active": false,
-      "deactivated_at": "2026-09-24",
-      "fp_loose": "0c86f39e4d56911c",
+      "last_seen": "2026-10-29",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "f2bed9c9716b22b3",
       "fp_strict_all": [
-        "8827fe5d12b26952"
+        "8827fe5d12b26952",
+        "3bd0b6ae51adbdc5"
       ],
       "sources": [
         "halo"
@@ -31488,20 +31496,38 @@
         "halo": "5425647555575"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sonata-prestizan-porodican-stan-pogled-na/5425647555575?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sonata-prestizan-porodican-stan-pogled-na/5425647555575?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-sonata-prestizan-porodican-stan/5425647555575?kid=1"
       ],
-      "zgrada": "BW (neidentifikovano)",
+      "zgrada": "BW Sonata",
       "struktura": "2.5",
       "str_label": "Dvoiposoban",
-      "m2": 71.9,
-      "sprat": "XVI/16",
+      "m2": 71.74,
+      "sprat": "VI/16",
       "agencija": "AtriumPropertyServices",
-      "naslov": "BW Sonata prestižan porodičan stan pogled na reku",
+      "naslov": "BW Sonata prestižan porodičan stan",
       "price_first": 327888,
-      "price_current": 327888,
-      "price_changes": [],
-      "days_listed": 34,
-      "cena_m2": 4560
+      "price_current": 312888,
+      "price_changes": [
+        {
+          "date": "2026-10-29",
+          "from": 327888,
+          "to": 312888
+        }
+      ],
+      "days_listed": 69,
+      "cena_m2": 4361,
+      "last_seen_src": {
+        "halo": "2026-10-29"
+      },
+      "fp_nosprat_all": [
+        "b28c1a5834e3a832"
+      ],
+      "fp_nosprat": "b28c1a5834e3a832",
+      "fp_loose_all": [
+        "0c86f39e4d56911c",
+        "f2bed9c9716b22b3"
+      ]
     },
     "83e292e53f036753": {
       "uid": "83e292e53f036753",
@@ -42692,7 +42718,8 @@
       ],
       "fp_strict_all": [
         "92e7c24b2540a042",
-        "baba5d2f2060b6a1"
+        "baba5d2f2060b6a1",
+        "c0f778ca9f9ab373"
       ],
       "sources": [
         "4zida",
@@ -42715,10 +42742,10 @@
       "str_label": "Četvorosoban",
       "m2": 138.0,
       "sprat": null,
-      "agencija": null,
+      "agencija": "danos",
       "naslov": "BW Terraces – luksuzan stan sa panoramskim pogledo",
       "price_first": 1200000,
-      "price_current": 1215000,
+      "price_current": 1190000,
       "price_changes": [
         {
           "date": "2026-10-27",
@@ -42744,10 +42771,15 @@
           "date": "2026-10-29",
           "from": 1200000,
           "to": 1215000
+        },
+        {
+          "date": "2026-10-29",
+          "from": 1215000,
+          "to": 1190000
         }
       ],
       "days_listed": 29,
-      "cena_m2": 8804
+      "cena_m2": 8623
     },
     "d495fdf150a733c8": {
       "uid": "d495fdf150a733c8",
@@ -63363,9 +63395,9 @@
     "ede9dcbef14288a8": {
       "uid": "ede9dcbef14288a8",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-10-27",
-      "is_active": false,
-      "deactivated_at": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d7344ee4202f7133",
       "fp_loose_all": [
         "d7344ee4202f7133"
@@ -63382,7 +63414,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-10-27"
+        "halo": "2026-10-29"
       },
       "source_ids": {
         "halo": "5425647814398"
@@ -66379,7 +66411,8 @@
       "price_first": 237000,
       "price_current": 237000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6771
     },
     "05385fb7b70031a3": {
       "uid": "05385fb7b70031a3",
@@ -66420,7 +66453,8 @@
       "price_first": 429000,
       "price_current": 429000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5362
     },
     "aae19a2e38075585": {
       "uid": "aae19a2e38075585",
@@ -66461,10 +66495,52 @@
       "price_first": 860000,
       "price_current": 860000,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 6143
+    },
+    "5abb01bc538d4880": {
+      "uid": "5abb01bc538d4880",
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "5643cbdcfc62b767",
+      "fp_loose_all": [
+        "5643cbdcfc62b767"
+      ],
+      "fp_nosprat": "90ebee10e3a51d1c",
+      "fp_nosprat_all": [
+        "90ebee10e3a51d1c"
+      ],
+      "fp_strict_all": [
+        "9d2becde32405312"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-29"
+      },
+      "source_ids": {
+        "halo": "5425647896239"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-thalia-79-m2-pogled-koji-osvaja/5425647896239?kid=1"
+      ],
+      "zgrada": "BW Thalia",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 79.0,
+      "sprat": "IV/15",
+      "agencija": null,
+      "naslov": "BW Thalia, 79 m2, pogled koji osvaja",
+      "price_first": 340000,
+      "price_current": 340000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-29T07:02:15.036623+00:00",
+  "updated_at": "2026-10-29T11:01:44.360238+00:00",
   "last_run": {
     "4zida": "2026-10-28",
     "nadjidom": "2026-10-28",
