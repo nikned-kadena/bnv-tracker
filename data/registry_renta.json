@@ -700,7 +700,7 @@
     "2f60c4f17982feed": {
       "uid": "2f60c4f17982feed",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-10-29",
+      "last_seen": "2026-10-30",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "969d27fcbf0d014e",
@@ -727,7 +727,7 @@
       "m2": 94.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 94m²",
+      "naslov": "Never occupied. Flawlessly designed.",
       "price_first": 2000,
       "price_current": 2000,
       "price_changes": [
@@ -745,7 +745,7 @@
       "days_listed": 143,
       "cena_m2": 21,
       "last_seen_src": {
-        "halo": "2026-10-17",
+        "halo": "2026-10-30",
         "4zida": "2026-10-29"
       },
       "fp_nosprat_all": [
@@ -6225,9 +6225,9 @@
     "61b96ec3df1b30c6": {
       "uid": "61b96ec3df1b30c6",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-10-17",
-      "is_active": false,
-      "deactivated_at": "2026-10-19",
+      "last_seen": "2026-10-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "86fb609fb682816a",
       "fp_strict_all": [
         "b768471722c9916f",
@@ -6252,10 +6252,10 @@
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
-      "days_listed": 132,
+      "days_listed": 143,
       "cena_m2": 23,
       "last_seen_src": {
-        "halo": "2026-10-17"
+        "halo": "2026-10-30"
       },
       "fp_nosprat_all": [
         "81f7b6c1a27a943d"
@@ -30114,12 +30114,13 @@
     "4e04ec385a9ae9ba": {
       "uid": "4e04ec385a9ae9ba",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-07",
-      "is_active": false,
-      "deactivated_at": "2026-09-09",
-      "fp_loose": "324eb46839205a7b",
+      "last_seen": "2026-10-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "cf388b265d2d3915",
       "fp_strict_all": [
-        "d276be7fbd128404"
+        "d276be7fbd128404",
+        "2682d0c33649d68d"
       ],
       "sources": [
         "halo"
@@ -30128,9 +30129,10 @@
         "halo": "5425647630775"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-31-sprat-62-m-panoramski-pogled/5425647630775?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-31-sprat-62-m-panoramski-pogled/5425647630775?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-31-sprat-62-m-panoramski-pogled/5425647630775?kid=1"
       ],
-      "zgrada": "BW (neidentifikovano)",
+      "zgrada": "BW St. Regis",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 62.0,
@@ -30140,8 +30142,19 @@
       "price_first": 3200,
       "price_current": 3200,
       "price_changes": [],
-      "days_listed": 4,
-      "cena_m2": 52
+      "days_listed": 55,
+      "cena_m2": 52,
+      "last_seen_src": {
+        "halo": "2026-10-30"
+      },
+      "fp_nosprat_all": [
+        "5ca45fc515126901"
+      ],
+      "fp_nosprat": "5ca45fc515126901",
+      "fp_loose_all": [
+        "324eb46839205a7b",
+        "cf388b265d2d3915"
+      ]
     },
     "7c26eff10a815208": {
       "uid": "7c26eff10a815208",
@@ -43716,7 +43729,8 @@
       ],
       "fp_strict_all": [
         "6f3af016039f06e6",
-        "42b23a4808821158"
+        "42b23a4808821158",
+        "a7c6ee0ec1e73fc4"
       ],
       "sources": [
         "halo",
@@ -43742,10 +43756,16 @@
       "agencija": "AtriumPropertyServices",
       "naslov": "BW Iris - osunčan, dvostrano orijentisan trosoban",
       "price_first": 1500,
-      "price_current": 1500,
-      "price_changes": [],
+      "price_current": 1450,
+      "price_changes": [
+        {
+          "date": "2026-10-30",
+          "from": 1500,
+          "to": 1450
+        }
+      ],
       "days_listed": 25,
-      "cena_m2": 19
+      "cena_m2": 18
     },
     "996c2b2fab36613b": {
       "uid": "996c2b2fab36613b",
@@ -56443,7 +56463,8 @@
       "price_first": 1400,
       "price_current": 1400,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 25
     },
     "1b6a5bd1dcaffb99": {
       "uid": "1b6a5bd1dcaffb99",
@@ -56484,7 +56505,8 @@
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 23
     },
     "6a48fbdad26c1981": {
       "uid": "6a48fbdad26c1981",
@@ -56525,7 +56547,8 @@
       "price_first": 1500,
       "price_current": 1500,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 28
     },
     "6cd9280dffc46b58": {
       "uid": "6cd9280dffc46b58",
@@ -56566,7 +56589,8 @@
       "price_first": 1000,
       "price_current": 1000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 30
     },
     "6921fb2926274f5c": {
       "uid": "6921fb2926274f5c",
@@ -56607,10 +56631,134 @@
       "price_first": 1600,
       "price_current": 1600,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 29
+    },
+    "e3d4380c94f77f81": {
+      "uid": "e3d4380c94f77f81",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "f574becc8911afd6",
+      "fp_loose_all": [
+        "f574becc8911afd6"
+      ],
+      "fp_nosprat": "5cba7abbe5d59026",
+      "fp_nosprat_all": [
+        "5cba7abbe5d59026"
+      ],
+      "fp_strict_all": [
+        "74befc6f6740abed"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-30"
+      },
+      "source_ids": {
+        "halo": "5425646212557"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park-lux-komforan-garaza-id-24955/5425646212557?kid=4"
+      ],
+      "zgrada": "BW King's Park",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.0,
+      "sprat": "I/14",
+      "agencija": "eminent-nekretnine",
+      "naslov": "BW Kings Park, lux, komforan, garaža, ID 24955",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "e15550a56acfe6be": {
+      "uid": "e15550a56acfe6be",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e87304dbf34e9836",
+      "fp_loose_all": [
+        "e87304dbf34e9836"
+      ],
+      "fp_nosprat": "5cba7abbe5d59026",
+      "fp_nosprat_all": [
+        "5cba7abbe5d59026"
+      ],
+      "fp_strict_all": [
+        "74befc6f6740abed"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-30"
+      },
+      "source_ids": {
+        "halo": "5425647901256"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park---78m2-i-garaza/5425647901256?kid=4"
+      ],
+      "zgrada": "BW King's Park",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.0,
+      "sprat": "I/15",
+      "agencija": null,
+      "naslov": "BW Kings Park - 78m2 i garaza",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "236baacbf696c0eb": {
+      "uid": "236baacbf696c0eb",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "0977515a10bcb517",
+      "fp_loose_all": [
+        "0977515a10bcb517"
+      ],
+      "fp_nosprat": "5cba7abbe5d59026",
+      "fp_nosprat_all": [
+        "5cba7abbe5d59026"
+      ],
+      "fp_strict_all": [
+        "74befc6f6740abed"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-30"
+      },
+      "source_ids": {
+        "halo": "5425647900563"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park-21-beograd-na-vodi-polunamesten/5425647900563?kid=1"
+      ],
+      "zgrada": "BW King's Park",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.0,
+      "sprat": "I",
+      "agencija": "Kredium",
+      "naslov": "BW Kings park 21 | Beograd na vodi | Polunamešten",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-30T07:03:24.357646+00:00",
+  "updated_at": "2026-10-30T11:00:27.872352+00:00",
   "last_run": {
     "4zida": "2026-10-29",
     "nadjidom": "2026-10-29",
