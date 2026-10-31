@@ -64385,7 +64385,8 @@
       "fp_strict_all": [
         "6cee85537f275f70",
         "512b2df1a4d1ce1c",
-        "d0e94771dd810783"
+        "d0e94771dd810783",
+        "227c27533756ee6b"
       ],
       "sources": [
         "halo"
@@ -64408,7 +64409,7 @@
       "agencija": "bjanca",
       "naslov": "Savski venac-Beograd na vodi ID#1649",
       "price_first": 355000,
-      "price_current": 346000,
+      "price_current": 375000,
       "price_changes": [
         {
           "date": "2026-10-17",
@@ -64419,10 +64420,15 @@
           "date": "2026-10-18",
           "from": 349000,
           "to": 346000
+        },
+        {
+          "date": "2026-10-31",
+          "from": 346000,
+          "to": 375000
         }
       ],
       "days_listed": 16,
-      "cena_m2": 4436
+      "cena_m2": 4808
     },
     "76d30df22c81c948": {
       "uid": "76d30df22c81c948",
@@ -67703,7 +67709,8 @@
       "price_first": 680000,
       "price_current": 680000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6476
     },
     "2ed539df854febce": {
       "uid": "2ed539df854febce",
@@ -67744,7 +67751,8 @@
       "price_first": 310000,
       "price_current": 310000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5636
     },
     "d70435d71aabe33a": {
       "uid": "d70435d71aabe33a",
@@ -67785,10 +67793,52 @@
       "price_first": 370000,
       "price_current": 370000,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 4744
+    },
+    "b59fd7e3cbb9533b": {
+      "uid": "b59fd7e3cbb9533b",
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "8e3f18490efa6b0a",
+      "fp_loose_all": [
+        "8e3f18490efa6b0a"
+      ],
+      "fp_nosprat": "67fdd2d21d809c5b",
+      "fp_nosprat_all": [
+        "67fdd2d21d809c5b"
+      ],
+      "fp_strict_all": [
+        "0bde6b9965187a44"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-31"
+      },
+      "source_ids": {
+        "halo": "5425647905402"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-victoria-3-0-riverfront-view/5425647905402?kid=1"
+      ],
+      "zgrada": "BW Victoria",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 105.0,
+      "sprat": "V",
+      "agencija": "SonataProperties",
+      "naslov": "Bw Victoria 3.0 Riverfront view",
+      "price_first": 680000,
+      "price_current": 680000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-31T07:02:12.551731+00:00",
+  "updated_at": "2026-10-31T10:31:40.516211+00:00",
   "last_run": {
     "4zida": "2026-10-30",
     "nadjidom": "2026-10-30",
