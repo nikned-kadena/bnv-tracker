@@ -3160,7 +3160,8 @@
       "deactivated_at": null,
       "fp_loose": "4455b29952965e33",
       "fp_strict_all": [
-        "8db68b4a83a3643a"
+        "8db68b4a83a3643a",
+        "36873b380a850d51"
       ],
       "sources": [
         "halo"
@@ -3179,10 +3180,16 @@
       "agencija": "BebaRealEstate",
       "naslov": "Moderan 4.0 - 2 garazna - Aurora",
       "price_first": 2000,
-      "price_current": 2000,
-      "price_changes": [],
+      "price_current": 2500,
+      "price_changes": [
+        {
+          "date": "2026-11-02",
+          "from": 2000,
+          "to": 2500
+        }
+      ],
       "days_listed": 146,
-      "cena_m2": 17,
+      "cena_m2": 21,
       "last_seen_src": {
         "halo": "2026-11-02"
       },
@@ -28000,14 +28007,15 @@
     "da5c85c0ead71cbe": {
       "uid": "da5c85c0ead71cbe",
       "first_seen": "2026-08-25",
-      "last_seen": "2026-10-26",
-      "is_active": false,
-      "deactivated_at": "2026-10-28",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "b5341cbce43041f8",
       "fp_strict_all": [
         "0d1ab146804c37c7",
         "07226d0d49dbb779",
-        "7b65b088cc959313"
+        "7b65b088cc959313",
+        "2684bbf4e0fb0180"
       ],
       "sources": [
         "halo"
@@ -28019,7 +28027,8 @@
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-lux-4-0-sa-pogledom-na-reku/5425647571332?kid=3",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-lux-4-0-sa-pogledom-na-reku/5425647571332?kid=4",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-lux-4-0-sa-pogledom-na-reku/5425647571332?kid=1",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-4-0-sa-pogledom-na-reku/5425647571332?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-4-0-sa-pogledom-na-reku/5425647571332?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-4-0-sa-pogledom-na-reku/5425647571332?kid=3"
       ],
       "zgrada": "BW Residences",
       "struktura": "4.0",
@@ -28029,7 +28038,7 @@
       "agencija": null,
       "naslov": "BW Residences 4.0 sa pogledom na reku",
       "price_first": 4350,
-      "price_current": 3900,
+      "price_current": 3500,
       "price_changes": [
         {
           "date": "2026-09-11",
@@ -28040,12 +28049,17 @@
           "date": "2026-09-24",
           "from": 4000,
           "to": 3900
+        },
+        {
+          "date": "2026-11-02",
+          "from": 3900,
+          "to": 3500
         }
       ],
-      "days_listed": 64,
-      "cena_m2": 34,
+      "days_listed": 69,
+      "cena_m2": 30,
       "last_seen_src": {
-        "halo": "2026-10-26"
+        "halo": "2026-11-02"
       },
       "fp_nosprat_all": [
         "1b7f8ac857158893"
@@ -34121,9 +34135,9 @@
     "6e2eaf2ba05dc250": {
       "uid": "6e2eaf2ba05dc250",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-25",
-      "is_active": false,
-      "deactivated_at": "2026-09-27",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "98768e409ad1d2c8",
       "fp_strict_all": [
         "a4cb4a335b3b243e"
@@ -34135,7 +34149,8 @@
         "halo": "5425646965082"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-preko-puta-bw-ispod-skylina/5425646965082?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-preko-puta-bw-ispod-skylina/5425646965082?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-preko-puta-bw-ispod-skylina/5425646965082?kid=3"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "2.0",
@@ -34147,8 +34162,15 @@
       "price_first": 800,
       "price_current": 800,
       "price_changes": [],
-      "days_listed": 4,
-      "cena_m2": 15
+      "days_listed": 40,
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "fp_nosprat_all": [
+        "602c1b4a046a6c89"
+      ],
+      "fp_nosprat": "602c1b4a046a6c89"
     },
     "36c4c038dab5fc2d": {
       "uid": "36c4c038dab5fc2d",
@@ -53582,9 +53604,9 @@
     "c544d21a7067bd2f": {
       "uid": "c544d21a7067bd2f",
       "first_seen": "2026-10-25",
-      "last_seen": "2026-10-28",
-      "is_active": false,
-      "deactivated_at": "2026-10-30",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "095815d2aaec654d",
       "fp_loose_all": [
         "095815d2aaec654d"
@@ -53600,7 +53622,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-10-28"
+        "halo": "2026-11-02"
       },
       "source_ids": {
         "halo": "5425647194118"
@@ -53618,7 +53640,7 @@
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
-      "days_listed": 5,
+      "days_listed": 8,
       "cena_m2": 31
     },
     "2f591a3700772652": {
@@ -56534,7 +56556,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-4-3-0-pogled-na-kulu-parking/5425647895300?kid=1",
-        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6ae308908fc70f86d20a1ae4"
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6ae308908fc70f86d20a1ae4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-4-3-0-pogled-na-kulu-parking/5425647895300?kid=4"
       ],
       "zgrada": "BW Quartet 4",
       "struktura": "3.0",
@@ -58114,9 +58137,296 @@
       "price_current": 1700,
       "price_changes": [],
       "days_listed": 1
+    },
+    "9cc4cfab304fab7b": {
+      "uid": "9cc4cfab304fab7b",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "326fd7ec27507984",
+      "fp_loose_all": [
+        "326fd7ec27507984"
+      ],
+      "fp_nosprat": "a00178a8ce04558c",
+      "fp_nosprat_all": [
+        "a00178a8ce04558c"
+      ],
+      "fp_strict_all": [
+        "26d34d2923cd3520"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "source_ids": {
+        "halo": "5425647916406"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia-nov-neuseljavan-stan-id-26224/5425647916406?kid=4"
+      ],
+      "zgrada": "BW Thalia",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.0,
+      "sprat": "IX/15",
+      "agencija": "eminent-nekretnine",
+      "naslov": "BW Thalia, nov, neuseljavan stan, ID 26224",
+      "price_first": 1350,
+      "price_current": 1350,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "dd5cd7c0c1ce54e7": {
+      "uid": "dd5cd7c0c1ce54e7",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "aee50d5893cfe2bb",
+      "fp_loose_all": [
+        "aee50d5893cfe2bb"
+      ],
+      "fp_nosprat": "beb085a9bd11f44e",
+      "fp_nosprat_all": [
+        "beb085a9bd11f44e"
+      ],
+      "fp_strict_all": [
+        "abf21c4080857752"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "source_ids": {
+        "halo": "5425647915412"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/opremljen-stan-i-garazno-mesto-bw-perla/5425647915412?kid=4"
+      ],
+      "zgrada": "BW Perla",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 70.42,
+      "sprat": "XV/25",
+      "agencija": null,
+      "naslov": "Opremljen stan i garazno mesto BW Perla",
+      "price_first": 2350,
+      "price_current": 2350,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "96fae88c6227f83c": {
+      "uid": "96fae88c6227f83c",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "1450c75b1971249b",
+      "fp_loose_all": [
+        "1450c75b1971249b"
+      ],
+      "fp_nosprat": "82182141da04c140",
+      "fp_nosprat_all": [
+        "82182141da04c140"
+      ],
+      "fp_strict_all": [
+        "171d1eee41b5c040"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "source_ids": {
+        "halo": "5425647915420"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-3-0-stan/5425647915420?kid=4"
+      ],
+      "zgrada": "BW Iris",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 75.0,
+      "sprat": "VII/18",
+      "agencija": "astranowa",
+      "naslov": "BW Iris-3.0 stan",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "d964843116c55772": {
+      "uid": "d964843116c55772",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "326fd7ec27507984",
+      "fp_loose_all": [
+        "326fd7ec27507984"
+      ],
+      "fp_nosprat": "a00178a8ce04558c",
+      "fp_nosprat_all": [
+        "a00178a8ce04558c"
+      ],
+      "fp_strict_all": [
+        "26d34d2923cd3520"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "source_ids": {
+        "halo": "5425647915703"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia-nov-neuseljavan-dvosoban-stan/5425647915703?kid=3"
+      ],
+      "zgrada": "BW Thalia",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.0,
+      "sprat": "IX/15",
+      "agencija": null,
+      "naslov": "BW Thalia, Nov neuseljavan dvosoban stan",
+      "price_first": 1350,
+      "price_current": 1350,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "e1692c7745f25c0e": {
+      "uid": "e1692c7745f25c0e",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "62f3335d14136f26",
+      "fp_loose_all": [
+        "62f3335d14136f26"
+      ],
+      "fp_nosprat": "f048907ebf5b517b",
+      "fp_nosprat_all": [
+        "f048907ebf5b517b"
+      ],
+      "fp_strict_all": [
+        "a4d74cd036c7b3c9"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "source_ids": {
+        "halo": "5425647914566"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-80m2/5425647914566?kid=1"
+      ],
+      "zgrada": "BW Iris",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 80.0,
+      "sprat": "XIII/17",
+      "agencija": "PremiumRealEstate",
+      "naslov": "Bw Iris, 80m2",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "2da4fc4086a32c8f": {
+      "uid": "2da4fc4086a32c8f",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e4323f1b668c0baa",
+      "fp_loose_all": [
+        "e4323f1b668c0baa"
+      ],
+      "fp_nosprat": "017cc79168f7ba81",
+      "fp_nosprat_all": [
+        "017cc79168f7ba81"
+      ],
+      "fp_strict_all": [
+        "4c6231a9da1f77e9"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "source_ids": {
+        "halo": "5425647914557"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-sensa-moderan-i-kompletno-namesten-id4638/5425647914557?kid=1"
+      ],
+      "zgrada": "BW Sensa",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 54.0,
+      "sprat": "IV/8",
+      "agencija": "PropertyBroker",
+      "naslov": "BW Sensa, moderan i kompletno namešten ID#4638",
+      "price_first": 1250,
+      "price_current": 1250,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "a1fd96968119f384": {
+      "uid": "a1fd96968119f384",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e57d57e1c297bd15",
+      "fp_loose_all": [
+        "e57d57e1c297bd15"
+      ],
+      "fp_nosprat": "fcf13ba86cbd17b5",
+      "fp_nosprat_all": [
+        "fcf13ba86cbd17b5"
+      ],
+      "fp_strict_all": [
+        "22c381305a82242c"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "source_ids": {
+        "halo": "5425647914505"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-simfonija---luksuzan-trosoban-stan-sa-pogl/5425647914505?kid=1"
+      ],
+      "zgrada": "BW Simfonija 1",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 85.0,
+      "sprat": "IX",
+      "agencija": "AtriumPropertyServices",
+      "naslov": "BW Simfonija - luksuzan trosoban stan sa pogledom",
+      "price_first": 2800,
+      "price_current": 2800,
+      "price_changes": [],
+      "days_listed": 0
     }
   },
-  "updated_at": "2026-11-02T07:03:29.931473+00:00",
+  "updated_at": "2026-11-02T12:46:37.604477+00:00",
   "last_run": {
     "4zida": "2026-11-01",
     "nadjidom": "2026-11-01",
