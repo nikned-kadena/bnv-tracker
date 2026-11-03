@@ -407,9 +407,9 @@
     "bd7c2bb278751b4f": {
       "uid": "bd7c2bb278751b4f",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-06-28",
-      "is_active": false,
-      "deactivated_at": "2026-07-04",
+      "last_seen": "2026-11-03",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "fbde72d6f492aca1",
       "fp_strict_all": [
         "692c1cead9674862"
@@ -418,23 +418,32 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "5425647077971"
+        "halo": "5425647919558"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-65068/5425647077971?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-65068/5425647077971?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69622/5425647919558?kid=4"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 56.0,
-      "sprat": "III/17",
+      "sprat": "XI/24",
       "agencija": "beostan",
-      "naslov": "Centar - Beograd na vodi BW #65068",
+      "naslov": "Centar - Beograd na Vodi BW #69622",
       "price_first": 1150,
       "price_current": 1150,
       "price_changes": [],
-      "days_listed": 25,
-      "deactivation_uncertain": true
+      "days_listed": 147,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-11-03"
+      },
+      "fp_nosprat_all": [
+        "3749980b8c68e0a7"
+      ],
+      "fp_nosprat": "3749980b8c68e0a7",
+      "cena_m2": 21
     },
     "7eb410694884f61d": {
       "uid": "7eb410694884f61d",
@@ -11299,9 +11308,9 @@
     "4f2b275e42cb2a93": {
       "uid": "4f2b275e42cb2a93",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-07-29",
-      "is_active": false,
-      "deactivated_at": "2026-07-31",
+      "last_seen": "2026-11-03",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "86372f0d2bfb6868",
       "fp_strict_all": [
         "9ca368cbc12c1f8a",
@@ -11324,17 +11333,29 @@
       "agencija": null,
       "naslov": "BW Terraces | Enterijer sa stilom | 2.0 stan",
       "price_first": 1800,
-      "price_current": 1600,
+      "price_current": 1800,
       "price_changes": [
         {
           "date": "2026-07-24",
           "from": 1800,
           "to": 1600
+        },
+        {
+          "date": "2026-11-03",
+          "from": 1600,
+          "to": 1800
         }
       ],
-      "days_listed": 43,
-      "cena_m2": 23,
-      "deactivation_uncertain": true
+      "days_listed": 138,
+      "cena_m2": 26,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-11-03"
+      },
+      "fp_nosprat_all": [
+        "795344717c348c1b"
+      ],
+      "fp_nosprat": "795344717c348c1b"
     },
     "e391848820525a38": {
       "uid": "e391848820525a38",
@@ -29228,7 +29249,8 @@
       "fp_strict_all": [
         "f89d4d595bb610f3",
         "8668fc3d3c27dd46",
-        "ccca33cc942edd5c"
+        "ccca33cc942edd5c",
+        "2807db8615e1775f"
       ],
       "sources": [
         "halo",
@@ -29253,7 +29275,7 @@
       "agencija": "SonataProperties",
       "naslov": "Bw Aria 4.0, Odmah Useljiv",
       "price_first": 2000,
-      "price_current": 3800,
+      "price_current": 3500,
       "price_changes": [
         {
           "date": "2026-09-22",
@@ -29264,10 +29286,15 @@
           "date": "2026-09-30",
           "from": 4300,
           "to": 3800
+        },
+        {
+          "date": "2026-11-03",
+          "from": 3800,
+          "to": 3500
         }
       ],
       "days_listed": 65,
-      "cena_m2": 28,
+      "cena_m2": 25,
       "last_seen_src": {
         "halo": "2026-11-03",
         "4zida": "2026-11-02"
@@ -37804,7 +37831,8 @@
         "51b7c6f2a9434594",
         "b9efc98ec302d620",
         "437f21bef6fcf467",
-        "89cbb9d901154630"
+        "89cbb9d901154630",
+        "81c7fef76c0cf018"
       ],
       "sources": [
         "4zida",
@@ -37826,7 +37854,7 @@
       "agencija": "eminent-nekretnine",
       "naslov": "BW Metropolitan, lux, kvalitetan,2 garaže, ID26089",
       "price_first": 2000,
-      "price_current": 1900,
+      "price_current": 1800,
       "price_changes": [
         {
           "date": "2026-11-01",
@@ -37847,6 +37875,11 @@
           "date": "2026-11-03",
           "from": 1700,
           "to": 1900
+        },
+        {
+          "date": "2026-11-03",
+          "from": 1900,
+          "to": 1800
         }
       ],
       "days_listed": 34,
@@ -37854,7 +37887,7 @@
         "4zida": "2026-11-02",
         "halo": "2026-11-03"
       },
-      "cena_m2": 24,
+      "cena_m2": 22,
       "fp_loose_all": [
         "c18d8d007f302be1",
         "62ab363a9675e152"
@@ -50840,7 +50873,8 @@
         "halo": "5425646436448"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdajem-40-stanova-na-bw-direkt-od-vlasnika/5425646436448?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdajem-40-stanova-na-bw-direkt-od-vlasnika/5425646436448?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdajem-stan-na-bw-direkt-od-vlasnika/5425646436448?kid=4"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "2.0",
@@ -50848,7 +50882,7 @@
       "m2": 58.0,
       "sprat": "XII/23",
       "agencija": null,
-      "naslov": "Izdajem 40 stanova na BW, direkt od vlasnika",
+      "naslov": "Izdajem stan na BW, direkt od vlasnika",
       "price_first": 2099,
       "price_current": 1899,
       "price_changes": [
@@ -54254,7 +54288,7 @@
     "5572bd70aa552783": {
       "uid": "5572bd70aa552783",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a32cfc97d8de7973",
@@ -54272,7 +54306,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-02"
+        "halo": "2026-11-03"
       },
       "source_ids": {
         "halo": "5425645540716"
@@ -54401,10 +54435,12 @@
       ],
       "fp_nosprat": "e110c6f17658c503",
       "fp_nosprat_all": [
-        "e110c6f17658c503"
+        "e110c6f17658c503",
+        "c5aaff645ca12e7c"
       ],
       "fp_strict_all": [
-        "c8d8f559ccb71aba"
+        "c8d8f559ccb71aba",
+        "fd8f61512e1d9d50"
       ],
       "sources": [
         "halo"
@@ -54424,7 +54460,7 @@
       "m2": 56.83,
       "sprat": "VI/15",
       "agencija": "KADENASothebys",
-      "naslov": "Dvosoban | BW Kings Park | Ekskluzivna lokacija",
+      "naslov": "Dvosoban | BW King’s Park | Ekskluzivna lokacija",
       "price_first": 1500,
       "price_current": 1500,
       "price_changes": [],
@@ -58767,7 +58803,8 @@
       "price_first": 1350,
       "price_current": 1350,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 27
     },
     "e08167b652cfc28a": {
       "uid": "e08167b652cfc28a",
@@ -58808,7 +58845,8 @@
       "price_first": 1700,
       "price_current": 1700,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 22
     },
     "4cbb7c5d4cabee5b": {
       "uid": "4cbb7c5d4cabee5b",
@@ -58849,7 +58887,8 @@
       "price_first": 900,
       "price_current": 900,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 28
     },
     "b2f994538ce700fe": {
       "uid": "b2f994538ce700fe",
@@ -58890,7 +58929,8 @@
       "price_first": 3000,
       "price_current": 3000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 29
     },
     "5ef8a4f1282e7664": {
       "uid": "5ef8a4f1282e7664",
@@ -58972,10 +59012,216 @@
       "price_first": 3000,
       "price_current": 3000,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 29
+    },
+    "566d63f90ad94c7c": {
+      "uid": "566d63f90ad94c7c",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "0f9e2634e096d432",
+      "fp_loose_all": [
+        "0f9e2634e096d432"
+      ],
+      "fp_nosprat": "b8bdfbd59e431dda",
+      "fp_nosprat_all": [
+        "b8bdfbd59e431dda"
+      ],
+      "fp_strict_all": [
+        "cdaf0aeeb003f29a"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-03"
+      },
+      "source_ids": {
+        "halo": "5425647920399"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/trosoban-bw-st-regis-terasa-i-garazno-mesto/5425647920399"
+      ],
+      "zgrada": "BW St. Regis",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 98.12,
+      "sprat": "XXX/30",
+      "agencija": "KADENASothebys",
+      "naslov": "Trosoban | BW St. Regis | Terasa i garažno mesto",
+      "price_first": 6000,
+      "price_current": 6000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "c8d9ead5f3e2c47c": {
+      "uid": "c8d9ead5f3e2c47c",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "7225606bb712f019",
+      "fp_loose_all": [
+        "7225606bb712f019"
+      ],
+      "fp_nosprat": "255209a7ab54f034",
+      "fp_nosprat_all": [
+        "255209a7ab54f034"
+      ],
+      "fp_strict_all": [
+        "4ad790adcb6e554d"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-03"
+      },
+      "source_ids": {
+        "halo": "5425647921191"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-bw-st-regis-ekskluzivna-lokacija/5425647921191"
+      ],
+      "zgrada": "BW St. Regis",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.76,
+      "sprat": "XXX/30",
+      "agencija": "KADENASothebys",
+      "naslov": "Dvosoban | BW St. Regis | Ekskluzivna lokacija",
+      "price_first": 4000,
+      "price_current": 4000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "5943f6ed8a9d5d17": {
+      "uid": "5943f6ed8a9d5d17",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "17eb33bde45ee325",
+      "fp_loose_all": [
+        "17eb33bde45ee325"
+      ],
+      "fp_nosprat": "b9630212fbbaf410",
+      "fp_nosprat_all": [
+        "b9630212fbbaf410"
+      ],
+      "fp_strict_all": [
+        "a3642fc9de5231c8"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-03"
+      },
+      "source_ids": {
+        "halo": "5425647752278"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-bw-riviera-pogled-na-reku/5425647752278?kid=3"
+      ],
+      "zgrada": "BW Riviera",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 80.67,
+      "sprat": "III/25",
+      "agencija": "KADENASothebys",
+      "naslov": "Dvosoban | BW Riviera | Pogled na reku",
+      "price_first": 3000,
+      "price_current": 3000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "53abc829ca82b1d1": {
+      "uid": "53abc829ca82b1d1",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b45f5d14ad9cee5e",
+      "fp_loose_all": [
+        "b45f5d14ad9cee5e"
+      ],
+      "fp_nosprat": "602c1b4a046a6c89",
+      "fp_nosprat_all": [
+        "602c1b4a046a6c89"
+      ],
+      "fp_strict_all": [
+        "976c7b2260bb2380"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-03"
+      },
+      "source_ids": {
+        "halo": "5425647919542"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-na-vodi-dvosoban-stan-55m-nov-garaza/5425647919542?kid=1"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "sprat": "I/10",
+      "agencija": "kupac-magnat-3",
+      "naslov": "Beograd na vodi , dvosoban stan 55m², nov, garaža",
+      "price_first": 1200,
+      "price_current": 1200,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "c57b3fbddcb63c59": {
+      "uid": "c57b3fbddcb63c59",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "c49722262c2432fb",
+      "fp_loose_all": [
+        "c49722262c2432fb"
+      ],
+      "fp_nosprat": "602c1b4a046a6c89",
+      "fp_nosprat_all": [
+        "602c1b4a046a6c89"
+      ],
+      "fp_strict_all": [
+        "045d1fa77993f79e"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-03"
+      },
+      "source_ids": {
+        "halo": "5425647465740"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/moderan-stan-sa-garazom-pogled-na-reku-bw-id/5425647465740?kid=1"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "sprat": "XXI",
+      "agencija": "symbol-properties-doo-beograd",
+      "naslov": "Moderan stan sa garažom, pogled na reku,BW,ID 5378",
+      "price_first": 1300,
+      "price_current": 1300,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-03T07:03:28.087852+00:00",
+  "updated_at": "2026-11-03T12:13:10.111716+00:00",
   "last_run": {
     "4zida": "2026-11-02",
     "nadjidom": "2026-11-02",
