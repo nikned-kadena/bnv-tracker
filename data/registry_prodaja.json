@@ -44216,7 +44216,8 @@
       },
       "source_urls": [
         "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/jednosoban-stan/68e27ef102bb9d7ba0014bfb",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/studio-bw-iris-privatna-basta/5425647780079?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/studio-bw-iris-privatna-basta/5425647780079?kid=4",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/studio-bw-iris-privatna-basta/5425647780079?kid=1"
       ],
       "zgrada": "BW Iris",
       "struktura": "1.0",
@@ -65020,7 +65021,7 @@
     "2445b0f18aeb2a4b": {
       "uid": "2445b0f18aeb2a4b",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "73beb1ae34ce73fc",
@@ -65035,24 +65036,28 @@
         "fa1d89cee1a4ca18"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-03"
+        "4zida": "2026-11-03",
+        "halo": "2026-11-04"
       },
       "source_ids": {
-        "4zida": "4zida:6acd1d0eac27af37f2057ba5"
+        "4zida": "4zida:6acd1d0eac27af37f2057ba5",
+        "halo": "5425647917314"
       },
       "source_urls": [
-        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6acd1d0eac27af37f2057ba5"
+        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6acd1d0eac27af37f2057ba5",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-simfonija-2-0-52m2/5425647917314?kid=4"
       ],
       "zgrada": "BW Simfonija 1",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 52.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Dvosoban stan na prodaju, Hercegovačka, 300.000€, 52m²",
+      "sprat": "II/16",
+      "agencija": "MaxisGroup1",
+      "naslov": "BW Simfonija, 2.0, 52m2",
       "price_first": 300000,
       "price_current": 300000,
       "price_changes": [],
@@ -65401,9 +65406,9 @@
     "77e4932532f22b55": {
       "uid": "77e4932532f22b55",
       "first_seen": "2026-10-15",
-      "last_seen": "2026-11-02",
-      "is_active": false,
-      "deactivated_at": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "4cf6dab8a527de6a",
       "fp_loose_all": [
         "4cf6dab8a527de6a"
@@ -65420,7 +65425,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-02"
+        "halo": "2026-11-04"
       },
       "source_ids": {
         "halo": "5425647822210"
@@ -69587,9 +69592,255 @@
       "price_current": 1472000,
       "price_changes": [],
       "days_listed": 1
+    },
+    "768d088198545705": {
+      "uid": "768d088198545705",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "09fc0a7a73532788",
+      "fp_loose_all": [
+        "09fc0a7a73532788"
+      ],
+      "fp_nosprat": "02d4af81c159cb33",
+      "fp_nosprat_all": [
+        "02d4af81c159cb33"
+      ],
+      "fp_strict_all": [
+        "aca1b86ea7137c23"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-04"
+      },
+      "source_ids": {
+        "halo": "5425647925764"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika-57m2-direktno-od-vlasnika-pogled-na-r/5425647925764"
+      ],
+      "zgrada": "BW Nika",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 57.0,
+      "sprat": "IX",
+      "agencija": null,
+      "naslov": "BW Nika 57m2 direktno od vlasnika, pogled na reku",
+      "price_first": 295000,
+      "price_current": 295000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "53bd9d9aa909cf92": {
+      "uid": "53bd9d9aa909cf92",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "3a3dc8b9e6f09441",
+      "fp_loose_all": [
+        "3a3dc8b9e6f09441"
+      ],
+      "fp_nosprat": "687b8c6607e76bb3",
+      "fp_nosprat_all": [
+        "687b8c6607e76bb3"
+      ],
+      "fp_strict_all": [
+        "af41b65f8d6be4f0"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-04"
+      },
+      "source_ids": {
+        "halo": "5425647927112"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-lumia-1-bedroom-parking/5425647927112?kid=4"
+      ],
+      "zgrada": "BW Lumia",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 59.0,
+      "sprat": "II",
+      "agencija": "SonataProperties",
+      "naslov": "Bw Lumia, 1 Bedroom, Parking",
+      "price_first": 335000,
+      "price_current": 335000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "5b94f761da2b15d9": {
+      "uid": "5b94f761da2b15d9",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "812257095d8b7c0f",
+      "fp_loose_all": [
+        "812257095d8b7c0f"
+      ],
+      "fp_nosprat": "f76b2cf0f95c833f",
+      "fp_nosprat_all": [
+        "f76b2cf0f95c833f"
+      ],
+      "fp_strict_all": [
+        "374f0270e870095a"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-04"
+      },
+      "source_ids": {
+        "halo": "5425647915479"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-quartet-4-3-0-78-4m2/5425647915479?kid=4"
+      ],
+      "zgrada": "BW Quartet 4",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.4,
+      "sprat": "VI/8",
+      "agencija": "MaxisGroup1",
+      "naslov": "BW Quartet 4, 3.0, 78.4m2",
+      "price_first": 370000,
+      "price_current": 370000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "5d1c54a96d12ac08": {
+      "uid": "5d1c54a96d12ac08",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d1fb32ab40dce54f",
+      "fp_loose_all": [
+        "d1fb32ab40dce54f"
+      ],
+      "fp_nosprat": "61744f6d01892bc9",
+      "fp_nosprat_all": [
+        "61744f6d01892bc9"
+      ],
+      "fp_strict_all": [
+        "def94efb473a86d8"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-04"
+      },
+      "source_ids": {
+        "halo": "5425647920590"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-residences-159m-penthouse-panoramski-pogle/5425647920590?kid=3"
+      ],
+      "zgrada": "BW Residences",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 159.0,
+      "sprat": "XVI/20",
+      "agencija": "BorovicNekretnine",
+      "naslov": "BW Residences, 159m², penthouse, panoramski pogled",
+      "price_first": 1472000,
+      "price_current": 1472000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "89f2916433ccd822": {
+      "uid": "89f2916433ccd822",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "7efd4884fddb1555",
+      "fp_loose_all": [
+        "7efd4884fddb1555"
+      ],
+      "fp_nosprat": "4be1c62acee7c19f",
+      "fp_nosprat_all": [
+        "4be1c62acee7c19f"
+      ],
+      "fp_strict_all": [
+        "3dc9f7d611c1d3f4"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-04"
+      },
+      "source_ids": {
+        "halo": "5425647923578"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-trosoban-stan-u-centru-beograda/5425647923578?kid=1"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 68.0,
+      "sprat": "III/4",
+      "agencija": "AtlantRealty",
+      "naslov": "Prodaje se trosoban stan u centru Beograda",
+      "price_first": 228000,
+      "price_current": 228000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "82aff95d9e224a1c": {
+      "uid": "82aff95d9e224a1c",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d754dec5acc35c39",
+      "fp_loose_all": [
+        "d754dec5acc35c39"
+      ],
+      "fp_nosprat": "702b5ac6cf48089c",
+      "fp_nosprat_all": [
+        "702b5ac6cf48089c"
+      ],
+      "fp_strict_all": [
+        "bc5ac0665b13519f"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-04"
+      },
+      "source_ids": {
+        "halo": "5425647924894"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-2-0-stan-od-62m2-bw-aria/5425647924894?kid=1"
+      ],
+      "zgrada": "BW Aria",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 62.0,
+      "sprat": "II",
+      "agencija": "SonataProperties",
+      "naslov": "Lux 2.0 stan od 62m2, Bw Aria",
+      "price_first": 333000,
+      "price_current": 333000,
+      "price_changes": [],
+      "days_listed": 0
     }
   },
-  "updated_at": "2026-11-04T07:02:19.721839+00:00",
+  "updated_at": "2026-11-04T12:24:06.520221+00:00",
   "last_run": {
     "4zida": "2026-11-03",
     "nadjidom": "2026-11-03",
