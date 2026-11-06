@@ -5236,7 +5236,8 @@
       "fp_strict_all": [
         "7faa8564bcefbd8d",
         "99d898d86180034c",
-        "af7f635917e7d36f"
+        "af7f635917e7d36f",
+        "44779cecf3002746"
       ],
       "sources": [
         "halo"
@@ -5257,16 +5258,21 @@
       "agencija": "PropertyBroker",
       "naslov": "BW Thalia, useljiv, neverovatan pogled ID#5007",
       "price_first": 185000,
-      "price_current": 184000,
+      "price_current": 191000,
       "price_changes": [
         {
           "date": "2026-09-09",
           "from": 185000,
           "to": 184000
+        },
+        {
+          "date": "2026-11-06",
+          "from": 184000,
+          "to": 191000
         }
       ],
       "days_listed": 150,
-      "cena_m2": 5672,
+      "cena_m2": 5888,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-11-06"
@@ -44290,7 +44296,7 @@
     "796aeef3156e0782": {
       "uid": "796aeef3156e0782",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0870a180f4a19925",
@@ -44312,7 +44318,7 @@
       ],
       "last_seen_src": {
         "4zida": "2026-10-14",
-        "halo": "2026-11-05"
+        "halo": "2026-11-06"
       },
       "source_ids": {
         "4zida": "4zida:6abd260e05cfc75dee0f36c4",
@@ -60743,7 +60749,8 @@
       ],
       "fp_strict_all": [
         "434a59587bb6723a",
-        "b491249e5ddad6b4"
+        "b491249e5ddad6b4",
+        "73e5fdd06ee099c5"
       ],
       "sources": [
         "halo"
@@ -60766,16 +60773,21 @@
       "agencija": "EUROPOLISNEKRETNINE",
       "naslov": "Beograd na vodi, trosoban stan 78 m² ID#10466",
       "price_first": 346000,
-      "price_current": 365000,
+      "price_current": 349000,
       "price_changes": [
         {
           "date": "2026-10-27",
           "from": 346000,
           "to": 365000
+        },
+        {
+          "date": "2026-11-06",
+          "from": 365000,
+          "to": 349000
         }
       ],
       "days_listed": 34,
-      "cena_m2": 4679
+      "cena_m2": 4474
     },
     "885fb0b5b800d71b": {
       "uid": "885fb0b5b800d71b",
@@ -67431,7 +67443,7 @@
     "fbaa8105772ff723": {
       "uid": "fbaa8105772ff723",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6a607dbb968aeefb",
@@ -67451,7 +67463,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-05"
+        "halo": "2026-11-06"
       },
       "source_ids": {
         "halo": "5425647858237"
@@ -70270,7 +70282,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-2-0-stan-od-62m2-bw-aria/5425647924894?kid=1",
-        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6aeae9b15483efb03e082c4f"
+        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6aeae9b15483efb03e082c4f",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-2-0-stan-od-62m2-bw-aria/5425647924894?kid=4"
       ],
       "zgrada": "BW Aria",
       "struktura": "2.0",
@@ -70476,7 +70489,8 @@
         "e143d2ed45c3d22c"
       ],
       "fp_strict_all": [
-        "8f25e73cd1af065f"
+        "8f25e73cd1af065f",
+        "5a6d7872828e2542"
       ],
       "sources": [
         "halo",
@@ -70503,9 +70517,15 @@
       "agencija": "AtriumPropertyServices",
       "naslov": "Savski Venac (Beograd), Beograd Na Vodi, Stan, 3,",
       "price_first": 340000,
-      "price_current": 340000,
-      "price_changes": [],
-      "cena_m2": 4250,
+      "price_current": 355000,
+      "price_changes": [
+        {
+          "date": "2026-11-06",
+          "from": 340000,
+          "to": 355000
+        }
+      ],
+      "cena_m2": 4438,
       "days_listed": 1
     },
     "8845a5ec57271f07": {
@@ -70929,7 +70949,8 @@
       "price_first": 355000,
       "price_current": 355000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4502
     },
     "9fffd8152d19fa6b": {
       "uid": "9fffd8152d19fa6b",
@@ -70970,7 +70991,8 @@
       "price_first": 380000,
       "price_current": 380000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4691
     },
     "6769c68a4a916146": {
       "uid": "6769c68a4a916146",
@@ -71011,10 +71033,52 @@
       "price_first": 298000,
       "price_current": 298000,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5418
+    },
+    "c7af6a2c3f9e1a5a": {
+      "uid": "c7af6a2c3f9e1a5a",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "80252e468b87ef88",
+      "fp_loose_all": [
+        "80252e468b87ef88"
+      ],
+      "fp_nosprat": "b573e17d783dc851",
+      "fp_nosprat_all": [
+        "b573e17d783dc851"
+      ],
+      "fp_strict_all": [
+        "d7a6948e7ace7026"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-06"
+      },
+      "source_ids": {
+        "halo": "5425647936729"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-quartet-4-trosoban-stan-nov-neuseljavan-id/5425647936729?kid=1"
+      ],
+      "zgrada": "BW Quartet 4",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 76.0,
+      "sprat": "II/8",
+      "agencija": "art-nekretnine-d-o-o",
+      "naslov": "BW Quartet 4, trosoban stan, nov, neuseljavan ID#1",
+      "price_first": 420000,
+      "price_current": 420000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-06T07:02:19.445333+00:00",
+  "updated_at": "2026-11-06T12:21:13.212585+00:00",
   "last_run": {
     "4zida": "2026-11-05",
     "nadjidom": "2026-11-05",

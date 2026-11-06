@@ -5171,9 +5171,9 @@
     "1e466826dbe813ed": {
       "uid": "1e466826dbe813ed",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-16",
-      "is_active": false,
-      "deactivated_at": "2026-09-18",
+      "last_seen": "2026-11-06",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "75549bb7c52510b8",
       "fp_strict_all": [
         "5055a689ef33264c"
@@ -5198,15 +5198,22 @@
       "price_first": 700,
       "price_current": 700,
       "price_changes": [],
-      "days_listed": 101,
-      "cena_m2": 17
+      "days_listed": 150,
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-11-06"
+      },
+      "fp_nosprat_all": [
+        "d4f6dfa2eeefc9fe"
+      ],
+      "fp_nosprat": "d4f6dfa2eeefc9fe"
     },
     "14cd92cf7af209da": {
       "uid": "14cd92cf7af209da",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-21",
-      "is_active": false,
-      "deactivated_at": "2026-09-23",
+      "last_seen": "2026-11-06",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "0438976887d37d94",
       "fp_strict_all": [
         "28b26b1cf62724b4"
@@ -5215,7 +5222,7 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "5425647620626"
+        "halo": "5425644861193"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar-beograd-na-vodi-komplex-apartmana-id89/5425644861193?kid=1",
@@ -5227,12 +5234,19 @@
       "m2": 47.0,
       "sprat": "III/4",
       "agencija": "art-nekretnine-d-o-o",
-      "naslov": "Centar,Beograd na vodi, komplex apartmana ID#16198",
+      "naslov": "Centar,Beograd na vodi, komplex apartmana ID#8961",
       "price_first": 800,
       "price_current": 800,
       "price_changes": [],
-      "days_listed": 106,
-      "cena_m2": 17
+      "days_listed": 150,
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-11-06"
+      },
+      "fp_nosprat_all": [
+        "427db6debc7a12e8"
+      ],
+      "fp_nosprat": "427db6debc7a12e8"
     },
     "2fc99e963341538b": {
       "uid": "2fc99e963341538b",
@@ -11183,12 +11197,13 @@
     "492703f6f417c4ed": {
       "uid": "492703f6f417c4ed",
       "first_seen": "2026-06-17",
-      "last_seen": "2026-10-26",
-      "is_active": false,
-      "deactivated_at": "2026-10-28",
+      "last_seen": "2026-11-06",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "a82ba1f9f2b85cae",
       "fp_strict_all": [
-        "88af9637c856c791"
+        "88af9637c856c791",
+        "d6eefd1950e63983"
       ],
       "sources": [
         "halo",
@@ -11208,21 +11223,27 @@
       "m2": 55.0,
       "sprat": "II/23",
       "agencija": "divis-nekretnine",
-      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 1.300€, 55m²",
+      "naslov": "Elegantan 2.0 stan u Beogradu na vodi, BW Parkview",
       "price_first": 1300,
-      "price_current": 1300,
-      "price_changes": [],
-      "days_listed": 133,
+      "price_current": 1500,
+      "price_changes": [
+        {
+          "date": "2026-11-06",
+          "from": 1300,
+          "to": 1500
+        }
+      ],
+      "days_listed": 142,
       "deactivation_uncertain": true,
       "last_seen_src": {
-        "halo": "2026-10-10",
+        "halo": "2026-11-06",
         "4zida": "2026-10-26"
       },
       "fp_nosprat_all": [
         "b60b584cf4b2bea3"
       ],
       "fp_nosprat": "b60b584cf4b2bea3",
-      "cena_m2": 24
+      "cena_m2": 27
     },
     "3b0d7b1a84457304": {
       "uid": "3b0d7b1a84457304",
@@ -51330,9 +51351,9 @@
     "8dfdd2779fbc0115": {
       "uid": "8dfdd2779fbc0115",
       "first_seen": "2026-10-20",
-      "last_seen": "2026-11-03",
-      "is_active": false,
-      "deactivated_at": "2026-11-05",
+      "last_seen": "2026-11-06",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "fe361a686d9c3335",
       "fp_loose_all": [
         "fe361a686d9c3335"
@@ -51349,7 +51370,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-03"
+        "halo": "2026-11-06"
       },
       "source_ids": {
         "halo": "5425646436448"
@@ -51364,7 +51385,7 @@
       "m2": 58.0,
       "sprat": "XII/23",
       "agencija": null,
-      "naslov": "Izdajem stan na BW, direkt od vlasnika",
+      "naslov": "Izdajem 40 stanova na BW, direkt od vlasnika",
       "price_first": 2099,
       "price_current": 1899,
       "price_changes": [
@@ -51374,7 +51395,7 @@
           "to": 1899
         }
       ],
-      "days_listed": 16,
+      "days_listed": 17,
       "cena_m2": 33
     },
     "2fc15b4a7f806be6": {
@@ -54987,7 +55008,8 @@
       ],
       "fp_strict_all": [
         "c8d8f559ccb71aba",
-        "fd8f61512e1d9d50"
+        "fd8f61512e1d9d50",
+        "61a546ad679c09a7"
       ],
       "sources": [
         "halo"
@@ -55009,10 +55031,16 @@
       "agencija": "KADENASothebys",
       "naslov": "Dvosoban | BW King’s Park | Ekskluzivna lokacija",
       "price_first": 1500,
-      "price_current": 1500,
-      "price_changes": [],
+      "price_current": 1400,
+      "price_changes": [
+        {
+          "date": "2026-11-06",
+          "from": 1500,
+          "to": 1400
+        }
+      ],
       "days_listed": 10,
-      "cena_m2": 26
+      "cena_m2": 25
     },
     "ebbf62d968d81e52": {
       "uid": "ebbf62d968d81e52",
@@ -57217,9 +57245,9 @@
     "cb1541cc1bdc3448": {
       "uid": "cb1541cc1bdc3448",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-02",
-      "is_active": false,
-      "deactivated_at": "2026-11-04",
+      "last_seen": "2026-11-06",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "c2f1765c84cbf933",
       "fp_loose_all": [
         "c2f1765c84cbf933"
@@ -57235,7 +57263,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-02"
+        "halo": "2026-11-06"
       },
       "source_ids": {
         "halo": "5425647892868"
@@ -57253,7 +57281,7 @@
       "price_first": 1400,
       "price_current": 1400,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 8,
       "cena_m2": 25
     },
     "3c0d249c8e94ee99": {
@@ -59068,7 +59096,8 @@
         "beb085a9bd11f44e"
       ],
       "fp_strict_all": [
-        "abf21c4080857752"
+        "abf21c4080857752",
+        "187981158230e67c"
       ],
       "sources": [
         "halo"
@@ -59090,10 +59119,16 @@
       "agencija": null,
       "naslov": "Opremljen stan i garazno mesto BW Perla",
       "price_first": 2350,
-      "price_current": 2350,
-      "price_changes": [],
+      "price_current": 2100,
+      "price_changes": [
+        {
+          "date": "2026-11-06",
+          "from": 2350,
+          "to": 2100
+        }
+      ],
       "days_listed": 4,
-      "cena_m2": 33
+      "cena_m2": 30
     },
     "96fae88c6227f83c": {
       "uid": "96fae88c6227f83c",
@@ -61936,7 +61971,8 @@
       "price_first": 1500,
       "price_current": 1500,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 25
     },
     "a206c7898d2807c9": {
       "uid": "a206c7898d2807c9",
@@ -61977,7 +62013,8 @@
       "price_first": 1400,
       "price_current": 1400,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 24
     },
     "0941163c6f459179": {
       "uid": "0941163c6f459179",
@@ -62018,10 +62055,93 @@
       "price_first": 1100,
       "price_current": 1100,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 20
+    },
+    "a0d0faf650ac1654": {
+      "uid": "a0d0faf650ac1654",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "1cc05a0c122c0f27",
+      "fp_loose_all": [
+        "1cc05a0c122c0f27"
+      ],
+      "fp_nosprat": "87af6bdbb978c9f3",
+      "fp_nosprat_all": [
+        "87af6bdbb978c9f3"
+      ],
+      "fp_strict_all": [
+        "ec9d187c1b90aff7"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-06"
+      },
+      "source_ids": {
+        "halo": "5425647936740"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-05-dve-spavace-sobe-9-sprat/5425647936740?kid=1"
+      ],
+      "zgrada": "BW Iris",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 76.0,
+      "sprat": "IX",
+      "agencija": "Kredium",
+      "naslov": "BW Iris 05 | Dve spavaće sobe | 9. sprat",
+      "price_first": 1750,
+      "price_current": 1750,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "5d61cfb5e75f705b": {
+      "uid": "5d61cfb5e75f705b",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b08ff11ba2ae82c7",
+      "fp_loose_all": [
+        "b08ff11ba2ae82c7"
+      ],
+      "fp_nosprat": "01757e4dd92597d8",
+      "fp_nosprat_all": [
+        "01757e4dd92597d8"
+      ],
+      "fp_strict_all": [
+        "2ad2794425a82733"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-06"
+      },
+      "source_ids": {
+        "halo": "5425647624954"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar-beograd-na-vodi-komplex-apartmana-id16/5425647624954?kid=1"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 24.0,
+      "sprat": "II/4",
+      "agencija": "art-nekretnine-d-o-o",
+      "naslov": "Centar,Beograd na vodi, komplex apartmana ID#16213",
+      "price_first": 450,
+      "price_current": 450,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-06T07:03:36.132966+00:00",
+  "updated_at": "2026-11-06T12:22:21.934272+00:00",
   "last_run": {
     "4zida": "2026-11-05",
     "nadjidom": "2026-11-05",
