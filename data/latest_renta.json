@@ -1,12 +1,76 @@
 {
   "mode": "renta",
-  "scraped_at": "2026-11-05T12:39:52.799786+00:00",
-  "date": "2026-11-05",
-  "total_raw": 216,
-  "total_unique": 129,
-  "total_dups": 87,
+  "scraped_at": "2026-11-06T07:03:36.012063+00:00",
+  "date": "2026-11-06",
+  "total_raw": 220,
+  "total_unique": 130,
+  "total_dups": 90,
   "avg_m2": 28,
   "listings": [
+    {
+      "id": "5425647542190",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-3-2-bedrooms-parking/5425647542190?kid=4",
+      "naslov": "Bw Quartet 3, 2 Bedrooms, Parking",
+      "zgrada": "BW Quartet 3",
+      "agencija": "SonataProperties",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 89.0,
+      "cena": 2300,
+      "cena_m2": 26,
+      "sprat": "II/8",
+      "mode": "renta",
+      "scraped_at": "2026-11-06T07:02:34.355054+00:00",
+      "dedup_key": "49ec554e7d"
+    },
+    {
+      "id": "5425647882890",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-neuseljavan-cetvorosoban-stan-u-bw/5425647882890?kid=4",
+      "naslov": "Luksuzan, neuseljavan četvorosoban stan u BW",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 115.0,
+      "cena": 2500,
+      "cena_m2": 22,
+      "sprat": "VII/9",
+      "mode": "renta",
+      "scraped_at": "2026-11-06T07:02:34.357363+00:00",
+      "dedup_key": "734abe8f93"
+    },
+    {
+      "id": "5425647933037",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69659/5425647933037?kid=4",
+      "naslov": "Centar - Beograd na vodi BW #69659",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "beostan",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 61.0,
+      "cena": 1500,
+      "cena_m2": 25,
+      "sprat": "III/7",
+      "mode": "renta",
+      "scraped_at": "2026-11-06T07:02:34.359230+00:00",
+      "dedup_key": "bb3790068f"
+    },
+    {
+      "id": "5425647856856",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park-3-bedroom-pogled-na-park/5425647856856?kid=4",
+      "naslov": "BW Kings Park| 3 Bedroom| Pogled na Park",
+      "zgrada": "BW King's Park",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 92.0,
+      "cena": 2900,
+      "cena_m2": 32,
+      "sprat": "II/15",
+      "mode": "renta",
+      "scraped_at": "2026-11-06T07:02:34.360561+00:00",
+      "dedup_key": "285fc0d328"
+    },
     {
       "id": "5425647438214",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-riviera---3-0-premium-stan-za-izdavanje/5425647438214?kid=4",
@@ -20,7 +84,7 @@
       "cena_m2": 28,
       "sprat": "XXI/25",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.978887+00:00",
+      "scraped_at": "2026-11-06T07:02:34.361305+00:00",
       "dedup_key": "beae4a8764"
     },
     {
@@ -36,7 +100,7 @@
       "cena_m2": 26,
       "sprat": "XV",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.980253+00:00",
+      "scraped_at": "2026-11-06T07:02:34.363351+00:00",
       "dedup_key": "40a7572505"
     },
     {
@@ -52,7 +116,7 @@
       "cena_m2": 25,
       "sprat": "I/14",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.980824+00:00",
+      "scraped_at": "2026-11-06T07:02:34.364287+00:00",
       "dedup_key": "a0445326d2"
     },
     {
@@ -68,7 +132,7 @@
       "cena_m2": 23,
       "sprat": "X/20",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.981353+00:00",
+      "scraped_at": "2026-11-06T07:02:34.365132+00:00",
       "dedup_key": "499d35621a"
     },
     {
@@ -84,7 +148,7 @@
       "cena_m2": 31,
       "sprat": "XVI/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.982224+00:00",
+      "scraped_at": "2026-11-06T07:02:34.366513+00:00",
       "dedup_key": "9b5c7fbc40"
     },
     {
@@ -100,24 +164,8 @@
       "cena_m2": 22,
       "sprat": "I/10",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.983712+00:00",
+      "scraped_at": "2026-11-06T07:02:34.368941+00:00",
       "dedup_key": "ddb4d6685a"
-    },
-    {
-      "id": "5425647928750",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/ekskluzivan-stan--beograd-na-vodi/5425647928750?kid=4",
-      "naslov": "Ekskluzivan stan -Beograd na vodi",
-      "zgrada": "BW (neidentifikovano)",
-      "agencija": null,
-      "struktura": "1.5",
-      "str_label": "Jednoiposoban",
-      "m2": 59.0,
-      "cena": 1700,
-      "cena_m2": 29,
-      "sprat": "XIV/23",
-      "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.985082+00:00",
-      "dedup_key": "cb1e32d485"
     },
     {
       "id": "5425647181935",
@@ -132,7 +180,7 @@
       "cena_m2": 27,
       "sprat": "XVI",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.985474+00:00",
+      "scraped_at": "2026-11-06T07:02:34.369647+00:00",
       "dedup_key": "c6702d0728"
     },
     {
@@ -148,7 +196,7 @@
       "cena_m2": 24,
       "sprat": "IX",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.986336+00:00",
+      "scraped_at": "2026-11-06T07:02:34.371163+00:00",
       "dedup_key": "0e3c89cd0d"
     },
     {
@@ -164,7 +212,7 @@
       "cena_m2": 37,
       "sprat": "XVII/25",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.986774+00:00",
+      "scraped_at": "2026-11-06T07:02:34.371922+00:00",
       "dedup_key": "e8f06e6a17"
     },
     {
@@ -180,7 +228,7 @@
       "cena_m2": 22,
       "sprat": "III",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.987700+00:00",
+      "scraped_at": "2026-11-06T07:02:34.373499+00:00",
       "dedup_key": "efc197fbee"
     },
     {
@@ -196,24 +244,8 @@
       "cena_m2": 24,
       "sprat": "III/5",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.988127+00:00",
+      "scraped_at": "2026-11-06T07:02:34.374258+00:00",
       "dedup_key": "1af48c518f"
-    },
-    {
-      "id": "5425647924886",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-64233/5425647924886?kid=4",
-      "naslov": "Centar - Beograd na vodi BW #64233",
-      "zgrada": "BW (neidentifikovano)",
-      "agencija": "beostan",
-      "struktura": "2.0",
-      "str_label": "Dvosoban",
-      "m2": 60.0,
-      "cena": 1000,
-      "cena_m2": 17,
-      "sprat": "I/6",
-      "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.989268+00:00",
-      "dedup_key": "bb3790068f"
     },
     {
       "id": "5425647920398",
@@ -228,7 +260,7 @@
       "cena_m2": 20,
       "sprat": "V/8",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.990376+00:00",
+      "scraped_at": "2026-11-06T07:02:34.376992+00:00",
       "dedup_key": "3b571592f0"
     },
     {
@@ -244,7 +276,7 @@
       "cena_m2": 25,
       "sprat": "II",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.990844+00:00",
+      "scraped_at": "2026-11-06T07:02:38.803256+00:00",
       "dedup_key": "cf5d6db7a5"
     },
     {
@@ -260,40 +292,8 @@
       "cena_m2": 22,
       "sprat": "VI/8",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.991255+00:00",
+      "scraped_at": "2026-11-06T07:02:38.804006+00:00",
       "dedup_key": "51708d8958"
-    },
-    {
-      "id": "5425647853957",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69458/5425647853957?kid=4",
-      "naslov": "Centar - Beograd na vodi BW #69458",
-      "zgrada": "BW (neidentifikovano)",
-      "agencija": "beostan",
-      "struktura": "3.0",
-      "str_label": "Trosoban",
-      "m2": 78.0,
-      "cena": 1800,
-      "cena_m2": 23,
-      "sprat": "V/17",
-      "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.992431+00:00",
-      "dedup_key": "b5bc15ab12"
-    },
-    {
-      "id": "5425647922789",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-61897/5425647922789?kid=4",
-      "naslov": "Centar - Beograd na vodi BW #61897",
-      "zgrada": "BW (neidentifikovano)",
-      "agencija": "beostan",
-      "struktura": "3.0",
-      "str_label": "Trosoban",
-      "m2": 73.0,
-      "cena": 1300,
-      "cena_m2": 18,
-      "sprat": "I/7",
-      "mode": "renta",
-      "scraped_at": "2026-11-05T12:38:59.993592+00:00",
-      "dedup_key": "b80ab36fc8"
     },
     {
       "id": "5425647892934",
@@ -308,7 +308,7 @@
       "cena_m2": 33,
       "sprat": "XVIII/24",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.982296+00:00",
+      "scraped_at": "2026-11-06T07:02:38.808425+00:00",
       "dedup_key": "9b333fc94d"
     },
     {
@@ -324,7 +324,7 @@
       "cena_m2": 23,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.983724+00:00",
+      "scraped_at": "2026-11-06T07:02:38.810743+00:00",
       "dedup_key": "0dcd2d78d6"
     },
     {
@@ -340,7 +340,7 @@
       "cena_m2": 29,
       "sprat": "III/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.984183+00:00",
+      "scraped_at": "2026-11-06T07:02:38.811598+00:00",
       "dedup_key": "8e89187e5c"
     },
     {
@@ -356,7 +356,7 @@
       "cena_m2": 34,
       "sprat": "XXII",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.985193+00:00",
+      "scraped_at": "2026-11-06T07:02:38.813299+00:00",
       "dedup_key": "8ece638012"
     },
     {
@@ -372,7 +372,7 @@
       "cena_m2": 25,
       "sprat": "VII",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.985665+00:00",
+      "scraped_at": "2026-11-06T07:02:38.814107+00:00",
       "dedup_key": "88e36f7f5f"
     },
     {
@@ -388,7 +388,7 @@
       "cena_m2": 27,
       "sprat": "IX/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.986799+00:00",
+      "scraped_at": "2026-11-06T07:02:38.815967+00:00",
       "dedup_key": "fd5b47f0e4"
     },
     {
@@ -404,7 +404,7 @@
       "cena_m2": 24,
       "sprat": "XVII/23",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.988432+00:00",
+      "scraped_at": "2026-11-06T07:02:38.818577+00:00",
       "dedup_key": "afbdcd57fc"
     },
     {
@@ -420,7 +420,7 @@
       "cena_m2": 24,
       "sprat": "IX/15",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.988878+00:00",
+      "scraped_at": "2026-11-06T07:02:38.819332+00:00",
       "dedup_key": "f83efd5633"
     },
     {
@@ -436,7 +436,7 @@
       "cena_m2": 29,
       "sprat": "IV/8",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.989858+00:00",
+      "scraped_at": "2026-11-06T07:02:38.821025+00:00",
       "dedup_key": "fb612c5c32"
     },
     {
@@ -452,7 +452,7 @@
       "cena_m2": 33,
       "sprat": "XV/25",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.990322+00:00",
+      "scraped_at": "2026-11-06T07:02:38.821789+00:00",
       "dedup_key": "c1c563077e"
     },
     {
@@ -468,7 +468,7 @@
       "cena_m2": 31,
       "sprat": "XV",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.990782+00:00",
+      "scraped_at": "2026-11-06T07:02:38.822573+00:00",
       "dedup_key": "246b0469f4"
     },
     {
@@ -484,7 +484,7 @@
       "cena_m2": 23,
       "sprat": "VII/18",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.991235+00:00",
+      "scraped_at": "2026-11-06T07:02:38.823328+00:00",
       "dedup_key": "3106e85b04"
     },
     {
@@ -500,7 +500,7 @@
       "cena_m2": 33,
       "sprat": "XIV/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.991784+00:00",
+      "scraped_at": "2026-11-06T07:02:38.824254+00:00",
       "dedup_key": "b5e1c72193"
     },
     {
@@ -516,7 +516,7 @@
       "cena_m2": 25,
       "sprat": "VI/7",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.992305+00:00",
+      "scraped_at": "2026-11-06T07:02:43.545214+00:00",
       "dedup_key": "8b6b99f0bb"
     },
     {
@@ -532,7 +532,7 @@
       "cena_m2": 24,
       "sprat": "V/23",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.992754+00:00",
+      "scraped_at": "2026-11-06T07:02:43.545859+00:00",
       "dedup_key": "a15bab30aa"
     },
     {
@@ -548,7 +548,7 @@
       "cena_m2": 24,
       "sprat": "VI",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:04.993215+00:00",
+      "scraped_at": "2026-11-06T07:02:43.546478+00:00",
       "dedup_key": "4ff6011e70"
     },
     {
@@ -564,7 +564,7 @@
       "cena_m2": 25,
       "sprat": "XII",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.005712+00:00",
+      "scraped_at": "2026-11-06T07:02:43.547150+00:00",
       "dedup_key": "d20ab92096"
     },
     {
@@ -580,24 +580,8 @@
       "cena_m2": 22,
       "sprat": "I/14",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.006170+00:00",
+      "scraped_at": "2026-11-06T07:02:43.547737+00:00",
       "dedup_key": "c3d1e1942a"
-    },
-    {
-      "id": "5425647542190",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-3-2-bedrooms-parking/5425647542190?kid=4",
-      "naslov": "Bw Quartet 3, 2 Bedrooms, Parking",
-      "zgrada": "BW Quartet 3",
-      "agencija": "SonataProperties",
-      "struktura": "3.0",
-      "str_label": "Trosoban",
-      "m2": 89.0,
-      "cena": 2300,
-      "cena_m2": 26,
-      "sprat": "II/8",
-      "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.006597+00:00",
-      "dedup_key": "49ec554e7d"
     },
     {
       "id": "5425647819458",
@@ -612,40 +596,24 @@
       "cena_m2": 51,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.007189+00:00",
+      "scraped_at": "2026-11-06T07:02:43.548500+00:00",
       "dedup_key": "92181001ff"
     },
     {
-      "id": "5425647861418",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bwcetvorosoban-stanpogled-na-parkprvo-useljen/5425647861418?kid=4",
-      "naslov": "BW|Četvorosoban stan|Pogled na park|Prvo useljenje",
-      "zgrada": "BW (neidentifikovano)",
-      "agencija": null,
-      "struktura": "4.0",
-      "str_label": "Četvorosoban",
-      "m2": 115.0,
-      "cena": 3000,
-      "cena_m2": 26,
-      "sprat": null,
+      "id": "5425647788377",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-st-regis-residence-2-0/5425647788377?kid=3",
+      "naslov": "BW St. Regis Residence 2.0",
+      "zgrada": "BW St. Regis",
+      "agencija": "MaxisGroup1",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 57.0,
+      "cena": 2500,
+      "cena_m2": 44,
+      "sprat": "XXIV",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.010081+00:00",
-      "dedup_key": "734abe8f93"
-    },
-    {
-      "id": "5425647858501",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/savski-venac-thalia/5425647858501?kid=4",
-      "naslov": "+ savski venac Thalia",
-      "zgrada": "BW Thalia",
-      "agencija": "CityLand011",
-      "struktura": "3.0",
-      "str_label": "Trosoban",
-      "m2": 79.0,
-      "cena": 1900,
-      "cena_m2": 24,
-      "sprat": null,
-      "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.010584+00:00",
-      "dedup_key": "fc98080c31"
+      "scraped_at": "2026-11-06T07:02:43.552743+00:00",
+      "dedup_key": "ee7cecf216"
     },
     {
       "id": "5425647846671",
@@ -660,7 +628,7 @@
       "cena_m2": 23,
       "sprat": "V/6",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.011141+00:00",
+      "scraped_at": "2026-11-06T07:02:43.553435+00:00",
       "dedup_key": "c38ec347a6"
     },
     {
@@ -676,7 +644,7 @@
       "cena_m2": 22,
       "sprat": "V/21",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.011633+00:00",
+      "scraped_at": "2026-11-06T07:02:43.554098+00:00",
       "dedup_key": "b9e54c7d19"
     },
     {
@@ -692,7 +660,7 @@
       "cena_m2": 56,
       "sprat": "XX/30",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.012188+00:00",
+      "scraped_at": "2026-11-06T07:02:43.554795+00:00",
       "dedup_key": "ea27c10e8c"
     },
     {
@@ -708,24 +676,8 @@
       "cena_m2": 61,
       "sprat": "XXX/30",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.012614+00:00",
+      "scraped_at": "2026-11-06T07:02:43.555393+00:00",
       "dedup_key": "44d9bbbc22"
-    },
-    {
-      "id": "5425647921191",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-bw-st-regis-ekskluzivna-lokacija/5425647921191",
-      "naslov": "Dvosoban | BW St. Regis | Ekskluzivna lokacija",
-      "zgrada": "BW St. Regis",
-      "agencija": "KADENASothebys",
-      "struktura": "2.0",
-      "str_label": "Dvosoban",
-      "m2": 56.76,
-      "cena": 4000,
-      "cena_m2": 70,
-      "sprat": "XXX/30",
-      "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.013026+00:00",
-      "dedup_key": "ee7cecf216"
     },
     {
       "id": "5425647915285",
@@ -740,7 +692,7 @@
       "cena_m2": 22,
       "sprat": "V/16",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.013565+00:00",
+      "scraped_at": "2026-11-06T07:02:43.556693+00:00",
       "dedup_key": "4c223cf1d3"
     },
     {
@@ -756,7 +708,7 @@
       "cena_m2": 28,
       "sprat": "VII/11",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.014102+00:00",
+      "scraped_at": "2026-11-06T07:02:43.557401+00:00",
       "dedup_key": "22dd64a0b2"
     },
     {
@@ -772,7 +724,7 @@
       "cena_m2": 30,
       "sprat": "VIII/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.014927+00:00",
+      "scraped_at": "2026-11-06T07:02:43.558533+00:00",
       "dedup_key": "6ff1b515c5"
     },
     {
@@ -788,7 +740,7 @@
       "cena_m2": 32,
       "sprat": "XIV/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:09.016846+00:00",
+      "scraped_at": "2026-11-06T07:02:47.987398+00:00",
       "dedup_key": "7d9db30e2b"
     },
     {
@@ -804,7 +756,7 @@
       "cena_m2": 37,
       "sprat": "III/25",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.922493+00:00",
+      "scraped_at": "2026-11-06T07:02:47.988163+00:00",
       "dedup_key": "e5e943c33a"
     },
     {
@@ -820,24 +772,88 @@
       "cena_m2": 26,
       "sprat": "VI/15",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.923543+00:00",
+      "scraped_at": "2026-11-06T07:02:47.989874+00:00",
       "dedup_key": "492fa6dd76"
     },
     {
-      "id": "5425647784395",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-stan-148-m-u-bw-perla-pogled-na-reku/5425647784395?kid=3",
-      "naslov": "Luksuzan stan 148 m² u BW Perla, pogled na reku",
-      "zgrada": "BW Perla",
-      "agencija": null,
+      "id": "5425644581698",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/best-selection-of-exclusive-homes-properties/5425644581698?kid=1",
+      "naslov": "Best selection of exclusive homes & properties",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "BebaRealEstate",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 72.0,
+      "cena": 1800,
+      "cena_m2": 25,
+      "sprat": "VIII",
+      "mode": "renta",
+      "scraped_at": "2026-11-06T07:02:47.992656+00:00",
+      "dedup_key": "b80ab36fc8"
+    },
+    {
+      "id": "5425647579167",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/ekskluzivan-4-0-stan-u-bw-riviera/5425647579167?kid=1",
+      "naslov": "Ekskluzivan 4.0 stan u BW Riviera",
+      "zgrada": "BW Riviera",
+      "agencija": "BebaRealEstate",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
-      "m2": 148.0,
-      "cena": 3500,
-      "cena_m2": 24,
-      "sprat": "XI/25",
+      "m2": 158.0,
+      "cena": 4500,
+      "cena_m2": 28,
+      "sprat": "XVI",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.924512+00:00",
-      "dedup_key": "d86dd8f76c"
+      "scraped_at": "2026-11-06T07:02:47.993400+00:00",
+      "dedup_key": "24d9c8ae02"
+    },
+    {
+      "id": "5425647933014",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-2---07-beograd-na-vodi-dve-spavace/5425647933014?kid=1",
+      "naslov": "BW Quartet 2 - 07 | Beograd na vodi | Dve spavaće",
+      "zgrada": "BW Quartet 2",
+      "agencija": "Kredium",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 83.0,
+      "cena": 1800,
+      "cena_m2": 22,
+      "sprat": "III/5",
+      "mode": "renta",
+      "scraped_at": "2026-11-06T07:02:47.994141+00:00",
+      "dedup_key": "822c445dd5"
+    },
+    {
+      "id": "5425647930115",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-lumia---12-beograd-na-vodi-pogled-na-park/5425647930115?kid=1",
+      "naslov": "BW Lumia - 12 | Beograd na vodi | Pogled na park",
+      "zgrada": "BW Lumia",
+      "agencija": "Kredium",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 58.0,
+      "cena": 1400,
+      "cena_m2": 24,
+      "sprat": "IV/9",
+      "mode": "renta",
+      "scraped_at": "2026-11-06T07:02:47.995758+00:00",
+      "dedup_key": "3e0d13caf1"
+    },
+    {
+      "id": "5425647930114",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-sole-31-beograd-na-vodi-polunamesten/5425647930114?kid=1",
+      "naslov": "BW Sole 31 | Beograd na vodi | Polunamešten",
+      "zgrada": "BW Sole",
+      "agencija": "Kredium",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "cena": 1100,
+      "cena_m2": 20,
+      "sprat": "VI/17",
+      "mode": "renta",
+      "scraped_at": "2026-11-06T07:02:47.997116+00:00",
+      "dedup_key": "66c73f7b0e"
     },
     {
       "id": "5425647499477",
@@ -852,7 +868,7 @@
       "cena_m2": 27,
       "sprat": "IV/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.926272+00:00",
+      "scraped_at": "2026-11-06T07:02:48.000127+00:00",
       "dedup_key": "86d26643cb"
     },
     {
@@ -868,7 +884,7 @@
       "cena_m2": 39,
       "sprat": "XVI/25",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.926704+00:00",
+      "scraped_at": "2026-11-06T07:02:48.000889+00:00",
       "dedup_key": "0e522c68ef"
     },
     {
@@ -884,7 +900,7 @@
       "cena_m2": 22,
       "sprat": "VI/9",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.928140+00:00",
+      "scraped_at": "2026-11-06T07:02:48.003194+00:00",
       "dedup_key": "faf5407f2a"
     },
     {
@@ -900,7 +916,7 @@
       "cena_m2": 25,
       "sprat": "II",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.928763+00:00",
+      "scraped_at": "2026-11-06T07:02:48.004252+00:00",
       "dedup_key": "b34dfa394c"
     },
     {
@@ -916,7 +932,7 @@
       "cena_m2": 34,
       "sprat": "V/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.930163+00:00",
+      "scraped_at": "2026-11-06T07:02:48.006616+00:00",
       "dedup_key": "ac0aade14f"
     },
     {
@@ -932,7 +948,7 @@
       "cena_m2": 24,
       "sprat": "XIV/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.931405+00:00",
+      "scraped_at": "2026-11-06T07:02:48.008696+00:00",
       "dedup_key": "c251a62e55"
     },
     {
@@ -948,7 +964,7 @@
       "cena_m2": 30,
       "sprat": "VI",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.934200+00:00",
+      "scraped_at": "2026-11-06T07:02:52.703661+00:00",
       "dedup_key": "173bf2716f"
     },
     {
@@ -964,7 +980,7 @@
       "cena_m2": 25,
       "sprat": "IX",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.934574+00:00",
+      "scraped_at": "2026-11-06T07:02:52.704251+00:00",
       "dedup_key": "6b332e5679"
     },
     {
@@ -980,7 +996,7 @@
       "cena_m2": 36,
       "sprat": "XII/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.934988+00:00",
+      "scraped_at": "2026-11-06T07:02:52.704858+00:00",
       "dedup_key": "ae38f4bb62"
     },
     {
@@ -996,7 +1012,7 @@
       "cena_m2": 24,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.935373+00:00",
+      "scraped_at": "2026-11-06T07:02:52.705402+00:00",
       "dedup_key": "4d929d9370"
     },
     {
@@ -1012,7 +1028,7 @@
       "cena_m2": 29,
       "sprat": "II/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:12.935771+00:00",
+      "scraped_at": "2026-11-06T07:02:52.705994+00:00",
       "dedup_key": "cb025ef484"
     },
     {
@@ -1028,7 +1044,7 @@
       "cena_m2": 25,
       "sprat": "V/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:17.152258+00:00",
+      "scraped_at": "2026-11-06T07:02:52.706581+00:00",
       "dedup_key": "44d81c259b"
     },
     {
@@ -1044,7 +1060,7 @@
       "cena_m2": 27,
       "sprat": "IV",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:17.155479+00:00",
+      "scraped_at": "2026-11-06T07:02:52.710627+00:00",
       "dedup_key": "f1f69f2ffd"
     },
     {
@@ -1060,7 +1076,7 @@
       "cena_m2": 30,
       "sprat": "XI/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:17.156619+00:00",
+      "scraped_at": "2026-11-06T07:02:52.712110+00:00",
       "dedup_key": "96364cfde9"
     },
     {
@@ -1076,7 +1092,7 @@
       "cena_m2": 23,
       "sprat": "III/5",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:17.158260+00:00",
+      "scraped_at": "2026-11-06T07:02:52.714198+00:00",
       "dedup_key": "05720b58a2"
     },
     {
@@ -1092,7 +1108,7 @@
       "cena_m2": 31,
       "sprat": "VIII/18",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:17.158698+00:00",
+      "scraped_at": "2026-11-06T07:02:52.714817+00:00",
       "dedup_key": "b7bb5e64d2"
     },
     {
@@ -1108,7 +1124,7 @@
       "cena_m2": 17,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:17.159634+00:00",
+      "scraped_at": "2026-11-06T07:02:52.716102+00:00",
       "dedup_key": "834b378e53"
     },
     {
@@ -1124,7 +1140,7 @@
       "cena_m2": 23,
       "sprat": "IV/8",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:17.164998+00:00",
+      "scraped_at": "2026-11-06T07:02:57.127970+00:00",
       "dedup_key": "12462ddcdf"
     },
     {
@@ -1140,7 +1156,7 @@
       "cena_m2": 49,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:17.165489+00:00",
+      "scraped_at": "2026-11-06T07:02:57.128772+00:00",
       "dedup_key": "d3e2b32bef"
     },
     {
@@ -1156,7 +1172,7 @@
       "cena_m2": 33,
       "sprat": "IX",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:17.166005+00:00",
+      "scraped_at": "2026-11-06T07:02:57.129655+00:00",
       "dedup_key": "d73e19d6f8"
     },
     {
@@ -1172,7 +1188,7 @@
       "cena_m2": 30,
       "sprat": "VIII/15",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.027102+00:00",
+      "scraped_at": "2026-11-06T07:02:57.130601+00:00",
       "dedup_key": "1991335184"
     },
     {
@@ -1188,7 +1204,7 @@
       "cena_m2": 44,
       "sprat": "XXV",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.027688+00:00",
+      "scraped_at": "2026-11-06T07:02:57.131519+00:00",
       "dedup_key": "d804e857e9"
     },
     {
@@ -1204,7 +1220,7 @@
       "cena_m2": 27,
       "sprat": "XV/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.029984+00:00",
+      "scraped_at": "2026-11-06T07:02:57.135272+00:00",
       "dedup_key": "8b38e34cf9"
     },
     {
@@ -1220,7 +1236,7 @@
       "cena_m2": 32,
       "sprat": "XIV/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.030631+00:00",
+      "scraped_at": "2026-11-06T07:02:57.136322+00:00",
       "dedup_key": "32306060a5"
     },
     {
@@ -1236,7 +1252,7 @@
       "cena_m2": 30,
       "sprat": "II/7",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.032410+00:00",
+      "scraped_at": "2026-11-06T07:02:57.139242+00:00",
       "dedup_key": "c0e95cea3e"
     },
     {
@@ -1252,7 +1268,7 @@
       "cena_m2": 22,
       "sprat": "XIX/23",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.033169+00:00",
+      "scraped_at": "2026-11-06T07:02:57.140854+00:00",
       "dedup_key": "bdb9e85ddc"
     },
     {
@@ -1268,7 +1284,7 @@
       "cena_m2": 23,
       "sprat": "XIV/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.034344+00:00",
+      "scraped_at": "2026-11-06T07:02:57.142818+00:00",
       "dedup_key": "605ef3e147"
     },
     {
@@ -1284,8 +1300,24 @@
       "cena_m2": 21,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.035679+00:00",
+      "scraped_at": "2026-11-06T07:02:57.144961+00:00",
       "dedup_key": "195ba31865"
+    },
+    {
+      "id": "5425645320031",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-i-lux-novogradnja-garaza-id-23954/5425645320031?kid=1",
+      "naslov": "BW Quartet I, lux, novogradnja, garaža, ID 23954",
+      "zgrada": "BW Quartet 1",
+      "agencija": "eminent-nekretnine",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 54.0,
+      "cena": 1500,
+      "cena_m2": 28,
+      "sprat": "III/7",
+      "mode": "renta",
+      "scraped_at": "2026-11-06T07:02:57.145889+00:00",
+      "dedup_key": "e7bb2513a8"
     },
     {
       "id": "5425647346964",
@@ -1300,8 +1332,24 @@
       "cena_m2": 39,
       "sprat": "XXX",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.036232+00:00",
+      "scraped_at": "2026-11-06T07:03:01.457083+00:00",
       "dedup_key": "e74452ec19"
+    },
+    {
+      "id": "5425647749430",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-stan-sa-2-spavace-sobe-u-beogradu-na/5425647749430?kid=1",
+      "naslov": "Luksuzan stan sa 2 spavaće sobe u Beogradu na vodi",
+      "zgrada": "BW (neidentifikovano)",
+      "agencija": "BrickPro",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 79.0,
+      "cena": 1800,
+      "cena_m2": 23,
+      "sprat": "XII/17",
+      "mode": "renta",
+      "scraped_at": "2026-11-06T07:03:01.458143+00:00",
+      "dedup_key": "b5bc15ab12"
     },
     {
       "id": "5425647892935",
@@ -1316,24 +1364,8 @@
       "cena_m2": 30,
       "sprat": "V/13",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.037288+00:00",
+      "scraped_at": "2026-11-06T07:03:01.458896+00:00",
       "dedup_key": "b087d8a238"
-    },
-    {
-      "id": "5425647895341",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-sole-44-beograd-na-vodi-terasa-garaza/5425647895341?kid=1",
-      "naslov": "BW Sole 44 | Beograd na vodi |Terasa | Garaža",
-      "zgrada": "BW Sole",
-      "agencija": "Kredium",
-      "struktura": "2.0",
-      "str_label": "Dvosoban",
-      "m2": 55.0,
-      "cena": 1600,
-      "cena_m2": 29,
-      "sprat": "X",
-      "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.037767+00:00",
-      "dedup_key": "66c73f7b0e"
     },
     {
       "id": "5425647732382",
@@ -1348,7 +1380,7 @@
       "cena_m2": 30,
       "sprat": "III",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.038190+00:00",
+      "scraped_at": "2026-11-06T07:03:01.460471+00:00",
       "dedup_key": "e6baf7861b"
     },
     {
@@ -1364,7 +1396,7 @@
       "cena_m2": 22,
       "sprat": "IV/16",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:21.039287+00:00",
+      "scraped_at": "2026-11-06T07:03:01.462228+00:00",
       "dedup_key": "f5e1fbecc4"
     },
     {
@@ -1380,7 +1412,7 @@
       "cena_m2": 26,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:24.931195+00:00",
+      "scraped_at": "2026-11-06T07:03:01.464701+00:00",
       "dedup_key": "496210a52a"
     },
     {
@@ -1396,7 +1428,7 @@
       "cena_m2": 24,
       "sprat": "XII/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:24.932007+00:00",
+      "scraped_at": "2026-11-06T07:03:01.466154+00:00",
       "dedup_key": "a623e70127"
     },
     {
@@ -1412,7 +1444,7 @@
       "cena_m2": 41,
       "sprat": "XXVIII",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:24.936160+00:00",
+      "scraped_at": "2026-11-06T07:03:01.472864+00:00",
       "dedup_key": "4b182ee089"
     },
     {
@@ -1428,7 +1460,7 @@
       "cena_m2": 56,
       "sprat": "XXII/24",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:24.939291+00:00",
+      "scraped_at": "2026-11-06T07:03:05.847807+00:00",
       "dedup_key": "6eeb55ff8a"
     },
     {
@@ -1444,7 +1476,7 @@
       "cena_m2": 30,
       "sprat": "I/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:24.940988+00:00",
+      "scraped_at": "2026-11-06T07:03:05.850599+00:00",
       "dedup_key": "0d29f37863"
     },
     {
@@ -1460,7 +1492,7 @@
       "cena_m2": 21,
       "sprat": "VI/8",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:24.941406+00:00",
+      "scraped_at": "2026-11-06T07:03:05.851311+00:00",
       "dedup_key": "84e6562c52"
     },
     {
@@ -1476,7 +1508,7 @@
       "cena_m2": 19,
       "sprat": "II/20",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:24.941804+00:00",
+      "scraped_at": "2026-11-06T07:03:05.852037+00:00",
       "dedup_key": "2b195b8493"
     },
     {
@@ -1492,7 +1524,7 @@
       "cena_m2": 28,
       "sprat": "/20",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:24.942891+00:00",
+      "scraped_at": "2026-11-06T07:03:05.853868+00:00",
       "dedup_key": "955269d6b2"
     },
     {
@@ -1508,7 +1540,7 @@
       "cena_m2": 28,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:29.348967+00:00",
+      "scraped_at": "2026-11-06T07:03:05.854668+00:00",
       "dedup_key": "e4365f965f"
     },
     {
@@ -1524,7 +1556,7 @@
       "cena_m2": 30,
       "sprat": "I/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:29.349480+00:00",
+      "scraped_at": "2026-11-06T07:03:05.855439+00:00",
       "dedup_key": "de9c434f4e"
     },
     {
@@ -1540,7 +1572,7 @@
       "cena_m2": 23,
       "sprat": "III/5",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:29.352479+00:00",
+      "scraped_at": "2026-11-06T07:03:05.860580+00:00",
       "dedup_key": "c738716f1a"
     },
     {
@@ -1556,7 +1588,7 @@
       "cena_m2": 24,
       "sprat": "III/8",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:29.353310+00:00",
+      "scraped_at": "2026-11-06T07:03:05.861996+00:00",
       "dedup_key": "8a6d64959f"
     },
     {
@@ -1572,7 +1604,7 @@
       "cena_m2": 26,
       "sprat": "XII/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:29.354445+00:00",
+      "scraped_at": "2026-11-06T07:03:05.863842+00:00",
       "dedup_key": "47cd81ae63"
     },
     {
@@ -1588,7 +1620,7 @@
       "cena_m2": 32,
       "sprat": "XV/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:29.355576+00:00",
+      "scraped_at": "2026-11-06T07:03:05.865750+00:00",
       "dedup_key": "7ee89eb6d8"
     },
     {
@@ -1604,7 +1636,7 @@
       "cena_m2": 22,
       "sprat": "VI/17",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:29.357959+00:00",
+      "scraped_at": "2026-11-06T07:03:10.180965+00:00",
       "dedup_key": "20782a5409"
     },
     {
@@ -1620,7 +1652,7 @@
       "cena_m2": 33,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:29.359211+00:00",
+      "scraped_at": "2026-11-06T07:03:10.182665+00:00",
       "dedup_key": "aded259f01"
     },
     {
@@ -1636,7 +1668,7 @@
       "cena_m2": 41,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:29.361069+00:00",
+      "scraped_at": "2026-11-06T07:03:10.185371+00:00",
       "dedup_key": "6bb2e44705"
     },
     {
@@ -1652,7 +1684,7 @@
       "cena_m2": 24,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:29.362554+00:00",
+      "scraped_at": "2026-11-06T07:03:10.187629+00:00",
       "dedup_key": "6964c2df78"
     },
     {
@@ -1668,7 +1700,7 @@
       "cena_m2": 32,
       "sprat": "III/11",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:33.176252+00:00",
+      "scraped_at": "2026-11-06T07:03:10.191415+00:00",
       "dedup_key": "73ffcf1c44"
     },
     {
@@ -1684,7 +1716,7 @@
       "cena_m2": 11,
       "sprat": "V/7",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:33.177293+00:00",
+      "scraped_at": "2026-11-06T07:03:10.192898+00:00",
       "dedup_key": "bb794c61dc"
     },
     {
@@ -1700,7 +1732,7 @@
       "cena_m2": 22,
       "sprat": "XII/23",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:33.180556+00:00",
+      "scraped_at": "2026-11-06T07:03:10.197628+00:00",
       "dedup_key": "93a56dd90a"
     },
     {
@@ -1716,7 +1748,7 @@
       "cena_m2": 23,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:33.180997+00:00",
+      "scraped_at": "2026-11-06T07:03:10.198343+00:00",
       "dedup_key": "5c861e1c2e"
     },
     {
@@ -1732,7 +1764,7 @@
       "cena_m2": 17,
       "sprat": "VI/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:33.181506+00:00",
+      "scraped_at": "2026-11-06T07:03:10.199082+00:00",
       "dedup_key": "35eaf94413"
     },
     {
@@ -1748,7 +1780,7 @@
       "cena_m2": 27,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:33.181897+00:00",
+      "scraped_at": "2026-11-06T07:03:14.557248+00:00",
       "dedup_key": "42e5ff8f93"
     },
     {
@@ -1764,7 +1796,7 @@
       "cena_m2": 28,
       "sprat": "XVIII/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:33.182308+00:00",
+      "scraped_at": "2026-11-06T07:03:14.558008+00:00",
       "dedup_key": "7e60981a2a"
     },
     {
@@ -1780,7 +1812,7 @@
       "cena_m2": 23,
       "sprat": "XXIII",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:33.186193+00:00",
+      "scraped_at": "2026-11-06T07:03:14.564429+00:00",
       "dedup_key": "5239f7db29"
     },
     {
@@ -1796,7 +1828,7 @@
       "cena_m2": 26,
       "sprat": "I/25",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:37.197340+00:00",
+      "scraped_at": "2026-11-06T07:03:14.565181+00:00",
       "dedup_key": "48fe750cd7"
     },
     {
@@ -1812,7 +1844,7 @@
       "cena_m2": 31,
       "sprat": "I",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:37.198417+00:00",
+      "scraped_at": "2026-11-06T07:03:14.566960+00:00",
       "dedup_key": "6e139f7b87"
     },
     {
@@ -1828,7 +1860,7 @@
       "cena_m2": 22,
       "sprat": "I",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:37.200668+00:00",
+      "scraped_at": "2026-11-06T07:03:14.570628+00:00",
       "dedup_key": "23a0d7f712"
     },
     {
@@ -1844,7 +1876,7 @@
       "cena_m2": 20,
       "sprat": "XIV",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:37.201652+00:00",
+      "scraped_at": "2026-11-06T07:03:14.572270+00:00",
       "dedup_key": "343e27b419"
     },
     {
@@ -1860,7 +1892,7 @@
       "cena_m2": 24,
       "sprat": "VI/8",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:37.203821+00:00",
+      "scraped_at": "2026-11-06T07:03:14.575805+00:00",
       "dedup_key": "bf1c8677fc"
     },
     {
@@ -1876,7 +1908,7 @@
       "cena_m2": 29,
       "sprat": "XI/19",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:37.204885+00:00",
+      "scraped_at": "2026-11-06T07:03:18.922206+00:00",
       "dedup_key": "08c376cd36"
     },
     {
@@ -1892,7 +1924,7 @@
       "cena_m2": 21,
       "sprat": "IV/8",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:37.206021+00:00",
+      "scraped_at": "2026-11-06T07:03:18.923727+00:00",
       "dedup_key": "6edce113bc"
     },
     {
@@ -1908,7 +1940,7 @@
       "cena_m2": 19,
       "sprat": "V/18",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:37.207123+00:00",
+      "scraped_at": "2026-11-06T07:03:18.925085+00:00",
       "dedup_key": "ba7664781d"
     },
     {
@@ -1924,7 +1956,7 @@
       "cena_m2": 25,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:37.207593+00:00",
+      "scraped_at": "2026-11-06T07:03:18.925720+00:00",
       "dedup_key": "2a32f1e393"
     },
     {
@@ -1940,7 +1972,7 @@
       "cena_m2": 25,
       "sprat": "VI",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:37.208060+00:00",
+      "scraped_at": "2026-11-06T07:03:18.926638+00:00",
       "dedup_key": "59c1de3b9a"
     },
     {
@@ -1956,7 +1988,7 @@
       "cena_m2": 20,
       "sprat": "XVI",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:41.101015+00:00",
+      "scraped_at": "2026-11-06T07:03:18.929291+00:00",
       "dedup_key": "12c5ab1fed"
     },
     {
@@ -1972,7 +2004,7 @@
       "cena_m2": 21,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:41.101537+00:00",
+      "scraped_at": "2026-11-06T07:03:18.930040+00:00",
       "dedup_key": "2d387b54b4"
     },
     {
@@ -1988,7 +2020,7 @@
       "cena_m2": 26,
       "sprat": "VII/25",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:41.101988+00:00",
+      "scraped_at": "2026-11-06T07:03:18.930732+00:00",
       "dedup_key": "b561feec18"
     },
     {
@@ -2004,7 +2036,7 @@
       "cena_m2": 26,
       "sprat": "IX/25",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:41.102447+00:00",
+      "scraped_at": "2026-11-06T07:03:18.931492+00:00",
       "dedup_key": "3799fbab2b"
     },
     {
@@ -2020,7 +2052,7 @@
       "cena_m2": 21,
       "sprat": "XI",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:41.102903+00:00",
+      "scraped_at": "2026-11-06T07:03:18.932225+00:00",
       "dedup_key": "d496bf097f"
     },
     {
@@ -2036,7 +2068,7 @@
       "cena_m2": 33,
       "sprat": "XX",
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:41.105273+00:00",
+      "scraped_at": "2026-11-06T07:03:18.935762+00:00",
       "dedup_key": "ef7461eaae"
     },
     {
@@ -2052,24 +2084,8 @@
       "cena_m2": 104,
       "sprat": null,
       "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:41.106218+00:00",
+      "scraped_at": "2026-11-06T07:03:18.937142+00:00",
       "dedup_key": "3c56bb0438"
-    },
-    {
-      "id": "5425647579167",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/ekskluzivan-4-0-stan-u-bw-riviera/5425647579167?kid=1",
-      "naslov": "Ekskluzivan 4.0 stan u BW Riviera",
-      "zgrada": "BW Riviera",
-      "agencija": "BebaRealEstate",
-      "struktura": "4.0",
-      "str_label": "Četvorosoban",
-      "m2": 158.0,
-      "cena": 4500,
-      "cena_m2": 28,
-      "sprat": "XVI",
-      "mode": "renta",
-      "scraped_at": "2026-11-05T12:39:41.111558+00:00",
-      "dedup_key": "24d9c8ae02"
     }
   ],
   "duplicates": [
@@ -2080,6 +2096,14 @@
     {
       "id": "5425644248726",
       "original_id": "5425643560903"
+    },
+    {
+      "id": "5425647924886",
+      "original_id": "5425647933037"
+    },
+    {
+      "id": "5425647849732",
+      "original_id": "5425647933037"
     },
     {
       "id": "5425647922788",
@@ -2100,6 +2124,14 @@
     {
       "id": "5425647890281",
       "original_id": "5425647919542"
+    },
+    {
+      "id": "5425647861418",
+      "original_id": "5425647882890"
+    },
+    {
+      "id": "5425647921191",
+      "original_id": "5425647788377"
     },
     {
       "id": "5425646256366",
@@ -2127,7 +2159,7 @@
     },
     {
       "id": "5425647930097",
-      "original_id": "5425647924886"
+      "original_id": "5425647933037"
     },
     {
       "id": "5425647928240",
@@ -2155,7 +2187,7 @@
     },
     {
       "id": "5425647924886",
-      "original_id": "5425647924886"
+      "original_id": "5425647933037"
     },
     {
       "id": "5425647922671",
@@ -2202,8 +2234,8 @@
       "original_id": "5425647922159"
     },
     {
-      "id": "5425647749430",
-      "original_id": "5425647853957"
+      "id": "5425647895341",
+      "original_id": "5425647930114"
     },
     {
       "id": "5425647892934",
@@ -2231,7 +2263,7 @@
     },
     {
       "id": "5425647885159",
-      "original_id": "5425647861418"
+      "original_id": "5425647882890"
     },
     {
       "id": "5425647885123",
@@ -2251,7 +2283,7 @@
     },
     {
       "id": "5425647882676",
-      "original_id": "5425647861418"
+      "original_id": "5425647882890"
     },
     {
       "id": "5425647880406",
@@ -2318,6 +2350,10 @@
       "original_id": "5425647915285"
     },
     {
+      "id": "5425647849732",
+      "original_id": "5425647933037"
+    },
+    {
       "id": "5425647847838",
       "original_id": "5425647903970"
     },
@@ -2339,7 +2375,7 @@
     },
     {
       "id": "5425647538814",
-      "original_id": "5425647921191"
+      "original_id": "5425647788377"
     },
     {
       "id": "5425647826788",
@@ -2351,11 +2387,11 @@
     },
     {
       "id": "5425644578019",
-      "original_id": "5425647922789"
+      "original_id": "5425644581698"
     },
     {
       "id": "5425643292956",
-      "original_id": "5425647924886"
+      "original_id": "5425647933037"
     },
     {
       "id": "5425644081440",
@@ -2403,7 +2439,7 @@
     },
     {
       "id": "5425647792331",
-      "original_id": "5425647921191"
+      "original_id": "5425647788377"
     },
     {
       "id": "5425647493068",
@@ -2412,145 +2448,91 @@
     {
       "id": "5425644059730",
       "original_id": "5425645086624"
-    },
-    {
-      "id": "5425647785710",
-      "original_id": "5425647892935"
-    },
-    {
-      "id": "5425644581698",
-      "original_id": "5425647922789"
     }
   ],
   "diff": {
     "new": [
       {
-        "id": "5425647927668",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-edena-parking-mesto-lux-stan/5425647927668?kid=1",
-        "naslov": "BW Edena , parking mesto lux stan",
-        "zgrada": "BW (neidentifikovano)",
-        "agencija": "samostalna-agencija-terazije",
-        "struktura": "1.0",
-        "str_label": "Garsonjera/Studio",
-        "m2": 35.0,
-        "cena": 1200,
-        "cena_m2": 34,
-        "sprat": "V/17",
-        "mode": "renta",
-        "scraped_at": "2026-11-05T12:39:12.930163+00:00",
-        "dedup_key": "ac0aade14f"
-      },
-      {
-        "id": "5425643842780",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-na-vodi--dvosoban--namesten-sok-cena/5425643842780?kid=1",
-        "naslov": "Beograd na vodi- dvosoban- namešten, šok cena",
-        "zgrada": "BW Metropolitan",
-        "agencija": null,
+        "id": "5425647930115",
+        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-lumia---12-beograd-na-vodi-pogled-na-park/5425647930115?kid=1",
+        "naslov": "BW Lumia - 12 | Beograd na vodi | Pogled na park",
+        "zgrada": "BW Lumia",
+        "agencija": "Kredium",
         "struktura": "2.0",
         "str_label": "Dvosoban",
-        "m2": 51.0,
-        "cena": 1200,
+        "m2": 58.0,
+        "cena": 1400,
         "cena_m2": 24,
-        "sprat": "XIV/17",
+        "sprat": "IV/9",
         "mode": "renta",
-        "scraped_at": "2026-11-05T12:39:12.931405+00:00",
-        "dedup_key": "c251a62e55"
+        "scraped_at": "2026-11-06T07:02:47.995758+00:00",
+        "dedup_key": "3e0d13caf1"
       },
       {
-        "id": "5425647927193",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-metropolitan---trosoban-stan-pet-friendly/5425647927193?kid=1",
-        "naslov": "BW Metropolitan - trosoban stan, pet friendly",
-        "zgrada": "BW Metropolitan",
-        "agencija": "AtriumPropertyServices",
+        "id": "5425647933014",
+        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-2---07-beograd-na-vodi-dve-spavace/5425647933014?kid=1",
+        "naslov": "BW Quartet 2 - 07 | Beograd na vodi | Dve spavaće",
+        "zgrada": "BW Quartet 2",
+        "agencija": "Kredium",
         "struktura": "3.0",
         "str_label": "Trosoban",
-        "m2": 68.03,
-        "cena": 1700,
-        "cena_m2": 25,
-        "sprat": "IX",
+        "m2": 83.0,
+        "cena": 1800,
+        "cena_m2": 22,
+        "sprat": "III/5",
         "mode": "renta",
-        "scraped_at": "2026-11-05T12:39:12.934574+00:00",
-        "dedup_key": "6b332e5679"
+        "scraped_at": "2026-11-06T07:02:47.994141+00:00",
+        "dedup_key": "822c445dd5"
       },
       {
-        "id": "5425647438214",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-riviera---3-0-premium-stan-za-izdavanje/5425647438214?kid=4",
-        "naslov": "BW Riviera - 3.0 PREMIUM stan za izdavanje",
-        "zgrada": "BW Riviera",
+        "id": "5425647856856",
+        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park-3-bedroom-pogled-na-park/5425647856856?kid=4",
+        "naslov": "BW Kings Park| 3 Bedroom| Pogled na Park",
+        "zgrada": "BW King's Park",
         "agencija": null,
-        "struktura": "3.0",
-        "str_label": "Trosoban",
-        "m2": 154.43,
-        "cena": 4300,
-        "cena_m2": 28,
-        "sprat": "XXI/25",
-        "mode": "renta",
-        "scraped_at": "2026-11-05T12:38:59.978887+00:00",
-        "dedup_key": "beae4a8764"
-      },
-      {
-        "id": "5425647406454",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-perla--luksuzni-stan/5425647406454?kid=4",
-        "naslov": "BW Perla- Luksuzni stan",
-        "zgrada": "BW Perla",
-        "agencija": "Vesnarb1",
-        "struktura": "3.0",
-        "str_label": "Trosoban",
-        "m2": 119.0,
-        "cena": 4350,
-        "cena_m2": 37,
-        "sprat": "XVII/25",
-        "mode": "renta",
-        "scraped_at": "2026-11-05T12:38:59.986774+00:00",
-        "dedup_key": "e8f06e6a17"
-      },
-      {
-        "id": "5425645805877",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-neuseljavan-dizajnerski-opremljen---4-0/5425645805877?kid=1",
-        "naslov": "Nov, neuseljavan, dizajnerski opremljen - 4.0",
-        "zgrada": "BW (neidentifikovano)",
-        "agencija": "BebaRealEstate",
         "struktura": "4.0",
         "str_label": "Četvorosoban",
-        "m2": 116.0,
-        "cena": 2500,
-        "cena_m2": 22,
-        "sprat": "VI/9",
+        "m2": 92.0,
+        "cena": 2900,
+        "cena_m2": 32,
+        "sprat": "II/15",
         "mode": "renta",
-        "scraped_at": "2026-11-05T12:39:12.928140+00:00",
-        "dedup_key": "faf5407f2a"
+        "scraped_at": "2026-11-06T07:02:34.360561+00:00",
+        "dedup_key": "285fc0d328"
       },
       {
-        "id": "5425647927184",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-terra-29-premium-dvosoban-pogled-na-reku/5425647927184?kid=4",
-        "naslov": "BW Terra 29 | Premium Dvosoban | Pogled na reku",
-        "zgrada": "BW Terra",
-        "agencija": "Kredium",
-        "struktura": "3.5",
-        "str_label": "Troiposoban",
-        "m2": 111.0,
-        "cena": 2700,
-        "cena_m2": 24,
-        "sprat": "IX",
-        "mode": "renta",
-        "scraped_at": "2026-11-05T12:38:59.986336+00:00",
-        "dedup_key": "0e3c89cd0d"
-      },
-      {
-        "id": "5425643560903",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw---simfonija-lux-novogradnja-garaza-id-2090/5425643560903?kid=4",
-        "naslov": "BW - Simfonija, lux, novogradnja, garaža, ID 20903",
-        "zgrada": "BW Simfonija 1",
+        "id": "5425645320031",
+        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-i-lux-novogradnja-garaza-id-23954/5425645320031?kid=1",
+        "naslov": "BW Quartet I, lux, novogradnja, garaža, ID 23954",
+        "zgrada": "BW Quartet 1",
         "agencija": "eminent-nekretnine",
         "struktura": "2.0",
         "str_label": "Dvosoban",
-        "m2": 60.0,
+        "m2": 54.0,
         "cena": 1500,
-        "cena_m2": 25,
-        "sprat": "I/14",
+        "cena_m2": 28,
+        "sprat": "III/7",
         "mode": "renta",
-        "scraped_at": "2026-11-05T12:38:59.980824+00:00",
-        "dedup_key": "a0445326d2"
+        "scraped_at": "2026-11-06T07:02:57.145889+00:00",
+        "dedup_key": "e7bb2513a8"
+      }
+    ],
+    "removed": [
+      {
+        "id": "5425647858501",
+        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/savski-venac-thalia/5425647858501?kid=4",
+        "naslov": "+ savski venac Thalia",
+        "zgrada": "BW Thalia",
+        "agencija": "CityLand011",
+        "struktura": "3.0",
+        "str_label": "Trosoban",
+        "m2": 79.0,
+        "cena": 1900,
+        "cena_m2": 24,
+        "sprat": null,
+        "mode": "renta",
+        "scraped_at": "2026-11-05T12:39:09.010584+00:00",
+        "dedup_key": "fc98080c31"
       },
       {
         "id": "5425647928750",
@@ -2569,89 +2551,23 @@
         "dedup_key": "cb1e32d485"
       },
       {
-        "id": "5425647833113",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/odmah-useljiv-za-prvog-zakupca/5425647833113?kid=4",
-        "naslov": "Odmah useljiv za prvog zakupca",
-        "zgrada": "BW Iris",
-        "agencija": "Vesnarb1",
-        "struktura": "2.0",
-        "str_label": "Dvosoban",
-        "m2": 80.35,
-        "cena": 2500,
-        "cena_m2": 31,
-        "sprat": "XVI/19",
-        "mode": "renta",
-        "scraped_at": "2026-11-05T12:38:59.982224+00:00",
-        "dedup_key": "9b5c7fbc40"
-      }
-    ],
-    "removed": [
-      {
-        "id": "5425647300001",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-terraces-enterijer-sa-stilom-2-0-stan/5425647300001?kid=4",
-        "naslov": "BW Terraces | Enterijer sa stilom | 2.0 stan",
-        "zgrada": "BW Terraces",
-        "agencija": null,
-        "struktura": "2.0",
-        "str_label": "Dvosoban",
-        "m2": 70.0,
-        "cena": 1800,
-        "cena_m2": 26,
-        "sprat": "VIII",
-        "mode": "renta",
-        "scraped_at": "2026-11-04T12:24:21.698225+00:00",
-        "dedup_key": "d7bbb309fb"
-      },
-      {
-        "id": "5425645559847",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-aurora-lux-novogradnja-garaza-id-24287/5425645559847?kid=4",
-        "naslov": "BW Aurora, lux, novogradnja, garaža, ID 24287",
-        "zgrada": "BW Aurora",
-        "agencija": "eminent-nekretnine",
-        "struktura": "2.0",
-        "str_label": "Dvosoban",
-        "m2": 56.0,
-        "cena": 1300,
-        "cena_m2": 23,
-        "sprat": "V",
-        "mode": "renta",
-        "scraped_at": "2026-11-04T12:24:25.498815+00:00",
-        "dedup_key": "b86d27bd30"
-      },
-      {
-        "id": "5425647856856",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park-3-bedroom-pogled-na-park/5425647856856?kid=4",
-        "naslov": "BW Kings Park| 3 Bedroom| Pogled na Park",
-        "zgrada": "BW King's Park",
+        "id": "5425647784395",
+        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-stan-148-m-u-bw-perla-pogled-na-reku/5425647784395?kid=3",
+        "naslov": "Luksuzan stan 148 m² u BW Perla, pogled na reku",
+        "zgrada": "BW Perla",
         "agencija": null,
         "struktura": "4.0",
         "str_label": "Četvorosoban",
-        "m2": 92.0,
-        "cena": 2900,
-        "cena_m2": 32,
-        "sprat": "II/15",
+        "m2": 148.0,
+        "cena": 3500,
+        "cena_m2": 24,
+        "sprat": "XI/25",
         "mode": "renta",
-        "scraped_at": "2026-11-04T12:24:25.498128+00:00",
-        "dedup_key": "285fc0d328"
-      },
-      {
-        "id": "5425644836938",
-        "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/penthouse-sa-pogledom-na-reku/5425644836938?kid=1",
-        "naslov": "Penthouse sa pogledom na reku",
-        "zgrada": "BW (neidentifikovano)",
-        "agencija": null,
-        "struktura": "4.0",
-        "str_label": "Četvorosoban",
-        "m2": 154.0,
-        "cena": 5500,
-        "cena_m2": 36,
-        "sprat": "XVII/17",
-        "mode": "renta",
-        "scraped_at": "2026-11-04T12:25:04.540708+00:00",
-        "dedup_key": "0bb5ad942a"
+        "scraped_at": "2026-11-05T12:39:12.924512+00:00",
+        "dedup_key": "d86dd8f76c"
       }
     ],
-    "count_change": 6
+    "count_change": 1
   },
   "stats": {
     "po_strukturi": {
@@ -2661,7 +2577,7 @@
         "cena": {
           "min": 750,
           "max": 4900,
-          "avg": 2408
+          "avg": 2416
         },
         "cena_m2": {
           "min": 11,
@@ -2686,6 +2602,7 @@
           "BW Nika",
           "BW Perla",
           "BW Quartet 1",
+          "BW Quartet 2",
           "BW Quartet 3",
           "BW Quartet 4",
           "BW Queen's Park",
@@ -2705,7 +2622,7 @@
         "cena": {
           "min": 1900,
           "max": 15000,
-          "avg": 3816
+          "avg": 3781
         },
         "cena_m2": {
           "min": 17,
@@ -2713,15 +2630,16 @@
           "avg": 29
         },
         "m2": {
-          "min": 98.0,
+          "min": 92.0,
           "max": 200.0,
-          "avg": 131
+          "avg": 129
         },
         "zgrade": [
           "BW (neidentifikovano)",
           "BW Aria",
           "BW Aurora",
           "BW Eden",
+          "BW King's Park",
           "BW Libera",
           "BW Magnolia",
           "BW Metropolitan",
@@ -2736,16 +2654,16 @@
       },
       "2.0": {
         "label": "Dvosoban",
-        "count": 33,
+        "count": 35,
         "cena": {
-          "min": 1000,
+          "min": 1100,
           "max": 6000,
-          "avg": 2015
+          "avg": 1940
         },
         "cena_m2": {
-          "min": 17,
-          "max": 70,
-          "avg": 31
+          "min": 20,
+          "max": 61,
+          "avg": 30
         },
         "m2": {
           "min": 50.0,
@@ -2771,28 +2689,6 @@
           "BW Terraces",
           "BW Thalia",
           "BW Verde"
-        ]
-      },
-      "1.5": {
-        "label": "Jednoiposoban",
-        "count": 1,
-        "cena": {
-          "min": 1700,
-          "max": 1700,
-          "avg": 1700
-        },
-        "cena_m2": {
-          "min": 29,
-          "max": 29,
-          "avg": 29
-        },
-        "m2": {
-          "min": 59.0,
-          "max": 59.0,
-          "avg": 59
-        },
-        "zgrade": [
-          "BW (neidentifikovano)"
         ]
       },
       "1.0": {
@@ -2893,6 +2789,60 @@
       }
     },
     "po_zgradi": {
+      "BW Quartet 3": {
+        "count": 1,
+        "strukture": [
+          "3.0"
+        ],
+        "cena": {
+          "min": 2300,
+          "max": 2300,
+          "avg": 2300
+        },
+        "cena_m2": {
+          "min": 26,
+          "max": 26,
+          "avg": 26
+        }
+      },
+      "BW (neidentifikovano)": {
+        "count": 24,
+        "strukture": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0"
+        ],
+        "cena": {
+          "min": 750,
+          "max": 4000,
+          "avg": 2019
+        },
+        "cena_m2": {
+          "min": 11,
+          "max": 34,
+          "avg": 26
+        }
+      },
+      "BW King's Park": {
+        "count": 5,
+        "strukture": [
+          "2.0",
+          "3.0",
+          "3.5",
+          "4.0"
+        ],
+        "cena": {
+          "min": 1200,
+          "max": 2900,
+          "avg": 2040
+        },
+        "cena_m2": {
+          "min": 22,
+          "max": 32,
+          "avg": 27
+        }
+      },
       "BW Riviera": {
         "count": 8,
         "strukture": [
@@ -2910,26 +2860,6 @@
           "min": 23,
           "max": 39,
           "avg": 29
-        }
-      },
-      "BW (neidentifikovano)": {
-        "count": 25,
-        "strukture": [
-          "1.0",
-          "1.5",
-          "2.0",
-          "3.0",
-          "4.0"
-        ],
-        "cena": {
-          "min": 750,
-          "max": 4000,
-          "avg": 1986
-        },
-        "cena_m2": {
-          "min": 11,
-          "max": 34,
-          "avg": 25
         }
       },
       "BW Simfonija 1": {
@@ -3023,7 +2953,7 @@
         }
       },
       "BW Perla": {
-        "count": 5,
+        "count": 4,
         "strukture": [
           "2.0",
           "3.0",
@@ -3032,30 +2962,12 @@
         "cena": {
           "min": 2350,
           "max": 4350,
-          "avg": 3220
+          "avg": 3150
         },
         "cena_m2": {
           "min": 22,
           "max": 37,
-          "avg": 30
-        }
-      },
-      "BW King's Park": {
-        "count": 4,
-        "strukture": [
-          "2.0",
-          "3.0",
-          "3.5"
-        ],
-        "cena": {
-          "min": 1200,
-          "max": 2900,
-          "avg": 1825
-        },
-        "cena_m2": {
-          "min": 22,
-          "max": 32,
-          "avg": 26
+          "avg": 31
         }
       },
       "BW Magnolia": {
@@ -3092,18 +3004,18 @@
         }
       },
       "BW Lumia": {
-        "count": 2,
+        "count": 3,
         "strukture": [
           "2.0",
           "3.0"
         ],
         "cena": {
-          "min": 1500,
+          "min": 1400,
           "max": 2000,
-          "avg": 1750
+          "avg": 1633
         },
         "cena_m2": {
-          "min": 25,
+          "min": 24,
           "max": 25,
           "avg": 25
         }
@@ -3159,7 +3071,7 @@
         }
       },
       "BW Thalia": {
-        "count": 5,
+        "count": 4,
         "strukture": [
           "1.0",
           "2.0",
@@ -3168,12 +3080,12 @@
         "cena": {
           "min": 1000,
           "max": 2000,
-          "avg": 1590
+          "avg": 1512
         },
         "cena_m2": {
           "min": 23,
           "max": 31,
-          "avg": 26
+          "avg": 27
         }
       },
       "BW Quartet 4": {
@@ -3202,16 +3114,16 @@
         "cena": {
           "min": 2500,
           "max": 15000,
-          "avg": 5246
+          "avg": 5121
         },
         "cena_m2": {
           "min": 33,
           "max": 104,
-          "avg": 54
+          "avg": 52
         }
       },
       "BW Quartet 1": {
-        "count": 3,
+        "count": 4,
         "strukture": [
           "2.0",
           "3.0"
@@ -3219,12 +3131,12 @@
         "cena": {
           "min": 1500,
           "max": 2300,
-          "avg": 1867
+          "avg": 1775
         },
         "cena_m2": {
           "min": 21,
-          "max": 25,
-          "avg": 23
+          "max": 28,
+          "avg": 24
         }
       },
       "BW Vista": {
@@ -3260,22 +3172,6 @@
           "avg": 21
         }
       },
-      "BW Quartet 3": {
-        "count": 1,
-        "strukture": [
-          "3.0"
-        ],
-        "cena": {
-          "min": 2300,
-          "max": 2300,
-          "avg": 2300
-        },
-        "cena_m2": {
-          "min": 26,
-          "max": 26,
-          "avg": 26
-        }
-      },
       "BW Nika": {
         "count": 3,
         "strukture": [
@@ -3309,6 +3205,38 @@
           "min": 19,
           "max": 32,
           "avg": 26
+        }
+      },
+      "BW Quartet 2": {
+        "count": 1,
+        "strukture": [
+          "3.0"
+        ],
+        "cena": {
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        },
+        "cena_m2": {
+          "min": 22,
+          "max": 22,
+          "avg": 22
+        }
+      },
+      "BW Sole": {
+        "count": 1,
+        "strukture": [
+          "2.0"
+        ],
+        "cena": {
+          "min": 1100,
+          "max": 1100,
+          "avg": 1100
+        },
+        "cena_m2": {
+          "min": 20,
+          "max": 20,
+          "avg": 20
         }
       },
       "BW Sensa": {
@@ -3359,22 +3287,6 @@
           "min": 30,
           "max": 30,
           "avg": 30
-        }
-      },
-      "BW Sole": {
-        "count": 1,
-        "strukture": [
-          "2.0"
-        ],
-        "cena": {
-          "min": 1600,
-          "max": 1600,
-          "avg": 1600
-        },
-        "cena_m2": {
-          "min": 29,
-          "max": 29,
-          "avg": 29
         }
       },
       "BW Aurora": {
