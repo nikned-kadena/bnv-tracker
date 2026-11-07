@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-11-07",
   "scraped_at": "2026-11-07",
-  "total_raw": 455,
-  "total_unique": 350,
+  "total_raw": 457,
+  "total_unique": 352,
   "total_dups": 105,
   "diff_new": [
     "6eb29b2c56a157a0",
@@ -18,7 +18,6 @@
   "diff_removed": [
     "9e75e1a81179acc1",
     "78c40b25af314346",
-    "4e77b23accdb1916",
     "23151a9bb8e66b9f",
     "0937af7de24529dc",
     "610faa490c7d1bb4"
@@ -1837,6 +1836,34 @@
       "agencija_izvor": null,
       "posrednik": null,
       "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "9b66cf10959a73fc",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-lux-pristup-bazenu-i-teretani/5425647456396?kid=4",
+      "naslov": "Bw Eterna 3.0 Luksuzan Enterijer",
+      "zgrada": "BW Eterna",
+      "agencija": "Sonata Properties",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 89.0,
+      "cena": 2300,
+      "cena_m2": 26,
+      "sprat": "IV",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 98,
+      "prva_cena": 2500,
+      "promena_cene_pct": -8.0,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-11-07",
+      "dedup_key": "BW Eterna|89.0|2300",
+      "zgrada_izvor": "ispravljeno",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "zgrada_orig": "BW Residences",
       "cena_m2_sumnjiva": false
     },
     {
@@ -7465,6 +7492,33 @@
       "dedup_key": "BW (neidentifikovano)|79.0|2100",
       "zgrada_izvor": "opis",
       "agencija_izvor": "opis_kanon",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "4e77b23accdb1916",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/savski-venac-thalia/5425647858501?kid=4",
+      "naslov": "+ savski venac Thalia",
+      "zgrada": "BW Thalia",
+      "agencija": "Cityland011",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 79.0,
+      "cena": 1900,
+      "cena_m2": 24,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 16,
+      "prva_cena": 1900,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-11-07",
+      "dedup_key": "BW Thalia|79.0|1900",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
