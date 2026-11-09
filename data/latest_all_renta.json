@@ -1,27 +1,16 @@
 {
   "mode": "renta",
   "source": "all",
-  "date": "2026-11-08",
-  "scraped_at": "2026-11-08",
-  "total_raw": 455,
-  "total_unique": 351,
-  "total_dups": 104,
+  "date": "2026-11-09",
+  "scraped_at": "2026-11-09",
+  "total_raw": 457,
+  "total_unique": 352,
+  "total_dups": 105,
   "diff_new": [
-    "429306f658e7bd5a",
-    "9331d323f2476923",
-    "9e9a2ef3867ec861",
-    "ba65364cd058541b",
-    "54206fccfcd9255c"
+    "e085b2fbaffdcedf",
+    "20c11c6a34587ec4"
   ],
-  "diff_removed": [
-    "030307d28e6af55f",
-    "ec462d7adee07c01",
-    "c46d9e4a9fd471fe",
-    "ebd4bda9a2ae9f7c",
-    "e842766664726b29",
-    "5d61cfb5e75f705b",
-    "dd95476e1dff9c93"
-  ],
+  "diff_removed": [],
   "listings": [
     {
       "id": "9e4e3e5c28edc437",
@@ -40,7 +29,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 15000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -55,7 +44,7 @@
     {
       "id": "2f60c4f17982feed",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/never-occupied-flawlessly-designed/5425647237646?kid=4",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 94m²",
+      "naslov": "Never occupied. Flawlessly designed.",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Beba Real Estate",
       "struktura": "3.0",
@@ -68,11 +57,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|94.0|2000",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -83,7 +72,7 @@
     {
       "id": "497923d646e476dd",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/prestiz-u-srcu-beograda-st-regis-residence/5425647240237?kid=4",
-      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 4.000€, 117m²",
+      "naslov": "Bw Verde, 3 Bedroom, Sauna",
       "zgrada": "BW Verde",
       "agencija": "Sonata Properties",
       "struktura": "2.0",
@@ -96,13 +85,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Verde|117.0|4000",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "ispravljeno",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -126,7 +115,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -154,11 +143,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2000,
       "promena_cene_pct": -5.0,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Aria|111.0|1900",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -181,11 +170,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Aria|54.5|1200",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -209,7 +198,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 9900,
       "promena_cene_pct": -10.1,
       "first_seen": "2026-06-09",
@@ -224,7 +213,7 @@
     {
       "id": "e09feea6ea150870",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-4-0-2-garazna---bw-terra/5425643061118?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 2.300€, 110m²",
+      "naslov": "Lux 4.0 / 2 garazna - BW Terra",
       "zgrada": "BW Terra",
       "agencija": "Beba Real Estate",
       "struktura": "4.0",
@@ -237,23 +226,22 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Terra|110.0|2300",
-      "zgrada_izvor": "naslov_url",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
-      "zgrada_orig": "BW Terra",
       "cena_m2_sumnjiva": false
     },
     {
       "id": "a1ed7ebbd1e01fc5",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdavanje-luksuznog-stana-u-bw-3-0---terraces/5425642186797?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 2.800€, 105m²",
+      "naslov": "Izdavanje luksuznog stana u BW/ 3.0 - Terraces",
       "zgrada": "BW Terraces",
       "agencija": "Beba Real Estate",
       "struktura": "3.0",
@@ -266,13 +254,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Terraces|105.0|2800",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -281,7 +269,7 @@
     {
       "id": "59d176ac8b26b6be",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/best-selection-of-exclusive-homes-properties/5425644581698?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.800€, 72m²",
+      "naslov": "Best selection of exclusive homes & properties",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Beba Real Estate",
       "struktura": "3.0",
@@ -294,11 +282,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|72.0|1800",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -309,7 +297,7 @@
     {
       "id": "12a6e6c8b17215aa",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/brand-new---garage---river-view/5425644578019?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 1.700€, 72m²",
+      "naslov": "Brand new - garage - river view",
       "zgrada": "BW Simfonija 1",
       "agencija": "Beba Real Estate",
       "struktura": "3.0",
@@ -322,11 +310,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Simfonija 1|72.0|1700",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": "scraper",
@@ -350,11 +338,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2000,
       "promena_cene_pct": 25.0,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Aurora|120.0|2500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -365,7 +353,7 @@
     {
       "id": "5135a96a7febd7f8",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/first-line-riverfront-living-in-belgradewater/5425646965694?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 3.500€, 124m²",
+      "naslov": "First-line riverfront living in BelgradeWaterfront",
       "zgrada": "BW Perla",
       "agencija": "Beba Real Estate",
       "struktura": "4.0",
@@ -378,11 +366,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 3000,
       "promena_cene_pct": 16.7,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Perla|124.0|3500",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": "scraper",
@@ -393,36 +381,35 @@
     {
       "id": "45482d8b96abb390",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-neuseljavan-dizajnerski-opremljen---4-0/5425645805877?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Luke Ćelovića Trebinjca, 2.300€, 116m²",
-      "zgrada": "BW (neidentifikovano)",
+      "naslov": "Nov, neuseljavan, dizajnerski opremljen - 4.0",
+      "zgrada": "BW St. Regis",
       "agencija": "Beba Real Estate",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 116.0,
-      "cena": 2300,
-      "cena_m2": 20,
+      "cena": 2500,
+      "cena_m2": 22,
       "sprat": "VI/9",
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2500,
-      "promena_cene_pct": -8.0,
+      "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW (neidentifikovano)|116.0|2300",
-      "zgrada_izvor": "ispravljeno",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW St. Regis|116.0|2500",
+      "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
-      "zgrada_orig": "BW St. Regis",
-      "cena_m2_sumnjiva": false
+      "cena_m2_sumnjiva": true
     },
     {
       "id": "5aed65536a0a641b",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/one-of-a-kind---2-bdrms-pool--gym--60sqm-terr/5425645670246?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 3.500€, 140m²",
+      "naslov": "One of a kind - 2 bdrms-pool- gym- 60sqm terrace",
       "zgrada": "BW Residences",
       "agencija": "Beba Real Estate",
       "struktura": "3.0",
@@ -435,11 +422,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|140.0|3500",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": "scraper",
@@ -462,11 +449,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 8000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|163.5|8000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -491,7 +478,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -519,7 +506,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -547,7 +534,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -575,7 +562,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2500,
       "promena_cene_pct": -8.0,
       "first_seen": "2026-06-09",
@@ -603,7 +590,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 750,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -633,7 +620,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 8500,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -648,7 +635,7 @@
     {
       "id": "1e466826dbe813ed",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar-beograd-na-vodi-komplex-apartmana-id13/5425645277024?kid=1",
-      "naslov": "Centar, Beograd na vodi, komplex apartmana ID#16208",
+      "naslov": "Centar,Beograd na vodi, komplex apartmana ID#16208",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Art Nekretnine",
       "struktura": "2.0",
@@ -656,17 +643,17 @@
       "m2": 42.0,
       "cena": 700,
       "cena_m2": 17,
-      "sprat": "4",
+      "sprat": "IV/4",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 700,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|42.0|700",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -677,7 +664,7 @@
     {
       "id": "14cd92cf7af209da",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar-beograd-na-vodi-komplex-apartmana-id89/5425644861193?kid=1",
-      "naslov": "Dvoiposoban stan za izdavanje, Koče Popovića, 800€, 47m²",
+      "naslov": "Centar,Beograd na vodi, komplex apartmana ID#8961",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Art Nekretnine",
       "struktura": "2.5",
@@ -690,11 +677,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 800,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|47.0|800",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -705,7 +692,7 @@
     {
       "id": "3020874a1c62be2f",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-terraces---luxury-living-with-a-riverfront/5425642026511?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 3.000€, 110m²",
+      "naslov": "BW Terraces - Luxury Living with a Riverfront View",
       "zgrada": "BW Terraces",
       "agencija": "Beba Real Estate",
       "struktura": "3.0",
@@ -718,13 +705,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Terraces|110.0|3000",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -746,7 +733,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 5000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -773,11 +760,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Thalia|86.0|2000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -801,7 +788,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 1100,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
@@ -816,7 +803,7 @@
     {
       "id": "f0a6de60a6600d54",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-bw-magnolia-3-spavace-i-prostrana-dnevna/5425647163951",
-      "naslov": "Izdavanje, Stan, Beograd na vodi",
+      "naslov": "LUX BW Magnolia 3 spavaće sobe",
       "zgrada": "BW Magnolia",
       "agencija": "Alfa Sistem Nekretnine",
       "struktura": "4.0",
@@ -824,19 +811,19 @@
       "m2": 120.0,
       "cena": 2800,
       "cena_m2": 23,
-      "sprat": "3",
+      "sprat": "III/5",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2600,
       "promena_cene_pct": 7.7,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Magnolia|120.0|2800",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -857,11 +844,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Metropolitan|109.0|2500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -872,7 +859,7 @@
     {
       "id": "81badfee9e34688f",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/exclusive-apartment-in-bw-residences-45m2-ter/5425635616381?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 2.500€, 124m²",
+      "naslov": "Exclusive apartment in BW Residences /45m2 terrace",
       "zgrada": "BW Residences",
       "agencija": "Beba Real Estate",
       "struktura": "3.0",
@@ -885,17 +872,16 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|124.0|2500",
-      "zgrada_izvor": "naslov_url",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
-      "zgrada_orig": "BW Residences",
       "cena_m2_sumnjiva": false
     },
     {
@@ -913,11 +899,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 152,
+      "dana_na_trzistu": 153,
       "prva_cena": 2500,
       "promena_cene_pct": -8.0,
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|70.0|2300",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -941,7 +927,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 151,
+      "dana_na_trzistu": 152,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-06-10",
@@ -968,11 +954,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 151,
+      "dana_na_trzistu": 152,
       "prva_cena": 1300,
       "promena_cene_pct": null,
       "first_seen": "2026-06-10",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Magnolia|60.0|1300",
       "zgrada_izvor": "ispravljeno",
       "agencija_izvor": "scraper",
@@ -997,7 +983,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 151,
+      "dana_na_trzistu": 152,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-10",
@@ -1025,11 +1011,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 148,
+      "dana_na_trzistu": 149,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-06-13",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|76.0|4000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -1053,7 +1039,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 148,
+      "dana_na_trzistu": 149,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-06-13",
@@ -1080,11 +1066,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 148,
+      "dana_na_trzistu": 149,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-06-13",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|59.0|1500",
       "zgrada_izvor": "ispravljeno",
       "agencija_izvor": "scraper",
@@ -1108,11 +1094,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 148,
+      "dana_na_trzistu": 149,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-06-13",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|142.0|3500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1135,11 +1121,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 145,
+      "dana_na_trzistu": 146,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-06-16",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|91.13|4500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -1162,11 +1148,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 145,
+      "dana_na_trzistu": 146,
       "prva_cena": 9900,
       "promena_cene_pct": -10.1,
       "first_seen": "2026-06-16",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Riviera|230.0|8900",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -1190,11 +1176,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 144,
+      "dana_na_trzistu": 145,
       "prva_cena": 1300,
       "promena_cene_pct": 15.4,
       "first_seen": "2026-06-17",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Parkview|55.0|1500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1218,7 +1204,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 143,
+      "dana_na_trzistu": 144,
       "prva_cena": 4500,
       "promena_cene_pct": -11.1,
       "first_seen": "2026-06-18",
@@ -1246,7 +1232,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 135,
+      "dana_na_trzistu": 136,
       "prva_cena": 1100,
       "promena_cene_pct": 9.1,
       "first_seen": "2026-06-26",
@@ -1275,7 +1261,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 132,
+      "dana_na_trzistu": 133,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-06-29",
@@ -1290,7 +1276,7 @@
     {
       "id": "45f6a0390bf9d356",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-eterna-dve-spavace-sobe/5425647359683?kid=4",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.400€, 80m²",
+      "naslov": "Bw Eden, 2 Bedrooms, Parking",
       "zgrada": "BW Eden",
       "agencija": "Sonata Properties",
       "struktura": "3.0",
@@ -1303,13 +1289,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 127,
+      "dana_na_trzistu": 128,
       "prva_cena": 2000,
       "promena_cene_pct": 20.0,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|80.0|2400",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "ispravljeno",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -1331,11 +1317,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 127,
+      "dana_na_trzistu": 128,
       "prva_cena": 1300,
       "promena_cene_pct": -7.7,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Verde|53.0|1200",
       "zgrada_izvor": "ispravljeno",
       "agencija_izvor": null,
@@ -1347,7 +1333,7 @@
     {
       "id": "a4c7f0a15e439a83",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residence-teretana-bazen-spa-odmah-useljiv/5425646951476?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Hercegovačka, 1.900€, 63m²",
+      "naslov": "BW Residence, teretana, bazen, spa, odmah useljiv.",
       "zgrada": "BW Residences",
       "agencija": "Property Broker",
       "struktura": "2.0",
@@ -1360,13 +1346,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 127,
+      "dana_na_trzistu": 128,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|63.0|1900",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -1388,7 +1374,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 124,
+      "dana_na_trzistu": 125,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-07-07",
@@ -1416,7 +1402,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 122,
+      "dana_na_trzistu": 123,
       "prva_cena": 1300,
       "promena_cene_pct": 3.8,
       "first_seen": "2026-07-09",
@@ -1444,11 +1430,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 122,
+      "dana_na_trzistu": 123,
       "prva_cena": 3200,
       "promena_cene_pct": null,
       "first_seen": "2026-07-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|62.0|3200",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1471,11 +1457,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 119,
+      "dana_na_trzistu": 120,
       "prva_cena": 1300,
       "promena_cene_pct": 15.4,
       "first_seen": "2026-07-12",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Simfonija 1|60.0|1500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1498,7 +1484,7 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 119,
+      "dana_na_trzistu": 120,
       "prva_cena": 2500,
       "promena_cene_pct": -20.0,
       "first_seen": "2026-07-12",
@@ -1525,11 +1511,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 118,
+      "dana_na_trzistu": 119,
       "prva_cena": 2850,
       "promena_cene_pct": null,
       "first_seen": "2026-07-13",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|74.0|2850",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -1552,11 +1538,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 117,
+      "dana_na_trzistu": 118,
       "prva_cena": 4500,
       "promena_cene_pct": -3.3,
       "first_seen": "2026-07-14",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Perla|119.0|4350",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1579,11 +1565,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-07-18",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|62.0|1600",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1606,11 +1592,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 3600,
       "promena_cene_pct": 27.8,
       "first_seen": "2026-07-18",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Riviera|200.0|4600",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1633,11 +1619,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 113,
+      "dana_na_trzistu": 114,
       "prva_cena": 7000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-18",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|146.0|7000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -1660,11 +1646,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 110,
+      "dana_na_trzistu": 111,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|35.0|1000",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -1688,7 +1674,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 110,
+      "dana_na_trzistu": 111,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-07-21",
@@ -1715,11 +1701,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 102,
+      "dana_na_trzistu": 103,
       "prva_cena": 4000,
       "promena_cene_pct": -12.5,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|76.0|3500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1744,7 +1730,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 102,
+      "dana_na_trzistu": 103,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -1772,7 +1758,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 102,
+      "dana_na_trzistu": 103,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -1800,7 +1786,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 102,
+      "dana_na_trzistu": 103,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -1828,7 +1814,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 100,
+      "dana_na_trzistu": 101,
       "prva_cena": 1200,
       "promena_cene_pct": 8.3,
       "first_seen": "2026-07-31",
@@ -1855,11 +1841,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 99,
+      "dana_na_trzistu": 100,
       "prva_cena": 4300,
       "promena_cene_pct": null,
       "first_seen": "2026-08-01",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Riviera|154.43|4300",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -1870,7 +1856,7 @@
     {
       "id": "9b66cf10959a73fc",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-lux-pristup-bazenu-i-teretani/5425647456396?kid=4",
-      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 2.300€, 89m²",
+      "naslov": "Bw Eterna 3.0 Luksuzan Enterijer",
       "zgrada": "BW Eterna",
       "agencija": "Sonata Properties",
       "struktura": "2.0",
@@ -1883,13 +1869,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 99,
+      "dana_na_trzistu": 100,
       "prva_cena": 2500,
       "promena_cene_pct": -8.0,
       "first_seen": "2026-08-01",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eterna|89.0|2300",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "ispravljeno",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -1913,7 +1899,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-08-04",
@@ -1928,26 +1914,26 @@
     {
       "id": "7c898b3e13f86e91",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-nika-03-bulevar-vudroa-vilsona-savski-vena/5425647493068",
-      "naslov": "BW Nika, polunamešten, 79m2 ID#16799",
+      "naslov": "BW Nika 03 | Bulevar Vudroa Vilsona | Savski Venac",
       "zgrada": "BW Nika",
-      "agencija": "Art Nekretnine",
+      "agencija": "Kredium",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 79.0,
-      "cena": 2100,
-      "cena_m2": 27,
-      "sprat": "5",
+      "cena": 2200,
+      "cena_m2": 28,
+      "sprat": "V",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 93,
+      "dana_na_trzistu": 94,
       "prva_cena": 2200,
-      "promena_cene_pct": -4.5,
+      "promena_cene_pct": null,
       "first_seen": "2026-08-07",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Nika|79.0|2100",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Nika|79.0|2200",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -1957,7 +1943,7 @@
     {
       "id": "f93cb09a7652dd14",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-terraces-pogled-na-reku-dva-garazna-id4805/5425647493108?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 4.900€, 136m²",
+      "naslov": "BW Terraces, pogled na reku, dva garažna ID#4805",
       "zgrada": "BW Terraces",
       "agencija": "Property Broker",
       "struktura": "3.0",
@@ -1970,13 +1956,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 93,
+      "dana_na_trzistu": 94,
       "prva_cena": 4900,
       "promena_cene_pct": null,
       "first_seen": "2026-08-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Terraces|136.0|4900",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -1985,7 +1971,7 @@
     {
       "id": "5b62f542cc38f9e5",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/prelep-stan-sa-direktnim-pogledom-na-reku-bw/5425647499477?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 2.000€, 73m²",
+      "naslov": "Prelep stan sa direktnim pogledom na reku, BW Resi",
       "zgrada": "BW Residences",
       "agencija": "Atrium",
       "struktura": "2.0",
@@ -1998,11 +1984,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 92,
+      "dana_na_trzistu": 93,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-08-08",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|73.0|2000",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": "scraper",
@@ -2027,7 +2013,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 79,
+      "dana_na_trzistu": 80,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
@@ -2054,11 +2040,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 79,
+      "dana_na_trzistu": 80,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Perla|158.01|3500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2082,11 +2068,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 79,
+      "dana_na_trzistu": 80,
       "prva_cena": 1800,
       "promena_cene_pct": 27.8,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 3|89.0|2300",
       "zgrada_izvor": "ispravljeno",
       "agencija_izvor": "scraper",
@@ -2110,11 +2096,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 79,
+      "dana_na_trzistu": 80,
       "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Riviera|108.0|2800",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2125,7 +2111,7 @@
     {
       "id": "fc8523d4583185f8",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-terraces-luksuzan-trosoban-stan-sa-panoram/5425647527652?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.500€, 105m²",
+      "naslov": "BW Terraces | Luksuzan trosoban stan sa panoramski",
       "zgrada": "BW Terraces",
       "agencija": "Atrium",
       "struktura": "3.0",
@@ -2138,13 +2124,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 79,
+      "dana_na_trzistu": 80,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Terraces|105.0|2500",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -2165,11 +2151,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 79,
+      "dana_na_trzistu": 80,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Riviera|175.75|4500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2192,11 +2178,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 79,
+      "dana_na_trzistu": 80,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Riviera|174.67|4500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2221,7 +2207,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 75,
+      "dana_na_trzistu": 76,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-08-25",
@@ -2248,11 +2234,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 75,
+      "dana_na_trzistu": 76,
       "prva_cena": 4350,
       "promena_cene_pct": -19.5,
       "first_seen": "2026-08-25",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|116.0|3500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -2275,11 +2261,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 74,
+      "dana_na_trzistu": 75,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-08-26",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Riviera|158.0|4500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2302,11 +2288,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 71,
+      "dana_na_trzistu": 72,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-08-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 2|83.0|1800",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2317,26 +2303,26 @@
     {
       "id": "22943b43badb8698",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-aria-trosoban-odmah-useljiv/5425647595381?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 3.800€, 138m²",
+      "naslov": "Bw Aria 4.0, Odmah Useljiv",
       "zgrada": "BW Aria",
       "agencija": "Sonata Properties",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 138.0,
-      "cena": 3800,
-      "cena_m2": 28,
+      "cena": 3500,
+      "cena_m2": 25,
       "sprat": "XII",
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 70,
+      "dana_na_trzistu": 71,
       "prva_cena": 2000,
-      "promena_cene_pct": 90.0,
+      "promena_cene_pct": 75.0,
       "first_seen": "2026-08-30",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Aria|138.0|3800",
-      "zgrada_izvor": "opis_agenta",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Aria|138.0|3500",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -2358,7 +2344,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 68,
+      "dana_na_trzistu": 69,
       "prva_cena": 2000,
       "promena_cene_pct": -5.0,
       "first_seen": "2026-09-01",
@@ -2373,26 +2359,26 @@
     {
       "id": "4669d998ff6c0934",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beautifully-designed-brand-new---libera/5425647620176?kid=4",
-      "naslov": "New! BW Libera. 3 Beds Apt. Parking. ",
+      "naslov": "Beautifully designed, brand new - Libera",
       "zgrada": "BW Libera",
-      "agencija": "Kuca i Stan",
+      "agencija": "Beba Real Estate",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
-      "m2": 115.0,
+      "m2": 98.0,
       "cena": 2950,
-      "cena_m2": 26,
-      "sprat": "9",
+      "cena_m2": 30,
+      "sprat": "VIII/15",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 66,
+      "dana_na_trzistu": 67,
       "prva_cena": 2950,
       "promena_cene_pct": null,
       "first_seen": "2026-09-03",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Libera|115.0|2950",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Libera|98.0|2950",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -2415,7 +2401,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 66,
+      "dana_na_trzistu": 67,
       "prva_cena": 500,
       "promena_cene_pct": 30.0,
       "first_seen": "2026-09-03",
@@ -2430,7 +2416,7 @@
     {
       "id": "4d81751c5e7df637",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar-beograd-na-vodi-komplex-apartmana-id16/5425647620627?kid=1",
-      "naslov": "Centar, Beograd na vodi, komplex apartmana ID#82101",
+      "naslov": "Centar,Beograd na vodi, komplex apartmana ID#82101",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Art Nekretnine",
       "struktura": "2.0",
@@ -2438,17 +2424,17 @@
       "m2": 32.0,
       "cena": 600,
       "cena_m2": 19,
-      "sprat": "3",
+      "sprat": "III/4",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 66,
+      "dana_na_trzistu": 67,
       "prva_cena": 600,
       "promena_cene_pct": null,
       "first_seen": "2026-09-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|32.0|600",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -2471,11 +2457,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 64,
+      "dana_na_trzistu": 65,
       "prva_cena": 3200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|62.0|3200",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2486,7 +2472,7 @@
     {
       "id": "64e1e3de46553463",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/privatna-basta-sa-pogledom-na-reku-u-bw-resid/5425647631804?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 3.500€, 147m²",
+      "naslov": "Privatna bašta sa pogledom na reku u BW Residences",
       "zgrada": "BW Residences",
       "agencija": "Atrium",
       "struktura": "3.0",
@@ -2499,13 +2485,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 63,
+      "dana_na_trzistu": 64,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-06",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|147.0|3500",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -2514,12 +2500,12 @@
     {
       "id": "a2a56745494da743",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/najatraktivniji-stan-sa-panoramskim-pogledom/5425647064073?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 4.000€, 98m²",
+      "naslov": "Predivna terasa u Kuli Beograd",
       "zgrada": "BW St. Regis",
       "agencija": "Atrium",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 98.0,
+      "m2": 98.37,
       "cena": 4000,
       "cena_m2": 41,
       "sprat": null,
@@ -2527,12 +2513,12 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 63,
+      "dana_na_trzistu": 64,
       "prva_cena": 4300,
       "promena_cene_pct": -7.0,
       "first_seen": "2026-09-06",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW St. Regis|98.0|4000",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW St. Regis|98.37|4000",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -2554,11 +2540,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 63,
+      "dana_na_trzistu": 64,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-06",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|56.76|3500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2581,11 +2567,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 61,
+      "dana_na_trzistu": 62,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 1|84.0|1800",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2608,11 +2594,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 59,
+      "dana_na_trzistu": 60,
       "prva_cena": 4800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-10",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|98.0|4800",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -2636,7 +2622,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 54,
+      "dana_na_trzistu": 55,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-15",
@@ -2651,7 +2637,7 @@
     {
       "id": "3a2ef9cadaf10f13",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/st-regis-residences-dragulj-beograda-id9921/5425647511743?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 15.000€, 144m²",
+      "naslov": "St. Regis Residences – Dragulj Beograda ID#9921",
       "zgrada": "BW St. Regis",
       "agencija": "Europolis Nekretnine",
       "struktura": "4.0",
@@ -2665,13 +2651,13 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 54,
+      "dana_na_trzistu": 55,
       "prva_cena": 15000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-15",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|144.0|15000",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -2693,7 +2679,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 53,
+      "dana_na_trzistu": 54,
       "prva_cena": 8300,
       "promena_cene_pct": -9.6,
       "first_seen": "2026-09-16",
@@ -2708,7 +2694,7 @@
     {
       "id": "c1c137d86d9b40dc",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/prelep-trosoban-stan---bw-echo/5425647682560?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 87m²",
+      "naslov": "Prelep trosoban stan - BW Echo",
       "zgrada": "BW Echo",
       "agencija": "Atrium",
       "struktura": "3.0",
@@ -2721,13 +2707,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 53,
+      "dana_na_trzistu": 54,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-16",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Echo|87.0|2000",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -2749,7 +2735,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 51,
+      "dana_na_trzistu": 52,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-18",
@@ -2776,11 +2762,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 51,
+      "dana_na_trzistu": 52,
       "prva_cena": 1600,
       "promena_cene_pct": 18.8,
       "first_seen": "2026-09-18",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|80.0|1900",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -2804,7 +2790,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 50,
+      "dana_na_trzistu": 51,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-19",
@@ -2831,11 +2817,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 48,
+      "dana_na_trzistu": 49,
       "prva_cena": 3300,
       "promena_cene_pct": null,
       "first_seen": "2026-09-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|76.0|3300",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2858,11 +2844,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 47,
+      "dana_na_trzistu": 48,
       "prva_cena": 3600,
       "promena_cene_pct": 5.6,
       "first_seen": "2026-09-22",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|90.0|3800",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2886,7 +2872,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 47,
+      "dana_na_trzistu": 48,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
@@ -2901,7 +2887,7 @@
     {
       "id": "f73dc3efaa0c3793",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdavanje-luksuznog-stana-4-0-2-garazna/5425643681072?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Bulevar Vudroa Vilsona, 2.000€, 119m²",
+      "naslov": "Izdavanje luksuznog stana / 4.0 / 2 garazna",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Beba Real Estate",
       "struktura": "4.0",
@@ -2914,11 +2900,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 47,
+      "dana_na_trzistu": 48,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|119.0|2000",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -2929,7 +2915,7 @@
     {
       "id": "6e2eaf2ba05dc250",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-preko-puta-bw-ispod-skylina/5425646965082?kid=4",
-      "naslov": "Dvosoban stan za izdavanje, Savska, 800€, 55m²",
+      "naslov": "Stan preko puta BW, ispod Skylina.",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Tukodi",
       "struktura": "2.0",
@@ -2942,13 +2928,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 46,
+      "dana_na_trzistu": 47,
       "prva_cena": 800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-23",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|55.0|800",
-      "zgrada_izvor": "ulica",
+      "zgrada_izvor": "opis",
       "agencija_izvor": "opis_kanon",
       "posrednik": true,
       "tip_prodaje": null,
@@ -2969,11 +2955,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 46,
+      "dana_na_trzistu": 47,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-23",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|52.0|1400",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -2996,11 +2982,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 46,
+      "dana_na_trzistu": 47,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-23",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|98.0|4000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3023,11 +3009,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 4850,
       "promena_cene_pct": null,
       "first_seen": "2026-09-25",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|86.68|4850",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -3051,11 +3037,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 2950,
       "promena_cene_pct": null,
       "first_seen": "2026-09-25",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|61.0|2950",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3078,11 +3064,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 43,
+      "dana_na_trzistu": 44,
       "prva_cena": 800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-26",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|55.0|800",
       "zgrada_izvor": "ulica",
       "agencija_izvor": "scraper",
@@ -3105,11 +3091,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 43,
+      "dana_na_trzistu": 44,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-26",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Terraces|66.0|2000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -3134,7 +3120,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 41,
+      "dana_na_trzistu": 42,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-28",
@@ -3161,11 +3147,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 40,
+      "dana_na_trzistu": 41,
       "prva_cena": 1000,
       "promena_cene_pct": 50.0,
       "first_seen": "2026-09-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Lumia|59.0|1500",
       "zgrada_izvor": "ispravljeno",
       "agencija_izvor": "scraper",
@@ -3177,26 +3163,26 @@
     {
       "id": "c4bd770600ba69f3",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-perla-premium-za-poslovni-prostor-id4935/5425647687575?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Hercegovačka, 2.400€, 72m²",
+      "naslov": "BW Perla | premium | za poslovni prostor ID#4935",
       "zgrada": "BW Perla",
       "agencija": "Property Broker",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 72.0,
-      "cena": 2400,
-      "cena_m2": 33,
+      "cena": 2500,
+      "cena_m2": 35,
       "sprat": "II/24",
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2500,
-      "promena_cene_pct": -4.0,
+      "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Perla|72.0|2400",
-      "zgrada_izvor": "opis_agenta",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Perla|72.0|2500",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -3217,7 +3203,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2950,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3232,26 +3218,26 @@
     {
       "id": "7e5dc4030095b787",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6aaab27e231d190f85045cbd",
-      "naslov": "Dvosoban stan za izdavanje, Hercegovačka, 2.500€, 72m²",
+      "naslov": "BW Perla, premium, kompletno namešten ID#5047",
       "zgrada": "BW Perla",
       "agencija": "Property Broker",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 72.0,
-      "cena": 2500,
-      "cena_m2": 35,
+      "cena": 2400,
+      "cena_m2": 33,
       "sprat": "XVIII/24",
       "izvori": [
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2500,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -4.0,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Perla|72.0|2500",
-      "zgrada_izvor": "opis_agenta",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Perla|72.0|2400",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -3273,7 +3259,7 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3300,7 +3286,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3200,
       "promena_cene_pct": -18.8,
       "first_seen": "2026-09-30",
@@ -3328,11 +3314,11 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4000,
       "promena_cene_pct": -6.2,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|86.0|3750",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3355,7 +3341,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3383,7 +3369,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2850,
       "promena_cene_pct": 5.3,
       "first_seen": "2026-09-30",
@@ -3411,7 +3397,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3800,
       "promena_cene_pct": 5.3,
       "first_seen": "2026-09-30",
@@ -3438,7 +3424,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3465,7 +3451,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3480,26 +3466,26 @@
     {
       "id": "96bf0f2af86da355",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6ab516c693f20dab260f0e4f",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 80m²",
+      "naslov": "BW Metropolitan, izdavanje, nov, 3.0, namešten",
       "zgrada": "BW Metropolitan",
       "agencija": "Hedonia",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 80.0,
-      "cena": 2000,
-      "cena_m2": 25,
+      "cena": 1900,
+      "cena_m2": 24,
       "sprat": "XII/17",
       "izvori": [
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2000,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -5.0,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Metropolitan|80.0|2000",
-      "zgrada_izvor": "opis_agenta",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Metropolitan|80.0|1900",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -3520,7 +3506,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3547,7 +3533,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3575,7 +3561,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3590,7 +3576,7 @@
     {
       "id": "c6481becf2daee1f",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6abbb9c91cc13947600fa75a",
-      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 1.800€, 79m²",
+      "naslov": "Luksuzan stan sa 2 spavaće sobe u Beogradu na vodi",
       "zgrada": "BW Metropolitan",
       "agencija": "Brick Pro",
       "struktura": "3.0",
@@ -3603,11 +3589,11 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Metropolitan|79.0|1800",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": "scraper",
@@ -3630,7 +3616,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3657,7 +3643,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3685,7 +3671,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3715,7 +3701,7 @@
         "nadjidom",
         "halo"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3742,7 +3728,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3770,7 +3756,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3797,7 +3783,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3824,7 +3810,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3851,7 +3837,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2800,
       "promena_cene_pct": -28.6,
       "first_seen": "2026-09-30",
@@ -3879,7 +3865,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3906,7 +3892,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3934,7 +3920,7 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3962,7 +3948,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -3989,7 +3975,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4017,7 +4003,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4044,7 +4030,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4072,7 +4058,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4099,7 +4085,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4127,7 +4113,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4154,7 +4140,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4181,7 +4167,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1300,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4208,7 +4194,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1100,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4235,7 +4221,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4262,7 +4248,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4290,7 +4276,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4317,7 +4303,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3900,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4345,7 +4331,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4372,7 +4358,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4399,7 +4385,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4427,7 +4413,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 9500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4454,7 +4440,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4481,7 +4467,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4508,7 +4494,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4535,7 +4521,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4564,7 +4550,7 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4591,7 +4577,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4618,7 +4604,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4645,7 +4631,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4673,7 +4659,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4700,7 +4686,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4100,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4728,7 +4714,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4756,7 +4742,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4784,7 +4770,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4812,7 +4798,7 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4839,7 +4825,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4867,7 +4853,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4894,7 +4880,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4921,7 +4907,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 6200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4949,7 +4935,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -4977,7 +4963,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5004,7 +4990,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5031,7 +5017,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5058,7 +5044,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5085,7 +5071,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5113,7 +5099,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5140,7 +5126,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2900,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5168,7 +5154,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 10000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5196,7 +5182,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5223,7 +5209,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5250,7 +5236,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5277,7 +5263,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5304,7 +5290,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5331,7 +5317,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5358,7 +5344,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5386,7 +5372,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5401,25 +5387,25 @@
     {
       "id": "70501d590bd726b1",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6982224af5bd4038b0079409",
-      "naslov": "Četvorosoban stan za izdavanje, Luke Ćelovića Trebinjca, 3.000€, 120m²",
+      "naslov": "Centar - Beograd na vodi BW #69495",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Beostan",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 120.0,
-      "cena": 3000,
-      "cena_m2": 25,
+      "cena": 2800,
+      "cena_m2": 23,
       "sprat": "III/5",
       "izvori": [
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2800,
-      "promena_cene_pct": 7.1,
+      "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW (neidentifikovano)|120.0|3000",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW (neidentifikovano)|120.0|2800",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -5441,7 +5427,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1300,
       "promena_cene_pct": -7.7,
       "first_seen": "2026-09-30",
@@ -5468,7 +5454,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5496,7 +5482,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5523,7 +5509,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5550,7 +5536,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5565,7 +5551,7 @@
     {
       "id": "f7596d9e7e10f126",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6abd39db0424d68c6a0dd4ca",
-      "naslov": "Trosoban stan za izdavanje, Luke Ćelovića Trebinjca, 2.200€, 74m²",
+      "naslov": "Elegantan 3.0 stan u Eterni ID#141011",
       "zgrada": "BW Eterna",
       "agencija": "Art Nekretnine",
       "struktura": "3.0",
@@ -5579,11 +5565,11 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 2200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eterna|74.0|2200",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": "scraper",
@@ -5606,11 +5592,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 34,
+      "dana_na_trzistu": 35,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|87.0|1900",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -5634,7 +5620,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 34,
+      "dana_na_trzistu": 35,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-05",
@@ -5649,12 +5635,12 @@
     {
       "id": "3c2ce83be562887c",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris---osuncan-dvostrano-orijentisan-troso/5425647777884?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 1.450€, 80m²",
+      "naslov": "BW Iris - osunčan, dvostrano orijentisan trosoban",
       "zgrada": "BW Iris",
       "agencija": "Atrium",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 80.0,
+      "m2": 80.35,
       "cena": 1450,
       "cena_m2": 18,
       "sprat": "XIII/18",
@@ -5662,13 +5648,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 34,
+      "dana_na_trzistu": 35,
       "prva_cena": 1500,
       "promena_cene_pct": -3.3,
       "first_seen": "2026-10-05",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Iris|80.0|1450",
-      "zgrada_izvor": "opis_agenta",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Iris|80.35|1450",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -5691,7 +5677,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 33,
+      "dana_na_trzistu": 34,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-06",
@@ -5718,11 +5704,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 33,
+      "dana_na_trzistu": 34,
       "prva_cena": 1450,
       "promena_cene_pct": null,
       "first_seen": "2026-10-06",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Aria|54.0|1450",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -5745,7 +5731,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -5772,7 +5758,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 3800,
       "promena_cene_pct": -1.3,
       "first_seen": "2026-10-07",
@@ -5801,11 +5787,11 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|138.08|3500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -5816,7 +5802,7 @@
     {
       "id": "a7d63096cb400524",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/petosoban-stan/6ac4baa7ba9a0520d509db56",
-      "naslov": "Petosoban stan za izdavanje, Hercegovačka, 8.900€, 230m²",
+      "naslov": "BW Riviera, fantastičan pogled na reku ID#4986",
       "zgrada": "BW Riviera",
       "agencija": "Property Broker",
       "struktura": "5.0",
@@ -5829,13 +5815,13 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 8900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Riviera|230.0|8900",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -5856,7 +5842,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 1450,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -5884,7 +5870,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -5912,7 +5898,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -5939,11 +5925,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|142.35|3500",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -5967,7 +5953,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -5994,11 +5980,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|138.0|3500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6009,7 +5995,7 @@
     {
       "id": "ea275e13e27e578e",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-st-regis-residence-2-0/5425647788377?kid=4",
-      "naslov": "Dvosoban stan za izdavanje, Nikolaja Kravcova, 2.500€, 57m²",
+      "naslov": "BW St. Regis Residence 2.0",
       "zgrada": "BW St. Regis",
       "agencija": "Maxis Group",
       "struktura": "2.0",
@@ -6022,13 +6008,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|57.0|2500",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -6050,7 +6036,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 31,
+      "dana_na_trzistu": 32,
       "prva_cena": 2200,
       "promena_cene_pct": null,
       "first_seen": "2026-10-08",
@@ -6077,11 +6063,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 31,
+      "dana_na_trzistu": 32,
       "prva_cena": 2400,
       "promena_cene_pct": null,
       "first_seen": "2026-10-08",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|57.0|2400",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6106,7 +6092,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 30,
+      "dana_na_trzistu": 31,
       "prva_cena": 2700,
       "promena_cene_pct": -3.7,
       "first_seen": "2026-10-09",
@@ -6134,7 +6120,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 30,
+      "dana_na_trzistu": 31,
       "prva_cena": 2200,
       "promena_cene_pct": null,
       "first_seen": "2026-10-09",
@@ -6161,7 +6147,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 30,
+      "dana_na_trzistu": 31,
       "prva_cena": 2950,
       "promena_cene_pct": null,
       "first_seen": "2026-10-09",
@@ -6190,7 +6176,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 29,
+      "dana_na_trzistu": 30,
       "prva_cena": 1700,
       "promena_cene_pct": -5.9,
       "first_seen": "2026-10-10",
@@ -6217,7 +6203,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 27,
+      "dana_na_trzistu": 28,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-12",
@@ -6246,7 +6232,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 26,
+      "dana_na_trzistu": 27,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-13",
@@ -6273,11 +6259,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 26,
+      "dana_na_trzistu": 27,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|90.0|1800",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -6300,7 +6286,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 26,
+      "dana_na_trzistu": 27,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-10-13",
@@ -6328,7 +6314,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 26,
+      "dana_na_trzistu": 27,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-13",
@@ -6355,7 +6341,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 26,
+      "dana_na_trzistu": 27,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-13",
@@ -6384,7 +6370,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 2100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-14",
@@ -6411,11 +6397,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 4500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-14",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|89.0|4500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6426,7 +6412,7 @@
     {
       "id": "24edf9fbe27561ac",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69373/5425647816611?kid=4",
-      "naslov": "Trosoban stan za izdavanje, Luke Celovica Trebinjca, 2.200€, 85m²",
+      "naslov": "Centar - Beograd na vodi BW #69373",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Beostan",
       "struktura": "3.0",
@@ -6439,11 +6425,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 2200,
       "promena_cene_pct": null,
       "first_seen": "2026-10-14",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|85.0|2200",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -6468,7 +6454,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-14",
@@ -6495,11 +6481,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 1900,
       "promena_cene_pct": -15.8,
       "first_seen": "2026-10-14",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Iris|90.0|1600",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -6522,11 +6508,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-14",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Sensa|32.0|800",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6549,11 +6535,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 2700,
       "promena_cene_pct": null,
       "first_seen": "2026-10-14",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Scala|108.0|2700",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6577,11 +6563,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-10-14",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Verde|104.39|2300",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6604,11 +6590,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 24,
+      "dana_na_trzistu": 25,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-15",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Sensa|74.0|1800",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6631,11 +6617,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 24,
+      "dana_na_trzistu": 25,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-15",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|61.0|2000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6658,7 +6644,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 24,
+      "dana_na_trzistu": 25,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-15",
@@ -6685,7 +6671,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 24,
+      "dana_na_trzistu": 25,
       "prva_cena": 3800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-15",
@@ -6709,16 +6695,16 @@
       "m2": 58.0,
       "cena": 1400,
       "cena_m2": 24,
-      "sprat": "17",
+      "sprat": "XVII/23",
       "izvori": [
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 23,
+      "dana_na_trzistu": 24,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-10-16",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Verde|58.0|1400",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6741,11 +6727,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 23,
+      "dana_na_trzistu": 24,
       "prva_cena": 1100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-16",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Scala|35.0|1100",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -6770,7 +6756,7 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 23,
+      "dana_na_trzistu": 24,
       "prva_cena": 2100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-16",
@@ -6797,7 +6783,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 23,
+      "dana_na_trzistu": 24,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-10-16",
@@ -6825,11 +6811,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 22,
+      "dana_na_trzistu": 23,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-17",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Iris|80.35|2500",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -6840,25 +6826,25 @@
     {
       "id": "07304da95ac7c03c",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-4-0--bazen-teretana-2-garazna-mesta-id-86/5425647847838?kid=1",
-      "naslov": "BW- stan sa dva garažna mesta ID#16851",
+      "naslov": "Lux 4.0- bazen, teretana, 2 garažna mesta, ID 8697",
       "zgrada": "BW (neidentifikovano)",
-      "agencija": "Art Nekretnine",
+      "agencija": "Symbol Properties",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 124.0,
       "cena": 4000,
       "cena_m2": 32,
-      "sprat": "14",
+      "sprat": "XIV",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 20,
+      "dana_na_trzistu": 21,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-19",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|124.0|4000",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -6881,11 +6867,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 2099,
       "promena_cene_pct": -9.5,
       "first_seen": "2026-10-20",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|58.0|1899",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -6910,7 +6896,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 1300,
       "promena_cene_pct": null,
       "first_seen": "2026-10-20",
@@ -6925,26 +6911,26 @@
     {
       "id": "e361a7d126e4e6ab",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/2-5-stan-bw-nika-vozda-djordja-stratimirovica/5425647846671?kid=3",
-      "naslov": "Dvoiposoban stan za izdavanje, Vožda Đorđa Stratimirovića, 2.100€, 79m²",
+      "naslov": "2.5 stan-BW Nika, Vožda Đorđa Stratimirovića ID#39",
       "zgrada": "BW Nika",
       "agencija": "BG Home",
       "struktura": "2.5",
       "str_label": "Dvoiposoban",
       "m2": 79.0,
-      "cena": 2100,
-      "cena_m2": 27,
+      "cena": 1800,
+      "cena_m2": 23,
       "sprat": "V/6",
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 2100,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -14.3,
       "first_seen": "2026-10-20",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Nika|79.0|2100",
-      "zgrada_izvor": "opis_agenta",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Nika|79.0|1800",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -6953,7 +6939,7 @@
     {
       "id": "3e7a3ed33414c6cc",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences---cetvorosoban-stan-sa-pogledom/5425647846686?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 3.850€, 140m²",
+      "naslov": "BW Residences - četvorosoban stan sa pogledom na r",
       "zgrada": "BW Residences",
       "agencija": "Atrium",
       "struktura": "4.0",
@@ -6966,13 +6952,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 3850,
       "promena_cene_pct": null,
       "first_seen": "2026-10-20",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|140.0|3850",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -6993,11 +6979,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 1300,
       "promena_cene_pct": null,
       "first_seen": "2026-10-20",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|75.5|1300",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -7020,7 +7006,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 2100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-20",
@@ -7048,7 +7034,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
@@ -7075,11 +7061,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW King's Park|92.0|2900",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -7090,7 +7076,7 @@
     {
       "id": "5bce1163811fe79f",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---savski-venac-69461/5425647855230?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Birčaninova, 750€, 68m²",
+      "naslov": "Centar - Savski Venac #69461",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Beostan",
       "struktura": "3.0",
@@ -7103,11 +7089,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 750,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|68.0|750",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -7118,25 +7104,25 @@
     {
       "id": "ada786ac513349da",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-stan-na-beogradu-na-vodi/5425647853919",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.100€, 79m²",
+      "naslov": "Lux stan na Beogradu na vodi",
       "zgrada": "BW Nika",
       "agencija": "Lav Nekretnine",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 79.0,
-      "cena": 2100,
-      "cena_m2": 27,
+      "cena": 1800,
+      "cena_m2": 23,
       "sprat": "V",
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2100,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -14.3,
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Nika|79.0|2100",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Nika|79.0|1800",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": "opis_kanon",
       "posrednik": true,
@@ -7158,11 +7144,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2100,
       "promena_cene_pct": -19.0,
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Nika|79.0|1700",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -7173,7 +7159,7 @@
     {
       "id": "a9b1629457a786ee",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-eden-neuseljavan-komforan-stan-id-26184/5425647854216?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 2.200€, 80m²",
+      "naslov": "BW Eden, neuseljavan, komforan stan, ID 26184",
       "zgrada": "BW Eden",
       "agencija": "Eminent Nekretnine",
       "struktura": "3.0",
@@ -7186,13 +7172,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2200,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|80.0|2200",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -7214,11 +7200,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2100,
       "promena_cene_pct": -14.3,
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Nika|79.0|1800",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -7241,11 +7227,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Nika|83.0|2000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -7269,7 +7255,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2600,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
@@ -7296,7 +7282,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
@@ -7324,7 +7310,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 1850,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
@@ -7351,7 +7337,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
@@ -7379,7 +7365,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
@@ -7406,11 +7392,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 17,
+      "dana_na_trzistu": 18,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Thalia|79.0|1900",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -7421,7 +7407,7 @@
     {
       "id": "69b5bbd78b405a05",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-lumia-3-0-namesten-premium-enterijer/5425647858454?kid=4",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 79m²",
+      "naslov": "Bw Lumia 3.0 namešten, premium enterijer",
       "zgrada": "BW Lumia",
       "agencija": "Sonata Properties",
       "struktura": "3.0",
@@ -7434,13 +7420,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 17,
+      "dana_na_trzistu": 18,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Lumia|79.0|2000",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -7461,11 +7447,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 17,
+      "dana_na_trzistu": 18,
       "prva_cena": 3800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|145.82|3800",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -7488,11 +7474,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 17,
+      "dana_na_trzistu": 18,
       "prva_cena": 2900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW King's Park|92.0|2900",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -7503,7 +7489,7 @@
     {
       "id": "bf42a4af59c41c5a",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-neuseljavan-luksuzan-stan-id-26185/5425647857067?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Bulevar Vudroa Vilsona, 2.700€, 80m²",
+      "naslov": "BW Iris, neuseljavan, luksuzan stan, ID 26185",
       "zgrada": "BW Iris",
       "agencija": "Eminent Nekretnine",
       "struktura": "3.0",
@@ -7516,13 +7502,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 17,
+      "dana_na_trzistu": 18,
       "prva_cena": 2700,
       "promena_cene_pct": null,
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Iris|80.0|2700",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -7545,7 +7531,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 16,
+      "dana_na_trzistu": 17,
       "prva_cena": 3400,
       "promena_cene_pct": -11.8,
       "first_seen": "2026-10-23",
@@ -7572,11 +7558,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 16,
+      "dana_na_trzistu": 17,
       "prva_cena": 1450,
       "promena_cene_pct": -31.0,
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|30.0|1000",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -7599,7 +7585,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 16,
+      "dana_na_trzistu": 17,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-23",
@@ -7626,11 +7612,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 2600,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|80.0|2600",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -7641,7 +7627,7 @@
     {
       "id": "e49311426ec8362c",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-magnolia-kompletno-namesten-odmah-useljiv/5425647866092?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 2.800€, 117m²",
+      "naslov": "BW Magnolia, kompletno namešten, odmah useljiv ID#",
       "zgrada": "BW Magnolia",
       "agencija": "Property Broker",
       "struktura": "4.0",
@@ -7654,13 +7640,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Magnolia|117.0|2800",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -7669,7 +7655,7 @@
     {
       "id": "b17844682d782874",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/pilates-studio-spreman-za-rad-bw-quartet/5425647334213?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.300€, 94m²",
+      "naslov": "Pilates studio spreman za rad | Bw Quartet",
       "zgrada": "BW Quartet 1",
       "agencija": "Sonata Properties",
       "struktura": "3.0",
@@ -7682,13 +7668,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 1|94.0|2300",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -7697,7 +7683,7 @@
     {
       "id": "25fdc3b01948a313",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6a22b6219e553aeb4f0709eb",
-      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 2.800€, 120m²",
+      "naslov": "BW Magnolia 11 | Italijanski nameštaj | Moderan",
       "zgrada": "BW Magnolia",
       "agencija": "Kredium",
       "struktura": "4.0",
@@ -7710,13 +7696,13 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Magnolia|120.0|2800",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -7737,7 +7723,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
@@ -7765,7 +7751,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 1680,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
@@ -7792,7 +7778,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
@@ -7820,7 +7806,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
@@ -7847,7 +7833,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
@@ -7874,7 +7860,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
@@ -7901,11 +7887,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 14,
+      "dana_na_trzistu": 15,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-25",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|120.0|4000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -7928,11 +7914,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 14,
+      "dana_na_trzistu": 15,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-25",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Iris|80.0|2500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -7955,11 +7941,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 14,
+      "dana_na_trzistu": 15,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-10-25",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|32.0|1200",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -7982,7 +7968,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 14,
+      "dana_na_trzistu": 15,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-25",
@@ -8009,7 +7995,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 14,
+      "dana_na_trzistu": 15,
       "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-25",
@@ -8037,11 +8023,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 13,
+      "dana_na_trzistu": 14,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Iris|33.0|1000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -8064,11 +8050,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 13,
+      "dana_na_trzistu": 14,
       "prva_cena": 2400,
       "promena_cene_pct": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|86.0|2400",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -8091,11 +8077,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 13,
+      "dana_na_trzistu": 14,
       "prva_cena": 2400,
       "promena_cene_pct": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Iris|86.0|2400",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -8118,11 +8104,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 3000,
       "promena_cene_pct": -16.7,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|115.0|2500",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -8145,11 +8131,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Terraces|103.9|3000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -8173,7 +8159,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
@@ -8202,7 +8188,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
@@ -8229,11 +8215,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 1500,
       "promena_cene_pct": -6.7,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW King's Park|56.83|1400",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -8257,11 +8243,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Terraces|104.0|3000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -8285,11 +8271,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|114.0|2300",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -8300,25 +8286,25 @@
     {
       "id": "815015332a6256f6",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69521/5425647880435?kid=1",
-      "naslov": "New Studio with River Views and Garage Parking",
+      "naslov": "Centar - Beograd na Vodi BW #69521",
       "zgrada": "BW (neidentifikovano)",
-      "agencija": "Kuca i Stan",
+      "agencija": "Beostan",
       "struktura": "1.0",
       "str_label": "Garsonjera/Studio",
       "m2": 33.0,
       "cena": 1000,
       "cena_m2": 30,
-      "sprat": "9",
+      "sprat": "I/17",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|33.0|1000",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -8341,11 +8327,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Queen's Park|76.0|1600",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -8368,11 +8354,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 2950,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|158.0|2950",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -8383,7 +8369,7 @@
     {
       "id": "d60895563f126937",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw--stan-sa-dva-garazna-mesta-id16851/5425647880406?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 4.000€, 124m²",
+      "naslov": "BW- stan sa dva garažna mesta ID#16851",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Art Nekretnine",
       "struktura": "4.0",
@@ -8396,13 +8382,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|124.0|4000",
-      "zgrada_izvor": "ulica",
+      "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -8423,7 +8409,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
@@ -8450,7 +8436,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
@@ -8478,7 +8464,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
@@ -8505,7 +8491,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 1850,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
@@ -8521,7 +8507,7 @@
     {
       "id": "579100c58edd8bfe",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6adf79ab013ba757ff016149",
-      "naslov": "Četvorosoban stan za izdavanje, Bulevar Vudroa Vilsona, 2.400€, 111m²",
+      "naslov": "BW - Eden, 111m2, 4.0, X, polunamešten",
       "zgrada": "BW Eden",
       "agencija": "Gigant",
       "struktura": "4.0",
@@ -8534,13 +8520,13 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 2400,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|111.0|2400",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "opis_kanon",
       "posrednik": true,
       "tip_prodaje": null,
@@ -8561,11 +8547,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Queen's Park|77.0|1700",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -8590,7 +8576,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
@@ -8618,7 +8604,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
@@ -8633,7 +8619,7 @@
     {
       "id": "a5f0818de4e40050",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/poslovni-prostor-ili-za-stanovanje-sa-pm-i-po/5425647885625?kid=4",
-      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 2.500€, 111m²",
+      "naslov": "Poslovni prostor ili za stanovanje sa PM i pogledo",
       "zgrada": "BW (neidentifikovano)",
       "agencija": null,
       "struktura": "4.0",
@@ -8646,11 +8632,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|111.0|2500",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -8661,26 +8647,26 @@
     {
       "id": "d6fa4a0c2b189c2b",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw---eden-111m2-4-0-x-polunamesten/5425647888306?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Bulevar Vudroa Vilsona, 2.500€, 111m²",
+      "naslov": "BW - Eden, 111m2, 4.0, X, polunamešten",
       "zgrada": "BW Eden",
       "agencija": null,
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 111.0,
-      "cena": 2500,
-      "cena_m2": 23,
+      "cena": 2400,
+      "cena_m2": 22,
       "sprat": "X/19",
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2400,
-      "promena_cene_pct": 4.2,
+      "promena_cene_pct": null,
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Eden|111.0|2500",
-      "zgrada_izvor": "opis_agenta",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Eden|111.0|2400",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": true,
       "tip_prodaje": null,
@@ -8689,7 +8675,7 @@
     {
       "id": "7906d0bbb82f4526",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-eden-111-m2/5425647888242?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 2.500€, 111m²",
+      "naslov": "Bw Eden, 111 m2",
       "zgrada": "BW Eden",
       "agencija": "Leverage Nekretnine",
       "struktura": "4.0",
@@ -8702,13 +8688,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|111.0|2500",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -8729,11 +8715,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|115.0|3000",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -8744,12 +8730,12 @@
     {
       "id": "f8ec645cef9e0834",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula---beograd-na-dlanu/5425647885156?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 2.500€, 61m²",
+      "naslov": "BW Kula - Beograd na dlanu",
       "zgrada": "BW St. Regis",
       "agencija": "Atrium",
       "struktura": "2.0",
       "str_label": "Dvosoban",
-      "m2": 61.0,
+      "m2": 61.04,
       "cena": 2500,
       "cena_m2": 41,
       "sprat": "XXVIII",
@@ -8757,13 +8743,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW St. Regis|61.0|2500",
-      "zgrada_izvor": "opis_agenta",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW St. Regis|61.04|2500",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -8772,27 +8758,27 @@
     {
       "id": "3027572994de280a",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-residences-13-beograd-na-vodi-premium-zgra/5425647885123?kid=1",
-      "naslov": "Izdavanje, Stan, Beograd na vodi, Hercegovačka",
+      "naslov": "BW Residences 13 | Beograd na vodi |Premium zgrada",
       "zgrada": "BW Residences",
-      "agencija": "AS Nekretnine Pro",
+      "agencija": "Kredium",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 124.0,
       "cena": 4000,
       "cena_m2": 32,
-      "sprat": "14",
+      "sprat": "XIV",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|124.0|4000",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -8801,7 +8787,7 @@
     {
       "id": "4f20de2cb18e582a",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-eden-nov-neuseljavan-garaza-id-26197/5425647887116?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Bulevar Vudroa Vilsona, 2.500€, 111m²",
+      "naslov": "BW Eden, nov, neuseljavan, garaža, ID 26197",
       "zgrada": "BW Eden",
       "agencija": "Eminent Nekretnine",
       "struktura": "4.0",
@@ -8814,13 +8800,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|111.0|2500",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -8829,7 +8815,7 @@
     {
       "id": "f0df375194211f2c",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69546/5425647890259?kid=4",
-      "naslov": "Dvosoban stan za izdavanje, Hercegovačka, 1.500€, 60m²",
+      "naslov": "Centar - Beograd na vodi BW #68176",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Beostan",
       "struktura": "2.0",
@@ -8842,13 +8828,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|60.0|1500",
-      "zgrada_izvor": "ulica",
+      "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -8869,11 +8855,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 750,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Metropolitan|28.0|750",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -8897,7 +8883,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
@@ -8924,7 +8910,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
@@ -8951,7 +8937,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
@@ -8978,11 +8964,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 750,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Metropolitan|28.0|750",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -9005,11 +8991,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 750,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Metropolitan|28.0|750",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -9020,25 +9006,25 @@
     {
       "id": "90e44319feb5d332",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-beograd-na-vodi-stan-2-0-55m2/5425647890281?kid=4",
-      "naslov": "Izdavanje, Stan, Beograd na vodi, Luke Ćelovića Trebinjca",
+      "naslov": "Beograd, Beograd Na Vodi, Stan, 2.0, 55m2",
       "zgrada": "BW (neidentifikovano)",
-      "agencija": "AS Nekretnine Pro",
+      "agencija": "Asnekretninepro",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 55.0,
       "cena": 1499,
       "cena_m2": 27,
-      "sprat": "3",
+      "sprat": "III/7",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 1500,
       "promena_cene_pct": -0.1,
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|55.0|1499",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -9061,11 +9047,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Nika|79.0|1800",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -9088,11 +9074,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 1|55.0|1400",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -9115,11 +9101,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 2100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Aurora|82.0|2100",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -9142,11 +9128,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW King's Park|56.0|1400",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -9157,7 +9143,7 @@
     {
       "id": "3da0b70575209216",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-4-3-0-pogled-na-kulu-parking/5425647895300?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.300€, 78m²",
+      "naslov": "Bw Quartet 4, 3.0, Pogled na Kulu, Parking",
       "zgrada": "BW Quartet 4",
       "agencija": "Sonata Properties",
       "struktura": "3.0",
@@ -9170,13 +9156,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 4|78.0|2300",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -9185,26 +9171,26 @@
     {
       "id": "500903945383b2cd",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-na-vodi-iris-izdavanje/5425647895299?kid=1",
-      "naslov": "Stan 55m2, Savski Venac, Beograd na vodi",
+      "naslov": "Beograd na vodi, izdavanje stana sa garaznim mesto",
       "zgrada": "BW Iris",
       "agencija": "Obradovic Nekretnine",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 55.0,
-      "cena": 1000,
-      "cena_m2": 18,
-      "sprat": "4",
+      "cena": 1200,
+      "cena_m2": 22,
+      "sprat": "IV/16",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 1000,
-      "promena_cene_pct": null,
+      "promena_cene_pct": 20.0,
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Iris|55.0|1000",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Iris|55.0|1200",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -9226,7 +9212,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 8000,
       "promena_cene_pct": -81.2,
       "first_seen": "2026-10-29",
@@ -9253,7 +9239,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
@@ -9280,7 +9266,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
@@ -9308,7 +9294,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
@@ -9335,7 +9321,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
@@ -9362,7 +9348,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-29",
@@ -9389,11 +9375,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 1|54.93|1400",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -9416,11 +9402,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|111.0|2500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -9443,11 +9429,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 1|54.0|1500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -9470,11 +9456,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Thalia|33.0|1000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -9497,11 +9483,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Sole|55.0|1600",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -9526,7 +9512,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
@@ -9554,7 +9540,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
@@ -9581,7 +9567,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
@@ -9608,7 +9594,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 15000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
@@ -9635,7 +9621,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
@@ -9662,7 +9648,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
@@ -9689,7 +9675,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
@@ -9716,7 +9702,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-30",
@@ -9743,11 +9729,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Vista|82.0|2000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -9770,11 +9756,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 750,
       "promena_cene_pct": null,
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|28.0|750",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -9797,11 +9783,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|124.0|4000",
       "zgrada_izvor": "ulica",
       "agencija_izvor": "scraper",
@@ -9824,11 +9810,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|32.0|900",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -9853,7 +9839,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-31",
@@ -9881,7 +9867,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-10-31",
@@ -9896,7 +9882,7 @@
     {
       "id": "860ac43f0ab4f86d",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6ae4f10dbdac5bf88e0f23a7",
-      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 4.000€, 124m²",
+      "naslov": "BW Residences–Lux 4-Room+2 Garage Spaces",
       "zgrada": "BW Residences",
       "agencija": null,
       "struktura": "4.0",
@@ -9909,13 +9895,13 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|124.0|4000",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": true,
       "tip_prodaje": null,
@@ -9936,7 +9922,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 900,
       "promena_cene_pct": null,
       "first_seen": "2026-10-31",
@@ -9963,7 +9949,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 2300,
       "promena_cene_pct": null,
       "first_seen": "2026-10-31",
@@ -9978,27 +9964,27 @@
     {
       "id": "9cc4cfab304fab7b",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia-nov-neuseljavan-stan-id-26224/5425647916406?kid=4",
-      "naslov": "Izdavanje, Stan, Beograd na vodi",
+      "naslov": "BW Thalia, nov, neuseljavan stan, ID 26224",
       "zgrada": "BW Thalia",
-      "agencija": "Alfa Sistem Nekretnine",
+      "agencija": "Eminent Nekretnine",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 56.0,
       "cena": 1350,
       "cena_m2": 24,
-      "sprat": "9",
+      "sprat": "IX/15",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 1350,
       "promena_cene_pct": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Thalia|56.0|1350",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -10019,11 +10005,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 2350,
       "promena_cene_pct": -10.6,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Perla|70.42|2100",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -10034,7 +10020,7 @@
     {
       "id": "96fae88c6227f83c",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-3-0-stan/5425647915420?kid=4",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 1.700€, 75m²",
+      "naslov": "BW Iris-3.0 stan",
       "zgrada": "BW Iris",
       "agencija": "Astranowa",
       "struktura": "3.0",
@@ -10047,13 +10033,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Iris|75.0|1700",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -10062,7 +10048,7 @@
     {
       "id": "d964843116c55772",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia-nov-neuseljavan-dvosoban-stan/5425647915703?kid=3",
-      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.350€, 56m²",
+      "naslov": "BW Thalia, Nov neuseljavan dvosoban stan",
       "zgrada": "BW Thalia",
       "agencija": "Tukodi",
       "struktura": "2.0",
@@ -10075,13 +10061,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 1350,
       "promena_cene_pct": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Thalia|56.0|1350",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "opis_kanon",
       "posrednik": true,
       "tip_prodaje": null,
@@ -10102,11 +10088,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Iris|80.0|1700",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -10117,7 +10103,7 @@
     {
       "id": "2da4fc4086a32c8f",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-sensa-moderan-i-kompletno-namesten-id4638/5425647914557?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.250€, 54m²",
+      "naslov": "BW Sensa, moderan i kompletno namešten ID#4638",
       "zgrada": "BW Sensa",
       "agencija": "Property Broker",
       "struktura": "2.0",
@@ -10130,13 +10116,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 1250,
       "promena_cene_pct": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Sensa|54.0|1250",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -10145,7 +10131,7 @@
     {
       "id": "a1fd96968119f384",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-simfonija---luksuzan-trosoban-stan-sa-pogl/5425647914505?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.800€, 85m²",
+      "naslov": "BW Simfonija - luksuzan trosoban stan sa pogledom",
       "zgrada": "BW Simfonija 1",
       "agencija": "Atrium",
       "struktura": "3.0",
@@ -10158,13 +10144,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Simfonija 1|85.0|2800",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -10185,7 +10171,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-02",
@@ -10212,11 +10198,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 1350,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|50.0|1350",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -10239,11 +10225,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Nika|79.0|1700",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -10266,11 +10252,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 900,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|32.0|900",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -10294,7 +10280,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
@@ -10321,11 +10307,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Terraces|104.0|3000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -10348,11 +10334,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 6000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|98.12|6000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -10375,11 +10361,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|56.76|4000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -10402,11 +10388,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Riviera|80.67|3000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -10417,7 +10403,7 @@
     {
       "id": "53abc829ca82b1d1",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-na-vodi-dvosoban-stan-55m-nov-garaza/5425647919542?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.200€, 55m²",
+      "naslov": "Beograd na vodi , dvosoban stan 55m², nov, garaža",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Kupac Magnat 3",
       "struktura": "2.0",
@@ -10430,11 +10416,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|55.0|1200",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -10457,11 +10443,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 1300,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|55.0|1300",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -10484,7 +10470,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
@@ -10511,7 +10497,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 6000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
@@ -10538,7 +10524,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
@@ -10565,7 +10551,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 1350,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
@@ -10592,7 +10578,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
@@ -10620,7 +10606,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 1600,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
@@ -10647,7 +10633,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 1350,
       "promena_cene_pct": null,
       "first_seen": "2026-11-03",
@@ -10675,11 +10661,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|55.0|1200",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -10702,11 +10688,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW St. Regis|62.59|3500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -10729,11 +10715,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|60.0|1000",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -10744,27 +10730,27 @@
     {
       "id": "e04a81c314ef14ab",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia-dvosoban-nov-neuseljivan-id19624/5425647922773?kid=1",
-      "naslov": "Izdavanje, Stan, Beograd na vodi",
+      "naslov": "BW Thalia,dvosoban,nov,neuseljivan ID#19624",
       "zgrada": "BW Thalia",
-      "agencija": "Alfa Sistem Nekretnine",
+      "agencija": "Bilding Nekretnine",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 55.0,
       "cena": 1700,
       "cena_m2": 31,
-      "sprat": "8",
+      "sprat": "VIII/18",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Thalia|55.0|1700",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -10773,7 +10759,7 @@
     {
       "id": "a302e8fbfeee7677",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia-neuseljavan-lux-sredjen-stan-id-262/5425647922671?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.700€, 55m²",
+      "naslov": "BW Thalia, neuseljavan, lux sređen stan, ID 26234",
       "zgrada": "BW Thalia",
       "agencija": "Eminent Nekretnine",
       "struktura": "2.0",
@@ -10786,13 +10772,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Thalia|55.0|1700",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -10813,11 +10799,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Echo|86.7|1700",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -10828,7 +10814,7 @@
     {
       "id": "3e4ee25dfefae1df",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/poslovni-prostor-sa-pogledom-na-park/5425645200108?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 1.200€, 55m²",
+      "naslov": "Poslovni prostor sa pogledom na park",
       "zgrada": "BW King's Park",
       "agencija": null,
       "struktura": "2.0",
@@ -10841,11 +10827,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW King's Park|55.0|1200",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": null,
@@ -10868,11 +10854,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Eden|55.0|1500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -10895,11 +10881,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|56.0|1700",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -10922,7 +10908,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
@@ -10950,7 +10936,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
@@ -10977,7 +10963,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
@@ -11005,7 +10991,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
@@ -11033,7 +11019,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1350,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
@@ -11060,7 +11046,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
@@ -11088,7 +11074,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
@@ -11116,7 +11102,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1300,
       "promena_cene_pct": null,
       "first_seen": "2026-11-04",
@@ -11143,11 +11129,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 2700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Terra|111.0|2700",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -11158,7 +11144,7 @@
     {
       "id": "dee9c9f1ed11ed9d",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park-odlican-za-pp-id-23774/5425645202494?kid=4",
-      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.200€, 55m²",
+      "naslov": "BW Kings Park, odličan za pp, ID 23774",
       "zgrada": "BW King's Park",
       "agencija": "Eminent Nekretnine",
       "struktura": "2.0",
@@ -11171,13 +11157,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW King's Park|55.0|1200",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -11198,11 +11184,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|35.0|1200",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -11225,11 +11211,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Metropolitan|51.0|1200",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -11240,7 +11226,7 @@
     {
       "id": "2c64447d9d4ff86b",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park-22-beograd-na-vodi-polunamesten/5425647928240?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.200€, 55m²",
+      "naslov": "BW Kings park 22 | Beograd na vodi | Polunamešten",
       "zgrada": "BW King's Park",
       "agencija": "Kredium",
       "struktura": "2.0",
@@ -11253,13 +11239,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW King's Park|55.0|1200",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -11280,11 +11266,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|55.0|1700",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -11307,11 +11293,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Metropolitan|68.03|1700",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -11334,11 +11320,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Residences|63.0|1800",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -11361,11 +11347,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW King's Park|55.0|1200",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -11388,11 +11374,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Simfonija 1|60.0|1500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -11415,11 +11401,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1350,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|50.0|1350",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -11430,12 +11416,12 @@
     {
       "id": "7a675f1f0ab5a3ce",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6aec6b3e6e2a22785f046374",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 71m²",
+      "naslov": "Trosoban | BW Sensa | Dva garažna mesta",
       "zgrada": "BW Sensa",
       "agencija": "Kadena Sotheby's",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 71.0,
+      "m2": 71.24,
       "cena": 2000,
       "cena_m2": 28,
       "sprat": "VI/8",
@@ -11443,13 +11429,13 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
-      "dedup_key": "BW Sensa|71.0|2000",
-      "zgrada_izvor": "opis_agenta",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Sensa|71.24|2000",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -11458,7 +11444,7 @@
     {
       "id": "26a3274e747142c4",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6aec77a99fa956b5e207153a",
-      "naslov": "Dvosoban stan za izdavanje, Hercegovacka, 1.500€, 60m²",
+      "naslov": "Izdaje se 2.0 stan, Savski venac (Beograd na vodi)",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Varnnekretnine",
       "struktura": "2.0",
@@ -11471,11 +11457,11 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|60.0|1500",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -11486,27 +11472,27 @@
     {
       "id": "73ab15084cd4d679",
       "url": "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6aec7079f52cf90a210c3af9",
-      "naslov": "Izdavanje, Stan, Beograd na vodi",
+      "naslov": "BW Simfonija 24 | Premium opremljen | Garaža",
       "zgrada": "BW Simfonija 2",
-      "agencija": "Alfa Sistem Nekretnine",
+      "agencija": "Kredium",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 60.0,
       "cena": 1500,
       "cena_m2": 25,
-      "sprat": "1",
+      "sprat": "I/14",
       "izvori": [
         "4zida",
         "nadjidom",
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Simfonija 2|60.0|1500",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -11527,7 +11513,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
@@ -11554,7 +11540,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
@@ -11581,7 +11567,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
@@ -11609,7 +11595,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
@@ -11636,7 +11622,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
@@ -11663,7 +11649,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1350,
       "promena_cene_pct": null,
       "first_seen": "2026-11-05",
@@ -11691,11 +11677,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|61.0|1500",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -11718,11 +11704,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Lumia|58.0|1400",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -11745,11 +11731,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1100,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Sole|55.0|1100",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -11772,11 +11758,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1750,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Iris|76.0|1750",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -11799,7 +11785,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -11826,7 +11812,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -11853,7 +11839,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -11880,7 +11866,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -11908,7 +11894,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -11935,7 +11921,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -11962,7 +11948,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 4000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -11989,7 +11975,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -12017,7 +12003,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 2800,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -12044,7 +12030,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 800,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -12071,7 +12057,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1850,
       "promena_cene_pct": null,
       "first_seen": "2026-11-06",
@@ -12098,7 +12084,7 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
@@ -12125,11 +12111,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Aqua|80.0|2000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -12140,7 +12126,7 @@
     {
       "id": "1dbc2e657e8e8ae9",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69666/5425647938089?kid=4",
-      "naslov": "Trosoban stan za izdavanje, Hercegovacka, 1.500€, 88m²",
+      "naslov": "Centar - Beograd na vodi BW #69666",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Beostan",
       "struktura": "3.0",
@@ -12153,11 +12139,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|88.0|1500",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -12180,11 +12166,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Perla|115.0|3000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -12207,11 +12193,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 1|54.0|1500",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -12234,11 +12220,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|58.0|1800",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -12249,7 +12235,7 @@
     {
       "id": "a7ad4e0e9f3fd6a9",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-2---nov-dvosoban-stan-za-rentu/5425647936776?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 1.300€, 56m²",
+      "naslov": "BW Quartet 2 - nov dvosoban stan za rentu",
       "zgrada": "BW Quartet 2",
       "agencija": "Atrium",
       "struktura": "2.0",
@@ -12262,13 +12248,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1300,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 2|56.0|1300",
-      "zgrada_izvor": "opis_agenta",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -12289,7 +12275,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
@@ -12317,7 +12303,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
@@ -12344,7 +12330,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
@@ -12371,7 +12357,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
@@ -12398,7 +12384,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
@@ -12426,7 +12412,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 1800,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
@@ -12453,11 +12439,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW Quartet 4|78.0|1500",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -12480,11 +12466,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW King's Park|55.0|1200",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -12507,11 +12493,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1200,
       "promena_cene_pct": null,
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "BW (neidentifikovano)|55.0|1200",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -12534,7 +12520,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-08",
@@ -12562,7 +12548,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-11-08",
@@ -12573,6 +12559,60 @@
       "posrednik": true,
       "tip_prodaje": null,
       "zgrada_orig": "BW Iris",
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "e085b2fbaffdcedf",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nika-prazan-od-pravnog-lica-garaza/5425647949327?kid=4",
+      "naslov": "Nika, prazan od pravnog lica, garaza",
+      "zgrada": "BW Nika",
+      "agencija": "Premium Real Estate",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 75.0,
+      "cena": 1400,
+      "cena_m2": 19,
+      "sprat": "V/25",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1400,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW Nika|75.0|1400",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "20c11c6a34587ec4",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kancelarija-show-room-sa-pogledom-na-park/5425647945342?kid=4",
+      "naslov": "Kancelarija, show room sa pogledom na park",
+      "zgrada": "BW King's Park",
+      "agencija": "Premium Real Estate",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "cena": 1200,
+      "cena_m2": 22,
+      "sprat": "III/24",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1200,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "dedup_key": "BW King's Park|55.0|1200",
+      "zgrada_izvor": "opis",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
   ]
