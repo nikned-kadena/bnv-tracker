@@ -29309,9 +29309,9 @@
     "1429ccbd357ab8f5": {
       "uid": "1429ccbd357ab8f5",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-07",
-      "is_active": false,
-      "deactivated_at": "2026-09-09",
+      "last_seen": "2026-11-09",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "e9a18892ff29d792",
       "fp_strict_all": [
         "351df367ef6295ce"
@@ -29324,7 +29324,9 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/quartet-kompletno-namesten-uskoro-useljiv-id1/5425647593459?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/quartet-kompletno-namesten-uskoro-useljiv-id1/5425647593459?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/quartet-kompletno-namesten-uskoro-useljiv-id1/5425647593459?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/quartet-kompletno-namesten-useljiv-id1214/5425647593459?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/quartet-kompletno-namesten-useljiv-id1214/5425647593459?kid=1"
       ],
       "zgrada": "BW Quartet 1",
       "struktura": "3.0",
@@ -29332,12 +29334,19 @@
       "m2": 83.29,
       "sprat": "IV/8",
       "agencija": null,
-      "naslov": "Quartet, kompletno namešten, uskoro useljiv ID#121",
+      "naslov": "Quartet, kompletno namešten, useljiv ID#1214",
       "price_first": 1800,
       "price_current": 1800,
       "price_changes": [],
-      "days_listed": 11,
-      "cena_m2": 22
+      "days_listed": 72,
+      "cena_m2": 22,
+      "last_seen_src": {
+        "halo": "2026-11-09"
+      },
+      "fp_nosprat_all": [
+        "a975ff621c488906"
+      ],
+      "fp_nosprat": "a975ff621c488906"
     },
     "bed3656aa1345568": {
       "uid": "bed3656aa1345568",
@@ -51137,7 +51146,7 @@
     "ed8b17eefba3e808": {
       "uid": "ed8b17eefba3e808",
       "first_seen": "2026-10-16",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "651589d3e9ccd625",
@@ -51159,7 +51168,7 @@
       ],
       "last_seen_src": {
         "4zida": "2026-11-08",
-        "halo": "2026-11-06",
+        "halo": "2026-11-09",
         "nadjidom": "2026-11-05"
       },
       "source_ids": {
@@ -51178,9 +51187,9 @@
       "m2": 78.0,
       "sprat": "V",
       "agencija": "KADENASothebys",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.100€, 78m²",
+      "naslov": "Trosoban | BW Nika | Ekskluzivna lokacija",
       "price_first": 2100,
-      "price_current": 2100,
+      "price_current": 1800,
       "price_changes": [
         {
           "date": "2026-10-26",
@@ -51301,10 +51310,15 @@
           "date": "2026-11-06",
           "from": 1800,
           "to": 2100
+        },
+        {
+          "date": "2026-11-09",
+          "from": 2100,
+          "to": 1800
         }
       ],
       "days_listed": 24,
-      "cena_m2": 27
+      "cena_m2": 23
     },
     "9887af47018c55da": {
       "uid": "9887af47018c55da",
@@ -51836,7 +51850,7 @@
       "m2": 58.0,
       "sprat": "XII/23",
       "agencija": null,
-      "naslov": "Izdajem 40 stanova na BW, direkt od vlasnika",
+      "naslov": "Izdajem stan na BW, direkt od vlasnika",
       "price_first": 2099,
       "price_current": 1899,
       "price_changes": [
@@ -53882,7 +53896,8 @@
         "18f5aabfe4dd3067"
       ],
       "fp_strict_all": [
-        "47be48462e2410a3"
+        "47be48462e2410a3",
+        "6c8aea1b1065c886"
       ],
       "sources": [
         "halo"
@@ -53904,10 +53919,16 @@
       "agencija": null,
       "naslov": "BW Kings Park| 3 Bedroom| Pogled na Park",
       "price_first": 2900,
-      "price_current": 2900,
-      "price_changes": [],
+      "price_current": 2500,
+      "price_changes": [
+        {
+          "date": "2026-11-09",
+          "from": 2900,
+          "to": 2500
+        }
+      ],
       "days_listed": 18,
-      "cena_m2": 32
+      "cena_m2": 27
     },
     "16e7e77672233413": {
       "uid": "16e7e77672233413",
@@ -54914,7 +54935,8 @@
         "halo": "5425647194118"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-2-bedrooms-parking/5425647194118?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-2-bedrooms-parking/5425647194118?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-2-bedrooms-parking/5425647194118?kid=1"
       ],
       "zgrada": "BW Iris",
       "struktura": "3.0",
@@ -57966,7 +57988,8 @@
         "f76b2cf0f95c833f"
       ],
       "fp_strict_all": [
-        "14c5aafdb8c8e94c"
+        "14c5aafdb8c8e94c",
+        "e0a6264502ad638a"
       ],
       "sources": [
         "halo",
@@ -57993,10 +58016,16 @@
       "agencija": "SonataProperties",
       "naslov": "Bw Quartet 4, 3.0, Pogled na Kulu, Parking",
       "price_first": 2300,
-      "price_current": 2300,
-      "price_changes": [],
+      "price_current": 2200,
+      "price_changes": [
+        {
+          "date": "2026-11-09",
+          "from": 2300,
+          "to": 2200
+        }
+      ],
       "days_listed": 11,
-      "cena_m2": 29
+      "cena_m2": 28
     },
     "500903945383b2cd": {
       "uid": "500903945383b2cd",
@@ -60655,7 +60684,7 @@
     "0b77306eeb331f55": {
       "uid": "0b77306eeb331f55",
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "542316f9c2080f3e",
@@ -60670,24 +60699,28 @@
         "26d34d2923cd3520"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-08"
+        "4zida": "2026-11-08",
+        "halo": "2026-11-09"
       },
       "source_ids": {
-        "4zida": "4zida:6ae9c65fee9d781e58050a42"
+        "4zida": "4zida:6ae9c65fee9d781e58050a42",
+        "halo": "5425647914503"
       },
       "source_urls": [
-        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6ae9c65fee9d781e58050a42"
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6ae9c65fee9d781e58050a42",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia-nov-neuseljavan-stan-2-0/5425647914503?kid=1"
       ],
       "zgrada": "BW Thalia",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 56.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 1.350€, 56m²",
+      "sprat": "IX/15",
+      "agencija": "Exporealestate",
+      "naslov": "Bw Thalia | Nov, neuseljavan stan 2.0",
       "price_first": 1350,
       "price_current": 1350,
       "price_changes": [],
@@ -64100,7 +64133,8 @@
       "price_first": 1400,
       "price_current": 1400,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 19
     },
     "20c11c6a34587ec4": {
       "uid": "20c11c6a34587ec4",
@@ -64141,10 +64175,216 @@
       "price_first": 1200,
       "price_current": 1200,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 22
+    },
+    "2d7444373fcc8c37": {
+      "uid": "2d7444373fcc8c37",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "f2afbf48887a37b3",
+      "fp_loose_all": [
+        "f2afbf48887a37b3"
+      ],
+      "fp_nosprat": "89b03770953dc1ea",
+      "fp_nosprat_all": [
+        "89b03770953dc1ea"
+      ],
+      "fp_strict_all": [
+        "b6fc9a82c64286e0"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-09"
+      },
+      "source_ids": {
+        "halo": "5425647949774"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-ekskluzivan-trosoban-lux-stan-garaza/5425647949774?kid=4"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.0,
+      "sprat": "VII/8",
+      "agencija": null,
+      "naslov": "BW-Ekskluzivan trosoban lux stan,garaža",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "48a206631f626b9c": {
+      "uid": "48a206631f626b9c",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "c3229aac3819fc01",
+      "fp_loose_all": [
+        "c3229aac3819fc01"
+      ],
+      "fp_nosprat": "e050b72356bd221d",
+      "fp_nosprat_all": [
+        "e050b72356bd221d"
+      ],
+      "fp_strict_all": [
+        "afacd23c8c915dc3"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-09"
+      },
+      "source_ids": {
+        "halo": "5425647949747"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-verde-31m2/5425647949747?kid=4"
+      ],
+      "zgrada": "BW Verde",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 31.0,
+      "sprat": "IX/23",
+      "agencija": "MaxisGroup1",
+      "naslov": "BW Verde, 31m2",
+      "price_first": 1000,
+      "price_current": 1000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "303aacd0de21775a": {
+      "uid": "303aacd0de21775a",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d086cce8d44d8c72",
+      "fp_loose_all": [
+        "d086cce8d44d8c72"
+      ],
+      "fp_nosprat": "a6610b5d7b993b37",
+      "fp_nosprat_all": [
+        "a6610b5d7b993b37"
+      ],
+      "fp_strict_all": [
+        "4803cd85d820fcb9"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-09"
+      },
+      "source_ids": {
+        "halo": "5425647949646"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet--odmah-dostupan/5425647949646?kid=4"
+      ],
+      "zgrada": "BW Quartet 1",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.0,
+      "sprat": "IV/8",
+      "agencija": "Vesnarb1",
+      "naslov": "BW Quartet- odmah dostupan",
+      "price_first": 2200,
+      "price_current": 2200,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "b4eb5a96f051e2d6": {
+      "uid": "b4eb5a96f051e2d6",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "f1d20afabb7046e5",
+      "fp_loose_all": [
+        "f1d20afabb7046e5"
+      ],
+      "fp_nosprat": "a20c83d46f8f57c4",
+      "fp_nosprat_all": [
+        "a20c83d46f8f57c4"
+      ],
+      "fp_strict_all": [
+        "d492399b1145d84f"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-09"
+      },
+      "source_ids": {
+        "halo": "5425647949537"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-sole-06-beograd-na-vodi-polunamesten-stan/5425647949537?kid=1"
+      ],
+      "zgrada": "BW Sole",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 75.0,
+      "sprat": "V/17",
+      "agencija": "Kredium",
+      "naslov": "BW Sole 06 Beograd na vodi | Polunamešten stan",
+      "price_first": 1400,
+      "price_current": 1400,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "08af8cae2d58a4de": {
+      "uid": "08af8cae2d58a4de",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "98768e409ad1d2c8",
+      "fp_loose_all": [
+        "98768e409ad1d2c8"
+      ],
+      "fp_nosprat": "602c1b4a046a6c89",
+      "fp_nosprat_all": [
+        "602c1b4a046a6c89"
+      ],
+      "fp_strict_all": [
+        "a4cb4a335b3b243e"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-09"
+      },
+      "source_ids": {
+        "halo": "5425647936733"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/savski-venac-renoviran-dvosoban-stan-55-m/5425647936733?kid=1"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "sprat": "I/2",
+      "agencija": "Exporealestate",
+      "naslov": "Savski Venac | Renoviran dvosoban stan, 55 m²",
+      "price_first": 800,
+      "price_current": 800,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-09T07:03:52.450145+00:00",
+  "updated_at": "2026-11-09T13:13:27.059199+00:00",
   "last_run": {
     "4zida": "2026-11-08",
     "nadjidom": "2026-11-08",

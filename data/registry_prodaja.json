@@ -5204,7 +5204,7 @@
     "09bc6924bb9d344f": {
       "uid": "09bc6924bb9d344f",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "188835639deabe4e",
@@ -5234,7 +5234,7 @@
       "days_listed": 153,
       "cena_m2": 7339,
       "last_seen_src": {
-        "halo": "2026-11-08"
+        "halo": "2026-11-09"
       },
       "fp_nosprat_all": [
         "717160717a4f6c0f"
@@ -21886,13 +21886,14 @@
     "c3ec0052f55867ec": {
       "uid": "c3ec0052f55867ec",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "91253680c336b1c4",
       "fp_strict_all": [
         "b38d6715bbe640d6",
-        "9cf1638ff75a1ec8"
+        "9cf1638ff75a1ec8",
+        "177b8629a7efc342"
       ],
       "sources": [
         "halo",
@@ -21912,12 +21913,12 @@
       "zgrada": "BW St. Regis",
       "struktura": "2.0",
       "str_label": "Dvosoban",
-      "m2": 62.0,
+      "m2": 61.65,
       "sprat": null,
       "agencija": "KADENASothebys",
-      "naslov": "Dvosoban stan na prodaju, Nikolaja Kravcova 1, 604.000€, 62m²",
+      "naslov": "Dvosoban| BW St. Regis | Pogled na reku",
       "price_first": 599000,
-      "price_current": 604000,
+      "price_current": 585000,
       "price_changes": [
         {
           "date": "2026-09-30",
@@ -22073,13 +22074,18 @@
           "date": "2026-11-07",
           "from": 599000,
           "to": 604000
+        },
+        {
+          "date": "2026-11-09",
+          "from": 604000,
+          "to": 585000
         }
       ],
       "days_listed": 137,
-      "cena_m2": 9742,
+      "cena_m2": 9489,
       "deactivation_uncertain": true,
       "last_seen_src": {
-        "halo": "2026-11-07",
+        "halo": "2026-11-09",
         "4zida": "2026-11-08"
       },
       "fp_nosprat_all": [
@@ -44655,16 +44661,21 @@
       "agencija": null,
       "naslov": "BW Quartet 4 | Dom sa stilom | Sunčan stan | 2 bdr",
       "price_first": 370000,
-      "price_current": 360000,
+      "price_current": 370000,
       "price_changes": [
         {
           "date": "2026-11-05",
           "from": 370000,
           "to": 360000
+        },
+        {
+          "date": "2026-11-09",
+          "from": 360000,
+          "to": 370000
         }
       ],
       "days_listed": 40,
-      "cena_m2": 4591
+      "cena_m2": 4718
     },
     "625b370a60fc5bb7": {
       "uid": "625b370a60fc5bb7",
@@ -64969,7 +64980,7 @@
     "ed00751e1b952666": {
       "uid": "ed00751e1b952666",
       "first_seen": "2026-10-09",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0129ecab0fe8ed38",
@@ -64987,7 +64998,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-08"
+        "halo": "2026-11-09"
       },
       "source_ids": {
         "halo": "5425647797685"
@@ -72025,7 +72036,8 @@
         "halo": "5425647936070"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw---najbolje-organizovan-stan-po-povoljnoj-c/5425647936070"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw---najbolje-organizovan-stan-po-povoljnoj-c/5425647936070",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw---najbolje-organizovan-stan-po-povoljnoj-c/5425647936070?kid=3"
       ],
       "zgrada": "BW Garden Palace",
       "struktura": "2.0",
@@ -72109,7 +72121,8 @@
         "halo": "5425647938046"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-pogled-na-kalemegdan-i-reku-premiu/5425647938046?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-pogled-na-kalemegdan-i-reku-premiu/5425647938046?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-pogled-na-kalemegdan-i-reku-premiu/5425647938046?kid=4"
       ],
       "zgrada": "BW Riviera",
       "struktura": "5.0",
@@ -72414,7 +72427,8 @@
       "price_first": 749000,
       "price_current": 749000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5388
     },
     "e5f9ef2b8473e0c9": {
       "uid": "e5f9ef2b8473e0c9",
@@ -72455,10 +72469,52 @@
       "price_first": 740000,
       "price_current": 740000,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 6708
+    },
+    "8810896c66932fde": {
+      "uid": "8810896c66932fde",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "9ce1f13d543d1ab7",
+      "fp_loose_all": [
+        "9ce1f13d543d1ab7"
+      ],
+      "fp_nosprat": "386b034bce69fb40",
+      "fp_nosprat_all": [
+        "386b034bce69fb40"
+      ],
+      "fp_strict_all": [
+        "23563559152c52c9"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-09"
+      },
+      "source_ids": {
+        "halo": "5425647949576"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-azura-prestizna-lokacija-uz-reku-bez-provi/5425647949576?kid=1"
+      ],
+      "zgrada": "BW Azura",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 50.0,
+      "sprat": "VII/17",
+      "agencija": "PropertyBroker",
+      "naslov": "BW Azura, prestižna lokacija uz reku, bez provizij",
+      "price_first": 228989,
+      "price_current": 228989,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-09T07:02:34.677533+00:00",
+  "updated_at": "2026-11-09T13:12:17.275264+00:00",
   "last_run": {
     "4zida": "2026-11-08",
     "nadjidom": "2026-11-08",
