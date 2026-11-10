@@ -35930,7 +35930,7 @@
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 59.0,
-      "sprat": "II",
+      "sprat": "IV",
       "agencija": "SonataProperties",
       "naslov": "Bw Lumia, 1 Bedroom, Parking",
       "price_first": 1000,
@@ -51794,7 +51794,8 @@
         "d76a085e6c311650"
       ],
       "fp_strict_all": [
-        "96a4a8b26140126f"
+        "96a4a8b26140126f",
+        "6d0090a7ca5d2c29"
       ],
       "sources": [
         "halo",
@@ -51824,10 +51825,16 @@
       "agencija": "symbol-properties-doo-beograd",
       "naslov": "Lux 4.0- bazen, teretana, 2 garažna mesta, ID 8697",
       "price_first": 4000,
-      "price_current": 4000,
-      "price_changes": [],
+      "price_current": 3600,
+      "price_changes": [
+        {
+          "date": "2026-11-10",
+          "from": 4000,
+          "to": 3600
+        }
+      ],
       "days_listed": 22,
-      "cena_m2": 32
+      "cena_m2": 29
     },
     "0e365ed2522e7d41": {
       "uid": "0e365ed2522e7d41",
@@ -54199,9 +54206,9 @@
     "e842766664726b29": {
       "uid": "e842766664726b29",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-06",
-      "is_active": false,
-      "deactivated_at": "2026-11-08",
+      "last_seen": "2026-11-10",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "5d09c06ab22fdcff",
       "fp_loose_all": [
         "5d09c06ab22fdcff"
@@ -54219,7 +54226,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-06"
+        "halo": "2026-11-10"
       },
       "source_ids": {
         "halo": "5425647862269"
@@ -54237,7 +54244,7 @@
       "price_first": 1300,
       "price_current": 1300,
       "price_changes": [],
-      "days_listed": 17,
+      "days_listed": 19,
       "cena_m2": 24
     },
     "e3f318ffff9d771a": {
@@ -56087,7 +56094,8 @@
         "d76a085e6c311650"
       ],
       "fp_strict_all": [
-        "96a4a8b26140126f"
+        "96a4a8b26140126f",
+        "6d0090a7ca5d2c29"
       ],
       "sources": [
         "halo",
@@ -56113,10 +56121,16 @@
       "agencija": "art-nekretnine-d-o-o",
       "naslov": "BW- stan sa dva garažna mesta ID#16851",
       "price_first": 4000,
-      "price_current": 4000,
-      "price_changes": [],
+      "price_current": 3600,
+      "price_changes": [
+        {
+          "date": "2026-11-10",
+          "from": 4000,
+          "to": 3600
+        }
+      ],
       "days_listed": 14,
-      "cena_m2": 32
+      "cena_m2": 29
     },
     "405c19b23618cd13": {
       "uid": "405c19b23618cd13",
@@ -64877,7 +64891,8 @@
       "price_first": 1250,
       "price_current": 1250,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 15
     },
     "7fb6871fd34fa32e": {
       "uid": "7fb6871fd34fa32e",
@@ -64961,7 +64976,8 @@
       "price_first": 1800,
       "price_current": 1800,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 25
     },
     "745eeb06da38f3dc": {
       "uid": "745eeb06da38f3dc",
@@ -65002,7 +65018,8 @@
       "price_first": 1300,
       "price_current": 1300,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 17
     },
     "29661b257f316c53": {
       "uid": "29661b257f316c53",
@@ -65043,10 +65060,11 @@
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 32
     }
   },
-  "updated_at": "2026-11-10T07:03:55.838498+00:00",
+  "updated_at": "2026-11-10T12:54:42.440811+00:00",
   "last_run": {
     "4zida": "2026-11-09",
     "nadjidom": "2026-11-09",
