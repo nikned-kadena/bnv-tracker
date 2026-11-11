@@ -3,11 +3,12 @@
   "source": "all",
   "date": "2026-11-11",
   "scraped_at": "2026-11-11",
-  "total_raw": 880,
-  "total_unique": 713,
+  "total_raw": 881,
+  "total_unique": 714,
   "total_dups": 167,
   "diff_new": [
-    "e20339b4933a57c8"
+    "e20339b4933a57c8",
+    "6f1916c06c4c21ce"
   ],
   "diff_removed": [
     "5bff06fefa10797a",
@@ -24197,6 +24198,33 @@
       "first_seen": "2026-11-11",
       "last_seen": "2026-11-11",
       "dedup_key": "BW Dolce|96.6|495000",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": "resale",
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "6f1916c06c4c21ce",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-aria-35m2/5425647966507?kid=1",
+      "naslov": "BW Aria, 35m2",
+      "zgrada": "BW Aria",
+      "agencija": "Maxis Group",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 35.0,
+      "cena": 218000,
+      "cena_m2": 6229,
+      "sprat": "I/20",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 218000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "dedup_key": "BW Aria|35.0|218000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
