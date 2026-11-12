@@ -3,14 +3,14 @@
   "generated": "2026-11-12",
   "pocetak_pracenja": "2026-06-09",
   "ukupno": {
-    "n_zavrseni": 725,
-    "n_aktivni": 882,
+    "n_zavrseni": 726,
+    "n_aktivni": 881,
     "dom_medijana": 101,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 25,
     "starost_aktivnih_medijana": 43,
-    "udeo_jos_u_ponudi": 0.3512,
+    "udeo_jos_u_ponudi": 0.3489,
     "udeo_aktivnih_pct": 55,
     "skinuti_p25": 8,
     "skinuti_p75": 61,
@@ -191,7 +191,7 @@
       },
       {
         "dan": 152,
-        "preziveli": 0.3562
+        "preziveli": 0.3538
       }
     ]
   },
@@ -254,15 +254,15 @@
       ]
     },
     "BW (neidentifikovano)": {
-      "n_zavrseni": 109,
-      "n_aktivni": 81,
+      "n_zavrseni": 110,
+      "n_aktivni": 80,
       "dom_medijana": 49,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 16,
       "starost_aktivnih_medijana": 43,
-      "udeo_jos_u_ponudi": 0.224,
-      "udeo_aktivnih_pct": 43,
+      "udeo_jos_u_ponudi": 0.2016,
+      "udeo_aktivnih_pct": 42,
       "skinuti_p25": 7,
       "skinuti_p75": 39,
       "brzo_do_30d": 65,
@@ -463,6 +463,10 @@
         {
           "dan": 144,
           "preziveli": 0.224
+        },
+        {
+          "dan": 152,
+          "preziveli": 0.2016
         }
       ]
     },
@@ -4582,17 +4586,17 @@
       ]
     },
     "Četvorosoban": {
-      "n_zavrseni": 139,
-      "n_aktivni": 232,
+      "n_zavrseni": 140,
+      "n_aktivni": 231,
       "dom_medijana": 135,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 32,
       "starost_aktivnih_medijana": 43,
-      "udeo_jos_u_ponudi": 0.4473,
-      "udeo_aktivnih_pct": 63,
-      "skinuti_p25": 9,
-      "skinuti_p75": 82,
+      "udeo_jos_u_ponudi": 0.4374,
+      "udeo_aktivnih_pct": 62,
+      "skinuti_p25": 10,
+      "skinuti_p75": 83,
       "brzo_do_30d": 47,
       "sporo_preko_180d": 0,
       "kriva": [
@@ -4903,6 +4907,10 @@
         {
           "dan": 144,
           "preziveli": 0.4473
+        },
+        {
+          "dan": 152,
+          "preziveli": 0.4374
         }
       ]
     }
@@ -4910,37 +4918,37 @@
   "cena_vs_dom": [
     {
       "kvartil": "najjeftiniji 25%",
-      "n": 179,
-      "cena_medijana": 222000,
+      "n": 180,
+      "cena_medijana": 222312,
       "dom_medijana": 18
     },
     {
       "kvartil": "25-50%",
-      "n": 179,
-      "cena_medijana": 333888,
-      "dom_medijana": 24
+      "n": 180,
+      "cena_medijana": 336444,
+      "dom_medijana": 25
     },
     {
       "kvartil": "50-75%",
-      "n": 179,
-      "cena_medijana": 442000,
-      "dom_medijana": 29
+      "n": 180,
+      "cena_medijana": 445350,
+      "dom_medijana": 30
     },
     {
       "kvartil": "najskuplji 25%",
-      "n": 182,
-      "cena_medijana": 771364,
+      "n": 180,
+      "cena_medijana": 774222,
       "dom_medijana": 32
     }
   ],
   "cene": {
     "oglasa_sa_promenom": 330,
-    "ukupno_snizenja": 926,
+    "ukupno_snizenja": 936,
     "prosecno_snizenje_pct": 3.4
   },
   "izvori": {
     "halo": 1235,
-    "4zida": 642,
+    "4zida": 643,
     "nadjidom": 122
   },
   "napomena": "dom_medijana je Kaplan-Meier procena i JEDINI broj koji se citira kao trajanje oglasa. Aktivni oglasi ulaze u racun kao cenzurisana opazanja (trajali su BAR toliko), umesto da se izbace. naivna_medijana_samo_skinuti je kontrolni broj koji gleda samo zatvorene oglase i sistematski je POTCENJEN — na NB prodaji je davao 13 dana naspram stvarnih 29. Ne citirati ga. starost_aktivnih_medijana je koliko vec stoje oglasi koji su jos u ponudi; to je donja granica, ne trajanje. Medijana se prikazuje tek od 5 oglasa u grupi."
