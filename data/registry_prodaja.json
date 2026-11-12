@@ -45673,7 +45673,7 @@
     "7fd46a2936b275c5": {
       "uid": "7fd46a2936b275c5",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3ea758eb4817e153",
@@ -45685,32 +45685,43 @@
         "78112db28057905a"
       ],
       "fp_strict_all": [
-        "61c118031de81743"
+        "61c118031de81743",
+        "b064727b27a0c71f"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-11"
+        "4zida": "2026-11-11",
+        "halo": "2026-11-12"
       },
       "source_ids": {
-        "4zida": "4zida:6a1e757ac6a5e2060c0bff14"
+        "4zida": "4zida:6a1e757ac6a5e2060c0bff14",
+        "halo": "5425646908951"
       },
       "source_urls": [
-        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/jednosoban-stan/6a1e757ac6a5e2060c0bff14"
+        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/jednosoban-stan/6a1e757ac6a5e2060c0bff14",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-bela-studio/5425646908951?kid=1"
       ],
       "zgrada": "BW Bella",
       "struktura": "1.0",
       "str_label": "Garsonjera/Studio",
-      "m2": 41.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Jednosoban stan na prodaju, Bulevar Vudroa Vilsona, 250.000€, 41m²",
+      "m2": 40.62,
+      "sprat": "XVI/20",
+      "agencija": "MaxisGroup1",
+      "naslov": "BW Bela, studio",
       "price_first": 250000,
-      "price_current": 250000,
-      "price_changes": [],
+      "price_current": 248500,
+      "price_changes": [
+        {
+          "date": "2026-11-12",
+          "from": 250000,
+          "to": 248500
+        }
+      ],
       "days_listed": 43,
-      "cena_m2": 6098
+      "cena_m2": 6118
     },
     "72c47bc69e4550e2": {
       "uid": "72c47bc69e4550e2",
@@ -51893,7 +51904,7 @@
     "d7a2c0837dfc94c5": {
       "uid": "d7a2c0837dfc94c5",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0699c30da5294023",
@@ -51906,38 +51917,48 @@
       ],
       "fp_strict_all": [
         "a8b4a2153d5ce9cc",
-        "7abead895541bb51"
+        "7abead895541bb51",
+        "7315c78399f7b460"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-11"
+        "4zida": "2026-11-11",
+        "halo": "2026-11-12"
       },
       "source_ids": {
-        "4zida": "4zida:6ab0eeeaf4b4ecab3c0a3d09"
+        "4zida": "4zida:6ab0eeeaf4b4ecab3c0a3d09",
+        "halo": "5425646908162"
       },
       "source_urls": [
-        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6ab0eeeaf4b4ecab3c0a3d09"
+        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6ab0eeeaf4b4ecab3c0a3d09",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-bella-2-0/5425646908162?kid=1"
       ],
       "zgrada": "BW Bella",
       "struktura": "2.0",
       "str_label": "Dvosoban",
-      "m2": 54.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Dvosoban stan na prodaju, Bulevar Vudroa Vilsona, 307.888€, 54m²",
+      "m2": 54.24,
+      "sprat": "XV/20",
+      "agencija": "MaxisGroup1",
+      "naslov": "BW Bella, 2.0",
       "price_first": 306888,
-      "price_current": 307888,
+      "price_current": 320000,
       "price_changes": [
         {
           "date": "2026-11-01",
           "from": 306888,
           "to": 307888
+        },
+        {
+          "date": "2026-11-12",
+          "from": 307888,
+          "to": 320000
         }
       ],
       "days_listed": 43,
-      "cena_m2": 5702
+      "cena_m2": 5900
     },
     "91d93e2c76a95dc3": {
       "uid": "91d93e2c76a95dc3",
@@ -63556,9 +63577,9 @@
     "f579974d7a759be0": {
       "uid": "f579974d7a759be0",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-10-29",
-      "is_active": false,
-      "deactivated_at": "2026-10-31",
+      "last_seen": "2026-11-12",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "546817216eebfe46",
       "fp_loose_all": [
         "546817216eebfe46"
@@ -63574,13 +63595,14 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-10-29"
+        "halo": "2026-11-12"
       },
       "source_ids": {
         "halo": "5425647725434"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-victoria-2-0-69m2/5425647725434"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-victoria-2-0-69m2/5425647725434",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-victoria-2-0-69m2/5425647725434?kid=1"
       ],
       "zgrada": "BW Victoria",
       "struktura": "2.0",
@@ -63592,7 +63614,7 @@
       "price_first": 379000,
       "price_current": 379000,
       "price_changes": [],
-      "days_listed": 24,
+      "days_listed": 36,
       "cena_m2": 5493
     },
     "9fb5d4897eaa50d6": {
@@ -66058,7 +66080,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/petosoban-bw-thalia-penthaus/5425647813990?kid=4",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/sestosoban-bw-thalia-penthaus/5425647813990?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/sestosoban-bw-thalia-penthaus/5425647813990?kid=4",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/sestosoban-bw-thalia-penthaus/5425647813990?kid=1"
       ],
       "zgrada": "BW Thalia",
       "struktura": "4.0",
@@ -67904,7 +67927,8 @@
         "2d16d38b83af6750"
       ],
       "fp_strict_all": [
-        "368a966ecdb156fa"
+        "368a966ecdb156fa",
+        "98d0d651421dd0ae"
       ],
       "sources": [
         "halo"
@@ -67926,10 +67950,16 @@
       "agencija": "Vesnarb1",
       "naslov": "BW Eden - Trosoban stan - Apollo centar",
       "price_first": 400000,
-      "price_current": 400000,
-      "price_changes": [],
+      "price_current": 380000,
+      "price_changes": [
+        {
+          "date": "2026-11-12",
+          "from": 400000,
+          "to": 380000
+        }
+      ],
       "days_listed": 25,
-      "cena_m2": 4978
+      "cena_m2": 4729
     },
     "41a27f8af9992fc5": {
       "uid": "41a27f8af9992fc5",
@@ -70000,7 +70030,8 @@
         "halo": "5425647896034"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-petosoban-230m-pogled-na-savu/5425647896034?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-petosoban-230m-pogled-na-savu/5425647896034?kid=4",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-petosoban-230m-pogled-na-savu/5425647896034?kid=3"
       ],
       "zgrada": "BW Riviera",
       "struktura": "5.0",
@@ -72042,10 +72073,12 @@
       ],
       "fp_nosprat": "fb58626cca617afa",
       "fp_nosprat_all": [
-        "fb58626cca617afa"
+        "fb58626cca617afa",
+        "602c1b4a046a6c89"
       ],
       "fp_strict_all": [
-        "07c8941c60624cbd"
+        "07c8941c60624cbd",
+        "bdc77ffead4b6d5b"
       ],
       "sources": [
         "halo"
@@ -72057,20 +72090,27 @@
         "halo": "5425647930773"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika---studio--apollo-centar/5425647930773?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika---studio--apollo-centar/5425647930773?kid=4",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/investiciona-prilika-apollo-centar-bw/5425647930773?kid=4"
       ],
       "zgrada": "BW Nika",
       "struktura": "1.0",
       "str_label": "Garsonjera/Studio",
-      "m2": 32.44,
-      "sprat": "VII/18",
+      "m2": 54.93,
+      "sprat": "IV/16",
       "agencija": "Vesnarb1",
-      "naslov": "BW NIKA - studio- Apollo centar",
+      "naslov": "Investiciona prilika| Apollo centar | BW",
       "price_first": 195000,
-      "price_current": 195000,
-      "price_changes": [],
+      "price_current": 300000,
+      "price_changes": [
+        {
+          "date": "2026-11-12",
+          "from": 195000,
+          "to": 300000
+        }
+      ],
       "days_listed": 7,
-      "cena_m2": 6011
+      "cena_m2": 5461
     },
     "910a84b78141a446": {
       "uid": "910a84b78141a446",
@@ -73531,9 +73571,132 @@
       "price_changes": [],
       "days_listed": 1,
       "cena_m2": 6229
+    },
+    "8a6e5fbc99e916e7": {
+      "uid": "8a6e5fbc99e916e7",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "dc7175a0b2cb99c1",
+      "fp_loose_all": [
+        "dc7175a0b2cb99c1"
+      ],
+      "fp_nosprat": "4e48f45959167f4f",
+      "fp_nosprat_all": [
+        "4e48f45959167f4f"
+      ],
+      "fp_strict_all": [
+        "23c299f9cfc0c575"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-12"
+      },
+      "source_ids": {
+        "halo": "5425647971470"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-eden-trosoban-76m2-odmah-useljiv/5425647971470?kid=3"
+      ],
+      "zgrada": "BW Eden",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 76.0,
+      "sprat": "VII/20",
+      "agencija": null,
+      "naslov": "BW Eden, trosoban, 76m2, odmah useljiv",
+      "price_first": 345000,
+      "price_current": 345000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "467e4a4554d223d6": {
+      "uid": "467e4a4554d223d6",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2986541e1b46884a",
+      "fp_loose_all": [
+        "2986541e1b46884a"
+      ],
+      "fp_nosprat": "38db7cf79c48c5e6",
+      "fp_nosprat_all": [
+        "38db7cf79c48c5e6"
+      ],
+      "fp_strict_all": [
+        "7c69e6481c266d88"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-12"
+      },
+      "source_ids": {
+        "halo": "5425647971290"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-dolce-2-0/5425647971290?kid=1"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 71.55,
+      "sprat": "X/21",
+      "agencija": "MaxisGroup1",
+      "naslov": "BW Dolče, 2.0",
+      "price_first": 410600,
+      "price_current": 410600,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "afddac7fdb32ab23": {
+      "uid": "afddac7fdb32ab23",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "a8772cc9c5e2aa01",
+      "fp_loose_all": [
+        "a8772cc9c5e2aa01"
+      ],
+      "fp_nosprat": "fb3c7b934084af33",
+      "fp_nosprat_all": [
+        "fb3c7b934084af33"
+      ],
+      "fp_strict_all": [
+        "6c3634c2319e5f52"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-12"
+      },
+      "source_ids": {
+        "halo": "5425647972153"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-bw-quartet-4-137m/5425647972153?kid=1"
+      ],
+      "zgrada": "BW Quartet 4",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 137.34,
+      "sprat": "VI/9",
+      "agencija": "PremiumRealEstate",
+      "naslov": "Beograd na vodi, Bw Quartet 4, 137m²",
+      "price_first": 685000,
+      "price_current": 685000,
+      "price_changes": [],
+      "days_listed": 0
     }
   },
-  "updated_at": "2026-11-12T07:02:53.305740+00:00",
+  "updated_at": "2026-11-12T13:03:41.417341+00:00",
   "last_run": {
     "4zida": "2026-11-11",
     "nadjidom": "2026-11-11",
