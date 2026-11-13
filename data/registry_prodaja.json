@@ -27804,7 +27804,7 @@
     "7d40f5bc35cbcd1e": {
       "uid": "7d40f5bc35cbcd1e",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "106493c1a6fbb88c",
@@ -27834,7 +27834,7 @@
       "m2": 112.0,
       "sprat": "XXI/23",
       "agencija": "agencija-nekretnine-obradovic-doo",
-      "naslov": "Četvorosoban stan na prodaju, Hercegovacka, 550.000€, 112m²",
+      "naslov": "BW, ekskluzivan 4.0, pogled na reku",
       "price_first": 575000,
       "price_current": 550000,
       "price_changes": [
@@ -27847,7 +27847,7 @@
       "days_listed": 121,
       "cena_m2": 4911,
       "last_seen_src": {
-        "halo": "2026-11-12",
+        "halo": "2026-11-13",
         "4zida": "2026-11-12",
         "nadjidom": "2026-10-13"
       },
@@ -45967,7 +45967,7 @@
     "4217322148eb5eb0": {
       "uid": "4217322148eb5eb0",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ca61ee3db212cd1d",
@@ -45979,32 +45979,43 @@
         "602c1b4a046a6c89"
       ],
       "fp_strict_all": [
-        "aef1a6b2dadd4010"
+        "aef1a6b2dadd4010",
+        "326482b6905dd7de"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-12"
+        "4zida": "2026-11-12",
+        "halo": "2026-11-13"
       },
       "source_ids": {
-        "4zida": "4zida:68925a1c01489a7d3f0a6717"
+        "4zida": "4zida:68925a1c01489a7d3f0a6717",
+        "halo": "5425647976720"
       },
       "source_urls": [
-        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/68925a1c01489a7d3f0a6717"
+        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/68925a1c01489a7d3f0a6717",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-apollo-centar-55m/5425647976720?kid=4"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "2.0",
       "str_label": "Dvosoban",
-      "m2": 55.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Dvosoban stan na prodaju, Hercegovačka, 329.999€, 55m²",
+      "m2": 54.93,
+      "sprat": "XI/18",
+      "agencija": "Vesnarb1",
+      "naslov": "BW| Apollo Centar| 55m²",
       "price_first": 329999,
-      "price_current": 329999,
-      "price_changes": [],
+      "price_current": 325000,
+      "price_changes": [
+        {
+          "date": "2026-11-13",
+          "from": 329999,
+          "to": 325000
+        }
+      ],
       "days_listed": 44,
-      "cena_m2": 6000
+      "cena_m2": 5917
     },
     "b118ed9676f274af": {
       "uid": "b118ed9676f274af",
@@ -61765,7 +61776,8 @@
         "e1787cf2dfeda0d0"
       ],
       "fp_strict_all": [
-        "95ff5d6c953fcba3"
+        "95ff5d6c953fcba3",
+        "3854e2871f5ff4a1"
       ],
       "sources": [
         "halo"
@@ -61787,10 +61799,16 @@
       "agencija": "amainvestdoo",
       "naslov": "BW Victoria- panoramski pogled na ceo Beograd",
       "price_first": 370000,
-      "price_current": 370000,
-      "price_changes": [],
+      "price_current": 380000,
+      "price_changes": [
+        {
+          "date": "2026-11-13",
+          "from": 370000,
+          "to": 380000
+        }
+      ],
       "days_listed": 41,
-      "cena_m2": 5352
+      "cena_m2": 5497
     },
     "c7fb564e775659a4": {
       "uid": "c7fb564e775659a4",
@@ -66386,7 +66404,7 @@
     "659cb526769ed63a": {
       "uid": "659cb526769ed63a",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "eac087a5d3382cb2",
@@ -66409,7 +66427,7 @@
       "last_seen_src": {
         "4zida": "2026-11-12",
         "nadjidom": "2026-11-02",
-        "halo": "2026-11-12"
+        "halo": "2026-11-13"
       },
       "source_ids": {
         "4zida": "4zida:6acc8ce4cb0fc717cf04f749",
@@ -66427,9 +66445,9 @@
       "m2": 94.0,
       "sprat": "I/5",
       "agencija": "agencija-nekretnine-obradovic-doo",
-      "naslov": "Trosoban stan na prodaju, Hercegovacka, 485.000€, 94m²",
+      "naslov": "BW Magnolia - izvanredan 3.0 stan",
       "price_first": 485000,
-      "price_current": 485000,
+      "price_current": 475000,
       "price_changes": [
         {
           "date": "2026-11-03",
@@ -66530,10 +66548,15 @@
           "date": "2026-11-12",
           "from": 475000,
           "to": 485000
+        },
+        {
+          "date": "2026-11-13",
+          "from": 485000,
+          "to": 475000
         }
       ],
       "days_listed": 32,
-      "cena_m2": 5160
+      "cena_m2": 5053
     },
     "8ee7f39adea9a0e8": {
       "uid": "8ee7f39adea9a0e8",
@@ -72571,7 +72594,7 @@
     "d897969ad93fe0bd": {
       "uid": "d897969ad93fe0bd",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "07226cfe5c7c5bfb",
@@ -72589,13 +72612,14 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-12"
+        "halo": "2026-11-13"
       },
       "source_ids": {
         "halo": "5425647932682"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-vista-3-0/5425647932682?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-vista-3-0/5425647932682?kid=4",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-vista-3-0/5425647932682?kid=3"
       ],
       "zgrada": "BW Vista",
       "struktura": "3.0",
@@ -73791,7 +73815,8 @@
         "5c158511a85979a2"
       ],
       "fp_strict_all": [
-        "4624b9741eda47c1"
+        "4624b9741eda47c1",
+        "3f4e2e45fd951b8b"
       ],
       "sources": [
         "halo"
@@ -73803,7 +73828,8 @@
         "halo": "5425647966507"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-aria-35m2/5425647966507?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-aria-35m2/5425647966507?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-aria-35m2---hitna-prodaja/5425647966507?kid=1"
       ],
       "zgrada": "BW Aria",
       "struktura": "1.0",
@@ -73811,12 +73837,18 @@
       "m2": 35.0,
       "sprat": "I/20",
       "agencija": "MaxisGroup1",
-      "naslov": "BW Aria, 35m2",
+      "naslov": "BW Aria, 35m2 - hitna prodaja",
       "price_first": 218000,
-      "price_current": 218000,
-      "price_changes": [],
+      "price_current": 215000,
+      "price_changes": [
+        {
+          "date": "2026-11-13",
+          "from": 218000,
+          "to": 215000
+        }
+      ],
       "days_listed": 2,
-      "cena_m2": 6229
+      "cena_m2": 6143
     },
     "8a6e5fbc99e916e7": {
       "uid": "8a6e5fbc99e916e7",
@@ -73983,7 +74015,8 @@
       "price_first": 370000,
       "price_current": 370000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4719
     },
     "15ecfea81cffcfc4": {
       "uid": "15ecfea81cffcfc4",
@@ -74024,7 +74057,8 @@
       "price_first": 345000,
       "price_current": 345000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4570
     },
     "4e25ed3482f8dc5b": {
       "uid": "4e25ed3482f8dc5b",
@@ -74065,10 +74099,52 @@
       "price_first": 425000,
       "price_current": 425000,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 4775
+    },
+    "206c904bbfeb0897": {
+      "uid": "206c904bbfeb0897",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "de57421353290143",
+      "fp_loose_all": [
+        "de57421353290143"
+      ],
+      "fp_nosprat": "d7014cabe7b8f46d",
+      "fp_nosprat_all": [
+        "d7014cabe7b8f46d"
+      ],
+      "fp_strict_all": [
+        "4857c26411692080"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-13"
+      },
+      "source_ids": {
+        "halo": "5425647976831"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-eden--dvostrana-orijentacija/5425647976831?kid=4"
+      ],
+      "zgrada": "BW Eden",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.95,
+      "sprat": "XIII",
+      "agencija": "Vesnarb1",
+      "naslov": "BW EDEN- Dvostrana orijentacija",
+      "price_first": 370000,
+      "price_current": 370000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-13T07:02:43.511207+00:00",
+  "updated_at": "2026-11-13T12:29:15.564365+00:00",
   "last_run": {
     "4zida": "2026-11-12",
     "nadjidom": "2026-11-12",
