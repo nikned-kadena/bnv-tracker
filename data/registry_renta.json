@@ -50421,7 +50421,8 @@
       "fp_strict_all": [
         "af00a3a45dc444ce",
         "228dc06e1501402d",
-        "5fae496c1ccc0e20"
+        "5fae496c1ccc0e20",
+        "151a68d639475167"
       ],
       "sources": [
         "halo"
@@ -50444,7 +50445,7 @@
       "agencija": "PRIMATNEKRETNINE",
       "naslov": "Beograd, Beograd Na Vodi, Stan, 3.0, 90m2",
       "price_first": 1900,
-      "price_current": 1600,
+      "price_current": 1500,
       "price_changes": [
         {
           "date": "2026-10-19",
@@ -50455,10 +50456,15 @@
           "date": "2026-11-07",
           "from": 1700,
           "to": 1600
+        },
+        {
+          "date": "2026-11-14",
+          "from": 1600,
+          "to": 1500
         }
       ],
       "days_listed": 31,
-      "cena_m2": 18
+      "cena_m2": 17
     },
     "9c04ba283f334fac": {
       "uid": "9c04ba283f334fac",
@@ -67394,10 +67400,134 @@
       "price_first": 2800,
       "price_current": 2800,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 31
+    },
+    "ff98f3940ff49348": {
+      "uid": "ff98f3940ff49348",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2a32635a6f39d786",
+      "fp_loose_all": [
+        "2a32635a6f39d786"
+      ],
+      "fp_nosprat": "3749980b8c68e0a7",
+      "fp_nosprat_all": [
+        "3749980b8c68e0a7"
+      ],
+      "fp_strict_all": [
+        "6ddae04e9d50313a"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-14"
+      },
+      "source_ids": {
+        "halo": "5425647981583"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-na-vodi-bazen-56m2-lux-nov-projektno/5425647981583?kid=4"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.0,
+      "sprat": "II",
+      "agencija": null,
+      "naslov": "Beograd na vodi, Bazen, 56m2 Lux, Nov, Projektno o",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "83cb4ef9cb4b9f43": {
+      "uid": "83cb4ef9cb4b9f43",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "f0d1971801ef3a98",
+      "fp_loose_all": [
+        "f0d1971801ef3a98"
+      ],
+      "fp_nosprat": "671a6d1a1783e37a",
+      "fp_nosprat_all": [
+        "671a6d1a1783e37a"
+      ],
+      "fp_strict_all": [
+        "0e6e52a59e8b1306"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-14"
+      },
+      "source_ids": {
+        "halo": "5425647983567"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdajem-stan-u-zgradi-verde-bw/5425647983567?kid=3"
+      ],
+      "zgrada": "BW Verde",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 58.0,
+      "sprat": "XVII/24",
+      "agencija": null,
+      "naslov": "Izdajem stan u zgradi Verde BW",
+      "price_first": 1400,
+      "price_current": 1400,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "72c4267923bbdf9f": {
+      "uid": "72c4267923bbdf9f",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "5b2ad57edc4da961",
+      "fp_loose_all": [
+        "5b2ad57edc4da961"
+      ],
+      "fp_nosprat": "2dc9925580b8a51d",
+      "fp_nosprat_all": [
+        "2dc9925580b8a51d"
+      ],
+      "fp_strict_all": [
+        "bd6b0bb3735533b6"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-14"
+      },
+      "source_ids": {
+        "halo": "5425647976586"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia---3-0/5425647976586?kid=1"
+      ],
+      "zgrada": "BW Thalia",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 88.03,
+      "sprat": "/14",
+      "agencija": "MaxisGroup1",
+      "naslov": "BW Thalia - 3.0",
+      "price_first": 2200,
+      "price_current": 2200,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-14T07:04:01.963268+00:00",
+  "updated_at": "2026-11-14T11:42:43.227340+00:00",
   "last_run": {
     "4zida": "2026-11-13",
     "nadjidom": "2026-11-13",

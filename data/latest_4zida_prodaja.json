@@ -4,8 +4,8 @@
   "date": "2026-11-14",
   "scraped_at": "2026-11-14",
   "total_raw": 527,
-  "total_unique": 443,
-  "total_dups": 84,
+  "total_unique": 442,
+  "total_dups": 85,
   "diff_new": [],
   "diff_removed": [
     "985b4edc6b4a3f28",
@@ -12831,8 +12831,8 @@
     {
       "id": "2445b0f18aeb2a4b",
       "url": "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6acd1d0eac27af37f2057ba5",
-      "naslov": "Dvosoban stan na prodaju, Hercegovačka, 300.000€, 52m²",
-      "zgrada": "BW Simfonija 2",
+      "naslov": "BW Simfonija, 2.0, 52m2",
+      "zgrada": "BW Simfonija 1",
       "agencija": "Maxis Group",
       "struktura": "2.0",
       "str_label": "Dvosoban",
@@ -12848,13 +12848,12 @@
       "prva_cena": 300000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-13",
-      "dedup_key": "BW Simfonija 2|52.0|300000",
-      "zgrada_izvor": "naslov_url",
+      "last_seen": "2026-11-14",
+      "dedup_key": "BW Simfonija 1|52.0|300000",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": "resale",
-      "zgrada_orig": "BW Simfonija 1",
       "cena_m2_sumnjiva": false
     },
     {

@@ -27685,7 +27685,7 @@
     "2f50e258986c8143": {
       "uid": "2f50e258986c8143",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-14",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a8edda2739a01e8f",
@@ -27714,7 +27714,7 @@
       "days_listed": 122,
       "cena_m2": 5737,
       "last_seen_src": {
-        "halo": "2026-11-13"
+        "halo": "2026-11-14"
       },
       "fp_nosprat_all": [
         "2f7dfa9fbd7c7c59"
@@ -30402,7 +30402,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-thalia-nov-0-5-prazan-useljiv/5425647471842?kid=3",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-thalia-nov-0-5-prazan-useljiv/5425647471842"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-thalia-nov-0-5-prazan-useljiv/5425647471842",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-thalia-nov-0-5-prazan-useljiv/5425647471842?kid=1"
       ],
       "zgrada": "BW Thalia",
       "struktura": "1.0",
@@ -66933,7 +66934,7 @@
     "2445b0f18aeb2a4b": {
       "uid": "2445b0f18aeb2a4b",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-14",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "73beb1ae34ce73fc",
@@ -66953,7 +66954,7 @@
       ],
       "last_seen_src": {
         "4zida": "2026-11-13",
-        "halo": "2026-11-11"
+        "halo": "2026-11-14"
       },
       "source_ids": {
         "4zida": "4zida:6acd1d0eac27af37f2057ba5",
@@ -66969,7 +66970,7 @@
       "m2": 52.0,
       "sprat": "II/16",
       "agencija": "MaxisGroup1",
-      "naslov": "Dvosoban stan na prodaju, Hercegovačka, 300.000€, 52m²",
+      "naslov": "BW Simfonija, 2.0, 52m2",
       "price_first": 300000,
       "price_current": 300000,
       "price_changes": [],
@@ -74111,7 +74112,8 @@
         "4e48f45959167f4f"
       ],
       "fp_strict_all": [
-        "23c299f9cfc0c575"
+        "23c299f9cfc0c575",
+        "0d0e0fa500092504"
       ],
       "sources": [
         "halo"
@@ -74133,10 +74135,16 @@
       "agencija": null,
       "naslov": "BW Eden, trosoban, 76m2, odmah useljiv",
       "price_first": 345000,
-      "price_current": 345000,
-      "price_changes": [],
+      "price_current": 343000,
+      "price_changes": [
+        {
+          "date": "2026-11-14",
+          "from": 345000,
+          "to": 343000
+        }
+      ],
       "days_listed": 2,
-      "cena_m2": 4539
+      "cena_m2": 4513
     },
     "467e4a4554d223d6": {
       "uid": "467e4a4554d223d6",
@@ -74511,7 +74519,8 @@
       "price_first": 285000,
       "price_current": 285000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5000
     },
     "64036a7a87166bd5": {
       "uid": "64036a7a87166bd5",
@@ -74552,7 +74561,8 @@
       "price_first": 450000,
       "price_current": 450000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6429
     },
     "57e4d7ba3ca4cf1e": {
       "uid": "57e4d7ba3ca4cf1e",
@@ -74593,10 +74603,11 @@
       "price_first": 345000,
       "price_current": 345000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4367
     }
   },
-  "updated_at": "2026-11-14T07:02:39.152110+00:00",
+  "updated_at": "2026-11-14T11:41:27.018725+00:00",
   "last_run": {
     "4zida": "2026-11-13",
     "nadjidom": "2026-11-13",
