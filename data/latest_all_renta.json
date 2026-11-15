@@ -3,12 +3,13 @@
   "source": "all",
   "date": "2026-11-15",
   "scraped_at": "2026-11-15",
-  "total_raw": 448,
-  "total_unique": 343,
+  "total_raw": 449,
+  "total_unique": 344,
   "total_dups": 105,
   "diff_new": [
     "c11d23e1502e0f7e",
-    "7df8950ad3020edb"
+    "7df8950ad3020edb",
+    "1a6eca05221169cb"
   ],
   "diff_removed": [
     "33b30fd32d05148d",
@@ -12382,6 +12383,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "1a6eca05221169cb",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-aurora---55m2-pogled-na-dvoriste-i-reku/5425645318442?kid=3",
+      "naslov": "BW Aurora - 55m2 pogled na dvorište i reku",
+      "zgrada": "BW Aurora",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "cena": 1400,
+      "cena_m2": 25,
+      "sprat": "XIX/23",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1400,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15",
+      "dedup_key": "BW Aurora|55.0|1400",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
