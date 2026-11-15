@@ -3,17 +3,17 @@
   "generated": "2026-11-15",
   "pocetak_pracenja": "2026-06-09",
   "ukupno": {
-    "n_zavrseni": 755,
-    "n_aktivni": 861,
+    "n_zavrseni": 756,
+    "n_aktivni": 860,
     "dom_medijana": 96,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 28,
     "starost_aktivnih_medijana": 46,
-    "udeo_jos_u_ponudi": 0.327,
+    "udeo_jos_u_ponudi": 0.3245,
     "udeo_aktivnih_pct": 53,
     "skinuti_p25": 9,
-    "skinuti_p75": 63,
+    "skinuti_p75": 64,
     "brzo_do_30d": 53,
     "sporo_preko_180d": 0,
     "kriva": [
@@ -199,7 +199,7 @@
       },
       {
         "dan": 158,
-        "preziveli": 0.3324
+        "preziveli": 0.3299
       }
     ]
   },
@@ -1333,18 +1333,18 @@
       ]
     },
     "BW King's Park": {
-      "n_zavrseni": 31,
-      "n_aktivni": 18,
+      "n_zavrseni": 32,
+      "n_aktivni": 17,
       "dom_medijana": 66,
       "metod": "kaplan-meier",
       "pouzdano": true,
-      "naivna_medijana_samo_skinuti": 33,
+      "naivna_medijana_samo_skinuti": 34,
       "starost_aktivnih_medijana": 46,
-      "udeo_jos_u_ponudi": 0.1428,
-      "udeo_aktivnih_pct": 37,
-      "skinuti_p25": 15,
-      "skinuti_p75": 82,
-      "brzo_do_30d": 45,
+      "udeo_jos_u_ponudi": 0.0952,
+      "udeo_aktivnih_pct": 35,
+      "skinuti_p25": 16,
+      "skinuti_p75": 107,
+      "brzo_do_30d": 44,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -1446,6 +1446,10 @@
         {
           "dan": 148,
           "preziveli": 0.1428
+        },
+        {
+          "dan": 158,
+          "preziveli": 0.0952
         }
       ]
     },
@@ -3756,14 +3760,14 @@
       ]
     },
     "Dvosoban": {
-      "n_zavrseni": 211,
-      "n_aktivni": 205,
+      "n_zavrseni": 212,
+      "n_aktivni": 204,
       "dom_medijana": 73,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 25,
       "starost_aktivnih_medijana": 46,
-      "udeo_jos_u_ponudi": 0.2508,
+      "udeo_jos_u_ponudi": 0.2382,
       "udeo_aktivnih_pct": 49,
       "skinuti_p25": 8,
       "skinuti_p75": 53,
@@ -4076,7 +4080,7 @@
         },
         {
           "dan": 158,
-          "preziveli": 0.2508
+          "preziveli": 0.2382
         }
       ]
     },
@@ -4925,25 +4929,25 @@
     {
       "kvartil": "25-50%",
       "n": 187,
-      "cena_medijana": 341888,
+      "cena_medijana": 341000,
       "dom_medijana": 25
     },
     {
       "kvartil": "50-75%",
       "n": 187,
-      "cena_medijana": 449000,
+      "cena_medijana": 448700,
       "dom_medijana": 31
     },
     {
       "kvartil": "najskuplji 25%",
-      "n": 187,
-      "cena_medijana": 777080,
+      "n": 188,
+      "cena_medijana": 774222,
       "dom_medijana": 34
     }
   ],
   "cene": {
     "oglasa_sa_promenom": 335,
-    "ukupno_snizenja": 1001,
+    "ukupno_snizenja": 1011,
     "prosecno_snizenje_pct": 3.4
   },
   "izvori": {
