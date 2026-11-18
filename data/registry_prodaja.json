@@ -19230,7 +19230,8 @@
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-metropolitan-lux-novogradnja-garaza-id-257/5425647303654?kid=1",
         "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6a33d01bdcabd120af08a737",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-metropolitan-lux-novogradnja-garaza-id-257/5425647303654?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-metropolitan-lux-novogradnja-garaza-id-257/5425647303654?kid=4",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-metropolitan-lux-novogradnja-garaza-id-257/5425647303654"
       ],
       "zgrada": "BW Metropolitan",
       "struktura": "3.0",
@@ -34806,12 +34807,13 @@
     "090ded195e0e9f76": {
       "uid": "090ded195e0e9f76",
       "first_seen": "2026-08-26",
-      "last_seen": "2026-10-18",
-      "is_active": false,
-      "deactivated_at": "2026-10-20",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "09c190261d5b2090",
       "fp_strict_all": [
-        "aca31bd5314fd788"
+        "aca31bd5314fd788",
+        "d2beb7320a9495b4"
       ],
       "sources": [
         "halo"
@@ -34822,7 +34824,8 @@
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-lux-35m2-garsonjera/5425646927211?kid=4",
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-stidio---bw-aria/5425647695740?kid=1",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-aria---studio-35m2/5425647695740?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-aria---studio-35m2/5425647695740?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw---studio-35m2-snizena-cena-hitna-prodaja/5425647695740?kid=4"
       ],
       "zgrada": "BW Aria",
       "struktura": "1.0",
@@ -34830,14 +34833,20 @@
       "m2": 35.0,
       "sprat": "I/20",
       "agencija": "MaxisGroup1",
-      "naslov": "BW Aria - Studio 35m2",
+      "naslov": "BW - Studio 35m2 snizena cena HITNA prodaja",
       "price_first": 224000,
-      "price_current": 224000,
-      "price_changes": [],
-      "days_listed": 55,
-      "cena_m2": 6400,
+      "price_current": 212000,
+      "price_changes": [
+        {
+          "date": "2026-11-18",
+          "from": 224000,
+          "to": 212000
+        }
+      ],
+      "days_listed": 84,
+      "cena_m2": 6057,
       "last_seen_src": {
-        "halo": "2026-10-18"
+        "halo": "2026-11-18"
       },
       "fp_nosprat_all": [
         "5c158511a85979a2"
@@ -40794,7 +40803,8 @@
         "61744f6d01892bc9"
       ],
       "fp_strict_all": [
-        "def94efb473a86d8"
+        "def94efb473a86d8",
+        "927b84b1b7232e2c"
       ],
       "sources": [
         "halo",
@@ -40824,10 +40834,16 @@
       "agencija": "city-hedonia-agencija-za-nekretnine",
       "naslov": "BW Residences, nov, lux, opremljen, 4.0 stan",
       "price_first": 1472000,
-      "price_current": 1472000,
-      "price_changes": [],
+      "price_current": 1320000,
+      "price_changes": [
+        {
+          "date": "2026-11-18",
+          "from": 1472000,
+          "to": 1320000
+        }
+      ],
       "days_listed": 42,
-      "cena_m2": 9258
+      "cena_m2": 8302
     },
     "90d2b8a8b686800a": {
       "uid": "90d2b8a8b686800a",
@@ -43248,7 +43264,7 @@
     "d6b580653b0cc0b3": {
       "uid": "d6b580653b0cc0b3",
       "first_seen": "2026-09-26",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "dcd5220c642d87dd",
@@ -43277,7 +43293,7 @@
       "days_listed": 53,
       "cena_m2": 5769,
       "last_seen_src": {
-        "halo": "2026-11-17"
+        "halo": "2026-11-18"
       },
       "fp_nosprat_all": [
         "8512e53dfc8eb89d"
@@ -44159,7 +44175,8 @@
       "fp_loose": "cbd7e83187ef052c",
       "fp_strict_all": [
         "58d201d32211549b",
-        "79e301722142cec4"
+        "79e301722142cec4",
+        "31d59230e1f470bd"
       ],
       "sources": [
         "halo"
@@ -44178,12 +44195,17 @@
       "agencija": "bjanca",
       "naslov": "Savski Venac-Beograd na vodi ID#1635",
       "price_first": 207000,
-      "price_current": 205000,
+      "price_current": 237000,
       "price_changes": [
         {
           "date": "2026-10-17",
           "from": 207000,
           "to": 205000
+        },
+        {
+          "date": "2026-11-18",
+          "from": 205000,
+          "to": 237000
         }
       ],
       "days_listed": 49,
@@ -44194,7 +44216,7 @@
         "41c4153ca50d5320"
       ],
       "fp_nosprat": "41c4153ca50d5320",
-      "cena_m2": 5857
+      "cena_m2": 6771
     },
     "edb34909a487c626": {
       "uid": "edb34909a487c626",
@@ -66059,9 +66081,9 @@
     "808c5120ce871e09": {
       "uid": "808c5120ce871e09",
       "first_seen": "2026-10-08",
-      "last_seen": "2026-11-07",
-      "is_active": false,
-      "deactivated_at": "2026-11-09",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d1fb32ab40dce54f",
       "fp_loose_all": [
         "d1fb32ab40dce54f"
@@ -66071,13 +66093,14 @@
         "61744f6d01892bc9"
       ],
       "fp_strict_all": [
-        "def94efb473a86d8"
+        "def94efb473a86d8",
+        "927b84b1b7232e2c"
       ],
       "sources": [
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-07"
+        "halo": "2026-11-18"
       },
       "source_ids": {
         "halo": "5425647793412"
@@ -66093,10 +66116,16 @@
       "agencija": "divis-nekretnine",
       "naslov": "Dizajnerski stan za prodaju u BW Residences",
       "price_first": 1472000,
-      "price_current": 1472000,
-      "price_changes": [],
-      "days_listed": 32,
-      "cena_m2": 9258
+      "price_current": 1320000,
+      "price_changes": [
+        {
+          "date": "2026-11-18",
+          "from": 1472000,
+          "to": 1320000
+        }
+      ],
+      "days_listed": 41,
+      "cena_m2": 8302
     },
     "22959d373a04bc71": {
       "uid": "22959d373a04bc71",
@@ -66929,9 +66958,9 @@
     "2029745df79f6f9f": {
       "uid": "2029745df79f6f9f",
       "first_seen": "2026-10-09",
-      "last_seen": "2026-11-12",
-      "is_active": false,
-      "deactivated_at": "2026-11-14",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "063e824aeb3b9e52",
       "fp_loose_all": [
         "063e824aeb3b9e52"
@@ -66948,7 +66977,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-11-12",
+        "halo": "2026-11-18",
         "4zida": "2026-11-11"
       },
       "source_ids": {
@@ -66969,7 +66998,7 @@
       "price_first": 681888,
       "price_current": 681888,
       "price_changes": [],
-      "days_listed": 36,
+      "days_listed": 40,
       "cena_m2": 9471
     },
     "ed00751e1b952666": {
@@ -67579,7 +67608,8 @@
         "9f02729dda1d5af5"
       ],
       "fp_strict_all": [
-        "a4d60770bd345c79"
+        "a4d60770bd345c79",
+        "52958c452c13e533"
       ],
       "sources": [
         "halo"
@@ -67601,10 +67631,16 @@
       "agencija": "PremiumRealEstate",
       "naslov": "Bw Bonaca, duplex, 139 m2",
       "price_first": 709000,
-      "price_current": 709000,
-      "price_changes": [],
+      "price_current": 749000,
+      "price_changes": [
+        {
+          "date": "2026-11-18",
+          "from": 709000,
+          "to": 749000
+        }
+      ],
       "days_listed": 37,
-      "cena_m2": 5111
+      "cena_m2": 5400
     },
     "659cb526769ed63a": {
       "uid": "659cb526769ed63a",
@@ -76615,7 +76651,8 @@
       "price_first": 565000,
       "price_current": 565000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6975
     },
     "b7c8e8759f7e7f11": {
       "uid": "b7c8e8759f7e7f11",
@@ -76656,7 +76693,8 @@
       "price_first": 790000,
       "price_current": 790000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 7117
     },
     "08f439a68c981f27": {
       "uid": "08f439a68c981f27",
@@ -76697,7 +76735,8 @@
       "price_first": 298000,
       "price_current": 298000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5418
     },
     "18c060718dfe944d": {
       "uid": "18c060718dfe944d",
@@ -76738,7 +76777,8 @@
       "price_first": 645000,
       "price_current": 645000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6143
     },
     "747622689ee3598f": {
       "uid": "747622689ee3598f",
@@ -76779,10 +76819,134 @@
       "price_first": 580000,
       "price_current": 580000,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 9667
+    },
+    "9f8d948e83063a20": {
+      "uid": "9f8d948e83063a20",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "44c1eb7353b50a23",
+      "fp_loose_all": [
+        "44c1eb7353b50a23"
+      ],
+      "fp_nosprat": "5280c29af811f1ac",
+      "fp_nosprat_all": [
+        "5280c29af811f1ac"
+      ],
+      "fp_strict_all": [
+        "804a40a50b8eead3"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648000995"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-eden/5425648000995?kid=3"
+      ],
+      "zgrada": "BW Eden",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "sprat": "IV/18",
+      "agencija": "BELIGRAD",
+      "naslov": "Beograd na vodi, Eden",
+      "price_first": 300000,
+      "price_current": 300000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "a239b320b934e36d": {
+      "uid": "a239b320b934e36d",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "fb98e592f56f940a",
+      "fp_loose_all": [
+        "fb98e592f56f940a"
+      ],
+      "fp_nosprat": "0b745744b8ed9c5c",
+      "fp_nosprat_all": [
+        "0b745744b8ed9c5c"
+      ],
+      "fp_strict_all": [
+        "8323dd4134c958b5"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648001025"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/moderan-stan-u-bw-u-zgradi-simfonija-2/5425648001025?kid=1"
+      ],
+      "zgrada": "BW Simfonija 2",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 124.0,
+      "sprat": "XII",
+      "agencija": null,
+      "naslov": "Moderan stan u Bw u Zgradi Simfonija 2",
+      "price_first": 610000,
+      "price_current": 610000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "e56bdb1be6ae8ec2": {
+      "uid": "e56bdb1be6ae8ec2",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "0ac351eb2f5becc0",
+      "fp_loose_all": [
+        "0ac351eb2f5becc0"
+      ],
+      "fp_nosprat": "8bc91c884f0f89bd",
+      "fp_nosprat_all": [
+        "8bc91c884f0f89bd"
+      ],
+      "fp_strict_all": [
+        "e4fab8d115d99f71"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648000971"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-na-vodi-arcadia/5425648000971?kid=1"
+      ],
+      "zgrada": "BW Arcadia",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 82.0,
+      "sprat": "XIX",
+      "agencija": null,
+      "naslov": "Beograd na vodi, Arcadia",
+      "price_first": 450000,
+      "price_current": 450000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-18T07:03:15.355372+00:00",
+  "updated_at": "2026-11-18T13:19:11.977655+00:00",
   "last_run": {
     "4zida": "2026-11-17",
     "nadjidom": "2026-11-17",

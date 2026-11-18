@@ -19114,12 +19114,13 @@
     "81104820dd72201a": {
       "uid": "81104820dd72201a",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-07-29",
-      "is_active": false,
-      "deactivated_at": "2026-07-31",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "8bfb929beba99a80",
       "fp_strict_all": [
-        "426fe5f89ec48b01"
+        "426fe5f89ec48b01",
+        "61a546ad679c09a7"
       ],
       "sources": [
         "halo"
@@ -19128,7 +19129,8 @@
         "halo": "5425647417562"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park---dvosoban-stan-na-11-spratu/5425647417562?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park---dvosoban-stan-na-11-spratu/5425647417562?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park---prelep-stan-na-11-spratu/5425647417562?kid=4"
       ],
       "zgrada": "BW King's Park",
       "struktura": "2.0",
@@ -19136,13 +19138,26 @@
       "m2": 56.8,
       "sprat": "XI/15",
       "agencija": "Vesnarb1",
-      "naslov": "BW Kings Park - Dvosoban stan na 11. spratu",
+      "naslov": "BW Kings Park - Prelep stan na 11. spratu",
       "price_first": 1250,
-      "price_current": 1250,
-      "price_changes": [],
-      "days_listed": 13,
-      "cena_m2": 22,
-      "deactivation_uncertain": true
+      "price_current": 1400,
+      "price_changes": [
+        {
+          "date": "2026-11-18",
+          "from": 1250,
+          "to": 1400
+        }
+      ],
+      "days_listed": 123,
+      "cena_m2": 25,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "fp_nosprat_all": [
+        "c5aaff645ca12e7c"
+      ],
+      "fp_nosprat": "c5aaff645ca12e7c"
     },
     "5162ac967d7761e2": {
       "uid": "5162ac967d7761e2",
@@ -25365,9 +25380,9 @@
     "d36f810bef94434a": {
       "uid": "d36f810bef94434a",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-08-28",
-      "is_active": false,
-      "deactivated_at": "2026-08-30",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "85fbcbdf90cad214",
       "fp_strict_all": [
         "d2bb2db81546cf14",
@@ -25398,8 +25413,15 @@
           "to": 1600
         }
       ],
-      "days_listed": 25,
-      "cena_m2": 26
+      "days_listed": 105,
+      "cena_m2": 26,
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "fp_nosprat_all": [
+        "77e3d45abf419b91"
+      ],
+      "fp_nosprat": "77e3d45abf419b91"
     },
     "3c0b73f7d83f2bfb": {
       "uid": "3c0b73f7d83f2bfb",
@@ -68655,10 +68677,12 @@
       ],
       "fp_nosprat": "567199412943a147",
       "fp_nosprat_all": [
-        "567199412943a147"
+        "567199412943a147",
+        "59de51025616b680"
       ],
       "fp_strict_all": [
-        "50f705fde106d36c"
+        "50f705fde106d36c",
+        "8390932342a20e6e"
       ],
       "sources": [
         "halo"
@@ -68675,7 +68699,7 @@
       "zgrada": "BW Thalia",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 67.0,
+      "m2": 76.0,
       "sprat": "V/15",
       "agencija": "astranowa",
       "naslov": "Lux stan- BW Thalia",
@@ -68683,7 +68707,7 @@
       "price_current": 1900,
       "price_changes": [],
       "days_listed": 2,
-      "cena_m2": 28
+      "cena_m2": 25
     },
     "293409a254a2aa1f": {
       "uid": "293409a254a2aa1f",
@@ -69307,7 +69331,8 @@
         "halo": "5425644667520"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-3-0-stan-sa-garazom-u-bw-id-9607/5425644667520?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-3-0-stan-sa-garazom-u-bw-id-9607/5425644667520?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-3-0-stan-na-top-lokaciji-bw-id-9607/5425644667520?kid=1"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "3.0",
@@ -69315,7 +69340,7 @@
       "m2": 80.0,
       "sprat": "IV",
       "agencija": "symbol-properties-doo-beograd",
-      "naslov": "Nov 3.0 stan sa garažom u BW, ID 9607",
+      "naslov": "Nov 3.0 stan na top lokaciji, BW, ID 9607",
       "price_first": 1600,
       "price_current": 1600,
       "price_changes": [],
@@ -69862,7 +69887,8 @@
       "price_first": 1400,
       "price_current": 1400,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 25
     },
     "e72f99000bfcf4c9": {
       "uid": "e72f99000bfcf4c9",
@@ -69903,10 +69929,466 @@
       "price_first": 3800,
       "price_current": 3800,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 32
+    },
+    "543ea0686d2abf73": {
+      "uid": "543ea0686d2abf73",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e17b041d57d19590",
+      "fp_loose_all": [
+        "e17b041d57d19590"
+      ],
+      "fp_nosprat": "e1a80f2073c6cd4b",
+      "fp_nosprat_all": [
+        "e1a80f2073c6cd4b"
+      ],
+      "fp_strict_all": [
+        "0779f459913ced1a"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648002111"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/opremljen-stan-u-blizini-galerije/5425648002111?kid=4"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 54.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Opremljen stan u blizini Galerije",
+      "price_first": 1300,
+      "price_current": 1300,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "11a9d49a82e73fcb": {
+      "uid": "11a9d49a82e73fcb",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "80fb0833ec8dcb1a",
+      "fp_loose_all": [
+        "80fb0833ec8dcb1a"
+      ],
+      "fp_nosprat": "3749980b8c68e0a7",
+      "fp_nosprat_all": [
+        "3749980b8c68e0a7"
+      ],
+      "fp_strict_all": [
+        "59ba32035da70bc5"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648001037"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/hercegovacka-izuzetan-2-0-stan-u-bw/5425648001037?kid=4"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.53,
+      "sprat": "XV/23",
+      "agencija": null,
+      "naslov": "Hercegovačka-izuzetan 2.0 stan u Bw",
+      "price_first": 1300,
+      "price_current": 1300,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "18505e56271a6d14": {
+      "uid": "18505e56271a6d14",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "816718761970a25f",
+      "fp_loose_all": [
+        "816718761970a25f"
+      ],
+      "fp_nosprat": "66c6ab98065118fe",
+      "fp_nosprat_all": [
+        "66c6ab98065118fe"
+      ],
+      "fp_strict_all": [
+        "be9b42c97447e23b"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425646382071"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-dvosoban-stan-preko-puta-palate-pravde/5425646382071?kid=4"
+      ],
+      "zgrada": "BW Quartet 3",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 59.0,
+      "sprat": "II/8",
+      "agencija": null,
+      "naslov": "BW dvosoban stan preko puta Palate pravde",
+      "price_first": 1300,
+      "price_current": 1300,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "9e0fd126f7ad40df": {
+      "uid": "9e0fd126f7ad40df",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e0f058f762ccab08",
+      "fp_loose_all": [
+        "e0f058f762ccab08"
+      ],
+      "fp_nosprat": "d0bf7ac8ce00ab45",
+      "fp_nosprat_all": [
+        "d0bf7ac8ce00ab45"
+      ],
+      "fp_strict_all": [
+        "976385aeda566c6e"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425645418637"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-i-lux-novogradnja-garaza-id-24080/5425645418637?kid=4"
+      ],
+      "zgrada": "BW Quartet 1",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "sprat": "II/8",
+      "agencija": "eminent-nekretnine",
+      "naslov": "BW Quartet I, lux, novogradnja, garaža, ID 24080",
+      "price_first": 1250,
+      "price_current": 1250,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "7f0245e76e8f00b1": {
+      "uid": "7f0245e76e8f00b1",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "8bfb929beba99a80",
+      "fp_loose_all": [
+        "8bfb929beba99a80"
+      ],
+      "fp_nosprat": "c5aaff645ca12e7c",
+      "fp_nosprat_all": [
+        "c5aaff645ca12e7c"
+      ],
+      "fp_strict_all": [
+        "0671a4dc44281b46"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648000972"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park-lux-nov-i-odmah-useljiv-id4768/5425648000972?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kings-park-lux-nov-i-odmah-useljiv-id4768/5425648000972?kid=1"
+      ],
+      "zgrada": "BW King's Park",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 57.0,
+      "sprat": "XI/15",
+      "agencija": "PropertyBroker",
+      "naslov": "BW Kings Park, lux, nov i odmah useljiv ID#4768",
+      "price_first": 1400,
+      "price_current": 1400,
+      "price_changes": [],
+      "cena_m2": 25,
+      "days_listed": 0
+    },
+    "81990307db50aa2e": {
+      "uid": "81990307db50aa2e",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "796826739e44046d",
+      "fp_loose_all": [
+        "796826739e44046d"
+      ],
+      "fp_nosprat": "e45da2aa50eb778a",
+      "fp_nosprat_all": [
+        "e45da2aa50eb778a"
+      ],
+      "fp_strict_all": [
+        "264e0819eaa8c905"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648002860"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-zgrada-nika-dvosoban-namesten-garaza-novo/5425648002860"
+      ],
+      "zgrada": "BW Nika",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.0,
+      "sprat": "I/15",
+      "agencija": null,
+      "naslov": "BW zgrada NIKA dvosoban namesten garaza NOVO!",
+      "price_first": 990,
+      "price_current": 990,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "34aa9f35dfa7246c": {
+      "uid": "34aa9f35dfa7246c",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "3e4f2771b8b09e32",
+      "fp_loose_all": [
+        "3e4f2771b8b09e32"
+      ],
+      "fp_nosprat": "4667ce795064d937",
+      "fp_nosprat_all": [
+        "4667ce795064d937"
+      ],
+      "fp_strict_all": [
+        "fa5855297c14573b"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648002298"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-u-bw-82m2-u-ulici-vozda-djordja-statimir/5425648002298?kid=3",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-u-bw-82m2-u-ulici-vozda-djordja-statimir/5425648002298?kid=1"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 82.0,
+      "sprat": "XIV/18",
+      "agencija": "agencija-gradac",
+      "naslov": "Stan u BW 82m2 u ulici Vožda Đorđa Statimirovića",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
+      "cena_m2": 18,
+      "days_listed": 0
+    },
+    "3f8e0b2d9ed56428": {
+      "uid": "3f8e0b2d9ed56428",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "796826739e44046d",
+      "fp_loose_all": [
+        "796826739e44046d"
+      ],
+      "fp_nosprat": "e45da2aa50eb778a",
+      "fp_nosprat_all": [
+        "e45da2aa50eb778a"
+      ],
+      "fp_strict_all": [
+        "264e0819eaa8c905"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648001038"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-nika-2-0-sa-garaznim-mestom/5425648001038?kid=1"
+      ],
+      "zgrada": "BW Nika",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.0,
+      "sprat": "I/15",
+      "agencija": "Exporealestate",
+      "naslov": "Bw Nika | 2.0 sa garažnim mestom",
+      "price_first": 990,
+      "price_current": 990,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "5658d505f46d661d": {
+      "uid": "5658d505f46d661d",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "67a7a00791cff2c8",
+      "fp_loose_all": [
+        "67a7a00791cff2c8"
+      ],
+      "fp_nosprat": "1cf03d0bf93fc102",
+      "fp_nosprat_all": [
+        "1cf03d0bf93fc102"
+      ],
+      "fp_strict_all": [
+        "eb680931e49267eb"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648002092"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw--nov-luksuzno-namesten-studio-15-sprat/5425648002092?kid=1"
+      ],
+      "zgrada": "BW Eden",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 32.0,
+      "sprat": "XV/19",
+      "agencija": null,
+      "naslov": "BW- nov luksuzno namešten studio, 15. sprat",
+      "price_first": 1100,
+      "price_current": 1100,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "da40c9262aefc0f5": {
+      "uid": "da40c9262aefc0f5",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2b89c532bd6a2fa2",
+      "fp_loose_all": [
+        "2b89c532bd6a2fa2"
+      ],
+      "fp_nosprat": "9ddd61c4afa5f8b7",
+      "fp_nosprat_all": [
+        "9ddd61c4afa5f8b7"
+      ],
+      "fp_strict_all": [
+        "210a651698e901c0"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648000993"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-quartet-3-kompletno-namesten-odmah-useljiv/5425648000993?kid=1"
+      ],
+      "zgrada": "BW Quartet 3",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 81.0,
+      "sprat": "VII/8",
+      "agencija": "PropertyBroker",
+      "naslov": "BW Quartet 3, kompletno namešten, odmah useljiv I",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "4f54b2128232e510": {
+      "uid": "4f54b2128232e510",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "cc1198ae6884a2cf",
+      "fp_loose_all": [
+        "cc1198ae6884a2cf"
+      ],
+      "fp_nosprat": "e6728869674d4c87",
+      "fp_nosprat_all": [
+        "e6728869674d4c87"
+      ],
+      "fp_strict_all": [
+        "87b42cee08305cc3"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "5425648000969"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-sole-umetnost-i-elegancija/5425648000969?kid=1"
+      ],
+      "zgrada": "BW Sole",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 80.24,
+      "sprat": "VIII/16",
+      "agencija": "AtriumPropertyServices",
+      "naslov": "BW Sole-Umetnost i elegancija",
+      "price_first": 2000,
+      "price_current": 2000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-18T07:04:59.190591+00:00",
+  "updated_at": "2026-11-18T13:20:26.693056+00:00",
   "last_run": {
     "4zida": "2026-11-17",
     "nadjidom": "2026-11-17",
