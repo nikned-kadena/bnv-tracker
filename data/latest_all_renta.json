@@ -3,15 +3,16 @@
   "source": "all",
   "date": "2026-11-22",
   "scraped_at": "2026-11-22",
-  "total_raw": 453,
-  "total_unique": 347,
+  "total_raw": 455,
+  "total_unique": 349,
   "total_dups": 106,
   "diff_new": [
     "524b1b58871e0e77",
     "c9da82cac51a905a",
     "95a767e4e68b1dcc",
     "2462a2d89acdb5df",
-    "2c4fb7ce8281b092"
+    "2c4fb7ce8281b092",
+    "eaffdf9016e2035b"
   ],
   "diff_removed": [
     "a26830bbf0f95acc",
@@ -4812,6 +4813,33 @@
       "last_seen": "2026-11-22",
       "dedup_key": "BW Eterna|74.0|2100",
       "zgrada_izvor": "opis_agenta",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "bfad89cb5e055d2d",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-perla-4-0/5425647754999?kid=1",
+      "naslov": "BW Perla, 4.0",
+      "zgrada": "BW Perla",
+      "agencija": "Maxis Group",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 147.67,
+      "cena": 4500,
+      "cena_m2": 30,
+      "sprat": "XXII/25",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 52,
+      "prva_cena": 4500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-11-22",
+      "dedup_key": "BW Perla|147.67|4500",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -12512,6 +12540,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "eaffdf9016e2035b",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-scala-a-9-sprat-2-0-stan-53m-garaza/5425648022687",
+      "naslov": "BW Scala A, 9. sprat | 2.0 stan 53m² + Garaža",
+      "zgrada": "BW Scala",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 53.0,
+      "cena": 1300,
+      "cena_m2": 25,
+      "sprat": "IX/9",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1300,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "dedup_key": "BW Scala|53.0|1300",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
