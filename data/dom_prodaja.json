@@ -4,7 +4,7 @@
   "pocetak_pracenja": "2026-06-09",
   "ukupno": {
     "n_zavrseni": 773,
-    "n_aktivni": 892,
+    "n_aktivni": 893,
     "dom_medijana": 102,
     "metod": "kaplan-meier",
     "pouzdano": true,
@@ -3490,7 +3490,7 @@
     },
     "BW Victoria": {
       "n_zavrseni": 26,
-      "n_aktivni": 52,
+      "n_aktivni": 53,
       "dom_medijana": 138,
       "metod": "kaplan-meier",
       "pouzdano": true,
@@ -4569,7 +4569,7 @@
     },
     "Trosoban": {
       "n_zavrseni": 281,
-      "n_aktivni": 300,
+      "n_aktivni": 301,
       "dom_medijana": 101,
       "metod": "kaplan-meier",
       "pouzdano": true,
@@ -5044,13 +5044,13 @@
   ],
   "cene": {
     "oglasa_sa_promenom": 369,
-    "ukupno_snizenja": 1266,
+    "ukupno_snizenja": 1280,
     "prosecno_snizenje_pct": 3.7
   },
   "izvori": {
     "halo": 1283,
-    "4zida": 672,
-    "nadjidom": 129
+    "4zida": 673,
+    "nadjidom": 130
   },
   "napomena": "dom_medijana je Kaplan-Meier procena i JEDINI broj koji se citira kao trajanje oglasa. Aktivni oglasi ulaze u racun kao cenzurisana opazanja (trajali su BAR toliko), umesto da se izbace. naivna_medijana_samo_skinuti je kontrolni broj koji gleda samo zatvorene oglase i sistematski je POTCENJEN — na NB prodaji je davao 13 dana naspram stvarnih 29. Ne citirati ga. starost_aktivnih_medijana je koliko vec stoje oglasi koji su jos u ponudi; to je donja granica, ne trajanje. Medijana se prikazuje tek od 5 oglasa u grupi."
 }
