@@ -37,7 +37,7 @@
       "m2": 144.0,
       "sprat": "38",
       "agencija": "EUROPOLIS NEKRETNINE ",
-      "naslov": "Premium St. Regis Tower BW slobodan od 25.12.2026.",
+      "naslov": "St. Regis Residences – Dragulj Beograda",
       "price_first": 15000,
       "price_current": 15000,
       "price_changes": [
@@ -137,7 +137,7 @@
       "last_seen_src": {
         "halo": "2026-11-24",
         "4zida": "2026-10-12",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "fp_nosprat_all": [
         "9584528f23d79276"
@@ -742,7 +742,7 @@
       "m2": 94.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Never occupied. Flawlessly designed.",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 94m²",
       "price_first": 2000,
       "price_current": 2000,
       "price_changes": [
@@ -761,7 +761,7 @@
       "cena_m2": 21,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "76e79e9ea69c1b29"
@@ -1123,9 +1123,9 @@
       "m2": 117.0,
       "sprat": "XXII",
       "agencija": "SonataProperties",
-      "naslov": "Bw Verde, 3 Bedroom, Sauna",
+      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 4.000€, 117m²",
       "price_first": 4000,
-      "price_current": 3500,
+      "price_current": 4000,
       "price_changes": [
         {
           "date": "2026-11-22",
@@ -1151,13 +1151,18 @@
           "date": "2026-11-24",
           "from": 4000,
           "to": 3500
+        },
+        {
+          "date": "2026-11-24",
+          "from": 3500,
+          "to": 4000
         }
       ],
       "days_listed": 168,
-      "cena_m2": 30,
+      "cena_m2": 34,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "0a01040defdd6829",
@@ -1168,7 +1173,7 @@
     "188f64fdb145d03d": {
       "uid": "188f64fdb145d03d",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "8fed704b0b610d91",
@@ -1235,8 +1240,8 @@
       "cena_m2": 21,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "fp_loose_all": [
         "8c7fc7e15d521a26",
@@ -2113,9 +2118,9 @@
     "1f7ee9acf33ca6e7": {
       "uid": "1f7ee9acf33ca6e7",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-11",
-      "is_active": false,
-      "deactivated_at": "2026-09-15",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "4f02f982bcc2b838",
       "fp_strict_all": [
         "8d7d171523f56451",
@@ -2123,14 +2128,17 @@
         "ab5f02f12ef469cb"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "5425644256265"
+        "halo": "5425644256265",
+        "4zida": "4zida:6b0567fac00cc64ef609e430"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-na-vodi---lux-stan-na-odlicnoj-lokaci/5425644256265?kid=3",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-na-vodi---lux-stan-na-odlicnoj-lokaci/5425644256265?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-na-vodi---lux-stan-na-odlicnoj-lokaci/5425644256265?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6b0567fac00cc64ef609e430"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "2.0",
@@ -2138,7 +2146,7 @@
       "m2": 50.0,
       "sprat": "V/4",
       "agencija": null,
-      "naslov": "Beograd na vodi - LUX stan na odličnoj lokaciji",
+      "naslov": "Dvosoban stan za izdavanje, Sarajevska, 900€, 50m²",
       "price_first": 799,
       "price_current": 900,
       "price_changes": [
@@ -2148,9 +2156,17 @@
           "to": 900
         }
       ],
-      "days_listed": 98,
+      "days_listed": 168,
       "cena_m2": 18,
-      "deactivation_uncertain": true
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-11-24",
+        "4zida": "2026-11-24"
+      },
+      "fp_nosprat_all": [
+        "423a68db3c06dae1"
+      ],
+      "fp_nosprat": "423a68db3c06dae1"
     },
     "688360a7114b0ee1": {
       "uid": "688360a7114b0ee1",
@@ -2260,7 +2276,7 @@
     "c2039d9ec50486be": {
       "uid": "c2039d9ec50486be",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "edd6aedec32a3989",
@@ -2301,7 +2317,7 @@
       "cena_m2": 39,
       "last_seen_src": {
         "halo": "2026-10-21",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "033183ecc664e09e"
@@ -3018,7 +3034,7 @@
       "m2": 110.0,
       "sprat": "XI",
       "agencija": "BebaRealEstate",
-      "naslov": "Lux 4.0 / 2 garazna - BW Terra",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 2.300€, 110m²",
       "price_first": 2300,
       "price_current": 2300,
       "price_changes": [],
@@ -3026,7 +3042,7 @@
       "cena_m2": 21,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "5bb5410b65d98e76",
@@ -3067,7 +3083,7 @@
       "m2": 105.0,
       "sprat": "XI",
       "agencija": "BebaRealEstate",
-      "naslov": "Izdavanje luksuznog stana u BW/ 3.0 - Terraces",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 2.800€, 105m²",
       "price_first": 2800,
       "price_current": 2800,
       "price_changes": [],
@@ -3076,7 +3092,7 @@
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "5d4bd6f7f9c7fcce"
@@ -3113,7 +3129,7 @@
       "m2": 72.0,
       "sprat": "VIII",
       "agencija": "BebaRealEstate",
-      "naslov": "Best selection of exclusive homes & properties",
+      "naslov": "Trosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.800€, 72m²",
       "price_first": 1800,
       "price_current": 1800,
       "price_changes": [],
@@ -3121,7 +3137,7 @@
       "cena_m2": 25,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "792d208fff002c66"
@@ -3191,7 +3207,7 @@
       "m2": 72.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Brand new - garage - river view",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 1.700€, 72m²",
       "price_first": 1700,
       "price_current": 1700,
       "price_changes": [],
@@ -3199,7 +3215,7 @@
       "cena_m2": 24,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "19edb9789dd923c5",
@@ -3392,7 +3408,7 @@
       "m2": 124.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "First-line riverfront living in BelgradeWaterfront",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 3.500€, 124m²",
       "price_first": 3000,
       "price_current": 3500,
       "price_changes": [
@@ -3406,7 +3422,7 @@
       "cena_m2": 28,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "8367715c6c2e02a1",
@@ -3477,9 +3493,9 @@
       "m2": 116.0,
       "sprat": "VI/9",
       "agencija": "BebaRealEstate",
-      "naslov": "Nov, neuseljavan, dizajnerski opremljen - 4.0",
+      "naslov": "Četvorosoban stan za izdavanje, Luke Ćelovića Trebinjca, 2.300€, 116m²",
       "price_first": 2500,
-      "price_current": 2500,
+      "price_current": 2300,
       "price_changes": [
         {
           "date": "2026-11-01",
@@ -3700,13 +3716,18 @@
           "date": "2026-11-24",
           "from": 2300,
           "to": 2500
+        },
+        {
+          "date": "2026-11-24",
+          "from": 2500,
+          "to": 2300
         }
       ],
       "days_listed": 168,
-      "cena_m2": 22,
+      "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_loose_all": [
         "205b06907a1ded02",
@@ -3748,7 +3769,7 @@
       "m2": 140.0,
       "sprat": "II",
       "agencija": "BebaRealEstate",
-      "naslov": "One of a kind - 2 bdrms-pool- gym- 60sqm terrace",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 3.500€, 140m²",
       "price_first": 3500,
       "price_current": 3500,
       "price_changes": [],
@@ -3756,7 +3777,7 @@
       "cena_m2": 25,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_loose_all": [
         "74a1659603c2f8a6",
@@ -4024,7 +4045,7 @@
     "019cbe0121a6ceba": {
       "uid": "019cbe0121a6ceba",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ae73e44fbbf1e814",
@@ -4073,8 +4094,8 @@
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-11-05",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "fp_nosprat_all": [
         "d1e7bc8aa4de1636"
@@ -4595,7 +4616,7 @@
     "7f9880c43ce96b5b": {
       "uid": "7f9880c43ce96b5b",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "62a7c52bdec9decb",
@@ -4627,7 +4648,7 @@
       "days_listed": 168,
       "last_seen_src": {
         "halo": "2026-11-08",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "a94e4e38732bedcd"
@@ -4836,7 +4857,7 @@
     "bdf1ddf85c42af53": {
       "uid": "bdf1ddf85c42af53",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c9da83f8971b39c4",
@@ -4877,7 +4898,7 @@
       "cena_m2": 33,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "beb085a9bd11f44e"
@@ -5183,7 +5204,7 @@
     "7067da0def0be0b1": {
       "uid": "7067da0def0be0b1",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4091f3558fee473a",
@@ -5218,7 +5239,7 @@
       "days_listed": 168,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-22"
       },
       "cena_m2": 100,
@@ -5419,9 +5440,9 @@
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 42.0,
-      "sprat": "IV/4",
-      "agencija": "art-nekretnine-d-o-o",
-      "naslov": "Centar,Beograd na vodi, komplex apartmana ID#16208",
+      "sprat": "4",
+      "agencija": "ART nekretnine d.o.o. ",
+      "naslov": "Centar, Beograd na vodi, komplex apartmana ID#16208",
       "price_first": 700,
       "price_current": 700,
       "price_changes": [],
@@ -5429,8 +5450,8 @@
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "fp_nosprat_all": [
         "d4f6dfa2eeefc9fe"
@@ -5466,7 +5487,7 @@
       "m2": 47.0,
       "sprat": "III/4",
       "agencija": "art-nekretnine-d-o-o",
-      "naslov": "Centar,Beograd na vodi, komplex apartmana ID#8961",
+      "naslov": "Dvoiposoban stan za izdavanje, Koče Popovića, 800€, 47m²",
       "price_first": 800,
       "price_current": 800,
       "price_changes": [],
@@ -5474,7 +5495,7 @@
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "427db6debc7a12e8"
@@ -5647,7 +5668,7 @@
       "m2": 110.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "BW Terraces - Luxury Living with a Riverfront View",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 3.000€, 110m²",
       "price_first": 3000,
       "price_current": 3000,
       "price_changes": [],
@@ -5655,7 +5676,7 @@
       "cena_m2": 27,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "d0eb5289f093c48a"
@@ -6183,9 +6204,9 @@
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 120.0,
-      "sprat": "III/5",
+      "sprat": "3",
       "agencija": "ALFA SISTEM NEKRETNINE ",
-      "naslov": "LUX BW Magnolia 3 spavaće sobe",
+      "naslov": "Izdavanje, Stan, Beograd na vodi",
       "price_first": 2600,
       "price_current": 2800,
       "price_changes": [
@@ -6380,7 +6401,7 @@
       "last_seen_src": {
         "halo": "2026-11-24",
         "4zida": "2026-11-10",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "cena_m2": 23,
       "fp_nosprat_all": [
@@ -6831,7 +6852,7 @@
       "m2": 124.0,
       "sprat": "XIV",
       "agencija": "BebaRealEstate",
-      "naslov": "Exclusive apartment in BW Residences /45m2 terrace",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 2.500€, 124m²",
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
@@ -6839,7 +6860,7 @@
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "44b4ed0901021e4d",
@@ -7737,7 +7758,7 @@
     "248f15a6d92661dc": {
       "uid": "248f15a6d92661dc",
       "first_seen": "2026-06-10",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fdac34f33f363eb2",
@@ -7769,7 +7790,7 @@
       "days_listed": 167,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "cena_m2": 28,
       "fp_nosprat_all": [
@@ -9405,7 +9426,7 @@
     "78e11e58b9879981": {
       "uid": "78e11e58b9879981",
       "first_seen": "2026-06-12",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4f57915fd02f5cd6",
@@ -9439,7 +9460,7 @@
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "fp_nosprat_all": [
         "250621dad495d7dd"
@@ -9824,7 +9845,7 @@
     "09a17ff39f3af03d": {
       "uid": "09a17ff39f3af03d",
       "first_seen": "2026-06-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "97a2cbfc5352f7a7",
@@ -9871,7 +9892,7 @@
       "cena_m2": 57,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "9065ba85ab22f55f"
@@ -12033,7 +12054,7 @@
     "be43efe2e1a391d6": {
       "uid": "be43efe2e1a391d6",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3565a4810f034e50",
@@ -12100,14 +12121,24 @@
           "date": "2026-11-23",
           "from": 1250,
           "to": 1350
+        },
+        {
+          "date": "2026-11-24",
+          "from": 1350,
+          "to": 1250
+        },
+        {
+          "date": "2026-11-24",
+          "from": 1250,
+          "to": 1350
         }
       ],
       "days_listed": 159,
       "cena_m2": 25,
       "last_seen_src": {
         "halo": "2026-10-27",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "fp_nosprat_all": [
         "d0bf7ac8ce00ab45"
@@ -14456,7 +14487,7 @@
     "c6d8d95c5514e859": {
       "uid": "c6d8d95c5514e859",
       "first_seen": "2026-06-26",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e2e0572e956a11cb",
@@ -14497,7 +14528,7 @@
       "cena_m2": 21,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "3749980b8c68e0a7"
@@ -15277,7 +15308,7 @@
       "m2": 80.0,
       "sprat": "VI",
       "agencija": "SonataProperties",
-      "naslov": "Bw Eden, 2 Bedrooms, Parking",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.400€, 80m²",
       "price_first": 2000,
       "price_current": 2400,
       "price_changes": [
@@ -15496,7 +15527,7 @@
       "cena_m2": 30,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "9855be5807e56104",
@@ -17192,7 +17223,7 @@
     "b430a5b00ee7349f": {
       "uid": "b430a5b00ee7349f",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fe03231a005839d0",
@@ -17225,7 +17256,7 @@
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-10-30",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "559c4e20b3099695"
@@ -17608,7 +17639,7 @@
     "7ddc39114dc4fe3d": {
       "uid": "7ddc39114dc4fe3d",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d4e1db17fbc28513",
@@ -17668,7 +17699,7 @@
       "last_seen_src": {
         "halo": "2026-11-06",
         "4zida": "2026-11-20",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "fp_nosprat_all": [
         "3749980b8c68e0a7"
@@ -20001,7 +20032,7 @@
     "7531b3bace191d21": {
       "uid": "7531b3bace191d21",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "816718761970a25f",
@@ -20038,8 +20069,8 @@
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-11-19",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "fp_nosprat_all": [
         "66c6ab98065118fe"
@@ -20779,7 +20810,7 @@
     "7e30e7b1bda834ad": {
       "uid": "7e30e7b1bda834ad",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "8a19f77c1fdd4b76",
@@ -21020,7 +21051,7 @@
       "cena_m2": 56,
       "last_seen_src": {
         "halo": "2026-10-26",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "5ca45fc515126901"
@@ -22782,7 +22813,7 @@
     "ad1812770e288fec": {
       "uid": "ad1812770e288fec",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0eb197316800d122",
@@ -22818,8 +22849,8 @@
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-10-27",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "fp_nosprat_all": [
         "6d6c6dcd6e9961f2"
@@ -22861,7 +22892,7 @@
     "7bf5e6571f0d0dce": {
       "uid": "7bf5e6571f0d0dce",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "118caf25b3da60f3",
@@ -22906,7 +22937,7 @@
       "cena_m2": 21,
       "last_seen_src": {
         "halo": "2026-10-27",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "c26afe125d55a2ba"
@@ -23233,7 +23264,7 @@
     "d92ce9a7ecc333b1": {
       "uid": "d92ce9a7ecc333b1",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0cd88c8d669d25c2",
@@ -23267,7 +23298,7 @@
       "cena_m2": 53,
       "last_seen_src": {
         "halo": "2026-10-04",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_loose_all": [
         "f62db1851e2302c5",
@@ -23316,7 +23347,7 @@
     "3edc6f3036523f50": {
       "uid": "3edc6f3036523f50",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "f9ad5145ee42ced6",
@@ -23357,7 +23388,7 @@
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-10-13",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "b26121739d40ea8b"
@@ -24403,9 +24434,9 @@
       "m2": 89.0,
       "sprat": "IV",
       "agencija": "SonataProperties",
-      "naslov": "Bw Eterna 3.0 Luksuzan Enterijer",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.300€, 89m²",
       "price_first": 2500,
-      "price_current": 2100,
+      "price_current": 2300,
       "price_changes": [
         {
           "date": "2026-11-07",
@@ -24426,14 +24457,19 @@
           "date": "2026-11-24",
           "from": 2300,
           "to": 2100
+        },
+        {
+          "date": "2026-11-24",
+          "from": 2100,
+          "to": 2300
         }
       ],
       "days_listed": 115,
-      "cena_m2": 24,
+      "cena_m2": 26,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "28029326f4f9e731",
@@ -24878,7 +24914,7 @@
     "10841ae427f3e60a": {
       "uid": "10841ae427f3e60a",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "06f69fd6cc4495ff",
@@ -24914,7 +24950,7 @@
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-11-23",
+        "nadjidom": "2026-11-24",
         "4zida": "2026-11-23"
       },
       "fp_nosprat_all": [
@@ -26632,7 +26668,7 @@
       "m2": 136.0,
       "sprat": "XII/17",
       "agencija": "PropertyBroker",
-      "naslov": "BW Terraces, pogled na reku, dva garažna ID#4805",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 4.900€, 136m²",
       "price_first": 4900,
       "price_current": 4900,
       "price_changes": [],
@@ -26640,7 +26676,7 @@
       "cena_m2": 36,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "2c5932782d4a8041"
@@ -27875,9 +27911,9 @@
       "m2": 89.0,
       "sprat": "II/8",
       "agencija": "SonataProperties",
-      "naslov": "Bw Quartet 3, 2 Bedrooms, Parking",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.300€, 89m²",
       "price_first": 1800,
-      "price_current": 2100,
+      "price_current": 2300,
       "price_changes": [
         {
           "date": "2026-10-08",
@@ -28143,14 +28179,19 @@
           "date": "2026-11-24",
           "from": 2300,
           "to": 2100
+        },
+        {
+          "date": "2026-11-24",
+          "from": 2100,
+          "to": 2300
         }
       ],
       "days_listed": 95,
-      "cena_m2": 24,
+      "cena_m2": 26,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "83afd80cec26cdeb",
@@ -28869,7 +28910,7 @@
     "4c20984387b007d2": {
       "uid": "4c20984387b007d2",
       "first_seen": "2026-08-25",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "94b0b879c60fe82b",
@@ -28906,7 +28947,7 @@
       "last_seen_src": {
         "halo": "2026-09-30",
         "4zida": "2026-11-18",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "fp_nosprat_all": [
         "29ff458bd86af673"
@@ -30187,9 +30228,9 @@
       "m2": 138.0,
       "sprat": "XII",
       "agencija": "SonataProperties",
-      "naslov": "Bw Aria 4.0, Odmah Useljiv",
+      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 3.800€, 138m²",
       "price_first": 2000,
-      "price_current": 3500,
+      "price_current": 3800,
       "price_changes": [
         {
           "date": "2026-09-22",
@@ -30415,13 +30456,18 @@
           "date": "2026-11-24",
           "from": 3800,
           "to": 3500
+        },
+        {
+          "date": "2026-11-24",
+          "from": 3500,
+          "to": 3800
         }
       ],
       "days_listed": 86,
-      "cena_m2": 25,
+      "cena_m2": 28,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "eae9f23e800429b8"
@@ -30431,7 +30477,7 @@
     "1122a8751f60410e": {
       "uid": "1122a8751f60410e",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "132ece20932b4b65",
@@ -30472,7 +30518,7 @@
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_loose_all": [
         "7f651d27e5032824",
@@ -30731,7 +30777,7 @@
     "8d328462fd00c58c": {
       "uid": "8d328462fd00c58c",
       "first_seen": "2026-09-02",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "907820ab30561773",
@@ -30764,7 +30810,7 @@
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-11-09",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "2f3b00ee6287a7f5"
@@ -31035,19 +31081,19 @@
       "zgrada": "BW Libera",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
-      "m2": 98.0,
-      "sprat": "VIII/15",
-      "agencija": "BebaRealEstate",
-      "naslov": "Beautifully designed, brand new - Libera",
+      "m2": 115.0,
+      "sprat": "9",
+      "agencija": "Kuca i stan Doo ",
+      "naslov": "New! BW Libera. 3 Beds Apt. Parking. ",
       "price_first": 2950,
       "price_current": 2950,
       "price_changes": [],
       "days_listed": 82,
-      "cena_m2": 30,
+      "cena_m2": 26,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-08"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "fp_nosprat_all": [
         "130bd60dc759339c",
@@ -31207,7 +31253,7 @@
     "95f90f80816ffed7": {
       "uid": "95f90f80816ffed7",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "51cfa7b5ba42bb5a",
@@ -31249,7 +31295,7 @@
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "bebfac9cbb6f9054"
@@ -31871,7 +31917,7 @@
       "m2": 147.0,
       "sprat": null,
       "agencija": "AtriumPropertyServices",
-      "naslov": "Privatna bašta sa pogledom na reku u BW Residences",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 3.500€, 147m²",
       "price_first": 3500,
       "price_current": 3500,
       "price_changes": [],
@@ -31879,7 +31925,7 @@
       "cena_m2": 24,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "ea9e5eea1741cd92"
@@ -31915,10 +31961,10 @@
       "zgrada": "BW St. Regis",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 98.37,
+      "m2": 98.0,
       "sprat": null,
       "agencija": "AtriumPropertyServices",
-      "naslov": "Predivna terasa u Kuli Beograd",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 4.000€, 98m²",
       "price_first": 4300,
       "price_current": 4000,
       "price_changes": [
@@ -32032,7 +32078,7 @@
       "cena_m2": 41,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "924bdf8fe038d9ad"
@@ -33549,7 +33595,7 @@
     "01c923279c5bd882": {
       "uid": "01c923279c5bd882",
       "first_seen": "2026-09-15",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "bc50b73cf6d8cc37",
@@ -33701,7 +33747,7 @@
       "last_seen_src": {
         "halo": "2026-10-21",
         "4zida": "2026-11-16",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "fp_loose_all": [
         "b5cf98be384558b4",
@@ -33922,7 +33968,7 @@
       "m2": 144.0,
       "sprat": "30",
       "agencija": "EUROPOLISNEKRETNINE",
-      "naslov": "St. Regis Residences – Dragulj Beograda ID#9921",
+      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 15.000€, 144m²",
       "price_first": 15000,
       "price_current": 15000,
       "price_changes": [],
@@ -33930,7 +33976,7 @@
       "cena_m2": 104,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-10-22"
       },
       "fp_nosprat_all": [
@@ -33941,7 +33987,7 @@
     "3796c33eefd0c2d7": {
       "uid": "3796c33eefd0c2d7",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d0b2ec6e9214a20e",
@@ -34043,7 +34089,7 @@
       "cena_m2": 50,
       "last_seen_src": {
         "halo": "2026-10-26",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "d3412e560b06e62c"
@@ -34668,7 +34714,7 @@
     "f71bafca5eaa3c57": {
       "uid": "f71bafca5eaa3c57",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c25b7d21628d2ab6",
@@ -34704,7 +34750,7 @@
       "cena_m2": 24,
       "last_seen_src": {
         "halo": "2026-11-04",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "0031ca90a04c0e17",
@@ -35221,7 +35267,7 @@
     "1d913ac000badd5a": {
       "uid": "1d913ac000badd5a",
       "first_seen": "2026-09-22",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "418e8edaa2b79be6",
@@ -35254,7 +35300,7 @@
       "cena_m2": 29,
       "last_seen_src": {
         "halo": "2026-10-21",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "3d6ae6d76d5cc969"
@@ -35359,7 +35405,7 @@
       "m2": 119.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Izdavanje luksuznog stana / 4.0 / 2 garazna",
+      "naslov": "Četvorosoban stan za izdavanje, Bulevar Vudroa Vilsona, 2.000€, 119m²",
       "price_first": 2000,
       "price_current": 2000,
       "price_changes": [],
@@ -35367,7 +35413,7 @@
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "014470ef2176a743"
@@ -35421,7 +35467,7 @@
     "36c4c038dab5fc2d": {
       "uid": "36c4c038dab5fc2d",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fdff0a24aac483dd",
@@ -35460,7 +35506,7 @@
       "days_listed": 62,
       "last_seen_src": {
         "halo": "2026-10-07",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "3749980b8c68e0a7"
@@ -36247,8 +36293,8 @@
       "uid": "04f78fdb16003d20",
       "first_seen": "2026-09-26",
       "last_seen": "2026-11-22",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-11-24",
       "fp_loose": "a9d3748a11d4a958",
       "fp_strict_all": [
         "09df3b5a02b25ca4"
@@ -36333,7 +36379,7 @@
     "bc090691fe47116d": {
       "uid": "bc090691fe47116d",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "8341f9a77c40b437",
@@ -36369,7 +36415,7 @@
       "cena_m2": 27,
       "last_seen_src": {
         "halo": "2026-10-20",
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-15"
       },
       "fp_nosprat_all": [
@@ -36774,9 +36820,9 @@
       "m2": 72.0,
       "sprat": "II/24",
       "agencija": "PropertyBroker",
-      "naslov": "BW Perla | premium | za poslovni prostor ID#4935",
+      "naslov": "Dvosoban stan za izdavanje, Hercegovačka, 2.400€, 72m²",
       "price_first": 2500,
-      "price_current": 2500,
+      "price_current": 2400,
       "price_changes": [
         {
           "date": "2026-10-29",
@@ -37037,23 +37083,28 @@
           "date": "2026-11-24",
           "from": 2400,
           "to": 2500
+        },
+        {
+          "date": "2026-11-24",
+          "from": 2500,
+          "to": 2400
         }
       ],
       "days_listed": 55,
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "fp_nosprat_all": [
         "7ea6dcdb195d5b7a"
       ],
       "fp_nosprat": "7ea6dcdb195d5b7a",
-      "cena_m2": 35
+      "cena_m2": 33
     },
     "fbc235af5093f264": {
       "uid": "fbc235af5093f264",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "cc8000dc3c55c744",
@@ -37081,7 +37132,7 @@
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "cena_m2": 30,
       "fp_nosprat_all": [
@@ -37173,9 +37224,9 @@
       "m2": 72.0,
       "sprat": "XVIII/24",
       "agencija": "PropertyBroker",
-      "naslov": "BW Perla, premium, kompletno namešten ID#5047",
+      "naslov": "Dvosoban stan za izdavanje, Hercegovačka, 2.500€, 72m²",
       "price_first": 2500,
-      "price_current": 2400,
+      "price_current": 2500,
       "price_changes": [
         {
           "date": "2026-10-29",
@@ -37441,14 +37492,19 @@
           "date": "2026-11-24",
           "from": 2500,
           "to": 2400
+        },
+        {
+          "date": "2026-11-24",
+          "from": 2400,
+          "to": 2500
         }
       ],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-24"
       },
-      "cena_m2": 33,
+      "cena_m2": 35,
       "fp_loose_all": [
         "9061e44523aced77",
         "cf3097832dc8783d"
@@ -37505,7 +37561,7 @@
     "bace84ab45c14ca3": {
       "uid": "bace84ab45c14ca3",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0d7ac5c8bb5c1229",
@@ -37537,7 +37593,7 @@
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-10-18"
       },
       "cena_m2": 50,
@@ -37553,7 +37609,7 @@
     "6eb8ec3c41722c93": {
       "uid": "6eb8ec3c41722c93",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "91253680c336b1c4",
@@ -37589,7 +37645,7 @@
       ],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "cena_m2": 42,
       "fp_loose_all": [
@@ -37756,7 +37812,7 @@
     "6d10283bdd03512c": {
       "uid": "6d10283bdd03512c",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "21a1ac3964b2434e",
@@ -37785,7 +37841,7 @@
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "cena_m2": 41,
       "fp_loose_all": [
@@ -37800,7 +37856,7 @@
     "109807a91d907f33": {
       "uid": "109807a91d907f33",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "5d6a9e2606ba5212",
@@ -37909,7 +37965,7 @@
       ],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-14"
       },
       "cena_m2": 41,
@@ -37925,7 +37981,7 @@
     "5c4d58735ec87412": {
       "uid": "5c4d58735ec87412",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "21a1ac3964b2434e",
@@ -37964,7 +38020,7 @@
       ],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-14"
       },
       "cena_m2": 41,
@@ -37980,7 +38036,7 @@
     "00cbed71ff501940": {
       "uid": "00cbed71ff501940",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "f3f16e5c284e0cd5",
@@ -38008,7 +38064,7 @@
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "cena_m2": 28,
       "fp_nosprat_all": [
@@ -38019,7 +38075,7 @@
     "463ae7ca220797c3": {
       "uid": "463ae7ca220797c3",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0d7ac5c8bb5c1229",
@@ -38048,7 +38104,7 @@
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "cena_m2": 42,
       "fp_loose_all": [
@@ -38065,7 +38121,7 @@
     "96bf0f2af86da355": {
       "uid": "96bf0f2af86da355",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "62ab363a9675e152",
@@ -38450,7 +38506,7 @@
       ],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-10"
       },
       "cena_m2": 25,
@@ -38583,7 +38639,7 @@
     "65fb915002278c19": {
       "uid": "65fb915002278c19",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "caf34f2bd5098709",
@@ -38611,7 +38667,7 @@
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "cena_m2": 23,
       "fp_nosprat_all": [
@@ -38889,7 +38945,7 @@
     "232cd0ca7bc54d69": {
       "uid": "232cd0ca7bc54d69",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c571dc0877d8da65",
@@ -38918,7 +38974,7 @@
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "cena_m2": 27,
       "fp_loose_all": [
@@ -39106,7 +39162,7 @@
     "ea59d5b230c5bc43": {
       "uid": "ea59d5b230c5bc43",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6cd351a1696de201",
@@ -39134,7 +39190,7 @@
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "cena_m2": 25,
       "fp_nosprat_all": [
@@ -39174,13 +39230,13 @@
       "m2": 63.0,
       "sprat": "XX",
       "agencija": "agencija-nekretnine-obradovic-doo",
-      "naslov": "BW Kula - luksuzan 2.0 stan",
+      "naslov": "Dvosoban stan za izdavanje, Nikolaja Kravcova, 4.000€, 63m²",
       "price_first": 4000,
       "price_current": 4000,
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-18",
         "halo": "2026-11-24"
       },
@@ -39277,7 +39333,7 @@
     "41a84f3d0e101ef1": {
       "uid": "41a84f3d0e101ef1",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "08d3e3562b7b11b1",
@@ -39305,7 +39361,7 @@
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "cena_m2": 25,
       "fp_nosprat_all": [
@@ -39511,7 +39567,7 @@
     "cd26ebd52436339e": {
       "uid": "cd26ebd52436339e",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "310dcc60383ac35a",
@@ -39543,7 +39599,7 @@
       "price_changes": [],
       "days_listed": 55,
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-10-27"
       },
       "cena_m2": 28,
@@ -39745,7 +39801,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-24"
       },
       "source_ids": {
@@ -39763,9 +39819,9 @@
       "m2": 147.0,
       "sprat": "XVII/25",
       "agencija": null,
-      "naslov": "BW Perla 4.0 | Lux neuseljavan stan",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 4.500€, 147m²",
       "price_first": 4500,
-      "price_current": 4300,
+      "price_current": 4500,
       "price_changes": [
         {
           "date": "2026-11-16",
@@ -39851,10 +39907,15 @@
           "date": "2026-11-24",
           "from": 4500,
           "to": 4300
+        },
+        {
+          "date": "2026-11-24",
+          "from": 4300,
+          "to": 4500
         }
       ],
       "days_listed": 55,
-      "cena_m2": 29,
+      "cena_m2": 31,
       "fp_nosprat_all": [
         "5b930d26aa973a38"
       ],
@@ -39863,7 +39924,7 @@
     "060d6fc5b48b13ce": {
       "uid": "060d6fc5b48b13ce",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "66ae1106522fd128",
@@ -39875,7 +39936,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6abd0bdf28242bfe92005d0a"
@@ -40118,7 +40179,7 @@
     "a8c1474efc277aa6": {
       "uid": "a8c1474efc277aa6",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d91b19bbfbc5bfb6",
@@ -40133,8 +40194,8 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a8dffb33a1f667b03093f63",
@@ -40566,7 +40627,7 @@
     "21c67f8620664996": {
       "uid": "21c67f8620664996",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6f6a530ce71876bb",
@@ -40580,7 +40641,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a3c07fcb7d108842c010bae"
@@ -40740,7 +40801,7 @@
     "64c3f44d4c23f5a4": {
       "uid": "64c3f44d4c23f5a4",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "577846ffac9e58ba",
@@ -40754,7 +40815,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:68394e248ae45999ce0d2568"
@@ -40784,7 +40845,7 @@
     "e047964ee6a3ba01": {
       "uid": "e047964ee6a3ba01",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "91253680c336b1c4",
@@ -40799,7 +40860,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-23"
       },
       "source_ids": {
@@ -40816,7 +40877,7 @@
       "m2": 62.0,
       "sprat": "29",
       "agencija": "Kuca i stan Doo ",
-      "naslov": "The Best app in BW Kula St. Regis. Riverside",
+      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 2.300€, 62m²",
       "price_first": 2300,
       "price_current": 2300,
       "price_changes": [],
@@ -40869,7 +40930,7 @@
     "9e72a90bc07c2b3a": {
       "uid": "9e72a90bc07c2b3a",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d429af24cd8a89e0",
@@ -40883,7 +40944,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a3ab6d11191b1aa920ffa73"
@@ -41089,7 +41150,7 @@
     "287a56ad91600d0c": {
       "uid": "287a56ad91600d0c",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b6713934fabd8a91",
@@ -41103,7 +41164,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a872d36364928989102ede3"
@@ -41261,7 +41322,7 @@
     "3f3c9824c0eaaa87": {
       "uid": "3f3c9824c0eaaa87",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4ec4add961ae9383",
@@ -41275,7 +41336,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a85dc0311c6024b380e602f"
@@ -41303,7 +41364,7 @@
     "4619d5d64cfd5b42": {
       "uid": "4619d5d64cfd5b42",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "954607160c185a23",
@@ -41318,8 +41379,8 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-10-24"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:68d275361a1c8047090ad7e6",
@@ -41335,7 +41396,7 @@
       "m2": 73.0,
       "sprat": "3",
       "agencija": "ALFA SISTEM NEKRETNINE ",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.500€, 73m²",
+      "naslov": "Izdavanje, Stan, Beograd na vodi",
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
@@ -41485,7 +41546,7 @@
     "25509485d8061e84": {
       "uid": "25509485d8061e84",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0ebf5d04b07b62dd",
@@ -41500,7 +41561,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-22"
       },
       "source_ids": {
@@ -41575,7 +41636,7 @@
     "5b58bb3a94f47498": {
       "uid": "5b58bb3a94f47498",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c7d1cedf99d210ac",
@@ -41589,7 +41650,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a1ff405f0d4e6ab3c026374"
@@ -41705,7 +41766,7 @@
     "d93cd5626528cb8e": {
       "uid": "d93cd5626528cb8e",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6bfb8402fdfc6bd4",
@@ -41719,7 +41780,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:698b0afdbd973230990ccf78"
@@ -41747,7 +41808,7 @@
     "0b553b05200ea370": {
       "uid": "0b553b05200ea370",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9fc6083c69b59f6e",
@@ -41761,7 +41822,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a82eee4da6dfb10320f0f16"
@@ -41923,7 +41984,7 @@
     "c41f845c89e780af": {
       "uid": "c41f845c89e780af",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e410e0824162113a",
@@ -41937,7 +41998,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a317bd0415006e544018289"
@@ -42007,7 +42068,7 @@
     "fad38ba9dd631b88": {
       "uid": "fad38ba9dd631b88",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a505aa568bff47a9",
@@ -42021,7 +42082,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aa7f06f5596e00dc702de06"
@@ -42133,7 +42194,7 @@
     "17d5226ef93605de": {
       "uid": "17d5226ef93605de",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "13b8671ec2f188f3",
@@ -42147,7 +42208,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a57b7287986596bdc0805e7"
@@ -42175,7 +42236,7 @@
     "59243cd458ea8da2": {
       "uid": "59243cd458ea8da2",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "83ee0f47adaab350",
@@ -42189,7 +42250,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:67db19fb35125503500bf667"
@@ -42217,7 +42278,7 @@
     "c518445abedd8ea6": {
       "uid": "c518445abedd8ea6",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e0b91cc6e5819911",
@@ -42231,7 +42292,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:67af5f849899d97d9b06206f"
@@ -42354,7 +42415,7 @@
     "9f613523771329ed": {
       "uid": "9f613523771329ed",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d5a95b5b64d2c792",
@@ -42368,7 +42429,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a7dd5b73a3fda0cd60c07ae"
@@ -42396,7 +42457,7 @@
     "783c454255dc5525": {
       "uid": "783c454255dc5525",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "bed2ce5de6f96cbb",
@@ -42411,7 +42472,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-18"
       },
       "source_ids": {
@@ -42484,7 +42545,7 @@
     "c73e88f930499917": {
       "uid": "c73e88f930499917",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6d87412a6fbeb0dd",
@@ -42500,7 +42561,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-10-15"
       },
       "source_ids": {
@@ -42531,7 +42592,7 @@
     "e0d4ce427b741b01": {
       "uid": "e0d4ce427b741b01",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6c3b19f85d7c2bc2",
@@ -42545,7 +42606,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a06f289db11fc6e6a0ab50f"
@@ -42573,7 +42634,7 @@
     "2a2d86fc372dbccd": {
       "uid": "2a2d86fc372dbccd",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "89b5404d57389ab4",
@@ -42587,7 +42648,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aa4a09d58ef4c8cde0ddb04"
@@ -42699,7 +42760,7 @@
     "176e6819bb9a179b": {
       "uid": "176e6819bb9a179b",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0cab2beb80afdd47",
@@ -42713,7 +42774,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:693efccd7b22c724e0098001"
@@ -42787,7 +42848,7 @@
     "81623148a60ca14d": {
       "uid": "81623148a60ca14d",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0d7ac5c8bb5c1229",
@@ -42801,7 +42862,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:69b3e4cbf1bc1566370dc077"
@@ -42917,7 +42978,7 @@
     "28ca34f2f72ae824": {
       "uid": "28ca34f2f72ae824",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "2058c8fe48cd5084",
@@ -42931,7 +42992,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a9f5a2d438629abe40ee1ac"
@@ -42959,7 +43020,7 @@
     "4812e468a415de4c": {
       "uid": "4812e468a415de4c",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "97c117951c521f5f",
@@ -42973,7 +43034,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a9f5a14438629abe40ee16a"
@@ -43001,7 +43062,7 @@
     "b45c679a0a627836": {
       "uid": "b45c679a0a627836",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a6eba9de0cd96213",
@@ -43015,7 +43076,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a9f59ea438629abe40ee110"
@@ -43043,7 +43104,7 @@
     "74a12004831d518d": {
       "uid": "74a12004831d518d",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "577846ffac9e58ba",
@@ -43057,7 +43118,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:65ac22baca788167660c98f7"
@@ -43173,7 +43234,7 @@
     "bde7be42d877962b": {
       "uid": "bde7be42d877962b",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "854c6590d283a920",
@@ -43187,7 +43248,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a4e6352adc318be410dc415"
@@ -43301,7 +43362,7 @@
     "d3a0e9a30cd05df5": {
       "uid": "d3a0e9a30cd05df5",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "517081668166c49b",
@@ -43315,7 +43376,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:65aadaa5d57c25687202d334"
@@ -43343,7 +43404,7 @@
     "4ad82ca28d35d4d0": {
       "uid": "4ad82ca28d35d4d0",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a9d3748a11d4a958",
@@ -43358,7 +43419,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-09-30"
       },
       "source_ids": {
@@ -43389,7 +43450,7 @@
     "500ec469dc5cffdb": {
       "uid": "500ec469dc5cffdb",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "61033d4300b6eb31",
@@ -43403,7 +43464,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a74b81780ce79af250c1f6d"
@@ -43431,7 +43492,7 @@
     "2dae630ab37891c7": {
       "uid": "2dae630ab37891c7",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9ce30559a4c83c28",
@@ -43446,7 +43507,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a74b81380ce79af250c1f67"
@@ -43475,7 +43536,7 @@
     "c7b5e2d008efb732": {
       "uid": "c7b5e2d008efb732",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "03c4b986655060ea",
@@ -43489,7 +43550,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a732d147ac06f6c880fb1c4"
@@ -43603,7 +43664,7 @@
     "51502f28d68a71b2": {
       "uid": "51502f28d68a71b2",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a9d3748a11d4a958",
@@ -43617,7 +43678,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a730d2761c97281eb045f73"
@@ -43687,7 +43748,7 @@
     "7d1283ca256dc01b": {
       "uid": "7d1283ca256dc01b",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "97a2cbfc5352f7a7",
@@ -43701,7 +43762,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a996cbe51467b77f508baa9"
@@ -43771,7 +43832,7 @@
     "ffc35421fb620550": {
       "uid": "ffc35421fb620550",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "8bc97082d0af0d65",
@@ -43785,7 +43846,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:690d14ccfcef3efdb30d4f76"
@@ -43855,7 +43916,7 @@
     "4852cf4a06dd265f": {
       "uid": "4852cf4a06dd265f",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0335cddc006f73d1",
@@ -43869,7 +43930,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:69835c14f4a2585cd601e11c"
@@ -43939,7 +44000,7 @@
     "5ae2bd54159e7a23": {
       "uid": "5ae2bd54159e7a23",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "01f562ec19c9ac4b",
@@ -43953,7 +44014,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a9821ceb2a6003fe90447c9"
@@ -44078,7 +44139,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-24"
       },
       "source_ids": {
@@ -44099,9 +44160,9 @@
       "m2": 120.0,
       "sprat": "III/5",
       "agencija": "beostan",
-      "naslov": "Centar - Beograd na vodi BW #69495",
+      "naslov": "Četvorosoban stan za izdavanje, Luke Ćelovića Trebinjca, 3.000€, 120m²",
       "price_first": 2800,
-      "price_current": 2800,
+      "price_current": 3000,
       "price_changes": [
         {
           "date": "2026-11-01",
@@ -44332,6 +44393,11 @@
           "date": "2026-11-24",
           "from": 3000,
           "to": 2800
+        },
+        {
+          "date": "2026-11-24",
+          "from": 2800,
+          "to": 3000
         }
       ],
       "days_listed": 55,
@@ -44339,12 +44405,12 @@
         "9f4dc537eebf202d"
       ],
       "fp_nosprat": "9f4dc537eebf202d",
-      "cena_m2": 23
+      "cena_m2": 25
     },
     "5ffa758a453e257d": {
       "uid": "5ffa758a453e257d",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a705709c5f92bfc4",
@@ -44359,7 +44425,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6a96deaece305ef8bf0592c0"
@@ -44393,7 +44459,7 @@
     "f36b4e8c19754feb": {
       "uid": "f36b4e8c19754feb",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0d7ac5c8bb5c1229",
@@ -44409,7 +44475,7 @@
       ],
       "last_seen_src": {
         "4zida": "2026-10-19",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:677757b96ffdb9091a068083",
@@ -44439,7 +44505,7 @@
     "bf53efb2a50bd7dc": {
       "uid": "bf53efb2a50bd7dc",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "560791602f994fe3",
@@ -44454,7 +44520,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-16"
       },
       "source_ids": {
@@ -45267,7 +45333,7 @@
     "c710541c5b5766c6": {
       "uid": "c710541c5b5766c6",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fe522913377787d7",
@@ -45281,7 +45347,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "nadjidom": "nadjidom:2343018"
@@ -45311,7 +45377,7 @@
     "749b989babbf6c36": {
       "uid": "749b989babbf6c36",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9597cbaeff0fbd92",
@@ -45326,8 +45392,8 @@
         "4zida"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-10-27",
-        "4zida": "2026-11-23"
+        "nadjidom": "2026-11-24",
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "nadjidom": "nadjidom:2343005",
@@ -45343,7 +45409,7 @@
       "m2": 109.0,
       "sprat": "3",
       "agencija": "Leon Real Estate",
-      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 3.000€, 109m²",
+      "naslov": "Trosoban stan 109 m², Beograd na vodi, Savski Venac",
       "price_first": 3000,
       "price_current": 3000,
       "price_changes": [],
@@ -45424,9 +45490,9 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-24",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6abd39db0424d68c6a0dd4ca",
@@ -45443,11 +45509,11 @@
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 74.0,
-      "sprat": "II/7",
-      "agencija": "art-nekretnine-d-o-o",
+      "sprat": "2",
+      "agencija": "ART nekretnine d.o.o. ",
       "naslov": "Elegantan 3.0 stan u Eterni ID#141011",
       "price_first": 2200,
-      "price_current": 2100,
+      "price_current": 2200,
       "price_changes": [
         {
           "date": "2026-11-21",
@@ -45483,10 +45549,15 @@
           "date": "2026-11-24",
           "from": 2200,
           "to": 2100
+        },
+        {
+          "date": "2026-11-24",
+          "from": 2100,
+          "to": 2200
         }
       ],
       "days_listed": 55,
-      "cena_m2": 28
+      "cena_m2": 30
     },
     "bfad89cb5e055d2d": {
       "uid": "bfad89cb5e055d2d",
@@ -46177,7 +46248,7 @@
     "7a7fe9bbe7a1ee85": {
       "uid": "7a7fe9bbe7a1ee85",
       "first_seen": "2026-10-05",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "08a8458713348451",
@@ -46197,7 +46268,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-10-15",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425646189457",
@@ -46577,7 +46648,7 @@
     "bcb90ebc1ef1ac51": {
       "uid": "bcb90ebc1ef1ac51",
       "first_seen": "2026-10-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ec871600ed172763",
@@ -46598,7 +46669,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-10-21",
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-20"
       },
       "source_ids": {
@@ -47036,7 +47107,7 @@
     "d29b8cfae854c01f": {
       "uid": "d29b8cfae854c01f",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "dce9b4e7a58168ca",
@@ -47055,7 +47126,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6abf82ffc1e74c089202788a"
@@ -47277,7 +47348,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-24"
       },
       "source_ids": {
@@ -47294,7 +47365,7 @@
       "m2": 230.0,
       "sprat": "XVI/25",
       "agencija": "PropertyBroker",
-      "naslov": "BW Riviera, fantastičan pogled na reku ID#4986",
+      "naslov": "Petosoban stan za izdavanje, Hercegovačka, 8.900€, 230m²",
       "price_first": 8900,
       "price_current": 8900,
       "price_changes": [],
@@ -47346,7 +47417,7 @@
     "6a12f3547b7db4fd": {
       "uid": "6a12f3547b7db4fd",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "06d6b9fb3c9ac966",
@@ -47364,7 +47435,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ac3bd9cdd56a8a4d80c9ec3"
@@ -47388,7 +47459,7 @@
     "97a6905cac360794": {
       "uid": "97a6905cac360794",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "be8ee6906db6e4aa",
@@ -47406,7 +47477,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ac3b196f6dcc9d6320d8f7c"
@@ -47681,7 +47752,7 @@
     "cb78e97eebb31e05": {
       "uid": "cb78e97eebb31e05",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6f8a681db86e0dff",
@@ -47699,7 +47770,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ac289e3481f4e7b6a0bba28"
@@ -48358,7 +48429,7 @@
     "d12a02885d99a2df": {
       "uid": "d12a02885d99a2df",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "cf2602f3934ed194",
@@ -48378,7 +48449,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-10-07",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647729915",
@@ -48560,7 +48631,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647788377",
@@ -48579,7 +48650,7 @@
       "m2": 57.0,
       "sprat": "XXIV",
       "agencija": "MaxisGroup1",
-      "naslov": "BW St. Regis Residence 2.0",
+      "naslov": "Dvosoban stan za izdavanje, Nikolaja Kravcova, 2.500€, 57m²",
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
@@ -49392,7 +49463,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-21"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647795181",
@@ -49408,10 +49479,10 @@
       "zgrada": "BW Parkview",
       "struktura": "2.0",
       "str_label": "Dvosoban",
-      "m2": 52.5,
+      "m2": 52.0,
       "sprat": "II",
       "agencija": "SonataProperties",
-      "naslov": "Bw Scala | Lux | Pogled Na Park",
+      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 1.500€, 52m²",
       "price_first": 1400,
       "price_current": 1500,
       "price_changes": [
@@ -49469,7 +49540,7 @@
     "ed2ec0e83b569977": {
       "uid": "ed2ec0e83b569977",
       "first_seen": "2026-10-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "095815d2aaec654d",
@@ -49492,7 +49563,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-10-27",
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-19"
       },
       "source_ids": {
@@ -49838,7 +49909,7 @@
     "64b90d99b1e840e2": {
       "uid": "64b90d99b1e840e2",
       "first_seen": "2026-10-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "97a2cbfc5352f7a7",
@@ -49856,7 +49927,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ac787dd9377acccc5008e55"
@@ -50500,7 +50571,7 @@
     "3534d13a96868579": {
       "uid": "3534d13a96868579",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "267ce114481cd458",
@@ -50518,7 +50589,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6accd0711f1d8d4ffa0f98eb"
@@ -50627,7 +50698,7 @@
     "df502ad79f90604d": {
       "uid": "df502ad79f90604d",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0ffad861582da976",
@@ -50648,7 +50719,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-10-20",
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-11-20"
       },
       "source_ids": {
@@ -50845,7 +50916,7 @@
     "32a49226d426b95e": {
       "uid": "32a49226d426b95e",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "66416ac689144dc9",
@@ -50863,7 +50934,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6acd08294a58819b710aeff8"
@@ -50934,7 +51005,7 @@
     "d6b128f256217bcc": {
       "uid": "d6b128f256217bcc",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a9e7d45daa917c1b",
@@ -50953,7 +51024,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "nadjidom": "2026-10-29"
       },
       "source_ids": {
@@ -50980,7 +51051,7 @@
     "3e02ed7172dac62e": {
       "uid": "3e02ed7172dac62e",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "52852f7aa399a89a",
@@ -50998,7 +51069,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "nadjidom": "nadjidom:2362472"
@@ -52112,7 +52183,7 @@
     "587d065e7926ebc8": {
       "uid": "587d065e7926ebc8",
       "first_seen": "2026-10-15",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3b7895dd35f728c9",
@@ -52130,7 +52201,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6acf5ad4d14ff9d64a096b98"
@@ -52506,7 +52577,7 @@
     "ed8b17eefba3e808": {
       "uid": "ed8b17eefba3e808",
       "first_seen": "2026-10-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "651589d3e9ccd625",
@@ -52527,7 +52598,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-18",
         "nadjidom": "2026-11-05"
       },
@@ -53093,8 +53164,8 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647847838",
@@ -53110,11 +53181,11 @@
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 124.0,
-      "sprat": "XIV",
-      "agencija": "symbol-properties-doo-beograd",
-      "naslov": "Lux 4.0- bazen, teretana, 2 garažna mesta, ID 8697",
+      "sprat": "14",
+      "agencija": "ART nekretnine d.o.o. ",
+      "naslov": "BW- stan sa dva garažna mesta ID#16851",
       "price_first": 4000,
-      "price_current": 3600,
+      "price_current": 4000,
       "price_changes": [
         {
           "date": "2026-11-10",
@@ -53260,10 +53331,15 @@
           "date": "2026-11-24",
           "from": 4000,
           "to": 3600
+        },
+        {
+          "date": "2026-11-24",
+          "from": 3600,
+          "to": 4000
         }
       ],
       "days_listed": 36,
-      "cena_m2": 29
+      "cena_m2": 32
     },
     "0e365ed2522e7d41": {
       "uid": "0e365ed2522e7d41",
@@ -53904,7 +53980,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647846686",
@@ -53921,7 +53997,7 @@
       "m2": 140.0,
       "sprat": "XVIII/19",
       "agencija": "AtriumPropertyServices",
-      "naslov": "BW Residences - četvorosoban stan sa pogledom na r",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovacka, 3.850€, 140m²",
       "price_first": 3850,
       "price_current": 3850,
       "price_changes": [],
@@ -54057,7 +54133,7 @@
     "1f19efed08035b9e": {
       "uid": "1f19efed08035b9e",
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b1c1eacf677cb08b",
@@ -54078,7 +54154,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-10-27",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647855202",
@@ -54273,7 +54349,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647855230",
@@ -54289,7 +54365,7 @@
       "m2": 68.0,
       "sprat": "V/7",
       "agencija": "beostan",
-      "naslov": "Centar - Savski Venac #69461",
+      "naslov": "Trosoban stan za izdavanje, Birčaninova, 750€, 68m²",
       "price_first": 750,
       "price_current": 750,
       "price_changes": [],
@@ -54676,7 +54752,7 @@
     "a9b1629457a786ee": {
       "uid": "a9b1629457a786ee",
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "2c5388df2d34a0c8",
@@ -54696,7 +54772,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-17",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647854216",
@@ -55123,7 +55199,7 @@
     "27eebebe090a8b53": {
       "uid": "27eebebe090a8b53",
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a72fc87dc1ba7074",
@@ -55141,7 +55217,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ad84a5e2e72c259e30688e1"
@@ -56173,7 +56249,7 @@
     "839cf3965c41bad4": {
       "uid": "839cf3965c41bad4",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0238f53b7c25d5d2",
@@ -56185,13 +56261,14 @@
         "4bb3d5c968cc46c1"
       ],
       "fp_strict_all": [
-        "c8b7cc4d8a5480eb"
+        "c8b7cc4d8a5480eb",
+        "2c681501541baa7d"
       ],
       "sources": [
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ada10dbe5cfe6595706e5b3"
@@ -56205,12 +56282,18 @@
       "m2": 123.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 4.000€, 123m²",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 3.600€, 123m²",
       "price_first": 4000,
-      "price_current": 4000,
-      "price_changes": [],
+      "price_current": 3600,
+      "price_changes": [
+        {
+          "date": "2026-11-24",
+          "from": 4000,
+          "to": 3600
+        }
+      ],
       "days_listed": 32,
-      "cena_m2": 33
+      "cena_m2": 29
     },
     "0c52aaad63fbe014": {
       "uid": "0c52aaad63fbe014",
@@ -56319,7 +56402,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647866092",
@@ -56336,7 +56419,7 @@
       "m2": 117.0,
       "sprat": "III/5",
       "agencija": "PropertyBroker",
-      "naslov": "BW Magnolia, kompletno namešten, odmah useljiv ID#",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 2.800€, 117m²",
       "price_first": 2800,
       "price_current": 2800,
       "price_changes": [],
@@ -56411,7 +56494,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-24"
       },
       "source_ids": {
@@ -56429,7 +56512,7 @@
       "m2": 120.0,
       "sprat": "III/5",
       "agencija": "Kredium",
-      "naslov": "BW Magnolia 11 | Italijanski nameštaj | Moderan",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 2.800€, 120m²",
       "price_first": 2800,
       "price_current": 2800,
       "price_changes": [],
@@ -56484,7 +56567,7 @@
     "e2586e466996bdc7": {
       "uid": "e2586e466996bdc7",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ca61ee3db212cd1d",
@@ -56504,7 +56587,7 @@
       ],
       "last_seen_src": {
         "4zida": "2026-11-18",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6adbac476757f90244002a8e",
@@ -56530,7 +56613,7 @@
     "c7810faf93c8e591": {
       "uid": "c7810faf93c8e591",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6c0d586b92caa95c",
@@ -56548,7 +56631,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6adbab3f6757f90244002a55"
@@ -56572,7 +56655,7 @@
     "f74c01246309fb81": {
       "uid": "f74c01246309fb81",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fe5527d9f440ae65",
@@ -56590,7 +56673,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6adb5053e5ee4004950df44e"
@@ -56615,8 +56698,8 @@
       "uid": "aa15f229770d0837",
       "first_seen": "2026-10-24",
       "last_seen": "2026-11-22",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-11-24",
       "fp_loose": "7e3e5de79d974d0e",
       "fp_loose_all": [
         "7e3e5de79d974d0e"
@@ -56656,7 +56739,7 @@
     "e0113d0a312e0cb9": {
       "uid": "e0113d0a312e0cb9",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "61c05c1aa469bccf",
@@ -56674,7 +56757,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "nadjidom": "nadjidom:2367944"
@@ -56874,7 +56957,7 @@
     "0366c1ea31fce639": {
       "uid": "0366c1ea31fce639",
       "first_seen": "2026-10-25",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "8bc97082d0af0d65",
@@ -56892,7 +56975,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6adcc18c1e8795f02e0866de"
@@ -56958,7 +57041,7 @@
     "b1b5ae5a84cca2e8": {
       "uid": "b1b5ae5a84cca2e8",
       "first_seen": "2026-10-25",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "8bc97082d0af0d65",
@@ -56976,7 +57059,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6adc89991603443ba902bd0c"
@@ -57287,7 +57370,7 @@
     "5e5dca13a53589b8": {
       "uid": "5e5dca13a53589b8",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d3480f58b9a47092",
@@ -57307,7 +57390,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-02",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647882891",
@@ -57333,7 +57416,7 @@
     "f482dbdcaab39920": {
       "uid": "f482dbdcaab39920",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "eab027e5e969e389",
@@ -57354,8 +57437,8 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-02",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647880417",
@@ -57767,7 +57850,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647880406",
@@ -57784,9 +57867,9 @@
       "m2": 124.0,
       "sprat": "XIV/19",
       "agencija": "art-nekretnine-d-o-o",
-      "naslov": "BW- stan sa dva garažna mesta ID#16851",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 4.000€, 124m²",
       "price_first": 4000,
-      "price_current": 3600,
+      "price_current": 4000,
       "price_changes": [
         {
           "date": "2026-11-10",
@@ -57932,15 +58015,20 @@
           "date": "2026-11-24",
           "from": 4000,
           "to": 3600
+        },
+        {
+          "date": "2026-11-24",
+          "from": 3600,
+          "to": 4000
         }
       ],
       "days_listed": 28,
-      "cena_m2": 29
+      "cena_m2": 32
     },
     "405c19b23618cd13": {
       "uid": "405c19b23618cd13",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "5fd1af8fc0c5764c",
@@ -57958,7 +58046,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6adf6f43f49b2f83a3022578"
@@ -57982,7 +58070,7 @@
     "0ca110dbf77740be": {
       "uid": "0ca110dbf77740be",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b7da8c7f81b34981",
@@ -58000,7 +58088,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae06ecf6f2f7f30910a01e1"
@@ -58066,7 +58154,7 @@
     "9c9f9e5d9321bc01": {
       "uid": "9c9f9e5d9321bc01",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6222ef464a135000",
@@ -58085,8 +58173,8 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6adfdff93d23e9b2cc017cd5",
@@ -58200,7 +58288,7 @@
     "6d26cbf5ebebdd53": {
       "uid": "6d26cbf5ebebdd53",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6bb47b6781d02a6c",
@@ -58220,7 +58308,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-03",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647885126",
@@ -58289,7 +58377,7 @@
     "c9097f42d989e04e": {
       "uid": "c9097f42d989e04e",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "bf2bdb00cd554c96",
@@ -58310,8 +58398,8 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-05",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647887823",
@@ -58339,7 +58427,7 @@
     "e8ed145fdd8f50fe": {
       "uid": "e8ed145fdd8f50fe",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ccce8552e28052f4",
@@ -58359,7 +58447,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-03",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647885873",
@@ -58588,7 +58676,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647888306",
@@ -58604,9 +58692,9 @@
       "m2": 111.0,
       "sprat": "X/19",
       "agencija": null,
-      "naslov": "BW - Eden, 111m2, 4.0, X, polunamešten",
+      "naslov": "Četvorosoban stan za izdavanje, Bulevar Vudroa Vilsona, 2.500€, 111m²",
       "price_first": 2400,
-      "price_current": 2400,
+      "price_current": 2500,
       "price_changes": [
         {
           "date": "2026-10-28",
@@ -58867,10 +58955,15 @@
           "date": "2026-11-24",
           "from": 2500,
           "to": 2400
+        },
+        {
+          "date": "2026-11-24",
+          "from": 2400,
+          "to": 2500
         }
       ],
       "days_listed": 27,
-      "cena_m2": 22
+      "cena_m2": 23
     },
     "d66f2606dd63c67b": {
       "uid": "d66f2606dd63c67b",
@@ -59071,7 +59164,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647885156",
@@ -59084,10 +59177,10 @@
       "zgrada": "BW St. Regis",
       "struktura": "2.0",
       "str_label": "Dvosoban",
-      "m2": 61.04,
+      "m2": 61.0,
       "sprat": "XXVIII",
       "agencija": "AtriumPropertyServices",
-      "naslov": "BW Kula - Beograd na dlanu",
+      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 2.500€, 61m²",
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
@@ -59119,7 +59212,7 @@
       "last_seen_src": {
         "halo": "2026-11-24",
         "4zida": "2026-11-17",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647885123",
@@ -59135,9 +59228,9 @@
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 124.0,
-      "sprat": "XIV",
-      "agencija": "Kredium",
-      "naslov": "BW Residences 13 | Beograd na vodi |Premium zgrada",
+      "sprat": "14",
+      "agencija": "AS nekretnine pro ",
+      "naslov": "Izdavanje, Stan, Beograd na vodi, Hercegovačka",
       "price_first": 4000,
       "price_current": 4000,
       "price_changes": [],
@@ -59285,7 +59378,7 @@
     "599750aa2e78086e": {
       "uid": "599750aa2e78086e",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "22bbc24bf4d3239c",
@@ -59304,8 +59397,8 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae1ba919d07fbc8010f5041",
@@ -59627,7 +59720,7 @@
     "75ca40a69b4cb936": {
       "uid": "75ca40a69b4cb936",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "5250ccf362ce5a87",
@@ -59645,7 +59738,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6adb79de765770d9890d3742"
@@ -60028,7 +60121,7 @@
     "cb1541cc1bdc3448": {
       "uid": "cb1541cc1bdc3448",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c2f1765c84cbf933",
@@ -60049,7 +60142,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-18",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647892868",
@@ -60187,7 +60280,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647895300",
@@ -60204,9 +60297,9 @@
       "m2": 78.0,
       "sprat": "IV/8",
       "agencija": "SonataProperties",
-      "naslov": "Bw Quartet 4, 3.0, Pogled na Kulu, Parking",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.300€, 78m²",
       "price_first": 2300,
-      "price_current": 2100,
+      "price_current": 2300,
       "price_changes": [
         {
           "date": "2026-11-09",
@@ -60367,10 +60460,15 @@
           "date": "2026-11-24",
           "from": 2300,
           "to": 2100
+        },
+        {
+          "date": "2026-11-24",
+          "from": 2100,
+          "to": 2300
         }
       ],
       "days_listed": 26,
-      "cena_m2": 27
+      "cena_m2": 29
     },
     "500903945383b2cd": {
       "uid": "500903945383b2cd",
@@ -60397,8 +60495,8 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647895299",
@@ -60415,11 +60513,11 @@
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 55.0,
-      "sprat": "IV/16",
-      "agencija": "agencija-nekretnine-obradovic-doo",
-      "naslov": "Beograd na vodi, izdavanje stana sa garaznim mesto",
+      "sprat": "4",
+      "agencija": "Agencija NEKRETNINE OBRADOVIC d.o.o ",
+      "naslov": "Stan 55m2, Savski Venac, Beograd na vodi",
       "price_first": 1000,
-      "price_current": 1200,
+      "price_current": 1000,
       "price_changes": [
         {
           "date": "2026-11-01",
@@ -60655,10 +60753,15 @@
           "date": "2026-11-24",
           "from": 1000,
           "to": 1200
+        },
+        {
+          "date": "2026-11-24",
+          "from": 1200,
+          "to": 1000
         }
       ],
       "days_listed": 26,
-      "cena_m2": 22
+      "cena_m2": 18
     },
     "ab26ba9f414fe767": {
       "uid": "ab26ba9f414fe767",
@@ -60756,7 +60859,7 @@
     "31f1eaba4cdd4641": {
       "uid": "31f1eaba4cdd4641",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "be8ee6906db6e4aa",
@@ -60774,7 +60877,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae1da47e23c8b3a61065935"
@@ -60966,7 +61069,7 @@
     "53e941ef86db6bf5": {
       "uid": "53e941ef86db6bf5",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "f8d9e71003d817a7",
@@ -60984,7 +61087,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "nadjidom": "nadjidom:2369649"
@@ -61008,7 +61111,7 @@
     "3a77dd027faa906a": {
       "uid": "3a77dd027faa906a",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "5dbdf7551749dc89",
@@ -61026,7 +61129,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "nadjidom": "nadjidom:2369434"
@@ -61260,7 +61363,7 @@
     "e3d4380c94f77f81": {
       "uid": "e3d4380c94f77f81",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "f574becc8911afd6",
@@ -61281,8 +61384,8 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-06",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425646212557",
@@ -61444,7 +61547,7 @@
     "00450aa1749492da": {
       "uid": "00450aa1749492da",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "67b6a37118793e2c",
@@ -61462,7 +61565,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae35be27898cc617b032add"
@@ -61570,7 +61673,7 @@
     "f8a50b6bbbb7d3e9": {
       "uid": "f8a50b6bbbb7d3e9",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "dd5a90ba6a77e3e9",
@@ -61588,7 +61691,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae330abd1fe0ecaca0ad50f"
@@ -61612,7 +61715,7 @@
     "d38b4e75d6fc1006": {
       "uid": "d38b4e75d6fc1006",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e9f43027dc64a14d",
@@ -61630,7 +61733,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "nadjidom": "nadjidom:2369842"
@@ -61829,7 +61932,7 @@
     "db5d6af822236281": {
       "uid": "db5d6af822236281",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "edaf04e78505009c",
@@ -61851,7 +61954,7 @@
       "last_seen_src": {
         "halo": "2026-11-06",
         "4zida": "2026-11-16",
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647905398",
@@ -61946,7 +62049,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-24"
       },
       "source_ids": {
@@ -61964,9 +62067,9 @@
       "m2": 124.0,
       "sprat": "XIV/19",
       "agencija": null,
-      "naslov": "BW Residences–Lux 4-Room+2 Garage Spaces",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovačka, 4.000€, 124m²",
       "price_first": 4000,
-      "price_current": 3600,
+      "price_current": 4000,
       "price_changes": [
         {
           "date": "2026-11-18",
@@ -62032,15 +62135,20 @@
           "date": "2026-11-24",
           "from": 4000,
           "to": 3600
+        },
+        {
+          "date": "2026-11-24",
+          "from": 3600,
+          "to": 4000
         }
       ],
       "days_listed": 24,
-      "cena_m2": 29
+      "cena_m2": 32
     },
     "0fc7a5a519d7f879": {
       "uid": "0fc7a5a519d7f879",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e1ccd1d029807be1",
@@ -62058,7 +62166,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae4e9edd0ba0510980d0ddc"
@@ -62124,7 +62232,7 @@
     "4a92190db68afb9c": {
       "uid": "4a92190db68afb9c",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "1f6bed1376f03e8a",
@@ -62142,7 +62250,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae488e9e9a9d196410642f9"
@@ -62272,8 +62380,8 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647916406",
@@ -62290,11 +62398,11 @@
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 56.0,
-      "sprat": "IX/15",
-      "agencija": "eminent-nekretnine",
-      "naslov": "BW Thalia, nov, neuseljavan stan, ID 26224",
+      "sprat": "9",
+      "agencija": "ALFA SISTEM NEKRETNINE ",
+      "naslov": "Izdavanje, Stan, Beograd na vodi",
       "price_first": 1350,
-      "price_current": 1600,
+      "price_current": 1350,
       "price_changes": [
         {
           "date": "2026-11-17",
@@ -62370,10 +62478,15 @@
           "date": "2026-11-24",
           "from": 1350,
           "to": 1600
+        },
+        {
+          "date": "2026-11-24",
+          "from": 1600,
+          "to": 1350
         }
       ],
       "days_listed": 22,
-      "cena_m2": 29
+      "cena_m2": 24
     },
     "dd5cd7c0c1ce54e7": {
       "uid": "dd5cd7c0c1ce54e7",
@@ -63159,7 +63272,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647919542",
@@ -63176,7 +63289,7 @@
       "m2": 55.0,
       "sprat": "I/10",
       "agencija": "kupac-magnat-3",
-      "naslov": "Beograd na vodi , dvosoban stan 55m², nov, garaža",
+      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.200€, 55m²",
       "price_first": 1200,
       "price_current": 1200,
       "price_changes": [],
@@ -63228,7 +63341,7 @@
     "801850e212b0d72d": {
       "uid": "801850e212b0d72d",
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9fc6083c69b59f6e",
@@ -63246,7 +63359,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae9bf0f4d6bc29c210e48e5"
@@ -63270,7 +63383,7 @@
     "5db98228d6bf7f7b": {
       "uid": "5db98228d6bf7f7b",
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "21a1ac3964b2434e",
@@ -63288,7 +63401,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae9bc9c8356316019006c9a"
@@ -63312,7 +63425,7 @@
     "c627dff4059cfb6b": {
       "uid": "c627dff4059cfb6b",
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "8b9255b45d52f0ba",
@@ -63330,7 +63443,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae9c3fc0ca96b3b0d06c8c7"
@@ -63354,7 +63467,7 @@
     "0b77306eeb331f55": {
       "uid": "0b77306eeb331f55",
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "542316f9c2080f3e",
@@ -63373,7 +63486,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-12"
       },
       "source_ids": {
@@ -63400,7 +63513,7 @@
     "96da20826186c879": {
       "uid": "96da20826186c879",
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4db45472cf289866",
@@ -63418,7 +63531,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae9c2bbee9d781e580509f6"
@@ -63854,7 +63967,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425645200108",
@@ -63870,7 +63983,7 @@
       "m2": 55.0,
       "sprat": "III",
       "agencija": null,
-      "naslov": "Poslovni prostor sa pogledom na park",
+      "naslov": "Dvosoban stan za izdavanje, Beograd na vodi, 1.200€, 55m²",
       "price_first": 1200,
       "price_current": 1200,
       "price_changes": [],
@@ -64006,7 +64119,7 @@
     "e71f2f86053d14e1": {
       "uid": "e71f2f86053d14e1",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "91253680c336b1c4",
@@ -64024,7 +64137,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae9d10de79737613200c625"
@@ -64090,7 +64203,7 @@
     "03dda49e6b52e986": {
       "uid": "03dda49e6b52e986",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "7f04a34b7b81a0df",
@@ -64108,7 +64221,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aea61395ad2f34c160bf4c7"
@@ -64216,7 +64329,7 @@
     "2d04bbcd00e9d619": {
       "uid": "2d04bbcd00e9d619",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "91282b4c5f89d99e",
@@ -64234,7 +64347,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae9fedb5cd40ee7c80efa4f"
@@ -64258,7 +64371,7 @@
     "bfff431ed1acc43f": {
       "uid": "bfff431ed1acc43f",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "66f2014a23f32264",
@@ -64276,7 +64389,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae9f2e24358b5e6860ad1b3"
@@ -64300,7 +64413,7 @@
     "b8b03f7f921a4642": {
       "uid": "b8b03f7f921a4642",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "33c45fb07423a479",
@@ -64318,7 +64431,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae9e27b2fdfed84b40c256f"
@@ -64446,7 +64559,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425645202494",
@@ -64462,7 +64575,7 @@
       "m2": 55.0,
       "sprat": "III",
       "agencija": "eminent-nekretnine",
-      "naslov": "BW Kings Park, odličan za pp, ID 23774",
+      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.200€, 55m²",
       "price_first": 1200,
       "price_current": 1200,
       "price_changes": [],
@@ -64587,7 +64700,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647928240",
@@ -64603,7 +64716,7 @@
       "m2": 55.0,
       "sprat": "III",
       "agencija": "Kredium",
-      "naslov": "BW Kings park 22 | Beograd na vodi | Polunamešten",
+      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.200€, 55m²",
       "price_first": 1200,
       "price_current": 1200,
       "price_changes": [],
@@ -64755,16 +64868,20 @@
         "09125e3c57ba7763"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-11-24"
+        "halo": "2026-11-24",
+        "4zida": "2026-11-24"
       },
       "source_ids": {
-        "halo": "5425647927511"
+        "halo": "5425647927511",
+        "4zida": "4zida:6b047196868805db730d400b"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-beograd-na-vodi-dvosoban-moze-za-pp/5425647927511?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-beograd-na-vodi-dvosoban-moze-za-pp/5425647927511?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6b047196868805db730d400b"
       ],
       "zgrada": "BW King's Park",
       "struktura": "2.0",
@@ -64772,7 +64889,7 @@
       "m2": 55.0,
       "sprat": "III",
       "agencija": null,
-      "naslov": "Stan Beograd na vodi , dvosoban , moze za pp",
+      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.200€, 55m²",
       "price_first": 1200,
       "price_current": 1200,
       "price_changes": [],
@@ -65019,7 +65136,7 @@
     "49c446c7f278bf89": {
       "uid": "49c446c7f278bf89",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "eb6bd9909eca0678",
@@ -65037,7 +65154,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aec65a11c323bb20406b164"
@@ -65228,7 +65345,7 @@
     "6e98679e11292066": {
       "uid": "6e98679e11292066",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d20f3ec7219f7c79",
@@ -65246,7 +65363,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aeb4598140aa1e2aa00b147"
@@ -65270,7 +65387,7 @@
     "43ed65c5d6896f33": {
       "uid": "43ed65c5d6896f33",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "57aca4f02c2d49a3",
@@ -65288,7 +65405,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6ae8914982a2005e880beef6"
@@ -65355,7 +65472,7 @@
     "a206c7898d2807c9": {
       "uid": "a206c7898d2807c9",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "047b9a29c24fec55",
@@ -65375,7 +65492,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-11",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647930115",
@@ -65568,7 +65685,7 @@
     "15f64b0314749883": {
       "uid": "15f64b0314749883",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "99039152be4f0ad0",
@@ -65586,7 +65703,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aecb49aa3cdb3a9a40b7f6b"
@@ -65610,7 +65727,7 @@
     "8c7d11795d60e192": {
       "uid": "8c7d11795d60e192",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "764a8e4acff87681",
@@ -65628,7 +65745,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:65f59bba4845828f4e008257"
@@ -65652,7 +65769,7 @@
     "c31e6e2d8ea7a42c": {
       "uid": "c31e6e2d8ea7a42c",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e9d10bc8fd2748a7",
@@ -65670,7 +65787,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aecb1de8c1b54275f02df93"
@@ -65778,7 +65895,7 @@
     "14893bdb569eecd0": {
       "uid": "14893bdb569eecd0",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "99039152be4f0ad0",
@@ -65796,7 +65913,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aecb9ef5d3d32e26606b5e8"
@@ -65862,7 +65979,7 @@
     "8e9a53def0749d0f": {
       "uid": "8e9a53def0749d0f",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "07fd05826d454ce6",
@@ -65880,7 +65997,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aec85863d5243854c0cfba5"
@@ -65904,7 +66021,7 @@
     "bf718d9c80880106": {
       "uid": "bf718d9c80880106",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "26e015b84a55ee89",
@@ -65922,7 +66039,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "nadjidom": "nadjidom:2001328"
@@ -66133,7 +66250,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647938089",
@@ -66149,7 +66266,7 @@
       "m2": 88.0,
       "sprat": "II/5",
       "agencija": "beostan",
-      "naslov": "Centar - Beograd na vodi BW #69666",
+      "naslov": "Trosoban stan za izdavanje, Hercegovacka, 1.500€, 88m²",
       "price_first": 1500,
       "price_current": 1500,
       "price_changes": [],
@@ -66331,7 +66448,7 @@
     "ccf6a941506f20ef": {
       "uid": "ccf6a941506f20ef",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "91282b4c5f89d99e",
@@ -66349,7 +66466,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aedd2c8351467a45603d59b"
@@ -66373,7 +66490,7 @@
     "257d3e0b833c450e": {
       "uid": "257d3e0b833c450e",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "407ca3cc7d8bd0a9",
@@ -66391,7 +66508,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aeed59e4a8b44170c079d7d"
@@ -66457,7 +66574,7 @@
     "c812df34d69be004": {
       "uid": "c812df34d69be004",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "560791602f994fe3",
@@ -66475,7 +66592,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aee045ed7c91a9336029adc"
@@ -66713,7 +66830,7 @@
     "ba65364cd058541b": {
       "uid": "ba65364cd058541b",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ec072febf245eb06",
@@ -66731,7 +66848,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aef60d7aef5d1e6b40c30a5"
@@ -67127,7 +67244,7 @@
     "fb6978659b088b88": {
       "uid": "fb6978659b088b88",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6bb6c18dbe8d2aef",
@@ -67145,7 +67262,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af0a37b92304b52ad0f3746"
@@ -67169,7 +67286,7 @@
     "d7cb60af3df1e415": {
       "uid": "d7cb60af3df1e415",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3c2452e9c5ee9065",
@@ -67187,7 +67304,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af1a696abe0b2eed5004436"
@@ -67211,7 +67328,7 @@
     "7d641763ed7bd70e": {
       "uid": "7d641763ed7bd70e",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3808b3c92669c73e",
@@ -67229,7 +67346,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af0b321b84e8a6fb5008c8f"
@@ -67561,7 +67678,7 @@
     "ab5b99514b3fbead": {
       "uid": "ab5b99514b3fbead",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ca61ee3db212cd1d",
@@ -67579,7 +67696,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af23eda26d86c499b023822"
@@ -67888,7 +68005,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647963378",
@@ -67904,7 +68021,7 @@
       "m2": 72.0,
       "sprat": null,
       "agencija": "PropertyBroker",
-      "naslov": "BW Kula, spektakularan pogled, bazen, spa ID#5066",
+      "naslov": "Dvosoban stan za izdavanje, Nikolaja Kravcova, 3.000€, 72m²",
       "price_first": 3000,
       "price_current": 3000,
       "price_changes": [],
@@ -68040,7 +68157,7 @@
     "48f1dcac2cec7300": {
       "uid": "48f1dcac2cec7300",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0163a1dc8ef825d6",
@@ -68058,7 +68175,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af37fa89637dffccf08bd38"
@@ -68082,7 +68199,7 @@
     "75bbac12a9ecfb57": {
       "uid": "75bbac12a9ecfb57",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c7c7f9bc5fc4463a",
@@ -68100,7 +68217,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af37b389637dffccf08bcc7"
@@ -68185,7 +68302,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-24"
       },
       "source_ids": {
@@ -68202,7 +68319,7 @@
       "m2": 33.0,
       "sprat": "XIII",
       "agencija": "eminent-nekretnine",
-      "naslov": "BW Iris, neuseljavan, garaža, ID 26272",
+      "naslov": "Jednosoban stan za izdavanje, Bulevar Vudroa Vilsona, 1.100€, 33m²",
       "price_first": 1100,
       "price_current": 1100,
       "price_changes": [],
@@ -68212,7 +68329,7 @@
     "4ff2250ac6266fb8": {
       "uid": "4ff2250ac6266fb8",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "28db53114671197b",
@@ -68230,7 +68347,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af35560ba709518740a99d3"
@@ -68443,7 +68560,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647966265",
@@ -68459,7 +68576,7 @@
       "m2": 76.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "BW Thalia 3.0 Dizajnerski stan",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 1.900€, 76m²",
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
@@ -68795,8 +68912,8 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425643053995",
@@ -68812,9 +68929,9 @@
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 112.0,
-      "sprat": "XII/19",
+      "sprat": "12",
       "agencija": "AS nekretnine pro ",
-      "naslov": "Fenomenalan pogled na reku, četvorosoban, BW Terra",
+      "naslov": "Izdavanje, Stan, Beograd na vodi, Hercegovačka",
       "price_first": 3000,
       "price_current": 3000,
       "price_changes": [],
@@ -69035,7 +69152,7 @@
     "d00c9e0130893697": {
       "uid": "d00c9e0130893697",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "07fd05826d454ce6",
@@ -69053,7 +69170,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af6d5b11d5c63767b0d8c32"
@@ -69119,7 +69236,7 @@
     "e0bb7a9efe9796a9": {
       "uid": "e0bb7a9efe9796a9",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "28db53114671197b",
@@ -69137,7 +69254,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af5f6eb435e8349bd0665de"
@@ -69161,7 +69278,7 @@
     "656532ba35ec3d09": {
       "uid": "656532ba35ec3d09",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3c2452e9c5ee9065",
@@ -69179,7 +69296,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af5f46f435e8349bd0665d1"
@@ -69224,7 +69341,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647978417",
@@ -69238,10 +69355,10 @@
       "zgrada": "BW King's Park",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
-      "m2": 91.27,
+      "m2": 91.0,
       "sprat": "II/15",
       "agencija": "KADENASothebys",
-      "naslov": "Četvorosoban stan|BW Kings Park|Dva parking mesta",
+      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 2.800€, 91m²",
       "price_first": 2800,
       "price_current": 2800,
       "price_changes": [],
@@ -69356,7 +69473,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647976586",
@@ -69369,12 +69486,12 @@
       "zgrada": "BW Thalia",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 88.03,
+      "m2": 88.0,
       "sprat": "/14",
       "agencija": "MaxisGroup1",
-      "naslov": "BW Thalia - 3.0",
+      "naslov": "Trosoban stan za izdavanje, Luke Ćelovića Trebinjca, 2.200€, 88m²",
       "price_first": 2200,
-      "price_current": 2100,
+      "price_current": 2200,
       "price_changes": [
         {
           "date": "2026-11-17",
@@ -69450,10 +69567,15 @@
           "date": "2026-11-24",
           "from": 2200,
           "to": 2100
+        },
+        {
+          "date": "2026-11-24",
+          "from": 2100,
+          "to": 2200
         }
       ],
       "days_listed": 10,
-      "cena_m2": 24
+      "cena_m2": 25
     },
     "40ab81b59c0ed233": {
       "uid": "40ab81b59c0ed233",
@@ -69477,7 +69599,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
+        "4zida": "2026-11-24",
         "halo": "2026-11-24"
       },
       "source_ids": {
@@ -69494,7 +69616,7 @@
       "m2": 119.0,
       "sprat": "XII/19",
       "agencija": "beostan",
-      "naslov": "Centar - Beograd na vodi BW #69747",
+      "naslov": "Četvorosoban stan za izdavanje, Hercegovacka, 3.000€, 119m²",
       "price_first": 3000,
       "price_current": 3000,
       "price_changes": [],
@@ -69504,7 +69626,7 @@
     "1e33b843758142a4": {
       "uid": "1e33b843758142a4",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "06cc9238ad193452",
@@ -69522,7 +69644,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:67f3d531041427769b061dc3"
@@ -69546,7 +69668,7 @@
     "abeceaa1b02956c9": {
       "uid": "abeceaa1b02956c9",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "24ce1667695cab71",
@@ -69565,8 +69687,8 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af734a048e91459750432e2",
@@ -69592,7 +69714,7 @@
     "8587d5d31860b1a0": {
       "uid": "8587d5d31860b1a0",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "7ed18f5a6dee23cd",
@@ -69610,7 +69732,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6af72a5c6efe0a47fe053909"
@@ -69811,7 +69933,7 @@
     "1a6eca05221169cb": {
       "uid": "1a6eca05221169cb",
       "first_seen": "2026-11-15",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "1f984659fa21b80e",
@@ -69832,8 +69954,8 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-19",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425645318442",
@@ -69861,7 +69983,7 @@
     "4e03bf91bfbd3c03": {
       "uid": "4e03bf91bfbd3c03",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0c99aae046c9e4f0",
@@ -69881,7 +70003,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-19",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647973472",
@@ -69971,7 +70093,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-22"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647990999",
@@ -69987,7 +70109,7 @@
       "m2": 43.0,
       "sprat": "/7",
       "agencija": null,
-      "naslov": "Beograd na vodi, 2.5soban",
+      "naslov": "Dvoiposoban stan za izdavanje, Savska, 800€, 43m²",
       "price_first": 800,
       "price_current": 800,
       "price_changes": [],
@@ -70039,7 +70161,7 @@
     "facd03614192e221": {
       "uid": "facd03614192e221",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "91282b4c5f89d99e",
@@ -70057,7 +70179,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:68419e3ef654e3927e0d5f43"
@@ -70165,7 +70287,7 @@
     "9e4bd09f65c2e3c7": {
       "uid": "9e4bd09f65c2e3c7",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "23c59b322f0a2f54",
@@ -70185,7 +70307,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-23",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647994996",
@@ -70434,7 +70556,7 @@
     "da45dcd9a965a8e3": {
       "uid": "da45dcd9a965a8e3",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "f8baf76da70864ea",
@@ -70454,7 +70576,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-23",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647994374",
@@ -70711,7 +70833,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647996063",
@@ -70729,7 +70851,7 @@
       "m2": 50.0,
       "sprat": "VI/6",
       "agencija": "beostan",
-      "naslov": "Centar - Savski venac #1769782",
+      "naslov": "Dvosoban stan za izdavanje, Dr Aleksandra Kostica, 750€, 50m²",
       "price_first": 750,
       "price_current": 750,
       "price_changes": [],
@@ -70823,7 +70945,7 @@
     "345dc231290f475e": {
       "uid": "345dc231290f475e",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "08d3e3562b7b11b1",
@@ -70843,7 +70965,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afc1e2d04416b5e8f0639b4"
@@ -70874,7 +70996,7 @@
     "74b5fa32e15da9d9": {
       "uid": "74b5fa32e15da9d9",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "763b2ea3b6780985",
@@ -70892,7 +71014,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afc23bd1cecd57bda01a2a8"
@@ -70916,7 +71038,7 @@
     "8a8a6a866838eae7": {
       "uid": "8a8a6a866838eae7",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3c2452e9c5ee9065",
@@ -70934,7 +71056,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afc58509b854c4d8a0b2b45"
@@ -70958,7 +71080,7 @@
     "55ba672ad888fd8d": {
       "uid": "55ba672ad888fd8d",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "68fb94c9869aa93b",
@@ -70977,8 +71099,8 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afc5772af03fff3c9060fb1",
@@ -71004,7 +71126,7 @@
     "d1c206a4f4f9663e": {
       "uid": "d1c206a4f4f9663e",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3485f9a0cbecd459",
@@ -71022,7 +71144,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afc2d5e25264a55b0009d81"
@@ -71087,7 +71209,7 @@
     "1bb60734c809981c": {
       "uid": "1bb60734c809981c",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "28db53114671197b",
@@ -71105,7 +71227,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afb385b43722ff00f098663"
@@ -71192,7 +71314,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425647998729",
@@ -71209,9 +71331,9 @@
       "m2": 117.0,
       "sprat": "V/19",
       "agencija": "AtriumPropertyServices",
-      "naslov": "Direktan pogled na reku iz BW Residences",
+      "naslov": "Četvorosoban stan za izdavanje, Beograd na vodi, 3.800€, 117m²",
       "price_first": 3800,
-      "price_current": 3500,
+      "price_current": 3800,
       "price_changes": [
         {
           "date": "2026-11-19",
@@ -71267,10 +71389,15 @@
           "date": "2026-11-24",
           "from": 3800,
           "to": 3500
+        },
+        {
+          "date": "2026-11-24",
+          "from": 3500,
+          "to": 3800
         }
       ],
       "days_listed": 6,
-      "cena_m2": 30
+      "cena_m2": 32
     },
     "543ea0686d2abf73": {
       "uid": "543ea0686d2abf73",
@@ -71338,7 +71465,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425648001037",
@@ -71352,10 +71479,10 @@
       "zgrada": "BW (neidentifikovano)",
       "struktura": "2.0",
       "str_label": "Dvosoban",
-      "m2": 55.53,
+      "m2": 56.0,
       "sprat": "XV/23",
       "agencija": null,
-      "naslov": "Hercegovačka-izuzetan 2.0 stan sa garažom u Bw",
+      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.300€, 56m²",
       "price_first": 1300,
       "price_current": 1300,
       "price_changes": [],
@@ -71497,8 +71624,8 @@
       "uid": "81990307db50aa2e",
       "first_seen": "2026-11-18",
       "last_seen": "2026-11-22",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-11-24",
       "fp_loose": "796826739e44046d",
       "fp_loose_all": [
         "796826739e44046d"
@@ -71746,7 +71873,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425648000993",
@@ -71762,7 +71889,7 @@
       "m2": 81.0,
       "sprat": "VII/8",
       "agencija": "PropertyBroker",
-      "naslov": "BW Quartet 3, kompletno namešten, odmah useljiv I",
+      "naslov": "Trosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.700€, 81m²",
       "price_first": 1700,
       "price_current": 1700,
       "price_changes": [],
@@ -71793,7 +71920,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425648000969",
@@ -71806,10 +71933,10 @@
       "zgrada": "BW Sole",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 80.24,
+      "m2": 80.0,
       "sprat": "VIII/16",
       "agencija": "AtriumPropertyServices",
-      "naslov": "BW Sole-Umetnost i elegancija",
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 2.000€, 80m²",
       "price_first": 2000,
       "price_current": 2000,
       "price_changes": [],
@@ -71819,7 +71946,7 @@
     "594a0d33b4e552d2": {
       "uid": "594a0d33b4e552d2",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3b7895dd35f728c9",
@@ -71837,7 +71964,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afd77905258a832f5056f53"
@@ -71861,7 +71988,7 @@
     "8b31b7cf5426d9bc": {
       "uid": "8b31b7cf5426d9bc",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0232ade7e82f9fe0",
@@ -71879,7 +72006,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afd9812ffe978442006a88b"
@@ -71903,7 +72030,7 @@
     "534a8d19c69a886f": {
       "uid": "534a8d19c69a886f",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "68fb94c9869aa93b",
@@ -71922,8 +72049,8 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afc8c354931f48a28039e49",
@@ -71949,7 +72076,7 @@
     "87c2e4b090321ad7": {
       "uid": "87c2e4b090321ad7",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4e3f95629b833010",
@@ -71967,7 +72094,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afc8c334931f48a28039e43"
@@ -71991,7 +72118,7 @@
     "00a75ad7dd08fa80": {
       "uid": "00a75ad7dd08fa80",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "505b579afc3b60a2",
@@ -72009,7 +72136,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6971effa4f4d08eac60de379"
@@ -72136,8 +72263,8 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425648006397",
@@ -72153,9 +72280,9 @@
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 53.0,
-      "sprat": "XVI/23",
+      "sprat": "16",
       "agencija": "Leon Real Estate",
-      "naslov": "Stan sa pogledom u Beogradu na vodi, 2.0 stan, 53",
+      "naslov": "Stan sa pogledom u Beogradu na vodi, 2.0 stan, 53 m²",
       "price_first": 1600,
       "price_current": 1600,
       "price_changes": [],
@@ -72186,8 +72313,8 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23",
-        "nadjidom": "2026-11-23"
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425648003735",
@@ -72204,8 +72331,8 @@
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 55.0,
-      "sprat": "III/7",
-      "agencija": "art-nekretnine-d-o-o",
+      "sprat": "3",
+      "agencija": "ART nekretnine d.o.o. ",
       "naslov": "Luks stan, namešten, BW ID#13712",
       "price_first": 1400,
       "price_current": 1400,
@@ -72279,7 +72406,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425648006469",
@@ -72296,7 +72423,7 @@
       "m2": 115.0,
       "sprat": "XVI/24",
       "agencija": "PropertyBroker",
-      "naslov": "BW Perla, premium, sa garažnim mestom ID#5094",
+      "naslov": "Trosoban stan za izdavanje, Hercegovačka, 3.600€, 115m²",
       "price_first": 3600,
       "price_current": 3600,
       "price_changes": [],
@@ -72349,8 +72476,8 @@
       "uid": "e7d209e768425dc2",
       "first_seen": "2026-11-19",
       "last_seen": "2026-11-22",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-11-24",
       "fp_loose": "389c6990165d85cb",
       "fp_loose_all": [
         "389c6990165d85cb"
@@ -72391,8 +72518,8 @@
       "uid": "9858f03982cb4fd0",
       "first_seen": "2026-11-19",
       "last_seen": "2026-11-22",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-11-24",
       "fp_loose": "e85120d08dcb9985",
       "fp_loose_all": [
         "e85120d08dcb9985"
@@ -72436,7 +72563,7 @@
     "3645fc9e62510c46": {
       "uid": "3645fc9e62510c46",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "68fb94c9869aa93b",
@@ -72454,7 +72581,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afde8562df2e3eea50d194a"
@@ -72478,7 +72605,7 @@
     "ef74ab1f59f86433": {
       "uid": "ef74ab1f59f86433",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "78470100214e72db",
@@ -72496,7 +72623,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6afe19a1d650770c490afbaa"
@@ -72708,7 +72835,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425648013361",
@@ -72724,7 +72851,7 @@
       "m2": 108.0,
       "sprat": "VI/13",
       "agencija": "divis-nekretnine",
-      "naslov": "Izdavanje četvorosobnog stana u BW Skala 2",
+      "naslov": "Četvorosoban stan za izdavanje, Luke Ćelovića Trebinjca, 2.500€, 108m²",
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
@@ -72734,7 +72861,7 @@
     "41179595b11acb94": {
       "uid": "41179595b11acb94",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "28db53114671197b",
@@ -72752,7 +72879,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6b0045345bcb07db2f00af44"
@@ -72860,7 +72987,7 @@
     "d5ae5b506025cf1f": {
       "uid": "d5ae5b506025cf1f",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "dea5af14dfcc6d3a",
@@ -72878,7 +73005,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aff6b1f7a88703f390dbe50"
@@ -72902,7 +73029,7 @@
     "1989923473ab2880": {
       "uid": "1989923473ab2880",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3c2452e9c5ee9065",
@@ -72920,7 +73047,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "4zida": "4zida:6aff149321f896cc3c05eb04"
@@ -72944,7 +73071,7 @@
     "8b57716ace35b444": {
       "uid": "8b57716ace35b444",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "49a12b1699f27e62",
@@ -72962,7 +73089,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "nadjidom": "nadjidom:2381431"
@@ -73069,7 +73196,7 @@
     "8ad0eb82c428c02d": {
       "uid": "8ad0eb82c428c02d",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "1eb7b9d321577b08",
@@ -73087,7 +73214,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-11-23"
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
         "nadjidom": "nadjidom:2296402"
@@ -73378,16 +73505,20 @@
         "2b84677930f0ea55"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-11-24"
+        "halo": "2026-11-24",
+        "4zida": "2026-11-24"
       },
       "source_ids": {
-        "halo": "5425645770741"
+        "halo": "5425645770741",
+        "4zida": "4zida:6b047fdf2b9cc6abb409bf04"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-scala-nov-komforan-garaza-id-24569/5425645770741?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-scala-nov-komforan-garaza-id-24569/5425645770741?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6b047fdf2b9cc6abb409bf04"
       ],
       "zgrada": "BW Scala",
       "struktura": "2.0",
@@ -73395,7 +73526,7 @@
       "m2": 55.0,
       "sprat": "IX/9",
       "agencija": "eminent-nekretnine",
-      "naslov": "BW Scala, nov, komforan, garaža, ID 24569",
+      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.300€, 55m²",
       "price_first": 1300,
       "price_current": 1300,
       "price_changes": [],
@@ -73425,7 +73556,7 @@
       ],
       "last_seen_src": {
         "halo": "2026-11-24",
-        "4zida": "2026-11-23"
+        "4zida": "2026-11-24"
       },
       "source_ids": {
         "halo": "5425648030028",
@@ -73441,7 +73572,7 @@
       "m2": 56.0,
       "sprat": "VIII",
       "agencija": "Victorianekretninedoo",
-      "naslov": "BW Iris izdavanje",
+      "naslov": "Dvosoban stan za izdavanje, Kraljice Drage Obrenović 1, 1.600€, 56m²",
       "price_first": 1600,
       "price_current": 1600,
       "price_changes": [],
@@ -73677,17 +73808,21 @@
         "5d5b9c847cc10005"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-11-24"
+        "halo": "2026-11-24",
+        "4zida": "2026-11-24"
       },
       "source_ids": {
-        "halo": "5425648031155"
+        "halo": "5425648031155",
+        "4zida": "4zida:6b04bf4d737a195fff06ab33"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-69838/5425648031155?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-69838/5425648031155?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-69838/5425648031155?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6b04bf4d737a195fff06ab33"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "2.0",
@@ -73695,7 +73830,7 @@
       "m2": 56.0,
       "sprat": "IX/9",
       "agencija": "beostan",
-      "naslov": "Centar - Beograd na Vodi #69838",
+      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.300€, 56m²",
       "price_first": 1300,
       "price_current": 1300,
       "price_changes": [],
@@ -73759,27 +73894,36 @@
         "d1e7bc8aa4de1636"
       ],
       "fp_strict_all": [
-        "40f9f4d298446815"
+        "40f9f4d298446815",
+        "383f1d698f2c2fbb"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida",
+        "nadjidom"
       ],
       "last_seen_src": {
-        "halo": "2026-11-24"
+        "halo": "2026-11-24",
+        "4zida": "2026-11-24",
+        "nadjidom": "2026-11-24"
       },
       "source_ids": {
-        "halo": "5425648031139"
+        "halo": "5425648031139",
+        "4zida": "4zida:6b0497fa6f3711d5770d8d28",
+        "nadjidom": "nadjidom:2382397"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kings-park-namesten-uskoro-useljiv-id1323/5425648031139?kid=1",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kings-park-namesten-uskoro-useljiv-id1323/5425648031139?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kings-park-namesten-uskoro-useljiv-id1323/5425648031139?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6b0497fa6f3711d5770d8d28",
+        "https://www.nadjidom.com/sr/details/2382397/Beograd-Savski+Venac-Beograd+na+vodi-Izdavanje-Stan.html"
       ],
       "zgrada": "BW King's Park",
       "struktura": "2.0",
       "str_label": "Dvosoban",
-      "m2": 55.37,
-      "sprat": "IV",
-      "agencija": null,
+      "m2": 55.0,
+      "sprat": "4",
+      "agencija": "Legacy ",
       "naslov": "Kings Park, namešten, uskoro useljiv ID#1323",
       "price_first": 1600,
       "price_current": 1600,
@@ -73847,16 +73991,20 @@
         "1aa0a1095f8c5e96"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-11-24"
+        "halo": "2026-11-24",
+        "4zida": "2026-11-24"
       },
       "source_ids": {
-        "halo": "5425648028967"
+        "halo": "5425648028967",
+        "4zida": "4zida:6b045cceaf0c63e79b016a69"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-lux-2-0-nov-stan-garaza-id19654/5425648028967?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-iris-lux-2-0-nov-stan-garaza-id19654/5425648028967?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6b045cceaf0c63e79b016a69"
       ],
       "zgrada": "BW Iris",
       "struktura": "2.0",
@@ -73864,7 +74012,7 @@
       "m2": 56.0,
       "sprat": "VIII/13",
       "agencija": "bilding-nekretnine-d-o-o",
-      "naslov": "BW Iris,lux 2.0,nov stan,garaža ID#19654",
+      "naslov": "Dvosoban stan za izdavanje, Kraljice Drage Obrenović, 1.600€, 56m²",
       "price_first": 1600,
       "price_current": 1600,
       "price_changes": [],
@@ -74198,12 +74346,299 @@
       "price_current": 1500,
       "price_changes": [],
       "days_listed": 0
+    },
+    "34c926f67cad28e3": {
+      "uid": "34c926f67cad28e3",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e0b91cc6e5819911",
+      "fp_loose_all": [
+        "e0b91cc6e5819911"
+      ],
+      "fp_nosprat": "48d5b5c03980651b",
+      "fp_nosprat_all": [
+        "48d5b5c03980651b"
+      ],
+      "fp_strict_all": [
+        "c0666d6ed77176ec"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-11-24"
+      },
+      "source_ids": {
+        "4zida": "4zida:6b05a881994938978f0ca99e"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6b05a881994938978f0ca99e"
+      ],
+      "zgrada": "BW Iris",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 82.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, Kraljice Drage Obrenović, 1.700€, 82m²",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "adb98ea3d0b4b89d": {
+      "uid": "adb98ea3d0b4b89d",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "28db53114671197b",
+      "fp_loose_all": [
+        "28db53114671197b"
+      ],
+      "fp_nosprat": "2b692a30a9acd6fe",
+      "fp_nosprat_all": [
+        "2b692a30a9acd6fe"
+      ],
+      "fp_strict_all": [
+        "dc60e3df080a37b6"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-11-24"
+      },
+      "source_ids": {
+        "4zida": "4zida:6b058bf2eb29a80a94057717"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6b058bf2eb29a80a94057717"
+      ],
+      "zgrada": "BW Quartet 1",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 62.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.500€, 62m²",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "8b44aa2b04e6c46a": {
+      "uid": "8b44aa2b04e6c46a",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "a435c194f3e7aa5f",
+      "fp_loose_all": [
+        "a435c194f3e7aa5f"
+      ],
+      "fp_nosprat": "a4bc40e88edddb63",
+      "fp_nosprat_all": [
+        "a4bc40e88edddb63"
+      ],
+      "fp_strict_all": [
+        "848ec89de4f076ac"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-11-24"
+      },
+      "source_ids": {
+        "4zida": "4zida:690a2c62e5c1b312c2087183"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/690a2c62e5c1b312c2087183"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 77.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, Luke Ćelovića Trebinjca 15, 2.300€, 77m²",
+      "price_first": 2300,
+      "price_current": 2300,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "af9fe5bbd1a94b59": {
+      "uid": "af9fe5bbd1a94b59",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "72c8b5d3223ee0d5",
+      "fp_loose_all": [
+        "72c8b5d3223ee0d5"
+      ],
+      "fp_nosprat": "017cc79168f7ba81",
+      "fp_nosprat_all": [
+        "017cc79168f7ba81"
+      ],
+      "fp_strict_all": [
+        "4c6231a9da1f77e9"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-11-24"
+      },
+      "source_ids": {
+        "4zida": "4zida:6b05706c58ef310e77031c6c"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/dvosoban-stan/6b05706c58ef310e77031c6c"
+      ],
+      "zgrada": "BW Sensa",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 54.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Luke Ćelovića Trebinjca, 1.250€, 54m²",
+      "price_first": 1250,
+      "price_current": 1250,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "356c951b503ddf9b": {
+      "uid": "356c951b503ddf9b",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "0647cf0a9ed69b53",
+      "fp_loose_all": [
+        "0647cf0a9ed69b53"
+      ],
+      "fp_nosprat": "b2f68441581c0da6",
+      "fp_nosprat_all": [
+        "b2f68441581c0da6"
+      ],
+      "fp_strict_all": [
+        "3fea36cef69d8544"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-11-24"
+      },
+      "source_ids": {
+        "4zida": "4zida:6b047505a3eee6690f0e064d"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6b047505a3eee6690f0e064d"
+      ],
+      "zgrada": "BW Lumia",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 77.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, Beograd na vodi, 4.700€, 77m²",
+      "price_first": 4700,
+      "price_current": 4700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "78634db10cf2191f": {
+      "uid": "78634db10cf2191f",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "3c2452e9c5ee9065",
+      "fp_loose_all": [
+        "3c2452e9c5ee9065"
+      ],
+      "fp_nosprat": "d411c869ddd88d6f",
+      "fp_nosprat_all": [
+        "d411c869ddd88d6f"
+      ],
+      "fp_strict_all": [
+        "4c048d28e6019e1a"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-11-24"
+      },
+      "source_ids": {
+        "4zida": "4zida:6b045e7174c6ffa80502f535"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/cetvorosoban-stan/6b045e7174c6ffa80502f535"
+      ],
+      "zgrada": "BW Thalia",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 118.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Luke Ćelovića Trebinjca, 2.400€, 118m²",
+      "price_first": 2400,
+      "price_current": 2400,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "b879c1cf13656e49": {
+      "uid": "b879c1cf13656e49",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "7883bcdda0ff06ea",
+      "fp_loose_all": [
+        "7883bcdda0ff06ea"
+      ],
+      "fp_nosprat": "d1e7bc8aa4de1636",
+      "fp_nosprat_all": [
+        "d1e7bc8aa4de1636"
+      ],
+      "fp_strict_all": [
+        "09125e3c57ba7763"
+      ],
+      "sources": [
+        "nadjidom"
+      ],
+      "last_seen_src": {
+        "nadjidom": "2026-11-24"
+      },
+      "source_ids": {
+        "nadjidom": "nadjidom:2382279"
+      },
+      "source_urls": [
+        "https://www.nadjidom.com/sr/details/2382279/Beograd-Savski+Venac-Beograd+na+vodi-Izdavanje-Stan.html"
+      ],
+      "zgrada": "BW King's Park",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "sprat": "3",
+      "agencija": "MOJ KVADRAT D.O.O. ",
+      "naslov": "Savski venac, Beograd na vodi - Luke Ćelovića Trebinjca, 55m2",
+      "price_first": 1200,
+      "price_current": 1200,
+      "price_changes": [],
+      "days_listed": 0
     }
   },
-  "updated_at": "2026-11-24T15:07:06.965134+00:00",
+  "updated_at": "2026-11-24T15:16:25.827503+00:00",
   "last_run": {
-    "4zida": "2026-11-23",
-    "nadjidom": "2026-11-23",
+    "4zida": "2026-11-24",
+    "nadjidom": "2026-11-24",
     "halo": "2026-11-24"
   }
 }
