@@ -1050,7 +1050,7 @@
     "ae394ed68266458c": {
       "uid": "ae394ed68266458c",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "786decf967b8db8d",
@@ -1086,7 +1086,7 @@
       "days_listed": 168,
       "cena_m2": 4841,
       "last_seen_src": {
-        "halo": "2026-11-23"
+        "halo": "2026-11-24"
       },
       "fp_nosprat_all": [
         "1ada146e6731bb70"
@@ -4538,9 +4538,9 @@
     "bb49a75087e4798e": {
       "uid": "bb49a75087e4798e",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-11-17",
-      "is_active": false,
-      "deactivated_at": "2026-11-19",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "4c87c21efa47658e",
       "fp_strict_all": [
         "59c0fc4540067179",
@@ -4551,23 +4551,24 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "5425646032963"
+        "halo": "5425647855225"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-pogled-na-reku-jedinstven-stan/5425646032963?kid=1",
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-pogled-na-reku-jedinstven-stan/5425646032963?kid=4",
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika-2-0-visoki-sprat-odmah-useljiv/5425646032963?kid=4",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika-2-0-visoki-sprat-odmah-useljiv/5425646032963?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-nika-2-0-visoki-sprat-odmah-useljiv/5425646032963?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-exclusive-riverside-living/5425647855225?kid=1"
       ],
       "zgrada": "BW Riviera",
       "struktura": "3.0",
       "str_label": "Trosoban",
-      "m2": 56.79,
-      "sprat": "IX",
+      "m2": 96.2,
+      "sprat": "VII",
       "agencija": "SonataProperties",
-      "naslov": "Bw Nika 2.0 Visoki Sprat, Odmah Useljiv",
+      "naslov": "Bw Riviera, Exclusive Riverside Living",
       "price_first": 680000,
-      "price_current": 295000,
+      "price_current": 680000,
       "price_changes": [
         {
           "date": "2026-10-28",
@@ -4583,15 +4584,21 @@
           "date": "2026-11-03",
           "from": 290000,
           "to": 295000
+        },
+        {
+          "date": "2026-11-24",
+          "from": 295000,
+          "to": 680000
         }
       ],
-      "days_listed": 163,
-      "cena_m2": 5195,
+      "days_listed": 168,
+      "cena_m2": 7069,
       "last_seen_src": {
-        "halo": "2026-11-17"
+        "halo": "2026-11-24"
       },
       "fp_nosprat_all": [
-        "02d4af81c159cb33"
+        "02d4af81c159cb33",
+        "6c51f7525d4af000"
       ],
       "fp_nosprat": "02d4af81c159cb33"
     },
@@ -29832,9 +29839,9 @@
     "81c83d92b8e2eb4e": {
       "uid": "81c83d92b8e2eb4e",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-11-20",
-      "is_active": false,
-      "deactivated_at": "2026-11-22",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "a7f31130bcb7e81c",
       "fp_strict_all": [
         "af48d4652be43fad"
@@ -29858,10 +29865,10 @@
       "price_first": 179000,
       "price_current": 179000,
       "price_changes": [],
-      "days_listed": 124,
+      "days_listed": 126,
       "cena_m2": 5594,
       "last_seen_src": {
-        "halo": "2026-11-20"
+        "halo": "2026-11-24"
       },
       "fp_nosprat_all": [
         "1cf03d0bf93fc102"
@@ -40843,7 +40850,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-eden-pogled-na-park-useljiv-id4766/5425647414681?kid=1",
-        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6af5bf74b9adf196f901c79d"
+        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/trosoban-stan/6af5bf74b9adf196f901c79d",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-eden-pogled-na-park-useljiv-id4766/5425647414681?kid=4"
       ],
       "zgrada": "BW Eden",
       "struktura": "3.0",
@@ -40947,12 +40955,13 @@
     "a17a219e587f541c": {
       "uid": "a17a219e587f541c",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "aa68135466dfa1d9",
       "fp_strict_all": [
-        "b301c2a7db2e0af6"
+        "b301c2a7db2e0af6",
+        "466799b8fa59f66c"
       ],
       "sources": [
         "halo",
@@ -40973,16 +40982,22 @@
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 167.0,
-      "sprat": "16",
-      "agencija": "Raičević nekretnine ",
-      "naslov": "Četvorosoban stan na prodaju, Hercegovacka, 1.472.000€, 167m²",
+      "sprat": "XVI/20",
+      "agencija": "nekretninegavrilovic",
+      "naslov": "Panoramski pogled i izuzetan dizajn stana-BW Resid",
       "price_first": 1472000,
-      "price_current": 1472000,
-      "price_changes": [],
+      "price_current": 1320000,
+      "price_changes": [
+        {
+          "date": "2026-11-24",
+          "from": 1472000,
+          "to": 1320000
+        }
+      ],
       "days_listed": 68,
-      "cena_m2": 8814,
+      "cena_m2": 7904,
       "last_seen_src": {
-        "halo": "2026-10-13",
+        "halo": "2026-11-24",
         "4zida": "2026-11-23",
         "nadjidom": "2026-11-02"
       },
@@ -41309,7 +41324,8 @@
       "fp_strict_all": [
         "039f51dd0a9f29ca",
         "648f9dd46f3c662e",
-        "aca2ee76995908e3"
+        "aca2ee76995908e3",
+        "0a173d8fde5a96a0"
       ],
       "sources": [
         "halo"
@@ -41329,7 +41345,7 @@
       "agencija": "Vesnarb1",
       "naslov": "BW Quartet - Odlična prilika - Garažno mesto",
       "price_first": 360000,
-      "price_current": 365000,
+      "price_current": 357000,
       "price_changes": [
         {
           "date": "2026-10-07",
@@ -41340,10 +41356,15 @@
           "date": "2026-11-05",
           "from": 346000,
           "to": 365000
+        },
+        {
+          "date": "2026-11-24",
+          "from": 365000,
+          "to": 357000
         }
       ],
       "days_listed": 67,
-      "cena_m2": 4679,
+      "cena_m2": 4577,
       "last_seen_src": {
         "halo": "2026-11-24"
       },
@@ -70858,7 +70879,7 @@
     "788d035c0be3750f": {
       "uid": "788d035c0be3750f",
       "first_seen": "2026-10-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e312c56c330c9ff7",
@@ -70877,7 +70898,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-11-23",
+        "halo": "2026-11-24",
         "4zida": "2026-11-23"
       },
       "source_ids": {
@@ -70894,7 +70915,7 @@
       "m2": 123.0,
       "sprat": "XV/20",
       "agencija": "JBLConceptRE",
-      "naslov": "Četvorosoban stan na prodaju, Beograd na vodi, 690.000€, 123m²",
+      "naslov": "Stan za prodaju Beograd na vodi, 123 m2",
       "price_first": 690000,
       "price_current": 690000,
       "price_changes": [],
@@ -72519,7 +72540,7 @@
     "b9797f9b731ba0bd": {
       "uid": "b9797f9b731ba0bd",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b0df3ad17a92f8de",
@@ -72538,7 +72559,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-11-22",
+        "halo": "2026-11-24",
         "4zida": "2026-11-23"
       },
       "source_ids": {
@@ -72555,7 +72576,7 @@
       "m2": 78.0,
       "sprat": "IV/8",
       "agencija": "etagi3",
-      "naslov": "Trosoban stan na prodaju, Nikolaja Kravcova, 385.000€, 78m²",
+      "naslov": "Trosoban stan u Bw Quartet 4 – Beograd na vodi",
       "price_first": 385000,
       "price_current": 385000,
       "price_changes": [],
@@ -74424,7 +74445,8 @@
         "halo": "5425647900586"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-quartet-4-juzno-orijentisan-namesten-id505/5425647900586?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-quartet-4-juzno-orijentisan-namesten-id505/5425647900586?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-quartet-4-juzno-orijentisan-namesten-id505/5425647900586?kid=4"
       ],
       "zgrada": "BW Quartet 4",
       "struktura": "3.0",
@@ -81027,7 +81049,8 @@
       "price_first": 315000,
       "price_current": 315000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5339
     },
     "b98f5fc62eaa7260": {
       "uid": "b98f5fc62eaa7260",
@@ -81068,10 +81091,175 @@
       "price_first": 819800,
       "price_current": 819800,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5898
+    },
+    "59bf1c2ead912cf3": {
+      "uid": "59bf1c2ead912cf3",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "333b348cdcc3df40",
+      "fp_loose_all": [
+        "333b348cdcc3df40"
+      ],
+      "fp_nosprat": "ad9556af75ff347b",
+      "fp_nosprat_all": [
+        "ad9556af75ff347b"
+      ],
+      "fp_strict_all": [
+        "ce8fc54440166aa3"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-24"
+      },
+      "source_ids": {
+        "halo": "5425648033875"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-riviera-4-0-stan-na-prodaju-dva-garazna-me/5425648033875"
+      ],
+      "zgrada": "BW Riviera",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 188.0,
+      "sprat": "V/24",
+      "agencija": null,
+      "naslov": "BW RIVIERA 4.0 stan na prodaju! Dva garazna mesta",
+      "price_first": 1500000,
+      "price_current": 1500000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "a422ce98caf0afd5": {
+      "uid": "a422ce98caf0afd5",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "8ca47b28fd6eac01",
+      "fp_loose_all": [
+        "8ca47b28fd6eac01"
+      ],
+      "fp_nosprat": "fb58626cca617afa",
+      "fp_nosprat_all": [
+        "fb58626cca617afa"
+      ],
+      "fp_strict_all": [
+        "c3e805b1034d28dd"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-24"
+      },
+      "source_ids": {
+        "halo": "5425648033873"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/studio-bw-nika-terasa/5425648033873?kid=4"
+      ],
+      "zgrada": "BW Nika",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 32.44,
+      "sprat": "XV/18",
+      "agencija": "KADENASothebys",
+      "naslov": "Studio | BW Nika | Terasa",
+      "price_first": 190000,
+      "price_current": 190000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "e8ef86f342e9d1e7": {
+      "uid": "e8ef86f342e9d1e7",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "a0aef0cd263bbc3b",
+      "fp_loose_all": [
+        "a0aef0cd263bbc3b"
+      ],
+      "fp_nosprat": "d057e20eb304bd96",
+      "fp_nosprat_all": [
+        "d057e20eb304bd96"
+      ],
+      "fp_strict_all": [
+        "f09e8fd5553d860b"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-24"
+      },
+      "source_ids": {
+        "halo": "5425648035096"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/2-0-stan-u-st-regis-kuli/5425648035096?kid=1"
+      ],
+      "zgrada": "BW St. Regis",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 60.0,
+      "sprat": "XXII",
+      "agencija": null,
+      "naslov": "2.0 stan u St.regis kuli",
+      "price_first": 600000,
+      "price_current": 600000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "90e3b6aa9f007e73": {
+      "uid": "90e3b6aa9f007e73",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "bfa8d70c841e8c09",
+      "fp_loose_all": [
+        "bfa8d70c841e8c09"
+      ],
+      "fp_nosprat": "d51a5fbca0c0783f",
+      "fp_nosprat_all": [
+        "d51a5fbca0c0783f"
+      ],
+      "fp_strict_all": [
+        "05ebcf214407cd89"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-24"
+      },
+      "source_ids": {
+        "halo": "5425648035092"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/trosoban-stan-u-bonaci/5425648035092?kid=1"
+      ],
+      "zgrada": "BW Bonaca",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 104.0,
+      "sprat": "III/20",
+      "agencija": null,
+      "naslov": "Trosoban stan u Bonaci",
+      "price_first": 550000,
+      "price_current": 550000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-24T07:02:36.293772+00:00",
+  "updated_at": "2026-11-24T15:05:56.117365+00:00",
   "last_run": {
     "4zida": "2026-11-23",
     "nadjidom": "2026-11-23",
