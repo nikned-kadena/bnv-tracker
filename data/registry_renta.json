@@ -9835,9 +9835,9 @@
     "5f061306ceb70f1c": {
       "uid": "5f061306ceb70f1c",
       "first_seen": "2026-06-13",
-      "last_seen": "2026-11-23",
-      "is_active": false,
-      "deactivated_at": "2026-11-25",
+      "last_seen": "2026-11-26",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "aff7c171de1bcc9f",
       "fp_strict_all": [
         "d8ed668e654b4ad3"
@@ -9862,10 +9862,10 @@
       "price_first": 4000,
       "price_current": 4000,
       "price_changes": [],
-      "days_listed": 165,
+      "days_listed": 166,
       "cena_m2": 53,
       "last_seen_src": {
-        "halo": "2026-11-23"
+        "halo": "2026-11-26"
       },
       "fp_nosprat_all": [
         "0a01040defdd6829"
@@ -20714,7 +20714,8 @@
       "fp_loose": "2348769ed7f40303",
       "fp_strict_all": [
         "31156ea6a24da00e",
-        "31c537256aac023c"
+        "31c537256aac023c",
+        "6d1b019710e28a0e"
       ],
       "sources": [
         "halo"
@@ -20724,7 +20725,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-68290/5425647428998?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69673/5425647941605?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69673/5425647941605?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69673/5425647941605?kid=4"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "1.0",
@@ -20734,7 +20736,7 @@
       "agencija": "beostan",
       "naslov": "Centar - Beograd na vodi BW #69673",
       "price_first": 1000,
-      "price_current": 1000,
+      "price_current": 800,
       "price_changes": [
         {
           "date": "2026-08-03",
@@ -20745,10 +20747,15 @@
           "date": "2026-11-08",
           "from": 900,
           "to": 1000
+        },
+        {
+          "date": "2026-11-26",
+          "from": 1000,
+          "to": 800
         }
       ],
       "days_listed": 128,
-      "cena_m2": 29,
+      "cena_m2": 23,
       "last_seen_src": {
         "halo": "2026-11-26"
       },
@@ -51428,19 +51435,20 @@
         "halo": "2026-11-26"
       },
       "source_ids": {
-        "halo": "5425647819458"
+        "halo": "5425648042502"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-15-30-sprat-panoramski-pogled-na-reku/5425647819458?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-15-33-sprat-panoramski-pogled-na-reku/5425647819458?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-15-33-sprat-panoramski-pogled-na-reku/5425647819458?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-16-27-sprat-pogled-na-reku/5425648042502?kid=1"
       ],
       "zgrada": "BW St. Regis",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 89.0,
-      "sprat": null,
+      "sprat": "XXVII",
       "agencija": "Kredium",
-      "naslov": "BW Kula 15 | 33. sprat | Panoramski pogled na reku",
+      "naslov": "BW Kula 16 | 27. sprat | Pogled na reku",
       "price_first": 4500,
       "price_current": 4500,
       "price_changes": [],
@@ -57920,7 +57928,9 @@
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69542/5425647889645?kid=4",
         "https://www.4zida.rs/izdavanje-stanova/beograd-na-vodi-savski-venac-beograd/jednosoban-stan/6ae1d2760d2b5f80c8083a51",
         "https://www.nadjidom.com/sr/details/2369386/Beograd-Savski+Venac-Beograd+na+vodi-Izdavanje-Stan.html",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69857/5425648037799?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69857/5425648037799?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69857/5425648028915?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-2569857/5425648037799?kid=1"
       ],
       "zgrada": "BW (neidentifikovano)",
       "struktura": "1.0",
@@ -57928,7 +57938,7 @@
       "m2": 33.0,
       "sprat": "VIII/16",
       "agencija": "beostan",
-      "naslov": "Centar - Beograd na Vodi BW #69857",
+      "naslov": "Centar - Beograd na Vodi BW #2569857",
       "price_first": 1000,
       "price_current": 1000,
       "price_changes": [],
@@ -75599,7 +75609,8 @@
       "price_first": 1800,
       "price_current": 1800,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 24
     },
     "2801ae7c0f8e5105": {
       "uid": "2801ae7c0f8e5105",
@@ -75640,7 +75651,8 @@
       "price_first": 1300,
       "price_current": 1300,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 22
     },
     "49717626c72998b9": {
       "uid": "49717626c72998b9",
@@ -75681,10 +75693,134 @@
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 24
+    },
+    "b28de54555573867": {
+      "uid": "b28de54555573867",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "7576f6fe146681c7",
+      "fp_loose_all": [
+        "7576f6fe146681c7"
+      ],
+      "fp_nosprat": "4ad0f1948b093bdb",
+      "fp_nosprat_all": [
+        "4ad0f1948b093bdb"
+      ],
+      "fp_strict_all": [
+        "72d8ebefbf4e6919"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-26"
+      },
+      "source_ids": {
+        "halo": "5425648042478"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-lumia---sa-specijalnim-zahtevom/5425648042478?kid=4"
+      ],
+      "zgrada": "BW Lumia",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 90.0,
+      "sprat": "VII",
+      "agencija": null,
+      "naslov": "Bw Lumia - sa specijalnim zahtevom",
+      "price_first": 800,
+      "price_current": 800,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "0b485af3e690063d": {
+      "uid": "0b485af3e690063d",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "a6b90fc7e5f8a1fe",
+      "fp_loose_all": [
+        "a6b90fc7e5f8a1fe"
+      ],
+      "fp_nosprat": "b9b1fc88723c5e32",
+      "fp_nosprat_all": [
+        "b9b1fc88723c5e32"
+      ],
+      "fp_strict_all": [
+        "831a590b1772496e"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-26"
+      },
+      "source_ids": {
+        "halo": "5425648043283"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-nika---moderna-garsonjera-32-7-m/5425648043283?kid=3"
+      ],
+      "zgrada": "BW Nika",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 32.7,
+      "sprat": "III/18",
+      "agencija": null,
+      "naslov": "BW Nika - moderna garsonjera, 32,7 m²",
+      "price_first": 1200,
+      "price_current": 1200,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "7c3d7a9f54e0206b": {
+      "uid": "7c3d7a9f54e0206b",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "c17f9273583717f9",
+      "fp_loose_all": [
+        "c17f9273583717f9"
+      ],
+      "fp_nosprat": "00434c731ce37f41",
+      "fp_nosprat_all": [
+        "00434c731ce37f41"
+      ],
+      "fp_strict_all": [
+        "38ded8dfb3fe63c2"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-26"
+      },
+      "source_ids": {
+        "halo": "5425648044873"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia-nov-neuseljavan-dvosoban-stan-sa-ga/5425648044873?kid=3"
+      ],
+      "zgrada": "BW Thalia",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 57.0,
+      "sprat": "IX/13",
+      "agencija": null,
+      "naslov": "BW Thalia Nov neuseljavan dvosoban stan sa garažom",
+      "price_first": 1600,
+      "price_current": 1600,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-26T07:04:28.458896+00:00",
+  "updated_at": "2026-11-26T14:12:24.130932+00:00",
   "last_run": {
     "4zida": "2026-11-25",
     "nadjidom": "2026-11-25",

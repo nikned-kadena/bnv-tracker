@@ -3,13 +3,16 @@
   "source": "all",
   "date": "2026-11-26",
   "scraped_at": "2026-11-26",
-  "total_raw": 444,
-  "total_unique": 350,
-  "total_dups": 94,
+  "total_raw": 448,
+  "total_unique": 353,
+  "total_dups": 95,
   "diff_new": [
     "ba8a539ce2d27f06",
     "2801ae7c0f8e5105",
-    "49717626c72998b9"
+    "49717626c72998b9",
+    "b28de54555573867",
+    "0b485af3e690063d",
+    "7c3d7a9f54e0206b"
   ],
   "diff_removed": [
     "7810f33c8a8c685b",
@@ -986,6 +989,33 @@
       "cena_m2_sumnjiva": false
     },
     {
+      "id": "5f061306ceb70f1c",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/st-regis---najluksuzniji-2-0-stan-u-beogradu/5425647274811?kid=4",
+      "naslov": "St. Regis - Najluksuzniji 2.0 stan u Beogradu",
+      "zgrada": "BW St. Regis",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 76.0,
+      "cena": 4000,
+      "cena_m2": 53,
+      "sprat": "XXV",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 166,
+      "prva_cena": 4000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-11-26",
+      "dedup_key": "BW St. Regis|76.0|4000",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
       "id": "09a17ff39f3af03d",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula---stan-na-32-spratu/5425647210878?kid=4",
       "naslov": "Dvosoban stan za izdavanje, St. Regis Residences, 3.500€, 61m²",
@@ -1607,18 +1637,18 @@
       "struktura": "1.0",
       "str_label": "Garsonjera/Studio",
       "m2": 35.0,
-      "cena": 1000,
-      "cena_m2": 29,
+      "cena": 800,
+      "cena_m2": 23,
       "sprat": "XI/17",
       "izvori": [
         "halo"
       ],
       "dana_na_trzistu": 128,
       "prva_cena": 1000,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -20.0,
       "first_seen": "2026-07-21",
       "last_seen": "2026-11-26",
-      "dedup_key": "BW (neidentifikovano)|35.0|1000",
+      "dedup_key": "BW (neidentifikovano)|35.0|800",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -5251,7 +5281,7 @@
     {
       "id": "34bd8ecceda8469a",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-15-30-sprat-panoramski-pogled-na-reku/5425647819458?kid=4",
-      "naslov": "BW Kula 15 | 33. sprat | Panoramski pogled na reku",
+      "naslov": "BW Kula 16 | 27. sprat | Pogled na reku",
       "zgrada": "BW St. Regis",
       "agencija": "Kredium",
       "struktura": "3.0",
@@ -5259,7 +5289,7 @@
       "m2": 89.0,
       "cena": 4500,
       "cena_m2": 51,
-      "sprat": null,
+      "sprat": "XXVII",
       "izvori": [
         "halo"
       ],
@@ -6043,7 +6073,7 @@
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
-      "cena_m2_sumnjiva": false
+      "cena_m2_sumnjiva": true
     },
     {
       "id": "0366c1ea31fce639",
@@ -6240,7 +6270,7 @@
     {
       "id": "815015332a6256f6",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69521/5425647880435?kid=1",
-      "naslov": "Centar - Beograd na Vodi BW #69857",
+      "naslov": "Centar - Beograd na Vodi BW #2569857",
       "zgrada": "BW (neidentifikovano)",
       "agencija": "Beostan",
       "struktura": "1.0",
@@ -9943,7 +9973,7 @@
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
-      "cena_m2_sumnjiva": true
+      "cena_m2_sumnjiva": false
     },
     {
       "id": "43c3d9a9293f2dd7",
@@ -12268,6 +12298,87 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "b28de54555573867",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-lumia---sa-specijalnim-zahtevom/5425648042478?kid=4",
+      "naslov": "Bw Lumia - sa specijalnim zahtevom",
+      "zgrada": "BW Lumia",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 90.0,
+      "cena": 800,
+      "cena_m2": 9,
+      "sprat": "VII",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 800,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "dedup_key": "BW Lumia|90.0|800",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": true
+    },
+    {
+      "id": "0b485af3e690063d",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-nika---moderna-garsonjera-32-7-m/5425648043283?kid=3",
+      "naslov": "BW Nika - moderna garsonjera, 32,7 m²",
+      "zgrada": "BW Nika",
+      "agencija": null,
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 32.7,
+      "cena": 1200,
+      "cena_m2": 37,
+      "sprat": "III/18",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1200,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "dedup_key": "BW Nika|32.7|1200",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "7c3d7a9f54e0206b",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-thalia-nov-neuseljavan-dvosoban-stan-sa-ga/5425648044873?kid=3",
+      "naslov": "BW Thalia Nov neuseljavan dvosoban stan sa garažom",
+      "zgrada": "BW Thalia",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 57.0,
+      "cena": 1600,
+      "cena_m2": 28,
+      "sprat": "IX/13",
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1600,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "dedup_key": "BW Thalia|57.0|1600",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
