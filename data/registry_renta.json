@@ -35749,9 +35749,9 @@
     "355b5af21ec7b31c": {
       "uid": "355b5af21ec7b31c",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-11-21",
-      "is_active": false,
-      "deactivated_at": "2026-11-23",
+      "last_seen": "2026-11-27",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "8418f99fd86a3686",
       "fp_strict_all": [
         "9365a9c863dd58c0"
@@ -35775,10 +35775,10 @@
       "price_first": 1400,
       "price_current": 1400,
       "price_changes": [],
-      "days_listed": 61,
+      "days_listed": 65,
       "cena_m2": 27,
       "last_seen_src": {
-        "halo": "2026-11-21"
+        "halo": "2026-11-27"
       },
       "fp_nosprat_all": [
         "8512e53dfc8eb89d"
@@ -74795,7 +74795,7 @@
       "str_label": "Garsonjera/Studio",
       "m2": 75.4,
       "sprat": "XXV",
-      "agencija": null,
+      "agencija": "OrvasRealty",
       "naslov": "BW-REG, 1bdrm, 75,40 m2",
       "price_first": 3850,
       "price_current": 3850,
@@ -76220,10 +76220,257 @@
       "price_first": 1600,
       "price_current": 1600,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 20
+    },
+    "23bb7a37ea16d7c6": {
+      "uid": "23bb7a37ea16d7c6",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "fe71bd093f79a37c",
+      "fp_loose_all": [
+        "fe71bd093f79a37c"
+      ],
+      "fp_nosprat": "4667ce795064d937",
+      "fp_nosprat_all": [
+        "4667ce795064d937"
+      ],
+      "fp_strict_all": [
+        "82303cb0ab13088f"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-27"
+      },
+      "source_ids": {
+        "halo": "5425647641014"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/odlican-3-0-stan-u-beogradu-na-vodi-id1744/5425647641014?kid=4"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 82.0,
+      "sprat": "XIV/23",
+      "agencija": "CrownProperties",
+      "naslov": "Odličan 3.0 stan u Beogradu na vodi ID#1744",
+      "price_first": 1600,
+      "price_current": 1600,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "c215c243d2dc4cc0": {
+      "uid": "c215c243d2dc4cc0",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "8653a8aceb65c1cb",
+      "fp_loose_all": [
+        "8653a8aceb65c1cb"
+      ],
+      "fp_nosprat": "935413aa354b236f",
+      "fp_nosprat_all": [
+        "935413aa354b236f"
+      ],
+      "fp_strict_all": [
+        "d5072ca057517c4d"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-27"
+      },
+      "source_ids": {
+        "halo": "5425648051948"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-terraces---140-m-dve-terase-i-pogled-na-sa/5425648051948?kid=4"
+      ],
+      "zgrada": "BW Terraces",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 140.0,
+      "sprat": "VIII",
+      "agencija": "danos",
+      "naslov": "BW Terraces - 140 m², dve terase i pogled na Savu",
+      "price_first": 4000,
+      "price_current": 4000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "49f438485e5743df": {
+      "uid": "49f438485e5743df",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "4ab3dc34d2677210",
+      "fp_loose_all": [
+        "4ab3dc34d2677210"
+      ],
+      "fp_nosprat": "f6d9bfeaac723930",
+      "fp_nosprat_all": [
+        "f6d9bfeaac723930"
+      ],
+      "fp_strict_all": [
+        "047b3d94d0654370"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-27"
+      },
+      "source_ids": {
+        "halo": "5425648048851"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar---beograd-na-vodi-bw-69880/5425648048851?kid=4"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 33.0,
+      "sprat": "III/17",
+      "agencija": "beostan",
+      "naslov": "Centar - Beograd na vodi BW #69880",
+      "price_first": 1100,
+      "price_current": 1100,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "282f8b7f65faa537": {
+      "uid": "282f8b7f65faa537",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b3c73a0825dd02e3",
+      "fp_loose_all": [
+        "b3c73a0825dd02e3"
+      ],
+      "fp_nosprat": "8bc91c884f0f89bd",
+      "fp_nosprat_all": [
+        "8bc91c884f0f89bd"
+      ],
+      "fp_strict_all": [
+        "a80f53612ae87314"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-27"
+      },
+      "source_ids": {
+        "halo": "5425648048890"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-arcadia---lepo-namesten-trosoban-stan/5425648048890?kid=1"
+      ],
+      "zgrada": "BW Arcadia",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 82.19,
+      "sprat": "X/23",
+      "agencija": "AtriumPropertyServices",
+      "naslov": "BW Arcadia - lepo namešten trosoban stan",
+      "price_first": 1800,
+      "price_current": 1800,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "7de381da0ad807ee": {
+      "uid": "7de381da0ad807ee",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "06e3881776213283",
+      "fp_loose_all": [
+        "06e3881776213283"
+      ],
+      "fp_nosprat": "d057e20eb304bd96",
+      "fp_nosprat_all": [
+        "d057e20eb304bd96"
+      ],
+      "fp_strict_all": [
+        "680303b9d4960305"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-27"
+      },
+      "source_ids": {
+        "halo": "5425647626790"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/bw-kula-2-0-60m2-xxix-lux/5425647626790?kid=1"
+      ],
+      "zgrada": "BW St. Regis",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 60.0,
+      "sprat": "XXIX",
+      "agencija": "profitim",
+      "naslov": "BW kula, 2,0, 60m2, XXIX, lux",
+      "price_first": 2400,
+      "price_current": 2400,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "5c2b2f1603a6ddb5": {
+      "uid": "5c2b2f1603a6ddb5",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "7b71f2ccb878ae16",
+      "fp_loose_all": [
+        "7b71f2ccb878ae16"
+      ],
+      "fp_nosprat": "7cfb0211dfd38058",
+      "fp_nosprat_all": [
+        "7cfb0211dfd38058"
+      ],
+      "fp_strict_all": [
+        "be53724be0d91585"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-27"
+      },
+      "source_ids": {
+        "halo": "5425648048855"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/savski-venac-beograd-beograd-na-vodi-stan-3/5425648048855?kid=1"
+      ],
+      "zgrada": "BW Aurora",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 82.0,
+      "sprat": "XVII/23",
+      "agencija": "AtriumPropertyServices",
+      "naslov": "Savski Venac (Beograd), Beograd Na Vodi, Stan, 3,",
+      "price_first": 1800,
+      "price_current": 1800,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-27T07:04:10.302517+00:00",
+  "updated_at": "2026-11-27T14:10:36.613917+00:00",
   "last_run": {
     "4zida": "2026-11-26",
     "nadjidom": "2026-11-26",
