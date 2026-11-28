@@ -2869,6 +2869,16 @@
           "date": "2026-11-28",
           "from": 316000,
           "to": 516150
+        },
+        {
+          "date": "2026-11-28",
+          "from": 516150,
+          "to": 316000
+        },
+        {
+          "date": "2026-11-28",
+          "from": 316000,
+          "to": 516150
         }
       ],
       "days_listed": 172,
@@ -54919,7 +54929,7 @@
     "e24b4bb411f2ea6d": {
       "uid": "e24b4bb411f2ea6d",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "546d08ef7ed8ff58",
@@ -54941,7 +54951,7 @@
       ],
       "last_seen_src": {
         "4zida": "2026-11-27",
-        "halo": "2026-11-24",
+        "halo": "2026-11-28",
         "nadjidom": "2026-11-23"
       },
       "source_ids": {
@@ -54960,9 +54970,9 @@
       "m2": 148.0,
       "sprat": "VII",
       "agencija": "Leon Real Estate",
-      "naslov": "Četvorosoban stan na prodaju, BW Perla, 926.888€, 148m²",
+      "naslov": "Premium zgrada, 148m2, 4.0, svetao",
       "price_first": 926888,
-      "price_current": 926888,
+      "price_current": 932400,
       "price_changes": [
         {
           "date": "2026-11-19",
@@ -55023,10 +55033,15 @@
           "date": "2026-11-24",
           "from": 932400,
           "to": 926888
+        },
+        {
+          "date": "2026-11-28",
+          "from": 926888,
+          "to": 932400
         }
       ],
       "days_listed": 59,
-      "cena_m2": 6263
+      "cena_m2": 6300
     },
     "6b72243674a44ef0": {
       "uid": "6b72243674a44ef0",
@@ -65914,7 +65929,8 @@
       "fp_strict_all": [
         "883e874d84c74961",
         "e0ad8975d9223e95",
-        "e9c20418c2656b08"
+        "e9c20418c2656b08",
+        "c629787f6a658f5b"
       ],
       "sources": [
         "halo"
@@ -65937,16 +65953,21 @@
       "agencija": null,
       "naslov": "Bw Victoria 2.0, prvi red do reke",
       "price_first": 385000,
-      "price_current": 345000,
+      "price_current": 349000,
       "price_changes": [
         {
           "date": "2026-11-28",
           "from": 385000,
           "to": 345000
+        },
+        {
+          "date": "2026-11-28",
+          "from": 345000,
+          "to": 349000
         }
       ],
       "days_listed": 56,
-      "cena_m2": 5149
+      "cena_m2": 5209
     },
     "9ded92dd547f7800": {
       "uid": "9ded92dd547f7800",
@@ -74751,7 +74772,7 @@
     "92511d85dbd208da": {
       "uid": "92511d85dbd208da",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b18d0032099d2f4b",
@@ -74770,7 +74791,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-11-27",
+        "halo": "2026-11-28",
         "4zida": "2026-11-27"
       },
       "source_ids": {
@@ -74779,7 +74800,8 @@
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/aria-studio-sa-parking-mestom-beograd-na-vodi/5425647892880",
-        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/jednosoban-stan/6afc13cdeb3a9b73b80d123f"
+        "https://www.4zida.rs/prodaja-stanova/beograd-na-vodi-savski-venac-beograd/jednosoban-stan/6afc13cdeb3a9b73b80d123f",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/aria-studio-sa-parking-mestom-beograd-na-vodi/5425647892880?kid=1"
       ],
       "zgrada": "BW Aria",
       "struktura": "1.0",
@@ -74787,7 +74809,7 @@
       "m2": 35.0,
       "sprat": "II/12",
       "agencija": "etagi3",
-      "naslov": "Jednosoban stan na prodaju, Vudroa Vilsona, 237.000€, 35m²",
+      "naslov": "Aria | Studio sa parking mestom – Beograd na vodi",
       "price_first": 237000,
       "price_current": 237000,
       "price_changes": [],
@@ -80025,7 +80047,7 @@
     "64036a7a87166bd5": {
       "uid": "64036a7a87166bd5",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b98c021d1c44eec1",
@@ -80046,7 +80068,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-27"
+        "halo": "2026-11-28"
       },
       "source_ids": {
         "halo": "5425644237844"
@@ -83925,7 +83947,8 @@
       "price_first": 355000,
       "price_current": 355000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4468
     },
     "2722ec29efb35a94": {
       "uid": "2722ec29efb35a94",
@@ -83966,7 +83989,8 @@
       "price_first": 725000,
       "price_current": 725000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5254
     },
     "92df0a41da403cb2": {
       "uid": "92df0a41da403cb2",
@@ -84007,10 +84031,52 @@
       "price_first": 385000,
       "price_current": 385000,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 4684
+    },
+    "135ee20a6c626117": {
+      "uid": "135ee20a6c626117",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2e51e192faf171c8",
+      "fp_loose_all": [
+        "2e51e192faf171c8"
+      ],
+      "fp_nosprat": "89b03770953dc1ea",
+      "fp_nosprat_all": [
+        "89b03770953dc1ea"
+      ],
+      "fp_strict_all": [
+        "b491249e5ddad6b4"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-28"
+      },
+      "source_ids": {
+        "halo": "5425648055430"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/savski-venac-beograd-na-vodi---nikolaja-kravc/5425648055430?kid=1"
+      ],
+      "zgrada": "BW (neidentifikovano)",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 78.0,
+      "sprat": "IV/9",
+      "agencija": null,
+      "naslov": "Savski venac, Beograd na vodi - Nikolaja Kravcova",
+      "price_first": 365000,
+      "price_current": 365000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-28T07:02:45.703355+00:00",
+  "updated_at": "2026-11-28T13:26:36.678881+00:00",
   "last_run": {
     "4zida": "2026-11-27",
     "nadjidom": "2026-11-27",
